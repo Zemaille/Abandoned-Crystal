@@ -136,6 +136,7 @@ FuchsiaCity_MapEvents:
 	warp_event 37, 23, ROUTE_15_FUCHSIA_GATE, 2
 	warp_event  7, 35, ROUTE_19_FUCHSIA_GATE, 1
 	warp_event  8, 35, ROUTE_19_FUCHSIA_GATE, 2
+	warp_event 18,  3, FUCHSIA_CITY_SAFARI_GATE, 1
 
 	def_coord_events
 

@@ -155,7 +155,6 @@ ENDM
 	map_const ROCK_TUNNEL_1F,                              15, 18 ; 87
 	map_const ROCK_TUNNEL_B1F,                             15, 18 ; 88
 	map_const SAFARI_ZONE_FUCHSIA_GATE_BETA,                5,  4 ; 89
-	map_const SAFARI_ZONE_BETA,                            10, 18 ; 90
 	map_const VICTORY_ROAD,                                10, 36 ; 91
 	map_const THUNDER_PEAK_1F,                             15,  9 ; 92
 	map_const THUNDER_PEAK_OUTSIDE,                        20,  9 ; 93
@@ -167,6 +166,11 @@ ENDM
 	map_const CIANWOOD_CAVE_1F,                             5,  9 ; 99
 	map_const CIANWOOD_CAVE_2F,                            10, 18 ;100
 	map_const CIANWOOD_CAVE_3F,                            10, 18 ;101
+	map_const DRAGONS_DEN_B2F,                             20, 18 ;102
+	map_const SAFARI_ZONE_ENTRANCE,                        15, 13 ;103
+	map_const SAFARI_ZONE_AREA1,                           15, 13 ;103
+	map_const SAFARI_ZONE_AREA2,                           20, 18 ;104
+	map_const SAFARI_ZONE_AREA3,                           15, 13 ;105
 	endgroup
 
 	newgroup ECRUTEAK                                             ;  4
@@ -370,7 +374,8 @@ ENDM
 	map_const FUCHSIA_POKECENTER_1F,                        5,  4 ; 10
 	map_const FUCHSIA_POKECENTER_2F_BETA,                   8,  4 ; 11
 	map_const SAFARI_ZONE_WARDENS_HOME,                     5,  4 ; 12
-	map_const ROUTE_15_FUCHSIA_GATE,                        5,  4 ; 13
+	map_const ROUTE_15_FUCHSIA_GATE,                        5,  4 ; 13 
+	map_const FUCHSIA_CITY_SAFARI_GATE,                5,  8 ; 14
 	endgroup
 
 	newgroup LAVENDER                                             ; 18

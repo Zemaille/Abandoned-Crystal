@@ -486,8 +486,6 @@ ENDM
 	map_attributes UndergroundPath, UNDERGROUND_PATH, $00, 0
 	map_attributes RockTunnel1F, ROCK_TUNNEL_1F, $09, 0
 	map_attributes RockTunnelB1F, ROCK_TUNNEL_B1F, $09, 0
-	map_attributes SafariZoneFuchsiaGateBeta, SAFARI_ZONE_FUCHSIA_GATE_BETA, $00, 0
-	map_attributes SafariZoneBeta, SAFARI_ZONE_BETA, $13, 0
 	map_attributes VictoryRoad, VICTORY_ROAD, $1d, 0
 	map_attributes EcruteakTinTowerEntrance, ECRUTEAK_TIN_TOWER_ENTRANCE, $00, 0
 	map_attributes WiseTriosRoom, WISE_TRIOS_ROOM, $00, 0
@@ -716,3 +714,8 @@ ENDM
 	map_attributes CianwoodCave2F, CIANWOOD_CAVE_2F, $09, 0
 	map_attributes CianwoodCave3F, CIANWOOD_CAVE_3F, $09, 0
 	map_attributes DragonsDenB2F, DRAGONS_DEN_B2F, $09, 0
+	map_attributes FuchsiaCitySafariGate, FUCHSIA_CITY_SAFARI_GATE, $00, 0
+	map_attributes SafariZoneEntrance, SAFARI_ZONE_ENTRANCE, $00, 0
+	map_attributes SafariZoneArea1, SAFARI_ZONE_AREA1, $00, 0
+	map_attributes SafariZoneArea2, SAFARI_ZONE_AREA2, $00, 0
+	map_attributes SafariZoneArea3, SAFARI_ZONE_AREA3, $00, 0

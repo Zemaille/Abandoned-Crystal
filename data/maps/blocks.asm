@@ -164,7 +164,6 @@ CherrygroveEvolutionSpeechHouse_Blocks:
 Route30BerryHouse_Blocks:
 	INCBIN "maps/House1.ablk"
 
-SafariZoneFuchsiaGateBeta_Blocks:
 Route19FuchsiaGate_Blocks:
 Route43MahoganyGate_Blocks:
 Route43Gate_Blocks:
@@ -959,5 +958,20 @@ IcePathDepths_Blocks:
 	
 DragonsDenB2F_Blocks:
 	INCBIN "maps/DragonsDenB2F.ablk"
+
+FuchsiaCitySafariGate_Blocks:
+	INCBIN "maps/FuchsiaCitySafariGate.ablk"
+
+SafariZoneEntrance_Blocks:
+	INCBIN "maps/SafariZoneEntrance.ablk"
+	
+SafariZoneArea1_Blocks:
+	INCBIN "maps/SafariZoneArea1.ablk"
+	
+SafariZoneArea2_Blocks:
+	INCBIN "maps/SafariZoneArea2.ablk"
+	
+SafariZoneArea3_Blocks:
+	INCBIN "maps/SafariZoneArea3.ablk"
 
 ENDSECTION
