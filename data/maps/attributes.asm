@@ -715,3 +715,4 @@ ENDM
 	map_attributes CianwoodCave1F, CIANWOOD_CAVE_1F, $09, 0
 	map_attributes CianwoodCave2F, CIANWOOD_CAVE_2F, $09, 0
 	map_attributes CianwoodCave3F, CIANWOOD_CAVE_3F, $09, 0
+	map_attributes DragonsDenB2F, DRAGONS_DEN_B2F, $09, 0

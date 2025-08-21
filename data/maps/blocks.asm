@@ -956,5 +956,8 @@ CianwoodCave3F_Blocks:
 
 IcePathDepths_Blocks:
 	INCBIN "maps/IcePathDepths.ablk"
+	
+DragonsDenB2F_Blocks:
+	INCBIN "maps/DragonsDenB2F.ablk"
 
 ENDSECTION
