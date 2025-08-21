@@ -446,6 +446,7 @@ ENDM
 	map_attributes IcePathB2FMahoganySide, ICE_PATH_B2F_MAHOGANY_SIDE, $19, 0
 	map_attributes IcePathB2FBlackthornSide, ICE_PATH_B2F_BLACKTHORN_SIDE, $19, 0
 	map_attributes IcePathB3F, ICE_PATH_B3F, $19, 0
+	map_attributes IcePathDepths, ICE_PATH_DEPTHS, $19, 0
 	map_attributes WhirlIslandNW, WHIRL_ISLAND_NW, $09, 0
 	map_attributes WhirlIslandNE, WHIRL_ISLAND_NE, $09, 0
 	map_attributes WhirlIslandSW, WHIRL_ISLAND_SW, $09, 0
@@ -704,13 +705,13 @@ ENDM
 	map_attributes MrPokemonsHouse, MR_POKEMONS_HOUSE, $00, 0
 	map_attributes Route31VioletGate, ROUTE_31_VIOLET_GATE, $00, 0
 	map_attributes PokeChampionClubInside, POKE_CHAMPION_CLUB_INSIDE, $00, 0
-	map_attributes ThunderPeak1F, THUNDER_PEAK_1F, $00, 0
+	map_attributes ThunderPeak1F, THUNDER_PEAK_1F, $09, 0
 	map_attributes ThunderPeakOutside, THUNDER_PEAK_OUTSIDE, $2C, 0
-	map_attributes ThunderPeak2F, THUNDER_PEAK_2F, $00, 0
-	map_attributes CinnabarVolcano1F, CINNABAR_VOLCANO_1F, $00, 0
-	map_attributes CinnabarVolcanoB1F, CINNABAR_VOLCANO_B1F, $00, 0
-	map_attributes CinnabarVolcanoB2F, CINNABAR_VOLCANO_B2F, $00, 0
-	map_attributes CinnabarVolcanoB3F, CINNABAR_VOLCANO_B3F, $00, 0
-	map_attributes CianwoodCave1F, CIANWOOD_CAVE_1F, $00, 0
-	map_attributes CianwoodCave2F, CIANWOOD_CAVE_2F, $00, 0
-	map_attributes CianwoodCave3F, CIANWOOD_CAVE_3F, $00, 0
+	map_attributes ThunderPeak2F, THUNDER_PEAK_2F, $09, 0
+	map_attributes CinnabarVolcano1F, CINNABAR_VOLCANO_1F, $09, 0
+	map_attributes CinnabarVolcanoB1F, CINNABAR_VOLCANO_B1F, $09, 0
+	map_attributes CinnabarVolcanoB2F, CINNABAR_VOLCANO_B2F, $09, 0
+	map_attributes CinnabarVolcanoB3F, CINNABAR_VOLCANO_B3F, $09, 0
+	map_attributes CianwoodCave1F, CIANWOOD_CAVE_1F, $09, 0
+	map_attributes CianwoodCave2F, CIANWOOD_CAVE_2F, $09, 0
+	map_attributes CianwoodCave3F, CIANWOOD_CAVE_3F, $09, 0

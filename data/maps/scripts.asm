@@ -500,6 +500,7 @@ INCLUDE "maps/CinnabarVolcanoB3F.asm"
 INCLUDE "maps/CianwoodCave1F.asm"
 INCLUDE "maps/CianwoodCave2F.asm"
 INCLUDE "maps/CianwoodCave3F.asm"
+INCLUDE "maps/IcePathDepths.asm"
 
 
 ENDSECTION

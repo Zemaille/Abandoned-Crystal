@@ -19,6 +19,7 @@ IcePathB3F_MapEvents:
 	def_warp_events
 	warp_event  3,  5, ICE_PATH_B2F_MAHOGANY_SIDE, 2
 	warp_event 15,  5, ICE_PATH_B2F_BLACKTHORN_SIDE, 2
+	warp_event 13, 13, ICE_PATH_DEPTHS, 1
 
 	def_coord_events
 

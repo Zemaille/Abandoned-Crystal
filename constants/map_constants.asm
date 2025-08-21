@@ -129,6 +129,7 @@ ENDM
 	map_const ICE_PATH_B2F_MAHOGANY_SIDE,                  10,  9 ; 63
 	map_const ICE_PATH_B2F_BLACKTHORN_SIDE,                 5,  9 ; 64
 	map_const ICE_PATH_B3F,                                10,  9 ; 65
+	map_const ICE_PATH_DEPTHS,                             10, 18 
 	map_const WHIRL_ISLAND_NW,                              5,  9 ; 66
 	map_const WHIRL_ISLAND_NE,                             10,  9 ; 67
 	map_const WHIRL_ISLAND_SW,                             10,  9 ; 68

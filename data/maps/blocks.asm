@@ -954,5 +954,7 @@ CianwoodCave2F_Blocks:
 CianwoodCave3F_Blocks:
 	INCBIN "maps/CianwoodCave3F.ablk"
 
+IcePathDepths_Blocks:
+	INCBIN "maps/IcePathDepths.ablk"
 
 ENDSECTION
