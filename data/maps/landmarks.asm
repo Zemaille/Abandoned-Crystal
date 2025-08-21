@@ -21,7 +21,7 @@ Landmarks:
 	landmark  82, 124, Route33Name
 	landmark  68, 124, AzaleaTownName
 	landmark  70, 122, SlowpokeWellName
-	landmark  52, 120, IlexForestName
+	landmark  52, 124, IlexForestName
 	landmark  52, 112, Route34Name
 	landmark  52,  92, GoldenrodCityName
 	landmark  50,  92, RadioTowerName
@@ -66,6 +66,7 @@ Landmarks:
 	landmark  76,  52, MtMoonName
 	landmark  88,  52, Route4Name
 	landmark 100,  52, CeruleanCityName
+	landmark  92,  44, CeruleanCaveName
 	landmark 100,  44, Route24Name
 	landmark 108,  36, Route25Name
 	landmark 100,  60, Route5Name
@@ -212,3 +213,4 @@ ThunderPeakName:     db "THUNDER<BSP>PEAK@"
 CinnabarVolcanoName: db "CINNABAR<BSP>VOLCANO@"
 CianwoodCaveName:	 db "CIANWOOD<BSP>CAVERN@"
 SafariZoneName:      db "SAFARI ZONE@"
+CeruleanCaveName:    db "CERULEAN<BSP>CAVE@"

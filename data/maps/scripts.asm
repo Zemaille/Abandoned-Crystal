@@ -505,5 +505,8 @@ INCLUDE "maps/SafariZoneEntrance.asm"
 INCLUDE "maps/SafariZoneArea1.asm"
 INCLUDE "maps/SafariZoneArea2.asm"
 INCLUDE "maps/SafariZoneArea3.asm"
+INCLUDE "maps/CeruleanCave1F.asm"
+INCLUDE "maps/CeruleanCave2F.asm"
+INCLUDE "maps/CeruleanCaveB1F.asm"
 
 ENDSECTION

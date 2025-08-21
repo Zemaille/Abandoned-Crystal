@@ -170,6 +170,9 @@ ENDM
 	map_const SAFARI_ZONE_AREA1,                           15, 13 ;103
 	map_const SAFARI_ZONE_AREA2,                           20, 18 ;104
 	map_const SAFARI_ZONE_AREA3,                           15, 13 ;105
+	map_const CERULEAN_CAVE_1F,                            17, 11 ;106 
+	map_const CERULEAN_CAVE_2F,                            15,  9 ;107  
+	map_const CERULEAN_CAVE_B1F,                           17, 11 ;108   
 	endgroup
 
 	newgroup ECRUTEAK                                             ;  4
