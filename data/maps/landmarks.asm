@@ -25,6 +25,7 @@ Landmarks:
 	landmark  52, 112, Route34Name
 	landmark  52,  92, GoldenrodCityName
 	landmark  50,  92, RadioTowerName
+	landmark  44,  92, ChampionClubName
 	landmark  52,  76, Route35Name
 	landmark  52,  60, NationalParkName
 	landmark  64,  60, Route36Name
@@ -41,6 +42,7 @@ Landmarks:
 	landmark  28,  92, WhirlIslandsName
 	landmark  28, 100, Route41Name
 	landmark  20, 100, CianwoodCityName
+	landmark  12,  92, CianwoodCaveName
 	landmark  92,  44, Route42Name
 	landmark  84,  44, MtMortarName
 	landmark 108,  44, MahoganyTownName
@@ -75,6 +77,7 @@ Landmarks:
 	landmark 116,  68, Route8Name
 	landmark 116,  52, Route9Name
 	landmark 132,  52, RockTunnelName
+	landmark 140,  52, ThunderPeakName
 	landmark 132,  56, Route10Name
 	landmark 132,  60, PowerPlantName
 	landmark 132,  68, LavenderTownName
@@ -94,6 +97,7 @@ Landmarks:
 	landmark  76, 132, Route20Name
 	landmark  68, 132, SeafoamIslandsName
 	landmark  52, 132, CinnabarIslandName
+	landmark  52, 130, CinnabarVolcanoName
 	landmark  52, 120, Route21Name
 	landmark  36,  68, Route22Name
 	landmark  28,  52, VictoryRoadName
@@ -202,3 +206,7 @@ TohjoFallsName:      db "TOHJO FALLS@"
 UndergroundName:     db "UNDERGROUND@"
 BattleTowerName:     db "BATTLE<BSP>TOWER@"
 SpecialMapName:      db "SPECIAL@"
+ChampionClubName:    db "CHAMPION<BSP>CLUB@"
+ThunderPeakName:     db "THUNDER<BSP>PEAK@"
+CinnabarVolcanoName: db "CINNABAR<BSP>VOLCANO@"
+CianwoodCaveName:	 db "CIANWOOD<BSP>CAVERN@"

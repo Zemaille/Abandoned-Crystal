@@ -2,9 +2,10 @@
 	const SEAFOAMGYM_BLAINE
 	const SEAFOAMGYM_GYM_GUIDE
 
-SeafoamGym_MapScripts:
+
+CinnabarVolcano1F_MapScripts:
 	def_scene_scripts
-	scene_script SeafoamGymNoopScene ; unusable
+	scene_script SeafoamGymNoopScene ; unusable (copied from SeafoamGym.asm)
 
 	def_callbacks
 
@@ -155,16 +156,17 @@ SeafoamGymGuideWinText2:
 	line "for a building."
 	done
 
-SeafoamGym_MapEvents:
+CinnabarVolcano1F_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event  5,  5, ROUTE_20, 1
+	warp_event 3,  5, CINNABAR_ISLAND, 2
+	warp_event  7,  2, CINNABAR_VOLCANO_B1F, 1
 
 	def_coord_events
 
 	def_bg_events
 
 	def_object_events
-	object_event  5,  2, SPRITE_BLAINE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, SeafoamGymBlaineScript, -1
-	object_event  6,  5, SPRITE_GYM_GUIDE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, SeafoamGymGuideScript, EVENT_SEAFOAM_GYM_GYM_GUIDE
+	object_event  4,  2, SPRITE_BLAINE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, SeafoamGymBlaineScript, -1
+	object_event  5,  4, SPRITE_GYM_GUIDE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, SeafoamGymGuideScript, EVENT_SEAFOAM_GYM_GYM_GUIDE

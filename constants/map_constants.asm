@@ -115,6 +115,7 @@ ENDM
 	map_const TEAM_ROCKET_BASE_B2F,                        15,  9 ; 50
 	map_const TEAM_ROCKET_BASE_B3F,                        15,  9 ; 51
 	map_const ILEX_FOREST,                                 15, 27 ; 52
+	map_const ILEX_FOREST_HEART,                           27, 15
 	map_const GOLDENROD_UNDERGROUND,                       15, 18 ; 53
 	map_const GOLDENROD_UNDERGROUND_SWITCH_ROOM_ENTRANCES, 15, 18 ; 54
 	map_const GOLDENROD_DEPT_STORE_B1F,                    10,  9 ; 55
@@ -142,6 +143,7 @@ ENDM
 	map_const SILVER_CAVE_ITEM_ROOMS,                      10,  9 ; 77
 	map_const DARK_CAVE_VIOLET_ENTRANCE,                   20, 18 ; 78
 	map_const DARK_CAVE_BLACKTHORN_ENTRANCE,               15, 18 ; 79
+	map_const DARK_CAVE_MOLTRES_CHAMBER,                    5,  4
 	map_const DRAGONS_DEN_1F,                               5,  9 ; 80
 	map_const DRAGONS_DEN_B1F,                             20, 18 ; 81
 	map_const DRAGON_SHRINE,                                5,  5 ; 82
@@ -154,6 +156,16 @@ ENDM
 	map_const SAFARI_ZONE_FUCHSIA_GATE_BETA,                5,  4 ; 89
 	map_const SAFARI_ZONE_BETA,                            10, 18 ; 90
 	map_const VICTORY_ROAD,                                10, 36 ; 91
+	map_const THUNDER_PEAK_1F,                             15,  9 ; 92
+	map_const THUNDER_PEAK_OUTSIDE,                        20,  9 ; 93
+	map_const THUNDER_PEAK_2F,	                           15,  9 ; 94
+	map_const CINNABAR_VOLCANO_1F,                          5,  4 ; 95
+	map_const CINNABAR_VOLCANO_B1F,                        10,  9 ; 96
+	map_const CINNABAR_VOLCANO_B2F,                        15,  9 ; 97
+	map_const CINNABAR_VOLCANO_B3F,                         7,  6 ; 98
+	map_const CIANWOOD_CAVE_1F,                             5,  9 ; 99
+	map_const CIANWOOD_CAVE_2F,                            10, 18 ;100
+	map_const CIANWOOD_CAVE_3F,                            10, 18 ;101
 	endgroup
 
 	newgroup ECRUTEAK                                             ;  4
@@ -185,7 +197,11 @@ ENDM
 	map_const CINNABAR_POKECENTER_1F,                       5,  4 ;  1
 	map_const CINNABAR_POKECENTER_2F_BETA,                  8,  4 ;  2
 	map_const ROUTE_19_FUCHSIA_GATE,                        5,  4 ;  3
-	map_const SEAFOAM_GYM,                                  5,  4 ;  4
+	map_const SEAFOAM_ISLANDS_1F,	     				   15,  9 
+	map_const SEAFOAM_ISLANDS_B1F,						   15,  9 
+	map_const SEAFOAM_ISLANDS_B2F,						   15,  9 
+	map_const SEAFOAM_ISLANDS_B3F,		 				   15,  9 
+	map_const SEAFOAM_ISLANDS_B4F,						   15,  9 
 	map_const ROUTE_19,                                    10, 18 ;  5
 	map_const ROUTE_20,                                    30,  9 ;  6
 	map_const ROUTE_21,                                    10, 18 ;  7
@@ -499,4 +515,10 @@ ENDM
 	map_const ROUTE_31_VIOLET_GATE,                         5,  4 ; 11
 	endgroup
 
-DEF NUM_MAP_GROUPS EQU const_value ; 26
+	newgroup POKE_CHAMPION_CLUB									  ; 27
+	map_const POKE_CHAMPION_CLUB_OUTSIDE,                  10, 13 ;  1
+	map_const POKE_CHAMPION_CLUB_INSIDE,                    9,  6 ;  2
+	endgroup
+
+DEF NUM_MAP_GROUPS EQU const_value ; 27
+

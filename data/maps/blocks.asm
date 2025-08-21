@@ -794,8 +794,20 @@ DiglettsCave_Blocks:
 MountMoon_Blocks:
 	INCBIN "maps/MountMoon.ablk"
 
-SeafoamGym_Blocks:
-	INCBIN "maps/SeafoamGym.ablk"
+SeafoamIslands1F_Blocks:
+	INCBIN "maps/SeafoamIslands1F.ablk"
+
+SeafoamIslandsB1F_Blocks:
+	INCBIN "maps/SeafoamIslandsB1F.ablk"
+
+SeafoamIslandsB2F_Blocks:
+	INCBIN "maps/SeafoamIslandsB2F.ablk"
+
+SeafoamIslandsB3F_Blocks:
+	INCBIN "maps/SeafoamIslandsB3F.ablk"
+
+SeafoamIslandsB4F_Blocks:
+	INCBIN "maps/SeafoamIslandsB4F.ablk"
 
 MrPokemonsHouse_Blocks:
 	INCBIN "maps/MrPokemonsHouse.ablk"
@@ -896,5 +908,51 @@ BattleTowerOutside_Blocks:
 
 GoldenrodDeptStoreRoof_Blocks:
 	INCBIN "maps/GoldenrodDeptStoreRoof.ablk"
+
+
+SECTION "Map Blocks 4", ROMX
+
+PokeChampionClubOutside_Blocks:
+	INCBIN "maps/PokeChampionClubOutside.ablk"
+
+PokeChampionClubInside_Blocks:
+	INCBIN "maps/PokeChampionClubInside.ablk"
+	
+IlexForestHeart_Blocks:
+	INCBIN "maps/IlexForestHeart.ablk"
+
+DarkCaveMoltresChamber_Blocks:
+	INCBIN "maps/DarkCaveMoltresChamber.ablk"
+	
+ThunderPeak1F_Blocks:
+	INCBIN "maps/ThunderPeak1F.ablk"
+	
+ThunderPeakOutside_Blocks:
+	INCBIN "maps/ThunderPeakOutside.ablk"
+	
+ThunderPeak2F_Blocks:
+	INCBIN "maps/ThunderPeak2F.ablk"
+	
+CinnabarVolcano1F_Blocks:
+	INCBIN "maps/CinnabarVolcano1F.ablk"
+
+CinnabarVolcanoB1F_Blocks:
+	INCBIN "maps/CinnabarVolcanoB1F.ablk"
+	
+CinnabarVolcanoB2F_Blocks:
+	INCBIN "maps/CinnabarVolcanoB2F.ablk"
+	
+CinnabarVolcanoB3F_Blocks:
+	INCBIN "maps/CinnabarVolcanoB3F.ablk"
+
+CianwoodCave1F_Blocks:
+	INCBIN "maps/CianwoodCave1F.ablk"
+	
+CianwoodCave2F_Blocks:
+	INCBIN "maps/CianwoodCave2F.ablk"
+	
+CianwoodCave3F_Blocks:
+	INCBIN "maps/CianwoodCave3F.ablk"
+
 
 ENDSECTION

@@ -19,6 +19,7 @@
 	const LANDMARK_ROUTE_34          ; 0f
 	const LANDMARK_GOLDENROD_CITY    ; 10
 	const LANDMARK_RADIO_TOWER       ; 11
+	const LANDMARK_CHAMPION_CLUB
 	const LANDMARK_ROUTE_35          ; 12
 	const LANDMARK_NATIONAL_PARK     ; 13
 	const LANDMARK_ROUTE_36          ; 14
@@ -35,6 +36,7 @@
 	const LANDMARK_WHIRL_ISLANDS     ; 1f
 	const LANDMARK_ROUTE_41          ; 20
 	const LANDMARK_CIANWOOD_CITY     ; 21
+	const LANDMARK_CIANWOOD_CAVE
 	const LANDMARK_ROUTE_42          ; 22
 	const LANDMARK_MT_MORTAR         ; 23
 	const LANDMARK_MAHOGANY_TOWN     ; 24
@@ -69,6 +71,7 @@ DEF KANTO_LANDMARK EQU const_value
 	const LANDMARK_ROUTE_8           ; 40
 	const LANDMARK_ROUTE_9           ; 41
 	const LANDMARK_ROCK_TUNNEL       ; 42
+	const LANDMARK_THUNDER_PEAK
 	const LANDMARK_ROUTE_10          ; 43
 	const LANDMARK_POWER_PLANT       ; 44
 	const LANDMARK_LAVENDER_TOWN     ; 45
@@ -88,6 +91,7 @@ DEF KANTO_LANDMARK EQU const_value
 	const LANDMARK_ROUTE_20          ; 53
 	const LANDMARK_SEAFOAM_ISLANDS   ; 54
 	const LANDMARK_CINNABAR_ISLAND   ; 55
+	const LANDMARK_CINNABAR_VOLCANO
 	const LANDMARK_ROUTE_21          ; 56
 	const LANDMARK_ROUTE_22          ; 57
 	const LANDMARK_VICTORY_ROAD      ; 58

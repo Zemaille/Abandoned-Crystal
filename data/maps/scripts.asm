@@ -449,7 +449,11 @@ INCLUDE "maps/Route9.asm"
 INCLUDE "maps/CinnabarPokecenter1F.asm"
 INCLUDE "maps/CinnabarPokecenter2FBeta.asm"
 INCLUDE "maps/Route19FuchsiaGate.asm"
-INCLUDE "maps/SeafoamGym.asm"
+INCLUDE "maps/SeafoamIslands1F.asm"
+INCLUDE "maps/SeafoamIslandsB1F.asm"
+INCLUDE "maps/SeafoamIslandsB2F.asm"
+INCLUDE "maps/SeafoamIslandsB3F.asm"
+INCLUDE "maps/SeafoamIslandsB4F.asm"
 
 
 SECTION "Map Scripts 24", ROMX
@@ -482,5 +486,20 @@ SECTION "Map Scripts 25", ROMX
 
 INCLUDE "maps/SilverCaveOutside.asm"
 INCLUDE "maps/Route10North.asm"
+INCLUDE "maps/PokeChampionClubOutside.asm"
+INCLUDE "maps/PokeChampionClubInside.asm"
+INCLUDE "maps/IlexForestHeart.asm"
+INCLUDE "maps/DarkCaveMoltresChamber.asm"
+INCLUDE "maps/ThunderPeak1F.asm"
+INCLUDE "maps/ThunderPeakOutside.asm"
+INCLUDE "maps/ThunderPeak2F.asm"
+INCLUDE "maps/CinnabarVolcano1F.asm"
+INCLUDE "maps/CinnabarVolcanoB1F.asm"
+INCLUDE "maps/CinnabarVolcanoB2F.asm"
+INCLUDE "maps/CinnabarVolcanoB3F.asm"
+INCLUDE "maps/CianwoodCave1F.asm"
+INCLUDE "maps/CianwoodCave2F.asm"
+INCLUDE "maps/CianwoodCave3F.asm"
+
 
 ENDSECTION

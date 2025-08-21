@@ -208,6 +208,7 @@ Route9_MapEvents:
 
 	def_warp_events
 	warp_event 48, 15, ROCK_TUNNEL_1F, 1
+	warp_event 52,  1, THUNDER_PEAK_1F, 1
 
 	def_coord_events
 

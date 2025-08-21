@@ -117,9 +117,13 @@ ENDM
 	map_attributes CianwoodCity, CIANWOOD_CITY, $35, EAST
 	connection east, Route41, ROUTE_41, 0
 
-	map_attributes GoldenrodCity, GOLDENROD_CITY, $35, NORTH | SOUTH
+	map_attributes GoldenrodCity, GOLDENROD_CITY, $35, NORTH | SOUTH | WEST
 	connection north, Route35, ROUTE_35, 5
 	connection south, Route34, ROUTE_34, 5
+	connection west, PokeChampionClubOutside, POKE_CHAMPION_CLUB_OUTSIDE, 2
+	
+	map_attributes PokeChampionClubOutside, POKE_CHAMPION_CLUB_OUTSIDE, $35, EAST
+	connection east, GoldenrodCity, GOLDENROD_CITY, -2
 
 	map_attributes OlivineCity, OLIVINE_CITY, $35, NORTH | WEST
 	connection north, Route39, ROUTE_39, 5
@@ -428,6 +432,7 @@ ENDM
 	map_attributes TeamRocketBaseB2F, TEAM_ROCKET_BASE_B2F, $00, 0
 	map_attributes TeamRocketBaseB3F, TEAM_ROCKET_BASE_B3F, $00, 0
 	map_attributes IlexForest, ILEX_FOREST, $05, 0
+	map_attributes IlexForestHeart, ILEX_FOREST_HEART, $05, 0
 	map_attributes GoldenrodUnderground, GOLDENROD_UNDERGROUND, $00, 0
 	map_attributes GoldenrodUndergroundSwitchRoomEntrances, GOLDENROD_UNDERGROUND_SWITCH_ROOM_ENTRANCES, $00, 0
 	map_attributes GoldenrodDeptStoreB1F, GOLDENROD_DEPT_STORE_B1F, $00, 0
@@ -455,6 +460,7 @@ ENDM
 	map_attributes SilverCaveItemRooms, SILVER_CAVE_ITEM_ROOMS, $09, 0
 	map_attributes DarkCaveVioletEntrance, DARK_CAVE_VIOLET_ENTRANCE, $09, 0
 	map_attributes DarkCaveBlackthornEntrance, DARK_CAVE_BLACKTHORN_ENTRANCE, $09, 0
+	map_attributes DarkCaveMoltresChamber, DARK_CAVE_MOLTRES_CHAMBER, $09, 0
 	map_attributes DragonsDen1F, DRAGONS_DEN_1F, $09, 0
 	map_attributes DragonsDenB1F, DRAGONS_DEN_B1F, $71, 0
 	map_attributes DragonShrine, DRAGON_SHRINE, $00, 0
@@ -500,7 +506,11 @@ ENDM
 	map_attributes CinnabarPokecenter1F, CINNABAR_POKECENTER_1F, $00, 0
 	map_attributes CinnabarPokecenter2FBeta, CINNABAR_POKECENTER_2F_BETA, $00, 0
 	map_attributes Route19FuchsiaGate, ROUTE_19_FUCHSIA_GATE, $00, 0
-	map_attributes SeafoamGym, SEAFOAM_GYM, $09, 0
+	map_attributes SeafoamIslands1F, SEAFOAM_ISLANDS_1F, $09, 0
+	map_attributes SeafoamIslandsB1F, SEAFOAM_ISLANDS_B1F, $09, 0
+	map_attributes SeafoamIslandsB2F, SEAFOAM_ISLANDS_B2F, $09, 0
+	map_attributes SeafoamIslandsB3F, SEAFOAM_ISLANDS_B3F, $09, 0
+	map_attributes SeafoamIslandsB4F, SEAFOAM_ISLANDS_B4F, $09, 0
 	map_attributes CeruleanGymBadgeSpeechHouse, CERULEAN_GYM_BADGE_SPEECH_HOUSE, $00, 0
 	map_attributes CeruleanPoliceStation, CERULEAN_POLICE_STATION, $00, 0
 	map_attributes CeruleanTradeSpeechHouse, CERULEAN_TRADE_SPEECH_HOUSE, $00, 0
@@ -693,3 +703,14 @@ ENDM
 	map_attributes Route30BerryHouse, ROUTE_30_BERRY_HOUSE, $00, 0
 	map_attributes MrPokemonsHouse, MR_POKEMONS_HOUSE, $00, 0
 	map_attributes Route31VioletGate, ROUTE_31_VIOLET_GATE, $00, 0
+	map_attributes PokeChampionClubInside, POKE_CHAMPION_CLUB_INSIDE, $00, 0
+	map_attributes ThunderPeak1F, THUNDER_PEAK_1F, $00, 0
+	map_attributes ThunderPeakOutside, THUNDER_PEAK_OUTSIDE, $2C, 0
+	map_attributes ThunderPeak2F, THUNDER_PEAK_2F, $00, 0
+	map_attributes CinnabarVolcano1F, CINNABAR_VOLCANO_1F, $00, 0
+	map_attributes CinnabarVolcanoB1F, CINNABAR_VOLCANO_B1F, $00, 0
+	map_attributes CinnabarVolcanoB2F, CINNABAR_VOLCANO_B2F, $00, 0
+	map_attributes CinnabarVolcanoB3F, CINNABAR_VOLCANO_B3F, $00, 0
+	map_attributes CianwoodCave1F, CIANWOOD_CAVE_1F, $00, 0
+	map_attributes CianwoodCave2F, CIANWOOD_CAVE_2F, $00, 0
+	map_attributes CianwoodCave3F, CIANWOOD_CAVE_3F, $00, 0
