@@ -508,5 +508,6 @@ INCLUDE "maps/SafariZoneArea3.asm"
 INCLUDE "maps/CeruleanCave1F.asm"
 INCLUDE "maps/CeruleanCave2F.asm"
 INCLUDE "maps/CeruleanCaveB1F.asm"
+INCLUDE "maps/ViridianForest.asm"
 
 ENDSECTION

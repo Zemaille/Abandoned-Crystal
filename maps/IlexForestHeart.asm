@@ -46,6 +46,12 @@ IlexForestHeartHatchet:
 
 IlexForestHeartHiddenBigNugget:
 	hiddenitem BIG_NUGGET, EVENT_ILEX_FOREST_HEART_HIDDEN_BIG_NUGGET
+	
+IlexForestHeartHiddenProtein:
+	hiddenitem PROTEIN, EVENT_ILEX_FOREST_HEART_HIDDEN_PROTEIN
+
+IlexForestHeartHiddenUltraBall:
+	hiddenitem ULTRA_BALL, EVENT_ILEX_FOREST_HEART_HIDDEN_ULTRA_BALL
 
 TrainerBugCatcherHarv:
 	trainer BUG_CATCHER, HARV, EVENT_BEAT_BUG_CATCHER_HARV, BugCatcherHarvSeenText, BugCatcherHarvBeatenText, 0, .Script
@@ -218,6 +224,8 @@ IlexForestHeart_MapEvents:
 
 	def_bg_events
 	bg_event 33, 25, BGEVENT_ITEM, IlexForestHeartHiddenBigNugget
+	bg_event  3, 22, BGEVENT_ITEM, IlexForestHeartHiddenProtein
+	bg_event 48, 10, BGEVENT_ITEM, IlexForestHeartHiddenUltraBall
 
 	def_object_events
 	object_event  2, 21, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, IlexForestHeartVoltorbScript, EVENT_ILEX_FOREST_HEART_VOLTORB
