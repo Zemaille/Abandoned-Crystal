@@ -208,7 +208,7 @@ DEF KRIS EQU __trainer_class__
 	const GAVEN3
 	const BLAKE
 	const BRIAN
-	const ERICK ; unused
+	const ERICK
 	const ANDY ; unused
 	const TYLER ; unused
 	const SEAN
@@ -243,7 +243,7 @@ DEF KRIS EQU __trainer_class__
 	trainerclass BEAUTY ; 1d
 	const VICTORIA
 	const SAMANTHA
-	const JULIE ; unused
+	const JULIE
 	const JACLYN ; unused
 	const BRENDA ; unused
 	const CASSIE
@@ -275,6 +275,7 @@ DEF KRIS EQU __trainer_class__
 	const ZACH
 	const BRENT4
 	const MILLER
+	const JEREMIAH
 
 	trainerclass GRUNTM ; 1f
 	const GRUNTM_1
@@ -348,6 +349,7 @@ DEF KRIS EQU __trainer_class__
 	const ARNIE4
 	const ARNIE5
 	const WAYNE
+	const HARV
 
 	trainerclass FISHER ; 25
 	const JUSTIN
@@ -375,6 +377,7 @@ DEF KRIS EQU __trainer_class__
 	const RALPH4
 	const RALPH5
 	const TULLY4
+	const QUINTIN
 
 	trainerclass SWIMMERM ; 26
 	const HAROLD
@@ -599,7 +602,7 @@ DEF KRIS EQU __trainer_class__
 	const TODD3
 	const THOMAS ; unused
 	const LEROY ; unused
-	const DAVID ; unused
+	const DAVID
 	const JOHN ; unused
 	const JERRY
 	const SPENCER

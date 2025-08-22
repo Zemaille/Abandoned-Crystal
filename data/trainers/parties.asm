@@ -1431,13 +1431,9 @@ CooltrainerMGroup:
 	db -1 ; end
 
 	next_list_item ; COOLTRAINERM (13)
-	db "ERICK@", TRAINERTYPE_NORMAL
-	db 10
-	dw BULBASAUR
-	db 10
-	dw CHARMANDER
-	db 10
-	dw SQUIRTLE
+	db "Erick@", TRAINERTYPE_NORMAL
+	db 5
+	dw EEVEE
 	db -1 ; end
 
 	next_list_item ; COOLTRAINERM (14)
@@ -1729,9 +1725,9 @@ BeautyGroup:
 	db -1 ; end
 
 	next_list_item ; BEAUTY (3)
-	db "JULIE@", TRAINERTYPE_NORMAL
-	db 15
-	dw SENTRET
+	db "Julie@", TRAINERTYPE_NORMAL
+	db 5
+	dw EEVEE
 	db -1 ; end
 
 	next_list_item ; BEAUTY (4)
@@ -1936,6 +1932,12 @@ PokemaniacGroup:
 	dw NIDOKING
 	db 17
 	dw NIDOQUEEN
+	db -1 ; end
+
+	next_list_item ; POKEMANIAC (16)
+	db "Carter@", TRAINERTYPE_NORMAL
+	db 5
+	dw EEVEE
 	db -1 ; end
 
 	end_list_items
@@ -2464,6 +2466,12 @@ BugCatcherGroup:
 	dw PARAS
 	db -1 ; end
 
+	next_list_item ; BUG_CATCHER (20)
+	db "Harv@", TRAINERTYPE_NORMAL
+	db 5
+	dw EEVEE
+	db -1 ; end
+
 	end_list_items
 
 FisherGroup:
@@ -2699,6 +2707,12 @@ FisherGroup:
 	db 37
 	dw QWILFISH
 	dw ROLLOUT, SURF, PIN_MISSILE, TAKE_DOWN
+	db -1 ; end
+
+	next_list_item ; FISHER (26)
+	db "Quintin@", TRAINERTYPE_NORMAL
+	db 5
+	dw EEVEE
 	db -1 ; end
 
 	end_list_items
@@ -4519,15 +4533,9 @@ CamperGroup:
 	db -1 ; end
 
 	next_list_item ; CAMPER (16)
-	db "DAVID@", TRAINERTYPE_NORMAL
-	db 33
-	dw GRAVELER
-	db 36
-	dw GRAVELER
-	db 40
-	dw GOLBAT
-	db 42
-	dw GOLDUCK
+	db "David@", TRAINERTYPE_NORMAL
+	db 5
+	dw EEVEE
 	db -1 ; end
 
 	next_list_item ; CAMPER (17)
