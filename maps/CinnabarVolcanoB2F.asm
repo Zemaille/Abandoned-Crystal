@@ -1,11 +1,18 @@
 	object_const_def
-
+	const CINNABARVOLCANOB2F_POKE_BALL1
+	const CINNABARVOLCANOB2F_POKE_BALL2
 
 CinnabarVolcanoB2F_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
 
+CinnabarVolcanoB2FFireStone:
+	itemball FIRE_STONE
+	
+CinnabarVolcanoB1FPPUp:
+	itemball PP_UP
+	
 CinnabarVolcanoB2F_MapEvents:
 	db 0, 0 ; filler
 
@@ -19,3 +26,5 @@ CinnabarVolcanoB2F_MapEvents:
 
 	def_object_events
 
+	object_event 19,  8, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, CinnabarVolcanoB2FFireStone, EVENT_CINNABAR_VOLCANO_B2F_FIRE_STONE
+	object_event  8, 10, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, CinnabarVolcanoB1FPPUp, EVENT_CINNABAR_VOLCANO_B2F_PP_UP

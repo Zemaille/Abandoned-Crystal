@@ -706,10 +706,10 @@ ENDM
 	map_attributes ThunderPeak1F, THUNDER_PEAK_1F, $09, 0
 	map_attributes ThunderPeakOutside, THUNDER_PEAK_OUTSIDE, $2C, 0
 	map_attributes ThunderPeak2F, THUNDER_PEAK_2F, $09, 0
-	map_attributes CinnabarVolcano1F, CINNABAR_VOLCANO_1F, $09, 0
-	map_attributes CinnabarVolcanoB1F, CINNABAR_VOLCANO_B1F, $09, 0
-	map_attributes CinnabarVolcanoB2F, CINNABAR_VOLCANO_B2F, $09, 0
-	map_attributes CinnabarVolcanoB3F, CINNABAR_VOLCANO_B3F, $09, 0
+	map_attributes CinnabarVolcano1F, CINNABAR_VOLCANO_1F, $45, 0
+	map_attributes CinnabarVolcanoB1F, CINNABAR_VOLCANO_B1F, $45, 0
+	map_attributes CinnabarVolcanoB2F, CINNABAR_VOLCANO_B2F, $45, 0
+	map_attributes CinnabarVolcanoB3F, CINNABAR_VOLCANO_B3F, $45, 0
 	map_attributes CianwoodCave1F, CIANWOOD_CAVE_1F, $09, 0
 	map_attributes CianwoodCave2F, CIANWOOD_CAVE_2F, $09, 0
 	map_attributes CianwoodCave3F, CIANWOOD_CAVE_3F, $09, 0
