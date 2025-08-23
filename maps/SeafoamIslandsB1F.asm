@@ -1,10 +1,21 @@
 	object_const_def
-
+	const SEAFOAMISLANDSB1F_POKE_BALL1
+	const SEAFOAMISLANDSB1F_POKE_BALL2
+	const SEAFOAMISLANDSB1F_POKE_BALL3
 
 SeafoamIslandsB1F_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
+
+SeafoamIslandsB1FIceStoneScript:
+	itemball WATER_STONE
+	
+SeafoamIslandsB1FMysticWaterScript:
+	itemball MYSTIC_WATER
+	
+SeafoamIslandsB1FIronScript:
+	itemball IRON
 
 SeafoamIslandsB1F_MapEvents:
 	db 0, 0 ; filler
@@ -24,4 +35,6 @@ SeafoamIslandsB1F_MapEvents:
 	def_bg_events
 
 	def_object_events
-
+	object_event 18,  7, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, SeafoamIslandsB1FIceStoneScript, EVENT_SEAFOAM_ISLANDS_B1F_WATER_STONE
+	object_event 21,  7, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, SeafoamIslandsB1FMysticWaterScript, EVENT_SEAFOAM_ISLANDS_B1F_MYSTIC_WATER
+	object_event 13, 11, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, SeafoamIslandsB1FIronScript, EVENT_SEAFOAM_ISLANDS_B1F_IRON

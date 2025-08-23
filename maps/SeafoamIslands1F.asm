@@ -1,10 +1,23 @@
 	object_const_def
-
+	const SEAFOAMISLANDS1F_POKE_BALL1
+	const SEAFOAMISLANDS1F_POKE_BALL2
+	const SEAFOAMISLANDS1F_POKE_BALL3
 
 SeafoamIslands1F_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
+
+
+SeafoamIslands1ZincScript:
+	itemball ZINC
+	
+SeafoamIslands1FKingsRockScript:
+	itemball KINGS_ROCK
+	
+SeafoamIslands1FLumBerryScript:
+	itemball MIRACLEBERRY
+
 
 SeafoamIslands1F_MapEvents:
 	db 0, 0 ; filler
@@ -22,4 +35,6 @@ SeafoamIslands1F_MapEvents:
 	def_bg_events
 
 	def_object_events
-
+	object_event  5,  5, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, SeafoamIslands1ZincScript, EVENT_SEAFOAM_ISLANDS_1F_ZINC
+	object_event 27, 10, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, SeafoamIslands1FKingsRockScript, EVENT_SEAFOAM_ISLANDS_1F_KINGS_ROCK
+	object_event 19,  7, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, SeafoamIslands1FLumBerryScript, EVENT_SEAFOAM_ISLANDS_1F_MIRACLEBERRY
