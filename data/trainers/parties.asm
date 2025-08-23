@@ -3661,6 +3661,12 @@ HikerGroup:
 	dw KARATE_CHOP, VITAL_THROW, HEADBUTT, DIG
 	db -1 ; end
 
+	next_list_item ; HIKER (22)
+	db "Karl@", TRAINERTYPE_NORMAL
+	db 5
+	dw EEVEE
+	db -1 ; end
+
 	end_list_items
 
 BikerGroup:
@@ -4471,9 +4477,9 @@ CamperGroup:
 	db -1 ; end
 
 	next_list_item ; CAMPER (9)
-	db "HARVEY@", TRAINERTYPE_NORMAL
-	db 15
-	dw NIDORINO
+	db "Harvey@", TRAINERTYPE_NORMAL
+	db 5
+	dw EEVEE
 	db -1 ; end
 
 	next_list_item ; CAMPER (10)
@@ -4762,9 +4768,9 @@ MediumGroup:
 	db -1 ; end
 
 	next_list_item ; MEDIUM (3)
-	db "BETHANY@", TRAINERTYPE_NORMAL
-	db 25
-	dw HAUNTER
+	db "Bethany@", TRAINERTYPE_NORMAL
+	db 5
+	dw GASTLY
 	db -1 ; end
 
 	next_list_item ; MEDIUM (4)

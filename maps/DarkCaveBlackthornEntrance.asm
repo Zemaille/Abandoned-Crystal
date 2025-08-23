@@ -26,7 +26,7 @@ DarkCaveBlackthornEntrancePharmacistScript:
 	end
 
 DarkCaveBlackthornEntranceRevive:
-	itemball REVIVE
+	itemball MASTER_BALL
 
 DarkCaveBlackthornEntranceTMSnore:
 	itemball TM_SNORE
