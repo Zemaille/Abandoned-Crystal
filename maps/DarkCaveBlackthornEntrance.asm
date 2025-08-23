@@ -1,63 +1,21 @@
 	object_const_def
-	const DARKCAVEBLACKTHORNENTRANCE_PHARMACIST
 	const DARKCAVEBLACKTHORNENTRANCE_POKE_BALL1
 	const DARKCAVEBLACKTHORNENTRANCE_POKE_BALL2
+	const DARKCAVEBLACKTHORNENTRANCE_POKE_BALL3
 
 DarkCaveBlackthornEntrance_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
 
-DarkCaveBlackthornEntrancePharmacistScript:
-	faceplayer
-	opentext
-	checkevent EVENT_GOT_BLACKGLASSES_IN_DARK_CAVE
-	iftrue .GotBlackglasses
-	writetext DarkCaveBlackthornEntrancePharmacistText1
-	promptbutton
-	verbosegiveitem BLACKGLASSES
-	iffalse .PackFull
-	setevent EVENT_GOT_BLACKGLASSES_IN_DARK_CAVE
-.GotBlackglasses:
-	writetext DarkCaveBlackthornEntrancePharmacistText2
-	waitbutton
-.PackFull:
-	closetext
-	end
-
-DarkCaveBlackthornEntranceRevive:
-	itemball MASTER_BALL
+DarkCaveBlackthornEntranceFullRestore:
+	itemball FULL_RESTORE
 
 DarkCaveBlackthornEntranceTMSnore:
 	itemball TM_SNORE
 
-DarkCaveBlackthornEntrancePharmacistText1:
-	text "Whoa! You startled"
-	line "me there!"
-
-	para "I had my BLACK-"
-	line "GLASSES on, so I"
-
-	para "didn't notice you"
-	line "at all."
-
-	para "What am I doing"
-	line "here?"
-
-	para "Hey, don't you"
-	line "worry about it."
-
-	para "I'll give you a"
-	line "pair of BLACK-"
-	cont "GLASSES, so forget"
-	cont "you saw me, OK?"
-	done
-
-DarkCaveBlackthornEntrancePharmacistText2:
-	text "BLACKGLASSES ups"
-	line "the power of dark-"
-	cont "type moves."
-	done
+DarkCaveBlackthornEntranceMasterBall:
+	itemball MASTER_BALL
 
 DarkCaveBlackthornEntrance_MapEvents:
 	db 0, 0 ; filler
@@ -72,6 +30,6 @@ DarkCaveBlackthornEntrance_MapEvents:
 	def_bg_events
 
 	def_object_events
-	object_event 14, 10, SPRITE_PHARMACIST, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, DarkCaveBlackthornEntrancePharmacistScript, -1
-	object_event  5, 20, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, DarkCaveBlackthornEntranceRevive, EVENT_DARK_CAVE_BLACKTHORN_ENTRANCE_REVIVE
+	object_event 14, 10, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, DarkCaveBlackthornEntranceFullRestore, EVENT_DARK_CAVE_BLACKTHORN_ENTRANCE_REVIVE
 	object_event 22,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, DarkCaveBlackthornEntranceTMSnore, EVENT_DARK_CAVE_BLACKTHORN_ENTRANCE_TM_SNORE
+	object_event  5, 20, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, DarkCaveBlackthornEntranceMasterBall, EVENT_DARK_CAVE_BLACKTHORN_ENTRANCE_MASTER_BALL
