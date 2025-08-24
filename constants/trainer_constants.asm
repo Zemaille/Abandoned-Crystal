@@ -239,7 +239,8 @@ DEF KRIS EQU __trainer_class__
 	const REENA2
 	const REENA3
 	const CARA
-
+	const SHAY
+	
 	trainerclass BEAUTY ; 1d
 	const VICTORIA
 	const SAMANTHA
@@ -441,7 +442,7 @@ DEF KRIS EQU __trainer_class__
 	trainerclass SUPER_NERD ; 29
 	const STAN
 	const ERIC
-	const GREGG ; unused
+	const GREGG
 	const JAY ; unused
 	const DAVE ; unused
 	const SAM
@@ -465,6 +466,7 @@ DEF KRIS EQU __trainer_class__
 	trainerclass GUITARIST ; 2b
 	const CLYDE
 	const VINCENT
+	const WPC
 
 	trainerclass HIKER ; 2c
 	const ANTHONY1
@@ -512,7 +514,7 @@ DEF KRIS EQU __trainer_class__
 
 	trainerclass FIREBREATHER ; 30
 	const OTIS
-	const DICK ; unused
+	const DICK1 ; unused using Dick as an Officer
 	const NED ; unused
 	const BURT
 	const BILL
@@ -529,7 +531,7 @@ DEF KRIS EQU __trainer_class__
 	const IRWIN4 ; unused
 
 	trainerclass BLACKBELT_T ; 32
-	const KENJI1 ; unused
+	const AKIRA ; Originally KENJI1 ; unused
 	const YOSHI
 	const KENJI2 ; unused
 	const LAO
@@ -696,6 +698,7 @@ DEF KRIS EQU __trainer_class__
 	trainerclass OFFICER ; 41
 	const KEITH
 	const DIRK
+	const DICK
 
 	trainerclass GRUNTF ; 42
 	const GRUNTF_1

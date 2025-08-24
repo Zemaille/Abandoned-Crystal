@@ -1701,6 +1701,12 @@ CooltrainerFGroup:
 	dw SWIFT, LEER, WATERFALL, TWISTER
 	db -1 ; end
 
+	next_list_item ; COOLTRAINERF (21)
+	db "Shay@", TRAINERTYPE_NORMAL
+	db 5
+	dw EEVEE
+	db -1 ; end
+
 	end_list_items
 
 BeautyGroup:
@@ -3194,13 +3200,9 @@ SuperNerdGroup:
 	db -1 ; end
 
 	next_list_item ; SUPER_NERD (3)
-	db "GREGG@", TRAINERTYPE_NORMAL
-	db 20
-	dw MAGNEMITE
-	db 20
-	dw MAGNEMITE
-	db 20
-	dw MAGNEMITE
+	db "Gregg@", TRAINERTYPE_NORMAL
+	db 5
+	dw EEVEE
 	db -1 ; end
 
 	next_list_item ; SUPER_NERD (4)
@@ -3448,6 +3450,12 @@ GuitaristGroup:
 	dw MAGNEMITE
 	db 32
 	dw MAGNEMITE
+	db -1 ; end
+
+	next_list_item ; GUITARIST (2)
+	db "Billy@", TRAINERTYPE_NORMAL
+	db 5
+	dw EEVEE
 	db -1 ; end
 
 	end_list_items
@@ -3947,15 +3955,9 @@ JugglerGroup:
 
 BlackbeltGroup:
 	next_list_item ; BLACKBELT_T (1)
-	db "KENJI@", TRAINERTYPE_NORMAL
-	db 27
-	dw ONIX
-	db 30
-	dw HITMONLEE
-	db 27
-	dw ONIX
-	db 32
-	dw MACHOKE
+	db "Akira@", TRAINERTYPE_NORMAL
+	db 5
+	dw EEVEE
 	db -1 ; end
 
 	next_list_item ; BLACKBELT_T (2)
@@ -5222,6 +5224,12 @@ OfficerGroup:
 	dw GROWLITHE
 	db 14
 	dw GROWLITHE
+	db -1 ; end
+
+	next_list_item ; OFFICER (3)
+	db "Dick@", TRAINERTYPE_NORMAL
+	db 5
+	dw EEVEE
 	db -1 ; end
 
 	end_list_items
