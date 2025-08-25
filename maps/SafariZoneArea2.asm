@@ -1,10 +1,13 @@
 	object_const_def
-
+	const SAFARIZONEAREA2_POKE_BALL1
 
 SafariZoneArea2_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
+
+SafariZoneArea2BigNuggetScript:
+	itemball BIG_NUGGET
 
 SafariZoneArea2_MapEvents:
 	db 0, 0 ; filler
@@ -24,4 +27,5 @@ SafariZoneArea2_MapEvents:
 	def_bg_events
 
 	def_object_events
+	object_event 27, 18, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, SafariZoneArea2BigNuggetScript, EVENT_SAFARI_ZONE_AREA_2_BIG_NUGGET
 

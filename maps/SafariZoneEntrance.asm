@@ -1,10 +1,13 @@
 	object_const_def
-
+	const SAFARIZONEENTRANCE_POKE_BALL1
 
 SafariZoneEntrance_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
+
+SafariZoneLeafStoneScript:
+	itemball LEAF_STONE
 
 SafariZoneEntrance_MapEvents:
 	db 0, 0 ; filler
@@ -24,4 +27,5 @@ SafariZoneEntrance_MapEvents:
 	def_bg_events
 
 	def_object_events
-
+	object_event 14, 10, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, SafariZoneLeafStoneScript, EVENT_SAFARI_ZONE_ENTRACE_LEAF_STONE
+	

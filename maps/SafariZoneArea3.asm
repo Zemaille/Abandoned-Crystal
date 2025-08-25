@@ -1,10 +1,36 @@
 	object_const_def
-
+	const SAFARIZONEAREA3_POKE_BALL1
+	const SAFARIZONEAREA3_POKE_BALL2
+	const SAFARIZONEAREA3_MEW
 
 SafariZoneArea3_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
+
+SafariZoneArea3BerryScript:
+	itemball BERRY
+	
+SafariZoneArea3LumBerryScript:
+	itemball MIRACLEBERRY
+
+SafariZoneArea3MewScript:
+	faceplayer
+	opentext
+	writetext SafariZoneArea3MewText
+	cry MEW
+	pause 15
+	closetext
+	loadwildmon MEW, 100
+	startbattle
+	disappear SAFARIZONEAREA3_MEW
+	reloadmapafterbattle
+	end	
+
+SafariZoneArea3MewText:
+	text "Yeeeww!"
+	done
+
 
 SafariZoneArea3_MapEvents:
 	db 0, 0 ; filler
@@ -22,4 +48,6 @@ SafariZoneArea3_MapEvents:
 	def_bg_events
 
 	def_object_events
-
+	object_event 21, 10, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, SafariZoneArea3BerryScript, EVENT_SAFARI_ZONE_AREA_3_BERRY
+	object_event 11, 12, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, SafariZoneArea3LumBerryScript, EVENT_SAFARI_ZONE_AREA_3_MIRACLEBERRY
+	object_event  3,  4, SPRITE_FAIRY, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SafariZoneArea3MewScript, EVENT_SAFARI_ZONE_AREA_3_MEW
