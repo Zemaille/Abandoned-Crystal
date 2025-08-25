@@ -6,18 +6,25 @@ FuchsiaCitySafariGate_MapScripts:
 
 	def_callbacks
 
+FuchsiaSafariGateClosedScript:
+	text "The Safari Zone"
+	line "is closed until"
+	cont "further notice."
+	done
+
 FuchsiaCitySafariGate_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
 	warp_event  4, 15, FUCHSIA_CITY, 11
 	warp_event  5, 15, FUCHSIA_CITY, 11
-	warp_event  4,  0, SAFARI_ZONE_ENTRANCE, 1 ;Exit L 
+	warp_event  4,  0, SAFARI_ZONE_ENTRANCE, 1 ;Exit L
 	warp_event  5,  0, SAFARI_ZONE_ENTRANCE, 2 ;Exit R
 
 	def_coord_events
 
 	def_bg_events
+	bg_event  6,  0, BGEVENT_READ, FuchsiaSafariGateClosedScript
 
 	def_object_events
 

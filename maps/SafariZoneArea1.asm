@@ -13,6 +13,16 @@ SafariZoneArea1MoonStoneScript:
 SafariZoneArea1RevivalHerbScript:
 	itemball REVIVAL_HERB
 
+SafariZoneArea1RestHouseScript:
+	text "REST HOUSES ARE"
+	line "CLOSED. SORRY."
+	done
+
+SafariZoneArea1FadedSignScript:
+	text "The sign is too"
+	line "faded to read."
+	done
+
 SafariZoneArea1_MapEvents:
 	db 0, 0 ; filler
 
@@ -26,6 +36,8 @@ SafariZoneArea1_MapEvents:
 	def_coord_events
 
 	def_bg_events
+	bg_event 26, 10, BGEVENT_READ, SafariZoneArea1RestHouseScript
+	bg_event  6,  4, BGEVENT_READ, SafariZoneArea1FadedSignScript
 
 	def_object_events
 	object_event  1,  1, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, SafariZoneArea1MoonStoneScript, EVENT_SAFARI_ZONE_AREA_1_MOON_STONE

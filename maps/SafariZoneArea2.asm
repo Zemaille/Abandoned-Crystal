@@ -9,6 +9,11 @@ SafariZoneArea2_MapScripts:
 SafariZoneArea2BigNuggetScript:
 	itemball BIG_NUGGET
 
+SafariZoneArea2RestHouseScript:
+	text "REST HOUSES ARE"
+	line "CLOSED. SORRY."
+	done
+
 SafariZoneArea2_MapEvents:
 	db 0, 0 ; filler
 
@@ -25,6 +30,7 @@ SafariZoneArea2_MapEvents:
 	def_coord_events
 
 	def_bg_events
+	bg_event 36,  6, BGEVENT_READ, SafariZoneArea2RestHouseScript
 
 	def_object_events
 	object_event 27, 18, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, SafariZoneArea2BigNuggetScript, EVENT_SAFARI_ZONE_AREA_2_BIG_NUGGET

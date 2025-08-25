@@ -9,6 +9,17 @@ SafariZoneEntrance_MapScripts:
 SafariZoneLeafStoneScript:
 	itemball LEAF_STONE
 
+SafariZoneEntraceWelcomeScript:
+	text "The Safari Zone"
+	line "is closed until"
+	cont "further notice."
+	done
+
+SafariZoneEntraceRestHouseScript:
+	text "REST HOUSES ARE"
+	line "CLOSED. SORRY."
+	done
+
 SafariZoneEntrance_MapEvents:
 	db 0, 0 ; filler
 
@@ -25,7 +36,10 @@ SafariZoneEntrance_MapEvents:
 	def_coord_events
 
 	def_bg_events
-
+	bg_event 14, 22, BGEVENT_READ, SafariZoneEntraceWelcomeScript
+	bg_event 18, 20, BGEVENT_READ, SafariZoneEntraceRestHouseScript
+	
+	
 	def_object_events
 	object_event 14, 10, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, SafariZoneLeafStoneScript, EVENT_SAFARI_ZONE_ENTRACE_LEAF_STONE
 	

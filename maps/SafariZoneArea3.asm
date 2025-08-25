@@ -31,6 +31,10 @@ SafariZoneArea3MewText:
 	text "Yeeeww!"
 	done
 
+SafariZoneArea3RestHouseScript:
+	text "REST HOUSES ARE"
+	line "CLOSED. SORRY."
+	done
 
 SafariZoneArea3_MapEvents:
 	db 0, 0 ; filler
@@ -46,6 +50,7 @@ SafariZoneArea3_MapEvents:
 	def_coord_events
 
 	def_bg_events
+	bg_event 12, 12, BGEVENT_READ, SafariZoneArea3RestHouseScript
 
 	def_object_events
 	object_event 21, 10, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, SafariZoneArea3BerryScript, EVENT_SAFARI_ZONE_AREA_3_BERRY
