@@ -1,10 +1,17 @@
 	object_const_def
-
+	const CERULEANCAVE1F_POKE_BALL1
+	const CERULEANCAVE1F_POKE_BALL2
 
 CeruleanCave1F_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
+
+CeruleanCave1FUltraBallScript:
+	itemball ULTRA_BALL
+	
+CeruleanCave1FMaxReviveScript:
+	itemball MAX_REVIVE
 
 CeruleanCave1F_MapEvents:
 	db 0, 0 ; filler
@@ -24,4 +31,5 @@ CeruleanCave1F_MapEvents:
 	def_bg_events
 
 	def_object_events
-
+	object_event 14,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, CeruleanCave1FUltraBallScript, EVENT_CERULEAN_CAVE_1F_ULTRA_BALL
+	object_event  3, 18, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, CeruleanCave1FMaxReviveScript, EVENT_CERULEAN_CAVE_1F_MAX_REVIVE
