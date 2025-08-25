@@ -2798,12 +2798,8 @@ SwimmerMGroup:
 
 	next_list_item ; SWIMMERM (9)
 	db "HAL@", TRAINERTYPE_NORMAL
-	db 24
-	dw SEEL
-	db 25
-	dw DEWGONG
-	db 24
-	dw SEEL
+	db 5
+	dw EEVEE
 	db -1 ; end
 
 	next_list_item ; SWIMMERM (10)
@@ -2825,13 +2821,9 @@ SwimmerMGroup:
 	db -1 ; end
 
 	next_list_item ; SWIMMERM (12)
-	db "WALTER@", TRAINERTYPE_NORMAL
-	db 15
-	dw HORSEA
-	db 15
-	dw HORSEA
-	db 20
-	dw SEADRA
+	db "Walter@", TRAINERTYPE_NORMAL
+	db 5
+	dw EEVEE
 	db -1 ; end
 
 	next_list_item ; SWIMMERM (13)
@@ -2988,9 +2980,9 @@ SwimmerFGroup:
 	db -1 ; end
 
 	next_list_item ; SWIMMERF (9)
-	db "JILL@", TRAINERTYPE_NORMAL
-	db 28
-	dw DEWGONG
+	db "Jill@", TRAINERTYPE_NORMAL
+	db 5
+	dw EEVEE
 	db -1 ; end
 
 	next_list_item ; SWIMMERF (10)
@@ -3001,8 +2993,8 @@ SwimmerFGroup:
 
 	next_list_item ; SWIMMERF (11)
 	db "KATIE@", TRAINERTYPE_NORMAL
-	db 33
-	dw DEWGONG
+	db 5
+	dw EEVEE
 	db -1 ; end
 
 	next_list_item ; SWIMMERF (12)
