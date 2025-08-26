@@ -34,11 +34,12 @@ Landmarks:
 	landmark  70,  42, TinTowerName
 	landmark  66,  42, BurnedTowerName
 	landmark  52,  44, Route38Name
+	landmark  36,  36, BattleTowerName
 	landmark  36,  48, Route39Name
 	landmark  36,  60, OlivineCityName
 	landmark  38,  62, LighthouseName
-	landmark  28,  56, BattleTowerName
 	landmark  28,  64, Route40Name
+	landmark  28,  52, OlivineSaltmarshName
 	landmark  28,  92, WhirlIslandsName
 	landmark  28, 100, Route41Name
 	landmark  20, 100, CianwoodCityName
@@ -216,3 +217,4 @@ CianwoodCaveName:	 db "CIANWOOD<BSP>CAVERN@"
 SafariZoneName:      db "SAFARI ZONE@"
 CeruleanCaveName:    db "CERULEAN<BSP>CAVE@"
 ViridianForestName:  db "VIRIDIAN<BSP>FOREST@"
+OlivineSaltmarshName: db "OLIVINE<BSP>SALTMARSH@"
