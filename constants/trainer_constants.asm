@@ -210,7 +210,7 @@ DEF KRIS EQU __trainer_class__
 	const BRIAN
 	const ERICK
 	const ANDY ; unused
-	const TYLER ; unused
+	const TYLER
 	const SEAN
 	const KEVIN
 	const STEVE ; unused
@@ -251,7 +251,7 @@ DEF KRIS EQU __trainer_class__
 	const CAROLINE ; unused
 	const CARLENE ; unused
 	const JESSICA ; unused
-	const RACHAEL ; unused
+	const RACHAEL 
 	const ANGELICA ; unused
 	const KENDRA ; unused
 	const VERONICA ; unused
@@ -315,7 +315,7 @@ DEF KRIS EQU __trainer_class__
 	const PRESTON
 	const EDWARD
 	const GREGORY
-	const VIRGIL ; unused
+	const VIRGIL
 	const ALFRED
 
 	trainerclass SKIER ; 21
@@ -450,7 +450,7 @@ DEF KRIS EQU __trainer_class__
 	const PAT
 	const SHAWN
 	const TERU
-	const RUSS ; unused
+	const RUSS
 	const NORTON ; unused
 	const HUGH
 	const MARKUS
@@ -514,8 +514,8 @@ DEF KRIS EQU __trainer_class__
 
 	trainerclass FIREBREATHER ; 30
 	const OTIS
-	const DICK1 ; unused using Dick as an Officer
-	const NED ; unused
+	const DICK1 ; unused using const Dick as an Officer
+	const NED
 	const BURT
 	const BILL
 	const WALT
@@ -531,7 +531,7 @@ DEF KRIS EQU __trainer_class__
 	const IRWIN4 ; unused
 
 	trainerclass BLACKBELT_T ; 32
-	const AKIRA ; Originally KENJI1 ; unused
+	const AKIRA ; Originally 'KENJI1 ; unused'
 	const YOSHI
 	const KENJI2 ; unused
 	const LAO

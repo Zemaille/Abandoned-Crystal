@@ -509,5 +509,10 @@ INCLUDE "maps/CeruleanCave1F.asm"
 INCLUDE "maps/CeruleanCave2F.asm"
 INCLUDE "maps/CeruleanCaveB1F.asm"
 INCLUDE "maps/ViridianForest.asm"
+INCLUDE "maps/Route40SaltmarshGate.asm"
+INCLUDE "maps/SaltmarshArea1.asm"
+INCLUDE "maps/SaltmarshArea2.asm"
+INCLUDE "maps/SaltmarshArea3.asm"
+INCLUDE "maps/SaltmarshArea4.asm"
 
 ENDSECTION

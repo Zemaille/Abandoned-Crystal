@@ -959,6 +959,7 @@ IcePathDepths_Blocks:
 DragonsDenB2F_Blocks:
 	INCBIN "maps/DragonsDenB2F.ablk"
 
+Route40SaltmarshGate_Blocks:
 FuchsiaCitySafariGate_Blocks:
 	INCBIN "maps/FuchsiaCitySafariGate.ablk"
 
@@ -985,5 +986,18 @@ CeruleanCaveB1F_Blocks:
 	
 ViridianForest_Blocks:
 	INCBIN "maps/ViridianForest.ablk"
+	
+SaltmarshArea1_Blocks:
+		INCBIN "maps/SaltmarshArea1.ablk"
+
+SaltmarshArea2_Blocks:
+		INCBIN "maps/SaltmarshArea2.ablk"
+
+SaltmarshArea3_Blocks:
+		INCBIN "maps/SaltmarshArea3.ablk"
+
+SaltmarshArea4_Blocks:
+		INCBIN "maps/SaltmarshArea4.ablk"
+
 	
 ENDSECTION

@@ -723,3 +723,8 @@ ENDM
 	map_attributes CeruleanCave2F, CERULEAN_CAVE_2F, $1D, 0
 	map_attributes CeruleanCaveB1F, CERULEAN_CAVE_B1F, $09, 0
 	map_attributes ViridianForest, VIRIDIAN_FOREST, $00, 0
+	map_attributes Route40SaltmarshGate, ROUTE_40_SALTMARSH_GATE, $00, 0
+	map_attributes SaltmarshArea1, SALTMARSH_AREA_1, $13, 0
+	map_attributes SaltmarshArea2, SALTMARSH_AREA_2, $13, 0
+	map_attributes SaltmarshArea3, SALTMARSH_AREA_3, $13, 0
+	map_attributes SaltmarshArea4, SALTMARSH_AREA_4, $13, 0

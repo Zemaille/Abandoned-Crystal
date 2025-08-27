@@ -31,4 +31,5 @@ FruitTreeItems:
 	dw ICE_BERRY    ; PEWTER_CITY_1
 	dw MINT_BERRY   ; PEWTER_CITY_2
 	dw BURNT_BERRY  ; FUCHSIA_CITY
+	dw MIRACLEBERRY ; Saltmarsh (Lum)
 	assert_table_length NUM_FRUIT_TREES

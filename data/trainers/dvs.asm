@@ -28,8 +28,8 @@ TrainerClassDVs:
 	dn  9,  8,  8,  8 ; BIRD_KEEPER
 	dn  5,  8,  8,  8 ; LASS
 	dn 15, 15, 15, 15 ; JANINE
-	dn 15, 10, 10, 10 ; COOLTRAINERM
-	dn 15, 10, 10, 10 ; COOLTRAINERF
+	dn 15, 15, 15, 15 ; COOLTRAINERM
+	dn 15, 15, 15, 15 ; COOLTRAINERF
 	dn  6,  9, 12,  8 ; BEAUTY
 	dn 15, 10, 10, 10 ; POKEMANIAC
 	dn 13,  8, 10,  8 ; GRUNTM

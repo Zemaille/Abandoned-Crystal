@@ -1447,13 +1447,9 @@ CooltrainerMGroup:
 	db -1 ; end
 
 	next_list_item ; COOLTRAINERM (15)
-	db "TYLER@", TRAINERTYPE_NORMAL
-	db 10
-	dw BULBASAUR
-	db 10
-	dw CHARMANDER
-	db 10
-	dw SQUIRTLE
+	db "Tyler@", TRAINERTYPE_NORMAL
+	db 5
+	dw EEVEE
 	db -1 ; end
 
 	next_list_item ; COOLTRAINERM (16)
@@ -1779,9 +1775,9 @@ BeautyGroup:
 	db -1 ; end
 
 	next_list_item ; BEAUTY (10)
-	db "RACHAEL@", TRAINERTYPE_NORMAL
-	db 15
-	dw SENTRET
+	db "Rachael@", TRAINERTYPE_NORMAL
+	db 5
+	dw EEVEE
 	db -1 ; end
 
 	next_list_item ; BEAUTY (11)
@@ -2231,9 +2227,9 @@ GentlemanGroup:
 	db -1 ; end
 
 	next_list_item ; GENTLEMAN (4)
-	db "VIRGIL@", TRAINERTYPE_NORMAL
-	db 20
-	dw PONYTA
+	db "Virgil@", TRAINERTYPE_NORMAL
+	db 5
+	dw EEVEE
 	db -1 ; end
 
 	next_list_item ; GENTLEMAN (5)
@@ -3258,13 +3254,9 @@ SuperNerdGroup:
 	db -1 ; end
 
 	next_list_item ; SUPER_NERD (11)
-	db "RUSS@", TRAINERTYPE_NORMAL
-	db 27
-	dw MAGNEMITE
-	db 27
-	dw MAGNEMITE
-	db 27
-	dw MAGNEMITE
+	db "Rust@", TRAINERTYPE_NORMAL
+	db 5
+	dw EEVEE
 	db -1 ; end
 
 	next_list_item ; SUPER_NERD (12)
@@ -3821,13 +3813,9 @@ FirebreatherGroup:
 	db -1 ; end
 
 	next_list_item ; FIREBREATHER (3)
-	db "NED@", TRAINERTYPE_NORMAL
-	db 15
-	dw KOFFING
-	db 16
-	dw GROWLITHE
-	db 15
-	dw KOFFING
+	db "Ned@", TRAINERTYPE_NORMAL
+	db 5
+	dw EEVEE
 	db -1 ; end
 
 	next_list_item ; FIREBREATHER (4)

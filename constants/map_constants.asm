@@ -174,6 +174,10 @@ ENDM
 	map_const CERULEAN_CAVE_2F,                            15,  9 ;107  
 	map_const CERULEAN_CAVE_B1F,                           17, 11 ;108
 	map_const VIRIDIAN_FOREST,                             17, 31 ;109
+	map_const SALTMARSH_AREA_1,	                           15, 13 ;110
+	map_const SALTMARSH_AREA_2,	                           15, 13 ;111
+	map_const SALTMARSH_AREA_3,	                           15, 13 ;112
+	map_const SALTMARSH_AREA_4,	                           15, 13 ;113
 	endgroup
 
 	newgroup ECRUTEAK                                             ;  4
@@ -458,6 +462,7 @@ ENDM
 	map_const BATTLE_TOWER_HALLWAY,                        11,  2 ; 14
 	map_const ROUTE_40_BATTLE_TOWER_GATE,                   5,  4 ; 15
 	map_const BATTLE_TOWER_OUTSIDE,                        10, 14 ; 16
+	map_const ROUTE_40_SALTMARSH_GATE,                      5,  8 ; 17
 	endgroup
 
 	newgroup VIRIDIAN                                             ; 23
