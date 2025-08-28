@@ -16,6 +16,7 @@ Moves::
 	indirect_table MOVE_LENGTH - 1, 1
 	indirect_entries GEN1_MOVES, MovesGen1
 	indirect_entries GEN2_MOVES, MovesGen2
+	indirect_entries GEN3_MOVES, MovesGen3
 	indirect_table_end
 
 PUSHS
@@ -280,7 +281,14 @@ MovesGen2:
 	move EFFECT_DEFENSE_DOWN_HIT,   20, FIGHTING,      PHYSICAL, 100, 15,  50      ;ROCK_SMASH
 	move EFFECT_TRAP_TARGET,        15, WATER,         SPECIAL,   70, 15,   0      ;WHIRLPOOL
 	move EFFECT_BEAT_UP,            10, DARK,          PHYSICAL, 100, 10,   0      ;BEAT_UP
-	move EFFECT_HAIL,				 0, ICE, 		   STATUS,   100, 10,   0      ;Hail
 .IndirectEnd::
+
+
+SECTION "Moves Gen 3", ROMX
+
+MovesGen3:
+	move EFFECT_HAIL,                0, ICE,           STATUS,   100, 10,   0      ;HAIL EFFECT_HAIL
+.IndirectEnd::
+
 
 POPS

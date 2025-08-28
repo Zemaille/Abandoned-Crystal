@@ -258,9 +258,10 @@ DEF GEN1_MOVES EQU const_value - 1
 	const ROCK_SMASH   ; f9
 	const WHIRLPOOL    ; fa
 	const BEAT_UP      ; fb
-	const HAIL
 DEF GEN2_MOVES EQU const_value - 1
-
+	const HAIL
+DEF GEN3_MOVES EQU const_value - 1
+	
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

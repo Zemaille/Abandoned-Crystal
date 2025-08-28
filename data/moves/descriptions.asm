@@ -3,6 +3,7 @@ MoveDescriptions::
 	indirect_table 2, 1
 	indirect_entries GEN1_MOVES, MoveDescriptionsGen1
 	indirect_entries GEN2_MOVES, MoveDescriptionsGen2
+	indirect_entries GEN3_MOVES, MoveDescriptionsGen3
 	indirect_table_end
 
 MoveDescriptionsGen1:
@@ -260,6 +261,9 @@ MoveDescriptionsGen2:
 	dw RockSmashDescription
 	dw WhirlpoolDescription
 	dw BeatUpDescription
+.IndirectEnd::
+
+MoveDescriptionsGen3:
 	dw HailDescription
 .IndirectEnd::
 
