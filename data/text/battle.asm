@@ -453,6 +453,11 @@ FireSpinTrapText:
 	line "was trapped!"
 	prompt
 
+InfestationTrapText:
+	text "<TARGET>"
+	line "was infested!"
+	prompt
+
 WrappedByText:
 	text "<TARGET>"
 	line "was WRAPPED by"

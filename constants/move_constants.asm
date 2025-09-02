@@ -262,6 +262,7 @@ DEF GEN2_MOVES EQU const_value - 1
 	const HAIL
 	const X_SCISSOR
 	const SIGNAL_BEAM
+	const INFESTATION
 DEF GEN3_MOVES EQU const_value - 1
 	
 DEF NUM_ATTACKS EQU const_value - 1

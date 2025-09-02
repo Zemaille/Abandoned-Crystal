@@ -2,6 +2,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_Hail
 	dw BattleAnim_XScissor
 	dw BattleAnim_SignalBeam
+	dw BattleAnim_Infestation
 .IndirectEnd::
 
 
@@ -70,4 +71,13 @@ BattleAnim_SignalBeam:
 	anim_wait 48
 	anim_ret	
 
+BattleAnim_Infestation:
+	anim_1gfx BATTLE_ANIM_GFX_HAZE
+	anim_sound 16, 2, SFX_BUBBLEBEAM
+.loop
+	anim_obj BATTLE_ANIM_OBJ_POISON_GAS, 44, 80, $2
+	anim_wait 8
+	anim_loop 10, .loop
+	anim_wait 128
+	anim_ret
 	

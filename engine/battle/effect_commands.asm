@@ -5675,11 +5675,12 @@ BattleCommand_TrapTarget:
 	jmp StdBattleTextbox
 
 .Traps:
-	dw BIND,      UsedBindText      ; 'used BIND on'
-	dw WRAP,      WrappedByText     ; 'was WRAPPED by'
-	dw FIRE_SPIN, FireSpinTrapText  ; 'was trapped!'
-	dw CLAMP,     ClampedByText     ; 'was CLAMPED by'
-	dw WHIRLPOOL, WhirlpoolTrapText ; 'was trapped!'
+	dw BIND,        UsedBindText        ; 'used BIND on'
+	dw WRAP,        WrappedByText       ; 'was WRAPPED by'
+	dw FIRE_SPIN,   FireSpinTrapText    ; 'was trapped!'
+	dw CLAMP,       ClampedByText       ; 'was CLAMPED by'
+	dw WHIRLPOOL,   WhirlpoolTrapText   ; 'was trapped!'
+	dw INFESTATION, InfestationTrapText ; 'was infested!'
 
 INCLUDE "engine/battle/move_effects/mist.asm"
 

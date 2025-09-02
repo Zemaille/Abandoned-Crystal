@@ -267,6 +267,7 @@ MoveDescriptionsGen3:
 	dw HailDescription
 	dw XScissorDescription
 	dw SignalBeamDescription
+	dw InfestationDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1258,6 +1259,7 @@ RockSmashDescription:
 	db   "An attack that may"
 	next "lower DEFENSE.@"
 
+InfestationDescription:
 WhirlpoolDescription:
 	db   "Traps the foe for"
 	next "2-5 turns.@"

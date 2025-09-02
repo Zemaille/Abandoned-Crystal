@@ -290,6 +290,7 @@ MovesGen3:
 	move EFFECT_HAIL,                0, ICE,           STATUS,   100, 10,   0      ;HAIL EFFECT_HAIL
 	move EFFECT_NORMAL_HIT,         80, BUG,           PHYSICAL, 100, 15,   0      ;X-Scissor
 	move EFFECT_CONFUSE_HIT,        75, BUG,           SPECIAL,  100, 15,  10      ;Signal Beam 
+	move EFFECT_TRAP_TARGET,        20, BUG,           SPECIAL,  100, 20,   0      ;Infestation
 .IndirectEnd::
 
 
