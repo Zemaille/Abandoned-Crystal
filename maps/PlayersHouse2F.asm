@@ -146,7 +146,7 @@ if DEF(_DEBUG)
 	givepoke LANTURN, 100, LEFTOVERS
 	givepokemove FLY,        wPartyMon2, 0
 	givepokemove SURF,       wPartyMon2, 1
-	givepokemove RAPID_SPIN,   wPartyMon2, 2
+	givepokemove X_SCISSOR,   wPartyMon2, 2
 	givepokemove CUT,        wPartyMon2, 3
 	givepokemove FLASH,      wPartyMon3, 0
 	givepokemove ROCK_SMASH, wPartyMon3, 1

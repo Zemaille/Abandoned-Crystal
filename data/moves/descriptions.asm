@@ -265,6 +265,7 @@ MoveDescriptionsGen2:
 
 MoveDescriptionsGen3:
 	dw HailDescription
+	dw XScissorDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -275,6 +276,7 @@ PoundDescription:
 	next "legs or tail.@"
 
 KarateChopDescription:
+XScissorDescription:
 	db   "Has a high criti-"
 	next "cal hit ratio.@"
 
@@ -325,10 +327,6 @@ RazorWindDescription:
 SwordsDanceDescription:
 	db   "A dance that in-"
 	next "creases ATTACK.@"
-
-CutDescription:
-	db   "Cuts using claws,"
-	next "scythes, etc.@"
 
 GustDescription:
 	db   "Whips up a strong"
@@ -603,19 +601,14 @@ FireSpinDescription:
 	next "for 2-5 turns.@"
 
 ThundershockDescription:
-	db   "An attack that may"
-	next "cause paralysis.@"
-
 ThunderboltDescription:
-	db   "An attack that may"
-	next "cause paralysis.@"
-
-ThunderWaveDescription:
-	db   "A move that may"
-	next "cause paralysis.@"
-
 ThunderDescription:
 	db   "An attack that may"
+	next "cause paralysis.@"
+
+FlashDescription:
+ThunderWaveDescription:
+	db   "A move that will"
 	next "cause paralysis.@"
 
 RockThrowDescription:
@@ -857,10 +850,6 @@ DizzyPunchDescription:
 SporeDescription:
 	db   "A move that"
 	next "induces sleep.@"
-
-FlashDescription:
-	db   "Blinds the foe to"
-	next "reduce accuracy.@"
 
 PsywaveDescription:
 	db   "An attack with"
@@ -1262,6 +1251,7 @@ FutureSightDescription:
 	db   "An attack that"
 	next "hits on 3rd turn.@"
 
+CutDescription:
 RockSmashDescription:
 	db   "An attack that may"
 	next "lower DEFENSE.@"

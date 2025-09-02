@@ -260,6 +260,7 @@ DEF GEN1_MOVES EQU const_value - 1
 	const BEAT_UP      ; fb
 DEF GEN2_MOVES EQU const_value - 1
 	const HAIL
+	const X_SCISSOR
 DEF GEN3_MOVES EQU const_value - 1
 	
 DEF NUM_ATTACKS EQU const_value - 1
