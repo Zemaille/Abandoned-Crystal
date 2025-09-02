@@ -4,6 +4,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_SignalBeam
 	dw BattleAnim_Infestation
 	dw BattleAnim_BugBuzz
+	dw BattleAnim_QuiverDance
 .IndirectEnd::
 
 
@@ -110,3 +111,17 @@ BattleAnim_BugBuzz:
 	anim_obj BATTLE_ANIM_OBJ_WAVE,  8, 0, 11, 0, $2
 	anim_wait 24
 	anim_ret
+
+BattleAnim_QuiverDance:
+	anim_1gfx BATTLE_ANIM_GFX_HIT
+.loop
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $8, $2, $0
+	anim_sound 0, 0, SFX_OUTRAGE
+	anim_bgeffect BATTLE_BG_EFFECT_WAVE_DEFORM_MON, $0, $1, $0
+	anim_wait 16
+	anim_incbgeffect BATTLE_BG_EFFECT_WAVE_DEFORM_MON
+	anim_wait 16
+	anim_loop 3, .loop
+	anim_call BattleAnim_ShowMon_0
+	anim_ret
+

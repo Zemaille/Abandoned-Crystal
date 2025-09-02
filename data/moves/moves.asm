@@ -292,6 +292,7 @@ MovesGen3:
 	move EFFECT_CONFUSE_HIT,        75, BUG,           SPECIAL,  100, 15,  10      ;Signal Beam 
 	move EFFECT_TRAP_TARGET,        20, BUG,           SPECIAL,  100, 20,   0      ;Infestation
 	move EFFECT_SP_DEF_DOWN_HIT,    90, BUG,           SPECIAL,  100, 10,  10	   ;Bug Buzz
+	move EFFECT_QUIVER_DANCE,        0, BUG,           STATUS,   100, 20,   0      ;Quiver Dance
 .IndirectEnd::
 
 

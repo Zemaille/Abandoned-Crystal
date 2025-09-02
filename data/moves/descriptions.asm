@@ -269,6 +269,7 @@ MoveDescriptionsGen3:
 	dw SignalBeamDescription
 	dw InfestationDescription
 	dw BugBuzzDescription
+	dw QuiverDanceDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1273,3 +1274,7 @@ BeatUpDescription:
 HailDescription:
 	db   "Inflicts damage"
 	next "every turn.@"
+
+QuiverDanceDescription:
+	db   "Raises the user's"
+	next "Special and Speed.@"

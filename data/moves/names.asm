@@ -256,4 +256,5 @@ MoveNames::
 	li "Signal Beam"
 	li "Infestation"
 	li "Bug Buzz"
+	li "Quiver Dance"
 	assert_list_length NUM_ATTACKS
