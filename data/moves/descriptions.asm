@@ -268,6 +268,7 @@ MoveDescriptionsGen3:
 	dw XScissorDescription
 	dw SignalBeamDescription
 	dw InfestationDescription
+	dw BugBuzzDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -639,8 +640,9 @@ SignalBeamDescription:
 	next "cause confusion.@"
 
 PsychicMDescription:
+BugBuzzDescription:
 	db   "An attack that may"
-	next "lower SPCL.DEF.@"
+	next "lower Spcl.Def.@"
 
 HypnosisDescription:
 	db   "May put the foe to"

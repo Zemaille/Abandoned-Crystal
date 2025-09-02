@@ -255,4 +255,5 @@ MoveNames::
 	li "X-Sissor"
 	li "Signal Beam"
 	li "Infestation"
+	li "Bug Buzz"
 	assert_list_length NUM_ATTACKS

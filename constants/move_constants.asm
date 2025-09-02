@@ -263,6 +263,7 @@ DEF GEN2_MOVES EQU const_value - 1
 	const X_SCISSOR
 	const SIGNAL_BEAM
 	const INFESTATION
+	const BUG_BUZZ
 DEF GEN3_MOVES EQU const_value - 1
 	
 DEF NUM_ATTACKS EQU const_value - 1

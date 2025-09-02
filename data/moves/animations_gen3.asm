@@ -3,6 +3,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_XScissor
 	dw BattleAnim_SignalBeam
 	dw BattleAnim_Infestation
+	dw BattleAnim_BugBuzz
 .IndirectEnd::
 
 
@@ -81,3 +82,31 @@ BattleAnim_Infestation:
 	anim_wait 128
 	anim_ret
 	
+; Bug Buzz animation from Pokémon Prism
+BattleAnim_BugBuzz:
+	anim_2gfx BATTLE_ANIM_GFX_NOISE, BATTLE_ANIM_GFX_PSYCHIC
+.loop
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $14, $2, $0
+	anim_sound 0, 0, SFX_OUTRAGE
+	anim_wait 8
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $14, $2, $0
+	anim_sound 0, 0, SFX_SNORE
+	anim_call BattleAnimSub_Sound
+	anim_obj BATTLE_ANIM_OBJ_WAVE,  7, 0, 11, 0, $2
+	anim_obj BATTLE_ANIM_OBJ_WAVE,  9, 0, 11, 0, $2
+	anim_wait 4
+	anim_obj BATTLE_ANIM_OBJ_WAVE,  8, 0, 11, 0, $2
+	anim_wait 4
+	anim_sound 0, 0, SFX_SNORE
+	anim_call BattleAnimSub_Sound
+	anim_obj BATTLE_ANIM_OBJ_WAVE,  7, 4, 11, 0, $2
+	anim_obj BATTLE_ANIM_OBJ_WAVE,  8, 4, 11, 0, $2
+	anim_wait 4
+	anim_obj BATTLE_ANIM_OBJ_WAVE,  8, 0, 11, 0, $2
+	anim_wait 4
+	anim_obj BATTLE_ANIM_OBJ_WAVE,  7, 6, 11, 0, $2
+	anim_obj BATTLE_ANIM_OBJ_WAVE,  8, 2, 11, 0, $2
+	anim_wait 4
+	anim_obj BATTLE_ANIM_OBJ_WAVE,  8, 0, 11, 0, $2
+	anim_wait 24
+	anim_ret
