@@ -253,4 +253,5 @@ MoveNames::
 	li "Beat Up"
 	li "Hail"
 	li "X-Sissor"
+	li "Signal Beam"
 	assert_list_length NUM_ATTACKS

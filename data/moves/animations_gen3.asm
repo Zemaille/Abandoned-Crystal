@@ -1,6 +1,7 @@
 BattleAnimationsGen3::
 	dw BattleAnim_Hail
 	dw BattleAnim_XScissor
+	dw BattleAnim_SignalBeam
 .IndirectEnd::
 
 
@@ -57,4 +58,16 @@ BattleAnim_XScissor:
 	anim_bgp $e4
 	anim_ret
 	
+BattleAnim_SignalBeam:
+	anim_1gfx BATTLE_ANIM_GFX_PSYCHIC
+	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
+	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_BGPALS_INVERTED, $0, $4, $0
+.loop
+	anim_sound 6, 2, SFX_PSYBEAM
+	anim_obj BATTLE_ANIM_OBJ_WAVE, 64, 88, $4
+	anim_wait 4
+	anim_loop 10, .loop
+	anim_wait 48
+	anim_ret	
+
 	

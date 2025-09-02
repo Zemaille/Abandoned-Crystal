@@ -266,6 +266,7 @@ MoveDescriptionsGen2:
 MoveDescriptionsGen3:
 	dw HailDescription
 	dw XScissorDescription
+	dw SignalBeamDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -632,6 +633,7 @@ ToxicDescription:
 	next "increasing damage.@"
 
 ConfusionDescription:
+SignalBeamDescription:
 	db   "An attack that may"
 	next "cause confusion.@"
 
