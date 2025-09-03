@@ -284,6 +284,7 @@ MoveDescriptionsGen3:
 	dw WildChargeDescription
 	dw AuraSphereDescription
 	dw FocusBlastDescription
+	dw VacuumWaveDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1013,6 +1014,7 @@ ProtectDescription:
 	next "turn. It may fail.@"
 
 MachPunchDescription:
+VacuumWaveDescription:
 	db   "A fast punch that"
 	next "lands first.@"
 

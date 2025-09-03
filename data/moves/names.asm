@@ -271,4 +271,5 @@ MoveNames::
 	li "Wild Charge"
 	li "Aura Sphere"
 	li "Focus Blast"
+	li "Vacuum Wave"
 	assert_list_length NUM_ATTACKS

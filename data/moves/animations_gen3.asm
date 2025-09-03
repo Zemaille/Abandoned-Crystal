@@ -19,6 +19,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_WildCharge
 	dw BattleAnim_AuraSphere
 	dw BattleAnim_FocusBlast
+	dw BattleAnim_VacuumWave
 .IndirectEnd::
 
 
@@ -383,3 +384,18 @@ BattleAnim_FocusBlast:
 	anim_incbgeffect BATTLE_BG_EFFECT_FADE_MON_TO_LIGHT_REPEATING
 	anim_bgp $e4
 	anim_ret
+
+BattleAnim_VacuumWave:
+	anim_2gfx BATTLE_ANIM_GFX_WIND, BATTLE_ANIM_GFX_HIT
+.loop
+	anim_sound 0, 1, SFX_RAZOR_WIND
+	anim_obj BATTLE_ANIM_OBJ_GUST, 136, 72, $0
+	anim_wait 6
+	anim_loop 9, .loop
+	anim_obj BATTLE_ANIM_OBJ_PUNCH_SHAKE, 144, 64, $18
+	anim_wait 16
+	anim_ret
+
+
+
+

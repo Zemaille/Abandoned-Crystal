@@ -279,6 +279,7 @@ DEF GEN2_MOVES EQU const_value - 1
 	const WILD_CHARGE
 	const AURA_SPHERE
 	const FOCUS_BLAST
+	const VACUUM_WAVE
 DEF GEN3_MOVES EQU const_value - 1
 	
 DEF NUM_ATTACKS EQU const_value - 1
