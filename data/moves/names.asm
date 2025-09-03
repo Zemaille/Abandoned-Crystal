@@ -273,4 +273,5 @@ MoveNames::
 	li "Focus Blast"
 	li "Vacuum Wave"
 	li "Drain Punch"
+	li "Close Combat"
 	assert_list_length NUM_ATTACKS

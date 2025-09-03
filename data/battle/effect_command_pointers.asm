@@ -180,6 +180,7 @@ BattleCommandPointers:
 	dw BattleCommand_SuperEffectiveLoopText
 	dw BattleCommand_StartLoop
 	dw BattleCommand_Curl
+	dw BattleCommand_CloseCombat
 ;==========================
 ;	New Moves Start Here
 ;==========================

@@ -286,6 +286,7 @@ MoveDescriptionsGen3:
 	dw FocusBlastDescription
 	dw VacuumWaveDescription
 	dw DrainPunchDescription
+	dw CloseCombatDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1337,3 +1338,7 @@ FireFangDescription:
 IceFangDescription:
 	db   "Might flinch or"
 	next "freeze.@"
+
+CloseCombatDescription:
+	db	 "An attack that"
+	next "leaves you weak."

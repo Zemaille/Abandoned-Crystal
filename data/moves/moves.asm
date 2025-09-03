@@ -309,6 +309,7 @@ MovesGen3:
 	move EFFECT_SP_DEF_DOWN_HIT,   120, FIGHTING,      SPECIAL,   70,  5,  10      ;Focus Blast
 	move EFFECT_PRIORITY_HIT,       40, FIGHTING,      PHYSICAL, 100, 30,   0      ;Vacuum Wave
 	move EFFECT_LEECH_HIT,          75, FIGHTING,      PHYSICAL, 100, 10,   0      ;Drain Punch
+	move EFFECT_CLOSE_COMBAT,      120, FIGHTING,      PHYSICAL, 100,  5,   0      ;Close Combat
 .IndirectEnd::
 
 
