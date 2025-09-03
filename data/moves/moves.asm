@@ -306,6 +306,7 @@ MovesGen3:
 	move EFFECT_ICE_FANG,           65, ICE,           PHYSICAL,  95, 15,  10      ;Ice Fang
 	move EFFECT_RECOIL_HIT,         90, ELECTRIC,      PHYSICAL, 100, 15,  10      ;Wild Charge
 	move EFFECT_ALWAYS_HIT,         80, FIGHTING,      SPECIAL,  100, 20,  10      ;Aura Sphere
+	move EFFECT_SP_DEF_DOWN_HIT,   120, FIGHTING,      SPECIAL,   70,  5,  10      ;Focus Blast
 .IndirectEnd::
 
 

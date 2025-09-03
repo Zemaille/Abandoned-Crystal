@@ -283,6 +283,7 @@ MoveDescriptionsGen3:
 	dw IceFangDescription
 	dw WildChargeDescription
 	dw AuraSphereDescription
+	dw FocusBlastDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -658,6 +659,7 @@ SignalBeamDescription:
 
 PsychicMDescription:
 BugBuzzDescription:
+FocusBlastDescription:
 	db   "An attack that may"
 	next "lower Spcl.Def.@"
 

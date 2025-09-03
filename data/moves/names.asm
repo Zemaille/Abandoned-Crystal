@@ -270,4 +270,5 @@ MoveNames::
 	li "Ice Fang"
 	li "Wild Charge"
 	li "Aura Sphere"
+	li "Focus Blast"
 	assert_list_length NUM_ATTACKS
