@@ -274,4 +274,6 @@ MoveNames::
 	li "Vacuum Wave"
 	li "Drain Punch"
 	li "Close Combat"
+	li "Flare Blitz"
+	li "Mystic Fire"
 	assert_list_length NUM_ATTACKS

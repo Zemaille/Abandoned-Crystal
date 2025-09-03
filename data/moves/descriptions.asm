@@ -287,6 +287,8 @@ MoveDescriptionsGen3:
 	dw VacuumWaveDescription
 	dw DrainPunchDescription
 	dw CloseCombatDescription
+	dw FlareBlitzDescription
+	dw MysticFireDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1342,3 +1344,13 @@ IceFangDescription:
 CloseCombatDescription:
 	db	 "An attack that"
 	next "leaves you weak."
+
+FlareBlitzDescription:
+	db   "A self-damaging,"
+	next "burning tackle.@"
+
+MysticFireDescription:
+	db   "An attack that will"
+	next "lower Spcl.Atk.@"
+
+

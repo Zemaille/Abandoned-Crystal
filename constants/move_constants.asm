@@ -282,6 +282,8 @@ DEF GEN2_MOVES EQU const_value - 1
 	const VACUUM_WAVE
 	const DRAIN_PUNCH
 	const CLOSE_COMBAT
+	const FLARE_BLITZ
+	const MYSTIC_FIRE
 DEF GEN3_MOVES EQU const_value - 1
 	
 DEF NUM_ATTACKS EQU const_value - 1

@@ -166,4 +166,5 @@ MoveEffectsPointers:
 	dw FireFang
 	dw IceFang
 	dw CloseCombat
+	dw FlareBlitz
 	assert_table_length NUM_MOVE_EFFECTS

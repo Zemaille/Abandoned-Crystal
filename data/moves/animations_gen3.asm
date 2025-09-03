@@ -22,6 +22,8 @@ BattleAnimationsGen3::
 	dw BattleAnim_VacuumWave
 	dw BattleAnim_DrainPunch
 	dw BattleAnim_CloseCombat
+	dw BattleAnim_FlareBlitz
+	dw BattleAnim_MysticFire
 .IndirectEnd::
 
 
@@ -436,6 +438,71 @@ BattleAnim_CloseCombat:
 	anim_wait 6
 	anim_loop 3, .loop
 	anim_ret
+
+BattleAnim_FlareBlitz:
+	anim_1gfx BATTLE_ANIM_GFX_FIRE
+.loop
+	anim_sound 0, 0, SFX_EMBER
+	anim_obj BATTLE_ANIM_OBJ_FLAME_WHEEL,   6, 0,  12, 0, $0
+	anim_wait 6
+	anim_sound 0, 0, SFX_EMBER
+	anim_obj BATTLE_ANIM_OBJ_SACRED_FIRE,   6, 0,  13, 0, $0
+	anim_wait 6
+	anim_loop 4, .loop
+	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
+	anim_bgeffect BATTLE_BG_EFFECT_ALTERNATE_HUES, $0, $2, $0
+	anim_sound 0, 0, SFX_OUTRAGE
+	anim_wait 96
+	anim_bgeffect BATTLE_BG_EFFECT_TACKLE, $0, $1, $0
+	anim_wait 4
+	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $8, $12
+	anim_sound 0, 1, SFX_EMBER
+	anim_obj BATTLE_ANIM_OBJ_FIRE_BLAST, -15, 0,   6, 0, $1
+	anim_obj BATTLE_ANIM_OBJ_FIRE_BLAST, -15, 0,   6, 0, $4
+	anim_obj BATTLE_ANIM_OBJ_FIRE_BLAST, -15, 0,   6, 0, $5
+	anim_obj BATTLE_ANIM_OBJ_FIRE_BLAST, -15, 0,   6, 0, $2
+	anim_obj BATTLE_ANIM_OBJ_FIRE_BLAST, -15, 0,   6, 0, $3
+	anim_wait 4
+	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $8, $12
+	anim_wait 4
+	anim_bgeffect BATTLE_BG_EFFECT_SHOW_MON, $0, $0, $0
+	anim_wait 4
+	anim_incobj 9
+	anim_wait 8
+	anim_ret
+
+BattleAnim_MysticFire:
+	anim_2gfx BATTLE_ANIM_GFX_FIRE, BATTLE_ANIM_GFX_SPEED
+	anim_bgp $f8
+	anim_wait 8
+	anim_sound 6, 2, SFX_SLUDGE_BOMB
+	anim_bgeffect BATTLE_BG_EFFECT_VIBRATE_MON, $0, $0, $0
+	anim_wait 40
+	anim_bgp $1b
+	anim_sound 0, 0, SFX_CURSE
+	anim_bgeffect BATTLE_BG_EFFECT_VIBRATE_MON, $0, $0, $0
+.loop
+	anim_obj BATTLE_ANIM_OBJ_HEX, 136, 72, $6
+	anim_wait 2
+	anim_obj BATTLE_ANIM_OBJ_HEX, 128, 72, $6
+	anim_wait 2
+	anim_obj BATTLE_ANIM_OBJ_BLUE_FLAME, 128, 54, $10
+	anim_obj BATTLE_ANIM_OBJ_HEX, 144, 72, $8
+	anim_wait 2
+	anim_obj BATTLE_ANIM_OBJ_HEX, 120, 72, $8
+	anim_wait 2
+	anim_obj BATTLE_ANIM_OBJ_HEX, 152, 72, $6
+	anim_wait 2
+	anim_obj BATTLE_ANIM_OBJ_BLUE_FLAME, 144, 38, $90
+	anim_obj BATTLE_ANIM_OBJ_HEX, 112, 72, $8
+	anim_wait 2
+	anim_obj BATTLE_ANIM_OBJ_HEX, 160, 72, $8
+	anim_wait 2
+	anim_loop 3, .loop
+	anim_wait 8
+	anim_wait 16
+	anim_ret
+	
 
 
 
