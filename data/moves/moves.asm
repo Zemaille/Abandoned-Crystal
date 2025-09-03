@@ -301,6 +301,9 @@ MovesGen3:
 	move EFFECT_DOUBLE_HIT,         50, DRAGON,        PHYSICAL, 100, 10,   0      ;Dragon Darts
 	move EFFECT_NORMAL_HIT,         80, DRAGON,        PHYSICAL, 100, 15,   0      ;Dragon Claw
 	move EFFECT_DRAGON_DANCE,		 0, DRAGON,        STATUS,   100, 25,   0      ;Dragon Dance
+	move EFFECT_THUNDER_FANG,       65, ELECTRIC,      PHYSICAL,  95, 15,  10      ;Thunder Fang
+	move EFFECT_FIRE_FANG,          65, FIRE,          PHYSICAL,  95, 15,  10      ;Fire Fang
+	move EFFECT_ICE_FANG,           65, ICE,           PHYSICAL,  95, 15,  10      ;Ice Fang
 .IndirectEnd::
 
 

@@ -13,6 +13,9 @@ BattleAnimationsGen3::
 	dw BattleAnim_DragonDarts
 	dw BattleAnim_DragonClaw
 	dw BattleAnim_DragonDance
+	dw BattleAnim_ThunderFang
+	dw BattleAnim_FireFang
+	dw BattleAnim_IceFang
 .IndirectEnd::
 
 
@@ -248,3 +251,25 @@ BattleAnim_DragonClaw:
 	anim_wait 16
 	anim_ret
 
+BattleAnim_ThunderFang:
+	anim_2gfx BATTLE_ANIM_GFX_HIT, BATTLE_ANIM_GFX_LIGHTNING
+	anim_obj BATTLE_ANIM_OBJ_FANG, 136, 56, $43
+	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $8, $2
+	anim_sound 0, 1, SFX_THUNDER
+	anim_obj BATTLE_ANIM_OBJ_THUNDER_RIGHT, 152, 68, $0
+	anim_wait 64
+	anim_ret
+
+BattleAnim_FireFang:
+	anim_2gfx BATTLE_ANIM_GFX_HIT, BATTLE_ANIM_GFX_FIRE
+	anim_obj BATTLE_ANIM_OBJ_FANG, 136, 56, $43
+	anim_call BattleAnimSub_Fire
+	anim_wait 16
+	anim_ret
+
+BattleAnim_IceFang:
+	anim_2gfx BATTLE_ANIM_GFX_HIT, BATTLE_ANIM_GFX_ICE
+	anim_obj BATTLE_ANIM_OBJ_FANG, 136, 56, $43
+	anim_call BattleAnimSub_Ice
+	anim_wait 32
+	anim_ret

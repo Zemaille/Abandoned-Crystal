@@ -162,4 +162,7 @@ MoveEffectsPointers:
 	dw Hail
 	dw QuiverDance
 	dw DragonDance
+	dw ThunderFang
+	dw FireFang
+	dw IceFang
 	assert_table_length NUM_MOVE_EFFECTS

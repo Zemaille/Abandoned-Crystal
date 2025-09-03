@@ -278,6 +278,9 @@ MoveDescriptionsGen3:
 	dw DragonDartsDescription
 	dw DragonClawDescription
 	dw DragonDanceDescription
+	dw ThunderFangDescription
+	dw FireFangDescription
+	dw IceFangDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1312,3 +1315,15 @@ DragonClawDescription:
 DragonDanceDescription:
 	db   "Raises the user's"
 	next "Attack and Speed.@"
+
+ThunderFangDescription:
+	db   "Might flinch or"
+	next "paralyze.@"
+
+FireFangDescription:
+	db   "Might flinch or"
+	next "burn.@"
+	
+IceFangDescription:
+	db   "Might flinch or"
+	next "freeze.@"

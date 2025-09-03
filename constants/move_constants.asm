@@ -273,6 +273,9 @@ DEF GEN2_MOVES EQU const_value - 1
 	const DRAGON_DARTS
 	const DRAGON_CLAW
 	const DRAGON_DANCE
+	const THUNDER_FANG
+	const FIRE_FANG
+	const ICE_FANG
 DEF GEN3_MOVES EQU const_value - 1
 	
 DEF NUM_ATTACKS EQU const_value - 1

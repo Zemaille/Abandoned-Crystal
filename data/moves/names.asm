@@ -265,4 +265,7 @@ MoveNames::
 	li "Dragon Darts"
 	li "Dragon Claw"
 	li "Dragon Dance"
+	li "Thunder Fang"
+	li "Fire Fang"
+	li "Ice Fang"
 	assert_list_length NUM_ATTACKS

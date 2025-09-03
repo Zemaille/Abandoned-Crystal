@@ -144,7 +144,7 @@ if DEF(_DEBUG)
 	; hm slaves
 	givepoke MEW, 30, LEFTOVERS
 	givepoke LANTURN, 100, LEFTOVERS
-	givepokemove DRAGON_DANCE, wPartyMon1, 0
+	givepokemove ICE_FANG, wPartyMon1, 0
 	givepokemove WHIRLPOOL,  wPartyMon1, 1
 	givepokemove FLY,        wPartyMon2, 0
 	givepokemove SURF,       wPartyMon2, 1
