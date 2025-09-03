@@ -274,6 +274,7 @@ MoveDescriptionsGen3:
 	dw DarkPulseDescription
 	dw SnarlDescription
 	dw NightSlashDescription
+	dw DragonPulseDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1292,3 +1293,7 @@ NastyPlotDescription:
 SnarlDescription:
 	db	 "Lowers the foe's"
 	next "Sp.Def.@"
+
+DragonPulseDescription:
+	db   "Attacks foe with"
+	next "a shock wave.@"

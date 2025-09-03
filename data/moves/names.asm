@@ -261,4 +261,5 @@ MoveNames::
 	li "Dark Pulse"
 	li "Snarl"
 	li "Night Slash"
+	li "Dragon Pulse"
 	assert_list_length NUM_ATTACKS

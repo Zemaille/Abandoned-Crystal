@@ -269,6 +269,7 @@ DEF GEN2_MOVES EQU const_value - 1
 	const DARK_PULSE
 	const SNARL
 	const NIGHT_SLASH
+	const DRAGON_PULSE
 DEF GEN3_MOVES EQU const_value - 1
 	
 DEF NUM_ATTACKS EQU const_value - 1
