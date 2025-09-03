@@ -269,4 +269,5 @@ MoveNames::
 	li "Fire Fang"
 	li "Ice Fang"
 	li "Wild Charge"
+	li "Aura Sphere"
 	assert_list_length NUM_ATTACKS

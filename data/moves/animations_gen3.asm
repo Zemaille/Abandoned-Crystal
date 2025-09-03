@@ -17,6 +17,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_FireFang
 	dw BattleAnim_IceFang
 	dw BattleAnim_WildCharge
+	dw BattleAnim_AuraSphere
 .IndirectEnd::
 
 
@@ -296,4 +297,42 @@ BattleAnim_WildCharge:
 	anim_wait 32
 	anim_bgp $e4
 	anim_ret
+
+BattleAnim_AuraSphere:
+	anim_2gfx BATTLE_ANIM_GFX_BEAM, BATTLE_ANIM_GFX_WIND
+	anim_bgeffect BATTLE_BG_EFFECT_FADE_MON_TO_LIGHT_REPEATING, $0, $1, $40
+	anim_obj BATTLE_ANIM_OBJ_AGILITY, 1, 0, 3, 0, $10
+	anim_obj BATTLE_ANIM_OBJ_AGILITY, 1, 0, 6, 0, $2
+	anim_obj BATTLE_ANIM_OBJ_AGILITY, 1, 0, 11, 0, $8
+	anim_wait 4
+	anim_obj BATTLE_ANIM_OBJ_AGILITY, 1, 0, 4, 0, $6
+	anim_obj BATTLE_ANIM_OBJ_AGILITY, 1, 0, 7, 0, $c
+	anim_obj BATTLE_ANIM_OBJ_AGILITY, 1, 0, 10, 0, $4
+	anim_obj BATTLE_ANIM_OBJ_AGILITY, 1, 0, 13, 0, $e
+	anim_sound 0, 0, SFX_RAZOR_WIND
+	anim_wait 32
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $8, $2, $10
+	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
+	anim_sound 0, 0, SFX_SUPER_EFFECTIVE
+	anim_obj BATTLE_ANIM_OBJ_BEAM,  8, 0, 11, 4, $0
+	anim_incobj 8
+	anim_wait 2
+	anim_obj BATTLE_ANIM_OBJ_BEAM, 10, 0, 10, 4, $0
+	anim_incobj 9
+	anim_wait 2
+	anim_obj BATTLE_ANIM_OBJ_BEAM, 12, 0,  9, 4, $0
+	anim_incobj 10
+	anim_wait 2
+	anim_obj BATTLE_ANIM_OBJ_BEAM, 14, 0,  8, 4, $0
+	anim_obj BATTLE_ANIM_OBJ_BEAM_TIP, 15, 6,  7, 6, $0
+	anim_incobj 11
+	anim_incobj 12
+	anim_wait 2
+	anim_obj BATTLE_ANIM_OBJ_BEAM_TIP, 17, 4,  7, 0, $0
+	anim_wait 2
+	anim_incobj 13
+	anim_incbgeffect BATTLE_BG_EFFECT_FADE_MON_TO_LIGHT_REPEATING
+	anim_call BattleAnim_ShowMon_0
+	anim_ret
+
 

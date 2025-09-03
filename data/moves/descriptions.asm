@@ -282,6 +282,7 @@ MoveDescriptionsGen3:
 	dw FireFangDescription
 	dw IceFangDescription
 	dw WildChargeDescription
+	dw AuraSphereDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -797,6 +798,7 @@ ClampDescription:
 	next "2-5 turns.@"
 
 SwiftDescription:
+AuraSphereDescription:
 	db   "An attack that"
 	next "never misses.@"
 
