@@ -284,6 +284,7 @@ DEF GEN2_MOVES EQU const_value - 1
 	const CLOSE_COMBAT
 	const FLARE_BLITZ
 	const MYSTIC_FIRE
+	const WILL_O_WISP
 DEF GEN3_MOVES EQU const_value - 1
 	
 DEF NUM_ATTACKS EQU const_value - 1

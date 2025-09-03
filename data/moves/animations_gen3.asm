@@ -24,6 +24,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_CloseCombat
 	dw BattleAnim_FlareBlitz
 	dw BattleAnim_MysticFire
+	dw BattleAnim_WillOWisp
 .IndirectEnd::
 
 
@@ -503,6 +504,30 @@ BattleAnim_MysticFire:
 	anim_wait 16
 	anim_ret
 	
+BattleAnim_WillOWisp:
+	anim_1gfx BATTLE_ANIM_GFX_FIRE
+	anim_bgp $1b
+	anim_sound 0, 1, SFX_SPITE
+	anim_obj BATTLE_ANIM_OBJ_DRAGON_RAGE, 8, 0, 11, 4, 0
+	anim_wait 48
+.loop
+	anim_sound 0, 0, SFX_SPARK
+	anim_obj BATTLE_ANIM_OBJ_BURNED, 17, 0,  7, 0, $a0
+	anim_obj BATTLE_ANIM_OBJ_BURNED, 17, 0,  7, 0, $20
+	anim_wait 8
+	anim_loop 4, .loop
+	anim_wait 16
+	anim_sound 0, 0, SFX_BURN
+	anim_obj BATTLE_ANIM_OBJ_FIRE_BLAST, 17, 0,  6, 0, $1
+	anim_obj BATTLE_ANIM_OBJ_FIRE_BLAST, 17, 0,  6, 0, $2
+	anim_obj BATTLE_ANIM_OBJ_FIRE_BLAST, 17, 0,  6, 0, $3
+	anim_obj BATTLE_ANIM_OBJ_FIRE_BLAST, 17, 0,  6, 0, $4
+	anim_obj BATTLE_ANIM_OBJ_FIRE_BLAST, 17, 0,  6, 0, $5
+	anim_wait 32
+	anim_bgp $e4
+	anim_ret
+
+
 
 
 

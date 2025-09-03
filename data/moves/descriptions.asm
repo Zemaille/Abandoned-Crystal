@@ -289,6 +289,7 @@ MoveDescriptionsGen3:
 	dw CloseCombatDescription
 	dw FlareBlitzDescription
 	dw MysticFireDescription
+	dw WillOWispDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1352,5 +1353,13 @@ FlareBlitzDescription:
 MysticFireDescription:
 	db   "An attack that will"
 	next "lower Spcl.Atk.@"
+
+WillOWispDescription:
+	db   "A move that may"
+	next "burn the target.@"
+
+
+
+
 
 

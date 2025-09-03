@@ -276,4 +276,5 @@ MoveNames::
 	li "Close Combat"
 	li "Flare Blitz"
 	li "Mystic Fire"
+	li "Will-O-Wisp"
 	assert_list_length NUM_ATTACKS
