@@ -262,4 +262,7 @@ MoveNames::
 	li "Snarl"
 	li "Night Slash"
 	li "Dragon Pulse"
+	li "Dragon Darts"
+	li "Dragon Claw"
+	li "Dragon Dance"
 	assert_list_length NUM_ATTACKS

@@ -270,6 +270,9 @@ DEF GEN2_MOVES EQU const_value - 1
 	const SNARL
 	const NIGHT_SLASH
 	const DRAGON_PULSE
+	const DRAGON_DARTS
+	const DRAGON_CLAW
+	const DRAGON_DANCE
 DEF GEN3_MOVES EQU const_value - 1
 	
 DEF NUM_ATTACKS EQU const_value - 1

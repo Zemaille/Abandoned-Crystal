@@ -298,6 +298,9 @@ MovesGen3:
 	move EFFECT_SP_ATK_DOWN_HIT,    55, DARK,          SPECIAL,   95, 15, 100	   ;Snarl
 	move EFFECT_NORMAL_HIT,         70, DARK,          PHYSICAL, 100, 15,   0      ;Night Slash
 	move EFFECT_NORMAL_HIT,         85, DRAGON,        SPECIAL,  100, 15,   0      ;Dragon Pulse
+	move EFFECT_DOUBLE_HIT,         50, DRAGON,        PHYSICAL, 100, 10,   0      ;Dragon Darts
+	move EFFECT_NORMAL_HIT,         80, DRAGON,        PHYSICAL, 100, 15,   0      ;Dragon Claw
+	move EFFECT_DRAGON_DANCE,		 0, DRAGON,        STATUS,   100, 25,   0      ;Dragon Dance
 .IndirectEnd::
 
 

@@ -10,6 +10,9 @@ BattleAnimationsGen3::
 	dw BattleAnim_Snarl
 	dw BattleAnim_NightSlash
 	dw BattleAnim_DragonPulse
+	dw BattleAnim_DragonDarts
+	dw BattleAnim_DragonClaw
+	dw BattleAnim_DragonDance
 .IndirectEnd::
 
 
@@ -118,6 +121,7 @@ BattleAnim_BugBuzz:
 	anim_ret
 
 BattleAnim_QuiverDance:
+BattleAnim_DragonDance:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 .loop
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $8, $2, $0
@@ -212,3 +216,35 @@ BattleAnim_DragonPulse:
 	anim_wait 1
 	anim_bgp $e4
 	anim_ret
+
+BattleAnim_DragonDarts:
+	anim_2gfx BATTLE_ANIM_GFX_HORN, BATTLE_ANIM_GFX_HIT
+	anim_sound 0, 1, SFX_POISON_STING
+	anim_obj BATTLE_ANIM_OBJ_NEEDLE, 64, 92, $14
+	anim_obj BATTLE_ANIM_OBJ_NEEDLE, 56, 84, $14
+	anim_wait 16
+	anim_sound 0, 1, SFX_POISON_STING
+	anim_obj BATTLE_ANIM_OBJ_HIT_SMALL, 136, 56, $0
+	anim_obj BATTLE_ANIM_OBJ_HIT_SMALL, 128, 48, $0
+	anim_wait 16
+	anim_ret
+
+BattleAnim_DragonClaw:
+	anim_2gfx BATTLE_ANIM_GFX_CUT, BATTLE_ANIM_GFX_FIRE
+	anim_obp0 0, 1, 2, 3
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0
+	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $4, $3
+	anim_sound 0, 1, SFX_CUT
+	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_LEFT, 19, 0,  5, 0, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_LEFT, 18, 4,  4, 4, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_LEFT, 18, 0,  4, 0, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_LEFT, 17, 4,  3, 4, $0
+	anim_wait 8
+	anim_obj BATTLE_ANIM_OBJ_BURNED,  15, 0, 8, 4, 6
+	anim_obj BATTLE_ANIM_OBJ_BURNED,  14, 0, 7, 4, 7
+	anim_obj BATTLE_ANIM_OBJ_BURNED,  13, 0, 6, 4, 8
+	anim_wait 16
+	anim_sound 0, 0, SFX_BURN
+	anim_wait 16
+	anim_ret
+

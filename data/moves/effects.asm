@@ -2100,3 +2100,17 @@ QuiverDance:
 	statupmessage
 	statupfailtext
 	endmove
+
+DragonDance:
+	checkobedience
+	usedmovetext
+	doturn
+	lowersub
+	statupanim
+	raisesub
+	attackup
+	statupmessage
+	speedup
+	statupmessage
+	statupfailtext
+	endmove

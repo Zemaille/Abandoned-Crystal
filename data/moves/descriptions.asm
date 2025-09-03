@@ -275,6 +275,9 @@ MoveDescriptionsGen3:
 	dw SnarlDescription
 	dw NightSlashDescription
 	dw DragonPulseDescription
+	dw DragonDartsDescription
+	dw DragonClawDescription
+	dw DragonDanceDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1297,3 +1300,15 @@ SnarlDescription:
 DragonPulseDescription:
 	db   "Attacks foe with"
 	next "a shock wave.@"
+
+DragonDartsDescription:
+	db   "Pew pew with"
+	next "two Dreepy.@"
+
+DragonClawDescription:
+	db   "Slashes the foe"
+	next "with sharp claws.@"
+
+DragonDanceDescription:
+	db   "Raises the user's"
+	next "Attack and Speed.@"
