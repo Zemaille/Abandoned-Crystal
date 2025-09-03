@@ -16,6 +16,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_ThunderFang
 	dw BattleAnim_FireFang
 	dw BattleAnim_IceFang
+	dw BattleAnim_WildCharge
 .IndirectEnd::
 
 
@@ -273,3 +274,26 @@ BattleAnim_IceFang:
 	anim_call BattleAnimSub_Ice
 	anim_wait 32
 	anim_ret
+
+BattleAnim_WildCharge:
+	anim_2gfx BATTLE_ANIM_GFX_LIGHTNING, BATTLE_ANIM_GFX_EXPLOSION
+	anim_sound 0, 0, SFX_ZAP_CANNON
+	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $4, $3
+	anim_obj BATTLE_ANIM_OBJ_THUNDER_WAVE,   6, 0,  11, 4, $0
+	anim_wait 24
+	anim_setobj $1, $3
+	anim_bgeffect BATTLE_BG_EFFECT_TACKLE, $0, $1, $0
+	anim_sound 0, 0, SFX_SPARK
+	anim_wait 16
+	anim_bgeffect BATTLE_BG_EFFECT_SHOW_MON, $0, $0, $0
+	anim_wait 4
+	anim_incobj 2
+	anim_wait 1
+	anim_bgp $1b
+	anim_sound 0, 1, SFX_THUNDERSHOCK
+	anim_obj BATTLE_ANIM_OBJ_THUNDERBOLT_BALL, -15, 0,   7, 0, $2
+	anim_obj BATTLE_ANIM_OBJ_SPARKS_CIRCLE, -15, 0,   7, 0, $0
+	anim_wait 32
+	anim_bgp $e4
+	anim_ret
+

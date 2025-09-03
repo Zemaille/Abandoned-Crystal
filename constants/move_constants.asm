@@ -276,6 +276,7 @@ DEF GEN2_MOVES EQU const_value - 1
 	const THUNDER_FANG
 	const FIRE_FANG
 	const ICE_FANG
+	const WILD_CHARGE
 DEF GEN3_MOVES EQU const_value - 1
 	
 DEF NUM_ATTACKS EQU const_value - 1

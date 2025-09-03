@@ -304,6 +304,7 @@ MovesGen3:
 	move EFFECT_THUNDER_FANG,       65, ELECTRIC,      PHYSICAL,  95, 15,  10      ;Thunder Fang
 	move EFFECT_FIRE_FANG,          65, FIRE,          PHYSICAL,  95, 15,  10      ;Fire Fang
 	move EFFECT_ICE_FANG,           65, ICE,           PHYSICAL,  95, 15,  10      ;Ice Fang
+	move EFFECT_RECOIL_HIT,         90, ELECTRIC,      PHYSICAL, 100, 15,  10      ;Wild Charge
 .IndirectEnd::
 
 

@@ -281,6 +281,7 @@ MoveDescriptionsGen3:
 	dw ThunderFangDescription
 	dw FireFangDescription
 	dw IceFangDescription
+	dw WildChargeDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -434,6 +435,7 @@ ThrashDescription:
 	next "and confuses user.@"
 
 DoubleEdgeDescription:
+WildChargeDescription:
 	db   "A tackle that also"
 	next "hurts the user.@"
 
