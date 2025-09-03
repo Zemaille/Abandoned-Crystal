@@ -6,6 +6,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_BugBuzz
 	dw BattleAnim_QuiverDance
 	dw BattleAnim_NastyPlot
+	dw BattleAnim_DarkPulse
 .IndirectEnd::
 
 
@@ -139,5 +140,25 @@ BattleAnim_NastyPlot:
 	anim_incbgeffect BATTLE_BG_EFFECT_CYCLE_MON_LIGHT_DARK_REPEATING
 	anim_call BattleAnim_ShowMon_0
 	anim_wait 16
+	anim_ret
+
+BattleAnim_DarkPulse:
+	anim_2gfx BATTLE_ANIM_GFX_HIT, BATTLE_ANIM_GFX_EGG
+	anim_sound 0, 0, SFX_RAGE
+	anim_bgp $1b
+	anim_wait 32
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $60, $2, $0
+.loop
+	anim_sound 0, 0, SFX_AEROBLAST
+	anim_obj BATTLE_ANIM_OBJ_SHADOW_BALL,  7, 6, 11, 4, $2
+	anim_wait 3
+	anim_obj BATTLE_ANIM_OBJ_SHADOW_BALL,  8, 2, 11, 4, $2
+	anim_wait 3
+	anim_loop 8, .loop
+	anim_bgeffect BATTLE_BG_EFFECT_VIBRATE_MON, $0, $0, $0
+	anim_wait 32
+	anim_call BattleAnim_ShowMon_1
+	anim_wait 1
+	anim_bgp $e4
 	anim_ret
 

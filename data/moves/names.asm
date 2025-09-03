@@ -258,4 +258,5 @@ MoveNames::
 	li "Bug Buzz"
 	li "Quiver Dance"
 	li "Nasty Plot"
+	li "Dark Pulse"
 	assert_list_length NUM_ATTACKS

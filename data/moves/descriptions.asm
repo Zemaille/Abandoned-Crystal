@@ -271,6 +271,7 @@ MoveDescriptionsGen3:
 	dw BugBuzzDescription
 	dw QuiverDanceDescription
 	dw NastyPlotDescription
+	dw DarkPulseDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -362,6 +363,7 @@ VineWhipDescription:
 	next "slender vines.@"
 
 StompDescription:
+DarkPulseDescription:
 	db   "An attack that may"
 	next "cause flinching.@"
 
