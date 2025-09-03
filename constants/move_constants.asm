@@ -265,6 +265,7 @@ DEF GEN2_MOVES EQU const_value - 1
 	const INFESTATION
 	const BUG_BUZZ
 	const QUIVER_DANCE
+	const NASTY_PLOT
 DEF GEN3_MOVES EQU const_value - 1
 	
 DEF NUM_ATTACKS EQU const_value - 1

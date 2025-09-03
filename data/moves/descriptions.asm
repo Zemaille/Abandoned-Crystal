@@ -270,6 +270,7 @@ MoveDescriptionsGen3:
 	dw InfestationDescription
 	dw BugBuzzDescription
 	dw QuiverDanceDescription
+	dw NastyPlotDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1278,3 +1279,7 @@ HailDescription:
 QuiverDanceDescription:
 	db   "Raises the user's"
 	next "Special and Speed.@"
+
+NastyPlotDescription:
+	db   "Sharply increases"
+	next "user's Spcl.Atk.@"

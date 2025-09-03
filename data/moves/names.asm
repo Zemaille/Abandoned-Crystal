@@ -257,4 +257,5 @@ MoveNames::
 	li "Infestation"
 	li "Bug Buzz"
 	li "Quiver Dance"
+	li "Nasty Plot"
 	assert_list_length NUM_ATTACKS

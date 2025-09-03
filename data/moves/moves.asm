@@ -293,6 +293,7 @@ MovesGen3:
 	move EFFECT_TRAP_TARGET,        20, BUG,           SPECIAL,  100, 20,   0      ;Infestation
 	move EFFECT_SP_DEF_DOWN_HIT,    90, BUG,           SPECIAL,  100, 10,  10	   ;Bug Buzz
 	move EFFECT_QUIVER_DANCE,        0, BUG,           STATUS,   100, 20,   0      ;Quiver Dance
+	move EFFECT_SP_ATK_UP_2,         0, DARK,          STATUS,   100, 20,   0      ;Nasty Plot
 .IndirectEnd::
 
 
