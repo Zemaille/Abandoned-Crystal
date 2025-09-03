@@ -295,6 +295,7 @@ MovesGen3:
 	move EFFECT_QUIVER_DANCE,        0, BUG,           STATUS,   100, 20,   0      ;Quiver Dance
 	move EFFECT_SP_ATK_UP_2,         0, DARK,          STATUS,   100, 20,   0      ;Nasty Plot
 	move EFFECT_FLINCH_HIT,         80, DARK,          SPECIAL,  100, 10,  50      ;Dark Pulse
+	move EFFECT_SP_ATK_DOWN_HIT,    55, DARK,          SPECIAL,   95, 15, 100	   ;Snarl
 .IndirectEnd::
 
 

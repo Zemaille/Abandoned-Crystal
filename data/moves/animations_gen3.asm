@@ -7,6 +7,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_QuiverDance
 	dw BattleAnim_NastyPlot
 	dw BattleAnim_DarkPulse
+	dw BattleAnim_Snarl
 .IndirectEnd::
 
 
@@ -162,3 +163,17 @@ BattleAnim_DarkPulse:
 	anim_bgp $e4
 	anim_ret
 
+BattleAnim_Snarl:
+	anim_1gfx BATTLE_ANIM_GFX_NOISE
+	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
+	anim_cry $1
+.loop
+	anim_call BattleAnimSub_Sound
+	anim_wait 16
+	anim_loop 3, .loop
+	anim_wait 16
+	anim_if_param_equal $0, .done
+	anim_bgeffect BATTLE_BG_EFFECT_REMOVE_MON, $0, BG_EFFECT_TARGET, $0
+	anim_wait 64
+.done
+	anim_ret

@@ -272,6 +272,7 @@ MoveDescriptionsGen3:
 	dw QuiverDanceDescription
 	dw NastyPlotDescription
 	dw DarkPulseDescription
+	dw SnarlDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1285,3 +1286,7 @@ QuiverDanceDescription:
 NastyPlotDescription:
 	db   "Sharply increases"
 	next "user's Spcl.Atk.@"
+
+SnarlDescription:
+	db	 "Lowers the foe's"
+	next "Sp.Def.@"
