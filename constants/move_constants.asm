@@ -280,6 +280,7 @@ DEF GEN2_MOVES EQU const_value - 1
 	const AURA_SPHERE
 	const FOCUS_BLAST
 	const VACUUM_WAVE
+	const DRAIN_PUNCH
 DEF GEN3_MOVES EQU const_value - 1
 	
 DEF NUM_ATTACKS EQU const_value - 1

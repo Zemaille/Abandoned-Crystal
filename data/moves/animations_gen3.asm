@@ -20,6 +20,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_AuraSphere
 	dw BattleAnim_FocusBlast
 	dw BattleAnim_VacuumWave
+	dw BattleAnim_DrainPunch
 .IndirectEnd::
 
 
@@ -395,6 +396,32 @@ BattleAnim_VacuumWave:
 	anim_obj BATTLE_ANIM_OBJ_PUNCH_SHAKE, 144, 64, $18
 	anim_wait 16
 	anim_ret
+
+BattleAnim_DrainPunch:
+	anim_2gfx BATTLE_ANIM_GFX_SPEED, BATTLE_ANIM_GFX_HIT
+	anim_sound 0, 1, SFX_SUBMISSION
+	anim_obj BATTLE_ANIM_OBJ_PUNCH, 17, 0,  7, 0, $0
+	anim_wait 6
+	anim_sound 0, 1, SFX_PLACE_PUZZLE_PIECE_DOWN
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 17, 0,  7, 0, $0
+	anim_wait 20
+	anim_1gfx BATTLE_ANIM_GFX_CHARGE
+	anim_obj BATTLE_ANIM_OBJ_ABSORB_CENTER, 44, 88, $0
+.loop
+	anim_sound 6, 3, SFX_WATER_GUN
+	anim_obj BATTLE_ANIM_OBJ_ABSORB, 128, 48, $2
+	anim_wait 6
+	anim_sound 6, 3, SFX_WATER_GUN
+	anim_obj BATTLE_ANIM_OBJ_ABSORB, 136, 64, $3
+	anim_wait 6
+	anim_sound 6, 3, SFX_WATER_GUN
+	anim_obj BATTLE_ANIM_OBJ_ABSORB, 136, 32, $4
+	anim_wait 6
+	anim_loop 5, .loop
+	anim_wait 32
+	anim_ret
+
+
 
 
 

@@ -307,7 +307,8 @@ MovesGen3:
 	move EFFECT_RECOIL_HIT,         90, ELECTRIC,      PHYSICAL, 100, 15,  10      ;Wild Charge
 	move EFFECT_ALWAYS_HIT,         80, FIGHTING,      SPECIAL,  100, 20,  10      ;Aura Sphere
 	move EFFECT_SP_DEF_DOWN_HIT,   120, FIGHTING,      SPECIAL,   70,  5,  10      ;Focus Blast
-	move EFFECT_PRIORITY_HIT,       40, FIGHTING,      PHYSICAL, 100,  30,  0      ;Vacuum Wave
+	move EFFECT_PRIORITY_HIT,       40, FIGHTING,      PHYSICAL, 100, 30,   0      ;Vacuum Wave
+	move EFFECT_LEECH_HIT,          75, FIGHTING,      PHYSICAL, 100, 10,   0      ;Drain Punch
 .IndirectEnd::
 
 

@@ -285,6 +285,7 @@ MoveDescriptionsGen3:
 	dw AuraSphereDescription
 	dw FocusBlastDescription
 	dw VacuumWaveDescription
+	dw DrainPunchDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1091,6 +1092,7 @@ SandstormDescription:
 	next "every turn.@"
 
 GigaDrainDescription:
+DrainPunchDescription:
 	db   "Steals 1/2 of the"
 	next "damage inflicted.@"
 

@@ -272,4 +272,5 @@ MoveNames::
 	li "Aura Sphere"
 	li "Focus Blast"
 	li "Vacuum Wave"
+	li "Drain Punch"
 	assert_list_length NUM_ATTACKS
