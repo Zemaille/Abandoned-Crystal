@@ -296,6 +296,7 @@ MovesGen3:
 	move EFFECT_SP_ATK_UP_2,         0, DARK,          STATUS,   100, 20,   0      ;Nasty Plot
 	move EFFECT_FLINCH_HIT,         80, DARK,          SPECIAL,  100, 10,  50      ;Dark Pulse
 	move EFFECT_SP_ATK_DOWN_HIT,    55, DARK,          SPECIAL,   95, 15, 100	   ;Snarl
+	move EFFECT_NORMAL_HIT,         70, DARK,          PHYSICAL, 100, 15,   0      ;Night Slash
 .IndirectEnd::
 
 

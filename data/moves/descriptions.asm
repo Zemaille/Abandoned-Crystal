@@ -273,6 +273,7 @@ MoveDescriptionsGen3:
 	dw NastyPlotDescription
 	dw DarkPulseDescription
 	dw SnarlDescription
+	dw NightSlashDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -284,6 +285,7 @@ PoundDescription:
 
 KarateChopDescription:
 XScissorDescription:
+NightSlashDescription:
 	db   "Has a high criti-"
 	next "cal hit ratio.@"
 

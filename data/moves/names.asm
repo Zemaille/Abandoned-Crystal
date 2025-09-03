@@ -260,4 +260,5 @@ MoveNames::
 	li "Nasty Plot"
 	li "Dark Pulse"
 	li "Snarl"
+	li "Night Slash"
 	assert_list_length NUM_ATTACKS

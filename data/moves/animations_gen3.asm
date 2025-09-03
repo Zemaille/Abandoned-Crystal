@@ -8,6 +8,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_NastyPlot
 	dw BattleAnim_DarkPulse
 	dw BattleAnim_Snarl
+	dw BattleAnim_NightSlash
 .IndirectEnd::
 
 
@@ -176,4 +177,16 @@ BattleAnim_Snarl:
 	anim_bgeffect BATTLE_BG_EFFECT_REMOVE_MON, $0, BG_EFFECT_TARGET, $0
 	anim_wait 64
 .done
+	anim_ret
+
+BattleAnim_NightSlash:
+	anim_1gfx BATTLE_ANIM_GFX_CUT
+	anim_bgp $1b
+	anim_obp0 0, 1, 2, 3
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $60, $2, $0
+	anim_sound 0, 1, SFX_CUT
+	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_LEFT, 19, 0,  5, 0, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_LEFT, 18, 4,  4, 4, $0
+	anim_wait 32
+	anim_bgp $e4
 	anim_ret
