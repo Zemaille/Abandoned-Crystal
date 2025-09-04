@@ -291,6 +291,7 @@ MoveDescriptionsGen3:
 	dw MysticFireDescription
 	dw WillOWispDescription
 	dw BraveBirdDescription
+	dw AirSlashDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -470,6 +471,7 @@ LeerDescription:
 	next "DEFENSE.@"
 
 BiteDescription:
+AirSlashDescription:
 	db   "An attack that may"
 	next "cause flinching.@"
 

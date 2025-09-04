@@ -314,6 +314,7 @@ MovesGen3:
 	move EFFECT_SP_ATK_DOWN_HIT,   	75, FIRE,          SPECIAL,  100, 15, 100      ;Mystic Fire
 	move EFFECT_BURN,                0, FIRE,          STATUS,    85, 15,   0      ;Will-O-Wisp
 	move EFFECT_RECOIL_HIT,        120, FLYING,        PHYSICAL, 100, 15,   0      ;Brave Bird
+	move EFFECT_FLINCH_HIT,         75, FLYING,        SPECIAL,   95, 15,   0      ;Air Slash
 .IndirectEnd::
 
 

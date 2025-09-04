@@ -278,4 +278,5 @@ MoveNames::
 	li "Mystic Fire"
 	li "Will-O-Wisp"
 	li "Brave Bird"
+	li "Air Slash"
 	assert_list_length NUM_ATTACKS
