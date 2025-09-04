@@ -300,6 +300,7 @@ DEF GEN2_MOVES EQU const_value - 1
 	const CHLOROBLAST
 	const LEAF_BLADE
 	const ENERGY_BALL
+	const HORN_LEECH
 DEF GEN3_MOVES EQU const_value - 1
 	
 DEF NUM_ATTACKS EQU const_value - 1

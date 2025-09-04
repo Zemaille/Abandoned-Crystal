@@ -292,4 +292,5 @@ MoveNames::
 	li "Chloroblast"
 	li "Leaf Blade"
 	li "Energy Ball"
+	li "Horn Leech"
 	assert_list_length NUM_ATTACKS

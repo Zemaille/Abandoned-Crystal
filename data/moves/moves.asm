@@ -328,6 +328,7 @@ MovesGen3:
 	move EFFECT_RECOIL_HIT,        150, GRASS,         SPECIAL,  100,  5,   0      ;Chloroblast
 	move EFFECT_NORMAL_HIT,         90, GRASS,         PHYSICAL, 100, 15,   0      ;Leaf Blade
 	move EFFECT_SP_DEF_DOWN_HIT,    90, GRASS,         SPECIAL,  100, 10,  10      ;Energy Ball
+	move EFFECT_LEECH_HIT,          75, GRASS,         PHYSICAL, 100, 10,   0      ;Horn Leech
 .IndirectEnd::
 
 

@@ -305,6 +305,7 @@ MoveDescriptionsGen3:
 	dw ChloroblastDescription
 	dw LeafBladeDescription
 	dw EnergyBallDescription
+	dw HornLeechDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1122,6 +1123,7 @@ SandstormDescription:
 
 GigaDrainDescription:
 DrainPunchDescription:
+HornLeechDescription:
 	db   "Steals 1/2 of the"
 	next "damage inflicted.@"
 

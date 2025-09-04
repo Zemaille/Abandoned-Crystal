@@ -40,6 +40,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_Chloroblast
 	dw BattleAnim_LeafBlade
 	dw BattleAnim_EnergyBall
+	dw BattleAnim_HornLeech
 .IndirectEnd::
 
 
@@ -856,7 +857,38 @@ BattleAnim_EnergyBall:
 	anim_wait 48
 	anim_ret
 
-
+BattleAnim_HornLeech:
+	anim_2gfx BATTLE_ANIM_GFX_HORN, BATTLE_ANIM_GFX_BUBBLE
+	anim_call BattleAnim_TargetObj_1Row
+	anim_obj BATTLE_ANIM_OBJ_HORN, 72, 80, $1
+	anim_wait 16
+	anim_sound 0, 1, SFX_HORN_ATTACK	
+	anim_bgeffect BATTLE_BG_EFFECT_FADE_MONS_TO_BLACK_REPEATING, $0, BG_EFFECT_TARGET, $10
+	anim_sound 6, 3, SFX_GIGA_DRAIN
+	anim_call BattleAnimSub_Drain
+	anim_wait 48
+	anim_wait 128
+	anim_incbgeffect BATTLE_BG_EFFECT_FADE_MONS_TO_BLACK_REPEATING
+	anim_call BattleAnim_ShowMon_0
+	anim_wait 1
+	anim_clearobjs
+	anim_1gfx BATTLE_ANIM_GFX_SHINE
+	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_MID_OBPALS_GRAY_AND_YELLOW, $0, $0, $0
+.loop
+	anim_sound 0, 0, SFX_METRONOME
+	anim_obj BATTLE_ANIM_OBJ_GLIMMER, 24, 64, $0
+	anim_wait 5
+	anim_obj BATTLE_ANIM_OBJ_GLIMMER, 56, 104, $0
+	anim_wait 5
+	anim_obj BATTLE_ANIM_OBJ_GLIMMER, 24, 104, $0
+	anim_wait 5
+	anim_obj BATTLE_ANIM_OBJ_GLIMMER, 56, 64, $0
+	anim_wait 5
+	anim_obj BATTLE_ANIM_OBJ_GLIMMER, 40, 84, $0
+	anim_wait 5
+	anim_loop 2, .loop
+	anim_wait 32
+	anim_ret
 
 
 
