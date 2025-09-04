@@ -300,6 +300,7 @@ MoveDescriptionsGen3:
 	dw HexDescription
 	dw MoonblastDescription
 	dw DisarmVoiceDescription
+	dw DazzleGleamDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1384,4 +1385,7 @@ MoonblastDescription:
 	db   "An attack that may"
 	next "lower Spcl.Atk.@"
 
+DazzleGleamDescription:
+	db   "Dazzles with a"
+	next "powerful flash.@"
 

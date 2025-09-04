@@ -295,6 +295,7 @@ DEF GEN2_MOVES EQU const_value - 1
 	const HEX
 	const MOONBLAST
 	const DISARM_VOICE
+	const DAZZLE_GLEAM
 DEF GEN3_MOVES EQU const_value - 1
 	
 DEF NUM_ATTACKS EQU const_value - 1

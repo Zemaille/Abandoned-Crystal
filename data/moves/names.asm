@@ -287,4 +287,5 @@ MoveNames::
 	li "Hex"
 	li "Moonblast"
 	li "Disarm Voice"
+	li "Dazzle Gleam"
 	assert_list_length NUM_ATTACKS
