@@ -25,6 +25,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_FlareBlitz
 	dw BattleAnim_MysticFire
 	dw BattleAnim_WillOWisp
+	dw BattleAnim_BraveBird
 .IndirectEnd::
 
 
@@ -527,7 +528,23 @@ BattleAnim_WillOWisp:
 	anim_bgp $e4
 	anim_ret
 
-
+BattleAnim_BraveBird:
+	anim_1gfx BATTLE_ANIM_GFX_SKY_ATTACK
+	anim_bgeffect BATTLE_BG_EFFECT_REMOVE_MON, $0, $1, $0
+	anim_wait 32
+	anim_sound 0, 0, SFX_HYPER_BEAM
+	anim_obj BATTLE_ANIM_OBJ_SKY_ATTACK,   6, 0,  11, 0, $40
+	anim_wait 64
+	anim_incobj 1
+	anim_wait 21
+	anim_sound 0, 1, SFX_HYPER_BEAM
+	anim_bgeffect BATTLE_BG_EFFECT_ALTERNATE_HUES, $0, $2, $0
+	anim_wait 64
+	anim_incobj 1
+	anim_wait 32
+	anim_bgeffect BATTLE_BG_EFFECT_SHOW_MON, $0, $1, $0
+	anim_wait 16
+	anim_ret
 
 
 

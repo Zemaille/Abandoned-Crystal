@@ -312,7 +312,8 @@ MovesGen3:
 	move EFFECT_CLOSE_COMBAT,      120, FIGHTING,      PHYSICAL, 100,  5,   0      ;Close Combat
 	move EFFECT_FLARE_BLITZ,       120, FIRE,          PHYSICAL, 100, 15,  10      ;Flare Blitz
 	move EFFECT_SP_ATK_DOWN_HIT,   	75, FIRE,          SPECIAL,  100, 15, 100      ;Mystic Fire
-	move EFFECT_BURN,                0, FIRE,          STATUS,    85, 15,   0      ; Will-O-Wisp
+	move EFFECT_BURN,                0, FIRE,          STATUS,    85, 15,   0      ;Will-O-Wisp
+	move EFFECT_RECOIL_HIT,        120, FLYING,        PHYSICAL, 100, 15,   0      ;Brave Bird
 .IndirectEnd::
 
 

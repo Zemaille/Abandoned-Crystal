@@ -290,6 +290,7 @@ MoveDescriptionsGen3:
 	dw FlareBlitzDescription
 	dw MysticFireDescription
 	dw WillOWispDescription
+	dw BraveBirdDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -435,6 +436,7 @@ WrapDescription:
 	next "for 2-5 turns.@"
 
 TakeDownDescription:
+BraveBirdDescription:
 	db   "A tackle that also"
 	next "hurts the user.@"
 
