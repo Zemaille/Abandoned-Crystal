@@ -294,6 +294,7 @@ MoveDescriptionsGen3:
 	dw AirSlashDescription
 	dw AirCutterDescription
 	dw HurricaneDescription
+	dw AerialAceDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -815,6 +816,7 @@ ClampDescription:
 
 SwiftDescription:
 AuraSphereDescription:
+AerialAceDescription:
 	db   "An attack that"
 	next "never misses.@"
 

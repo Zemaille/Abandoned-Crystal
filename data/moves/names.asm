@@ -281,4 +281,5 @@ MoveNames::
 	li "Air Slash"
 	li "Air Cutter"
 	li "Hurricane"
+	li "Aerial Ace"
 	assert_list_length NUM_ATTACKS

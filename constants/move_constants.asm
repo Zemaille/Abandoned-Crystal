@@ -289,6 +289,7 @@ DEF GEN2_MOVES EQU const_value - 1
 	const AIR_SLASH
 	const AIR_CUTTER
 	const HURRICANE
+	const AERIAL_ACE
 DEF GEN3_MOVES EQU const_value - 1
 	
 DEF NUM_ATTACKS EQU const_value - 1
