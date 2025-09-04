@@ -99,7 +99,8 @@ DoBattleAnimFrame:
 	dba BattleAnimFunc_RockSmash
 	dba BattleAnimFunc_Cotton
 ;new functions
-	dba BattleAnimFunc_AirCutter	
+	dba BattleAnimFunc_AirCutter
+	dba BattleAnimFunc_Moon
 	assert_table_length NUM_BATTLE_ANIM_FUNCS
 
 PUSHS ; push the current section onto the stack.
@@ -4187,5 +4188,91 @@ BattleAnimFunc_AirCutter:
 	add hl, bc
 	ld a, [hl]
 	jmp BattleAnim_StepToTarget
+
+SECTION "BattleAnimFunc_Moon", ROMX
+
+BattleAnimFunc_Moon:
+	call BattleAnim_AnonJumptable
+.anon_dw
+	dw Function306
+	dw Function330
+	dw Function34c
+
+Function306:
+	ld hl, BATTLEANIMSTRUCT_YOFFSET
+	add hl, bc
+	ld a, [hl]
+	cp $e0
+	jr nz, .asm_ce319
+	call BattleAnim_IncAnonJumptableIndex
+	ld hl, BATTLEANIMSTRUCT_VAR1
+	add hl, bc
+	ld [hl], $2
+	ret
+.asm_ce319
+	ld d, a
+	ld hl, BATTLEANIMSTRUCT_VAR1
+	add hl, bc
+	ld e, [hl]
+	ld hl, -$80
+	add hl, de
+	ld e, l
+	ld d, h
+	ld hl, BATTLEANIMSTRUCT_YOFFSET
+	add hl, bc
+	ld [hl], d
+	ld hl, BATTLEANIMSTRUCT_VAR1
+	add hl, bc
+	ld [hl], e
+	ret
+
+Function330:
+	ld hl, BATTLEANIMSTRUCT_VAR2
+	add hl, bc
+	ld a, [hl]
+	and a
+	jr z, .asm_ce33a
+	dec [hl]
+	ret
+.asm_ce33a
+	ld [hl], $4
+	ld hl, BATTLEANIMSTRUCT_VAR1
+	add hl, bc
+	ld a, [hl]
+	cpl
+	inc a
+	ld [hl], a
+	ld hl, BATTLEANIMSTRUCT_YOFFSET
+	add hl, bc
+	add [hl]
+	ld [hl], a
+	ret
+
+Function34c:
+	ld hl, BATTLEANIMSTRUCT_XCOORD
+	add hl, bc
+	ld a, [hl]
+	cp $84
+	jr nc, .asm_ce35b
+	ld a, $4
+	call Function70a
+.asm_ce35b
+	call DeinitBattleAnimation	
+
+Function70a:
+	and $f
+	ld e, a
+	ld hl, BATTLEANIMSTRUCT_XCOORD
+	add hl, bc
+	add [hl]
+	ld [hl], a
+	srl e
+	ld hl, BATTLEANIMSTRUCT_YCOORD
+	add hl, bc
+.asm_ce719
+	dec [hl]
+	dec e
+	jr nz, .asm_ce719
+	ret
 
 POPS ; restore the original section from the stack

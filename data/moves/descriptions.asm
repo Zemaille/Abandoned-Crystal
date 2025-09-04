@@ -298,6 +298,7 @@ MoveDescriptionsGen3:
 	dw ShadowClawDescription
 	dw AstonishDescription
 	dw HexDescription
+	dw MoonblastDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1327,7 +1328,7 @@ NastyPlotDescription:
 
 SnarlDescription:
 	db	 "Lowers the foe's"
-	next "Sp.Def.@"
+	next "Sp.Atk.@"
 
 DragonPulseDescription:
 	db   "Attacks foe with"
@@ -1377,7 +1378,8 @@ HexDescription:
 	db	 "Doubles damage if"
 	next "foe is statused.@"
 
-
-
+MoonblastDescription:
+	db   "An attack that may"
+	next "lower Spcl.Atk.@"
 
 

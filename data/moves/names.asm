@@ -285,4 +285,5 @@ MoveNames::
 	li "Shadow Claw"
 	li "Astonish"
 	li "Hex"
+	li "Moonblast"
 	assert_list_length NUM_ATTACKS
