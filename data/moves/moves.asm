@@ -319,6 +319,7 @@ MovesGen3:
 	move EFFECT_HURRICANE,         110, FLYING,        SPECIAL,   70, 10,   0      ;Hurricane
 	move EFFECT_ALWAYS_HIT,         60, FLYING,        PHYSICAL, 100, 20,   0      ;Aerial Ace
 	move EFFECT_NORMAL_HIT,         70, GHOST,         PHYSICAL, 100, 15,   0      ;Shadow Claw
+	move EFFECT_FLINCH_HIT,         40, GHOST,         PHYSICAL, 100, 15,  30      ;Astonish
 .IndirectEnd::
 
 

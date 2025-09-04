@@ -296,6 +296,7 @@ MoveDescriptionsGen3:
 	dw HurricaneDescription
 	dw AerialAceDescription
 	dw ShadowClawDescription
+	dw AstonishDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -391,6 +392,7 @@ VineWhipDescription:
 
 StompDescription:
 DarkPulseDescription:
+AstonishDescription:
 	db   "An attack that may"
 	next "cause flinching.@"
 

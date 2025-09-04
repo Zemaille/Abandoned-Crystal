@@ -9,4 +9,5 @@ CriticalHitMoves:
 	dw X_SCISSOR
 	dw NIGHT_SLASH
 	dw AIR_CUTTER
+	dw SHADOW_CLAW
 	dw -1

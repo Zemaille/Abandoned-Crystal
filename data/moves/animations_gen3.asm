@@ -31,6 +31,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_Hurricane
 	dw BattleAnim_AerialAce
 	dw BattleAnim_ShadowClaw
+	dw BattleAnim_Astonish
 .IndirectEnd::
 
 
@@ -662,7 +663,17 @@ BattleAnim_ShadowClaw:
 	anim_wait 4
 	anim_ret
 
-
+BattleAnim_Astonish:
+	anim_1gfx BATTLE_ANIM_GFX_HIT
+	anim_bgeffect BATTLE_BG_EFFECT_TACKLE, $0, $1, $0
+	anim_wait 4
+	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $4, $2
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $2, $2, $0
+	anim_sound 0, 1, SFX_KINESIS_2
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 16, 0,  6, 0, $0
+	anim_wait 16
+	anim_call BattleAnim_ShowMon_0
+	anim_ret
 
 
 
