@@ -280,4 +280,5 @@ MoveNames::
 	li "Brave Bird"
 	li "Air Slash"
 	li "Air Cutter"
+	li "Hurricane"
 	assert_list_length NUM_ATTACKS

@@ -293,6 +293,7 @@ MoveDescriptionsGen3:
 	dw BraveBirdDescription
 	dw AirSlashDescription
 	dw AirCutterDescription
+	dw HurricaneDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -666,6 +667,7 @@ ToxicDescription:
 
 ConfusionDescription:
 SignalBeamDescription:
+HurricaneDescription:
 	db   "An attack that may"
 	next "cause confusion.@"
 

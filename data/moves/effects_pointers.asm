@@ -168,4 +168,5 @@ MoveEffectsPointers:
 	dw CloseCombat
 	dw FlareBlitz
 	dw Burn
+	dw Hurricane
 	assert_table_length NUM_MOVE_EFFECTS

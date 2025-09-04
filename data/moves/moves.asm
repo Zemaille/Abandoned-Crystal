@@ -316,6 +316,7 @@ MovesGen3:
 	move EFFECT_RECOIL_HIT,        120, FLYING,        PHYSICAL, 100, 15,   0      ;Brave Bird
 	move EFFECT_FLINCH_HIT,         75, FLYING,        SPECIAL,   95, 15,   0      ;Air Slash
 	move EFFECT_NORMAL_HIT,         60, FLYING,        SPECIAL,   95, 25,   0      ;Air Cutter
+	move EFFECT_HURRICANE,         110, FLYING,        SPECIAL,   70, 10,   0      ;Hurricane
 .IndirectEnd::
 
 
