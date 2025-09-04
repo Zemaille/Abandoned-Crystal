@@ -290,4 +290,5 @@ MoveNames::
 	li "Dazzle Gleam"
 	li "Play Rough"
 	li "Chloroblast"
+	li "Leaf Blade"
 	assert_list_length NUM_ATTACKS

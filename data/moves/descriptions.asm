@@ -303,6 +303,7 @@ MoveDescriptionsGen3:
 	dw DazzleGleamDescription
 	dw PlayRoughDescription
 	dw ChloroblastDescription
+	dw LeafBladeDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -317,6 +318,7 @@ XScissorDescription:
 NightSlashDescription:
 AirCutterDescription:
 ShadowClawDescription:
+LeafBladeDescription:
 	db   "Has a high criti-"
 	next "cal hit ratio.@"
 

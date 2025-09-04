@@ -187,7 +187,9 @@ BattleAnimFrameData:
 	dw .Frameset_EnemyFeet2Row       ; BATTLE_ANIM_FRAMESET_ENEMYFEET_2ROW
 	dw .Frameset_PlayerHead2Row      ; BATTLE_ANIM_FRAMESET_PLAYERHEAD_2ROW
 	dw .Frameset_AirCutter           ; BATTLE_ANIM_FRAMESET_AIR_CUTTER
-	dw .Frameset_NewBlast           ; BATTLE_ANIM_FRAMESET_NEW_BLAST
+	dw .Frameset_NewBlast            ; BATTLE_ANIM_FRAMESET_NEW_BLAST
+	dw .Frameset_CutLongUpRight      ; BATTLE_ANIM_FRAMESET_CUT_LONG_UP_RIGHT
+	dw .Frameset_CutLongUpLeft       ; BATTLE_ANIM_FRAMESET_CUT_LONG_UP_LEFT
 	assert_table_length NUM_BATTLE_ANIM_FRAMESETS
 
 .Frameset_HitBig:
@@ -1281,3 +1283,36 @@ BattleAnimFrameData:
 .Frameset_NewBlast:
 	frame BATTLE_ANIM_OAMSET_54, 40
 	oamend
+
+.Frameset_CutLongUpRight:
+	battleoamframe BATTLE_ANIM_OAMSET_4B,  1, OAM_X_FLIP, OAM_Y_FLIP
+	battleoamframe BATTLE_ANIM_OAMSET_4C,  1, OAM_X_FLIP, OAM_Y_FLIP
+	battleoamframe BATTLE_ANIM_OAMSET_4D,  1, OAM_X_FLIP, OAM_Y_FLIP
+	battleoamframe BATTLE_ANIM_OAMSET_4F,  1, OAM_X_FLIP, OAM_Y_FLIP
+	battleoamframe BATTLE_ANIM_OAMSET_50,  1, OAM_X_FLIP, OAM_Y_FLIP
+	battleoamframe BATTLE_ANIM_OAMSET_51,  1, OAM_X_FLIP, OAM_Y_FLIP
+	battleoamframe BATTLE_ANIM_OAMSET_52,  2, OAM_X_FLIP, OAM_Y_FLIP
+	battleoamwait 2
+	battleoamframe BATTLE_ANIM_OAMSET_52,  2, OAM_X_FLIP, OAM_Y_FLIP
+	battleoamwait 2
+	battleoamframe BATTLE_ANIM_OAMSET_52,  2, OAM_X_FLIP, OAM_Y_FLIP
+	battleoamwait 2
+	battleoamframe BATTLE_ANIM_OAMSET_52,  2, OAM_X_FLIP, OAM_Y_FLIP
+	battleoamdelete
+
+.Frameset_CutLongUpLeft:
+	battleoamframe BATTLE_ANIM_OAMSET_4B,  1, OAM_Y_FLIP
+	battleoamframe BATTLE_ANIM_OAMSET_4C,  1, OAM_Y_FLIP
+	battleoamframe BATTLE_ANIM_OAMSET_4D,  1, OAM_Y_FLIP
+	battleoamframe BATTLE_ANIM_OAMSET_4F,  1, OAM_Y_FLIP
+	battleoamframe BATTLE_ANIM_OAMSET_50,  1, OAM_Y_FLIP
+	battleoamframe BATTLE_ANIM_OAMSET_51,  1, OAM_Y_FLIP
+	battleoamframe BATTLE_ANIM_OAMSET_52,  2, OAM_Y_FLIP
+	battleoamwait 2
+	battleoamframe BATTLE_ANIM_OAMSET_52,  2, OAM_Y_FLIP
+	battleoamwait 2
+	battleoamframe BATTLE_ANIM_OAMSET_52,  2, OAM_Y_FLIP
+	battleoamwait 2
+	battleoamframe BATTLE_ANIM_OAMSET_52,  2, OAM_Y_FLIP
+	battleoamdelete
+

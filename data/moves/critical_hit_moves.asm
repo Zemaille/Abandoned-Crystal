@@ -10,4 +10,5 @@ CriticalHitMoves:
 	dw NIGHT_SLASH
 	dw AIR_CUTTER
 	dw SHADOW_CLAW
+	dw LEAF_BLADE
 	dw -1
