@@ -299,6 +299,7 @@ MoveDescriptionsGen3:
 	dw AstonishDescription
 	dw HexDescription
 	dw MoonblastDescription
+	dw DisarmVoiceDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -823,6 +824,7 @@ ClampDescription:
 SwiftDescription:
 AuraSphereDescription:
 AerialAceDescription:
+DisarmVoiceDescription:
 	db   "An attack that"
 	next "never misses.@"
 

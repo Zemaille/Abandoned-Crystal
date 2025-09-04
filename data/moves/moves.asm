@@ -322,6 +322,7 @@ MovesGen3:
 	move EFFECT_FLINCH_HIT,         40, GHOST,         PHYSICAL, 100, 15,  30      ;Astonish
 	move EFFECT_HEX,                65, GHOST,         SPECIAL,  100, 10,   0      ;Hex
 	move EFFECT_SP_ATK_DOWN_HIT,    95, FAIRY,         SPECIAL,  100, 15,  10      ;Moonblast
+	move EFFECT_ALWAYS_HIT,         40, FAIRY,         SPECIAL,  100, 15,   0      ;Disarm Voice
 .IndirectEnd::
 
 

@@ -34,6 +34,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_Astonish
 	dw BattleAnim_Hex
 	dw BattleAnim_Moonblast
+	dw BattleAnim_DisarmVoice
 .IndirectEnd::
 
 
@@ -711,4 +712,28 @@ BattleAnim_Moonblast:
 	anim_obj BATTLE_ANIM_OBJ_GLIMMER, 144, 68, $0
 	anim_wait 21
 	anim_ret
+
+BattleAnim_DisarmVoice:
+	anim_1gfx BATTLE_ANIM_GFX_PSYCHIC
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $8, $1, $20
+	anim_sound 6, 2, SFX_METRONOME
+.loop
+	anim_obj BATTLE_ANIM_OBJ_WAVE,   8, 0,  11, 0, $2
+	anim_wait 2
+	anim_loop 2, .loop
+	anim_wait 48
+.loop2
+	anim_1gfx BATTLE_ANIM_GFX_OBJECTS
+	anim_obj BATTLE_ANIM_OBJ_HEART,   16, 0,   7, 0, $0
+	anim_sound 0, 0, SFX_SWEET_KISS
+	anim_wait 24
+	anim_sound 0, 0, SFX_SWEET_KISS
+	anim_obj BATTLE_ANIM_OBJ_HEART,   16, 12,   7, 0, $0
+	anim_loop 2, .loop2
+	anim_wait 32
+	anim_ret
+
+
+
+
 

@@ -294,6 +294,7 @@ DEF GEN2_MOVES EQU const_value - 1
 	const ASTONISH
 	const HEX
 	const MOONBLAST
+	const DISARM_VOICE
 DEF GEN3_MOVES EQU const_value - 1
 	
 DEF NUM_ATTACKS EQU const_value - 1
