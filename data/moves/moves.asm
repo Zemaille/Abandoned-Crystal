@@ -324,6 +324,8 @@ MovesGen3:
 	move EFFECT_SP_ATK_DOWN_HIT,    95, FAIRY,         SPECIAL,  100, 15,  10      ;Moonblast
 	move EFFECT_ALWAYS_HIT,         40, FAIRY,         SPECIAL,  100, 15,   0      ;Disarm Voice
 	move EFFECT_NORMAL_HIT,         80, FAIRY,         SPECIAL,  100, 10,   0      ;Dazzle Gleam
+	move EFFECT_ATTACK_DOWN_HIT,    90, FAIRY,         PHYSICAL,  90, 10,   0      ;Play Rough
+	move EFFECT_RECOIL_HIT,        150, GRASS,         SPECIAL,  100,  5,   0      ;Chloroblast
 .IndirectEnd::
 
 

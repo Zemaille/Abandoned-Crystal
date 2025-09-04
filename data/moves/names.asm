@@ -288,4 +288,6 @@ MoveNames::
 	li "Moonblast"
 	li "Disarm Voice"
 	li "Dazzle Gleam"
+	li "Play Rough"
+	li "Chloroblast"
 	assert_list_length NUM_ATTACKS

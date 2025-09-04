@@ -301,6 +301,8 @@ MoveDescriptionsGen3:
 	dw MoonblastDescription
 	dw DisarmVoiceDescription
 	dw DazzleGleamDescription
+	dw PlayRoughDescription
+	dw ChloroblastDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1389,3 +1391,10 @@ DazzleGleamDescription:
 	db   "Dazzles with a"
 	next "powerful flash.@"
 
+PlayRoughDescription:
+	db   "A tackle that may"
+	next "reduce Attack.@"
+
+ChloroblastDescription:
+	db   "A beam that also"
+	next "hurts the user.@"
