@@ -181,6 +181,7 @@ BattleCommandPointers:
 	dw BattleCommand_StartLoop
 	dw BattleCommand_Curl
 	dw BattleCommand_CloseCombat
+	dw BattleCommand_Hex
 ;==========================
 ;	New Moves Start Here
 ;==========================

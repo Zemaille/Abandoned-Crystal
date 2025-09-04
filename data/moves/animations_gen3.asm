@@ -32,6 +32,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_AerialAce
 	dw BattleAnim_ShadowClaw
 	dw BattleAnim_Astonish
+	dw BattleAnim_Hex
 .IndirectEnd::
 
 
@@ -675,6 +676,11 @@ BattleAnim_Astonish:
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
-
+BattleAnim_Hex:
+	anim_1gfx BATTLE_ANIM_GFX_ANGELS
+	anim_obj BATTLE_ANIM_OBJ_SPITE, 132, 16, $0
+	anim_sound 0, 1, SFX_SPITE
+	anim_wait 96
+	anim_ret
 
 

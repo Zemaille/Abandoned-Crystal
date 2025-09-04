@@ -181,6 +181,7 @@ ENDM
 	command startloop               ; ae
 	command curl                    ; af
 	command closecombat
+	command hex
 
 	;==========================
 	;	New Moves Start Here

@@ -297,6 +297,7 @@ MoveDescriptionsGen3:
 	dw AerialAceDescription
 	dw ShadowClawDescription
 	dw AstonishDescription
+	dw HexDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1372,6 +1373,9 @@ WillOWispDescription:
 	db   "A move that may"
 	next "burn the target.@"
 
+HexDescription:
+	db	 "Doubles damage if"
+	next "foe is statused.@"
 
 
 

@@ -284,4 +284,5 @@ MoveNames::
 	li "Aerial Ace"
 	li "Shadow Claw"
 	li "Astonish"
+	li "Hex"
 	assert_list_length NUM_ATTACKS
