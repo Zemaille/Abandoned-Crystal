@@ -299,6 +299,7 @@ DEF GEN2_MOVES EQU const_value - 1
 	const PLAY_ROUGH
 	const CHLOROBLAST
 	const LEAF_BLADE
+	const ENERGY_BALL
 DEF GEN3_MOVES EQU const_value - 1
 	
 DEF NUM_ATTACKS EQU const_value - 1

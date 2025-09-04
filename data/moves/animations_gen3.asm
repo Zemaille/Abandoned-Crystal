@@ -39,6 +39,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_PlayRough
 	dw BattleAnim_Chloroblast
 	dw BattleAnim_LeafBlade
+	dw BattleAnim_EnergyBall
 .IndirectEnd::
 
 
@@ -834,6 +835,26 @@ BattleAnim_LeafBlade:
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $08, $2, $0
 	anim_ret
 
+BattleAnim_EnergyBall: 
+	anim_1gfx BATTLE_ANIM_GFX_CHARGE
+	anim_sound 0, 0, SFX_CHARGE
+	anim_obj BATTLE_ANIM_OBJ_ABSORB_CENTER, 48, 84, $0
+	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE, 48, 84, $0
+	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE, 48, 84, $8
+	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE, 48, 84, $10
+	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE, 48, 84, $18
+	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE, 48, 84, $20
+	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE, 48, 84, $28
+	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE, 48, 84, $30
+	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE, 48, 84, $38
+	anim_wait 104
+	anim_bgeffect BATTLE_BG_EFFECT_FLASH_WHITE, $0, $4, $2
+	anim_wait 64
+	anim_1gfx BATTLE_ANIM_GFX_BEAM
+	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
+	anim_call BattleAnimSub_Beam
+	anim_wait 48
+	anim_ret
 
 
 

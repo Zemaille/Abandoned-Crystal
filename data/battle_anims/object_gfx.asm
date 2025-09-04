@@ -49,5 +49,6 @@ AnimObjGFX:
 	anim_obj_gfx 24, AnimObjAeroblastGFX
 	anim_obj_gfx  1, NULL
 	anim_obj_gfx  1, NULL
+;new gfx
 	anim_obj_gfx 16, AnimObjMoonGFX
 	assert_table_length NUM_BATTLE_ANIM_GFX + 1

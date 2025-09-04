@@ -304,6 +304,7 @@ MoveDescriptionsGen3:
 	dw PlayRoughDescription
 	dw ChloroblastDescription
 	dw LeafBladeDescription
+	dw EnergyBallDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -687,6 +688,7 @@ HurricaneDescription:
 PsychicMDescription:
 BugBuzzDescription:
 FocusBlastDescription:
+EnergyBallDescription:
 	db   "An attack that may"
 	next "lower Spcl.Def.@"
 

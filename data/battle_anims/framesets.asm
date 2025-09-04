@@ -1315,4 +1315,3 @@ BattleAnimFrameData:
 	battleoamwait 2
 	battleoamframe BATTLE_ANIM_OAMSET_52,  2, OAM_Y_FLIP
 	battleoamdelete
-

@@ -291,4 +291,5 @@ MoveNames::
 	li "Play Rough"
 	li "Chloroblast"
 	li "Leaf Blade"
+	li "Energy Ball"
 	assert_list_length NUM_ATTACKS
