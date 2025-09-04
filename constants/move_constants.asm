@@ -287,6 +287,7 @@ DEF GEN2_MOVES EQU const_value - 1
 	const WILL_O_WISP
 	const BRAVE_BIRD
 	const AIR_SLASH
+	const AIR_CUTTER
 DEF GEN3_MOVES EQU const_value - 1
 	
 DEF NUM_ATTACKS EQU const_value - 1

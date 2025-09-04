@@ -292,6 +292,7 @@ MoveDescriptionsGen3:
 	dw WillOWispDescription
 	dw BraveBirdDescription
 	dw AirSlashDescription
+	dw AirCutterDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -304,6 +305,7 @@ PoundDescription:
 KarateChopDescription:
 XScissorDescription:
 NightSlashDescription:
+AirCutterDescription:
 	db   "Has a high criti-"
 	next "cal hit ratio.@"
 

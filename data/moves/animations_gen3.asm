@@ -27,6 +27,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_WillOWisp
 	dw BattleAnim_BraveBird
 	dw BattleAnim_AirSlash
+	dw BattleAnim_AirCutter
 .IndirectEnd::
 
 
@@ -571,7 +572,21 @@ BattleAnim_AirSlash:
 	anim_wait 24
 	anim_ret
 	
-	
+BattleAnim_AirCutter:
+	anim_2gfx BATTLE_ANIM_GFX_WIND, BATTLE_ANIM_GFX_HIT
+.loop
+	anim_sound 0, 1, SFX_RAZOR_WIND
+	anim_obj BATTLE_ANIM_OBJ_GUST, 136, 72, $0
+	anim_wait 6
+	anim_loop 9, .loop
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 144, 64, $18
+	anim_wait 8
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 128, 32, $18
+	anim_wait 16
+	anim_ret
+
+
+
 	
 
 
