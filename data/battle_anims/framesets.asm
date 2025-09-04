@@ -186,6 +186,7 @@ BattleAnimFrameData:
 	dw .Frameset_PlayerHead1Row      ; BATTLE_ANIM_FRAMESET_PLAYERHEAD_1ROW
 	dw .Frameset_EnemyFeet2Row       ; BATTLE_ANIM_FRAMESET_ENEMYFEET_2ROW
 	dw .Frameset_PlayerHead2Row      ; BATTLE_ANIM_FRAMESET_PLAYERHEAD_2ROW
+	dw .Frameset_AirCutter           ; BATTLE_ANIM_FRAMESET_AIR_CUTTER
 	assert_table_length NUM_BATTLE_ANIM_FRAMESETS
 
 .Frameset_HitBig:
@@ -1268,3 +1269,11 @@ BattleAnimFrameData:
 .Frameset_PlayerHead2Row:
 	battleoamframe BATTLE_ANIM_OAMSET_D7,  8
 	battleoamend
+
+.Frameset_AirCutter:
+	battleoamframe BATTLE_ANIM_OAMSET_57,  1, OAM_X_FLIP, OAM_Y_FLIP
+	battleoamframe BATTLE_ANIM_OAMSET_58,  1, OAM_X_FLIP, OAM_Y_FLIP
+	battleoamframe BATTLE_ANIM_OAMSET_57,  1
+	battleoamframe BATTLE_ANIM_OAMSET_58,  1
+	battleoamrestart
+

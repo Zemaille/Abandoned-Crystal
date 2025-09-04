@@ -573,16 +573,26 @@ BattleAnim_AirSlash:
 	anim_ret
 	
 BattleAnim_AirCutter:
-	anim_2gfx BATTLE_ANIM_GFX_WIND, BATTLE_ANIM_GFX_HIT
+	anim_2gfx BATTLE_ANIM_GFX_WHIP, BATTLE_ANIM_GFX_HIT
+	anim_call BattleAnim_UserObj_2Row
+	anim_bgeffect BATTLE_BG_EFFECT_WOBBLE_MON, $0, $0, $0
 .loop
-	anim_sound 0, 1, SFX_RAZOR_WIND
-	anim_obj BATTLE_ANIM_OBJ_GUST, 136, 72, $0
-	anim_wait 6
-	anim_loop 9, .loop
-	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 144, 64, $18
-	anim_wait 8
-	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 128, 32, $18
-	anim_wait 16
+	anim_sound 3, 0, SFX_RAZOR_WIND
+	anim_obj BATTLE_ANIM_OBJ_AIR_CUTTER, 64, 80, $18
+	anim_wait 4
+	anim_sound 3, 0, SFX_RAZOR_WIND
+	anim_obj BATTLE_ANIM_OBJ_AIR_CUTTER, 64, 96, $18
+	anim_wait 4
+	anim_sound 3, 0, SFX_RAZOR_WIND
+	anim_obj BATTLE_ANIM_OBJ_AIR_CUTTER, 64, 88, $18
+	anim_wait 4
+	anim_sound 3, 0, SFX_RAZOR_WIND
+	anim_obj BATTLE_ANIM_OBJ_AIR_CUTTER, 64, 104, $18
+	anim_wait 4
+	anim_loop 3, .loop
+	anim_wait 32
+	anim_incbgeffect BATTLE_BG_EFFECT_WOBBLE_MON
+	anim_call BattleAnim_ShowMon_1
 	anim_ret
 
 
