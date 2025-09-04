@@ -301,6 +301,7 @@ DEF GEN2_MOVES EQU const_value - 1
 	const LEAF_BLADE
 	const ENERGY_BALL
 	const HORN_LEECH
+	const WOOD_HAMMER
 DEF GEN3_MOVES EQU const_value - 1
 	
 DEF NUM_ATTACKS EQU const_value - 1

@@ -306,6 +306,7 @@ MoveDescriptionsGen3:
 	dw LeafBladeDescription
 	dw EnergyBallDescription
 	dw HornLeechDescription
+	dw WoodHammerDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -456,6 +457,7 @@ WrapDescription:
 
 TakeDownDescription:
 BraveBirdDescription:
+WoodHammerDescription:
 	db   "A tackle that also"
 	next "hurts the user.@"
 

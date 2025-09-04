@@ -41,6 +41,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_LeafBlade
 	dw BattleAnim_EnergyBall
 	dw BattleAnim_HornLeech
+	dw BattleAnim_WoodHammer
 .IndirectEnd::
 
 
@@ -890,6 +891,21 @@ BattleAnim_HornLeech:
 	anim_wait 32
 	anim_ret
 
-
+BattleAnim_WoodHammer:
+	anim_2gfx BATTLE_ANIM_GFX_PLANT, BATTLE_ANIM_GFX_EXPLOSION
+	anim_sound 16, 2, SFX_VINE_WHIP
+	anim_obj BATTLE_ANIM_OBJ_LEECH_SEED,  6, 0, 10, 0, $20
+	anim_wait 2
+	anim_sound 16, 2, SFX_VINE_WHIP
+	anim_obj BATTLE_ANIM_OBJ_LEECH_SEED,  6, 0, 10, 0, $28
+	anim_wait 2
+	anim_sound 16, 2, SFX_VINE_WHIP
+	anim_obj BATTLE_ANIM_OBJ_LEECH_SEED,  6, 0, 10, 0, $30
+	anim_wait 28
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $60, $4, $10
+	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $8, $24
+	anim_wait 16
+	anim_bgp $e4
+	anim_ret
 
 
