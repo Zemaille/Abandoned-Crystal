@@ -295,6 +295,7 @@ MoveDescriptionsGen3:
 	dw AirCutterDescription
 	dw HurricaneDescription
 	dw AerialAceDescription
+	dw ShadowClawDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -308,6 +309,7 @@ KarateChopDescription:
 XScissorDescription:
 NightSlashDescription:
 AirCutterDescription:
+ShadowClawDescription:
 	db   "Has a high criti-"
 	next "cal hit ratio.@"
 

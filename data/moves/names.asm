@@ -282,4 +282,5 @@ MoveNames::
 	li "Air Cutter"
 	li "Hurricane"
 	li "Aerial Ace"
+	li "Shadow Claw"
 	assert_list_length NUM_ATTACKS

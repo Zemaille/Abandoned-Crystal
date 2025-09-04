@@ -30,6 +30,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_AirCutter
 	dw BattleAnim_Hurricane
 	dw BattleAnim_AerialAce
+	dw BattleAnim_ShadowClaw
 .IndirectEnd::
 
 
@@ -645,6 +646,23 @@ BattleAnimSub_SpeedLines:
 	anim_obj BATTLE_ANIM_OBJ_SPEED_LINE, 64, 88, $82
 	anim_wait 12
 	anim_ret
+
+BattleAnim_ShadowClaw:
+	anim_1gfx BATTLE_ANIM_GFX_CUT
+	anim_sound 0, 0, SFX_CURSE
+	anim_bgeffect BATTLE_BG_EFFECT_FADE_MON_TO_WHITE_WAIT_FADE_BACK, $0, $1, $80
+	anim_wait 64
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0
+	anim_sound 0, 1, SFX_CUT
+	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_LEFT, 19, 0,  5, 0, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_LEFT, 18, 4,  4, 4, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_LEFT, 18, 0,  4, 0, $0
+	anim_wait 16
+	anim_incbgeffect BATTLE_BG_EFFECT_FADE_MON_TO_WHITE_WAIT_FADE_BACK
+	anim_wait 4
+	anim_ret
+
+
 
 
 
