@@ -314,6 +314,7 @@ MoveDescriptionsGen3:
 	dw StarfallDescription
 	dw IcicleCrashDescription
 	dw IcicleSpearDescription
+	dw IceShardDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -718,6 +719,7 @@ AgilityDescription:
 
 QuickAttackDescription:
 AmbushDescription:
+IceShardDescription:
 	db   "Lets the user get"
 	next "in the first hit.@"
 

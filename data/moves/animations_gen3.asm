@@ -49,6 +49,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_Starfall
 	dw BattleAnim_IcicleCrash
 	dw BattleAnim_IcicleSpear
+	dw BattleAnim_IceShard
 .IndirectEnd::
 
 
@@ -1120,6 +1121,23 @@ BattleAnim_IcicleSpear:
 	anim_wait 16
 	anim_ret
 
-
+BattleAnim_IceShard:
+	anim_1gfx BATTLE_ANIM_GFX_ICE
+.loop
+	anim_sound 6, 2, SFX_SHINE
+	anim_obj BATTLE_ANIM_OBJ_POWDER_SNOW,   8, 0,  11, 0, $23
+	anim_wait 2
+	anim_sound 6, 2, SFX_SHINE
+	anim_obj BATTLE_ANIM_OBJ_POWDER_SNOW,   8, 0,  10, 0, $24
+	anim_wait 2
+	anim_sound 6, 2, SFX_SHINE
+	anim_obj BATTLE_ANIM_OBJ_POWDER_SNOW,   8, 0,  12, 0, $23
+	anim_wait 2
+	anim_loop 2, .loop
+	anim_bgeffect BATTLE_BG_EFFECT_WHITE_HUES, $0, $8, $0
+	anim_wait 40
+	anim_call BattleAnimSub_Ice
+	anim_wait 32
+	anim_ret
 
 	
