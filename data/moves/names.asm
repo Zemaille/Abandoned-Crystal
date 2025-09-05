@@ -294,4 +294,5 @@ MoveNames::
 	li "Energy Ball"
 	li "Horn Leech"
 	li "Wood Hammer"
+	li "Mud Shot"
 	assert_list_length NUM_ATTACKS

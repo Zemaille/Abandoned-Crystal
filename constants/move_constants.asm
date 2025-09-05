@@ -302,6 +302,7 @@ DEF GEN2_MOVES EQU const_value - 1
 	const ENERGY_BALL
 	const HORN_LEECH
 	const WOOD_HAMMER
+	const MUD_SHOT
 DEF GEN3_MOVES EQU const_value - 1
 	
 DEF NUM_ATTACKS EQU const_value - 1

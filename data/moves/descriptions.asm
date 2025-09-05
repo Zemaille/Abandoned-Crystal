@@ -307,6 +307,7 @@ MoveDescriptionsGen3:
 	dw EnergyBallDescription
 	dw HornLeechDescription
 	dw WoodHammerDescription
+	dw MudShotDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1406,3 +1407,8 @@ PlayRoughDescription:
 ChloroblastDescription:
 	db   "A beam that also"
 	next "hurts the user.@"
+
+MudShotDescription:
+	db   "An attack that"
+	next "lowers Speed.@"
+
