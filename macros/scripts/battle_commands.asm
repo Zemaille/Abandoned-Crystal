@@ -182,6 +182,7 @@ ENDM
 	command curl                    ; af
 	command closecombat
 	command hex
+	command pyroclasm
 
 	;==========================
 	;	New Moves Start Here

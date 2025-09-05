@@ -4782,6 +4782,24 @@ BattleCommand_TriStatusChance:
 	dw BattleCommand_FreezeTarget ; freeze
 	dw BattleCommand_BurnTarget ; burn
 
+BattleCommand_Pyroclasm:
+	call BattleCommand_EffectChance
+.loop
+	; 1/3 chance of each status
+	call BattleRandom
+	swap a
+	and %11
+	jr z, .loop
+	dec a
+	ld hl, .PyroclasmStatus
+	jmp JumpTable
+	
+
+.PyroclasmStatus:
+	dw BattleCommand_BurnTarget 
+	dw BattleCommand_PoisonTarget
+	dw BattleCommand_AccuracyDown
+
 BattleCommand_Curl:
 	ld a, BATTLE_VARS_SUBSTATUS2
 	call GetBattleVarAddr

@@ -182,6 +182,7 @@ BattleCommandPointers:
 	dw BattleCommand_Curl
 	dw BattleCommand_CloseCombat
 	dw BattleCommand_Hex
+	dw BattleCommand_Pyroclasm
 ;==========================
 ;	New Moves Start Here
 ;==========================
