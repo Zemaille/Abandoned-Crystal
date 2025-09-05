@@ -974,13 +974,13 @@ BattleAnim_Pyroclasm:
 	anim_ret
 
 BattleAnimSub_Mist:
-	anim_obj BATTLE_ANIM_OBJ_MIST, 8, 24, $10
-	anim_obj BATTLE_ANIM_OBJ_MIST, 8, 48, $2
-	anim_obj BATTLE_ANIM_OBJ_MIST, 8, 88, $8
+	anim_obj BATTLE_ANIM_OBJ_MIST_BG, 8, 24, $10
+	anim_obj BATTLE_ANIM_OBJ_MIST_BG, 8, 48, $2
+	anim_obj BATTLE_ANIM_OBJ_MIST_BG, 8, 88, $8
 	anim_wait 4
-	anim_obj BATTLE_ANIM_OBJ_MIST, 8, 32, $6
-	anim_obj BATTLE_ANIM_OBJ_MIST, 8, 56, $c
-	anim_obj BATTLE_ANIM_OBJ_MIST, 8, 80, $4
-	anim_obj BATTLE_ANIM_OBJ_MIST, 8, 104, $e
+	anim_obj BATTLE_ANIM_OBJ_MIST_BG, 8, 32, $6
+	anim_obj BATTLE_ANIM_OBJ_MIST_BG, 8, 56, $c
+	anim_obj BATTLE_ANIM_OBJ_MIST_BG, 8, 80, $4
+	anim_obj BATTLE_ANIM_OBJ_MIST_BG, 8, 104, $e
 	anim_ret
 
