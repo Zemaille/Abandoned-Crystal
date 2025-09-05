@@ -331,6 +331,7 @@ MovesGen3:
 	move EFFECT_LEECH_HIT,          75, GRASS,         PHYSICAL, 100, 10,   0      ;Horn Leech
 	move EFFECT_RECOIL_HIT,        120, GRASS,         PHYSICAL, 100, 15,   0      ;Wood Hammer
 	move EFFECT_SPEED_DOWN_HIT,     55, GROUND,        SPECIAL,   85, 10, 100      ;Mud Shot
+	move EFFECT_SP_DEF_DOWN_HIT,    90, GROUND,        SPECIAL,  100, 10,  10      ;Earth Power
 .IndirectEnd::
 
 

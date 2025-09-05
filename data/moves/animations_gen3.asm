@@ -43,6 +43,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_HornLeech
 	dw BattleAnim_WoodHammer
 	dw BattleAnim_MudShot
+	dw BattleAnim_EarthPower
 .IndirectEnd::
 
 
@@ -925,6 +926,39 @@ BattleAnim_MudShot:
 .done
 	anim_ret
 
+BattleAnim_EarthPower:
+	anim_setobjpal PAL_BATTLE_OB_RED, PAL_BTLCUSTOM_FIRE
+	anim_2gfx BATTLE_ANIM_GFX_FIRE, BATTLE_ANIM_GFX_ROCKS
+	anim_sound 0, 0, SFX_EGG_BOMB
+	anim_bgp $1b
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $28, $2, $0
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 120, 68, $5c
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 120, 68, $e8
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 120, 68, $9c
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 120, 68, $50
+	anim_obj BATTLE_ANIM_OBJ_EMBER, 120, 68, $30
+	anim_wait 40
+	anim_clearobjs
+	anim_wait 8
+	anim_sound 0, 0, SFX_EGG_BOMB
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $28, $2, $0
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 144, 68, $5c
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 144, 68, $e8
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 144, 68, $d0
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 144, 68, $10
+	anim_obj BATTLE_ANIM_OBJ_EMBER, 144, 68, $30
+	anim_wait 40
+	anim_clearobjs
+	anim_wait 8
+	anim_sound 0, 0, SFX_EGG_BOMB
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $28, $2, $0
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 132, 68, $28
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 132, 68, $e8
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 132, 68, $d0
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 132, 68, $50
+	anim_obj BATTLE_ANIM_OBJ_EMBER, 132, 68, $30
+	anim_wait 48
+	anim_ret
 
 
 

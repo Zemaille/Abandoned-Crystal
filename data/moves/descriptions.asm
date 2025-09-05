@@ -308,6 +308,7 @@ MoveDescriptionsGen3:
 	dw HornLeechDescription
 	dw WoodHammerDescription
 	dw MudShotDescription
+	dw EarthPowerDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -323,6 +324,7 @@ NightSlashDescription:
 AirCutterDescription:
 ShadowClawDescription:
 LeafBladeDescription:
+EarthPowerDescription:
 	db   "Has a high criti-"
 	next "cal hit ratio.@"
 

@@ -295,4 +295,5 @@ MoveNames::
 	li "Horn Leech"
 	li "Wood Hammer"
 	li "Mud Shot"
+	li "Earth Power"
 	assert_list_length NUM_ATTACKS
