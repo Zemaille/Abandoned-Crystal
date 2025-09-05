@@ -101,6 +101,7 @@ DoBattleAnimFrame:
 ;new functions
 	dba BattleAnimFunc_AirCutter
 	dba BattleAnimFunc_Moon
+	dba BattleAnimFunc_BubbleSplash
 	assert_table_length NUM_BATTLE_ANIM_FUNCS
 
 PUSHS ; push the current section onto the stack.
@@ -1051,6 +1052,7 @@ BattleAnimFunc_RockSmash:
 	ld hl, BATTLEANIMSTRUCT_FRAMESET_ID
 	add hl, bc
 	ld [hl], a
+.after_frameset
 	call BattleAnim_IncAnonJumptableIndex
 	ld hl, BATTLEANIMSTRUCT_VAR1
 	add hl, bc
@@ -1092,6 +1094,12 @@ BattleAnimFunc_RockSmash:
 	add hl, bc
 	ld [hl], e
 	ret
+
+BattleAnimFunc_BubbleSplash:
+	call BattleAnim_AnonJumptable
+
+	dw BattleAnimFunc_RockSmash.after_frameset
+	dw BattleAnimFunc_RockSmash.one
 
 SECTION "BattleAnimFunc_Bubble", ROMX
 
@@ -4274,5 +4282,6 @@ Function70a:
 	dec e
 	jr nz, .asm_ce719
 	ret
+
 
 POPS ; restore the original section from the stack

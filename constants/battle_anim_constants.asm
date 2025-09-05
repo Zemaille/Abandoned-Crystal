@@ -233,6 +233,9 @@ DEF BATTLEANIM_BASE_TILE EQU 7 * 7  ; Maximum size of a pokemon picture
 	const BATTLE_ANIM_OBJ_CUT_LONG_UP_RIGHT
 	const BATTLE_ANIM_OBJ_CUT_LONG_UP_LEFT
 	const BATTLE_ANIM_OBJ_MIST_BG
+	const BATTLE_ANIM_OBJ_ICE_SPLASH
+	const BATTLE_ANIM_OBJ_ICICLE_CRASH
+	const BATTLE_ANIM_OBJ_ICICLE
 DEF NUM_BATTLE_ANIM_OBJS EQU const_value
 
 ; DoBattleAnimFrame arguments (see engine/battle_anims/functions.asm)
@@ -319,6 +322,7 @@ DEF NUM_BATTLE_ANIM_OBJS EQU const_value
 	const BATTLE_ANIM_FUNC_COTTON                    ; 4f
 	const BATTLE_ANIM_FUNC_AIR_CUTTER
 	const BATTLE_ANIM_FUNC_MOON
+	const BATTLE_ANIM_FUNC_BUBBLE_SPLASH
 DEF NUM_BATTLE_ANIM_FUNCS EQU const_value
 
 ; BattleAnimFrameData indexes (see data/battle_anims/framesets.asm)
@@ -512,6 +516,7 @@ DEF NUM_BATTLE_ANIM_FUNCS EQU const_value
 	const BATTLE_ANIM_FRAMESET_NEW_BLAST
 	const BATTLE_ANIM_FRAMESET_CUT_LONG_UP_RIGHT
 	const BATTLE_ANIM_FRAMESET_CUT_LONG_UP_LEFT
+	const BATTLE_ANIM_FRAMESET_ICICLE_CRASH
 DEF NUM_BATTLE_ANIM_FRAMESETS EQU const_value
 
 ; BattleAnimOAMData indexes (see data/battle_anims/oam.asm)
@@ -732,6 +737,7 @@ DEF NUM_BATTLE_ANIM_FRAMESETS EQU const_value
 	const BATTLE_ANIM_OAMSET_D5
 	const BATTLE_ANIM_OAMSET_D6
 	const BATTLE_ANIM_OAMSET_D7
+	const BATTLE_ANIM_OAMSET_ICICLE_CRASH
 DEF NUM_BATTLE_ANIM_OAMSETS EQU const_value
 
 assert NUM_BATTLE_ANIM_OAMSETS <= FIRST_OAM_CMD, \
@@ -839,6 +845,7 @@ DEF NUM_BATTLE_BG_EFFECTS EQU const_value - 1
 	const BATTLE_ANIM_GFX_PLAYERHEAD ; 28
 	const BATTLE_ANIM_GFX_ENEMYFEET  ; 29
 	const BATTLE_ANIM_GFX_MOON
+	const BATTLE_ANIM_GFX_ICICLE_CRASH
 DEF NUM_BATTLE_ANIM_GFX EQU const_value - 1
 
 ; battle_bg_effect struct members (see macros/ram.asm)

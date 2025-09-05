@@ -312,6 +312,7 @@ MoveDescriptionsGen3:
 	dw PyroclasmDescription
 	dw AmbushDescription
 	dw StarfallDescription
+	dw IcicleCrashDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -410,6 +411,7 @@ VineWhipDescription:
 StompDescription:
 DarkPulseDescription:
 AstonishDescription:
+IcicleCrashDescription:
 	db   "An attack that may"
 	next "cause flinching.@"
 

@@ -299,4 +299,5 @@ MoveNames::
 	li "Pyroclasm"
 	li "Ambush"
 	li "Starfall"
+	li "Icicle Crash"
 	assert_list_length NUM_ATTACKS

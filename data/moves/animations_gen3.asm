@@ -47,6 +47,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_Pyroclasm
 	dw BattleAnim_Ambush
 	dw BattleAnim_Starfall
+	dw BattleAnim_IcicleCrash
 .IndirectEnd::
 
 
@@ -1047,5 +1048,47 @@ BattleAnim_Starfall:
 	anim_obj BATTLE_ANIM_OBJ_GLIMMER, 144, 68, $0
 	anim_wait 21
 	anim_ret
-	
+
+BattleAnim_IcicleCrash:
+	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_ICE
+	anim_3gfx BATTLE_ANIM_GFX_HIT, BATTLE_ANIM_GFX_ICICLE_CRASH, BATTLE_ANIM_GFX_ICE
+	anim_sound 0, 1, SFX_MEGA_PUNCH
+	anim_obj BATTLE_ANIM_OBJ_ICICLE_CRASH,  128, 250, $10
+	anim_wait 6
+	anim_obj BATTLE_ANIM_OBJ_ICICLE_CRASH,  120, 250, $10
+	anim_wait 2
+	anim_sound 0, 1, SFX_KARATE_CHOP
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 128, 66, $0
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $30, $2, $0
+	anim_obj BATTLE_ANIM_OBJ_ICE_SPLASH, 128, 66, $28
+	anim_obj BATTLE_ANIM_OBJ_ICE_SPLASH, 128, 66, $9c
+	anim_wait 4
+	anim_obj BATTLE_ANIM_OBJ_ICICLE_CRASH,  152, 250, $10
+	anim_wait 2
+	anim_sound 0, 1, SFX_KARATE_CHOP
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 120, 66, $0
+	anim_obj BATTLE_ANIM_OBJ_ICE_SPLASH, 120, 66, $28
+	anim_obj BATTLE_ANIM_OBJ_ICE_SPLASH, 120, 66, $9c
+	anim_wait 4
+	anim_obj BATTLE_ANIM_OBJ_ICICLE_CRASH,  144, 250, $10
+	anim_wait 2
+	anim_sound 0, 1, SFX_KARATE_CHOP
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 152, 66, $0
+	anim_obj BATTLE_ANIM_OBJ_ICE_SPLASH, 152, 66, $28
+	anim_obj BATTLE_ANIM_OBJ_ICE_SPLASH, 152, 66, $9c
+	anim_wait 4
+	anim_obj BATTLE_ANIM_OBJ_ICICLE_CRASH,  136, 250, $10
+	anim_wait 2
+	anim_sound 0, 1, SFX_KARATE_CHOP
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 144, 66, $0
+	anim_obj BATTLE_ANIM_OBJ_ICE_SPLASH, 144, 66, $28
+	anim_obj BATTLE_ANIM_OBJ_ICE_SPLASH, 136, 56, $9c
+	anim_wait 6
+	anim_sound 0, 1, SFX_KARATE_CHOP
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 136, 66, $0
+	anim_obj BATTLE_ANIM_OBJ_ICE_SPLASH, 136, 66, $28
+	anim_obj BATTLE_ANIM_OBJ_ICE_SPLASH, 136, 66, $9c
+	anim_wait 32
+	anim_ret
+
 	
