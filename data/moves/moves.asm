@@ -336,6 +336,7 @@ MovesGen3:
 	move EFFECT_PRIORITY_HIT,       70, DARK,          PHYSICAL, 100,  5,   0      ;Ambush
 	move EFFECT_SELF_SP_ATK_DROP,  130, FAIRY,         SPECIAL,   90,  5,   0      ;Starfal
 	move EFFECT_FLINCH_HIT,         85, ICE,           PHYSICAL,  90, 10,  30      ;Icicle Crash
+	move EFFECT_MULTI_HIT,          25, ICE,           PHYSICAL, 100, 30,   0      ;Icicle Spear
 .IndirectEnd::
 
 

@@ -313,6 +313,7 @@ MoveDescriptionsGen3:
 	dw AmbushDescription
 	dw StarfallDescription
 	dw IcicleCrashDescription
+	dw IcicleSpearDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -853,6 +854,10 @@ SkullBashDescription:
 
 SpikeCannonDescription:
 	db   "Fires spikes to"
+	next "hit 2-5 times.@"
+	
+IcicleSpearDescription:
+	db   "Fires icicles to"
 	next "hit 2-5 times.@"
 
 ConstrictDescription:

@@ -102,6 +102,7 @@ DoBattleAnimFrame:
 	dba BattleAnimFunc_AirCutter
 	dba BattleAnimFunc_Moon
 	dba BattleAnimFunc_BubbleSplash
+	
 	assert_table_length NUM_BATTLE_ANIM_FUNCS
 
 PUSHS ; push the current section onto the stack.

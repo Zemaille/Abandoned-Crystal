@@ -190,7 +190,8 @@ BattleAnimFrameData:
 	dw .Frameset_NewBlast            ; BATTLE_ANIM_FRAMESET_NEW_BLAST
 	dw .Frameset_CutLongUpRight      ; BATTLE_ANIM_FRAMESET_CUT_LONG_UP_RIGHT
 	dw .Frameset_CutLongUpLeft       ; BATTLE_ANIM_FRAMESET_CUT_LONG_UP_LEFT
-	dw .Frameset_IcicleCrash        ; BATTLE_ANIM_FRAMESET_ICICLE_CRASH
+	dw .Frameset_IcicleCrash         ; BATTLE_ANIM_FRAMESET_ICICLE_CRASH
+	dw .Frameset_MediumHorn          ; BATTLE_ANIM_FRAMESET_MEDIUM_HORN
 	assert_table_length NUM_BATTLE_ANIM_FRAMESETS
 
 .Frameset_HitBig:
@@ -1321,4 +1322,6 @@ BattleAnimFrameData:
 	battleoamframe BATTLE_ANIM_OAMSET_ICICLE_CRASH, 32
 	battleoamdelete
 
-
+.Frameset_MediumHorn:
+	battleoamframe BATTLE_ANIM_OAMSET_E1,  9
+	battleoamdelete
