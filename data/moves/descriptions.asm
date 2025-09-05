@@ -309,6 +309,7 @@ MoveDescriptionsGen3:
 	dw WoodHammerDescription
 	dw MudShotDescription
 	dw EarthPowerDescription
+	dw PyroclasmDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1413,4 +1414,10 @@ ChloroblastDescription:
 MudShotDescription:
 	db   "An attack that"
 	next "lowers Speed.@"
+
+PyroclasmDescription:
+	db   "Might paralyze,"
+	next "burn, or obscure@"
+
+
 

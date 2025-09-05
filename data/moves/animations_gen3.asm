@@ -44,6 +44,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_WoodHammer
 	dw BattleAnim_MudShot
 	dw BattleAnim_EarthPower
+	dw BattleAnim_Pyroclasm
 .IndirectEnd::
 
 
@@ -960,7 +961,26 @@ BattleAnim_EarthPower:
 	anim_wait 48
 	anim_ret
 
+BattleAnim_Pyroclasm:
+	anim_setobjpal PAL_BATTLE_OB_YELLOW, PAL_BATTLE_OB_RED
+	anim_1gfx BATTLE_ANIM_GFX_HAZE
+	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $4, $0
+	anim_bgp $90
+	anim_bgeffect BATTLE_BG_EFFECT_WHIRLPOOL, $0, $0, $0
+	anim_sound 0, 0, SFX_EMBER
+	anim_call BattleAnimSub_Mist
+	anim_wait 160
+	anim_incbgeffect BATTLE_BG_EFFECT_WHIRLPOOL
+	anim_ret
 
-
-
+BattleAnimSub_Mist:
+	anim_obj BATTLE_ANIM_OBJ_MIST, 8, 24, $10
+	anim_obj BATTLE_ANIM_OBJ_MIST, 8, 48, $2
+	anim_obj BATTLE_ANIM_OBJ_MIST, 8, 88, $8
+	anim_wait 4
+	anim_obj BATTLE_ANIM_OBJ_MIST, 8, 32, $6
+	anim_obj BATTLE_ANIM_OBJ_MIST, 8, 56, $c
+	anim_obj BATTLE_ANIM_OBJ_MIST, 8, 80, $4
+	anim_obj BATTLE_ANIM_OBJ_MIST, 8, 104, $e
+	anim_ret
 

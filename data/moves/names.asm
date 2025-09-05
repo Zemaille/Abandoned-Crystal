@@ -296,4 +296,5 @@ MoveNames::
 	li "Wood Hammer"
 	li "Mud Shot"
 	li "Earth Power"
+	li "Pyroclasm"
 	assert_list_length NUM_ATTACKS
