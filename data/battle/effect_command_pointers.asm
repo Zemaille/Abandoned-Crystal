@@ -183,6 +183,7 @@ BattleCommandPointers:
 	dw BattleCommand_CloseCombat
 	dw BattleCommand_Hex
 	dw BattleCommand_Pyroclasm
+	dw BattleCommand_SelfSpAtkDrop
 ;==========================
 ;	New Moves Start Here
 ;==========================

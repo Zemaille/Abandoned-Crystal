@@ -183,6 +183,7 @@ ENDM
 	command closecombat
 	command hex
 	command pyroclasm
+	command selfspatkdrop
 
 	;==========================
 	;	New Moves Start Here

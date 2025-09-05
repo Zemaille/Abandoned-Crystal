@@ -171,4 +171,5 @@ MoveEffectsPointers:
 	dw Hurricane
 	dw Hex
 	dw Pyroclasm
+	dw SelfSpAtkDrop
 	assert_table_length NUM_MOVE_EFFECTS

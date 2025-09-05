@@ -46,6 +46,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_EarthPower
 	dw BattleAnim_Pyroclasm
 	dw BattleAnim_Ambush
+	dw BattleAnim_Starfall
 .IndirectEnd::
 
 
@@ -1018,3 +1019,33 @@ BattleAnim_Ambush:
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $14, $2, $0
 	anim_wait 32
 	anim_ret
+	
+BattleAnim_Starfall:
+	anim_3gfx BATTLE_ANIM_GFX_MOON, BATTLE_ANIM_GFX_SHINE, BATTLE_ANIM_GFX_CHARGE
+	anim_bgp $1b
+	anim_obj BATTLE_ANIM_OBJ_MOON, 44, 104, $1
+	anim_obj BATTLE_ANIM_OBJ_MOON_CHARGE, 44, 88, $30
+	anim_obj BATTLE_ANIM_OBJ_MOON_CHARGE, 44, 88, $31
+	anim_obj BATTLE_ANIM_OBJ_MOON_CHARGE, 44, 88, $32
+	anim_obj BATTLE_ANIM_OBJ_MOON_CHARGE, 44, 88, $33
+	anim_obj BATTLE_ANIM_OBJ_MOON_CHARGE, 44, 88, $34
+	anim_obj BATTLE_ANIM_OBJ_MOON_CHARGE, 44, 88, $35
+	anim_obj BATTLE_ANIM_OBJ_MOON_CHARGE, 44, 88, $36
+	anim_obj BATTLE_ANIM_OBJ_MOON_CHARGE, 44, 88, $37
+	anim_wait 1
+	anim_sound 0, 0, SFX_MOONLIGHT
+	anim_wait 96
+	anim_clearobjs
+	anim_sound 3, 0, SFX_RAZOR_WIND
+	anim_obj BATTLE_ANIM_OBJ_MOONBLAST, 64, 92, $4
+	anim_wait 16
+	anim_sound 0, 0, SFX_METRONOME
+	anim_obj BATTLE_ANIM_OBJ_GLIMMER, 132, 28, $0
+	anim_wait 5
+	anim_obj BATTLE_ANIM_OBJ_GLIMMER, 112, 60, $0
+	anim_wait 5
+	anim_obj BATTLE_ANIM_OBJ_GLIMMER, 144, 68, $0
+	anim_wait 21
+	anim_ret
+	
+	

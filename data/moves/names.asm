@@ -298,4 +298,5 @@ MoveNames::
 	li "Earth Power"
 	li "Pyroclasm"
 	li "Ambush"
+	li "Starfall"
 	assert_list_length NUM_ATTACKS

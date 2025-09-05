@@ -311,6 +311,7 @@ MoveDescriptionsGen3:
 	dw EarthPowerDescription
 	dw PyroclasmDescription
 	dw AmbushDescription
+	dw StarfallDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1421,4 +1422,7 @@ PyroclasmDescription:
 	db   "Might paralyze,"
 	next "burn, or obscure@"
 
+StarfallDescription:
+	db   "Full-power. Lowers"
+	next "Sp.Atk sharply.@"
 

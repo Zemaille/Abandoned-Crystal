@@ -3465,6 +3465,8 @@ INCLUDE "engine/battle/move_effects/heal_bell.asm"
 
 INCLUDE "engine/battle/move_effects/hex.asm"
 
+INCLUDE "engine/battle/move_effects/self_sp_atk_drop.asm"
+
 FarPlayBattleAnimation:
 ; play animation de
 

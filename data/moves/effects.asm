@@ -2311,3 +2311,24 @@ Pyroclasm:
 	kingsrock
 	endmove
 
+SelfSpAtkDrop:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	effectchance
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	selfspatkdrop
+	checkfaint
+	buildopponentrage
+	kingsrock
+	endmove
