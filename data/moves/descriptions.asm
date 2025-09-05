@@ -310,6 +310,7 @@ MoveDescriptionsGen3:
 	dw MudShotDescription
 	dw EarthPowerDescription
 	dw PyroclasmDescription
+	dw AmbushDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -712,6 +713,7 @@ AgilityDescription:
 	next "the user's SPEED.@"
 
 QuickAttackDescription:
+AmbushDescription:
 	db   "Lets the user get"
 	next "in the first hit.@"
 
@@ -1418,6 +1420,5 @@ MudShotDescription:
 PyroclasmDescription:
 	db   "Might paralyze,"
 	next "burn, or obscure@"
-
 
 

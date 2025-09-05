@@ -333,6 +333,7 @@ MovesGen3:
 	move EFFECT_SPEED_DOWN_HIT,     55, GROUND,        SPECIAL,   85, 10, 100      ;Mud Shot
 	move EFFECT_SP_DEF_DOWN_HIT,    90, GROUND,        SPECIAL,  100, 10,  10      ;Earth Power
 	move EFFECT_PYROCLASM,          80, GROUND,        SPECIAL,  100, 10,  10      ;Pyroclasm
+	move EFFECT_PRIORITY_HIT,       70, DARK,          PHYSICAL, 100,  5,   0      ;Ambush
 .IndirectEnd::
 
 

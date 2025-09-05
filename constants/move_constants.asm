@@ -305,6 +305,7 @@ DEF GEN2_MOVES EQU const_value - 1
 	const MUD_SHOT
 	const EARTH_POWER
 	const PYROCLASM
+	const AMBUSH
 DEF GEN3_MOVES EQU const_value - 1
 	
 DEF NUM_ATTACKS EQU const_value - 1
