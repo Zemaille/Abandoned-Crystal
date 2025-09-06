@@ -53,6 +53,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_PoisonFang
 	dw BattleAnim_PoisonJab
 	dw BattleAnim_CrossPoison
+	dw BattleAnim_DireClaw
 .IndirectEnd::
 
 
@@ -1181,6 +1182,14 @@ BattleAnim_CrossPoison:
 	anim_wait 24
 	anim_ret
 
-
+BattleAnim_DireClaw:
+	anim_2gfx BATTLE_ANIM_GFX_CUT, BATTLE_ANIM_GFX_POISON
+	anim_sound 0, 1, SFX_CUT
+	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_LEFT, 152, 40, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_LEFT, 148, 36, $0
+	anim_wait 32
+	anim_call BattleAnimSub_Sludge
+	anim_wait 24
+	anim_ret
 
 

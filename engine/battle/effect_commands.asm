@@ -4784,6 +4784,24 @@ BattleCommand_TriStatusChance:
 	dw BattleCommand_FreezeTarget ; freeze
 	dw BattleCommand_BurnTarget ; burn
 
+BattleCommand_DireClaw:
+	call BattleCommand_EffectChance
+.loop
+	; 1/3 chance of each status
+	call BattleRandom
+	swap a
+	and %11
+	jr z, .loop
+	dec a
+	ld hl, .DireClawStatus
+	jmp JumpTable
+	
+
+.DireClawStatus:
+	dw BattleCommand_PoisonTarget 
+	dw BattleCommand_ParalyzeTarget
+	dw BattleCommand_SleepTarget
+
 BattleCommand_Pyroclasm:
 	call BattleCommand_EffectChance
 .loop

@@ -341,6 +341,7 @@ MovesGen3:
 	move EFFECT_POISON_HIT,         50, POISON,        PHYSICAL, 100, 15,  50      ;Poison Fang
 	move EFFECT_POISON_HIT,         80, POISON,        PHYSICAL, 100, 20,  30      ;Poison Jab
 	move EFFECT_POISON_HIT,         70, POISON,        PHYSICAL, 100, 20,  10      ;Poison Jab
+	move EFFECT_DIRE_CLAW,          80, POISON,        PHYSICAL, 100, 20,  50      ;Dire Claw
 .IndirectEnd::
 
 

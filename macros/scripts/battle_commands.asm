@@ -184,6 +184,7 @@ ENDM
 	command hex
 	command pyroclasm
 	command selfspatkdrop
+	command direclaw
 
 	;==========================
 	;	New Moves Start Here

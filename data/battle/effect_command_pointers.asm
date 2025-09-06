@@ -184,6 +184,7 @@ BattleCommandPointers:
 	dw BattleCommand_Hex
 	dw BattleCommand_Pyroclasm
 	dw BattleCommand_SelfSpAtkDrop
+	dw BattleCommand_DireClaw
 ;==========================
 ;	New Moves Start Here
 ;==========================

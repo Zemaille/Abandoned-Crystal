@@ -172,4 +172,5 @@ MoveEffectsPointers:
 	dw Hex
 	dw Pyroclasm
 	dw SelfSpAtkDrop
+	dw DireClaw
 	assert_table_length NUM_MOVE_EFFECTS

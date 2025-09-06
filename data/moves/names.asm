@@ -305,4 +305,5 @@ MoveNames::
 	li "Poison Fang"
 	li "Poison Jab"
 	li "Cross Poison"
+	li "Dire Claw"
 	assert_list_length NUM_ATTACKS

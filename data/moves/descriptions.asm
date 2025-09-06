@@ -318,6 +318,7 @@ MoveDescriptionsGen3:
 	dw PoisonFangDescription
 	dw PoisonJabDescription
 	dw CrossPoisonDescription
+	dw DireClawDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1443,6 +1444,12 @@ PyroclasmDescription:
 StarfallDescription:
 	db   "Full-power. Lowers"
 	next "Sp.Atk sharply.@"
+
+DireClawDescription:
+	db   "Can inflict PSN,"
+	next "PAR, or FRZ.@"
+
+
 
 
 

@@ -157,6 +157,7 @@
 	const EFFECT_BEAT_UP
 	const EFFECT_FLY
 	const EFFECT_DEFENSE_CURL
+	const EFFECT_DIRE_CLAW
 ;==========================
 ;	New Moves Start Here
 ;==========================
