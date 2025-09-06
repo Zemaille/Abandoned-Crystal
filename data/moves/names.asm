@@ -308,4 +308,5 @@ MoveNames::
 	li "Dire Claw"
 	li "Gunk Shot"
 	li "Extrasensory"
+	li "Zen Headbutt"
 	assert_list_length NUM_ATTACKS

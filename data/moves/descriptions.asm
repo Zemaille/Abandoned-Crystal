@@ -321,6 +321,7 @@ MoveDescriptionsGen3:
 	dw DireClawDescription
 	dw GunkShotDescription
 	dw ExtrasensoryDescription
+	dw ZenHeadbuttDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -420,6 +421,7 @@ StompDescription:
 DarkPulseDescription:
 AstonishDescription:
 IcicleCrashDescription:
+ZenHeadbuttDescription:
 	db   "An attack that may"
 	next "cause flinching.@"
 

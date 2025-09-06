@@ -316,6 +316,7 @@ DEF GEN2_MOVES EQU const_value - 1
 	const DIRE_CLAW
 	const GUNK_SHOT
 	const EXTRASENSORY
+	const ZEN_HEADBUTT
 DEF GEN3_MOVES EQU const_value - 1
 	
 DEF NUM_ATTACKS EQU const_value - 1

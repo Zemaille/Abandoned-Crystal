@@ -56,6 +56,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_DireClaw
 	dw BattleAnim_GunkShot
 	dw BattleAnim_Extrasensory
+	dw BattleAnim_ZenHeadbutt
 .IndirectEnd::
 
 BattleAnimSub_Sludge:
@@ -1327,5 +1328,27 @@ BattleAnim_Extrasensory:
 	anim_call BattleAnim_ShowMon_1
 	anim_ret
 
-
+BattleAnim_ZenHeadbutt:
+	anim_setobjpal PAL_BATTLE_OB_YELLOW, PAL_BTLCUSTOM_FIRE
+	anim_2gfx BATTLE_ANIM_GFX_HIT, BATTLE_ANIM_GFX_SPEED
+	anim_call BattleAnim_TargetObj_2Row
+	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_MON_LIGHT_DARK_REPEATING, $0, $1, $20
+	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
+.loop
+	anim_sound 0, 0, SFX_MEGA_PUNCH
+	anim_call BattleAnimSub_FocusedPower
+	anim_loop 3, .loop
+	anim_wait 8
+	anim_incbgeffect BATTLE_BG_EFFECT_CYCLE_MON_LIGHT_DARK_REPEATING
+	anim_incbgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW
+	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $8, $40
+	anim_call BattleAnimSub_Spark
+	anim_sound 0, 1, SFX_EGG_BOMB
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $60, $4, $10
+.loop2
+	anim_obj BATTLE_ANIM_OBJ_HIT_BIG_YFIX, 136, 48, $0
+	anim_wait 20
+	anim_loop 3, .loop2
+	anim_wait 16
+	anim_ret
 
