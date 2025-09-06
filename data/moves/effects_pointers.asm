@@ -167,7 +167,6 @@ MoveEffectsPointers:
 	dw IceFang
 	dw CloseCombat
 	dw FlareBlitz
-	dw Burn
 	dw Hurricane
 	dw Hex
 	dw Pyroclasm

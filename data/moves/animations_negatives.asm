@@ -141,7 +141,7 @@ BattleAnim_SendOutMon:
 	anim_call BattleAnim_TargetObj_1Row
 	anim_bgeffect BATTLE_BG_EFFECT_BETA_SEND_OUT_MON2, $0, BG_EFFECT_USER, $0
 	anim_sound 0, 0, SFX_BALL_POOF
-	anim_obj BATTLE_ANIM_OBJ_BETA_BALL_POOF, 48, 96, $0
+	anim_obj BATTLE_ANIM_OBJ_BALL_POOF, 48, 96, $0
 	anim_bgeffect BATTLE_BG_EFFECT_ENTER_MON, $0, BG_EFFECT_USER, $0
 	anim_wait 128
 	anim_wait 4
@@ -156,7 +156,7 @@ BattleAnim_SendOutMon:
 	anim_bgeffect BATTLE_BG_EFFECT_SHOW_MON, $0, BG_EFFECT_USER, $0
 	anim_wait 4
 	anim_sound 0, 0, SFX_BALL_POOF
-	anim_obj BATTLE_ANIM_OBJ_BETA_BALL_POOF, 48, 96, $0
+	anim_obj BATTLE_ANIM_OBJ_BALL_POOF, 48, 96, $0
 	anim_incbgeffect BATTLE_BG_EFFECT_BETA_SEND_OUT_MON1
 	anim_wait 96
 	anim_incbgeffect BATTLE_BG_EFFECT_BETA_SEND_OUT_MON1

@@ -2235,16 +2235,6 @@ FlareBlitz:
 	kingsrock
 	endmove
 	
-Burn:
-	checkobedience
-	usedmovetext
-	doturn
-	stab
-	checkhit
-	checksafeguard
-	burntarget
-	endmove
-
 Hurricane:				; Blizzard
 	checkobedience
 	usedmovetext
