@@ -304,4 +304,5 @@ MoveNames::
 	li "Ice Shard"
 	li "Poison Fang"
 	li "Poison Jab"
+	li "Cross Poison"
 	assert_list_length NUM_ATTACKS

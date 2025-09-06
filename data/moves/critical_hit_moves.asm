@@ -11,4 +11,5 @@ CriticalHitMoves:
 	dw AIR_CUTTER
 	dw SHADOW_CLAW
 	dw LEAF_BLADE
+	dw CROSS_POISON
 	dw -1

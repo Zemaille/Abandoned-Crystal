@@ -317,6 +317,7 @@ MoveDescriptionsGen3:
 	dw IceShardDescription
 	dw PoisonFangDescription
 	dw PoisonJabDescription
+	dw CrossPoisonDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -491,6 +492,10 @@ PoisonFangDescription:
 PoisonJabDescription:
 	db   "An attack that may"
 	next "poison the target.@"
+
+CrossPoisonDescription:
+	db   "Hi-crit attack that"
+	next "may poison.@"
 
 TwineedleDescription:
 	db   "Jabs the foe twice"

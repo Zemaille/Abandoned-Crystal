@@ -52,6 +52,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_IceShard
 	dw BattleAnim_PoisonFang
 	dw BattleAnim_PoisonJab
+	dw BattleAnim_CrossPoison
 .IndirectEnd::
 
 
@@ -1166,6 +1167,20 @@ BattleAnim_PoisonJab:
 	anim_call BattleAnimSub_Sludge
 	anim_wait 24
 	anim_ret
+
+BattleAnim_CrossPoison:
+	anim_2gfx BATTLE_ANIM_GFX_CUT, BATTLE_ANIM_GFX_POISON
+	anim_sound 0, 1, SFX_CUT
+	anim_obj BATTLE_ANIM_OBJ_CROSS_CHOP1, 152, 40, $0
+	anim_obj BATTLE_ANIM_OBJ_CROSS_CHOP2, 120, 72, $0
+	anim_wait 8
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $58, $2, $0
+	anim_wait 92
+	anim_sound 0, 1, SFX_VICEGRIP
+	anim_call BattleAnimSub_Sludge
+	anim_wait 24
+	anim_ret
+
 
 
 

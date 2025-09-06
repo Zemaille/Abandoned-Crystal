@@ -312,6 +312,7 @@ DEF GEN2_MOVES EQU const_value - 1
 	const ICE_SHARD
 	const POISON_FANG
 	const POISON_JAB
+	const CROSS_POISON
 DEF GEN3_MOVES EQU const_value - 1
 	
 DEF NUM_ATTACKS EQU const_value - 1
