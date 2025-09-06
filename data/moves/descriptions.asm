@@ -316,6 +316,7 @@ MoveDescriptionsGen3:
 	dw IcicleSpearDescription
 	dw IceShardDescription
 	dw PoisonFangDescription
+	dw PoisonJabDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -486,6 +487,8 @@ TailWhipDescription:
 	next "DEFENSE.@"
 
 PoisonStingDescription:
+PoisonFangDescription:
+PoisonJabDescription:
 	db   "An attack that may"
 	next "poison the target.@"
 
@@ -1436,8 +1439,5 @@ StarfallDescription:
 	db   "Full-power. Lowers"
 	next "Sp.Atk sharply.@"
 
-PoisonFangDescription:
-	db   "Can poison or"
-	next "flinch.@"
 
 

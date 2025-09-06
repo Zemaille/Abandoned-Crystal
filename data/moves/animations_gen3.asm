@@ -51,6 +51,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_IcicleSpear
 	dw BattleAnim_IceShard
 	dw BattleAnim_PoisonFang
+	dw BattleAnim_PoisonJab
 .IndirectEnd::
 
 
@@ -1155,6 +1156,16 @@ BattleAnim_PoisonFang:
 	anim_call BattleAnimSub_Sludge
 	anim_ret
 
+BattleAnim_PoisonJab:
+	anim_3gfx BATTLE_ANIM_GFX_HORN, BATTLE_ANIM_GFX_HIT, BATTLE_ANIM_GFX_POISON
+	anim_sound 0, 1, SFX_HORN_ATTACK
+	anim_obj BATTLE_ANIM_OBJ_HORN,   9, 0,  12, 0, $1
+	anim_wait 6
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 17, 0,  7, 0, $0
+	anim_wait 8
+	anim_call BattleAnimSub_Sludge
+	anim_wait 24
+	anim_ret
 
 
 
