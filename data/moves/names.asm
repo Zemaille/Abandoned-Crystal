@@ -309,4 +309,5 @@ MoveNames::
 	li "Gunk Shot"
 	li "Extrasensory"
 	li "Zen Headbutt"
+	li "Draco Meteor"
 	assert_list_length NUM_ATTACKS

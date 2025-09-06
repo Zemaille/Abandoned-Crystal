@@ -345,6 +345,7 @@ MovesGen3:
 	move EFFECT_POISON_HIT,        120, POISON,        SPECIAL,   80,  5,  30      ;Gunk Shot
 	move EFFECT_FLINCH_HIT,         80, PSYCHIC_TYPE,  SPECIAL,  100, 20,  10      ;Extrasensory
 	move EFFECT_FLINCH_HIT,         80, PSYCHIC_TYPE,  PHYSICAL,  90, 15,  20      ;Zen Headbutt
+	move EFFECT_SELF_SP_ATK_DROP,  130, DRAGON,        SPECIAL,   90,  5,   0      ;Draco Meteor
 .IndirectEnd::
 
 

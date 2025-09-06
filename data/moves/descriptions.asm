@@ -322,6 +322,7 @@ MoveDescriptionsGen3:
 	dw GunkShotDescription
 	dw ExtrasensoryDescription
 	dw ZenHeadbuttDescription
+	dw DracoMeteorDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1448,6 +1449,7 @@ PyroclasmDescription:
 	next "burn, or obscure.@"
 
 StarfallDescription:
+DracoMeteorDescription:
 	db   "Full-power. Lowers"
 	next "Sp.Atk sharply.@"
 
