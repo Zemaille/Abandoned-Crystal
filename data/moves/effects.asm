@@ -2346,6 +2346,28 @@ DireClaw:
 	kingsrock
 	endmove
 
+CalmMind:
+	checkobedience
+	usedmovetext
+	doturn
+	lowersub
+	statupanim
+	raisesub
+	specialattackup
+	statupmessage
+	specialdefenseup
+	statupmessage
+	statupfailtext
+	endmove
 
-
+Burn:
+	checkobedience
+	usedmovetext
+	doturn
+	stab
+	checkhit
+	moveanim
+	checksafeguard
+	burntarget
+	endmove
 

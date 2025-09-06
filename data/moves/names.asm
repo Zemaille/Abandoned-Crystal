@@ -310,4 +310,5 @@ MoveNames::
 	li "Extrasensory"
 	li "Zen Headbutt"
 	li "Draco Meteor"
+	li "Calm Mind"
 	assert_list_length NUM_ATTACKS

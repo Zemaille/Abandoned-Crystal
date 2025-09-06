@@ -172,4 +172,6 @@ MoveEffectsPointers:
 	dw Pyroclasm
 	dw SelfSpAtkDrop
 	dw DireClaw
+	dw CalmMind
+	dw Burn
 	assert_table_length NUM_MOVE_EFFECTS

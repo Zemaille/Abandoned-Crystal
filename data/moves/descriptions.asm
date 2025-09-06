@@ -323,6 +323,7 @@ MoveDescriptionsGen3:
 	dw ExtrasensoryDescription
 	dw ZenHeadbuttDescription
 	dw DracoMeteorDescription
+	dw CalmMindDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1457,7 +1458,9 @@ DireClawDescription:
 	db   "Can inflict PSN,"
 	next "PAR, or FRZ.@"
 
-
+CalmMindDescription:
+	db   "Raises Sp.Atk"
+	next "and Sp.Def.@"
 
 
 

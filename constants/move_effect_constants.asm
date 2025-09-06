@@ -157,7 +157,6 @@
 	const EFFECT_BEAT_UP
 	const EFFECT_FLY
 	const EFFECT_DEFENSE_CURL
-	const EFFECT_DIRE_CLAW
 ;==========================
 ;	New Moves Start Here
 ;==========================
@@ -174,5 +173,8 @@
 	const EFFECT_HEX
 	const EFFECT_PYROCLASM
 	const EFFECT_SELF_SP_ATK_DROP
+	const EFFECT_DIRE_CLAW
+	const EFFECT_CALM_MIND
+	const EFFECT_BURN
 
 DEF NUM_MOVE_EFFECTS EQU const_value

@@ -312,7 +312,7 @@ MovesGen3:
 	move EFFECT_CLOSE_COMBAT,      120, FIGHTING,      PHYSICAL, 100,  5,   0      ;Close Combat
 	move EFFECT_FLARE_BLITZ,       120, FIRE,          PHYSICAL, 100, 15,  10      ;Flare Blitz
 	move EFFECT_SP_ATK_DOWN_HIT,   	75, FIRE,          SPECIAL,  100, 15, 100      ;Mystic Fire
-	move EFFECT_BURN_HIT,            0, FIRE,          STATUS,    85, 15, 100      ;Will-O-Wisp
+	move EFFECT_BURN,                0, FIRE,          STATUS,    85, 15, 100      ;Will-O-Wisp
 	move EFFECT_RECOIL_HIT,        120, FLYING,        PHYSICAL, 100, 15,   0      ;Brave Bird
 	move EFFECT_FLINCH_HIT,         75, FLYING,        SPECIAL,   95, 15,   0      ;Air Slash
 	move EFFECT_NORMAL_HIT,         60, FLYING,        SPECIAL,   95, 25,   0      ;Air Cutter
@@ -346,6 +346,7 @@ MovesGen3:
 	move EFFECT_FLINCH_HIT,         80, PSYCHIC_TYPE,  SPECIAL,  100, 20,  10      ;Extrasensory
 	move EFFECT_FLINCH_HIT,         80, PSYCHIC_TYPE,  PHYSICAL,  90, 15,  20      ;Zen Headbutt
 	move EFFECT_SELF_SP_ATK_DROP,  130, DRAGON,        SPECIAL,   90,  5,   0      ;Draco Meteor
+	move EFFECT_CALM_MIND,           0, PSYCHIC_TYPE,  STATUS,   100, 20,   0      ;Calm Mind
 .IndirectEnd::
 
 
