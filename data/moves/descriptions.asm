@@ -324,6 +324,7 @@ MoveDescriptionsGen3:
 	dw ZenHeadbuttDescription
 	dw DracoMeteorDescription
 	dw CalmMindDescription
+	dw TwinBeamDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1462,5 +1463,7 @@ CalmMindDescription:
 	db   "Raises Sp.Atk"
 	next "and Sp.Def.@"
 
-
+TwinBeamDescription:
+	db	 "Strange beam that"
+	next "hits twice.@"
 

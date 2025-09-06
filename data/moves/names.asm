@@ -311,4 +311,5 @@ MoveNames::
 	li "Zen Headbutt"
 	li "Draco Meteor"
 	li "Calm Mind"
+	li "Twin Beam"
 	assert_list_length NUM_ATTACKS

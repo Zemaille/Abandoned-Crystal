@@ -59,6 +59,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_ZenHeadbutt
 	dw BattleAnim_DracoMeteor
 	dw BattleAnim_CalmMind
+	dw BattleAnim_TwinBeam
 .IndirectEnd::
 
 BattleAnimSub_Sludge:
@@ -157,16 +158,21 @@ BattleAnim_XScissor:
 	anim_ret
 	
 BattleAnim_SignalBeam:
-	anim_1gfx BATTLE_ANIM_GFX_PSYCHIC
+	anim_1gfx BATTLE_ANIM_GFX_GLOW
+	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_SIGNAL_BEAM_RED
+	anim_setobjpal PAL_BATTLE_OB_YELLOW, PAL_BTLCUSTOM_SIGNAL_BEAM_BLUE
+	anim_bgeffect BATTLE_BG_EFFECT_ALTERNATE_HUES, $0, $2, $0
 	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
-	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_BGPALS_INVERTED, $0, $4, $0
 .loop
-	anim_sound 6, 2, SFX_PSYBEAM
-	anim_obj BATTLE_ANIM_OBJ_WAVE, 64, 88, $4
+	anim_sound 0, 0, SFX_SPITE
+	anim_obj BATTLE_ANIM_OBJ_SIGNAL_BEAM_RED, 64, 92, $0
 	anim_wait 4
-	anim_loop 10, .loop
-	anim_wait 48
-	anim_ret	
+	anim_sound 0, 0, SFX_SPITE
+	anim_obj BATTLE_ANIM_OBJ_SIGNAL_BEAM_BLUE, 64, 92, $0
+	anim_wait 4
+	anim_loop 8, .loop
+	anim_wait 64
+	anim_ret
 
 BattleAnim_Infestation:
 	anim_1gfx BATTLE_ANIM_GFX_HAZE
@@ -1433,6 +1439,18 @@ BattleAnim_CalmMind:
 	anim_loop 4, .loop
 	anim_wait 16
 	anim_ret
+
+BattleAnim_TwinBeam:
+	anim_1gfx BATTLE_ANIM_GFX_PSYCHIC
+	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
+	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_BGPALS_INVERTED, $0, $4, $0
+.loop
+	anim_sound 6, 2, SFX_PSYBEAM
+	anim_obj BATTLE_ANIM_OBJ_WAVE, 64, 88, $4
+	anim_wait 4
+	anim_loop 10, .loop
+	anim_wait 48
+	anim_ret	
 
 
 
