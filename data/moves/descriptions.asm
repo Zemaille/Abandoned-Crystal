@@ -320,6 +320,7 @@ MoveDescriptionsGen3:
 	dw CrossPoisonDescription
 	dw DireClawDescription
 	dw GunkShotDescription
+	dw ExtrasensoryDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -514,6 +515,7 @@ LeerDescription:
 
 BiteDescription:
 AirSlashDescription:
+ExtrasensoryDescription:
 	db   "An attack that may"
 	next "cause flinching.@"
 

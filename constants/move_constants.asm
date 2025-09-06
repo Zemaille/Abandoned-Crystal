@@ -315,6 +315,7 @@ DEF GEN2_MOVES EQU const_value - 1
 	const CROSS_POISON
 	const DIRE_CLAW
 	const GUNK_SHOT
+	const EXTRASENSORY
 DEF GEN3_MOVES EQU const_value - 1
 	
 DEF NUM_ATTACKS EQU const_value - 1

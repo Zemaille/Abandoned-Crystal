@@ -343,6 +343,7 @@ MovesGen3:
 	move EFFECT_POISON_HIT,         70, POISON,        PHYSICAL, 100, 20,  10      ;Poison Jab
 	move EFFECT_DIRE_CLAW,          80, POISON,        PHYSICAL, 100, 20,  50      ;Dire Claw
 	move EFFECT_POISON_HIT,        120, POISON,        SPECIAL,   80,  5,  30      ;Gunk Shot
+	move EFFECT_FLINCH_HIT,         80, PSYCHIC_TYPE,  SPECIAL,  100, 20,  10      ;Extrasensory
 .IndirectEnd::
 
 

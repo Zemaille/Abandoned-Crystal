@@ -55,6 +55,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_CrossPoison
 	dw BattleAnim_DireClaw
 	dw BattleAnim_GunkShot
+	dw BattleAnim_Extrasensory
 .IndirectEnd::
 
 BattleAnimSub_Sludge:
@@ -906,24 +907,31 @@ BattleAnim_LeafBlade:
 	anim_ret
 
 BattleAnim_EnergyBall: 
-	anim_1gfx BATTLE_ANIM_GFX_CHARGE
-	anim_sound 0, 0, SFX_CHARGE
-	anim_obj BATTLE_ANIM_OBJ_ABSORB_CENTER, 48, 84, $0
-	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE, 48, 84, $0
-	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE, 48, 84, $8
-	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE, 48, 84, $10
-	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE, 48, 84, $18
-	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE, 48, 84, $20
-	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE, 48, 84, $28
-	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE, 48, 84, $30
-	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE, 48, 84, $38
-	anim_wait 104
-	anim_bgeffect BATTLE_BG_EFFECT_FLASH_WHITE, $0, $4, $2
+	anim_2gfx BATTLE_ANIM_GFX_CHARGE, BATTLE_ANIM_GFX_EGG
+	anim_sound 0, 0, SFX_GIGA_DRAIN
+	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE,  6, 0, 10, 4, 0
+	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE,  6, 0, 10, 4, 8
+	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE,  6, 0, 10, 4, 16
+	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE,  6, 0, 10, 4, 24
+	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE,  6, 0, 10, 4, 32
+	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE,  6, 0, 10, 4, 40
+	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE,  6, 0, 10, 4, 48
+	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE,  6, 0, 10, 4, 56
+	anim_wait 8
+	anim_obj BATTLE_ANIM_OBJ_ABSORB_CENTER,  6, 0, 10, 4, $0
 	anim_wait 64
-	anim_1gfx BATTLE_ANIM_GFX_BEAM
-	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
-	anim_call BattleAnimSub_Beam
-	anim_wait 48
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $60, $2, $0
+.loop
+	anim_sound 0, 0, SFX_AEROBLAST
+	anim_obj BATTLE_ANIM_OBJ_ENERGY_BALL,  7, 6, 11, 4, $2
+	anim_wait 3
+	anim_obj BATTLE_ANIM_OBJ_ENERGY_BALL,  8, 2, 11, 4, $2
+	anim_wait 3
+	anim_loop 8, .loop
+	anim_bgeffect BATTLE_BG_EFFECT_VIBRATE_MON, $0, $0, $0
+	anim_wait 32
+	anim_call BattleAnim_ShowMon_1
+	anim_wait 1
 	anim_ret
 
 BattleAnim_HornLeech:
@@ -1295,7 +1303,29 @@ BattleAnim_GunkShot:
 	anim_wait 32
 	anim_ret
 
-
+BattleAnim_Extrasensory:
+	anim_1gfx BATTLE_ANIM_GFX_SHINE
+	anim_call BattleAnim_UserObj_2Row
+	anim_sound 0, 1, SFX_CUT
+	anim_bgp $1b
+	anim_bgeffect BATTLE_BG_EFFECT_VIBRATE_MON, $0, $0, $0
+	anim_obj BATTLE_ANIM_OBJ_GLIMMER, 44, 96, $0
+	anim_wait 40
+	anim_sound 0, 1, SFX_CUT
+	anim_bgeffect BATTLE_BG_EFFECT_NIGHT_SHADE, $0, $0, $8
+	anim_obj BATTLE_ANIM_OBJ_GLIMMER, 44, 96, $0
+	anim_wait 32
+	anim_incbgeffect BATTLE_BG_EFFECT_NIGHT_SHADE
+	anim_wait 8
+	anim_sound 0, 1, SFX_CUT
+	anim_bgeffect BATTLE_BG_EFFECT_TELEPORT, $0, $0, $0
+	anim_obj BATTLE_ANIM_OBJ_GLIMMER, 44, 96, $0
+	anim_wait 4
+	anim_sound 0, 1, SFX_PSYCHIC
+	anim_wait 64
+	anim_incbgeffect BATTLE_BG_EFFECT_TELEPORT
+	anim_call BattleAnim_ShowMon_1
+	anim_ret
 
 
 

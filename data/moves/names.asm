@@ -307,4 +307,5 @@ MoveNames::
 	li "Cross Poison"
 	li "Dire Claw"
 	li "Gunk Shot"
+	li "Extrasensory"
 	assert_list_length NUM_ATTACKS
