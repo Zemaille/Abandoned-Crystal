@@ -319,6 +319,7 @@ MoveDescriptionsGen3:
 	dw PoisonJabDescription
 	dw CrossPoisonDescription
 	dw DireClawDescription
+	dw GunkShotDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -491,6 +492,7 @@ TailWhipDescription:
 PoisonStingDescription:
 PoisonFangDescription:
 PoisonJabDescription:
+GunkShotDescription:
 	db   "An attack that may"
 	next "poison the target.@"
 
