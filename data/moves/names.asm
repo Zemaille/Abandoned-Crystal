@@ -302,4 +302,5 @@ MoveNames::
 	li "Icicle Crash"
 	li "Icicle Spear"
 	li "Ice Shard"
+	li "Poison Fang"
 	assert_list_length NUM_ATTACKS

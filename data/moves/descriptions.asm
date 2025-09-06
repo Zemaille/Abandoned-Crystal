@@ -315,6 +315,7 @@ MoveDescriptionsGen3:
 	dw IcicleCrashDescription
 	dw IcicleSpearDescription
 	dw IceShardDescription
+	dw PoisonFangDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1429,9 +1430,14 @@ MudShotDescription:
 
 PyroclasmDescription:
 	db   "Might paralyze,"
-	next "burn, or obscure@"
+	next "burn, or obscure.@"
 
 StarfallDescription:
 	db   "Full-power. Lowers"
 	next "Sp.Atk sharply.@"
+
+PoisonFangDescription:
+	db   "Can poison or"
+	next "flinch.@"
+
 

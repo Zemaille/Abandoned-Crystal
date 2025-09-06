@@ -50,6 +50,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_IcicleCrash
 	dw BattleAnim_IcicleSpear
 	dw BattleAnim_IceShard
+	dw BattleAnim_PoisonFang
 .IndirectEnd::
 
 
@@ -1140,4 +1141,20 @@ BattleAnim_IceShard:
 	anim_wait 32
 	anim_ret
 
-	
+BattleAnim_PoisonFang:
+	anim_2gfx BATTLE_ANIM_GFX_HIT, BATTLE_ANIM_GFX_POISON
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0
+	anim_wait 24
+	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $8, $3
+.loop
+	anim_sound 0, 1, SFX_BITE
+	anim_obj BATTLE_ANIM_OBJ_FANG, 136, 56, $0
+	anim_obj BATTLE_ANIM_OBJ_HIT_BIG_YFIX, 136, 56, $0
+	anim_wait 3
+	anim_obj BATTLE_ANIM_OBJ_FANG, 136, 56, $0
+	anim_call BattleAnimSub_Sludge
+	anim_ret
+
+
+
+

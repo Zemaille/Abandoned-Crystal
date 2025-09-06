@@ -310,6 +310,7 @@ DEF GEN2_MOVES EQU const_value - 1
 	const ICICLE_CRASH
 	const ICICLE_SPEAR
 	const ICE_SHARD
+	const POISON_FANG
 DEF GEN3_MOVES EQU const_value - 1
 	
 DEF NUM_ATTACKS EQU const_value - 1
