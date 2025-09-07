@@ -64,6 +64,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_PsychoCut
 	dw BattleAnim_RockBlast
 	dw BattleAnim_PowerGem
+	dw BattleAnim_StoneAxe
 .IndirectEnd::
 
 BattleAnimSub_Sludge:
@@ -1576,3 +1577,40 @@ BattleAnim_PowerGem:
 	anim_incobj  9
 	anim_wait 32
 	anim_ret
+
+BattleAnim_StoneAxe:
+	anim_3gfx BATTLE_ANIM_GFX_ROCKS, BATTLE_ANIM_GFX_OBJECTS, BATTLE_ANIM_GFX_CUT
+	anim_obj BATTLE_ANIM_OBJ_ROCK_TOMB, 128, 70, $30
+	anim_call BattleAnimSub_RockTombShake
+	anim_obj BATTLE_ANIM_OBJ_ROCK_TOMB, 152, 68, $30
+	anim_call BattleAnimSub_RockTombShake
+	anim_obj BATTLE_ANIM_OBJ_ROCK_TOMB, 112, 68, $30
+	anim_call BattleAnimSub_RockTombShake
+	anim_obj BATTLE_ANIM_OBJ_ROCK_TOMB, 136, 66, $30
+	anim_wait 18
+	anim_sound 0, 1, SFX_EGG_BOMB
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $20, $2, $0
+	anim_wait 40
+	anim_sound 0, 1, SFX_VICEGRIP
+	anim_obj BATTLE_ANIM_OBJ_CUT_DOWN_LEFT, 156, 44, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_DOWN_LEFT, 152, 40, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_DOWN_LEFT, 148, 36, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_UP_RIGHT, 124, 76, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_UP_RIGHT, 120, 72, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_UP_RIGHT, 116, 68, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_UP_RIGHT, 120, 72, $0
+	anim_wait 32
+	anim_ret	
+
+BattleAnimSub_RockTombShake:
+	anim_wait 18
+	anim_sound 0, 1, SFX_EGG_BOMB
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $4, $2, $0
+	anim_ret
+
+
+
+
+
+
+

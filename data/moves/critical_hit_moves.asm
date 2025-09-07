@@ -13,4 +13,5 @@ CriticalHitMoves:
 	dw LEAF_BLADE
 	dw CROSS_POISON
 	dw PSYCHO_CUT
+	dw STONE_AXE
 	dw -1

@@ -329,6 +329,7 @@ MoveDescriptionsGen3:
 	dw PsychoCutDescription
 	dw RockBlastDescription
 	dw PowerGemDescription
+	dw StoneAxeDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1483,4 +1484,8 @@ RockBlastDescription:
 PowerGemDescription:
 	db   "Attacks with a ray"
 	next "of gem-like light.@"
+
+StoneAxeDescription:
+	db   "Hi-crit attack that"
+	next "slows opponent.@"
 

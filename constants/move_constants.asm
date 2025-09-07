@@ -324,6 +324,7 @@ DEF GEN2_MOVES EQU const_value - 1
 	const PSYCHO_CUT
 	const ROCK_BLAST
 	const POWER_GEM
+	const STONE_AXE
 DEF GEN3_MOVES EQU const_value - 1
 	
 DEF NUM_ATTACKS EQU const_value - 1

@@ -316,4 +316,5 @@ MoveNames::
 	li "Psycho Cut"
 	li "Rock Blast"
 	li "Power Gem"
+	li "Stone Axe"
 	assert_list_length NUM_ATTACKS
