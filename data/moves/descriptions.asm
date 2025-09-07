@@ -342,6 +342,7 @@ MoveDescriptionsGen3:
 	dw ScaldDescription
 	dw WaterPulseDescription
 	dw BoomburstDescription
+	dw GigaImpactDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -620,6 +621,7 @@ AuroraBeamDescription:
 	next "lower ATTACK.@"
 
 HyperBeamDescription:
+GigaImpactDescription:
 	db   "1st turn: Attack"
 	next "2nd turn: Rest@"
 

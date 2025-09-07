@@ -329,4 +329,5 @@ MoveNames::
 	li "Scald"
 	li "Water Pulse"
 	li "Boomburst"
+	li "Giga Impact"
 	assert_list_length NUM_ATTACKS
