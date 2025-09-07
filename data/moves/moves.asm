@@ -359,6 +359,7 @@ MovesGen3:
 	move EFFECT_ALWAYS_HIT,         50, STEEL,         SPECIAL,  100, 10,   0      ;Tachyon Ray
 	move EFFECT_DEFENSE_UP_2,        0, STEEL,         STATUS,   100, 15,   0      ;Iron Defense
 	move EFFECT_FLINCH_HIT,        100, STEEL,         PHYSICAL,  80, 15,  30      ;Iron Head
+	move EFFECT_PRIORITY_HIT,       40, STEEL,         PHYSICAL, 100, 30,   0      ;Bullet Punch
 .IndirectEnd::
 
 

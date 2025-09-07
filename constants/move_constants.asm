@@ -331,6 +331,7 @@ DEF GEN2_MOVES EQU const_value - 1
 	const TACHYON_RAY
 	const IRON_DEFENSE
 	const IRON_HEAD
+	const BULLET_PUNCH
 DEF GEN3_MOVES EQU const_value - 1
 	
 DEF NUM_ATTACKS EQU const_value - 1

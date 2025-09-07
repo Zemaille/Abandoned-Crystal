@@ -336,6 +336,7 @@ MoveDescriptionsGen3:
 	dw TachyonRayDescription
 	dw IronDefenseDescription
 	dw IronHeadDescription
+	dw BulletPunchDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -755,6 +756,7 @@ AgilityDescription:
 QuickAttackDescription:
 AmbushDescription:
 IceShardDescription:
+BulletPunchDescription:
 	db   "Lets the user get"
 	next "in the first hit.@"
 

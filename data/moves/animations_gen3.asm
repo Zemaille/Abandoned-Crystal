@@ -71,6 +71,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_TachyonRay
 	dw BattleAnim_IronDefense
 	dw BattleAnim_IronHead
+	dw BattleAnim_BulletPunch
 .IndirectEnd::
 
 BattleAnimSub_Sludge:
@@ -1719,7 +1720,28 @@ BattleAnim_IronHead:
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
-
+BattleAnim_BulletPunch:
+	anim_3gfx BATTLE_ANIM_GFX_REFLECT, BATTLE_ANIM_GFX_SPEED, BATTLE_ANIM_GFX_HIT
+	anim_obp0 0, 0, 0, 0
+	anim_call BattleAnimSub_Metallic
+	anim_bgeffect BATTLE_BG_EFFECT_HIDE_MON, $0, $1, $0
+	anim_resetobp0
+	anim_sound 0, 0, SFX_MENU
+	anim_obj BATTLE_ANIM_OBJ_SPEED_LINE,  3, 0, 11, 0, $2
+	anim_obj BATTLE_ANIM_OBJ_SPEED_LINE,  4, 0, 11, 0, $1
+	anim_obj BATTLE_ANIM_OBJ_SPEED_LINE,  5, 0, 11, 0, $0
+	anim_obj BATTLE_ANIM_OBJ_SPEED_LINE,  6, 0, 11, 0, $80
+	anim_obj BATTLE_ANIM_OBJ_SPEED_LINE,  7, 0, 11, 0, $81
+	anim_obj BATTLE_ANIM_OBJ_SPEED_LINE,  8, 0, 11, 0, $82
+	anim_wait 8
+	anim_sound 0, 1, SFX_MEGA_PUNCH
+	anim_obj BATTLE_ANIM_OBJ_PUNCH, 17, 0,  7, 0, $0
+	anim_wait 6
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 17, 0,  7, 0, $0
+	anim_wait 8
+	anim_bgeffect BATTLE_BG_EFFECT_SHOW_MON, $0, $1, $0
+	anim_wait 8
+	anim_ret
 
 
 
