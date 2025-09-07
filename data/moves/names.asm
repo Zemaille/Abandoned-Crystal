@@ -315,4 +315,5 @@ MoveNames::
 	li "Psyhorn Bash"
 	li "Psycho Cut"
 	li "Rock Blast"
+	li "Power Gem"
 	assert_list_length NUM_ATTACKS

@@ -111,6 +111,7 @@ DoBattleAnimFrame:
 	dba BattleAnimFunc_AirCutter
 	dba BattleAnimFunc_RadialMoveOut_SlowShort
 	dba BattleAnimFunc_Moon
+	dba BattleAnimFunction_PowerGem
 	assert_table_length NUM_BATTLE_ANIM_FUNCS
 
 PUSHS ; push the current section onto the stack.
@@ -4536,5 +4537,73 @@ Function70a:
 	dec e
 	jr nz, .asm_ce719
 	ret
+
+BattleAnimFunction_PowerGem:
+	call BattleAnim_AnonJumptable
+.anon_dw
+	dw PowerGemFunction1
+	dw PowerGemFunction2
+	dw PowerGemFunction3
+
+PowerGemFunction1:
+	ld hl, BATTLEANIMSTRUCT_YOFFSET
+	add hl, bc
+	ld a, [hl]
+	cp $ff
+	jr nz, .asm_ce319
+	call BattleAnim_IncAnonJumptableIndex
+	ld hl, BATTLEANIMSTRUCT_VAR1
+	add hl, bc
+	ld [hl], $2
+	ret
+
+.asm_ce319
+	ld d, a
+	ld hl, BATTLEANIMSTRUCT_VAR1
+	add hl, bc
+	ld e, [hl]
+	ld hl, -$80
+	add hl, de
+	ld e, l
+	ld d, h
+	ld hl, BATTLEANIMSTRUCT_YOFFSET
+	add hl, bc
+	ld [hl], d
+	ld hl, BATTLEANIMSTRUCT_VAR1
+	add hl, bc
+	ld [hl], e
+	ret
+
+PowerGemFunction2:
+	ld hl, BATTLEANIMSTRUCT_VAR2
+	add hl, bc
+	ld a, [hl]
+	and a
+	jr z, .asm_ce33a
+	dec [hl]
+	ret
+
+.asm_ce33a
+	ld [hl], $4
+	ld hl, BATTLEANIMSTRUCT_VAR1
+	add hl, bc
+	ld a, [hl]
+	cpl
+	inc a
+	ld [hl], a
+	ld hl, BATTLEANIMSTRUCT_YOFFSET
+	add hl, bc
+	add [hl]
+	ld [hl], a
+	ret
+
+PowerGemFunction3:
+	ld hl, BATTLEANIMSTRUCT_XCOORD
+	add hl, bc
+	ld a, [hl]
+	cp $c0
+	ret nc
+	ld a, $8
+	call Function70a
 
 POPS ; restore the original section from the stack

@@ -328,6 +328,7 @@ MoveDescriptionsGen3:
 	dw PsyhornBashDescription
 	dw PsychoCutDescription
 	dw RockBlastDescription
+	dw PowerGemDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1478,4 +1479,8 @@ PsyhornBashDescription:
 RockBlastDescription:
 	db   "Repeatedly blasts"
 	next "2-5 times.@"
+
+PowerGemDescription:
+	db   "Attacks with a ray"
+	next "of gem-like light.@"
 

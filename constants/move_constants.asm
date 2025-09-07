@@ -323,6 +323,7 @@ DEF GEN2_MOVES EQU const_value - 1
 	const PSYHORN_BASH
 	const PSYCHO_CUT
 	const ROCK_BLAST
+	const POWER_GEM
 DEF GEN3_MOVES EQU const_value - 1
 	
 DEF NUM_ATTACKS EQU const_value - 1

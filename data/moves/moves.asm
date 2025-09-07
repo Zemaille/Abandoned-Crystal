@@ -351,6 +351,7 @@ MovesGen3:
 	move EFFECT_PSYHORN_BASH,       70, PSYCHIC_TYPE,  PHYSICAL,  90, 10, 100      ;Psyhorn Bash
 	move EFFECT_NORMAL_HIT,         70, PSYCHIC_TYPE,  PHYSICAL, 100, 20,   0      ;Psycho Cut
 	move EFFECT_MULTI_HIT,          25, ROCK,          PHYSICAL,  90, 10,   0      ;Rock Blast
+	move EFFECT_NORMAL_HIT,         80, ROCK,          SPECIAL,  100, 20,   0      ;Power Gem
 .IndirectEnd::
 
 
