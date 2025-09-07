@@ -328,4 +328,5 @@ MoveNames::
 	li "Aqua Jet"
 	li "Scald"
 	li "Water Pulse"
+	li "Boomburst"
 	assert_list_length NUM_ATTACKS

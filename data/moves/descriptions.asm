@@ -341,6 +341,7 @@ MoveDescriptionsGen3:
 	dw AquaJetDescription
 	dw ScaldDescription
 	dw WaterPulseDescription
+	dw BoomburstDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1510,4 +1511,12 @@ PowerGemDescription:
 StoneAxeDescription:
 	db   "Hi-crit attack that"
 	next "slows opponent.@"
+
+BoomburstDescription:
+	db   "Loud sound that"
+	next "hurts.@"
+
+
+
+
 

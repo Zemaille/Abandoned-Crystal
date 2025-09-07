@@ -336,6 +336,7 @@ DEF GEN2_MOVES EQU const_value - 1
 	const AQUA_JET
 	const SCALD
 	const WATER_PULSE
+	const BOOMBURST
 DEF GEN3_MOVES EQU const_value - 1
 	
 DEF NUM_ATTACKS EQU const_value - 1
