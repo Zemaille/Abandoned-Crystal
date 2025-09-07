@@ -2371,3 +2371,29 @@ Burn:
 	burntarget
 	endmove
 
+PsyhornBash:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	defenseup
+	statupmessage
+	statupfailtext
+	checkfaint
+	buildopponentrage
+	kingsrock
+	endmove
+
+
+
+

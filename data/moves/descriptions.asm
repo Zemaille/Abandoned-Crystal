@@ -325,6 +325,7 @@ MoveDescriptionsGen3:
 	dw DracoMeteorDescription
 	dw CalmMindDescription
 	dw TwinBeamDescription
+	dw PsyhornBashDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1466,4 +1467,11 @@ CalmMindDescription:
 TwinBeamDescription:
 	db	 "Strange beam that"
 	next "hits twice.@"
+
+PsyhornBashDescription:
+	db	 "Hits the foe and"
+	next "raises Defense.@"
+
+
+
 

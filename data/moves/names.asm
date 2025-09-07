@@ -312,4 +312,5 @@ MoveNames::
 	li "Draco Meteor"
 	li "Calm Mind"
 	li "Twin Beam"
+	li "Psyhorn Bash"
 	assert_list_length NUM_ATTACKS

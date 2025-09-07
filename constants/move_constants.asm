@@ -320,6 +320,7 @@ DEF GEN2_MOVES EQU const_value - 1
 	const DRACO_METEOR
 	const CALM_MIND
 	const TWIN_BEAM
+	const PSYHORN_BASH
 DEF GEN3_MOVES EQU const_value - 1
 	
 DEF NUM_ATTACKS EQU const_value - 1

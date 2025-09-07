@@ -174,4 +174,5 @@ MoveEffectsPointers:
 	dw DireClaw
 	dw CalmMind
 	dw Burn
+	dw PsyhornBash
 	assert_table_length NUM_MOVE_EFFECTS
