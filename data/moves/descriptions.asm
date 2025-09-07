@@ -331,6 +331,7 @@ MoveDescriptionsGen3:
 	dw PowerGemDescription
 	dw StoneAxeDescription
 	dw StoneEdgeDescription
+	dw HeadSmashDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -487,6 +488,7 @@ WrapDescription:
 TakeDownDescription:
 BraveBirdDescription:
 WoodHammerDescription:
+HeadSmashDescription:
 	db   "A tackle that also"
 	next "hurts the user.@"
 

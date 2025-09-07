@@ -354,6 +354,7 @@ MovesGen3:
 	move EFFECT_NORMAL_HIT,         80, ROCK,          SPECIAL,  100, 20,   0      ;Power Gem
 	move EFFECT_SPEED_DOWN_HIT,     65, ROCK,          PHYSICAL,  90, 15, 100      ;Stone Axe
 	move EFFECT_NORMAL_HIT,        100, ROCK,          PHYSICAL,  80,  5,   0      ;Stone Edge
+	move EFFECT_RECOIL_HIT,        150, ROCK,          PHYSICAL,  90,  5,   0      ;Head Smash
 .IndirectEnd::
 
 

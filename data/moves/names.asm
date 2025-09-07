@@ -318,4 +318,5 @@ MoveNames::
 	li "Power Gem"
 	li "Stone Axe"
 	li "Stone Edge"
+	li "Head Smash"
 	assert_list_length NUM_ATTACKS
