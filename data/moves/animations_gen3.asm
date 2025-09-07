@@ -74,6 +74,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_BulletPunch
 	dw BattleAnim_Liquidation
 	dw BattleAnim_AquaJet
+	dw BattleAnim_Scald
 .IndirectEnd::
 
 BattleAnimSub_Sludge:
@@ -849,12 +850,33 @@ BattleAnim_DazzleGleam:
 	anim_ret
 
 BattleAnim_PlayRough:
-	anim_1gfx BATTLE_ANIM_GFX_HIT
-	anim_sound 0, 1, SFX_POUND
-	anim_obj BATTLE_ANIM_OBJ_PALM, -15, 0,   7, 0, $0
-	anim_wait 6
-	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, -15, 0,   7, 0, $0
-	anim_wait 16
+	anim_setobjpal PAL_BATTLE_OB_YELLOW, PAL_BTLCUSTOM_ICE
+	anim_2gfx BATTLE_ANIM_GFX_BIG_GLOW, BATTLE_ANIM_GFX_GLOW
+	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
+	anim_bgp $90
+	anim_obj BATTLE_ANIM_OBJ_SMALL_GLOW, 48, 96, $0
+	anim_sound 0, 1, SFX_SWEET_KISS
+	anim_wait 32
+	anim_clearobjs
+	anim_2gfx BATTLE_ANIM_GFX_BIG_GLOW, BATTLE_ANIM_GFX_HIT
+	anim_setobjpal PAL_BATTLE_OB_YELLOW, PAL_BTLCUSTOM_GLOW_LUSTER
+	anim_setobjpal PAL_BATTLE_OB_PLAYER, PAL_BTLCUSTOM_VERY_BRIGHT
+	anim_setobjpal PAL_BATTLE_BG_TARGET, PAL_BTLCUSTOM_VERY_BRIGHT
+	anim_setbgpal PAL_BATTLE_BG_USER, PAL_BTLCUSTOM_VERY_BRIGHT
+	anim_obj BATTLE_ANIM_OBJ_BIG_GLOW, 48, 96, $0
+	anim_sound 0, 1, SFX_GS_INTRO_CHARIZARD_FIREBALL
+	anim_wait 64
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $24, $2, $0
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 140, 44, $0
+	anim_wait 8
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 124, 60, $0
+	anim_wait 8
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 140, 60, $0
+	anim_wait 8
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 124, 44, $0
+	anim_wait 8
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 132, 52, $0
+	anim_wait 32
 	anim_ret
 
 BattleAnim_Chloroblast:
@@ -1823,6 +1845,68 @@ BattleAnim_AquaJet:
 	anim_bgeffect BATTLE_BG_EFFECT_SHOW_MON, $0, $1, $0
 	anim_ret
 
+BattleAnim_Scald:
+	anim_2gfx BATTLE_ANIM_GFX_WATER, BATTLE_ANIM_GFX_HIT
+	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_WATER
+	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_WATER
+.loop
+	anim_call .gunspout
+	anim_wait 2
+	anim_obj BATTLE_ANIM_OBJ_WATER_SPOUT_RISING, 52, 80, $30
+	anim_call .gunspout
+	anim_wait 2
+	anim_obj BATTLE_ANIM_OBJ_WATER_SPOUT_RISING, 46, 80, $30
+	anim_call .gunspout
+	anim_wait 2
+	anim_obj BATTLE_ANIM_OBJ_WATER_SPOUT_RISING, 54, 80, $30
+	anim_call .gunspout
+	anim_loop 3, .loop
+	anim_wait 32
+	anim_sound 0, 0, SFX_BUBBLEBEAM
+	anim_obj BATTLE_ANIM_OBJ_WATER_SPOUT_FALLING, 108, 1, $10
+	anim_wait 2
+	anim_obj BATTLE_ANIM_OBJ_WATER_SPOUT_FALLING, 156, 1, $10
+	anim_wait 2
+	anim_obj BATTLE_ANIM_OBJ_WATER_SPOUT_FALLING, 116, 1, $10
+	anim_wait 2
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $55, $1, $0
+.loop2
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 108, 68, $0
+	anim_obj BATTLE_ANIM_OBJ_WATER_SPOUT_FALLING, 150, 1, $10
+	anim_wait 2
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 156, 68, $0
+	anim_obj BATTLE_ANIM_OBJ_WATER_SPOUT_FALLING, 124, 1, $10
+	anim_wait 2
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 116, 68, $0
+	anim_obj BATTLE_ANIM_OBJ_WATER_SPOUT_FALLING, 140, 1, $10
+	anim_wait 2
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 150, 68, $0
+	anim_obj BATTLE_ANIM_OBJ_WATER_SPOUT_FALLING, 132, 1, $10
+	anim_wait 2
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 124, 68, $0
+	anim_obj BATTLE_ANIM_OBJ_WATER_SPOUT_FALLING, 108, 1, $10
+	anim_wait 2
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 140, 68, $0
+	anim_obj BATTLE_ANIM_OBJ_WATER_SPOUT_FALLING, 156, 1, $10
+	anim_wait 2
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 132, 68, $0
+	anim_obj BATTLE_ANIM_OBJ_WATER_SPOUT_FALLING, 116, 1, $10
+	anim_wait 2
+	anim_loop 2, .loop2
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 108, 68, $0
+	anim_wait 2
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 156, 68, $0
+	anim_wait 2
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 116, 68, $0
+	anim_wait 2
+	anim_wait 32
+	anim_ret
+
+.gunspout:
+	anim_wait 2
+	anim_sound 0, 0, SFX_WATER_GUN
+	anim_obj BATTLE_ANIM_OBJ_WATER_SPOUT_RISING, 48, 80, $30
+	anim_ret
 
 
 

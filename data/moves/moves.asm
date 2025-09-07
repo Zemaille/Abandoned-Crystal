@@ -362,6 +362,7 @@ MovesGen3:
 	move EFFECT_PRIORITY_HIT,       40, STEEL,         PHYSICAL, 100, 30,   0      ;Bullet Punch
 	move EFFECT_DEFENSE_DOWN_HIT,   85, WATER,         PHYSICAL, 100, 10,  20      ;Liquidation
 	move EFFECT_PRIORITY_HIT,       40, WATER,         PHYSICAL, 100, 30,   0      ;Aqua Jet
+	move EFFECT_BURN_HIT,           80, WATER,         SPECIAL,  100, 15,  30      ;Scald
 .IndirectEnd::
 
 

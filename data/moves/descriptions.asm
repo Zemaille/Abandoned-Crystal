@@ -339,6 +339,7 @@ MoveDescriptionsGen3:
 	dw BulletPunchDescription
 	dw LiquidationDescription
 	dw AquaJetDescription
+	dw ScaldDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -576,6 +577,7 @@ EmberDescription:
 	next "inflict a burn.@"
 
 FlamethrowerDescription:
+ScaldDescription:
 	db   "An attack that may"
 	next "inflict a burn.@"
 

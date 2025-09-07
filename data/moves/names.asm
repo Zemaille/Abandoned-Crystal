@@ -326,4 +326,5 @@ MoveNames::
 	li "Bullet Punch"
 	li "Liquidation"
 	li "Aqua Jet"
+	li "Scald"
 	assert_list_length NUM_ATTACKS
