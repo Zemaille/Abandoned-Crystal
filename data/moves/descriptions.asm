@@ -327,6 +327,7 @@ MoveDescriptionsGen3:
 	dw TwinBeamDescription
 	dw PsyhornBashDescription
 	dw PsychoCutDescription
+	dw RockBlastDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1474,6 +1475,7 @@ PsyhornBashDescription:
 	db	 "Hits the foe and"
 	next "raises Defense.@"
 
-
-
+RockBlastDescription:
+	db   "Repeatedly blasts"
+	next "2-5 times.@"
 

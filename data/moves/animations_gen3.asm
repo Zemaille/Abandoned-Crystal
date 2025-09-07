@@ -62,6 +62,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_TwinBeam
 	dw BattleAnim_PsyhornBash
 	dw BattleAnim_PsychoCut
+	dw BattleAnim_RockBlast
 .IndirectEnd::
 
 BattleAnimSub_Sludge:
@@ -1509,5 +1510,17 @@ BattleAnim_PsychoCut:
 	anim_bgp $e4
 	anim_ret
 
-
+BattleAnim_RockBlast:
+	anim_2gfx BATTLE_ANIM_GFX_ROCKS, BATTLE_ANIM_GFX_HIT
+	anim_sound 6, 2, SFX_SPARK
+	anim_obj BATTLE_ANIM_OBJ_ROCK_BLAST, 64, 92, $4
+	anim_wait 16
+	anim_sound 0, 1, SFX_KARATE_CHOP
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 128, 56, $0
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 128, 56, $5c
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 128, 56, $e8
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 128, 56, $d0
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 128, 56, $50
+	anim_wait 32
+	anim_ret
 
