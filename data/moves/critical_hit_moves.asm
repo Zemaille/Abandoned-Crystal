@@ -12,4 +12,5 @@ CriticalHitMoves:
 	dw SHADOW_CLAW
 	dw LEAF_BLADE
 	dw CROSS_POISON
+	dw PSYCHO_CUT
 	dw -1

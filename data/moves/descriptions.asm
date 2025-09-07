@@ -326,6 +326,7 @@ MoveDescriptionsGen3:
 	dw CalmMindDescription
 	dw TwinBeamDescription
 	dw PsyhornBashDescription
+	dw PsychoCutDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -342,6 +343,7 @@ AirCutterDescription:
 ShadowClawDescription:
 LeafBladeDescription:
 EarthPowerDescription:
+PsychoCutDescription:
 	db   "Has a high criti-"
 	next "cal hit ratio.@"
 

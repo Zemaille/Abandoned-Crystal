@@ -349,6 +349,7 @@ MovesGen3:
 	move EFFECT_CALM_MIND,           0, PSYCHIC_TYPE,  STATUS,   100, 20,   0      ;Calm Mind
 	move EFFECT_DOUBLE_HIT,         40, PSYCHIC_TYPE,  SPECIAL,  100, 10,   0      ;Twin Beam
 	move EFFECT_PSYHORN_BASH,       70, PSYCHIC_TYPE,  PHYSICAL,  90, 10, 100      ;Psyhorn Bash
+	move EFFECT_NORMAL_HIT,         70, PSYCHIC_TYPE,  PHYSICAL, 100, 20,   0      ;Psycho Cut
 .IndirectEnd::
 
 

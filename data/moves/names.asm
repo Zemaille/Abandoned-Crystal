@@ -313,4 +313,5 @@ MoveNames::
 	li "Calm Mind"
 	li "Twin Beam"
 	li "Psyhorn Bash"
+	li "Psycho Cut"
 	assert_list_length NUM_ATTACKS

@@ -61,6 +61,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_CalmMind
 	dw BattleAnim_TwinBeam
 	dw BattleAnim_PsyhornBash
+	dw BattleAnim_PsychoCut
 .IndirectEnd::
 
 BattleAnimSub_Sludge:
@@ -1483,7 +1484,30 @@ BattleAnim_PsyhornBash:
 	anim_wait 32
 	anim_ret
 
-
+BattleAnim_PsychoCut:
+	anim_2gfx BATTLE_ANIM_GFX_MISC_1, BATTLE_ANIM_GFX_NOISE
+	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
+	anim_obj BATTLE_ANIM_OBJ_KINESIS,  10, 0,   9, 4, $0
+	anim_bgp $1b
+	anim_wait 8
+.loop
+	anim_sound 0, 0, SFX_AEROBLAST
+	anim_obj BATTLE_ANIM_OBJ_SOUND,   8, 0,  11, 0, $0
+	anim_wait 32
+	anim_loop 3, .loop
+	anim_wait 48
+	anim_sound 0, 0, SFX_PLACE_PUZZLE_PIECE_DOWN
+	anim_wait 10
+	anim_sound 0, 0, SFX_PLACE_PUZZLE_PIECE_DOWN
+	anim_wait 10
+	anim_sound 0, 0, SFX_PLACE_PUZZLE_PIECE_DOWN
+	anim_wait 10
+	anim_sound 0, 1, SFX_CUT
+	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_LEFT, 152, 40, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_LEFT, 148, 36, $0
+	anim_wait 32
+	anim_bgp $e4
+	anim_ret
 
 
 
