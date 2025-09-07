@@ -334,6 +334,7 @@ MoveDescriptionsGen3:
 	dw HeadSmashDescription
 	dw FlashCannonDescription
 	dw TachyonRayDescription
+	dw IronDefenseDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -808,6 +809,7 @@ DefenseCurlDescription:
 	next "user's DEFENSE.@"
 
 BarrierDescription:
+IronDefenseDescription:
 	db   "Sharply increases"
 	next "user's DEFENSE.@"
 

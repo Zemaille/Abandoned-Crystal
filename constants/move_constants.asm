@@ -329,6 +329,7 @@ DEF GEN2_MOVES EQU const_value - 1
 	const HEAD_SMASH
 	const FLASH_CANNON
 	const TACHYON_RAY
+	const IRON_DEFENSE
 DEF GEN3_MOVES EQU const_value - 1
 	
 DEF NUM_ATTACKS EQU const_value - 1
