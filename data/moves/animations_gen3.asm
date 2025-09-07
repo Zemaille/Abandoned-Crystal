@@ -68,6 +68,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_StoneEdge
 	dw BattleAnim_HeadSmash
 	dw BattleAnim_FlashCannon
+	dw BattleAnim_TachyonRay
 .IndirectEnd::
 
 BattleAnimSub_Sludge:
@@ -1677,7 +1678,13 @@ BattleAnim_FlashCannon:
 	anim_wait 64
 	anim_ret
 
-
+BattleAnim_TachyonRay:
+	anim_1gfx BATTLE_ANIM_GFX_BEAM
+	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $8, $20
+	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
+	anim_call BattleAnimSub_EyeBeams
+	anim_wait 16
+	anim_ret
 
 
 

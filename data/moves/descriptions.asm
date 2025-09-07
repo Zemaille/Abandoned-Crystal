@@ -333,6 +333,7 @@ MoveDescriptionsGen3:
 	dw StoneEdgeDescription
 	dw HeadSmashDescription
 	dw FlashCannonDescription
+	dw TachyonRayDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -878,6 +879,7 @@ SwiftDescription:
 AuraSphereDescription:
 AerialAceDescription:
 DisarmVoiceDescription:
+TachyonRayDescription:
 	db   "An attack that"
 	next "never misses.@"
 

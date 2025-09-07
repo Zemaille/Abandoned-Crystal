@@ -356,6 +356,7 @@ MovesGen3:
 	move EFFECT_NORMAL_HIT,        100, ROCK,          PHYSICAL,  80,  5,   0      ;Stone Edge
 	move EFFECT_RECOIL_HIT,        150, ROCK,          PHYSICAL,  90,  5,   0      ;Head Smash
 	move EFFECT_SP_DEF_DOWN_HIT,    80, STEEL,         SPECIAL,  100, 10,  10      ;Flash Cannon
+	move EFFECT_ALWAYS_HIT,         50, STEEL,         SPECIAL,  100, 10,   0      ;Tachyon Ray
 .IndirectEnd::
 
 
