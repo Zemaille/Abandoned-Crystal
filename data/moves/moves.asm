@@ -363,6 +363,7 @@ MovesGen3:
 	move EFFECT_DEFENSE_DOWN_HIT,   85, WATER,         PHYSICAL, 100, 10,  20      ;Liquidation
 	move EFFECT_PRIORITY_HIT,       40, WATER,         PHYSICAL, 100, 30,   0      ;Aqua Jet
 	move EFFECT_BURN_HIT,           80, WATER,         SPECIAL,  100, 15,  30      ;Scald
+	move EFFECT_CONFUSE_HIT,        60, WATER,         SPECIAL,  100, 20,  20      ;Water Pulse
 .IndirectEnd::
 
 

@@ -340,6 +340,7 @@ MoveDescriptionsGen3:
 	dw LiquidationDescription
 	dw AquaJetDescription
 	dw ScaldDescription
+	dw WaterPulseDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -735,6 +736,7 @@ ToxicDescription:
 ConfusionDescription:
 SignalBeamDescription:
 HurricaneDescription:
+WaterPulseDescription:
 	db   "An attack that may"
 	next "cause confusion.@"
 
