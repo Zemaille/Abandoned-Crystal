@@ -333,6 +333,7 @@ DEF GEN2_MOVES EQU const_value - 1
 	const IRON_HEAD
 	const BULLET_PUNCH
 	const LIQUIDATION
+	const AQUA_JET
 DEF GEN3_MOVES EQU const_value - 1
 	
 DEF NUM_ATTACKS EQU const_value - 1

@@ -73,6 +73,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_IronHead
 	dw BattleAnim_BulletPunch
 	dw BattleAnim_Liquidation
+	dw BattleAnim_AquaJet
 .IndirectEnd::
 
 BattleAnimSub_Sludge:
@@ -1784,7 +1785,43 @@ BattleAnim_Liquidation:
 	anim_wait 32
 	anim_ret
 
-
+BattleAnim_AquaJet:
+	anim_3gfx BATTLE_ANIM_GFX_SPEED, BATTLE_ANIM_GFX_HIT, BATTLE_ANIM_GFX_WATER
+	anim_sound 0, 0, SFX_MENU
+	anim_bgeffect BATTLE_BG_EFFECT_HIDE_MON, $0, $1, $0
+	anim_obj BATTLE_ANIM_OBJ_SPEED_LINE,  3, 0, 11, 0, $2
+	anim_obj BATTLE_ANIM_OBJ_SPEED_LINE,  4, 0, 11, 0, $1
+	anim_obj BATTLE_ANIM_OBJ_SPEED_LINE,  5, 0, 11, 0, $0
+	anim_obj BATTLE_ANIM_OBJ_SPEED_LINE,  6, 0, 11, 0, $80
+	anim_obj BATTLE_ANIM_OBJ_SPEED_LINE,  7, 0, 11, 0, $81
+	anim_obj BATTLE_ANIM_OBJ_SPEED_LINE,  8, 0, 11, 0, $82
+	anim_wait 4
+	anim_sound 0, 0, SFX_MENU
+	anim_obj BATTLE_ANIM_OBJ_HYDRO_PUMP, 9, 4, 13, 0, $0
+	anim_wait 2
+	anim_obj BATTLE_ANIM_OBJ_HYDRO_PUMP, 10, 4, 12, 2, $0
+	anim_wait 1
+	anim_sound 0, 0, SFX_MENU
+	anim_wait 1
+	anim_obj BATTLE_ANIM_OBJ_HYDRO_PUMP, 11, 4, 11, 4, $0
+	anim_wait 2
+	anim_sound 0, 0, SFX_MENU
+	anim_obj BATTLE_ANIM_OBJ_HYDRO_PUMP, 12, 4, 10, 6, $0
+	anim_wait 2
+	anim_obj BATTLE_ANIM_OBJ_HYDRO_PUMP, 13, 4, 10, 0, $0
+	anim_wait 1
+	anim_sound 0, 0, SFX_MENU
+	anim_wait 1
+	anim_obj BATTLE_ANIM_OBJ_HYDRO_PUMP, 14, 4, 9, 2, $0
+	anim_wait 2
+	anim_sound 0, 0, SFX_MENU
+	anim_obj BATTLE_ANIM_OBJ_HYDRO_PUMP, 15, 4, 8, 4, $0
+	anim_wait 3
+	anim_sound 0, 0, SFX_MENU
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 17, 0, 7, 0, $0
+	anim_wait 8
+	anim_bgeffect BATTLE_BG_EFFECT_SHOW_MON, $0, $1, $0
+	anim_ret
 
 
 

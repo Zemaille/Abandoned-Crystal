@@ -338,6 +338,7 @@ MoveDescriptionsGen3:
 	dw IronHeadDescription
 	dw BulletPunchDescription
 	dw LiquidationDescription
+	dw AquaJetDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -759,6 +760,7 @@ QuickAttackDescription:
 AmbushDescription:
 IceShardDescription:
 BulletPunchDescription:
+AquaJetDescription:
 	db   "Lets the user get"
 	next "in the first hit.@"
 
