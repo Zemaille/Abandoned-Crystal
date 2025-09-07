@@ -343,6 +343,7 @@ MoveDescriptionsGen3:
 	dw WaterPulseDescription
 	dw BoomburstDescription
 	dw GigaImpactDescription
+	dw ColonyBombDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -948,6 +949,10 @@ BarrageDescription:
 	db   "Throws orbs to hit"
 	next "2-5 times.@"
 
+ColonyBombDescription:
+	db   "Shoots mice to hit"
+	next "2-5 times.@"
+	
 LeechLifeDescription:
 	db   "Steals 1/2 of the"
 	next "damage inflicted.@"

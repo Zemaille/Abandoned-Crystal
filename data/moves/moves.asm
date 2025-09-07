@@ -366,6 +366,7 @@ MovesGen3:
 	move EFFECT_CONFUSE_HIT,        60, WATER,         SPECIAL,  100, 20,  20      ;Water Pulse
 	move EFFECT_NORMAL_HIT,        140, NORMAL,        SPECIAL,  100, 10,   0      ;Boomburst
 	move EFFECT_HYPER_BEAM,        150, NORMAL,        PHYSICAL, 100,  5,   0      ;Giga Impact
+	move EFFECT_MULTI_HIT,          40, NORMAL,        PHYSICAL,  90, 10,   0      ;Colony Bomb
 .IndirectEnd::
 
 

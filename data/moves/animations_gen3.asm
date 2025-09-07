@@ -78,6 +78,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_WaterPulse
 	dw BattleAnim_Boomburst
 	dw BattleAnim_GigaImpact
+	dw BattleAnim_ColonyBomb
 .IndirectEnd::
 
 BattleAnimSub_Sludge:
@@ -2023,3 +2024,27 @@ BattleAnim_GigaImpact:
 	anim_loop 2, .loop4
 	anim_wait 32
 	anim_ret
+
+BattleAnim_ColonyBomb:
+	anim_2gfx BATTLE_ANIM_GFX_PLANT, BATTLE_ANIM_GFX_HIT
+	anim_sound 0, 1, SFX_BONE_CLUB
+.loop
+	anim_setvar $0
+	anim_obj BATTLE_ANIM_OBJ_BULLET_SEED, 64, 90, $6
+	anim_call BattleAnimSub_BulletSeed1
+	anim_call BattleAnimSub_BulletSeed1
+	anim_wait 7
+	anim_sound 0, 1, SFX_HORN_ATTACK
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 136, 56, $0
+	anim_loop 3, .loop
+	anim_wait 16
+	anim_ret
+
+BattleAnimSub_BulletSeed1:
+	anim_wait 7
+	anim_obj BATTLE_ANIM_OBJ_BULLET_SEED, 64, 90, $6
+	anim_sound 0, 1, SFX_HORN_ATTACK
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 136, 56, $0
+	anim_ret
+
+
