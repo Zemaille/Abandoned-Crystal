@@ -330,6 +330,7 @@ MoveDescriptionsGen3:
 	dw RockBlastDescription
 	dw PowerGemDescription
 	dw StoneAxeDescription
+	dw StoneEdgeDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -347,6 +348,7 @@ ShadowClawDescription:
 LeafBladeDescription:
 EarthPowerDescription:
 PsychoCutDescription:
+StoneEdgeDescription:
 	db   "Has a high criti-"
 	next "cal hit ratio.@"
 

@@ -175,5 +175,4 @@ MoveEffectsPointers:
 	dw CalmMind
 	dw Burn
 	dw PsyhornBash
-	dw SpikesHit
 	assert_table_length NUM_MOVE_EFFECTS

@@ -317,4 +317,5 @@ MoveNames::
 	li "Rock Blast"
 	li "Power Gem"
 	li "Stone Axe"
+	li "Stone Edge"
 	assert_list_length NUM_ATTACKS

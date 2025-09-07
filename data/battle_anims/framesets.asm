@@ -261,6 +261,7 @@ BattleAnimFrameData:
 	dw .Frameset_SpinningTriangleSlow  ; BATTLE_ANIM_FRAMESET_SPINNING_TRIANGLE
 	dw .Frameset_NewBlast			   ; BATTLE_ANIM_FRAMESET_NEW_BLAST
 	dw .Frameset_IcicleCrash           ; BATTLE_ANIM_FRAMESET_ICICLE_CRASH
+	dw .Frameset_StoneEdge             ; BATTLE_ANIM_FRAMESET_STONE_EDGE
 	assert_table_length NUM_BATTLE_ANIM_FRAMESETS
 
 .Frameset_HitBig:
@@ -1687,8 +1688,13 @@ BattleAnimFrameData:
 
 .Frameset_NewBlast:
 	frame BATTLE_ANIM_OAMSET_054, 40
-	endanim
+	battleoamend
 
 .Frameset_IcicleCrash:
 	battleoamframe BATTLE_ANIM_OAMSET_ICICLE_CRASH, 32
 	battleoamdelete
+
+.Frameset_StoneEdge:
+	battleoamframe BATTLE_ANIM_OAMSET_STONE_EDGE,  50
+	battleoamdelete
+

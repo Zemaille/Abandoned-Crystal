@@ -261,7 +261,8 @@ BattleAnimOAMData:
 	battleanimoam $0c,  9, .OAMData_0f9 ; BATTLE_ANIM_OAMSET_0FB
 	battleanimoam $00,  9, .OAMData_0f9 ; BATTLE_ANIM_OAMSET_0FC
 	battleanimoam $06,  9, .OAMData_0a4 ; BATTLE_ANIM_OAMSET_0FD
-	battleanimoam $00,  6, .OAMData_IcicleCrash   ; BATTLEANIMOAMSET_ICICLE_CRASH
+	battleanimoam $00,  6, .OAMData_IcicleCrash   ; BATTLE_ANIM_OAMSET_ICICLE_CRASH
+	battleanimoam $11,  2, .OAMData_StoneEdge     ; BATTLE_ANIM_OAMSET_STONE_EDGE
 	assert_table_length NUM_BATTLE_ANIM_OAMSETS
 
 .OAMData_011:
@@ -1493,5 +1494,13 @@ BattleAnimOAMData:
 	dsprite   0, 0,   0, 0, $03, $0
 	dsprite   1, 0,  -1, 0, $04, $0
 	dsprite   1, 0,   0, 0, $05, $0
+
+.OAMData_StoneEdge:
+	dsprite  -1, 0,  -1, 0, $00, $0
+	dsprite   0, 0,  -1, 0, $01, $0
+
+
+
+
 
 
