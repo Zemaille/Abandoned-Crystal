@@ -327,6 +327,7 @@ DEF GEN2_MOVES EQU const_value - 1
 	const STONE_AXE
 	const STONE_EDGE
 	const HEAD_SMASH
+	const FLASH_CANNON
 DEF GEN3_MOVES EQU const_value - 1
 	
 DEF NUM_ATTACKS EQU const_value - 1

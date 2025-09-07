@@ -67,6 +67,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_StoneAxe
 	dw BattleAnim_StoneEdge
 	dw BattleAnim_HeadSmash
+	dw BattleAnim_FlashCannon
 .IndirectEnd::
 
 BattleAnimSub_Sludge:
@@ -1656,6 +1657,30 @@ BattleAnim_HeadSmash:
 	anim_wait 8
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
+
+BattleAnim_FlashCannon:
+	anim_setobjpal PAL_BATTLE_OB_YELLOW, PAL_BTLCUSTOM_BRIGHT
+	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_VERY_BRIGHT
+	anim_3gfx BATTLE_ANIM_GFX_EGG, BATTLE_ANIM_GFX_SMOKE, BATTLE_ANIM_GFX_HAZE
+	anim_sound 0, 1, SFX_MEGA_PUNCH
+	anim_obj BATTLE_ANIM_OBJ_OCTAZOOKA, 64, 92, $4
+	anim_wait 16
+	anim_sound 0, 1, SFX_BALL_POOF
+	anim_obj BATTLE_ANIM_OBJ_BALL_POOF, 132, 56, $10
+	anim_wait 8
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $24, $2, $0
+	anim_setobjpal PAL_BATTLE_OB_PLAYER, PAL_BTLCUSTOM_VERY_BRIGHT
+	anim_setobjpal PAL_BATTLE_BG_TARGET, PAL_BTLCUSTOM_VERY_BRIGHT
+	anim_setbgpal PAL_BATTLE_BG_USER, PAL_BTLCUSTOM_VERY_BRIGHT
+	anim_sound 0, 1, SFX_SPITE
+	anim_call BattleAnimSub_Mist
+	anim_wait 64
+	anim_ret
+
+
+
+
+
 
 
 

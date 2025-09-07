@@ -332,6 +332,7 @@ MoveDescriptionsGen3:
 	dw StoneAxeDescription
 	dw StoneEdgeDescription
 	dw HeadSmashDescription
+	dw FlashCannonDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -731,6 +732,7 @@ PsychicMDescription:
 BugBuzzDescription:
 FocusBlastDescription:
 EnergyBallDescription:
+FlashCannonDescription:
 	db   "An attack that may"
 	next "lower Spcl.Def.@"
 

@@ -319,4 +319,5 @@ MoveNames::
 	li "Stone Axe"
 	li "Stone Edge"
 	li "Head Smash"
+	li "Flash Cannon"
 	assert_list_length NUM_ATTACKS
