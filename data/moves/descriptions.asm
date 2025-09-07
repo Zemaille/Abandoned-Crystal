@@ -337,6 +337,7 @@ MoveDescriptionsGen3:
 	dw IronDefenseDescription
 	dw IronHeadDescription
 	dw BulletPunchDescription
+	dw LiquidationDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -565,6 +566,7 @@ DisableDescription:
 	next "most recent move.@"
 
 AcidDescription:
+LiquidationDescription:
 	db   "An attack that may"
 	next "lower DEFENSE.@"
 

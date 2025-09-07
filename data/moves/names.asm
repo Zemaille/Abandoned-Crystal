@@ -324,4 +324,5 @@ MoveNames::
 	li "Iron Defense"
 	li "Iron Head"
 	li "Bullet Punch"
+	li "Liquidation"
 	assert_list_length NUM_ATTACKS
