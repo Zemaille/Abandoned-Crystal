@@ -322,4 +322,5 @@ MoveNames::
 	li "Flash Cannon"
 	li "Tachyon Ray"
 	li "Iron Defense"
+	li "Iron Head"
 	assert_list_length NUM_ATTACKS

@@ -335,6 +335,7 @@ MoveDescriptionsGen3:
 	dw FlashCannonDescription
 	dw TachyonRayDescription
 	dw IronDefenseDescription
+	dw IronHeadDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -437,6 +438,7 @@ DarkPulseDescription:
 AstonishDescription:
 IcicleCrashDescription:
 ZenHeadbuttDescription:
+IronHeadDescription:
 	db   "An attack that may"
 	next "cause flinching.@"
 

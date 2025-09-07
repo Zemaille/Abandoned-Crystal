@@ -70,6 +70,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_FlashCannon
 	dw BattleAnim_TachyonRay
 	dw BattleAnim_IronDefense
+	dw BattleAnim_IronHead
 .IndirectEnd::
 
 BattleAnimSub_Sludge:
@@ -1702,6 +1703,25 @@ BattleAnim_IronDefense:
 	anim_wait 6
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
+
+BattleAnim_IronHead:
+	anim_2gfx BATTLE_ANIM_GFX_REFLECT, BATTLE_ANIM_GFX_HIT
+	anim_obp0 0, 0, 0, 0
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0
+	anim_call BattleAnimSub_Metallic
+	anim_resetobp0
+	anim_sound 0, 1, SFX_TACKLE
+	anim_bgeffect BATTLE_BG_EFFECT_TACKLE, $0, $1, $0
+	anim_wait 4
+	anim_sound 0, 1, SFX_TACKLE
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 17, 0,  7, 0, $0
+	anim_wait 4
+	anim_call BattleAnim_ShowMon_0
+	anim_ret
+
+
+
+
 
 
 
