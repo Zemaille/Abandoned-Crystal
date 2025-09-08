@@ -79,6 +79,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_Boomburst
 	dw BattleAnim_GigaImpact
 	dw BattleAnim_ColonyBomb
+	dw BattleAnim_ShellSmash
 .IndirectEnd::
 
 BattleAnimSub_Sludge:
@@ -2047,4 +2048,30 @@ BattleAnimSub_BulletSeed1:
 	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 136, 56, $0
 	anim_ret
 
-
+BattleAnim_ShellSmash:
+	anim_3gfx BATTLE_ANIM_GFX_REFLECT, BATTLE_ANIM_GFX_HIT, BATTLE_ANIM_GFX_ROCKS
+	anim_bgeffect BATTLE_BG_EFFECT_RETURN_MON, $0, $1, $0
+	anim_wait 6
+	anim_sound 0, 0, SFX_SHINE
+	anim_obj BATTLE_ANIM_OBJ_SHELL_SMASH_SHELL, 48, 106, $0
+	anim_wait 16
+	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_MID_OBPALS_GRAY_AND_YELLOW, $0, $0, $0
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $58, $2, $0
+	anim_sound 0, 0, SFX_OUTRAGE
+	anim_wait 72
+	anim_clearobjs
+	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_MID_OBPALS_GRAY_AND_YELLOW, $0, $6, $0
+	anim_incbgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X
+	anim_wait 1
+	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $4, $2
+	anim_bgeffect BATTLE_BG_EFFECT_ENTER_MON, $0, $1, $0
+	anim_sound 0, 1, SFX_KARATE_CHOP
+	anim_obj BATTLE_ANIM_OBJ_SHELL_SMASH_HIT, 48, 106, $0
+	anim_obj BATTLE_ANIM_OBJ_SHELL_SMASH_DEBRIS, 48, 106, $5c
+	anim_obj BATTLE_ANIM_OBJ_SHELL_SMASH_DEBRIS, 48, 106, $e8
+	anim_obj BATTLE_ANIM_OBJ_SHELL_SMASH_DEBRIS, 48, 106, $d0
+	anim_obj BATTLE_ANIM_OBJ_SHELL_SMASH_DEBRIS, 48, 106, $50
+	anim_wait 12
+	anim_bgeffect BATTLE_BG_EFFECT_FADE_MON_TO_BLACK_REPEATING, $0, $1, $40
+	anim_call BattleAnim_ShowMon_0
+	anim_ret

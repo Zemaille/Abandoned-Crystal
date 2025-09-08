@@ -331,4 +331,5 @@ MoveNames::
 	li "Boomburst"
 	li "Giga Impact"
 	li "Colony Bomb"
+	li "Shell Smash"
 	assert_list_length NUM_ATTACKS

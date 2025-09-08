@@ -339,6 +339,7 @@ DEF GEN2_MOVES EQU const_value - 1
 	const BOOMBURST
 	const GIGA_IMPACT
 	const COLONY_BOMB
+	const SHELL_SMASH
 DEF GEN3_MOVES EQU const_value - 1
 	
 DEF NUM_ATTACKS EQU const_value - 1

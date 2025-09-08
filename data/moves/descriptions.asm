@@ -344,6 +344,7 @@ MoveDescriptionsGen3:
 	dw BoomburstDescription
 	dw GigaImpactDescription
 	dw ColonyBombDescription
+	dw ShellSmashDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1523,7 +1524,9 @@ BoomburstDescription:
 	db   "Loud sound that"
 	next "hurts.@"
 
-
+ShellSmashDescription:
+	db   "Lowers defenses,"
+	next "raises offenses.@"
 
 
 

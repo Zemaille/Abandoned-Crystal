@@ -367,6 +367,7 @@ MovesGen3:
 	move EFFECT_NORMAL_HIT,        140, NORMAL,        SPECIAL,  100, 10,   0      ;Boomburst
 	move EFFECT_HYPER_BEAM,        150, NORMAL,        PHYSICAL, 100,  5,   0      ;Giga Impact
 	move EFFECT_MULTI_HIT,          40, NORMAL,        PHYSICAL,  90, 10,   0      ;Colony Bomb
+	move EFFECT_SHELL_SMASH,         0, NORMAL,        STATUS,   100, 15,   0      ;Shell Smash
 .IndirectEnd::
 
 
