@@ -1759,6 +1759,9 @@ RapidSpin:
 	criticaltext
 	supereffectivetext
 	clearhazards
+	speedup
+	statupmessage
+	statupfailtext
 	checkfaint
 	buildopponentrage
 	kingsrock
@@ -2080,4 +2083,330 @@ Hail:
 	usedmovetext
 	doturn
 	starthail
+	endmove
+
+QuiverDance:
+	checkobedience
+	usedmovetext
+	doturn
+	lowersub
+	statupanim
+	raisesub
+	specialattackup
+	statupmessage
+	specialdefenseup
+	statupmessage
+	speedup
+	statupmessage
+	statupfailtext
+	endmove
+
+DragonDance:
+	checkobedience
+	usedmovetext
+	doturn
+	lowersub
+	statupanim
+	raisesub
+	attackup
+	statupmessage
+	speedup
+	statupmessage
+	statupfailtext
+	endmove
+
+ThunderFang:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	effectchance
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	checkfaint
+	buildopponentrage
+	effectchance
+	paralyzetarget
+	effectchance
+	flinchtarget
+	kingsrock
+	endmove
+
+FireFang:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	effectchance
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	checkfaint
+	buildopponentrage
+	effectchance
+	burntarget
+	effectchance
+	flinchtarget
+	kingsrock
+	endmove
+
+IceFang:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	effectchance
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	checkfaint
+	buildopponentrage
+	effectchance
+	freezetarget
+	effectchance
+	flinchtarget
+	kingsrock
+	endmove
+
+CloseCombat:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	effectchance
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	closecombat
+	checkfaint
+	buildopponentrage
+	kingsrock
+	endmove
+
+FlareBlitz:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	recoil
+	checkfaint
+	buildopponentrage
+	effectchance
+	burntarget
+	kingsrock
+	endmove
+	
+Hurricane:				; Blizzard
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	effectchance
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	checkfaint
+	buildopponentrage
+	effectchance
+	confusetarget
+	endmove
+
+Hex:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	hex
+	checkhit
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	checkfaint
+	buildopponentrage
+	kingsrock
+	endmove
+
+Pyroclasm:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	effectchance
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	checkfaint
+	buildopponentrage
+	effectchance
+	pyroclasm
+	kingsrock
+	endmove
+
+SelfSpAtkDrop:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	effectchance
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	selfspatkdrop
+	checkfaint
+	buildopponentrage
+	kingsrock
+	endmove
+
+DireClaw:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	effectchance
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	checkfaint
+	buildopponentrage
+	effectchance
+	direclaw
+	kingsrock
+	endmove
+
+CalmMind:
+	checkobedience
+	usedmovetext
+	doturn
+	lowersub
+	statupanim
+	raisesub
+	specialattackup
+	statupmessage
+	specialdefenseup
+	statupmessage
+	statupfailtext
+	endmove
+
+Burn:
+	checkobedience
+	usedmovetext
+	doturn
+	stab
+	checkhit
+	moveanim
+	checksafeguard
+	burntarget
+	endmove
+
+PsyhornBash:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	defenseup
+	statupmessage
+	statupfailtext
+	checkfaint
+	buildopponentrage
+	kingsrock
+	endmove
+
+ShellSmash:
+	checkobedience
+	usedmovetext
+	doturn
+	lowersub
+	statupanim
+	raisesub
+	attackup2
+	statupmessage
+	specialattackup2
+	statupmessage
+	speedup2
+	statupmessage
+	closecombat
+	statupfailtext
 	endmove

@@ -1266,6 +1266,8 @@ INCLUDE "data/battle/critical_hit_chances.asm"
 
 INCLUDE "engine/battle/move_effects/triple_kick.asm"
 
+INCLUDE "engine/battle/move_effects/close_combat.asm"
+
 BattleCommand_Stab:
 ; STAB = Same Type Attack Bonus
 	ld a, BATTLE_VARS_MOVE_ANIM
@@ -1612,6 +1614,9 @@ BattleCommand_CheckHit:
 	call .BlizzardHail
 	ret z
 
+	call .HurricaneRain
+	ret z
+
 	call .XAccuracy
 	ret nz
 
@@ -1793,6 +1798,18 @@ BattleCommand_CheckHit:
 	ld a, [wBattleWeather]
 	cp WEATHER_HAIL
 	ret
+
+.HurricaneRain:
+; Return z if the current move always hits in rain, and it is raining.
+	ld a, BATTLE_VARS_MOVE_EFFECT
+	call GetBattleVar
+	cp EFFECT_HURRICANE
+	ret nz
+
+	ld a, [wBattleWeather]
+	cp WEATHER_RAIN
+	ret
+
 
 .XAccuracy:
 	ld a, BATTLE_VARS_SUBSTATUS4
@@ -3446,6 +3463,10 @@ INCLUDE "engine/battle/move_effects/false_swipe.asm"
 
 INCLUDE "engine/battle/move_effects/heal_bell.asm"
 
+INCLUDE "engine/battle/move_effects/hex.asm"
+
+INCLUDE "engine/battle/move_effects/self_sp_atk_drop.asm"
+
 FarPlayBattleAnimation:
 ; play animation de
 
@@ -4763,6 +4784,42 @@ BattleCommand_TriStatusChance:
 	dw BattleCommand_FreezeTarget ; freeze
 	dw BattleCommand_BurnTarget ; burn
 
+BattleCommand_DireClaw:
+	call BattleCommand_EffectChance
+.loop
+	; 1/3 chance of each status
+	call BattleRandom
+	swap a
+	and %11
+	jr z, .loop
+	dec a
+	ld hl, .DireClawStatus
+	jmp JumpTable
+	
+
+.DireClawStatus:
+	dw BattleCommand_PoisonTarget 
+	dw BattleCommand_ParalyzeTarget
+	dw BattleCommand_SleepTarget
+
+BattleCommand_Pyroclasm:
+	call BattleCommand_EffectChance
+.loop
+	; 1/3 chance of each status
+	call BattleRandom
+	swap a
+	and %11
+	jr z, .loop
+	dec a
+	ld hl, .PyroclasmStatus
+	jmp JumpTable
+	
+
+.PyroclasmStatus:
+	dw BattleCommand_BurnTarget 
+	dw BattleCommand_PoisonTarget
+	dw BattleCommand_AccuracyDown
+
 BattleCommand_Curl:
 	ld a, BATTLE_VARS_SUBSTATUS2
 	call GetBattleVarAddr
@@ -5675,11 +5732,12 @@ BattleCommand_TrapTarget:
 	jmp StdBattleTextbox
 
 .Traps:
-	dw BIND,      UsedBindText      ; 'used BIND on'
-	dw WRAP,      WrappedByText     ; 'was WRAPPED by'
-	dw FIRE_SPIN, FireSpinTrapText  ; 'was trapped!'
-	dw CLAMP,     ClampedByText     ; 'was CLAMPED by'
-	dw WHIRLPOOL, WhirlpoolTrapText ; 'was trapped!'
+	dw BIND,        UsedBindText        ; 'used BIND on'
+	dw WRAP,        WrappedByText       ; 'was WRAPPED by'
+	dw FIRE_SPIN,   FireSpinTrapText    ; 'was trapped!'
+	dw CLAMP,       ClampedByText       ; 'was CLAMPED by'
+	dw WHIRLPOOL,   WhirlpoolTrapText   ; 'was trapped!'
+	dw INFESTATION, InfestationTrapText ; 'was infested!'
 
 INCLUDE "engine/battle/move_effects/mist.asm"
 

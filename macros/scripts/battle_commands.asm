@@ -180,6 +180,11 @@ ENDM
 	command supereffectivelooptext  ; ad
 	command startloop               ; ae
 	command curl                    ; af
+	command closecombat
+	command hex
+	command pyroclasm
+	command selfspatkdrop
+	command direclaw
 
 	;==========================
 	;	New Moves Start Here

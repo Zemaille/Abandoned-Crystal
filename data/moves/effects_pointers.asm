@@ -160,4 +160,20 @@ MoveEffectsPointers:
 	dw DefenseCurl
 	dw FreezeHit
 	dw Hail
+	dw QuiverDance
+	dw DragonDance
+	dw ThunderFang
+	dw FireFang
+	dw IceFang
+	dw CloseCombat
+	dw FlareBlitz
+	dw Hurricane
+	dw Hex
+	dw Pyroclasm
+	dw SelfSpAtkDrop
+	dw DireClaw
+	dw CalmMind
+	dw Burn
+	dw PsyhornBash
+	dw ShellSmash
 	assert_table_length NUM_MOVE_EFFECTS

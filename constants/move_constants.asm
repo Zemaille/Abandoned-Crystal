@@ -258,9 +258,96 @@ DEF GEN1_MOVES EQU const_value - 1
 	const ROCK_SMASH   ; f9
 	const WHIRLPOOL    ; fa
 	const BEAT_UP      ; fb
-	const HAIL
 DEF GEN2_MOVES EQU const_value - 1
-
+	const HAIL
+	const X_SCISSOR
+	const SIGNAL_BEAM
+	const INFESTATION
+	const BUG_BUZZ
+	const QUIVER_DANCE
+	const NASTY_PLOT
+	const DARK_PULSE
+	const SNARL
+	const NIGHT_SLASH
+	const DRAGON_PULSE
+	const DRAGON_DARTS
+	const DRAGON_CLAW
+	const DRAGON_DANCE
+	const THUNDER_FANG
+	const FIRE_FANG
+	const ICE_FANG
+	const WILD_CHARGE
+	const AURA_SPHERE
+	const FOCUS_BLAST
+	const VACUUM_WAVE
+	const DRAIN_PUNCH
+	const CLOSE_COMBAT
+	const FLARE_BLITZ
+	const MYSTIC_FIRE
+	const WILL_O_WISP
+	const BRAVE_BIRD
+	const AIR_SLASH
+	const AIR_CUTTER
+	const HURRICANE
+	const AERIAL_ACE
+	const SHADOW_CLAW
+	const ASTONISH
+	const HEX
+	const MOONBLAST
+	const DISARM_VOICE
+	const DAZZLE_GLEAM
+	const PLAY_ROUGH
+	const CHLOROBLAST
+	const LEAF_BLADE
+	const ENERGY_BALL
+	const HORN_LEECH
+	const WOOD_HAMMER
+	const MUD_SHOT
+	const EARTH_POWER
+	const PYROCLASM
+	const AMBUSH
+	const STARBLAST
+	const ICICLE_CRASH
+	const ICICLE_SPEAR
+	const ICE_SHARD
+	const POISON_FANG
+	const POISON_JAB
+	const CROSS_POISON
+	const DIRE_CLAW
+	const GUNK_SHOT
+	const EXTRASENSORY
+	const ZEN_HEADBUTT
+	const DRACO_METEOR
+	const CALM_MIND
+	const TWIN_BEAM
+	const PSYHORN_BASH
+	const PSYCHO_CUT
+	const ROCK_BLAST
+	const POWER_GEM
+	const STONE_AXE
+	const STONE_EDGE
+	const HEAD_SMASH
+	const FLASH_CANNON
+	const TACHYON_RAY
+	const IRON_DEFENSE
+	const IRON_HEAD
+	const BULLET_PUNCH
+	const LIQUIDATION
+	const AQUA_JET
+	const SCALD
+	const WATER_PULSE
+	const BOOMBURST
+	const GIGA_IMPACT
+	const COLONY_BOMB
+	const SHELL_SMASH
+	const OVERHEAT
+	const SLACK_OFF
+	const SHADOW_PUNCH
+	const THUNDER_KICK
+	const FIERY_WRATH
+	const FREEZE_GLARE
+DEF GEN3_MOVES EQU const_value - 1
+	
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff
