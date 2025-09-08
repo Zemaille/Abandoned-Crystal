@@ -86,6 +86,8 @@ BattleAnimationsGen3::
 	dw BattleAnim_ThunderKick
 	dw BattleAnim_FieryWrath
 	dw BattleAnim_FreezeGlare
+	dw BattleAnim_AIReturn
+	dw BattleAnim_AIFrustration
 .IndirectEnd::
 
 BattleAnimSub_Sludge:
@@ -2314,4 +2316,43 @@ BattleAnim_FreezeGlare:
 	anim_sound 0, 1, SFX_CUT
 	anim_bgp $0b
 	anim_wait 80
+	anim_ret
+
+BattleAnim_AIReturn:
+	anim_1gfx BATTLE_ANIM_GFX_HIT
+	anim_call BattleAnim_TargetObj_2Row
+	anim_bgeffect BATTLE_BG_EFFECT_BOUNCE_DOWN, $0, BG_EFFECT_USER, $0
+	anim_sound 0, 0, SFX_RETURN
+	anim_wait 64
+	anim_incbgeffect BATTLE_BG_EFFECT_BOUNCE_DOWN
+	anim_wait 32
+	anim_bgeffect BATTLE_BG_EFFECT_BODY_SLAM, $0, BG_EFFECT_USER, $0
+	anim_wait 4
+	anim_sound 0, 1, SFX_COMET_PUNCH
+	anim_obj BATTLE_ANIM_OBJ_HIT_BIG, 136, 40, $0
+	anim_wait 8
+	anim_call BattleAnim_ShowMon_0
+	anim_ret
+
+BattleAnim_AIFrustration:
+	anim_1gfx BATTLE_ANIM_GFX_MISC_1
+	anim_sound 0, 0, SFX_KINESIS_2
+	anim_obj BATTLE_ANIM_OBJ_ANGER, 72, 80, $0
+	anim_wait 40
+	anim_1gfx BATTLE_ANIM_GFX_HIT
+	anim_call BattleAnim_TargetObj_1Row
+	anim_bgeffect BATTLE_BG_EFFECT_WOBBLE_MON, $0, BG_EFFECT_USER, $0
+	anim_wait 8
+	anim_sound 0, 1, SFX_COMET_PUNCH
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 120, 48, $0
+	anim_wait 8
+	anim_sound 0, 1, SFX_COMET_PUNCH
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 152, 48, $0
+	anim_wait 8
+	anim_sound 0, 1, SFX_COMET_PUNCH
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 136, 48, $0
+	anim_wait 8
+	anim_incbgeffect BATTLE_BG_EFFECT_WOBBLE_MON
+	anim_wait 1
+	anim_call BattleAnim_ShowMon_0
 	anim_ret

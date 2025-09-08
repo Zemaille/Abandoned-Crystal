@@ -374,6 +374,9 @@ MovesGen3:
 	move EFFECT_DEFENSE_DOWN_HIT,   90, FIGHTING,      PHYSICAL, 100, 10, 100      ;Thunder Kick
 	move EFFECT_FLINCH_HIT,         90, DARK,          SPECIAL,  100, 10,  20      ;Fiery Wrath
 	move EFFECT_FREEZE_HIT,         90, PSYCHIC_TYPE,  SPECIAL,  100, 10,  10      ;Freeze Glare   
+	move EFFECT_NORMAL_HIT,        102, NORMAL,        PHYSICAL, 100, 20,   0      ;AI Return
+	move EFFECT_NORMAL_HIT,        102, NORMAL,        PHYSICAL, 100, 20,   0      ;AI Frustration
+	
 .IndirectEnd::
 
 

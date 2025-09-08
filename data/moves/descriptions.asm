@@ -351,6 +351,8 @@ MoveDescriptionsGen3:
 	dw ThunderKickDescription
 	dw FieryWrathDescription
 	dw FreezeGlareDescription
+	dw AIReturnDescription
+	dw AIFrustrationDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1537,5 +1539,11 @@ ShellSmashDescription:
 	db   "Lowers defenses,"
 	next "raises offenses.@"
 
+AIReturnDescription:
+	db   "ERROR: Tell Zach"
+	next "you saw this.@"
 
+AIFrustrationDescription:
+	db   "ERROR: Tell Zach"
+	next "you saw this.@"
 

@@ -338,4 +338,6 @@ MoveNames::
 	li "Thunder Kick"
 	li "Fiery Wrath"
 	li "Freeze Glare"
+	li "Return"
+	li "Frustration"
 	assert_list_length NUM_ATTACKS
