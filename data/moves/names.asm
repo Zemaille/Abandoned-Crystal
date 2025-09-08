@@ -337,4 +337,5 @@ MoveNames::
 	li "Shadow Punch"
 	li "Thunder Kick"
 	li "Fiery Wrath"
+	li "Freeze Glare"
 	assert_list_length NUM_ATTACKS

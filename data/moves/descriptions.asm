@@ -350,6 +350,7 @@ MoveDescriptionsGen3:
 	dw ShadowPunchDescription
 	dw ThunderKickDescription
 	dw FieryWrathDescription
+	dw FreezeGlareDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -610,9 +611,7 @@ SurfDescription:
 	next "type attack.@"
 
 IceBeamDescription:
-	db   "An attack that may"
-	next "freeze the foe.@"
-
+FreezeGlareDescription:
 BlizzardDescription:
 	db   "An attack that may"
 	next "freeze the foe.@"

@@ -345,6 +345,7 @@ DEF GEN2_MOVES EQU const_value - 1
 	const SHADOW_PUNCH
 	const THUNDER_KICK
 	const FIERY_WRATH
+	const FREEZE_GLARE
 DEF GEN3_MOVES EQU const_value - 1
 	
 DEF NUM_ATTACKS EQU const_value - 1
