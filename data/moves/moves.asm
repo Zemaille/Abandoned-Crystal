@@ -368,6 +368,7 @@ MovesGen3:
 	move EFFECT_HYPER_BEAM,        150, NORMAL,        PHYSICAL, 100,  5,   0      ;Giga Impact
 	move EFFECT_MULTI_HIT,          40, NORMAL,        PHYSICAL,  90, 10,   0      ;Colony Bomb
 	move EFFECT_SHELL_SMASH,         0, NORMAL,        STATUS,   100, 15,   0      ;Shell Smash
+	move EFFECT_SELF_SP_ATK_DROP,  130, FIRE,          SPECIAL,   90,  5,   0      ;Overheat
 .IndirectEnd::
 
 

@@ -332,4 +332,5 @@ MoveNames::
 	li "Giga Impact"
 	li "Colony Bomb"
 	li "Shell Smash"
+	li "Overheat"
 	assert_list_length NUM_ATTACKS

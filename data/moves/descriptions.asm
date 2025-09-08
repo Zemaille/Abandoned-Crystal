@@ -345,6 +345,7 @@ MoveDescriptionsGen3:
 	dw GigaImpactDescription
 	dw ColonyBombDescription
 	dw ShellSmashDescription
+	dw OverheatDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1489,6 +1490,7 @@ PyroclasmDescription:
 
 StarfallDescription:
 DracoMeteorDescription:
+OverheatDescription:
 	db   "Full-power. Lowers"
 	next "Sp.Atk sharply.@"
 
