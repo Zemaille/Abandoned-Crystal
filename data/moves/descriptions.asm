@@ -348,6 +348,7 @@ MoveDescriptionsGen3:
 	dw OverheatDescription
 	dw SlackOffDescription
 	dw ShadowPunchDescription
+	dw ThunderKickDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -577,6 +578,7 @@ DisableDescription:
 
 AcidDescription:
 LiquidationDescription:
+ThunderKickDescription:
 	db   "An attack that may"
 	next "lower DEFENSE.@"
 
