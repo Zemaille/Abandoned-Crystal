@@ -336,4 +336,5 @@ MoveNames::
 	li "Slack Off"
 	li "Shadow Punch"
 	li "Thunder Kick"
+	li "Fiery Wrath"
 	assert_list_length NUM_ATTACKS

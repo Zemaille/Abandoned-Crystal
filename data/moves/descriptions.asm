@@ -349,6 +349,7 @@ MoveDescriptionsGen3:
 	dw SlackOffDescription
 	dw ShadowPunchDescription
 	dw ThunderKickDescription
+	dw FieryWrathDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -452,6 +453,7 @@ AstonishDescription:
 IcicleCrashDescription:
 ZenHeadbuttDescription:
 IronHeadDescription:
+FieryWrathDescription:
 	db   "An attack that may"
 	next "cause flinching.@"
 

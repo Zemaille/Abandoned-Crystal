@@ -372,6 +372,7 @@ MovesGen3:
 	move EFFECT_HEAL,                0, NORMAL,        STATUS,   100,  5,   0      ;Slack Off
 	move EFFECT_ALWAYS_HIT,         60, GHOST,         PHYSICAL, 100, 20,   0      ;Shadow Punch
 	move EFFECT_DEFENSE_DOWN_HIT,   90, FIGHTING,      PHYSICAL, 100, 10, 100      ;Thunder Kick
+	move EFFECT_FLINCH_HIT,         90, DARK,          SPECIAL,  100, 10,  20      ;Fiery Wrath
 .IndirectEnd::
 
 
