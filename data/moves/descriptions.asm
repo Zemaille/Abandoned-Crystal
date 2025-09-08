@@ -1540,10 +1540,6 @@ ShellSmashDescription:
 	next "raises offenses.@"
 
 AIReturnDescription:
-	db   "ERROR: Tell Zach"
-	next "you saw this.@"
-
 AIFrustrationDescription:
 	db   "ERROR: Tell Zach"
 	next "you saw this.@"
-
