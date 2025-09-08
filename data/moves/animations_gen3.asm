@@ -81,6 +81,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_ColonyBomb
 	dw BattleAnim_ShellSmash
 	dw BattleAnim_Overheat
+	dw BattleAnim_SlackOff
 .IndirectEnd::
 
 BattleAnimSub_Sludge:
@@ -2140,4 +2141,17 @@ BattleAnim_Overheat:
 	anim_wait 8
 	anim_loop 6, .loop2
 	anim_wait 32
+	anim_ret
+
+BattleAnim_SlackOff:
+	anim_1gfx BATTLE_ANIM_GFX_SHINE
+	anim_call BattleAnim_TargetObj_2Row
+	anim_sound 16, 2, SFX_CURSE
+	anim_bgeffect BATTLE_BG_EFFECT_WITHDRAW, $0, $1, $50
+	anim_wait 64
+	anim_incbgeffect BATTLE_BG_EFFECT_WITHDRAW
+	anim_bgeffect BATTLE_BG_EFFECT_SHOW_MON, $0, $0, $0
+	anim_wait 1
+	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
+	anim_call BattleAnimSub_Glimmer
 	anim_ret

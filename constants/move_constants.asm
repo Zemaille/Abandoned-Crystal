@@ -341,6 +341,7 @@ DEF GEN2_MOVES EQU const_value - 1
 	const COLONY_BOMB
 	const SHELL_SMASH
 	const OVERHEAT
+	const SLACK_OFF
 DEF GEN3_MOVES EQU const_value - 1
 	
 DEF NUM_ATTACKS EQU const_value - 1

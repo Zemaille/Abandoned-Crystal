@@ -346,6 +346,7 @@ MoveDescriptionsGen3:
 	dw ColonyBombDescription
 	dw ShellSmashDescription
 	dw OverheatDescription
+	dw SlackOffDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -799,6 +800,7 @@ DoubleTeamDescription:
 	next "ness.@"
 
 RecoverDescription:
+SlackOffDescription:
 	db   "Restores HP by 1/2"
 	next "the max HP.@"
 
