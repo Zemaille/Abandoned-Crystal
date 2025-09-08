@@ -4,7 +4,7 @@
 	evs  0,   0,   0,   0,   0,   3
 	;   hp  atk  def  spd  sat  sdf
 
-	db WATER, WATER ; type
+	db WATER, GRASS ; type
 	db 45 ; catch rate
 	db 185 ; base exp
 	dw NO_ITEM, KINGS_ROCK ; items

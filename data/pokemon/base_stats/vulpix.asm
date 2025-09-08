@@ -4,7 +4,7 @@
 	evs  0,   0,   0,   1,   0,   0
 	;   hp  atk  def  spd  sat  sdf
 
-	db FIRE, FIRE ; type
+	db FIRE, FAIRY ; type
 	db 190 ; catch rate
 	db 63 ; base exp
 	dw BURNT_BERRY, BURNT_BERRY ; items
