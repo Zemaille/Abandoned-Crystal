@@ -46,7 +46,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_EarthPower
 	dw BattleAnim_Pyroclasm
 	dw BattleAnim_Ambush
-	dw BattleAnim_Starfall
+	dw BattleAnim_Starblast
 	dw BattleAnim_IcicleCrash
 	dw BattleAnim_IcicleSpear
 	dw BattleAnim_IceShard
@@ -1185,7 +1185,7 @@ BattleAnim_Ambush:
 	anim_wait 32
 	anim_ret
 	
-BattleAnim_Starfall:
+BattleAnim_Starblast:
 	anim_setobjpal PAL_BATTLE_OB_RED, PAL_BTLCUSTOM_BUBBLE
 	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_BUBBLE
 	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_BUBBLE

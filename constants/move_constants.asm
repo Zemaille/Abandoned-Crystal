@@ -306,7 +306,7 @@ DEF GEN2_MOVES EQU const_value - 1
 	const EARTH_POWER
 	const PYROCLASM
 	const AMBUSH
-	const STARFALL
+	const STARBLAST
 	const ICICLE_CRASH
 	const ICICLE_SPEAR
 	const ICE_SHARD

@@ -311,7 +311,7 @@ MoveDescriptionsGen3:
 	dw EarthPowerDescription
 	dw PyroclasmDescription
 	dw AmbushDescription
-	dw StarfallDescription
+	dw StarblastDescription
 	dw IcicleCrashDescription
 	dw IcicleSpearDescription
 	dw IceShardDescription
@@ -1492,7 +1492,7 @@ PyroclasmDescription:
 	db   "Might paralyze,"
 	next "burn, or obscure.@"
 
-StarfallDescription:
+StarblastDescription:
 DracoMeteorDescription:
 OverheatDescription:
 	db   "Full-power. Lowers"
