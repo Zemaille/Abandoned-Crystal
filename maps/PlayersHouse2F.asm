@@ -144,16 +144,18 @@ if DEF(_DEBUG)
 	; hm slaves
 	givepoke MEW, 30, LEFTOVERS
 	givepoke LANTURN, 100, LEFTOVERS
-	givepokemove FREEZE_GLARE, wPartyMon1, 0
-	givepokemove SLACK_OFF,  wPartyMon1, 1
-	givepokemove FLY,        wPartyMon2, 0
-	givepokemove SURF,       wPartyMon2, 1
-	givepokemove STRENGTH,   wPartyMon2, 2
-	givepokemove CUT,        wPartyMon2, 3
-	givepokemove FLASH,      wPartyMon3, 0
-	givepokemove ROCK_SMASH, wPartyMon3, 1
-	givepokemove HEADBUTT,   wPartyMon3, 2
-	givepokemove WATERFALL,  wPartyMon3, 3
+	givepokemove PSYCHIC_M,   wPartyMon1, 0
+	givepokemove ICE_BEAM,    wPartyMon1, 1
+	givepokemove SHADOW_BALL, wPartyMon1, 2
+	givepokemove SLACK_OFF,   wPartyMon1, 3
+	givepokemove FLY,         wPartyMon2, 0
+	givepokemove SURF,        wPartyMon2, 1
+	givepokemove STRENGTH,    wPartyMon2, 2
+	givepokemove CUT,         wPartyMon2, 3
+	givepokemove FLASH,       wPartyMon3, 0
+	givepokemove ROCK_SMASH,  wPartyMon3, 1
+	givepokemove WHIRLPOOL,   wPartyMon3, 2
+	givepokemove WATERFALL,   wPartyMon3, 3
 	; misc pokemon for testing
 	givepoke AMPHAROS, 50
 	givepoke GENGAR, 50
