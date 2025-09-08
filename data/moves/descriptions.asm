@@ -347,6 +347,7 @@ MoveDescriptionsGen3:
 	dw ShellSmashDescription
 	dw OverheatDescription
 	dw SlackOffDescription
+	dw ShadowPunchDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -902,6 +903,7 @@ AuraSphereDescription:
 AerialAceDescription:
 DisarmVoiceDescription:
 TachyonRayDescription:
+ShadowPunchDescription:
 	db   "An attack that"
 	next "never misses.@"
 

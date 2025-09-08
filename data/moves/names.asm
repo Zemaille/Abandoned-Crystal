@@ -334,4 +334,5 @@ MoveNames::
 	li "Shell Smash"
 	li "Overheat"
 	li "Slack Off"
+	li "Shadow Punch"
 	assert_list_length NUM_ATTACKS
