@@ -1,10 +1,10 @@
 	db 0 ; species ID placeholder
 
-	db  10,  55,  25,  95,  35,  45
+	db  10,  55,  30,  90,  35,  45
 	evs  0,   0,   0,   1,   0,   0
 	;   hp  atk  def  spd  sat  sdf
 
-	db GROUND, GROUND ; type
+	db GROUND, STEEL ; type
 	db 255 ; catch rate
 	db 81 ; base exp
 	dw NO_ITEM, NO_ITEM ; items
@@ -16,5 +16,5 @@
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 
 	; tm/hm learnset
-	tmhm CURSE, TOXIC, ROCK_SMASH, HIDDEN_POWER, SUNNY_DAY, SNORE, PROTECT, ENDURE, FRUSTRATION, EARTHQUAKE, RETURN, DIG, MUD_SLAP, DOUBLE_TEAM, SWAGGER, SLEEP_TALK, SLUDGE_BOMB, REST, ATTRACT, THIEF, CUT
+	tmhm 
 	; end

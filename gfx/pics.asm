@@ -50,7 +50,6 @@ ZapdosFrontpic:      INCBIN "gfx/pokemon/zapdos/front.animated.2bpp.lz"
 ArbokFrontpic:       INCBIN "gfx/pokemon/arbok/front.animated.2bpp.lz"
 MewtwoFrontpic:      INCBIN "gfx/pokemon/mewtwo/front.animated.2bpp.lz"
 FearowFrontpic:      INCBIN "gfx/pokemon/fearow/front.animated.2bpp.lz"
-CharizardFrontpic:   INCBIN "gfx/pokemon/charizard/front.animated.2bpp.lz"
 QuilavaFrontpic:     INCBIN "gfx/pokemon/quilava/front.animated.2bpp.lz"
 
 
@@ -176,7 +175,6 @@ PiloswineFrontpic:   INCBIN "gfx/pokemon/piloswine/front.animated.2bpp.lz"
 DugtrioFrontpic:     INCBIN "gfx/pokemon/dugtrio/front.animated.2bpp.lz"
 MagnetonFrontpic:    INCBIN "gfx/pokemon/magneton/front.animated.2bpp.lz"
 DragonairFrontpic:   INCBIN "gfx/pokemon/dragonair/front.animated.2bpp.lz"
-ForretressFrontpic:  INCBIN "gfx/pokemon/forretress/front.animated.2bpp.lz"
 TogeticFrontpic:     INCBIN "gfx/pokemon/togetic/front.animated.2bpp.lz"
 KangaskhanBackpic:   INCBIN "gfx/pokemon/kangaskhan/back.2bpp.lz"
 
@@ -417,7 +415,6 @@ SunkernFrontpic:     INCBIN "gfx/pokemon/sunkern/front.animated.2bpp.lz"
 NidorinoBackpic:     INCBIN "gfx/pokemon/nidorino/back.2bpp.lz"
 MysticalmanPic:      INCBIN "gfx/trainers/mysticalman.2bpp.lz"
 CooltrainerfPic:     INCBIN "gfx/trainers/cooltrainer_f.2bpp.lz"
-ElectrodeFrontpic:   INCBIN "gfx/pokemon/electrode/front.animated.2bpp.lz"
 
 
 SECTION "Pics 14", ROMX
@@ -778,3 +775,13 @@ INCBIN "gfx/pokemon/unown_r/back.2bpp.lz"
 SECTION "Pics 20", ROMX
 
 KrisTrainerPic: INCBIN "gfx/trainers/kris.2bpp.lz"
+
+
+SECTION "Pics 21", ROMX
+
+CharizardFrontpic:   INCBIN "gfx/pokemon/charizard/front.animated.2bpp.lz"
+ForretressFrontpic:  INCBIN "gfx/pokemon/forretress/front.animated.2bpp.lz"
+ElectrodeFrontpic:   INCBIN "gfx/pokemon/electrode/front.animated.2bpp.lz"
+
+
+
