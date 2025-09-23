@@ -101,6 +101,7 @@ EvosAttacksPointers2::
 	dw LugiaEvosAttacks
 	dw HoOhEvosAttacks
 	dw CelebiEvosAttacks
+	dw MismagiusEvosAttacks
 .IndirectEnd::
 
 ChikoritaEvosAttacks:
@@ -1403,5 +1404,10 @@ CelebiEvosAttacks:
 	dbw 40, BATON_PASS
 	dbw 50, PERISH_SONG
 	db 0 ; no more level-up moves
+
+MismagiusEvosAttacks:
+	db 0
+	dbw 1, SHADOW_BALL
+	db 0
 
 ENDSECTION
