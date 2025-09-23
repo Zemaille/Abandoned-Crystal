@@ -520,4 +520,6 @@ PokemonPicPointers::
 	dba CelebiBackpic
 	dba MismagiusFrontpic
 	dba MismagiusBackpic
+	dba HonchkrowFrontpic
+	dba HonchkrowBackpic
 	assert_table_length NUM_POKEMON + 1
