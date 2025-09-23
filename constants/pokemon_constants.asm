@@ -272,8 +272,8 @@ DEF JOHTO_POKEMON EQU const_value
 	const LUGIA      ; f9
 	const HO_OH      ; fa
 	const CELEBI     ; fb
+DEF EXPANSION_POKEMON EQU const_value	
 	const MISMAGIUS
-DEF NUM_JOHTO_POKEMON EQU const_value - 1
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

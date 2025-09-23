@@ -101,7 +101,6 @@ EvolutionMovesJohto:
 	dw NO_MOVE       ; LUGIA
 	dw NO_MOVE       ; HO-OH
 	dw NO_MOVE       ; CELEBI
-	dw NO_MOVE       ; Mismagius
 .IndirectEnd::
 
 ENDSECTION
