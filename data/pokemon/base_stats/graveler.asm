@@ -4,7 +4,7 @@
 	evs  0,   0,   2,   0,   0,   0
 	;   hp  atk  def  spd  sat  sdf
 
-	db ROCK, GROUND ; type
+	db ROCK, ELECTRIC ; type
 	db 120 ; catch rate
 	db 134 ; base exp
 	dw NO_ITEM, EVERSTONE ; items
@@ -16,5 +16,5 @@
 	dn EGG_MINERAL, EGG_MINERAL ; egg groups
 
 	; tm/hm learnset
-	tmhm DYNAMICPUNCH, HEADBUTT, CURSE, ROLLOUT, TOXIC, ROCK_SMASH, HIDDEN_POWER, SUNNY_DAY, SNORE, PROTECT, ENDURE, FRUSTRATION, EARTHQUAKE, RETURN, DIG, MUD_SLAP, DOUBLE_TEAM, SWAGGER, SLEEP_TALK, SANDSTORM, FIRE_BLAST, DEFENSE_CURL, REST, ATTRACT, FIRE_PUNCH, STRENGTH, FLAMETHROWER
+	tmhm 
 	; end
