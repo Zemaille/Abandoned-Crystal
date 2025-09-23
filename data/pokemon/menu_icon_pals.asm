@@ -97,8 +97,8 @@ MonMenuIconPals:
 	icon_pals BROWN,  BROWN  ; DODRIO
 	icon_pals BLUE,   GRAY   ; SEEL
 	icon_pals BLUE,   GRAY   ; DEWGONG
-	icon_pals PURPLE, GRAY   ; GRIMER
-	icon_pals PURPLE, GREEN  ; MUK
+	icon_pals GREEN,  GRAY   ; GRIMER
+	icon_pals GREEN, GREEN  ; MUK
 	icon_pals PURPLE, BROWN  ; SHELLDER
 	icon_pals PURPLE, BLUE   ; CLOYSTER
 	icon_pals PURPLE, BLUE   ; GASTLY
