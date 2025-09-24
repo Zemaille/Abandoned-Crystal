@@ -30,6 +30,8 @@ EvosAttacksPointers3::
 	dw UrsalunaEvosAttacks
 	dw SwabluEvosAttacks
 	dw AltariaEvosAttacks
+	dw InkayEvosAttacks
+	dw MalamarEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -179,6 +181,16 @@ SwabluEvosAttacks:
 AltariaEvosAttacks:
 	db 0
 	dbw 1, DRAGON_PULSE
+	db 0
+
+InkayEvosAttacks:
+	db 0
+	dbw 1, CONFUSION
+	db 0
+
+MalamarEvosAttacks:
+	db 0
+	dbw 1, PSYCHO_CUT
 	db 0
 
 ENDSECTION

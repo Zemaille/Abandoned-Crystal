@@ -280,5 +280,7 @@ FirstEvoStages::
 	dw DUNSPARCE
 	dw TEDDIURSA
 	dw SWABLU
-	dw ALTARIA
+	dw SWABLU
+	dw INKAY
+	dw INKAY
 	assert_table_length NUM_POKEMON

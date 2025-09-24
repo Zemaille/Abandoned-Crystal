@@ -282,4 +282,6 @@ NewPokedexOrder:
 	dw URSALUNA
 	dw SWABLU
 	dw ALTARIA
+	dw INKAY
+	dw MALAMAR
 	assert_table_length NUM_POKEMON

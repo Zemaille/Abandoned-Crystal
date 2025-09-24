@@ -280,4 +280,6 @@ AnimationPointers:
 	dw UrsalunaAnimation
 	dw SwabluAnimation
 	dw AltariaAnimation
+	dw InkayAnimation
+	dw MalamarAnimation
 	assert_table_length NUM_POKEMON

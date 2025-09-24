@@ -280,4 +280,6 @@ BitmasksPointers:
 	dw UrsalunaBitmasks
 	dw SwabluBitmasks
 	dw AltariaBitmasks
+	dw InkayBitmasks
+	dw MalamarBitmasks
 	assert_table_length NUM_POKEMON

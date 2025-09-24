@@ -30,6 +30,8 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Ursaluna
 	dw NO_MOVE		 ; Swablu
 	dw NO_MOVE		 ; Altaria
+	dw NO_MOVE		 ; Inkay
+	dw NO_MOVE		 ; Malamar
 .IndirectEnd::
 
 ENDSECTION

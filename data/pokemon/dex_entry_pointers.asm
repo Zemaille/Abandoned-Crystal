@@ -281,4 +281,6 @@ PokedexDataPointerTable:
 	dba UrsalunaPokedexEntry
 	dba SwabluPokedexEntry
 	dba AltariaPokedexEntry
+	dba InkayPokedexEntry
+	dba MalamarPokedexEntry
 	assert_table_length NUM_POKEMON

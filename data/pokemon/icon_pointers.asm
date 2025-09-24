@@ -285,4 +285,6 @@ IconPointers:
 	dw UrsalunaIcon
 	dw SwabluIcon
 	dw AltariaIcon
+	dw InkayIcon
+	dw MalamarIcon
 	assert_table_length NUM_POKEMON + 1

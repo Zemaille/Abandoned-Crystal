@@ -576,5 +576,9 @@ PokemonPicPointers::
 	dba SwabluBackpic
 	dba AltariaFrontpic
 	dba AltariaBackpic
+	dba InkayFrontpic
+	dba InkayBackpic
+	dba MalamarFrontpic
+	dba MalamarBackpic
 	
 	assert_table_length NUM_POKEMON + 1

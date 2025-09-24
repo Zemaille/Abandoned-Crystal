@@ -28,4 +28,6 @@ INCLUDE "data/pokemon/base_stats/dudunsparce.asm"
 INCLUDE "data/pokemon/base_stats/ursaluna.asm"
 INCLUDE "data/pokemon/base_stats/swablu.asm"
 INCLUDE "data/pokemon/base_stats/altaria.asm"
+INCLUDE "data/pokemon/base_stats/inkay.asm"
+INCLUDE "data/pokemon/base_stats/malamar.asm"
 .IndirectEnd::

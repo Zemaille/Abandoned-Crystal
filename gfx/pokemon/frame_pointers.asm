@@ -280,4 +280,6 @@ FramesPointers:
 	dba UrsalunaFrames
 	dba SwabluFrames
 	dba AltariaFrames
+	dba InkayFrames
+	dba MalamarFrames
 	assert_table_length NUM_POKEMON

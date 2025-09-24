@@ -30,6 +30,8 @@ EggMovePointers3:
 	dw NoEggMoves3      ;Ursaluna
 	dw NoEggMoves3      ;Swablu
 	dw NoEggMoves3      ;Altaria
+	dw NoEggMoves3      ;Inkay
+	dw NoEggMoves3      ;Malamar
 .IndirectEnd::
 
 NoEggMoves3:

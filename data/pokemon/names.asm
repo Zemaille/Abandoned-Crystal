@@ -284,4 +284,6 @@ PokemonNames::
 	db "Ursaluna@@"
 	db "Swablu@@@@"
 	db "Altaria@@@"
+	db "Inkay@@@@@"
+	db "Malamar@@@"
 	assert_table_length NUM_POKEMON

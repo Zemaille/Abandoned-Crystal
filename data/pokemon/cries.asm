@@ -286,6 +286,7 @@ PokemonCries::
 	mon_cry CRY_TEDDIURSA,  1600,  216 ; Ursaluna
 	mon_cry CRY_PIDGEY,      223,  132 ; Swablu
 	mon_cry CRY_PIDGEOTTO,    17,  383 ; Altaria	
-	
+	mon_cry CRY_METAPOD,     192,  129 ; Inkay
+	mon_cry CRY_METAPOD,     168,  320 ; Malamar
 	
 	assert_table_length NUM_POKEMON

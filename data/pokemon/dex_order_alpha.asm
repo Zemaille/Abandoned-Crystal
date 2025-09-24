@@ -103,6 +103,7 @@ AlphabeticalPokedexOrder:
 	dw HOUNDOUR
 	dw HYPNO
 	dw IGGLYBUFF
+	dw INKAY
 	dw IVYSAUR
 	dw JIGGLYPUFF
 	dw JOLTEON
@@ -137,6 +138,7 @@ AlphabeticalPokedexOrder:
 	dw MAGNEMITE
 	dw MAGNETON
 	dw MAGNEZONE
+	dw MALAMAR
 	dw MAMOSWINE
 	dw MANKEY
 	dw MANTINE

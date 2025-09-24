@@ -846,4 +846,8 @@ SwabluFrontpic:      INCBIN "gfx/pokemon/swablu/front.animated.2bpp.lz"
 SwabluBackpic:       INCBIN "gfx/pokemon/swablu/back.2bpp.lz"
 AltariaFrontpic:     INCBIN "gfx/pokemon/altaria/front.animated.2bpp.lz"
 AltariaBackpic:      INCBIN "gfx/pokemon/altaria/back.2bpp.lz"
+InkayFrontpic:       INCBIN "gfx/pokemon/inkay/front.animated.2bpp.lz"
+InkayBackpic:        INCBIN "gfx/pokemon/inkay/back.2bpp.lz"
+MalamarFrontpic:     INCBIN "gfx/pokemon/malamar/front.animated.2bpp.lz"
+MalamarBackpic:      INCBIN "gfx/pokemon/malamar/back.2bpp.lz"
 
