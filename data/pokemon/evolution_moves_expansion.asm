@@ -10,6 +10,7 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Rhyperior
 	dw NO_MOVE		 ; Tangrowth
 	dw NO_MOVE		 ; Electivire
+	dw NO_MOVE		 ; Magmortar
 .IndirectEnd::
 
 ENDSECTION

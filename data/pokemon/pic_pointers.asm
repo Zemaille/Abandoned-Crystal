@@ -536,6 +536,8 @@ PokemonPicPointers::
 	dba TangrowthBackpic
 	dba ElectivireFrontpic
 	dba ElectivireBackpic
+	dba MagmortarFrontpic
+	dba MagmortarBackpic
 
 	
 	assert_table_length NUM_POKEMON + 1

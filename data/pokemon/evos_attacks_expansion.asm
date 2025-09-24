@@ -10,6 +10,7 @@ EvosAttacksPointers3::
 	dw RhyperiorEvosAttacks
 	dw TangrowthEvosAttacks
 	dw ElectivireEvosAttacks
+	dw MagmortarEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -61,5 +62,9 @@ ElectivireEvosAttacks:
 	dbw 1, THUNDERPUNCH
 	db 0
 
+MagmortarEvosAttacks:
+	db 0
+	dbw 1, FIRE_PUNCH
+	db 0
 
 ENDSECTION

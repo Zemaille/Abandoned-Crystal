@@ -260,4 +260,5 @@ BitmasksPointers:
 	dw RhyperiorBitmasks
 	dw TangrowthBitmasks
 	dw ElectivireBitmasks
+	dw MagmortarBitmasks
 	assert_table_length NUM_POKEMON

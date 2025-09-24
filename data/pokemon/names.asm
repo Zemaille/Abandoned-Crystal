@@ -264,4 +264,5 @@ PokemonNames::
 	db "Rhyperior@"
 	db "Tangrowth@"
 	db "Electivire"
+	db "Magmortar@"
 	assert_table_length NUM_POKEMON

@@ -262,4 +262,5 @@ NewPokedexOrder:
 	dw RHYPERIOR
 	dw TANGROWTH
 	dw ELECTIVIRE
+	dw MAGMORTAR
 	assert_table_length NUM_POKEMON

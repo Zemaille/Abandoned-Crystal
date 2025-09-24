@@ -261,4 +261,5 @@ FirstEvoStages::
 	dw RHYHORN
 	dw TANGELA
 	dw ELEKID
+	dw MAGBY
 	assert_table_length NUM_POKEMON

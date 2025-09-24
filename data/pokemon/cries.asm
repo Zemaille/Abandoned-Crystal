@@ -266,5 +266,6 @@ PokemonCries::
 	mon_cry CRY_RHYDON,        0,  256 ; Rhyperior
 	mon_cry CRY_GOLEM,         0,  256 ; Tangrowth
 	mon_cry CRY_VOLTORB,     143,  383 ; Electivire
+	mon_cry CRY_CHARMANDER,  255,  176 ; Magmortar
 	
 	assert_table_length NUM_POKEMON
