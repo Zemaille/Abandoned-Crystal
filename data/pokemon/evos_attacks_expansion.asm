@@ -9,6 +9,7 @@ EvosAttacksPointers3::
 	dw LickilickyEvosAttacks
 	dw RhyperiorEvosAttacks
 	dw TangrowthEvosAttacks
+	dw ElectivireEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -54,5 +55,11 @@ TangrowthEvosAttacks:
 	db 0
 	dbw 1, LEAF_BLADE
 	db 0
+
+ElectivireEvosAttacks:
+	db 0
+	dbw 1, THUNDERPUNCH
+	db 0
+
 
 ENDSECTION

@@ -9,6 +9,7 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Lickilicky
 	dw NO_MOVE		 ; Rhyperior
 	dw NO_MOVE		 ; Tangrowth
+	dw NO_MOVE		 ; Electivire
 .IndirectEnd::
 
 ENDSECTION

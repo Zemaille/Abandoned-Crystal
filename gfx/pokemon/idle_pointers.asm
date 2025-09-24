@@ -259,4 +259,5 @@ AnimationIdlePointers:
 	dw LickilickyAnimationIdle
 	dw RhyperiorAnimationIdle
 	dw TangrowthAnimationIdle
+	dw ElectivireAnimationIdle
 	assert_table_length NUM_POKEMON

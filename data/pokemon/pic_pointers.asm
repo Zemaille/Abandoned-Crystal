@@ -534,6 +534,8 @@ PokemonPicPointers::
 	dba RhyperiorBackpic
 	dba TangrowthFrontpic
 	dba TangrowthBackpic
+	dba ElectivireFrontpic
+	dba ElectivireBackpic
 
 	
 	assert_table_length NUM_POKEMON + 1

@@ -260,4 +260,5 @@ PokedexDataPointerTable:
 	dba LickilickyPokedexEntry
 	dba RhyperiorPokedexEntry
 	dba TangrowthPokedexEntry
+	dba ElectivirePokedexEntry
 	assert_table_length NUM_POKEMON

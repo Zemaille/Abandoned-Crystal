@@ -259,4 +259,5 @@ AnimationPointers:
 	dw LickilickyAnimation
 	dw RhyperiorAnimation
 	dw TangrowthAnimation
+	dw ElectivireAnimation
 	assert_table_length NUM_POKEMON

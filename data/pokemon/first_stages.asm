@@ -260,4 +260,5 @@ FirstEvoStages::
 	dw LICKITUNG
 	dw RHYHORN
 	dw TANGELA
+	dw ELEKID
 	assert_table_length NUM_POKEMON

@@ -9,6 +9,7 @@ EggMovePointers3:
 	dw NoEggMoves3      ;Lickilicky
 	dw NoEggMoves3      ;Rhyperior
 	dw NoEggMoves3      ;Tangrowth
+	dw NoEggMoves3      ;Electivire
 .IndirectEnd::
 
 NoEggMoves3:
