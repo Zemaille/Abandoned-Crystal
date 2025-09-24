@@ -8,6 +8,7 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Magnezone
 	dw NO_MOVE		 ; Lickilicky
 	dw NO_MOVE		 ; Rhyperior
+	dw NO_MOVE		 ; Tangrowth
 .IndirectEnd::
 
 ENDSECTION

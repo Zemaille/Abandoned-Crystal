@@ -268,4 +268,5 @@ MonMenuIconPals:
 	icon_pals GRAY,   GRAY   ; Magnezone
 	icon_pals RED,    PINK   ; Lickilicky
 	icon_pals GRAY,   GRAY   ; Rhyperior
+	icon_pals BLUE,   GREEN  ; Tangrowth
 	assert_table_length NUM_POKEMON

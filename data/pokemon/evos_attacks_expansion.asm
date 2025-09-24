@@ -8,6 +8,7 @@ EvosAttacksPointers3::
 	dw MagnezoneEvosAttacks
 	dw LickilickyEvosAttacks
 	dw RhyperiorEvosAttacks
+	dw TangrowthEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -47,6 +48,11 @@ LickilickyEvosAttacks:
 RhyperiorEvosAttacks:
 	db 0
 	dbw 1, STONE_EDGE
+	db 0
+
+TangrowthEvosAttacks:
+	db 0
+	dbw 1, LEAF_BLADE
 	db 0
 
 ENDSECTION

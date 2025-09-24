@@ -263,4 +263,5 @@ IconPointers:
 	dw MagnezoneIcon
 	dw LickilickyIcon
 	dw RhyperiorIcon
+	dw TangrowthIcon
 	assert_table_length NUM_POKEMON + 1

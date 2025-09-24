@@ -262,4 +262,5 @@ PokemonNames::
 	db "Magnezone@"
 	db "Lickilicky"
 	db "Rhyperior@"
+	db "Tangrowth@"
 	assert_table_length NUM_POKEMON

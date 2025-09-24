@@ -8,6 +8,7 @@ EggMovePointers3:
 	dw NoEggMoves3      ;Magnezone
 	dw NoEggMoves3      ;Lickilicky
 	dw NoEggMoves3      ;Rhyperior
+	dw NoEggMoves3      ;Tangrowth
 .IndirectEnd::
 
 NoEggMoves3:

@@ -264,5 +264,6 @@ PokemonCries::
 	mon_cry CRY_METAPOD,      32,  320 ; Magnezone
 	mon_cry CRY_SEEL,          0,  256 ; Lickilicky
 	mon_cry CRY_RHYDON,        0,  256 ; Rhyperior
+	mon_cry CRY_GOLEM,         0,  256 ; Tangrowth
 	
 	assert_table_length NUM_POKEMON

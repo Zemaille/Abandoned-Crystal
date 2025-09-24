@@ -227,6 +227,7 @@ AlphabeticalPokedexOrder:
 	dw SUNKERN
 	dw SWINUB
 	dw TANGELA
+	dw TANGROWTH
 	dw TAUROS
 	dw TEDDIURSA
 	dw TENTACOOL
