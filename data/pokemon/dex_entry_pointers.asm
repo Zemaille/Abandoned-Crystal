@@ -263,4 +263,5 @@ PokedexDataPointerTable:
 	dba ElectivirePokedexEntry
 	dba MagmortarPokedexEntry
 	dba TogekissPokedexEntry
+	dba YanmegaPokedexEntry
 	assert_table_length NUM_POKEMON

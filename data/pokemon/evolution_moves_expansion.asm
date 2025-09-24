@@ -12,6 +12,7 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Electivire
 	dw NO_MOVE		 ; Magmortar
 	dw NO_MOVE		 ; Togekiss
+	dw NO_MOVE		 ; Yanmega
 .IndirectEnd::
 
 ENDSECTION

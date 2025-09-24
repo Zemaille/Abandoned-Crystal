@@ -12,6 +12,7 @@ EvosAttacksPointers3::
 	dw ElectivireEvosAttacks
 	dw MagmortarEvosAttacks
 	dw TogekissEvosAttacks
+	dw YanmegaEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -73,5 +74,9 @@ TogekissEvosAttacks:
 	dbw 1, DAZZLE_GLEAM
 	db 0
 
+YanmegaEvosAttacks:
+	db 0
+	dbw 1, BUG_BUZZ
+	db 0
 
 ENDSECTION

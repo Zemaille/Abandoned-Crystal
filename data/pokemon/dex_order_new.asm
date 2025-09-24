@@ -264,4 +264,5 @@ NewPokedexOrder:
 	dw ELECTIVIRE
 	dw MAGMORTAR
 	dw TOGEKISS
+	dw YANMEGA
 	assert_table_length NUM_POKEMON

@@ -272,4 +272,5 @@ MonMenuIconPals:
 	icon_pals BROWN,  GRAY   ; Electivire
 	icon_pals RED,    PURPLE ; Magmortar
 	icon_pals RED,    BLUE   ; Togekiss
+	icon_pals GREEN,  BLUE   ; Yanmega
 	assert_table_length NUM_POKEMON

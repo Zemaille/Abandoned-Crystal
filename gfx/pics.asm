@@ -805,3 +805,7 @@ MagmortarBackpic:    INCBIN "gfx/pokemon/magmortar/back.2bpp.lz"
 TogekissFrontpic:    INCBIN "gfx/pokemon/togekiss/front.animated.2bpp.lz"
 TogekissBackpic:     INCBIN "gfx/pokemon/togekiss/back.2bpp.lz"
 
+SECTION "Pics 22", ROMX
+
+YanmegaFrontpic:     INCBIN "gfx/pokemon/yanmega/front.animated.2bpp.lz"
+YanmegaBackpic:      INCBIN "gfx/pokemon/yanmega/back.2bpp.lz"

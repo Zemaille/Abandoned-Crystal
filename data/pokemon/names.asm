@@ -266,4 +266,5 @@ PokemonNames::
 	db "Electivire"
 	db "Magmortar@"
 	db "Togekiss@@"
+	db "Yanmega@@@"
 	assert_table_length NUM_POKEMON

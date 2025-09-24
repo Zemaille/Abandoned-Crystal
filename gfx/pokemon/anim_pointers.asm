@@ -262,4 +262,5 @@ AnimationPointers:
 	dw ElectivireAnimation
 	dw MagmortarAnimation
 	dw TogekissAnimation
+	dw YanmegaAnimation
 	assert_table_length NUM_POKEMON
