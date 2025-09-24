@@ -288,5 +288,7 @@ PokemonCries::
 	mon_cry CRY_PIDGEOTTO,    17,  383 ; Altaria	
 	mon_cry CRY_METAPOD,     192,  129 ; Inkay
 	mon_cry CRY_METAPOD,     168,  320 ; Malamar
+	mon_cry CRY_SPINARAK,     17,  512 ; Dewpider
+	mon_cry CRY_SPINARAK,   -174,  482 ; Araquanid
 	
 	assert_table_length NUM_POKEMON

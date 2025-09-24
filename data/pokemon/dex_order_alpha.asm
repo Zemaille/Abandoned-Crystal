@@ -8,6 +8,7 @@ AlphabeticalPokedexOrder:
 	dw ALAKAZAM
 	dw ALTARIA
 	dw AMPHAROS
+	dw ARAQUANID
 	dw ARBOK
 	dw ARCANINE
 	dw ARIADOS
@@ -42,6 +43,7 @@ AlphabeticalPokedexOrder:
 	dw CYNDAQUIL
 	dw DELIBIRD
 	dw DEWGONG
+	dw DEWPIDER
 	dw DIGLETT
 	dw DITTO
 	dw DODRIO

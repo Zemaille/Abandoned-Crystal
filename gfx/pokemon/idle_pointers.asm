@@ -282,4 +282,6 @@ AnimationIdlePointers:
 	dw AltariaAnimationIdle
 	dw InkayAnimationIdle
 	dw MalamarAnimationIdle
+	dw DewpiderAnimationIdle
+	dw AraquanidAnimationIdle
 	assert_table_length NUM_POKEMON

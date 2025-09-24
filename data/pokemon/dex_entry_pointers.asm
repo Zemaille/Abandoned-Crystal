@@ -283,4 +283,6 @@ PokedexDataPointerTable:
 	dba AltariaPokedexEntry
 	dba InkayPokedexEntry
 	dba MalamarPokedexEntry
+	dba DewpiderPokedexEntry
+	dba AraquanidPokedexEntry
 	assert_table_length NUM_POKEMON

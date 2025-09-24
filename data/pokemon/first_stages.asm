@@ -283,4 +283,6 @@ FirstEvoStages::
 	dw SWABLU
 	dw INKAY
 	dw INKAY
+	dw DEWPIDER
+	dw DEWPIDER
 	assert_table_length NUM_POKEMON

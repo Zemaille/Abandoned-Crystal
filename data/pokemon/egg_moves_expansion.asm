@@ -32,6 +32,8 @@ EggMovePointers3:
 	dw NoEggMoves3      ;Altaria
 	dw NoEggMoves3      ;Inkay
 	dw NoEggMoves3      ;Malamar
+	dw NoEggMoves3      ;Dewpider
+	dw NoEggMoves3      ;Araquanid
 .IndirectEnd::
 
 NoEggMoves3:

@@ -304,6 +304,8 @@ DEF EXPANSION_POKEMON EQU const_value
 	const ALTARIA
 	const INKAY
 	const MALAMAR
+	const DEWPIDER
+	const ARAQUANID
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

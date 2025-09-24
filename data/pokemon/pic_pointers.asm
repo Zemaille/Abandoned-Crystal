@@ -580,5 +580,9 @@ PokemonPicPointers::
 	dba InkayBackpic
 	dba MalamarFrontpic
 	dba MalamarBackpic
+	dba DewpiderFrontpic
+	dba DewpiderBackpic
+	dba AraquanidFrontpic
+	dba AraquanidBackpic
 	
 	assert_table_length NUM_POKEMON + 1

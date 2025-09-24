@@ -282,4 +282,6 @@ AnimationPointers:
 	dw AltariaAnimation
 	dw InkayAnimation
 	dw MalamarAnimation
+	dw DewpiderAnimation
+	dw AraquanidAnimation
 	assert_table_length NUM_POKEMON

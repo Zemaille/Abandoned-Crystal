@@ -32,6 +32,8 @@ EvosAttacksPointers3::
 	dw AltariaEvosAttacks
 	dw InkayEvosAttacks
 	dw MalamarEvosAttacks
+	dw DewpiderEvosAttacks
+	dw AraquanidEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -191,6 +193,16 @@ InkayEvosAttacks:
 MalamarEvosAttacks:
 	db 0
 	dbw 1, PSYCHO_CUT
+	db 0
+
+DewpiderEvosAttacks:
+	db 0
+	dbw 1, INFESTATION
+	db 0
+
+AraquanidEvosAttacks:
+	db 0
+	dbw 1, X_SCISSOR
 	db 0
 
 ENDSECTION

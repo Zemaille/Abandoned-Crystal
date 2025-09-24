@@ -292,5 +292,7 @@ MonMenuIconPals:
 	icon_pals BLUE,   PINK   ; Altaria
 	icon_pals PINK,   PURPLE ; Inkay
 	icon_pals PURPLE, PINK   ; Inkay
+	icon_pals BLUE,   BLUE   ; Dewpider
+	icon_pals BLUE,   BLUE   ; Araquanid
 	
 	assert_table_length NUM_POKEMON

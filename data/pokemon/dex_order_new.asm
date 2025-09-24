@@ -284,4 +284,6 @@ NewPokedexOrder:
 	dw ALTARIA
 	dw INKAY
 	dw MALAMAR
+	dw DEWPIDER
+	dw ARAQUANID
 	assert_table_length NUM_POKEMON

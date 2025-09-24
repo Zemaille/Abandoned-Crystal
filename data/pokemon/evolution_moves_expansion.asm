@@ -32,6 +32,8 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Altaria
 	dw NO_MOVE		 ; Inkay
 	dw NO_MOVE		 ; Malamar
+	dw NO_MOVE		 ; Dewpider
+	dw NO_MOVE		 ; Araquanid
 .IndirectEnd::
 
 ENDSECTION

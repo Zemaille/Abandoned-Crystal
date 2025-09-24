@@ -286,4 +286,6 @@ PokemonNames::
 	db "Altaria@@@"
 	db "Inkay@@@@@"
 	db "Malamar@@@"
+	db "Dewpider@@"
+	db "Araquanid@"
 	assert_table_length NUM_POKEMON
