@@ -27,6 +27,7 @@ EggMovePointers3:
 	dw NoEggMoves3      ;Cursola
 	dw NoEggMoves3      ;Farigiraf
 	dw NoEggMoves3      ;Dudunsparce
+	dw NoEggMoves3      ;Ursaluna
 .IndirectEnd::
 
 NoEggMoves3:

@@ -277,4 +277,5 @@ AnimationIdlePointers:
 	dw CursolaAnimationIdle
 	dw FarigirafAnimationIdle
 	dw DudunsparceAnimationIdle
+	dw UrsalunaAnimationIdle
 	assert_table_length NUM_POKEMON

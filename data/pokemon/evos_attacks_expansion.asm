@@ -27,6 +27,7 @@ EvosAttacksPointers3::
 	dw CursolaEvosAttacks
 	dw FarigirafEvosAttacks
 	dw DudunsparceEvosAttacks
+	dw UrsalunaEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -161,6 +162,11 @@ FarigirafEvosAttacks:
 DudunsparceEvosAttacks:
 	db 0
 	dbw 1, HEADBUTT
+	db 0
+
+UrsalunaEvosAttacks:
+	db 0
+	dbw 1, EARTHQUAKE
 	db 0
 
 ENDSECTION

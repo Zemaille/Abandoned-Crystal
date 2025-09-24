@@ -279,4 +279,5 @@ NewPokedexOrder:
 	dw CURSOLA
 	dw FARIGIRAF
 	dw DUDUNSPARCE
+	dw URSALUNA
 	assert_table_length NUM_POKEMON

@@ -27,6 +27,7 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Cursola
 	dw NO_MOVE		 ; Farigiraf
 	dw NO_MOVE		 ; Dudunsparce
+	dw NO_MOVE		 ; Ursaluna
 .IndirectEnd::
 
 ENDSECTION

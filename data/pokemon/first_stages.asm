@@ -278,4 +278,5 @@ FirstEvoStages::
 	dw CORSOLA_G
 	dw GIRAFARIG
 	dw DUNSPARCE
+	dw TEDDIURSA
 	assert_table_length NUM_POKEMON

@@ -278,5 +278,6 @@ INCBIN "gfx/footprints/corsola_g.1bpp"
 INCBIN "gfx/footprints/cursola.1bpp"
 INCBIN "gfx/footprints/farigiraf.1bpp"
 INCBIN "gfx/footprints/dudunsparce.1bpp"
+INCBIN "gfx/footprints/ursaluna.1bpp"
 
 	assert_table_length NUM_POKEMON

@@ -277,4 +277,5 @@ FramesPointers:
 	dba CursolaFrames
 	dba FarigirafFrames
 	dba DudunsparceFrames
+	dba UrsalunaFrames
 	assert_table_length NUM_POKEMON

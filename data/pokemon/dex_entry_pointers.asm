@@ -278,4 +278,5 @@ PokedexDataPointerTable:
 	dba CursolaPokedexEntry
 	dba FarigirafPokedexEntry
 	dba DudunsparcePokedexEntry
+	dba UrsalunaPokedexEntry
 	assert_table_length NUM_POKEMON
