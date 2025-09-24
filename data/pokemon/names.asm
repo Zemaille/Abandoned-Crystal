@@ -257,4 +257,5 @@ PokemonNames::
 	db "CELEBI@@@@"
 	db "Mismagius@"
 	db "Honchkrow@"
+	db "Munchlax@@"
 	assert_table_length NUM_POKEMON

@@ -3,6 +3,7 @@ SECTION "Egg Moves 3", ROMX
 EggMovePointers3:
 	dw NoEggMoves3		;Mismagius
 	dw NoEggMoves3		;Honchkrow
+	dw NoEggMoves3      ;Munchlax
 .IndirectEnd::
 
 NoEggMoves3:

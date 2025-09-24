@@ -253,4 +253,5 @@ AnimationPointers:
 	dw CelebiAnimation
 	dw MismagiusAnimation
 	dw HonchkrowAnimation
+	dw MunchlaxAnimation
 	assert_table_length NUM_POKEMON

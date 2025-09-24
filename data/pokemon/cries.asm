@@ -259,5 +259,6 @@ PokemonCries::
 	mon_cry CRY_ENTEI,       330,  273 ; CELEBI
 	mon_cry CRY_HOOTHOOT,    304,  232 ; Mismagius
 	mon_cry CRY_MARILL,      -31,  384 ; Honchkrow
+	mon_cry CRY_GRIMER,      101,  129 ; Munchlax
 	
 	assert_table_length NUM_POKEMON

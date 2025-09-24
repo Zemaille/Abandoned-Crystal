@@ -255,4 +255,5 @@ NewPokedexOrder:
 	dw CELEBI
 	dw MISMAGIUS
 	dw HONCHKROW
+	dw MUNCHLAX
 	assert_table_length NUM_POKEMON

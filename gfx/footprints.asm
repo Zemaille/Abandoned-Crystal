@@ -254,5 +254,6 @@ INCBIN "gfx/footprints/ho_oh.1bpp"
 INCBIN "gfx/footprints/celebi.1bpp"
 INCBIN "gfx/footprints/mismagius.1bpp"
 INCBIN "gfx/footprints/honchkrow.1bpp"
+INCBIN "gfx/footprints/munchlax.1bpp"
 
 	assert_table_length NUM_POKEMON

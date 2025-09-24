@@ -786,4 +786,5 @@ MismagiusFrontpic:   INCBIN "gfx/pokemon/mismagius/front.animated.2bpp.lz"
 MismagiusBackpic:    INCBIN "gfx/pokemon/mismagius/back.2bpp.lz"
 HonchkrowFrontpic:   INCBIN "gfx/pokemon/honchkrow/front.animated.2bpp.lz"
 HonchkrowBackpic:    INCBIN "gfx/pokemon/honchkrow/back.2bpp.lz"
-
+MunchlaxFrontpic:    INCBIN "gfx/pokemon/munchlax/front.animated.2bpp.lz"
+MunchlaxBackpic:     INCBIN "gfx/pokemon/munchlax/back.2bpp.lz"

@@ -263,5 +263,6 @@ TyranitarPokedexEntry::  INCLUDE "data/pokemon/dex_entries/tyranitar.asm"
 LugiaPokedexEntry::      INCLUDE "data/pokemon/dex_entries/lugia.asm"
 HoOhPokedexEntry::       INCLUDE "data/pokemon/dex_entries/ho_oh.asm"
 CelebiPokedexEntry::     INCLUDE "data/pokemon/dex_entries/celebi.asm"
-MismagiusPokedexEntry::  INCLUDE "data/pokemon/dex_entries/mismagius.asm"
+MismagiusPokedexEntry::  INCLUDE "data/pokemon/dex_entries/mismagius.asm" ;252 for reference
 HonchkrowPokedexEntry::  INCLUDE "data/pokemon/dex_entries/honchkrow.asm"
+MunchlaxPokedexEntry::   INCLUDE "data/pokemon/dex_entries/munchlax.asm"

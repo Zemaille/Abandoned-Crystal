@@ -3,6 +3,7 @@ SECTION "Evolutions and Attacks 3", ROMX
 EvosAttacksPointers3::
 	dw MismagiusEvosAttacks
 	dw HonchkrowEvosAttacks
+	dw MunchlaxEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -16,6 +17,12 @@ MismagiusEvosAttacks:
 HonchkrowEvosAttacks:
 	db 0
 	dbw 1, NIGHT_SLASH
+	db 0
+
+MunchlaxEvosAttacks:
+	dbbw EVOLVE_HAPPINESS, TR_ANYTIME, SNORLAX
+	db 0
+	dbw 1, TACKLE
 	db 0
 
 ENDSECTION
