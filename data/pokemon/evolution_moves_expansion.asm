@@ -25,6 +25,7 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Rapidash-G
 	dw NO_MOVE		 ; Corsola-G
 	dw NO_MOVE		 ; Cursola
+	dw NO_MOVE		 ; Farigiraf
 .IndirectEnd::
 
 ENDSECTION

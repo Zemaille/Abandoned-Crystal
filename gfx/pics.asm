@@ -836,4 +836,6 @@ CorsolaGBackpic:     INCBIN "gfx/pokemon/corsola_g/back.2bpp.lz"
 SECTION "Pics 23", ROMX
 CursolaFrontpic:     INCBIN "gfx/pokemon/cursola/front.animated.2bpp.lz"
 CursolaBackpic:      INCBIN "gfx/pokemon/cursola/back.2bpp.lz"
+FarigirafFrontpic:   INCBIN "gfx/pokemon/farigiraf/front.animated.2bpp.lz"
+FarigirafBackpic:    INCBIN "gfx/pokemon/farigiraf/back.2bpp.lz"
 

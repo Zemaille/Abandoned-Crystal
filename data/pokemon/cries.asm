@@ -281,5 +281,6 @@ PokemonCries::
 	mon_cry CRY_WEEPINBELL,   32,  320 ; Rapidash-G
 	mon_cry CRY_MAGCARGO,    161,  232 ; Corsola-G
 	mon_cry CRY_MAGCARGO,    161,  232 ; Cursola
+	mon_cry CRY_GIRAFARIG,    65,  512 ; Farigiraf
 	
 	assert_table_length NUM_POKEMON

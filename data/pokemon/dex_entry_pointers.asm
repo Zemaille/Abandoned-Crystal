@@ -276,4 +276,5 @@ PokedexDataPointerTable:
 	dba RapidashGPokedexEntry
 	dba CorsolaGPokedexEntry
 	dba CursolaPokedexEntry
+	dba FarigirafPokedexEntry
 	assert_table_length NUM_POKEMON

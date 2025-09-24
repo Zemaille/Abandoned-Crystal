@@ -279,4 +279,5 @@ PokemonNames::
 	db "Rapidash@@"
 	db "Corsola@@@"
 	db "Cursola@@@"
+	db "Farigiraf@"
 	assert_table_length NUM_POKEMON

@@ -25,6 +25,7 @@ EggMovePointers3:
 	dw NoEggMoves3      ;Rapidash-G
 	dw NoEggMoves3      ;Corsola-G
 	dw NoEggMoves3      ;Cursola
+	dw NoEggMoves3      ;Farigiraf
 .IndirectEnd::
 
 NoEggMoves3:

@@ -275,4 +275,5 @@ AnimationPointers:
 	dw RapidashGAnimation
 	dw CorsolaGAnimation
 	dw CursolaAnimation
+	dw FarigirafAnimation
 	assert_table_length NUM_POKEMON

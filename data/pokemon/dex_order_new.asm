@@ -277,4 +277,5 @@ NewPokedexOrder:
 	dw RAPIDASH_G
 	dw CORSOLA_G
 	dw CURSOLA
+	dw FARIGIRAF
 	assert_table_length NUM_POKEMON
