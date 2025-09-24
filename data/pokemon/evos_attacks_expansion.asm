@@ -28,6 +28,8 @@ EvosAttacksPointers3::
 	dw FarigirafEvosAttacks
 	dw DudunsparceEvosAttacks
 	dw UrsalunaEvosAttacks
+	dw SwabluEvosAttacks
+	dw AltariaEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -167,6 +169,16 @@ DudunsparceEvosAttacks:
 UrsalunaEvosAttacks:
 	db 0
 	dbw 1, EARTHQUAKE
+	db 0
+
+SwabluEvosAttacks:
+	db 0
+	dbw 1, PECK
+	db 0
+
+AltariaEvosAttacks:
+	db 0
+	dbw 1, DRAGON_PULSE
 	db 0
 
 ENDSECTION

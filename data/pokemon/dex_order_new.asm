@@ -280,4 +280,6 @@ NewPokedexOrder:
 	dw FARIGIRAF
 	dw DUDUNSPARCE
 	dw URSALUNA
+	dw SWABLU
+	dw ALTARIA
 	assert_table_length NUM_POKEMON

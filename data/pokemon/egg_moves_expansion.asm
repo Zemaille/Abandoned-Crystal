@@ -28,6 +28,8 @@ EggMovePointers3:
 	dw NoEggMoves3      ;Farigiraf
 	dw NoEggMoves3      ;Dudunsparce
 	dw NoEggMoves3      ;Ursaluna
+	dw NoEggMoves3      ;Swablu
+	dw NoEggMoves3      ;Altaria
 .IndirectEnd::
 
 NoEggMoves3:

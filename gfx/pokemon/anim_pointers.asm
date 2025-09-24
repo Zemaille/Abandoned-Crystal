@@ -278,4 +278,6 @@ AnimationPointers:
 	dw FarigirafAnimation
 	dw DudunsparceAnimation
 	dw UrsalunaAnimation
+	dw SwabluAnimation
+	dw AltariaAnimation
 	assert_table_length NUM_POKEMON

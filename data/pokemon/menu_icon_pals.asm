@@ -288,5 +288,7 @@ MonMenuIconPals:
 	icon_pals RED,    BLUE   ; Farigiraf
 	icon_pals BLUE,   PURPLE ; Dudunsparce
 	icon_pals BROWN,  GREEN  ; Ursaluna
+	icon_pals BLUE,   PINK   ; Swablu
+	icon_pals BLUE,   PINK   ; Altaria
 	
 	assert_table_length NUM_POKEMON

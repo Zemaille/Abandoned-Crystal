@@ -842,4 +842,8 @@ DudunsparceFrontpic: INCBIN "gfx/pokemon/dudunsparce/front.animated.2bpp.lz"
 DudunsparceBackpic:  INCBIN "gfx/pokemon/dudunsparce/back.2bpp.lz"
 UrsalunaFrontpic:    INCBIN "gfx/pokemon/ursaluna/front.animated.2bpp.lz"
 UrsalunaBackpic:     INCBIN "gfx/pokemon/ursaluna/back.2bpp.lz"
+SwabluFrontpic:      INCBIN "gfx/pokemon/swablu/front.animated.2bpp.lz"
+SwabluBackpic:       INCBIN "gfx/pokemon/swablu/back.2bpp.lz"
+AltariaFrontpic:     INCBIN "gfx/pokemon/altaria/front.animated.2bpp.lz"
+AltariaBackpic:      INCBIN "gfx/pokemon/altaria/back.2bpp.lz"
 

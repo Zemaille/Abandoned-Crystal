@@ -28,6 +28,8 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Farigiraf
 	dw NO_MOVE		 ; Dudunsparce
 	dw NO_MOVE		 ; Ursaluna
+	dw NO_MOVE		 ; Swablu
+	dw NO_MOVE		 ; Altaria
 .IndirectEnd::
 
 ENDSECTION

@@ -572,5 +572,9 @@ PokemonPicPointers::
 	dba DudunsparceBackpic
 	dba UrsalunaFrontpic
 	dba UrsalunaBackpic
+	dba SwabluFrontpic
+	dba SwabluBackpic
+	dba AltariaFrontpic
+	dba AltariaBackpic
 	
 	assert_table_length NUM_POKEMON + 1

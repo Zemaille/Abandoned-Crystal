@@ -300,6 +300,8 @@ DEF EXPANSION_POKEMON EQU const_value
 	const FARIGIRAF
 	const DUDUNSPARCE
 	const URSALUNA
+	const SWABLU
+	const ALTARIA
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

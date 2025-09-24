@@ -284,5 +284,8 @@ PokemonCries::
 	mon_cry CRY_GIRAFARIG,    65,  512 ; Farigiraf
 	mon_cry CRY_DUNSPARCE,   452,  256 ; Dudunsparce
 	mon_cry CRY_TEDDIURSA,  1600,  216 ; Ursaluna
+	mon_cry CRY_PIDGEY,      223,  132 ; Swablu
+	mon_cry CRY_PIDGEOTTO,    17,  383 ; Altaria	
+	
 	
 	assert_table_length NUM_POKEMON

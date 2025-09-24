@@ -279,4 +279,6 @@ FirstEvoStages::
 	dw GIRAFARIG
 	dw DUNSPARCE
 	dw TEDDIURSA
+	dw SWABLU
+	dw ALTARIA
 	assert_table_length NUM_POKEMON
