@@ -265,4 +265,6 @@ NewPokedexOrder:
 	dw MAGMORTAR
 	dw TOGEKISS
 	dw YANMEGA
+	dw LEAFEON
+	dw GLACEON
 	assert_table_length NUM_POKEMON

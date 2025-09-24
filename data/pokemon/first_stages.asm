@@ -264,4 +264,6 @@ FirstEvoStages::
 	dw MAGBY
 	dw TOGEPI
 	dw YANMA
+	dw EEVEE
+	dw EEVEE
 	assert_table_length NUM_POKEMON

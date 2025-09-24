@@ -71,6 +71,7 @@ AlphabeticalPokedexOrder:
 	dw GENGAR
 	dw GEODUDE
 	dw GIRAFARIG
+	dw GLACEON
 	dw GLIGAR
 	dw GLOOM
 	dw GOLBAT
@@ -113,6 +114,7 @@ AlphabeticalPokedexOrder:
 	dw LANTURN
 	dw LAPRAS
 	dw LARVITAR
+	dw LEAFEON
 	dw LEDIAN
 	dw LEDYBA
 	dw LICKILICKY

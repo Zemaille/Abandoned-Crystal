@@ -11,4 +11,6 @@ INCLUDE "data/pokemon/base_stats/electivire.asm"
 INCLUDE "data/pokemon/base_stats/magmortar.asm"
 INCLUDE "data/pokemon/base_stats/togekiss.asm"
 INCLUDE "data/pokemon/base_stats/yanmega.asm"
+INCLUDE "data/pokemon/base_stats/leafeon.asm"
+INCLUDE "data/pokemon/base_stats/glaceon.asm"
 .IndirectEnd::

@@ -13,6 +13,8 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Magmortar
 	dw NO_MOVE		 ; Togekiss
 	dw NO_MOVE		 ; Yanmega
+	dw NO_MOVE		 ; Leafeon
+	dw NO_MOVE		 ; Glaceon
 .IndirectEnd::
 
 ENDSECTION

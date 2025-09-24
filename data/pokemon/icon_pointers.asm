@@ -268,4 +268,6 @@ IconPointers:
 	dw MagmortarIcon
 	dw TogekissIcon
 	dw YanmegaIcon
+	dw LeafeonIcon
+	dw GlaceonIcon
 	assert_table_length NUM_POKEMON + 1

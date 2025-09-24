@@ -269,5 +269,7 @@ PokemonCries::
 	mon_cry CRY_CHARMANDER,  255,  176 ; Magmortar
 	mon_cry CRY_TOGETIC,      59,   56 ; Togekiss
 	mon_cry CRY_TOTODILE,     49,  200 ; Yanmega
+	mon_cry CRY_VENONAT,     136,  224 ; Leafeon
+	mon_cry CRY_VENONAT,     136,  224 ; Leafeon
 	
 	assert_table_length NUM_POKEMON

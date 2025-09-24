@@ -13,6 +13,8 @@ EvosAttacksPointers3::
 	dw MagmortarEvosAttacks
 	dw TogekissEvosAttacks
 	dw YanmegaEvosAttacks
+	dw LeafeonEvosAttacks
+	dw GlaceonEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -77,6 +79,16 @@ TogekissEvosAttacks:
 YanmegaEvosAttacks:
 	db 0
 	dbw 1, BUG_BUZZ
+	db 0
+
+LeafeonEvosAttacks:
+	db 0
+	dbw 1, LEAF_BLADE
+	db 0
+	
+GlaceonEvosAttacks:
+	db 0
+	dbw 1, ICE_BEAM
 	db 0
 
 ENDSECTION

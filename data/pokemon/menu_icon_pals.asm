@@ -273,4 +273,6 @@ MonMenuIconPals:
 	icon_pals RED,    PURPLE ; Magmortar
 	icon_pals RED,    BLUE   ; Togekiss
 	icon_pals GREEN,  BLUE   ; Yanmega
+	icon_pals GREEN,  RED    ; Leafeon
+	icon_pals BLUE,   GRAY   ; Glaceon
 	assert_table_length NUM_POKEMON

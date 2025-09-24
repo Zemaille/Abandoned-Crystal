@@ -809,3 +809,9 @@ SECTION "Pics 22", ROMX
 
 YanmegaFrontpic:     INCBIN "gfx/pokemon/yanmega/front.animated.2bpp.lz"
 YanmegaBackpic:      INCBIN "gfx/pokemon/yanmega/back.2bpp.lz"
+LeafeonFrontpic:     INCBIN "gfx/pokemon/leafeon/front.animated.2bpp.lz"
+LeafeonBackpic:      INCBIN "gfx/pokemon/leafeon/back.2bpp.lz"
+GlaceonFrontpic:     INCBIN "gfx/pokemon/glaceon/front.animated.2bpp.lz"
+GlaceonBackpic:      INCBIN "gfx/pokemon/glaceon/back.2bpp.lz"
+
+

@@ -267,4 +267,6 @@ PokemonNames::
 	db "Magmortar@"
 	db "Togekiss@@"
 	db "Yanmega@@@"
+	db "Leafeon@@@"
+	db "Glaceon@@@"
 	assert_table_length NUM_POKEMON

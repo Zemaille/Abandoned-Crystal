@@ -263,4 +263,6 @@ BitmasksPointers:
 	dw MagmortarBitmasks
 	dw TogekissBitmasks
 	dw YanmegaBitmasks
+	dw LeafeonBitmasks
+	dw GlaceonBitmasks
 	assert_table_length NUM_POKEMON
