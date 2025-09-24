@@ -34,6 +34,7 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Malamar
 	dw NO_MOVE		 ; Dewpider
 	dw NO_MOVE		 ; Araquanid
+	dw NO_MOVE		 ; Clodsire
 .IndirectEnd::
 
 ENDSECTION

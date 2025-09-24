@@ -286,4 +286,5 @@ NewPokedexOrder:
 	dw MALAMAR
 	dw DEWPIDER
 	dw ARAQUANID
+	dw CLODSIRE
 	assert_table_length NUM_POKEMON

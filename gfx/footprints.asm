@@ -285,5 +285,6 @@ INCBIN "gfx/footprints/inkay.1bpp"
 INCBIN "gfx/footprints/malamar.1bpp"
 INCBIN "gfx/footprints/dewpider.1bpp"
 INCBIN "gfx/footprints/araquanid.1bpp"
+INCBIN "gfx/footprints/clodsire.1bpp"
 
 	assert_table_length NUM_POKEMON

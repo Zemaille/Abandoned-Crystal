@@ -289,4 +289,5 @@ IconPointers:
 	dw MalamarIcon
 	dw DewpiderIcon
 	dw AraquanidIcon
+	dw ClodsireIcon
 	assert_table_length NUM_POKEMON + 1

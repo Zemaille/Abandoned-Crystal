@@ -584,5 +584,7 @@ PokemonPicPointers::
 	dba DewpiderBackpic
 	dba AraquanidFrontpic
 	dba AraquanidBackpic
+	dba ClodsireFrontpic
+	dba ClodsireBackpic
 	
 	assert_table_length NUM_POKEMON + 1

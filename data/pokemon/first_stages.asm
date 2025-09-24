@@ -285,4 +285,5 @@ FirstEvoStages::
 	dw INKAY
 	dw DEWPIDER
 	dw DEWPIDER
+	dw WOOPER
 	assert_table_length NUM_POKEMON

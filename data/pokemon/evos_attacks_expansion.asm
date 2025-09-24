@@ -34,6 +34,7 @@ EvosAttacksPointers3::
 	dw MalamarEvosAttacks
 	dw DewpiderEvosAttacks
 	dw AraquanidEvosAttacks
+	dw ClodsireEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -203,6 +204,11 @@ DewpiderEvosAttacks:
 AraquanidEvosAttacks:
 	db 0
 	dbw 1, X_SCISSOR
+	db 0
+
+ClodsireEvosAttacks:
+	db 0
+	dbw 1, SLUDGE_BOMB
 	db 0
 
 ENDSECTION

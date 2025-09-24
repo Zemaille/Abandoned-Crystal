@@ -854,4 +854,6 @@ DewpiderFrontpic:    INCBIN "gfx/pokemon/dewpider/front.animated.2bpp.lz"
 DewpiderBackpic:     INCBIN "gfx/pokemon/dewpider/back.2bpp.lz"
 AraquanidFrontpic:   INCBIN "gfx/pokemon/araquanid/front.animated.2bpp.lz"
 AraquanidBackpic:    INCBIN "gfx/pokemon/araquanid/back.2bpp.lz"
+ClodsireFrontpic:    INCBIN "gfx/pokemon/clodsire/front.animated.2bpp.lz"
+ClodsireBackpic:     INCBIN "gfx/pokemon/clodsire/back.2bpp.lz"
 

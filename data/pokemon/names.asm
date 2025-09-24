@@ -288,4 +288,5 @@ PokemonNames::
 	db "Malamar@@@"
 	db "Dewpider@@"
 	db "Araquanid@"
+	db "Clodsire@@"
 	assert_table_length NUM_POKEMON

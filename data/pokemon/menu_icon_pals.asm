@@ -294,5 +294,6 @@ MonMenuIconPals:
 	icon_pals PURPLE, PINK   ; Inkay
 	icon_pals BLUE,   BLUE   ; Dewpider
 	icon_pals BLUE,   BLUE   ; Araquanid
+	icon_pals BROWN,  BROWN  ; Clodsire
 	
 	assert_table_length NUM_POKEMON

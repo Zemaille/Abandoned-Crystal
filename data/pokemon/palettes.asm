@@ -601,5 +601,7 @@ INCBIN "gfx/pokemon/dewpider/normal.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/dewpider/shiny.pal"
 INCBIN "gfx/pokemon/araquanid/normal.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/araquanid/shiny.pal"
+INCBIN "gfx/pokemon/clodsire/normal.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/clodsire/shiny.pal"
 
 	assert_table_length NUM_POKEMON + 1
