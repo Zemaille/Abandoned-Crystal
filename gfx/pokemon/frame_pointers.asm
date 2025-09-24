@@ -273,4 +273,6 @@ FramesPointers:
 	dba SlowkingGFrames
 	dba PonytaGFrames
 	dba RapidashGFrames
+	dba CorsolaGFrames
+	dba CursolaFrames
 	assert_table_length NUM_POKEMON

@@ -829,4 +829,11 @@ PonytaGFrontpic:     INCBIN "gfx/pokemon/ponyta_g/front.animated.2bpp.lz"
 PonytaGBackpic:      INCBIN "gfx/pokemon/ponyta_g/back.2bpp.lz"
 RapidashGFrontpic:   INCBIN "gfx/pokemon/rapidash_g/front.animated.2bpp.lz"
 RapidashGBackpic:    INCBIN "gfx/pokemon/rapidash_g/back.2bpp.lz"
+CorsolaGFrontpic:    INCBIN "gfx/pokemon/corsola_g/front.animated.2bpp.lz"
+CorsolaGBackpic:     INCBIN "gfx/pokemon/corsola_g/back.2bpp.lz"
+
+
+SECTION "Pics 23", ROMX
+CursolaFrontpic:     INCBIN "gfx/pokemon/cursola/front.animated.2bpp.lz"
+CursolaBackpic:      INCBIN "gfx/pokemon/cursola/back.2bpp.lz"
 

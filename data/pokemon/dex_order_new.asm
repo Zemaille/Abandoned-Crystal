@@ -275,4 +275,6 @@ NewPokedexOrder:
 	dw SLOWKING_G
 	dw PONYTA_G
 	dw RAPIDASH_G
+	dw CORSOLA_G
+	dw CURSOLA
 	assert_table_length NUM_POKEMON

@@ -562,5 +562,9 @@ PokemonPicPointers::
 	dba PonytaGBackpic
 	dba RapidashGFrontpic
 	dba RapidashGBackpic
+	dba CorsolaGFrontpic
+	dba CorsolaGBackpic
+	dba CursolaFrontpic
+	dba CursolaBackpic
 	
 	assert_table_length NUM_POKEMON + 1

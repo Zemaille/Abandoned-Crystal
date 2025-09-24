@@ -33,9 +33,11 @@ AlphabeticalPokedexOrder:
 	dw CLEFFA
 	dw CLOYSTER
 	dw CORSOLA
+	dw CORSOLA_G
 	dw CROBAT
 	dw CROCONAW
 	dw CUBONE
+	dw CURSOLA
 	dw CYNDAQUIL
 	dw DELIBIRD
 	dw DEWGONG

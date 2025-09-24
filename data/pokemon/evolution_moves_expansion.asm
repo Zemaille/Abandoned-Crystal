@@ -23,6 +23,8 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Slowking-G
 	dw NO_MOVE		 ; Ponyta-G
 	dw NO_MOVE		 ; Rapidash-G
+	dw NO_MOVE		 ; Corsola-G
+	dw NO_MOVE		 ; Cursola
 .IndirectEnd::
 
 ENDSECTION

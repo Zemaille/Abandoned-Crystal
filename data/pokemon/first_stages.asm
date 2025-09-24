@@ -274,4 +274,6 @@ FirstEvoStages::
 	dw SLOWPOKE_G
 	dw PONYTA_G
 	dw PONYTA_G
+	dw CORSOLA_G
+	dw CORSOLA_G
 	assert_table_length NUM_POKEMON

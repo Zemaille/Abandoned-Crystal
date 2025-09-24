@@ -273,4 +273,6 @@ AnimationIdlePointers:
 	dw SlowkingGAnimationIdle
 	dw PonytaGAnimationIdle
 	dw RapidashGAnimationIdle
+	dw CorsolaGAnimationIdle
+	dw CursolaAnimationIdle
 	assert_table_length NUM_POKEMON

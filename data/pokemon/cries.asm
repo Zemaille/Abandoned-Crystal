@@ -279,5 +279,7 @@ PokemonCries::
 	mon_cry CRY_SLOWKING,    260,  512 ; Slowking-G
 	mon_cry CRY_WEEPINBELL,    0,  256 ; Ponya-G
 	mon_cry CRY_WEEPINBELL,   32,  320 ; Rapidash-G
+	mon_cry CRY_MAGCARGO,    161,  232 ; Corsola-G
+	mon_cry CRY_MAGCARGO,    161,  232 ; Cursola
 	
 	assert_table_length NUM_POKEMON

@@ -23,6 +23,8 @@ EggMovePointers3:
 	dw NoEggMoves3      ;Slowking-G
 	dw NoEggMoves3      ;Ponyta-G
 	dw NoEggMoves3      ;Rapidash-G
+	dw NoEggMoves3      ;Corsola-G
+	dw NoEggMoves3      ;Cursola
 .IndirectEnd::
 
 NoEggMoves3:

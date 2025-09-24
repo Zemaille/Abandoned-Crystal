@@ -23,6 +23,8 @@ EvosAttacksPointers3::
 	dw SlowkingGEvosAttacks
 	dw PonytaGEvosAttacks
 	dw RapidashGEvosAttacks
+	dw CorsolaGEvosAttacks
+	dw CursolaEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -138,5 +140,16 @@ RapidashGEvosAttacks:
 	db 0
 	dbw 1, ZEN_HEADBUTT
 	db 0
+
+CorsolaGEvosAttacks:
+	db 0
+	dbw 1, RECOVER
+	db 0
+
+CursolaEvosAttacks:
+	db 0
+	dbw 1, SHADOW_BALL
+	db 0
+
 
 ENDSECTION

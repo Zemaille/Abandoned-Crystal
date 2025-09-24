@@ -283,4 +283,6 @@ MonMenuIconPals:
 	icon_pals PURPLE, PINK   ; Slowbro-G
 	icon_pals PURPLE, PINK   ; Ponyta-G
 	icon_pals PURPLE, PINK   ; Rapidash-G
+	icon_pals GRAY,   GRAY   ; Corsola-G
+	icon_pals PINK,   GRAY   ; Cursola
 	assert_table_length NUM_POKEMON

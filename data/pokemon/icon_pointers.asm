@@ -278,4 +278,6 @@ IconPointers:
 	dw SlowkingGIcon
 	dw PonytaGIcon
 	dw RapidashGIcon
+	dw CorsolaGIcon
+	dw CursolaIcon
 	assert_table_length NUM_POKEMON + 1
