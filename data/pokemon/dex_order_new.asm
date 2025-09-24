@@ -268,4 +268,5 @@ NewPokedexOrder:
 	dw LEAFEON
 	dw GLACEON
 	dw GLISCOR
+	dw MAMOSWINE
 	assert_table_length NUM_POKEMON

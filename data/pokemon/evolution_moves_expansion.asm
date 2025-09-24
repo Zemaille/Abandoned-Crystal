@@ -16,6 +16,7 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Leafeon
 	dw NO_MOVE		 ; Glaceon
 	dw NO_MOVE		 ; Gliscor
+	dw NO_MOVE		 ; Mamoswine
 .IndirectEnd::
 
 ENDSECTION

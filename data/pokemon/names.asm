@@ -270,4 +270,5 @@ PokemonNames::
 	db "Leafeon@@@"
 	db "Glaceon@@@"
 	db "Gliscor@@@"
+	db "Mamowsine@"
 	assert_table_length NUM_POKEMON

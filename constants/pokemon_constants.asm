@@ -288,6 +288,7 @@ DEF EXPANSION_POKEMON EQU const_value
 	const LEAFEON
 	const GLACEON
 	const GLISCOR
+	const MAMOSWINE
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

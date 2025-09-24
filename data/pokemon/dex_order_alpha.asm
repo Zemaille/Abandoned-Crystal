@@ -132,6 +132,7 @@ AlphabeticalPokedexOrder:
 	dw MAGNEMITE
 	dw MAGNETON
 	dw MAGNEZONE
+	dw MAMOSWINE
 	dw MANKEY
 	dw MANTINE
 	dw MAREEP

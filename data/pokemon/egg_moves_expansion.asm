@@ -16,6 +16,7 @@ EggMovePointers3:
 	dw NoEggMoves3      ;Leafeon
 	dw NoEggMoves3      ;Glaceon
 	dw NoEggMoves3      ;Gliscor
+	dw NoEggMoves3      ;Mamoswine
 .IndirectEnd::
 
 NoEggMoves3:

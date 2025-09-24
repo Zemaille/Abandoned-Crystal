@@ -545,17 +545,6 @@ INCBIN "data/tilesets/house_attributes.bin.lz"
 TilesetPlayersHouseAttr::
 INCBIN "data/tilesets/players_house_attributes.bin.lz"
 
-TilesetPokecenterAttr::
-INCBIN "data/tilesets/pokecenter_attributes.bin.lz"
-
-TilesetGateAttr::
-INCBIN "data/tilesets/gate_attributes.bin.lz"
-
-TilesetPortAttr::
-INCBIN "data/tilesets/port_attributes.bin.lz"
-
-TilesetLabAttr::
-INCBIN "data/tilesets/lab_attributes.bin.lz"
 
 
 SECTION "Tileset Data 10", ROMX
@@ -638,3 +627,19 @@ INCBIN "data/tilesets/omanyte_word_room_attributes.bin.lz"
 
 TilesetAerodactylWordRoomAttr::
 INCBIN "data/tilesets/aerodactyl_word_room_attributes.bin.lz"
+
+
+SECTION "Tileset Data 12", ROMX
+
+TilesetPokecenterAttr::
+INCBIN "data/tilesets/pokecenter_attributes.bin.lz"
+
+TilesetGateAttr::
+INCBIN "data/tilesets/gate_attributes.bin.lz"
+
+TilesetPortAttr::
+INCBIN "data/tilesets/port_attributes.bin.lz"
+
+TilesetLabAttr::
+INCBIN "data/tilesets/lab_attributes.bin.lz"
+
