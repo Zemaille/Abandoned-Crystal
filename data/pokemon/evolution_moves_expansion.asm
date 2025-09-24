@@ -21,6 +21,8 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Slowpoke-G
 	dw NO_MOVE		 ; Slowbro-G
 	dw NO_MOVE		 ; Slowking-G
+	dw NO_MOVE		 ; Ponyta-G
+	dw NO_MOVE		 ; Rapidash-G
 .IndirectEnd::
 
 ENDSECTION

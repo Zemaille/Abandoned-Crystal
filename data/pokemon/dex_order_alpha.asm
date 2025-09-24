@@ -182,6 +182,7 @@ AlphabeticalPokedexOrder:
 	dw POLIWHIRL
 	dw POLIWRATH
 	dw PONYTA
+	dw PONYTA_G
 	dw PORYGON
 	dw PORYGON2
 	dw PORYGON_Z
@@ -194,6 +195,7 @@ AlphabeticalPokedexOrder:
 	dw RAICHU
 	dw RAIKOU
 	dw RAPIDASH
+	dw RAPIDASH_G
 	dw RATICATE
 	dw RATTATA
 	dw REMORAID

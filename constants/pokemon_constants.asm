@@ -293,6 +293,8 @@ DEF EXPANSION_POKEMON EQU const_value
 	const SLOWPOKE_G
 	const SLOWBRO_G
 	const SLOWKING_G
+	const PONYTA_G
+	const RAPIDASH_G
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

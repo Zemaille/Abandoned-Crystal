@@ -273,4 +273,6 @@ NewPokedexOrder:
 	dw SLOWPOKE_G
 	dw SLOWBRO_G
 	dw SLOWKING_G
+	dw PONYTA_G
+	dw RAPIDASH_G
 	assert_table_length NUM_POKEMON

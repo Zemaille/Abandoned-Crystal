@@ -275,4 +275,6 @@ PokemonNames::
 	db "Slowpoke@@"
 	db "Slowbro@@@"
 	db "Slowking@@"
+	db "Ponyta@@@@"
+	db "Rapidash@@"
 	assert_table_length NUM_POKEMON

@@ -825,4 +825,8 @@ SlowbroGFrontpic:    INCBIN "gfx/pokemon/slowbro_g/front.animated.2bpp.lz"
 SlowbroGBackpic:     INCBIN "gfx/pokemon/slowbro_g/back.2bpp.lz"
 SlowkingGFrontpic:   INCBIN "gfx/pokemon/slowking_g/front.animated.2bpp.lz"
 SlowkingGBackpic:    INCBIN "gfx/pokemon/slowking_g/back.2bpp.lz"
+PonytaGFrontpic:     INCBIN "gfx/pokemon/ponyta_g/front.animated.2bpp.lz"
+PonytaGBackpic:      INCBIN "gfx/pokemon/ponyta_g/back.2bpp.lz"
+RapidashGFrontpic:   INCBIN "gfx/pokemon/rapidash_g/front.animated.2bpp.lz"
+RapidashGBackpic:    INCBIN "gfx/pokemon/rapidash_g/back.2bpp.lz"
 

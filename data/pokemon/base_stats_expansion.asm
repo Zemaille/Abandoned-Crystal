@@ -19,4 +19,6 @@ INCLUDE "data/pokemon/base_stats/porygon_z.asm"
 INCLUDE "data/pokemon/base_stats/slowpoke_g.asm"
 INCLUDE "data/pokemon/base_stats/slowbro_g.asm"
 INCLUDE "data/pokemon/base_stats/slowking_g.asm"
+INCLUDE "data/pokemon/base_stats/ponyta_g.asm"
+INCLUDE "data/pokemon/base_stats/rapidash_g.asm"
 .IndirectEnd::

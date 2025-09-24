@@ -281,4 +281,6 @@ MonMenuIconPals:
 	icon_pals PINK,   PURPLE ; Slowpoke-G
 	icon_pals PINK,   PURPLE ; Slowbro-G
 	icon_pals PURPLE, PINK   ; Slowbro-G
+	icon_pals PURPLE, PINK   ; Ponyta-G
+	icon_pals PURPLE, PINK   ; Rapidash-G
 	assert_table_length NUM_POKEMON

@@ -558,5 +558,9 @@ PokemonPicPointers::
 	dba SlowbroGBackpic
 	dba SlowkingGFrontpic
 	dba SlowkingGBackpic
+	dba PonytaGFrontpic
+	dba PonytaGBackpic
+	dba RapidashGFrontpic
+	dba RapidashGBackpic
 	
 	assert_table_length NUM_POKEMON + 1

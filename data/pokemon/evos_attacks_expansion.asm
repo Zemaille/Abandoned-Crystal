@@ -21,6 +21,8 @@ EvosAttacksPointers3::
 	dw SlowpokeGEvosAttacks
 	dw SlowbroGEvosAttacks
 	dw SlowkingGEvosAttacks
+	dw PonytaGEvosAttacks
+	dw RapidashGEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -125,6 +127,16 @@ SlowbroGEvosAttacks:
 SlowkingGEvosAttacks:
 	db 0
 	dbw 1, PSYCHIC_M
+	db 0
+
+PonytaGEvosAttacks:
+	db 0
+	dbw 1, ZEN_HEADBUTT
+	db 0
+
+RapidashGEvosAttacks:
+	db 0
+	dbw 1, ZEN_HEADBUTT
 	db 0
 
 ENDSECTION

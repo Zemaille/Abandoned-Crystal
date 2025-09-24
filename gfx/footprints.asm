@@ -272,5 +272,7 @@ INCBIN "gfx/footprints/porygon_z.1bpp"
 INCBIN "gfx/footprints/slowpoke_g.1bpp"
 INCBIN "gfx/footprints/slowbro_g.1bpp"
 INCBIN "gfx/footprints/slowking_g.1bpp"
+INCBIN "gfx/footprints/ponyta_g.1bpp"
+INCBIN "gfx/footprints/rapidash_g.1bpp"
 
 	assert_table_length NUM_POKEMON

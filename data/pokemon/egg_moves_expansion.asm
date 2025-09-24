@@ -21,6 +21,8 @@ EggMovePointers3:
 	dw NoEggMoves3      ;Slowpoke-G
 	dw NoEggMoves3      ;Slowbro-G
 	dw NoEggMoves3      ;Slowking-G
+	dw NoEggMoves3      ;Ponyta-G
+	dw NoEggMoves3      ;Rapidash-G
 .IndirectEnd::
 
 NoEggMoves3:

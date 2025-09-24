@@ -271,4 +271,6 @@ BitmasksPointers:
 	dw SlowpokeGBitmasks
 	dw SlowbroGBitmasks
 	dw SlowkingGBitmasks
+	dw PonytaGBitmasks
+	dw RapidashGBitmasks
 	assert_table_length NUM_POKEMON
