@@ -267,4 +267,5 @@ NewPokedexOrder:
 	dw YANMEGA
 	dw LEAFEON
 	dw GLACEON
+	dw GLISCOR
 	assert_table_length NUM_POKEMON

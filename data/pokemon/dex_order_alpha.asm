@@ -73,6 +73,7 @@ AlphabeticalPokedexOrder:
 	dw GIRAFARIG
 	dw GLACEON
 	dw GLIGAR
+	dw GLISCOR
 	dw GLOOM
 	dw GOLBAT
 	dw GOLDEEN

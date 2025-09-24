@@ -275,4 +275,5 @@ MonMenuIconPals:
 	icon_pals GREEN,  BLUE   ; Yanmega
 	icon_pals GREEN,  RED    ; Leafeon
 	icon_pals BLUE,   GRAY   ; Glaceon
+	icon_pals PURPLE, RED    ; Gliscor
 	assert_table_length NUM_POKEMON

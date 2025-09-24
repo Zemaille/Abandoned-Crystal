@@ -15,6 +15,7 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Yanmega
 	dw NO_MOVE		 ; Leafeon
 	dw NO_MOVE		 ; Glaceon
+	dw NO_MOVE		 ; Gliscor
 .IndirectEnd::
 
 ENDSECTION

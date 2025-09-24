@@ -15,6 +15,7 @@ EvosAttacksPointers3::
 	dw YanmegaEvosAttacks
 	dw LeafeonEvosAttacks
 	dw GlaceonEvosAttacks
+	dw GliscorEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -89,6 +90,11 @@ LeafeonEvosAttacks:
 GlaceonEvosAttacks:
 	db 0
 	dbw 1, ICE_BEAM
+	db 0
+
+GliscorEvosAttacks:
+	db 0
+	dbw 1, POISON_JAB
 	db 0
 
 ENDSECTION

@@ -266,4 +266,5 @@ FirstEvoStages::
 	dw YANMA
 	dw EEVEE
 	dw EEVEE
+	dw GLIGAR
 	assert_table_length NUM_POKEMON

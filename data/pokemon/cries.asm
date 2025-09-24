@@ -271,5 +271,6 @@ PokemonCries::
 	mon_cry CRY_TOTODILE,     49,  200 ; Yanmega
 	mon_cry CRY_VENONAT,     136,  224 ; Leafeon
 	mon_cry CRY_VENONAT,     136,  224 ; Leafeon
+	mon_cry CRY_GLIGAR,     -258,  256 ; Gliscor
 	
 	assert_table_length NUM_POKEMON
