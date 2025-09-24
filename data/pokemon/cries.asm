@@ -263,5 +263,6 @@ PokemonCries::
 	mon_cry CRY_WOOPER,       83,  175 ; Weavile
 	mon_cry CRY_METAPOD,      32,  320 ; Magnezone
 	mon_cry CRY_SEEL,          0,  256 ; Lickilicky
+	mon_cry CRY_RHYDON,        0,  256 ; Rhyperior
 	
 	assert_table_length NUM_POKEMON

@@ -5,4 +5,5 @@ INCLUDE "data/pokemon/base_stats/munchlax.asm"
 INCLUDE "data/pokemon/base_stats/weavile.asm"
 INCLUDE "data/pokemon/base_stats/magnezone.asm"
 INCLUDE "data/pokemon/base_stats/lickilicky.asm"
+INCLUDE "data/pokemon/base_stats/rhyperior.asm"
 .IndirectEnd::

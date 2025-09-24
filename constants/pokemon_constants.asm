@@ -279,6 +279,7 @@ DEF EXPANSION_POKEMON EQU const_value
 	const WEAVILE
 	const MAGNEZONE
 	const LICKILICKY
+	const RHYPERIOR
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

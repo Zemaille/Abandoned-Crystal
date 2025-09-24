@@ -7,6 +7,7 @@ EvosAttacksPointers3::
 	dw WeavileEvosAttacks
 	dw MagnezoneEvosAttacks
 	dw LickilickyEvosAttacks
+	dw RhyperiorEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -43,5 +44,9 @@ LickilickyEvosAttacks:
 	dbw 1, EXPLOSION
 	db 0
 
+RhyperiorEvosAttacks:
+	db 0
+	dbw 1, STONE_EDGE
+	db 0
 
 ENDSECTION

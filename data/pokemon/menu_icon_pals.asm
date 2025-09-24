@@ -98,7 +98,7 @@ MonMenuIconPals:
 	icon_pals BLUE,   GRAY   ; SEEL
 	icon_pals BLUE,   GRAY   ; DEWGONG
 	icon_pals GREEN,  GRAY   ; GRIMER
-	icon_pals GREEN, GREEN  ; MUK
+	icon_pals GREEN, GREEN   ; MUK
 	icon_pals PURPLE, BROWN  ; SHELLDER
 	icon_pals PURPLE, BLUE   ; CLOYSTER
 	icon_pals PURPLE, BLUE   ; GASTLY
@@ -263,8 +263,9 @@ MonMenuIconPals:
 	icon_pals GREEN,  PINK   ; CELEBI
 	icon_pals PURPLE, BROWN  ; Mismagius
 	icon_pals BLUE,   PURPLE ; Honchkrow
-	icon_pals BLUE,   PURPLE   ; Munchlax
-	icon_pals RED,    PURPLE ; SNEASEL
-	icon_pals GRAY,   GRAY   ; MAGNETON
-	icon_pals RED,    PINK   ; LICKITUNG
+	icon_pals BLUE,   PURPLE ; Munchlax
+	icon_pals RED,    PURPLE ; Weavile
+	icon_pals GRAY,   GRAY   ; Magnezone
+	icon_pals RED,    PINK   ; Lickilicky
+	icon_pals GRAY,   GRAY   ; Rhyperior
 	assert_table_length NUM_POKEMON
