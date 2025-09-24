@@ -5,6 +5,8 @@ EvosAttacksPointers3::
 	dw HonchkrowEvosAttacks
 	dw MunchlaxEvosAttacks
 	dw WeavileEvosAttacks
+	dw MagnezoneEvosAttacks
+	dw LickilickyEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -30,5 +32,16 @@ WeavileEvosAttacks:
 	db 0
 	dbw 1, ICE_SHARD
 	db 0
+	
+MagnezoneEvosAttacks:
+	db 0
+	dbw 1, THUNDERBOLT
+	db 0
+
+LickilickyEvosAttacks:
+	db 0
+	dbw 1, EXPLOSION
+	db 0
+
 
 ENDSECTION

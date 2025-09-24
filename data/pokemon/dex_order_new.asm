@@ -257,4 +257,6 @@ NewPokedexOrder:
 	dw HONCHKROW
 	dw MUNCHLAX
 	dw WEAVILE
+	dw MAGNEZONE
+	dw LICKILICKY
 	assert_table_length NUM_POKEMON

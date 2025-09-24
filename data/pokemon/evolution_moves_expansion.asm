@@ -5,6 +5,8 @@ EvolutionMovesExpansion:
 	dw NO_MOVE       ; Honchkrow
 	dw NO_MOVE		 ; Munchlax
 	dw NO_MOVE		 ; Weavile
+	dw NO_MOVE		 ; Magnezone
+	dw NO_MOVE		 ; Lickilicky
 .IndirectEnd::
 
 ENDSECTION

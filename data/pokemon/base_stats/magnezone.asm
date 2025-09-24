@@ -8,7 +8,7 @@
 	db 30 ; catch rate
 	db 222 ; base exp
 	dw NO_ITEM, NO_ITEM ; items
-	db GENDER_UNKOWN ; gender ratio
+	db GENDER_UNKNOWN ; gender ratio
 	db 20 ; step cycles to hatch
 	INCBIN "gfx/pokemon/magnezone/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)

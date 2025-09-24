@@ -114,6 +114,7 @@ AlphabeticalPokedexOrder:
 	dw LARVITAR
 	dw LEDIAN
 	dw LEDYBA
+	dw LICKILICKY
 	dw LICKITUNG
 	dw LUGIA
 	dw MACHAMP
@@ -125,6 +126,7 @@ AlphabeticalPokedexOrder:
 	dw MAGMAR
 	dw MAGNEMITE
 	dw MAGNETON
+	dw MAGNEZONE
 	dw MANKEY
 	dw MANTINE
 	dw MAREEP

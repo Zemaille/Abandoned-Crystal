@@ -261,5 +261,7 @@ PokemonCries::
 	mon_cry CRY_MARILL,      -31,  384 ; Honchkrow
 	mon_cry CRY_GRIMER,      101,  129 ; Munchlax
 	mon_cry CRY_WOOPER,       83,  175 ; Weavile
+	mon_cry CRY_METAPOD,      32,  320 ; Magnezone
+	mon_cry CRY_SEEL,          0,  256 ; Lickilicky
 	
 	assert_table_length NUM_POKEMON

@@ -277,6 +277,8 @@ DEF EXPANSION_POKEMON EQU const_value
 	const HONCHKROW
 	const MUNCHLAX
 	const WEAVILE
+	const MAGNEZONE
+	const LICKILICKY
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

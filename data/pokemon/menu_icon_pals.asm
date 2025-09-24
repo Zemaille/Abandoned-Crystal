@@ -265,4 +265,6 @@ MonMenuIconPals:
 	icon_pals BLUE,   PURPLE ; Honchkrow
 	icon_pals BLUE,   PURPLE   ; Munchlax
 	icon_pals RED,    PURPLE ; SNEASEL
+	icon_pals GRAY,   GRAY   ; MAGNETON
+	icon_pals RED,    PINK   ; LICKITUNG
 	assert_table_length NUM_POKEMON

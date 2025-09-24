@@ -259,4 +259,6 @@ PokemonNames::
 	db "Honchkrow@"
 	db "Munchlax@@"
 	db "Weavile@@@"
+	db "Magnezone@"
+	db "Lickilicky"
 	assert_table_length NUM_POKEMON

@@ -5,6 +5,8 @@ EggMovePointers3:
 	dw NoEggMoves3		;Honchkrow
 	dw NoEggMoves3      ;Munchlax
 	dw NoEggMoves3      ;Weavile
+	dw NoEggMoves3      ;Magnezone
+	dw NoEggMoves3      ;Lickilicky
 .IndirectEnd::
 
 NoEggMoves3:

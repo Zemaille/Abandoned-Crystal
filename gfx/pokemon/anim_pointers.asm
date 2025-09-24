@@ -255,4 +255,6 @@ AnimationPointers:
 	dw HonchkrowAnimation
 	dw MunchlaxAnimation
 	dw WeavileAnimation
+	dw MagnezoneAnimation
+	dw LickilickyAnimation
 	assert_table_length NUM_POKEMON

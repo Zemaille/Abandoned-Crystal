@@ -790,4 +790,8 @@ MunchlaxFrontpic:    INCBIN "gfx/pokemon/munchlax/front.animated.2bpp.lz"
 MunchlaxBackpic:     INCBIN "gfx/pokemon/munchlax/back.2bpp.lz"
 WeavileFrontpic:     INCBIN "gfx/pokemon/weavile/front.animated.2bpp.lz"
 WeavileBackpic:      INCBIN "gfx/pokemon/weavile/back.2bpp.lz"
+MagnezoneFrontpic:   INCBIN "gfx/pokemon/magnezone/front.animated.2bpp.lz"
+MagnezoneBackpic:    INCBIN "gfx/pokemon/magnezone/back.2bpp.lz"
+LickilickyFrontpic:  INCBIN "gfx/pokemon/lickilicky/front.animated.2bpp.lz"
+LickilickyBackpic:   INCBIN "gfx/pokemon/lickilicky/back.2bpp.lz"
 

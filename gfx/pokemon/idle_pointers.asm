@@ -255,4 +255,6 @@ AnimationIdlePointers:
 	dw HonchkrowAnimationIdle
 	dw MunchlaxAnimationIdle
 	dw WeavileAnimationIdle
+	dw MagnezoneAnimationIdle
+	dw LickilickyAnimationIdle
 	assert_table_length NUM_POKEMON
