@@ -11,6 +11,7 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Tangrowth
 	dw NO_MOVE		 ; Electivire
 	dw NO_MOVE		 ; Magmortar
+	dw NO_MOVE		 ; Togekiss
 .IndirectEnd::
 
 ENDSECTION

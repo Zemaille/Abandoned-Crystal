@@ -11,6 +11,7 @@ EggMovePointers3:
 	dw NoEggMoves3      ;Tangrowth
 	dw NoEggMoves3      ;Electivire
 	dw NoEggMoves3      ;Magmortar
+	dw NoEggMoves3      ;Togekiss
 .IndirectEnd::
 
 NoEggMoves3:

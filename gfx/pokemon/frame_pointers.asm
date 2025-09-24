@@ -261,4 +261,5 @@ FramesPointers:
 	dba TangrowthFrames
 	dba ElectivireFrames
 	dba MagmortarFrames
+	dba TogekissFrames
 	assert_table_length NUM_POKEMON

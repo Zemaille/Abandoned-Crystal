@@ -263,4 +263,5 @@ NewPokedexOrder:
 	dw TANGROWTH
 	dw ELECTIVIRE
 	dw MAGMORTAR
+	dw TOGEKISS
 	assert_table_length NUM_POKEMON

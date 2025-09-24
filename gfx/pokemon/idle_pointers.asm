@@ -261,4 +261,5 @@ AnimationIdlePointers:
 	dw TangrowthAnimationIdle
 	dw ElectivireAnimationIdle
 	dw MagmortarAnimationIdle
+	dw TogekissAnimationIdle
 	assert_table_length NUM_POKEMON
