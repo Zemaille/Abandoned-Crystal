@@ -282,5 +282,6 @@ PokemonCries::
 	mon_cry CRY_MAGCARGO,    161,  232 ; Corsola-G
 	mon_cry CRY_MAGCARGO,    161,  232 ; Cursola
 	mon_cry CRY_GIRAFARIG,    65,  512 ; Farigiraf
+	mon_cry CRY_DUNSPARCE,   452,  256 ; Dudunsparce
 	
 	assert_table_length NUM_POKEMON

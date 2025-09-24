@@ -26,6 +26,7 @@ EvosAttacksPointers3::
 	dw CorsolaGEvosAttacks
 	dw CursolaEvosAttacks
 	dw FarigirafEvosAttacks
+	dw DudunsparceEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -155,6 +156,11 @@ CursolaEvosAttacks:
 FarigirafEvosAttacks:
 	db 0
 	dbw 1, PSYCHIC_M
+	db 0
+
+DudunsparceEvosAttacks:
+	db 0
+	dbw 1, HEADBUTT
 	db 0
 
 ENDSECTION

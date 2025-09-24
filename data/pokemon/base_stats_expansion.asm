@@ -24,4 +24,5 @@ INCLUDE "data/pokemon/base_stats/rapidash_g.asm"
 INCLUDE "data/pokemon/base_stats/corsola_g.asm"
 INCLUDE "data/pokemon/base_stats/cursola.asm"
 INCLUDE "data/pokemon/base_stats/farigiraf.asm"
+INCLUDE "data/pokemon/base_stats/dudunsparce.asm"
 .IndirectEnd::

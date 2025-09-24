@@ -276,4 +276,5 @@ BitmasksPointers:
 	dw CorsolaGBitmasks
 	dw CursolaBitmasks
 	dw FarigirafBitmasks
+	dw DudunsparceBitmasks
 	assert_table_length NUM_POKEMON

@@ -286,4 +286,6 @@ MonMenuIconPals:
 	icon_pals GRAY,   GRAY   ; Corsola-G
 	icon_pals PINK,   GRAY   ; Cursola
 	icon_pals RED,    BLUE   ; Farigiraf
+	icon_pals BLUE,   PURPLE ; DUNSPARCE
+	
 	assert_table_length NUM_POKEMON

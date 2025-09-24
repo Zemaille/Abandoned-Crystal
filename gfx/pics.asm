@@ -838,4 +838,6 @@ CursolaFrontpic:     INCBIN "gfx/pokemon/cursola/front.animated.2bpp.lz"
 CursolaBackpic:      INCBIN "gfx/pokemon/cursola/back.2bpp.lz"
 FarigirafFrontpic:   INCBIN "gfx/pokemon/farigiraf/front.animated.2bpp.lz"
 FarigirafBackpic:    INCBIN "gfx/pokemon/farigiraf/back.2bpp.lz"
+DudunsparceFrontpic: INCBIN "gfx/pokemon/dudunsparce/front.animated.2bpp.lz"
+DudunsparceBackpic:  INCBIN "gfx/pokemon/dudunsparce/back.2bpp.lz"
 

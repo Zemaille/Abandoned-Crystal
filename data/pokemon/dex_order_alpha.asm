@@ -50,6 +50,7 @@ AlphabeticalPokedexOrder:
 	dw DRAGONITE
 	dw DRATINI
 	dw DROWZEE
+	dw DUDUNSPARCE
 	dw DUGTRIO
 	dw DUNSPARCE
 	dw EEVEE

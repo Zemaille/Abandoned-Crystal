@@ -568,5 +568,7 @@ PokemonPicPointers::
 	dba CursolaBackpic
 	dba FarigirafFrontpic
 	dba FarigirafBackpic
+	dba DudunsparceFrontpic
+	dba DudunsparceBackpic
 	
 	assert_table_length NUM_POKEMON + 1

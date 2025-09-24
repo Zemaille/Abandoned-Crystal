@@ -281,4 +281,5 @@ IconPointers:
 	dw CorsolaGIcon
 	dw CursolaIcon
 	dw FarigirafIcon
+	dw DudunsparceIcon
 	assert_table_length NUM_POKEMON + 1

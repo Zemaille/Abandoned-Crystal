@@ -298,6 +298,7 @@ DEF EXPANSION_POKEMON EQU const_value
 	const CORSOLA_G
 	const CURSOLA
 	const FARIGIRAF
+	const DUDUNSPARCE
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3
