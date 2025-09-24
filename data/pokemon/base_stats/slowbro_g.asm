@@ -1,16 +1,16 @@
 	db 0 ; species ID placeholder
 
-	db  90,  65,  65,  15,  40,  40
-	evs  1,   0,   0,   0,   0,   0
+	db  95, 100,  95,  30, 100,  70
+	evs  0,   2,   0,   0,   0,   0
 	;   hp  atk  def  spd  sat  sdf
 
-	db PSYCHIC_TYPE, PSYCHIC_TYPE ; type
-	db 190 ; catch rate
-	db 65 ; base exp
+	db POISON, PSYCHIC_TYPE ; type
+	db 75 ; catch rate
+	db 175 ; base exp
 	dw NO_ITEM, NO_ITEM ; items
 	db GENDER_F50 ; gender ratio
 	db 20 ; step cycles to hatch
-	INCBIN "gfx/pokemon/slowpoke-g/front.dimensions"
+	INCBIN "gfx/pokemon/slowbro_g/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_MONSTER, EGG_WATER_1 ; egg groups

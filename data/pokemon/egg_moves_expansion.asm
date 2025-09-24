@@ -18,6 +18,9 @@ EggMovePointers3:
 	dw NoEggMoves3      ;Gliscor
 	dw NoEggMoves3      ;Mamoswine
 	dw NoEggMoves3      ;Porygon-Z
+	dw NoEggMoves3      ;Slowpoke-G
+	dw NoEggMoves3      ;Slowbro-G
+	dw NoEggMoves3      ;Slowking-G
 .IndirectEnd::
 
 NoEggMoves3:

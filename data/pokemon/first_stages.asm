@@ -269,4 +269,7 @@ FirstEvoStages::
 	dw GLIGAR
 	dw SWINUB
 	dw PORYGON
+	dw SLOWPOKE_G
+	dw SLOWBRO_G
+	dw SLOWKING_G
 	assert_table_length NUM_POKEMON

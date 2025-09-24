@@ -273,4 +273,7 @@ IconPointers:
 	dw GliscorIcon
 	dw MamoswineIcon
 	dw PorygonZIcon
+	dw SlowpokeGIcon
+	dw SlowbroGIcon
+	dw SlowkingGIcon
 	assert_table_length NUM_POKEMON + 1

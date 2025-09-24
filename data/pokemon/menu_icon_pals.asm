@@ -278,4 +278,7 @@ MonMenuIconPals:
 	icon_pals PURPLE, RED    ; Gliscor
 	icon_pals BROWN,  BROWN  ; Mamoswine
 	icon_pals BLUE,   BLUE   ; Porygon-Z
+	icon_pals PINK,   PURPLE ; Slowpoke-G
+	icon_pals PINK,   PURPLE ; Slowbro-G
+	icon_pals PURPLE, PINK   ; Slowbro-G
 	assert_table_length NUM_POKEMON

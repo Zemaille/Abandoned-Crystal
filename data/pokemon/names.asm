@@ -272,4 +272,7 @@ PokemonNames::
 	db "Gliscor@@@"
 	db "Mamowsine@"
 	db "Porygon-Z@"
+	db "Slowpoke@@"
+	db "Slowbro@@@"
+	db "Slowking@@"
 	assert_table_length NUM_POKEMON

@@ -270,4 +270,7 @@ NewPokedexOrder:
 	dw GLISCOR
 	dw MAMOSWINE
 	dw PORYGON_Z
+	dw SLOWPOKE_G
+	dw SLOWBRO_G
+	dw SLOWKING_G
 	assert_table_length NUM_POKEMON

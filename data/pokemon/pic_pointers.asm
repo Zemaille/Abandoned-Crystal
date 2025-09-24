@@ -552,5 +552,11 @@ PokemonPicPointers::
 	dba MamoswineBackpic
 	dba PorygonZFrontpic
 	dba PorygonZBackpic
+	dba SlowpokeGFrontpic
+	dba SlowpokeGBackpic
+	dba SlowbroGFrontpic
+	dba SlowbroGBackpic
+	dba SlowkingGFrontpic
+	dba SlowkingGBackpic
 	
 	assert_table_length NUM_POKEMON + 1

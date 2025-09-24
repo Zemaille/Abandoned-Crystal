@@ -16,4 +16,7 @@ INCLUDE "data/pokemon/base_stats/glaceon.asm"
 INCLUDE "data/pokemon/base_stats/gliscor.asm"
 INCLUDE "data/pokemon/base_stats/mamoswine.asm"
 INCLUDE "data/pokemon/base_stats/porygon_z.asm"
+INCLUDE "data/pokemon/base_stats/slowpoke_g.asm"
+INCLUDE "data/pokemon/base_stats/slowbro_g.asm"
+INCLUDE "data/pokemon/base_stats/slowking_g.asm"
 .IndirectEnd::

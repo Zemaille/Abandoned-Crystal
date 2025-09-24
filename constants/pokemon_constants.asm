@@ -290,6 +290,9 @@ DEF EXPANSION_POKEMON EQU const_value
 	const GLISCOR
 	const MAMOSWINE
 	const PORYGON_Z
+	const SLOWPOKE_G
+	const SLOWBRO_G
+	const SLOWKING_G
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

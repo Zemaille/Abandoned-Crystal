@@ -18,6 +18,9 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Gliscor
 	dw NO_MOVE		 ; Mamoswine
 	dw NO_MOVE		 ; Porygon-Z
+	dw NO_MOVE		 ; Slowpoke-G
+	dw NO_MOVE		 ; Slowbro-G
+	dw NO_MOVE		 ; Slowking-G
 .IndirectEnd::
 
 ENDSECTION

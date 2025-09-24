@@ -274,5 +274,8 @@ PokemonCries::
 	mon_cry CRY_GLIGAR,     -258,  256 ; Gliscor
 	mon_cry CRY_MAGCARGO,   -265,  256 ; Mamoswine
 	mon_cry CRY_GIRAFARIG,   115,  576 ; Porygon-Z
+	mon_cry CRY_SLOWPOKE,      0,  256 ; Slowpoke-G
+	mon_cry CRY_GROWLITHE,     0,  256 ; Slowbro-G
+	mon_cry CRY_SLOWKING,    260,  512 ; Slowking-G
 	
 	assert_table_length NUM_POKEMON

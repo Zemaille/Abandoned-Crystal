@@ -18,6 +18,9 @@ EvosAttacksPointers3::
 	dw GliscorEvosAttacks
 	dw MamoswineEvosAttacks
 	dw PorygonZEvosAttacks
+	dw SlowpokeGEvosAttacks
+	dw SlowbroGEvosAttacks
+	dw SlowkingGEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -107,6 +110,21 @@ MamoswineEvosAttacks:
 PorygonZEvosAttacks:
 	db 0
 	dbw 1, HYPER_BEAM
+	db 0
+
+SlowpokeGEvosAttacks:
+	db 0
+	dbw 1, CONFUSION
+	db 0
+
+SlowbroGEvosAttacks:
+	db 0
+	dbw 1, POISON_JAB
+	db 0
+
+SlowkingGEvosAttacks:
+	db 0
+	dbw 1, PSYCHIC_M
 	db 0
 
 ENDSECTION

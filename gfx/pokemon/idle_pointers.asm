@@ -268,4 +268,7 @@ AnimationIdlePointers:
 	dw GliscorAnimationIdle
 	dw MamoswineAnimationIdle
 	dw PorygonZAnimationIdle
+	dw SlowpokeGAnimationIdle
+	dw SlowbroGAnimationIdle
+	dw SlowkingGAnimationIdle
 	assert_table_length NUM_POKEMON

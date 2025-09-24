@@ -268,4 +268,7 @@ FramesPointers:
 	dba GliscorFrames
 	dba MamoswineFrames
 	dba PorygonZFrames
+	dba SlowpokeGFrames
+	dba SlowbroGFrames
+	dba SlowkingGFrames
 	assert_table_length NUM_POKEMON

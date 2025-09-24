@@ -1,16 +1,16 @@
 	db 0 ; species ID placeholder
 
-	db  90,  65,  80,  30, 110, 110
-	evs  0,   0,   0,   0,   0,   2
+	db  90,  65,  65,  15,  40,  40
+	evs  1,   0,   0,   0,   0,   0
 	;   hp  atk  def  spd  sat  sdf
 
-	db POISON, PSYCHIC_TYPE ; type
-	db 70 ; catch rate
-	db 185 ; base exp
+	db PSYCHIC_TYPE, PSYCHIC_TYPE ; type
+	db 190 ; catch rate
+	db 65 ; base exp
 	dw NO_ITEM, NO_ITEM ; items
 	db GENDER_F50 ; gender ratio
 	db 20 ; step cycles to hatch
-	INCBIN "gfx/pokemon/slowking-g/front.dimensions"
+	INCBIN "gfx/pokemon/slowpoke_g/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_MONSTER, EGG_WATER_1 ; egg groups

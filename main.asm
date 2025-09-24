@@ -224,11 +224,6 @@ SECTION "bank14", ROMX
 
 INCLUDE "engine/pokemon/party_menu.asm"
 INCLUDE "engine/events/poisonstep.asm"
-INCLUDE "engine/events/sweet_scent.asm"
-INCLUDE "engine/events/squirtbottle.asm"
-INCLUDE "engine/events/card_key.asm"
-INCLUDE "engine/events/basement_key.asm"
-INCLUDE "engine/events/sacred_ash.asm"
 INCLUDE "engine/pokemon/tempmon.asm"
 INCLUDE "engine/pokemon/types.asm"
 INCLUDE "engine/pokemon/categories.asm"
@@ -283,6 +278,11 @@ INCLUDE "engine/events/unown_walls.asm"
 INCLUDE "engine/events/buena.asm"
 INCLUDE "engine/events/dratini.asm"
 INCLUDE "engine/events/battle_tower/rules.asm"
+INCLUDE "engine/events/sweet_scent.asm"
+INCLUDE "engine/events/squirtbottle.asm"
+INCLUDE "engine/events/card_key.asm"
+INCLUDE "engine/events/basement_key.asm"
+INCLUDE "engine/events/sacred_ash.asm"
 
 
 SECTION "bank23", ROMX
@@ -419,21 +419,21 @@ INCLUDE "gfx/pokemon/anim_pointers.asm"
 INCLUDE "gfx/pokemon/anims.asm"
 INCLUDE "gfx/pokemon/idle_pointers.asm"
 INCLUDE "gfx/pokemon/idles.asm"
-INCLUDE "gfx/pokemon/unown_anim_pointers.asm"
-INCLUDE "gfx/pokemon/unown_anims.asm"
 INCLUDE "gfx/pokemon/unown_idle_pointers.asm"
 INCLUDE "gfx/pokemon/unown_idles.asm"
 INCLUDE "gfx/pokemon/bitmask_pointers.asm"
 INCLUDE "gfx/pokemon/bitmasks.asm"
-INCLUDE "gfx/pokemon/unown_bitmask_pointers.asm"
-INCLUDE "gfx/pokemon/unown_bitmasks.asm"
+
 
 
 SECTION "Pic Animations 2", ROMX
 
 INCLUDE "gfx/pokemon/frame_pointers.asm"
 INCLUDE "gfx/pokemon/kanto_frames.asm"
-
+INCLUDE "gfx/pokemon/unown_anim_pointers.asm"
+INCLUDE "gfx/pokemon/unown_anims.asm"
+INCLUDE "gfx/pokemon/unown_bitmask_pointers.asm"
+INCLUDE "gfx/pokemon/unown_bitmasks.asm"
 
 SECTION "Pic Animations 3", ROMX
 

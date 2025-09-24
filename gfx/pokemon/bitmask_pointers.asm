@@ -268,4 +268,7 @@ BitmasksPointers:
 	dw GliscorBitmasks
 	dw MamoswineBitmasks
 	dw PorygonZBitmasks
+	dw SlowpokeGBitmasks
+	dw SlowbroGBitmasks
+	dw SlowkingGBitmasks
 	assert_table_length NUM_POKEMON
