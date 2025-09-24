@@ -276,5 +276,6 @@ MonMenuIconPals:
 	icon_pals GREEN,  RED    ; Leafeon
 	icon_pals BLUE,   GRAY   ; Glaceon
 	icon_pals PURPLE, RED    ; Gliscor
-	icon_pals BROWN,  BROWN  ; PILOSWINE
+	icon_pals BROWN,  BROWN  ; Mamoswine
+	icon_pals BLUE,   BLUE   ; Porygon-Z
 	assert_table_length NUM_POKEMON

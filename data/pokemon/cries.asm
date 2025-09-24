@@ -273,5 +273,6 @@ PokemonCries::
 	mon_cry CRY_VENONAT,     136,  224 ; Leafeon
 	mon_cry CRY_GLIGAR,     -258,  256 ; Gliscor
 	mon_cry CRY_MAGCARGO,   -265,  256 ; Mamoswine
+	mon_cry CRY_GIRAFARIG,   115,  576 ; Porygon-Z
 	
 	assert_table_length NUM_POKEMON

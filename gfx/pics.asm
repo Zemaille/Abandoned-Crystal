@@ -817,4 +817,6 @@ GliscorFrontpic:     INCBIN "gfx/pokemon/gliscor/front.animated.2bpp.lz"
 GliscorBackpic:      INCBIN "gfx/pokemon/gliscor/back.2bpp.lz"
 MamoswineFrontpic:   INCBIN "gfx/pokemon/mamoswine/front.animated.2bpp.lz"
 MamoswineBackpic:    INCBIN "gfx/pokemon/mamoswine/back.2bpp.lz"
+PorygonZFrontpic:    INCBIN "gfx/pokemon/porygon_z/front.animated.2bpp.lz"
+PorygonZBackpic:     INCBIN "gfx/pokemon/porygon_z/back.2bpp.lz"
 

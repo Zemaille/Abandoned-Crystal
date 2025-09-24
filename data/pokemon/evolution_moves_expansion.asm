@@ -17,6 +17,7 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Glaceon
 	dw NO_MOVE		 ; Gliscor
 	dw NO_MOVE		 ; Mamoswine
+	dw NO_MOVE		 ; Porygon-Z
 .IndirectEnd::
 
 ENDSECTION

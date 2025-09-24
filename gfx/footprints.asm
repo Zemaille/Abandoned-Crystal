@@ -268,5 +268,6 @@ INCBIN "gfx/footprints/leafeon.1bpp"
 INCBIN "gfx/footprints/glaceon.1bpp"
 INCBIN "gfx/footprints/gliscor.1bpp"
 INCBIN "gfx/footprints/mamoswine.1bpp"
+INCBIN "gfx/footprints/porygon_z.1bpp"
 
 	assert_table_length NUM_POKEMON

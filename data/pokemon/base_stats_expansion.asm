@@ -15,4 +15,5 @@ INCLUDE "data/pokemon/base_stats/leafeon.asm"
 INCLUDE "data/pokemon/base_stats/glaceon.asm"
 INCLUDE "data/pokemon/base_stats/gliscor.asm"
 INCLUDE "data/pokemon/base_stats/mamoswine.asm"
+INCLUDE "data/pokemon/base_stats/porygon_z.asm"
 .IndirectEnd::

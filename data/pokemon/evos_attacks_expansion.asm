@@ -17,6 +17,7 @@ EvosAttacksPointers3::
 	dw GlaceonEvosAttacks
 	dw GliscorEvosAttacks
 	dw MamoswineEvosAttacks
+	dw PorygonZEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -101,6 +102,11 @@ GliscorEvosAttacks:
 MamoswineEvosAttacks:
 	db 0
 	dbw 1, EARTHQUAKE
+	db 0
+
+PorygonZEvosAttacks:
+	db 0
+	dbw 1, HYPER_BEAM
 	db 0
 
 ENDSECTION
