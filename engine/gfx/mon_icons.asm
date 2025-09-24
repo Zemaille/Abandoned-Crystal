@@ -496,14 +496,49 @@ GetIconBank:
 	push hl
 	ld a, [wCurIcon]
 	call GetPokemonIndexFromID
+	
+	; Check for WEAVILE first (highest range)
 	ld a, h
-	cp HIGH(MAGIKARP) ; first species in "Mon Icons 2"
-	lb bc, BANK("Mon Icons 1"), 8
-	jr c, .return
+	cp HIGH(WEAVILE)
+	jr nz, .not_ambipom_h
+	ld a, l
+	cp LOW(WEAVILE)
+	jr c, .check_magikarp
+	jr .use_bank3
+	
+.not_ambipom_h
+	; If h > HIGH(WEAVILE), use bank 3
+	cp HIGH(WEAVILE)
+	jr nc, .use_bank3
+	; If h < HIGH(WEAVILE), continue to check magikarp
+	jr .check_magikarp
+	
+.use_bank3
+	lb bc, BANK("Mon Icons 3"), 8
+	jr .return
+	
+.check_magikarp
+	ld a, h
+	cp HIGH(MAGIKARP)
+	jr nz, .not_magikarp_h
 	ld a, l
 	cp LOW(MAGIKARP)
-	jr c, .return
-	ld b, BANK("Mon Icons 2")
+	jr c, .use_bank1
+	jr .use_bank2
+	
+.not_magikarp_h
+	; If h > HIGH(MAGIKARP), use bank 2
+	cp HIGH(MAGIKARP)
+	jr nc, .use_bank2
+	; If h < HIGH(MAGIKARP), use bank 1
+	
+.use_bank1
+	lb bc, BANK("Mon Icons 1"), 8
+	jr .return
+	
+.use_bank2
+	lb bc, BANK("Mon Icons 2"), 8
+	
 .return
 	pop hl
 	ret

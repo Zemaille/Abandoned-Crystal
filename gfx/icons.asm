@@ -260,3 +260,7 @@ EggIcon::        INCBIN "gfx/icons/egg.2bpp"
 MismagiusIcon::  INCBIN "gfx/icons/mismagius.2bpp"
 HonchkrowIcon::  INCBIN "gfx/icons/honchkrow.2bpp"
 MunchlaxIcon::  INCBIN "gfx/icons/munchlax.2bpp"
+
+SECTION "Mon Icons 3", ROMX
+
+WeavileIcon::   INCBIN "gfx/icons/weavile.2bpp"

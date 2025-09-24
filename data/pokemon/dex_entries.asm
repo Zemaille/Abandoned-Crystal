@@ -266,3 +266,4 @@ CelebiPokedexEntry::     INCLUDE "data/pokemon/dex_entries/celebi.asm"
 MismagiusPokedexEntry::  INCLUDE "data/pokemon/dex_entries/mismagius.asm" ;252 for reference
 HonchkrowPokedexEntry::  INCLUDE "data/pokemon/dex_entries/honchkrow.asm"
 MunchlaxPokedexEntry::   INCLUDE "data/pokemon/dex_entries/munchlax.asm"
+WeavilePokedexEntry::   INCLUDE "data/pokemon/dex_entries/weavile.asm"

@@ -255,4 +255,5 @@ FirstEvoStages::
 	dw MISDREAVUS
 	dw MURKROW
 	dw MUNCHLAX
+	dw SNEASEL
 	assert_table_length NUM_POKEMON

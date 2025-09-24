@@ -259,4 +259,5 @@ IconPointers:
 	dw MismagiusIcon
 	dw HonchkrowIcon
 	dw MunchlaxIcon
+	dw WeavileIcon
 	assert_table_length NUM_POKEMON + 1

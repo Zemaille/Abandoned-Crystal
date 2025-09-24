@@ -524,4 +524,7 @@ PokemonPicPointers::
 	dba HonchkrowBackpic
 	dba MunchlaxFrontpic
 	dba MunchlaxBackpic
+	dba WeavileFrontpic
+	dba WeavileBackpic
+
 	assert_table_length NUM_POKEMON + 1

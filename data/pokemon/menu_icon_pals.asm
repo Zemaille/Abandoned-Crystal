@@ -264,4 +264,5 @@ MonMenuIconPals:
 	icon_pals PURPLE, BROWN  ; Mismagius
 	icon_pals BLUE,   PURPLE ; Honchkrow
 	icon_pals BLUE,   PURPLE   ; Munchlax
+	icon_pals RED,    PURPLE ; SNEASEL
 	assert_table_length NUM_POKEMON

@@ -4,6 +4,7 @@ EvosAttacksPointers3::
 	dw MismagiusEvosAttacks
 	dw HonchkrowEvosAttacks
 	dw MunchlaxEvosAttacks
+	dw WeavileEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -23,6 +24,11 @@ MunchlaxEvosAttacks:
 	dbbw EVOLVE_HAPPINESS, TR_ANYTIME, SNORLAX
 	db 0
 	dbw 1, TACKLE
+	db 0
+
+WeavileEvosAttacks:
+	db 0
+	dbw 1, ICE_SHARD
 	db 0
 
 ENDSECTION

@@ -256,4 +256,5 @@ NewPokedexOrder:
 	dw MISMAGIUS
 	dw HONCHKROW
 	dw MUNCHLAX
+	dw WEAVILE
 	assert_table_length NUM_POKEMON
