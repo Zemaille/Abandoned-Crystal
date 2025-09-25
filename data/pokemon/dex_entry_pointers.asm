@@ -304,4 +304,6 @@ PokedexDataPointerTable:
 	dba RaichuAPokedexEntry
 	dba QwilfishHPokedexEntry
 	dba OverqwilPokedexEntry
+	dba ZoruaPokedexEntry
+	dba ZoroarkPokedexEntry
 	assert_table_length NUM_POKEMON

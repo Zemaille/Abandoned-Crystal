@@ -622,5 +622,9 @@ PokemonPicPointers::
 	dba QwilfishHBackpic
 	dba OverqwilFrontpic
 	dba OverqwilBackpic
+	dba ZoruaFrontpic
+	dba ZoruaBackpic
+	dba ZoroarkFrontpic
+	dba ZoroarkBackpic
 	
 	assert_table_length NUM_POKEMON + 1

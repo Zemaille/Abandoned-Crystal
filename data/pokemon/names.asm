@@ -307,4 +307,6 @@ PokemonNames::
 	db "Raichu@@@@"
 	db "Qwilfish@@"
 	db "Overqwil@@"
+	db "Zorua@@@@@"
+	db "Zoroark@@@"
 	assert_table_length NUM_POKEMON

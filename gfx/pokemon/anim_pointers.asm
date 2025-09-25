@@ -303,4 +303,6 @@ AnimationPointers:
 	dw RaichuAAnimation
 	dw QwilfishHAnimation
 	dw OverqwilAnimation
+	dw ZoruaAnimation
+	dw ZoroarkAnimation
 	assert_table_length NUM_POKEMON

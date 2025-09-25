@@ -901,4 +901,8 @@ SECTION "Pics 25", ROMX
 
 OverqwilFrontpic:    INCBIN "gfx/pokemon/overqwil/front.animated.2bpp.lz"
 OverqwilBackpic:     INCBIN "gfx/pokemon/overqwil/back.2bpp.lz"
+ZoruaFrontpic:       INCBIN "gfx/pokemon/zorua/front.animated.2bpp.lz"
+ZoruaBackpic:        INCBIN "gfx/pokemon/zorua/back.2bpp.lz"
+ZoroarkFrontpic:     INCBIN "gfx/pokemon/zoroark/front.animated.2bpp.lz"
+ZoroarkBackpic:      INCBIN "gfx/pokemon/zoroark/back.2bpp.lz"
 

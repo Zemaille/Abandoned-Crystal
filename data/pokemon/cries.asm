@@ -308,6 +308,8 @@ PokemonCries::
 	mon_cry CRY_ODDISH,       79,  224 ; Marowak-A
 	mon_cry CRY_RAICHU,      238,  136 ; Raichu-A
 	mon_cry CRY_SLOWKING,    352,  224 ; Qwilfish-H
-	mon_cry CRY_SLOWKING,    352,  224 ; Qwilfish-H
+	mon_cry CRY_SLOWKING,    352,  224 ; Overqwil
+	mon_cry CRY_CLEFAIRY,    119,  144 ; Zorua
+	mon_cry CRY_CLEFAIRY,    153,  383 ; PERSIAN
 	
 	assert_table_length NUM_POKEMON

@@ -53,6 +53,8 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Raichu-A
 	dw NO_MOVE		 ; Qwilfish-H
 	dw NO_MOVE		 ; Overqwil
+	dw NO_MOVE		 ; Zorua
+	dw NO_MOVE		 ; Zoroark
 .IndirectEnd::
 
 ENDSECTION

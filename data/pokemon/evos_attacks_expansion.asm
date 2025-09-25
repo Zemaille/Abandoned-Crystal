@@ -53,6 +53,8 @@ EvosAttacksPointers3::
 	dw RaichuAEvosAttacks
 	dw QwilfishHEvosAttacks
 	dw OverqwilEvosAttacks
+	dw ZoruaEvosAttacks
+	dw ZoroarkEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -317,6 +319,16 @@ QwilfishHEvosAttacks:
 OverqwilEvosAttacks:
 	db 0
 	dbw 1, NIGHT_SLASH
+	db 0
+
+ZoruaEvosAttacks:
+	db 0
+	dbw 1, TACKLE
+	db 0
+
+ZoroarkEvosAttacks:
+	db 0
+	dbw 1, SHADOW_BALL
 	db 0
 
 ENDSECTION

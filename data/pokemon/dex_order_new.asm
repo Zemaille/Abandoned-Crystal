@@ -305,4 +305,6 @@ NewPokedexOrder:
 	dw RAICHU_A
 	dw QWILFISH_H
 	dw OVERQWIL
+	dw ZORUA
+	dw ZOROARK
 	assert_table_length NUM_POKEMON

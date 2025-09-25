@@ -313,5 +313,7 @@ MonMenuIconPals:
 	icon_pals BROWN,  BLUE   ; Raichu-A
 	icon_pals PURPLE, PINK   ; Qwilfish-H
 	icon_pals PURPLE, PINK   ; Qwilfish-H
+	icon_pals RED,    PURPLE ; Zorua
+	icon_pals RED,    PURPLE ; Zoroark
 	
 	assert_table_length NUM_POKEMON

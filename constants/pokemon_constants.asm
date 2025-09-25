@@ -325,6 +325,8 @@ DEF EXPANSION_POKEMON EQU const_value
 	const RAICHU_A
 	const QWILFISH_H
 	const OVERQWIL
+	const ZORUA
+	const ZOROARK
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

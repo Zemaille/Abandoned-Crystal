@@ -53,6 +53,8 @@ EggMovePointers3:
 	dw NoEggMoves3      ;Raichu-A
 	dw NoEggMoves3      ;Qwilfish-H
 	dw NoEggMoves3      ;Overqwil
+	dw NoEggMoves3      ;Zorua
+	dw NoEggMoves3      ;Zoroark
 .IndirectEnd::
 
 NoEggMoves3:

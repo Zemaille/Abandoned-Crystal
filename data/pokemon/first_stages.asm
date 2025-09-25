@@ -303,5 +303,7 @@ FirstEvoStages::
 	dw CUBONE
 	dw PIKACHU
 	dw QWILFISH_H
-	dw OVERQWIL
+	dw QWILFISH_H
+	dw ZORUA
+	dw ZORUA
 	assert_table_length NUM_POKEMON

@@ -303,4 +303,6 @@ BitmasksPointers:
 	dw RaichuABitmasks
 	dw QwilfishHBitmasks
 	dw OverqwilBitmasks
+	dw ZoruaBitmasks
+	dw ZoroarkBitmasks
 	assert_table_length NUM_POKEMON
