@@ -288,4 +288,6 @@ BitmasksPointers:
 	dw SpiritombBitmasks
 	dw FeebasBitmasks
 	dw MiloticBitmasks
+	dw PhantumpBitmasks
+	dw TrevenantBitmasks
 	assert_table_length NUM_POKEMON

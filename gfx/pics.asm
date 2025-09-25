@@ -834,6 +834,7 @@ CorsolaGBackpic:     INCBIN "gfx/pokemon/corsola_g/back.2bpp.lz"
 
 
 SECTION "Pics 23", ROMX
+
 CursolaFrontpic:     INCBIN "gfx/pokemon/cursola/front.animated.2bpp.lz"
 CursolaBackpic:      INCBIN "gfx/pokemon/cursola/back.2bpp.lz"
 FarigirafFrontpic:   INCBIN "gfx/pokemon/farigiraf/front.animated.2bpp.lz"
@@ -862,4 +863,12 @@ FeebasFrontpic:      INCBIN "gfx/pokemon/feebas/front.animated.2bpp.lz"
 FeebasBackpic:       INCBIN "gfx/pokemon/feebas/back.2bpp.lz"
 MiloticFrontpic:     INCBIN "gfx/pokemon/milotic/front.animated.2bpp.lz"
 MiloticBackpic:      INCBIN "gfx/pokemon/milotic/back.2bpp.lz"
+PhantumpFrontpic:    INCBIN "gfx/pokemon/phantump/front.animated.2bpp.lz"
+PhantumpBackpic:     INCBIN "gfx/pokemon/phantump/back.2bpp.lz"
+
+
+SECTION "Pics 24", ROMX
+
+TrevenantFrontpic:   INCBIN "gfx/pokemon/trevenant/front.animated.2bpp.lz"
+TrevenantBackpic:    INCBIN "gfx/pokemon/trevenant/back.2bpp.lz"
 

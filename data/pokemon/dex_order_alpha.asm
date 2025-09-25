@@ -181,6 +181,7 @@ AlphabeticalPokedexOrder:
 	dw PARASECT
 	dw PERSIAN
 	dw PHANPY
+	dw PHANTUMP
 	dw PICHU
 	dw PIDGEOT
 	dw PIDGEOTTO
@@ -262,6 +263,7 @@ AlphabeticalPokedexOrder:
 	dw TOGEPI
 	dw TOGETIC
 	dw TOTODILE
+	dw TREVENANT
 	dw TYPHLOSION
 	dw TYRANITAR
 	dw TYROGUE

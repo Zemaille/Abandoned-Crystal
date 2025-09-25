@@ -288,4 +288,6 @@ FramesPointers:
 	dba SpiritombFrames
 	dba FeebasFrames
 	dba MiloticFrames
+	dba PhantumpFrames
+	dba TrevenantFrames
 	assert_table_length NUM_POKEMON

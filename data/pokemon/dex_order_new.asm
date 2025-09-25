@@ -290,4 +290,6 @@ NewPokedexOrder:
 	dw SPIRITOMB
 	dw FEEBAS
 	dw MILOTIC
+	dw PHANTUMP
+	dw TREVENANT
 	assert_table_length NUM_POKEMON

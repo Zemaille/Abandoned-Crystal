@@ -288,4 +288,6 @@ AnimationPointers:
 	dw SpiritombAnimation
 	dw FeebasAnimation
 	dw MiloticAnimation
+	dw PhantumpAnimation
+	dw TrevenantAnimation
 	assert_table_length NUM_POKEMON

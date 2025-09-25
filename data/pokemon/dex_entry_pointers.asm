@@ -289,4 +289,6 @@ PokedexDataPointerTable:
 	dba SpiritombPokedexEntry
 	dba FeebasPokedexEntry
 	dba MiloticPokedexEntry
+	dba PhantumpPokedexEntry
+	dba TrevenantPokedexEntry
 	assert_table_length NUM_POKEMON

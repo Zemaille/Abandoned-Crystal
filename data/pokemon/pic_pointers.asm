@@ -592,5 +592,9 @@ PokemonPicPointers::
 	dba FeebasBackpic
 	dba MiloticFrontpic
 	dba MiloticBackpic
+	dba PhantumpFrontpic
+	dba PhantumpBackpic
+	dba TrevenantFrontpic
+	dba TrevenantBackpic
 	
 	assert_table_length NUM_POKEMON + 1

@@ -310,6 +310,8 @@ DEF EXPANSION_POKEMON EQU const_value
 	const SPIRITOMB
 	const FEEBAS
 	const MILOTIC
+	const PHANTUMP
+	const TREVENANT
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

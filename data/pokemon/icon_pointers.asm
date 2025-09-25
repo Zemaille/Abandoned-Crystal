@@ -293,4 +293,6 @@ IconPointers:
 	dw SpiritombIcon
 	dw FeebasIcon
 	dw MiloticIcon
+	dw PhantumpIcon
+	dw TrevenantIcon
 	assert_table_length NUM_POKEMON + 1

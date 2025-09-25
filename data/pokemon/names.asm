@@ -292,4 +292,6 @@ PokemonNames::
 	db "Spiritomb@"
 	db "Feebas@@@@"
 	db "Milotic@@@"
+	db "Phantump@@"
+	db "Trevenant@"
 	assert_table_length NUM_POKEMON

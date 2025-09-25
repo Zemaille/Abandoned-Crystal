@@ -294,5 +294,7 @@ PokemonCries::
 	mon_cry CRY_PIDGEY,      255,  383 ; Spiritomb
 	mon_cry CRY_EKANS,       128,  128 ; Feebas
 	mon_cry CRY_BULBASAUR,    64,  256 ; Milotic
+	mon_cry CRY_PARAS,        32,  352 ; Phantump
+	mon_cry CRY_PARAS,        66,  383 ; Trevenant
 	
 	assert_table_length NUM_POKEMON

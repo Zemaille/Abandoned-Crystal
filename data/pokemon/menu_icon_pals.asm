@@ -296,7 +296,9 @@ MonMenuIconPals:
 	icon_pals BLUE,   BLUE   ; Araquanid
 	icon_pals BROWN,  BROWN  ; Clodsire
 	icon_pals BROWN,  BROWN  ; Spiritomb
-	icon_pals BLUE,   RED    ; FEEBAS
-	icon_pals RED,    RED    ; FEEBAS
+	icon_pals BLUE,   RED    ; Feebas
+	icon_pals RED,    RED    ; Milotic
+	icon_pals BROWN,  BROWN  ; Phantump
+	icon_pals BROWN,  BROWN  ; Trevenant
 	
 	assert_table_length NUM_POKEMON

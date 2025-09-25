@@ -38,6 +38,8 @@ EvosAttacksPointers3::
 	dw SpiritombEvosAttacks
 	dw FeebasEvosAttacks
 	dw MiloticEvosAttacks
+	dw PhantumpEvosAttacks
+	dw TrevenantEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -227,6 +229,16 @@ FeebasEvosAttacks:
 MiloticEvosAttacks:
 	db 0
 	dbw 1, WATER_PULSE
+	db 0
+
+PhantumpEvosAttacks:
+	db 0
+	dbw 1, ASTONISH
+	db 0
+
+TrevenantEvosAttacks:
+	db 0
+	dbw 1, SHADOW_CLAW
 	db 0
 
 ENDSECTION

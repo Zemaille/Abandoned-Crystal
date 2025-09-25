@@ -38,6 +38,8 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Spiritomb
 	dw NO_MOVE		 ; Feebas
 	dw NO_MOVE		 ; Milotic
+	dw NO_MOVE		 ; Phantump
+	dw NO_MOVE		 ; Trevenant
 .IndirectEnd::
 
 ENDSECTION

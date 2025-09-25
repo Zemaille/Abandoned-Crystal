@@ -38,6 +38,8 @@ EggMovePointers3:
 	dw NoEggMoves3      ;Spiritomb
 	dw NoEggMoves3      ;Feebas
 	dw NoEggMoves3      ;Milotic
+	dw NoEggMoves3      ;Phantump
+	dw NoEggMoves3      ;Trevenant
 .IndirectEnd::
 
 NoEggMoves3:

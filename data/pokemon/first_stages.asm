@@ -289,4 +289,6 @@ FirstEvoStages::
 	dw SPIRITOMB
 	dw FEEBAS
 	dw FEEBAS
+	dw PHANTUMP
+	dw PHANTUMP
 	assert_table_length NUM_POKEMON
