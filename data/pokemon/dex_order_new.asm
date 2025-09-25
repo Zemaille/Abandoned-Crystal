@@ -309,4 +309,5 @@ NewPokedexOrder:
 	dw ZOROARK
 	dw NOIBAT
 	dw NOIVERN
+	dw KLEAVOR
 	assert_table_length NUM_POKEMON

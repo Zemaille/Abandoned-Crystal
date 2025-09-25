@@ -308,5 +308,6 @@ INCBIN "gfx/footprints/zorua.1bpp"
 INCBIN "gfx/footprints/zoroark.1bpp"
 INCBIN "gfx/footprints/noibat.1bpp"
 INCBIN "gfx/footprints/noivern.1bpp"
+INCBIN "gfx/footprints/kleavor.1bpp"
 
 	assert_table_length NUM_POKEMON

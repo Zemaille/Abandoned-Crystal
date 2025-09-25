@@ -909,4 +909,6 @@ NoibatFrontpic:      INCBIN "gfx/pokemon/noibat/front.animated.2bpp.lz"
 NoibatBackpic:       INCBIN "gfx/pokemon/noibat/back.2bpp.lz"
 NoivernFrontpic:     INCBIN "gfx/pokemon/noivern/front.animated.2bpp.lz"
 NoivernBackpic:      INCBIN "gfx/pokemon/noivern/back.2bpp.lz"
+KleavorFrontpic:     INCBIN "gfx/pokemon/kleavor/front.animated.2bpp.lz"
+KleavorBackpic:      INCBIN "gfx/pokemon/kleavor/back.2bpp.lz"
 

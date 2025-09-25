@@ -57,6 +57,7 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Zoroark
 	dw NO_MOVE		 ; Noibat
 	dw NO_MOVE		 ; Noivern
+	dw NO_MOVE		 ; Kleavor
 .IndirectEnd::
 
 ENDSECTION

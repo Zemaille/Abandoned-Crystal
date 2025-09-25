@@ -308,4 +308,5 @@ PokedexDataPointerTable:
 	dba ZoroarkPokedexEntry
 	dba NoibatPokedexEntry
 	dba NoivernPokedexEntry
+	dba KleavorPokedexEntry
 	assert_table_length NUM_POKEMON

@@ -317,5 +317,6 @@ MonMenuIconPals:
 	icon_pals RED,    PURPLE ; Zoroark
 	icon_pals PURPLE, PINK   ; Noibat
 	icon_pals PURPLE, PINK   ; Noivern
+	icon_pals BROWN,  GREEN  ; Kleavor
 	
 	assert_table_length NUM_POKEMON

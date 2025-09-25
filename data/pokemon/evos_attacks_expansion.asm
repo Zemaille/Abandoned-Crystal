@@ -57,6 +57,7 @@ EvosAttacksPointers3::
 	dw ZoroarkEvosAttacks
 	dw NoibatEvosAttacks
 	dw NoivernEvosAttacks
+	dw KleavorEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -341,6 +342,11 @@ NoibatEvosAttacks:
 NoivernEvosAttacks:
 	db 0
 	dbw 1, AIR_CUTTER
+	db 0
+
+KleavorEvosAttacks:
+	db 0
+	dbw 1, ROCK_SLIDE
 	db 0
 
 ENDSECTION

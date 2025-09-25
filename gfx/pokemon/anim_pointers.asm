@@ -307,4 +307,5 @@ AnimationPointers:
 	dw ZoroarkAnimation
 	dw NoibatAnimation
 	dw NoivernAnimation
+	dw KleavorAnimation
 	assert_table_length NUM_POKEMON

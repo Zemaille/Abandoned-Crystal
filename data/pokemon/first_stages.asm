@@ -308,4 +308,5 @@ FirstEvoStages::
 	dw ZORUA
 	dw NOIBAT
 	dw NOIBAT
+	dw SCYTHER
 	assert_table_length NUM_POKEMON
