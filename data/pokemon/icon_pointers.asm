@@ -317,4 +317,7 @@ IconPointers:
 	dw GoomyIcon
 	dw SliggooIcon
 	dw GoodraIcon
+	dw DreepyIcon
+	dw DrakloakIcon
+	dw DragapultIcon
 	assert_table_length NUM_POKEMON + 1

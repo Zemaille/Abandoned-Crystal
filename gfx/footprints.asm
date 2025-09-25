@@ -313,5 +313,8 @@ INCBIN "gfx/footprints/sylveon.1bpp"
 INCBIN "gfx/footprints/goomy.1bpp"
 INCBIN "gfx/footprints/sliggoo.1bpp"
 INCBIN "gfx/footprints/goodra.1bpp"
+INCBIN "gfx/footprints/dreepy.1bpp"
+INCBIN "gfx/footprints/drakloak.1bpp"
+INCBIN "gfx/footprints/dragapult.1bpp"
 
 	assert_table_length NUM_POKEMON

@@ -312,4 +312,7 @@ AnimationIdlePointers:
 	dw GoomyAnimationIdle
 	dw SliggooAnimationIdle
 	dw GoodraAnimationIdle
+	dw DreepyAnimationIdle
+	dw DrakloakAnimationIdle
+	dw DragapultAnimationIdle
 	assert_table_length NUM_POKEMON

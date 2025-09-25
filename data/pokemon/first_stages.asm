@@ -313,4 +313,7 @@ FirstEvoStages::
 	dw GOOMY
 	dw GOOMY
 	dw GOOMY
+	dw DREEPY
+	dw DREEPY
+	dw DREEPY
 	assert_table_length NUM_POKEMON

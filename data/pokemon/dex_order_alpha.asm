@@ -54,9 +54,12 @@ AlphabeticalPokedexOrder:
 	dw DODRIO
 	dw DODUO
 	dw DONPHAN
+	dw DRAGAPULT
 	dw DRAGONAIR
 	dw DRAGONITE
+	dw DRAKLOAK
 	dw DRATINI
+	dw DREEPY
 	dw DROWZEE
 	dw DUDUNSPARCE
 	dw DUGTRIO

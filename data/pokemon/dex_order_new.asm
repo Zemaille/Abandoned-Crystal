@@ -314,4 +314,7 @@ NewPokedexOrder:
 	dw GOOMY
 	dw SLIGGOO
 	dw GOODRA
+	dw DREEPY
+	dw DRAKLOAK
+	dw DRAGAPULT
 	assert_table_length NUM_POKEMON

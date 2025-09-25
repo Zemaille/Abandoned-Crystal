@@ -640,5 +640,11 @@ PokemonPicPointers::
 	dba SliggooBackpic
 	dba GoodraFrontpic
 	dba GoodraBackpic
+	dba DreepyFrontpic
+	dba DreepyBackpic
+	dba DrakloakFrontpic
+	dba DrakloakBackpic
+	dba DragapultFrontpic
+	dba DragapultBackpic
 	
 	assert_table_length NUM_POKEMON + 1

@@ -320,7 +320,10 @@ MonMenuIconPals:
 	icon_pals BROWN,  GREEN  ; Kleavor
 	icon_pals PINK,   BLUE   ; Sylveon
 	icon_pals PURPLE, PINK   ; Goomy
-	icon_pals GRAY, PINK     ; Sliggoo
-	icon_pals GRAY, PINK     ; Goodra
+	icon_pals GRAY,   PINK   ; Sliggoo
+	icon_pals GRAY,   PINK   ; Goodra
+	icon_pals GREEN,  GREEN  ; Dreepy
+	icon_pals TEAL,   TEAL   ; Drakloak
+	icon_pals TEAL,   TEAL   ; Dragapult
 	
 	assert_table_length NUM_POKEMON

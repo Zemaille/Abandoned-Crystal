@@ -62,6 +62,9 @@ EggMovePointers3:
 	dw NoEggMoves3      ;Goomy
 	dw NoEggMoves3      ;Sliggoo
 	dw NoEggMoves3      ;Goodra
+	dw NoEggMoves3      ;Dreepy
+	dw NoEggMoves3      ;Drakloak
+	dw NoEggMoves3      ;Dragapult
 .IndirectEnd::
 
 NoEggMoves3:

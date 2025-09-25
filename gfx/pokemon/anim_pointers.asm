@@ -312,4 +312,7 @@ AnimationPointers:
 	dw GoomyAnimation
 	dw SliggooAnimation
 	dw GoodraAnimation
+	dw DreepyAnimation
+	dw DrakloakAnimation
+	dw DragapultAnimation
 	assert_table_length NUM_POKEMON

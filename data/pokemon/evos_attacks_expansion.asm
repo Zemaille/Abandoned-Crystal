@@ -62,6 +62,9 @@ EvosAttacksPointers3::
 	dw GoomyEvosAttacks
 	dw SliggoEvosAttacks
 	dw GoodraEvosAttacks
+	dw DreepyEvosAttacks
+	dw DrakloakEvosAttacks
+	dw DragapultEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -371,6 +374,21 @@ SliggoEvosAttacks:
 GoodraEvosAttacks:
 	db 0
 	dbw 1, DRAGON_PULSE
+	db 0
+
+DreepyEvosAttacks:
+	db 0
+	dbw 1, INFESTATION
+	db 0
+
+DrakloakEvosAttacks:
+	db 0
+	dbw 1, ASTONISH
+	db 0
+
+DragapultEvosAttacks:
+	db 0
+	dbw 1, DRAGON_DARTS
 	db 0
 
 ENDSECTION

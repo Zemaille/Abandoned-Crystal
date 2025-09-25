@@ -318,5 +318,8 @@ PokemonCries::
 	mon_cry CRY_BULBASAUR,    96,  192 ; Goomy
 	mon_cry CRY_BULBASAUR,    64,  256 ; Sliggoo
 	mon_cry CRY_BULBASAUR,    60,  320 ; Goodra
+	mon_cry CRY_BULBASAUR,    96,  192 ; Dreepy
+	mon_cry CRY_BULBASAUR,    64,  256 ; Drakloak
+	mon_cry CRY_BULBASAUR,    60,  320 ; Dragapult
 	
 	assert_table_length NUM_POKEMON

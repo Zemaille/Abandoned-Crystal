@@ -62,6 +62,9 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Goomy
 	dw NO_MOVE		 ; Sliggoo
 	dw NO_MOVE		 ; Goodra
+	dw NO_MOVE		 ; Dreepy
+	dw NO_MOVE		 ; Drakloak
+	dw NO_MOVE		 ; Dragapult
 .IndirectEnd::
 
 ENDSECTION
