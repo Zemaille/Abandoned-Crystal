@@ -308,4 +308,5 @@ BitmasksPointers:
 	dw NoibatBitmasks
 	dw NoivernBitmasks
 	dw KleavorBitmasks
+	dw SylveonBitmasks
 	assert_table_length NUM_POKEMON

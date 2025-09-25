@@ -56,4 +56,5 @@ INCLUDE "data/pokemon/base_stats/zoroark.asm"
 INCLUDE "data/pokemon/base_stats/noibat.asm"
 INCLUDE "data/pokemon/base_stats/noivern.asm"
 INCLUDE "data/pokemon/base_stats/kleavor.asm"
+INCLUDE "data/pokemon/base_stats/sylveon.asm"
 .IndirectEnd::

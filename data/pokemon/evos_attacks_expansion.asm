@@ -58,6 +58,7 @@ EvosAttacksPointers3::
 	dw NoibatEvosAttacks
 	dw NoivernEvosAttacks
 	dw KleavorEvosAttacks
+	dw SylveonEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -347,6 +348,11 @@ NoivernEvosAttacks:
 KleavorEvosAttacks:
 	db 0
 	dbw 1, ROCK_SLIDE
+	db 0
+
+SylveonEvosAttacks:
+	db 0
+	dbw 1, MOONBLAST
 	db 0
 
 ENDSECTION

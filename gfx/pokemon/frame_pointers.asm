@@ -308,4 +308,5 @@ FramesPointers:
 	dba NoibatFrames
 	dba NoivernFrames
 	dba KleavorFrames
+	dba SylveonFrames
 	assert_table_length NUM_POKEMON

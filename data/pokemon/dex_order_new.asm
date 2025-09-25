@@ -310,4 +310,5 @@ NewPokedexOrder:
 	dw NOIBAT
 	dw NOIVERN
 	dw KLEAVOR
+	dw SYLVEON
 	assert_table_length NUM_POKEMON

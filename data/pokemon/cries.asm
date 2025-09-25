@@ -314,5 +314,6 @@ PokemonCries::
 	mon_cry CRY_SQUIRTLE,    250,  256 ; Noibat
 	mon_cry CRY_SQUIRTLE,    -16,  320 ; Noivern
 	mon_cry CRY_CATERPIE,      0,  256 ; Kleavor
+	mon_cry CRY_AIPOM,       162,  320 ; Sylveon
 	
 	assert_table_length NUM_POKEMON

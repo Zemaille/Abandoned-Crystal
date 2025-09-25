@@ -312,4 +312,5 @@ PokemonNames::
 	db "Noibat@@@@"
 	db "Noivern@@@"
 	db "Kleavor@@@"
+	db "Sylveon@@@"
 	assert_table_length NUM_POKEMON

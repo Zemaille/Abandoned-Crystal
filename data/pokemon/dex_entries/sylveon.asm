@@ -8,5 +8,5 @@
 	next "  HUMAN   RIGHTS  "
 
 	page "Sylveon also says:"
-	next "MY TENTACLES ARE"
-	next "MADE OF FLESH.@"
+	next " MY RIBBONS ARE  "
+	next " MADE OF FLESH.@"

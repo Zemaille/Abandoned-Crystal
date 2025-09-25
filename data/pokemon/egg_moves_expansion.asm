@@ -58,6 +58,7 @@ EggMovePointers3:
 	dw NoEggMoves3      ;Noibat
 	dw NoEggMoves3      ;Noivern
 	dw NoEggMoves3      ;Kleavor
+	dw NoEggMoves3      ;Sylveon
 .IndirectEnd::
 
 NoEggMoves3:

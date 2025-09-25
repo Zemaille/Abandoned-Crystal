@@ -268,6 +268,7 @@ AlphabeticalPokedexOrder:
 	dw SUNKERN
 	dw SWABLU
 	dw SWINUB
+	dw SYLVEON
 	dw TANGELA
 	dw TANGROWTH
 	dw TAUROS
