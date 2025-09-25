@@ -286,4 +286,6 @@ AnimationPointers:
 	dw AraquanidAnimation
 	dw ClodsireAnimation
 	dw SpiritombAnimation
+	dw FeebasAnimation
+	dw MiloticAnimation
 	assert_table_length NUM_POKEMON

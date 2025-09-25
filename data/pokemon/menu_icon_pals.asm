@@ -295,6 +295,8 @@ MonMenuIconPals:
 	icon_pals BLUE,   BLUE   ; Dewpider
 	icon_pals BLUE,   BLUE   ; Araquanid
 	icon_pals BROWN,  BROWN  ; Clodsire
-	icon_pals BROWN,  GRAY  ; Spiritomb
+	icon_pals BROWN,  BROWN  ; Spiritomb
+	icon_pals BLUE,   RED    ; FEEBAS
+	icon_pals RED,    RED    ; FEEBAS
 	
 	assert_table_length NUM_POKEMON

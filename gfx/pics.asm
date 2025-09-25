@@ -858,4 +858,8 @@ ClodsireFrontpic:    INCBIN "gfx/pokemon/clodsire/front.animated.2bpp.lz"
 ClodsireBackpic:     INCBIN "gfx/pokemon/clodsire/back.2bpp.lz"
 SpiritombFrontpic:   INCBIN "gfx/pokemon/spiritomb/front.animated.2bpp.lz"
 SpiritombBackpic:    INCBIN "gfx/pokemon/spiritomb/back.2bpp.lz"
+FeebasFrontpic:      INCBIN "gfx/pokemon/feebas/front.animated.2bpp.lz"
+FeebasBackpic:       INCBIN "gfx/pokemon/feebas/back.2bpp.lz"
+MiloticFrontpic:     INCBIN "gfx/pokemon/milotic/front.animated.2bpp.lz"
+MiloticBackpic:      INCBIN "gfx/pokemon/milotic/back.2bpp.lz"
 

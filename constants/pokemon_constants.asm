@@ -308,6 +308,8 @@ DEF EXPANSION_POKEMON EQU const_value
 	const ARAQUANID
 	const CLODSIRE
 	const SPIRITOMB
+	const FEEBAS
+	const MILOTIC
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

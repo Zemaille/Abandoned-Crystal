@@ -287,4 +287,6 @@ FirstEvoStages::
 	dw DEWPIDER
 	dw WOOPER
 	dw SPIRITOMB
+	dw FEEBAS
+	dw FEEBAS
 	assert_table_length NUM_POKEMON

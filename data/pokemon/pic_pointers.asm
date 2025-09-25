@@ -588,5 +588,9 @@ PokemonPicPointers::
 	dba ClodsireBackpic
 	dba SpiritombFrontpic
 	dba SpiritombBackpic
+	dba FeebasFrontpic
+	dba FeebasBackpic
+	dba MiloticFrontpic
+	dba MiloticBackpic
 	
 	assert_table_length NUM_POKEMON + 1

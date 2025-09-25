@@ -34,4 +34,6 @@ INCLUDE "data/pokemon/base_stats/dewpider.asm"
 INCLUDE "data/pokemon/base_stats/araquanid.asm"
 INCLUDE "data/pokemon/base_stats/clodsire.asm"
 INCLUDE "data/pokemon/base_stats/spiritomb.asm"
+INCLUDE "data/pokemon/base_stats/feebas.asm"
+INCLUDE "data/pokemon/base_stats/milotic.asm"
 .IndirectEnd::

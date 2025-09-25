@@ -36,6 +36,8 @@ EggMovePointers3:
 	dw NoEggMoves3      ;Araquanid
 	dw NoEggMoves3      ;Clodsire
 	dw NoEggMoves3      ;Spiritomb
+	dw NoEggMoves3      ;Feebas
+	dw NoEggMoves3      ;Milotic
 .IndirectEnd::
 
 NoEggMoves3:

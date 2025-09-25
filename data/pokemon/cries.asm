@@ -292,5 +292,7 @@ PokemonCries::
 	mon_cry CRY_SPINARAK,   -174,  482 ; Araquanid
 	mon_cry CRY_WOOPER,     -198,  320 ; Clodsire
 	mon_cry CRY_PIDGEY,      255,  383 ; Spiritomb
+	mon_cry CRY_EKANS,       128,  128 ; Feebas
+	mon_cry CRY_BULBASAUR,    64,  256 ; Milotic
 	
 	assert_table_length NUM_POKEMON

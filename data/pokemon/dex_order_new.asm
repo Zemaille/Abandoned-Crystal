@@ -288,4 +288,6 @@ NewPokedexOrder:
 	dw ARAQUANID
 	dw CLODSIRE
 	dw SPIRITOMB
+	dw FEEBAS
+	dw MILOTIC
 	assert_table_length NUM_POKEMON

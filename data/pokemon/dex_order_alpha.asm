@@ -70,6 +70,7 @@ AlphabeticalPokedexOrder:
 	dw FARFETCH_D
 	dw FARIGIRAF
 	dw FEAROW
+	dw FEEBAS
 	dw FERALIGATR
 	dw FLAAFFY
 	dw FLAREON
@@ -153,6 +154,7 @@ AlphabeticalPokedexOrder:
 	dw METAPOD
 	dw MEW
 	dw MEWTWO
+	dw MILOTIC
 	dw MILTANK
 	dw MISDREAVUS
 	dw MISMAGIUS
