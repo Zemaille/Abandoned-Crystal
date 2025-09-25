@@ -315,4 +315,7 @@ BitmasksPointers:
 	dw DreepyBitmasks
 	dw DrakloakBitmasks
 	dw DragapultBitmasks
+	dw ArticunoGBitmasks
+	dw ZapdosGBitmasks
+	dw MoltresGBitmasks
 	assert_table_length NUM_POKEMON

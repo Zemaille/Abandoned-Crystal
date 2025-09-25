@@ -337,6 +337,9 @@ DEF EXPANSION_POKEMON EQU const_value
 	const DREEPY
 	const DRAKLOAK
 	const DRAGAPULT
+	const ARTICUNO_G
+	const ZAPDOS_G
+	const MOLTRES_G
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

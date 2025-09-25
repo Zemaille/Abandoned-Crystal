@@ -65,6 +65,9 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Dreepy
 	dw NO_MOVE		 ; Drakloak
 	dw NO_MOVE		 ; Dragapult
+	dw NO_MOVE		 ; Articuno-G
+	dw NO_MOVE		 ; Zapdos-G
+	dw NO_MOVE		 ; Moltres-G
 .IndirectEnd::
 
 ENDSECTION

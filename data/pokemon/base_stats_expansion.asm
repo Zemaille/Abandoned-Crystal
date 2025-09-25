@@ -63,4 +63,7 @@ INCLUDE "data/pokemon/base_stats/goodra.asm"
 INCLUDE "data/pokemon/base_stats/dreepy.asm"
 INCLUDE "data/pokemon/base_stats/drakloak.asm"
 INCLUDE "data/pokemon/base_stats/dragapult.asm"
+INCLUDE "data/pokemon/base_stats/articuno_g.asm"
+INCLUDE "data/pokemon/base_stats/zapdos_g.asm"
+INCLUDE "data/pokemon/base_stats/moltres_g.asm"
 .IndirectEnd::

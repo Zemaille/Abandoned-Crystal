@@ -925,4 +925,15 @@ DrakloakFrontpic:    INCBIN "gfx/pokemon/drakloak/front.animated.2bpp.lz"
 DrakloakBackpic:     INCBIN "gfx/pokemon/drakloak/back.2bpp.lz"
 DragapultFrontpic:   INCBIN "gfx/pokemon/dragapult/front.animated.2bpp.lz"
 DragapultBackpic:    INCBIN "gfx/pokemon/dragapult/back.2bpp.lz"
+ArticunoGFrontpic:   INCBIN "gfx/pokemon/articuno_g/front.animated.2bpp.lz"
+ArticunoGBackpic:    INCBIN "gfx/pokemon/articuno_g/back.2bpp.lz"
+
+
+SECTION "Pics 26", ROMX
+
+ZapdosGFrontpic:     INCBIN "gfx/pokemon/zapdos_g/front.animated.2bpp.lz"
+ZapdosGBackpic:      INCBIN "gfx/pokemon/zapdos_g/back.2bpp.lz"
+MoltresGFrontpic:    INCBIN "gfx/pokemon/moltres_g/front.animated.2bpp.lz"
+MoltresGBackpic:     INCBIN "gfx/pokemon/moltres_g/back.2bpp.lz"
+
 

@@ -320,4 +320,7 @@ IconPointers:
 	dw DreepyIcon
 	dw DrakloakIcon
 	dw DragapultIcon
+	dw ArticunoGIcon
+	dw ZapdosGIcon
+	dw MoltresGIcon
 	assert_table_length NUM_POKEMON + 1

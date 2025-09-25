@@ -317,4 +317,7 @@ NewPokedexOrder:
 	dw DREEPY
 	dw DRAKLOAK
 	dw DRAGAPULT
+	dw ARTICUNO_G
+	dw ZAPDOS_G
+	dw MOLTRES_G
 	assert_table_length NUM_POKEMON

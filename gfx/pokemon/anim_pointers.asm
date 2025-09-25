@@ -315,4 +315,7 @@ AnimationPointers:
 	dw DreepyAnimation
 	dw DrakloakAnimation
 	dw DragapultAnimation
+	dw ArticunoGAnimation
+	dw ZapdosGAnimation
+	dw MoltresGAnimation
 	assert_table_length NUM_POKEMON

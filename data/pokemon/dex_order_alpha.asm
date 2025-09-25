@@ -15,6 +15,7 @@ AlphabeticalPokedexOrder:
 	dw ARCANINE_H
 	dw ARIADOS
 	dw ARTICUNO
+	dw ARTICUNO_G
 	dw AZUMARILL
 	dw BAYLEEF
 	dw BEEDRILL
@@ -172,6 +173,7 @@ AlphabeticalPokedexOrder:
 	dw MISDREAVUS
 	dw MISMAGIUS
 	dw MOLTRES
+	dw MOLTRES_G
 	dw MR__MIME
 	dw MUK
 	dw MUNCHLAX
@@ -314,6 +316,7 @@ AlphabeticalPokedexOrder:
 	dw YANMA
 	dw YANMEGA
 	dw ZAPDOS
+	dw ZAPDOS_G
 	dw ZOROARK
 	dw ZORUA
 	dw ZUBAT

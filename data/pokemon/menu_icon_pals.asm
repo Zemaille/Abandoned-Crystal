@@ -325,5 +325,8 @@ MonMenuIconPals:
 	icon_pals GREEN,  GREEN  ; Dreepy
 	icon_pals TEAL,   TEAL   ; Drakloak
 	icon_pals TEAL,   TEAL   ; Dragapult
+	icon_pals PURPLE, BLUE   ; Articuno-G
+	icon_pals BROWN,  BROWN  ; Zapdos-G
+	icon_pals RED,    RED    ; Moltres-G
 	
 	assert_table_length NUM_POKEMON

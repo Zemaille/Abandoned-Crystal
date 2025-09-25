@@ -319,4 +319,7 @@ PokemonNames::
 	db "Dreepy@@@@"
 	db "Drakloak@@"
 	db "Dragapult@"
+	db "Articuno@@"
+	db "Zapdos@@@@"
+	db "Moltres@@@"
 	assert_table_length NUM_POKEMON

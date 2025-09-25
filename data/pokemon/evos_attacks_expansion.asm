@@ -65,6 +65,9 @@ EvosAttacksPointers3::
 	dw DreepyEvosAttacks
 	dw DrakloakEvosAttacks
 	dw DragapultEvosAttacks
+	dw ArticunoGEvosAttacks
+	dw ZapdosGEvosAttacks
+	dw MoltresGEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -391,4 +394,19 @@ DragapultEvosAttacks:
 	dbw 1, DRAGON_DARTS
 	db 0
 
+ArticunoGEvosAttacks:
+	db 0
+	dbw 1, PSYCHIC_M
+	db 0
+
+ZapdosGEvosAttacks:
+	db 0
+	dbw 1, WILD_CHARGE
+	db 0
+	
+MoltresGEvosAttacks:
+	db 0
+	dbw 1, DARK_PULSE
+	db 0
+	
 ENDSECTION

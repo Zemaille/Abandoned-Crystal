@@ -65,6 +65,9 @@ EggMovePointers3:
 	dw NoEggMoves3      ;Dreepy
 	dw NoEggMoves3      ;Drakloak
 	dw NoEggMoves3      ;Dragapult
+	dw NoEggMoves3      ;Articuno-G
+	dw NoEggMoves3      ;Zapdos-G
+	dw NoEggMoves3      ;Moltres-G
 .IndirectEnd::
 
 NoEggMoves3:

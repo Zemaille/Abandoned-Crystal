@@ -316,4 +316,7 @@ FirstEvoStages::
 	dw DREEPY
 	dw DREEPY
 	dw DREEPY
+	dw ARTICUNO_G
+	dw ZAPDOS_G
+	dw MOLTRES_G
 	assert_table_length NUM_POKEMON
