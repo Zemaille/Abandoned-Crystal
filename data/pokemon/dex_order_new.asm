@@ -301,4 +301,5 @@ NewPokedexOrder:
 	dw DELPHOX
 	dw SNEASEL_H
 	dw SNEASLER
+	dw MAROWAK_A
 	assert_table_length NUM_POKEMON

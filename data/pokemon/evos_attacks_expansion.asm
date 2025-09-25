@@ -49,6 +49,7 @@ EvosAttacksPointers3::
 	dw DelphoxEvosAttacks
 	dw SneaselHEvosAttacks
 	dw SneaslerEvosAttacks
+	dw MarowakAEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -293,6 +294,11 @@ SneaselHEvosAttacks:
 SneaslerEvosAttacks:
 	db 0
 	dbw 1, CLOSE_COMBAT
+	db 0
+
+MarowakAEvosAttacks:
+	db 0
+	dbw 1, SHADOW_CLAW
 	db 0
 
 ENDSECTION

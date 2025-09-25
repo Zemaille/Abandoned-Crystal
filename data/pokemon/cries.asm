@@ -305,5 +305,6 @@ PokemonCries::
 	mon_cry CRY_VULPIX,      136,  224 ; Delphox
 	mon_cry CRY_WOOPER,       83,  175 ; Sneasel-H
 	mon_cry CRY_WOOPER,       83,  175 ; Sneasler
+	mon_cry CRY_ODDISH,       79,  224 ; Marowak-A
 	
 	assert_table_length NUM_POKEMON

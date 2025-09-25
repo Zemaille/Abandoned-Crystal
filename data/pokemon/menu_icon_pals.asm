@@ -309,5 +309,6 @@ MonMenuIconPals:
 	icon_pals RED,    PURPLE ; Delphox
 	icon_pals PURPLE, RED    ; Sneasel-H
 	icon_pals PURPLE, RED    ; Sneasler
+	icon_pals TEAL,   BLUE   ; Marowak-A
 	
 	assert_table_length NUM_POKEMON

@@ -155,6 +155,7 @@ AlphabeticalPokedexOrder:
 	dw MAREEP
 	dw MARILL
 	dw MAROWAK
+	dw MAROWAK_A
 	dw MEGANIUM
 	dw MEOWTH
 	dw METAPOD

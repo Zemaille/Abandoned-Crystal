@@ -10,7 +10,7 @@
 	dw NO_ITEM, THICK_CLUB ; items
 	db GENDER_F50 ; gender ratio
 	db 20 ; step cycles to hatch
-	INCBIN "gfx/pokemon/marowak-a/front.dimensions"
+	INCBIN "gfx/pokemon/marowak_a/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_MONSTER, EGG_MONSTER ; egg groups

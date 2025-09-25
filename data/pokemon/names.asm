@@ -303,4 +303,5 @@ PokemonNames::
 	db "Delphox@@@"
 	db "Sneasel@@@"
 	db "Sneasler@@"
+	db "Marowak@@@"
 	assert_table_length NUM_POKEMON
