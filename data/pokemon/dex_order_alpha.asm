@@ -12,6 +12,7 @@ AlphabeticalPokedexOrder:
 	dw ARAQUANID
 	dw ARBOK
 	dw ARCANINE
+	dw ARCANINE_H
 	dw ARIADOS
 	dw ARTICUNO
 	dw AZUMARILL
@@ -93,6 +94,7 @@ AlphabeticalPokedexOrder:
 	dw GRAVELER
 	dw GRIMER
 	dw GROWLITHE
+	dw GROWLITHE_H
 	dw GYARADOS
 	dw HAUNTER
 	dw HERACROSS

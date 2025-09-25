@@ -293,4 +293,6 @@ PokedexDataPointerTable:
 	dba TrevenantPokedexEntry
 	dba WyrdeerPokedexEntry
 	dba AnnihilapePokedexEntry
+	dba GrowlitheHPokedexEntry
+	dba ArcanineHPokedexEntry
 	assert_table_length NUM_POKEMON

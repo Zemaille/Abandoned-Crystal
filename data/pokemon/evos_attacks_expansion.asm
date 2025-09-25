@@ -42,6 +42,8 @@ EvosAttacksPointers3::
 	dw TrevenantEvosAttacks
 	dw WyrdeerEvosAttacks
 	dw AnnihilapeEvosAttacks
+	dw GrowlitheHEvosAttacks
+	dw ArcanineHEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -251,6 +253,16 @@ WyrdeerEvosAttacks:
 AnnihilapeEvosAttacks:
 	db 0
 	dbw 1, CROSS_CHOP
+	db 0
+
+GrowlitheHEvosAttacks:
+	db 0
+	dbw 1, EMBER
+	db 0
+
+ArcanineHEvosAttacks:
+	db 0
+	dbw 1, FLARE_BLITZ
 	db 0
 
 ENDSECTION

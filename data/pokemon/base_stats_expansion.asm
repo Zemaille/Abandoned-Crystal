@@ -40,4 +40,6 @@ INCLUDE "data/pokemon/base_stats/phantump.asm"
 INCLUDE "data/pokemon/base_stats/trevenant.asm"
 INCLUDE "data/pokemon/base_stats/wyrdeer.asm"
 INCLUDE "data/pokemon/base_stats/annihilape.asm"
+INCLUDE "data/pokemon/base_stats/growlithe_h.asm"
+INCLUDE "data/pokemon/base_stats/arcanine_h.asm"
 .IndirectEnd::

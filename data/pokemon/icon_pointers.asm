@@ -297,4 +297,6 @@ IconPointers:
 	dw TrevenantIcon
 	dw WyrdeerIcon
 	dw AnnihilapeIcon
+	dw GrowlitheHIcon
+	dw ArcanineHIcon
 	assert_table_length NUM_POKEMON + 1

@@ -293,5 +293,7 @@ INCBIN "gfx/footprints/phantump.1bpp"
 INCBIN "gfx/footprints/trevenant.1bpp"
 INCBIN "gfx/footprints/wyrdeer.1bpp"
 INCBIN "gfx/footprints/annihilape.1bpp"
+INCBIN "gfx/footprints/growlithe_h.1bpp"
+INCBIN "gfx/footprints/arcanine_h.1bpp"
 
 	assert_table_length NUM_POKEMON

@@ -294,4 +294,6 @@ NewPokedexOrder:
 	dw TREVENANT
 	dw WYRDEER
 	dw ANNIHILAPE
+	dw GROWLITHE_H
+	dw ARCANINE_H
 	assert_table_length NUM_POKEMON

@@ -314,6 +314,8 @@ DEF EXPANSION_POKEMON EQU const_value
 	const TREVENANT
 	const WYRDEER
 	const ANNIHILAPE
+	const GROWLITHE_H
+	const ARCANINE_H
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

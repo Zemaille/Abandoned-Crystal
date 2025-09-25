@@ -292,4 +292,6 @@ AnimationIdlePointers:
 	dw TrevenantAnimationIdle
 	dw WyrdeerAnimationIdle
 	dw AnnihilapeAnimationIdle
+	dw GrowlitheHAnimationIdle
+	dw ArcanineHAnimationIdle
 	assert_table_length NUM_POKEMON

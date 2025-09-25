@@ -875,4 +875,8 @@ WyrdeerFrontpic:     INCBIN "gfx/pokemon/wyrdeer/front.animated.2bpp.lz"
 WyrdeerBackpic:      INCBIN "gfx/pokemon/wyrdeer/back.2bpp.lz"
 AnnihilapeFrontpic:  INCBIN "gfx/pokemon/annihilape/front.animated.2bpp.lz"
 AnnihilapeBackpic:   INCBIN "gfx/pokemon/annihilape/back.2bpp.lz"
+GrowlitheHFrontpic:  INCBIN "gfx/pokemon/growlithe_h/front.animated.2bpp.lz"
+GrowlitheHBackpic:   INCBIN "gfx/pokemon/growlithe_h/back.2bpp.lz"
+ArcanineHFrontpic:   INCBIN "gfx/pokemon/arcanine_h/front.animated.2bpp.lz"
+ArcanineHBackpic:    INCBIN "gfx/pokemon/arcanine_h/back.2bpp.lz"
 

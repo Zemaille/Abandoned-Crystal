@@ -292,4 +292,6 @@ AnimationPointers:
 	dw TrevenantAnimation
 	dw WyrdeerAnimation
 	dw AnnihilapeAnimation
+	dw GrowlitheHAnimation
+	dw ArcanineHAnimation
 	assert_table_length NUM_POKEMON

@@ -600,5 +600,9 @@ PokemonPicPointers::
 	dba WyrdeerBackpic
 	dba AnnihilapeFrontpic
 	dba AnnihilapeBackpic
+	dba GrowlitheHFrontpic
+	dba GrowlitheHBackpic
+	dba ArcanineHFrontpic
+	dba ArcanineHBackpic
 	
 	assert_table_length NUM_POKEMON + 1

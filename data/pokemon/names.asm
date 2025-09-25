@@ -296,4 +296,6 @@ PokemonNames::
 	db "Trevenant@"
 	db "Wyrdeer@@@"
 	db "Annihilape"
+	db "Growlithe@"
+	db "Arcanine@@"
 	assert_table_length NUM_POKEMON

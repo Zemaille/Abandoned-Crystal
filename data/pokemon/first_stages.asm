@@ -293,4 +293,6 @@ FirstEvoStages::
 	dw PHANTUMP
 	dw STANTLER
 	dw MANKEY
+	dw GROWLITHE_H
+	dw ARCANINE_H
 	assert_table_length NUM_POKEMON

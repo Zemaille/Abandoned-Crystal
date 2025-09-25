@@ -292,4 +292,6 @@ FramesPointers:
 	dba TrevenantFrames
 	dba WyrdeerFrames
 	dba AnnihilapeFrames
+	dba GrowlitheHFrames
+	dba ArcanineHFrames
 	assert_table_length NUM_POKEMON

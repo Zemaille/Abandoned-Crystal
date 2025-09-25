@@ -42,6 +42,8 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Trevenant
 	dw NO_MOVE		 ; Wyrdeer
 	dw NO_MOVE		 ; Annihilape
+	dw NO_MOVE		 ; Growlithe-H
+	dw NO_MOVE		 ; Arcanine-H
 .IndirectEnd::
 
 ENDSECTION

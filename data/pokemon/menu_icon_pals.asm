@@ -302,5 +302,7 @@ MonMenuIconPals:
 	icon_pals BROWN,  BROWN  ; Trevenant
 	icon_pals GRAY,   GRAY   ; Wyrdeer
 	icon_pals GRAY,   GRAY   ; Annihilape
+	icon_pals RED,    RED    ; Growlithe-H
+	icon_pals RED,    RED    ; Arcanine-H
 	
 	assert_table_length NUM_POKEMON

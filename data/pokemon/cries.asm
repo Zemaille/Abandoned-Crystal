@@ -298,5 +298,7 @@ PokemonCries::
 	mon_cry CRY_PARAS,        66,  383 ; Trevenant
 	mon_cry CRY_AIPOM,      -352,  384 ; Wyrdeer
 	mon_cry CRY_NIDOQUEEN,   175,  192 ; Annihilape
+	mon_cry CRY_GROWLITHE,    32,  192 ; Growlithe_H
+	mon_cry CRY_WEEDLE,        0,  256 ; ARCANINE
 	
 	assert_table_length NUM_POKEMON
