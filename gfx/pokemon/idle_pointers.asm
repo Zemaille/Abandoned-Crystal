@@ -300,4 +300,5 @@ AnimationIdlePointers:
 	dw SneaselHAnimationIdle
 	dw SneaslerAnimationIdle
 	dw MarowakAAnimationIdle
+	dw RaichuAAnimationIdle
 	assert_table_length NUM_POKEMON

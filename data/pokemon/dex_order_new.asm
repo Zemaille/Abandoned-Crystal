@@ -302,4 +302,5 @@ NewPokedexOrder:
 	dw SNEASEL_H
 	dw SNEASLER
 	dw MAROWAK_A
+	dw RAICHU_A
 	assert_table_length NUM_POKEMON

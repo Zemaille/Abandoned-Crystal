@@ -322,6 +322,7 @@ DEF EXPANSION_POKEMON EQU const_value
 	const SNEASEL_H
 	const SNEASLER
 	const MAROWAK_A
+	const RAICHU_A
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

@@ -25,8 +25,8 @@ FirstEvoStages::
 	dw SPEAROW
 	dw EKANS
 	dw EKANS      ;18
-	dw PICHU
-	dw PICHU
+	dw PIKACHU
+	dw PIKACHU
 	dw SANDSHREW
 	dw SANDSHREW
 	dw NIDORAN_F
@@ -300,5 +300,6 @@ FirstEvoStages::
 	dw FENNEKIN
 	dw SNEASEL_H
 	dw SNEASLER
-	dw MAROWAK_A
+	dw CUBONE
+	dw PIKACHU
 	assert_table_length NUM_POKEMON

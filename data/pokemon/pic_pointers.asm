@@ -616,5 +616,7 @@ PokemonPicPointers::
 	dba SneaslerBackpic
 	dba MarowakAFrontpic
 	dba MarowakABackpic
+	dba RaichuAFrontpic
+	dba RaichuABackpic
 	
 	assert_table_length NUM_POKEMON + 1

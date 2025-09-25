@@ -213,6 +213,7 @@ AlphabeticalPokedexOrder:
 	dw QUILAVA
 	dw QWILFISH
 	dw RAICHU
+	dw RAICHU_A
 	dw RAIKOU
 	dw RAPIDASH
 	dw RAPIDASH_G

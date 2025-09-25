@@ -891,4 +891,6 @@ SneaslerFrontpic:    INCBIN "gfx/pokemon/sneasler/front.animated.2bpp.lz"
 SneaslerBackpic:     INCBIN "gfx/pokemon/sneasler/back.2bpp.lz"
 MarowakAFrontpic:    INCBIN "gfx/pokemon/marowak_a/front.animated.2bpp.lz"
 MarowakABackpic:     INCBIN "gfx/pokemon/marowak_a/back.2bpp.lz"
+RaichuAFrontpic:     INCBIN "gfx/pokemon/raichu_a/front.animated.2bpp.lz"
+RaichuABackpic:      INCBIN "gfx/pokemon/raichu_a/back.2bpp.lz"
 

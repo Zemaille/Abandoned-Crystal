@@ -300,4 +300,5 @@ FramesPointers:
 	dba SneaselHFrames
 	dba SneaslerFrames
 	dba MarowakAFrames
+	dba RaichuAFrames
 	assert_table_length NUM_POKEMON

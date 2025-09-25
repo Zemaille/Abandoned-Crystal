@@ -305,4 +305,5 @@ IconPointers:
 	dw SneaselHIcon
 	dw SneaslerIcon
 	dw MarowakAIcon
+	dw RaichuAIcon
 	assert_table_length NUM_POKEMON + 1

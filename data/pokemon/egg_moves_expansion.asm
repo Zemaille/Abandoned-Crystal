@@ -50,6 +50,7 @@ EggMovePointers3:
 	dw NoEggMoves3      ;Sneasel-H
 	dw NoEggMoves3      ;Sneasler
 	dw NoEggMoves3      ;Marowak-A
+	dw NoEggMoves3      ;Raichu-A
 .IndirectEnd::
 
 NoEggMoves3:

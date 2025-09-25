@@ -306,5 +306,6 @@ PokemonCries::
 	mon_cry CRY_WOOPER,       83,  175 ; Sneasel-H
 	mon_cry CRY_WOOPER,       83,  175 ; Sneasler
 	mon_cry CRY_ODDISH,       79,  224 ; Marowak-A
+	mon_cry CRY_RAICHU,      238,  136 ; Raichu-A
 	
 	assert_table_length NUM_POKEMON

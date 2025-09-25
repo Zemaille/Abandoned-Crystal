@@ -300,4 +300,5 @@ BitmasksPointers:
 	dw SneaselHBitmasks
 	dw SneaslerBitmasks
 	dw MarowakABitmasks
+	dw RaichuABitmasks
 	assert_table_length NUM_POKEMON

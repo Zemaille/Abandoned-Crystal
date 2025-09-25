@@ -50,6 +50,7 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Sneasel-H
 	dw NO_MOVE		 ; Sneasler
 	dw NO_MOVE		 ; Marowak-A
+	dw NO_MOVE		 ; Raichu-A
 .IndirectEnd::
 
 ENDSECTION

@@ -301,4 +301,5 @@ PokedexDataPointerTable:
 	dba SneaselHPokedexEntry
 	dba SneaslerPokedexEntry
 	dba MarowakAPokedexEntry
+	dba RaichuAPokedexEntry
 	assert_table_length NUM_POKEMON
