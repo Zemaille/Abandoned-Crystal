@@ -38,4 +38,5 @@ INCLUDE "data/pokemon/base_stats/feebas.asm"
 INCLUDE "data/pokemon/base_stats/milotic.asm"
 INCLUDE "data/pokemon/base_stats/phantump.asm"
 INCLUDE "data/pokemon/base_stats/trevenant.asm"
+INCLUDE "data/pokemon/base_stats/wyrdeer.asm"
 .IndirectEnd::

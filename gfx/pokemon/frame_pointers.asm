@@ -290,4 +290,5 @@ FramesPointers:
 	dba MiloticFrames
 	dba PhantumpFrames
 	dba TrevenantFrames
+	dba WyrdeerFrames
 	assert_table_length NUM_POKEMON

@@ -300,5 +300,6 @@ MonMenuIconPals:
 	icon_pals RED,    RED    ; Milotic
 	icon_pals BROWN,  BROWN  ; Phantump
 	icon_pals BROWN,  BROWN  ; Trevenant
+	icon_pals GRAY,   GRAY   ; Wyrdeer
 	
 	assert_table_length NUM_POKEMON

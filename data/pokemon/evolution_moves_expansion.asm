@@ -40,6 +40,7 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Milotic
 	dw NO_MOVE		 ; Phantump
 	dw NO_MOVE		 ; Trevenant
+	dw NO_MOVE		 ; Wyrdeer
 .IndirectEnd::
 
 ENDSECTION

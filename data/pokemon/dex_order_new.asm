@@ -292,4 +292,5 @@ NewPokedexOrder:
 	dw MILOTIC
 	dw PHANTUMP
 	dw TREVENANT
+	dw WYRDEER
 	assert_table_length NUM_POKEMON

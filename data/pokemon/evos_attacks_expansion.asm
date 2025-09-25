@@ -40,6 +40,7 @@ EvosAttacksPointers3::
 	dw MiloticEvosAttacks
 	dw PhantumpEvosAttacks
 	dw TrevenantEvosAttacks
+	dw WyrdeerEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -239,6 +240,11 @@ PhantumpEvosAttacks:
 TrevenantEvosAttacks:
 	db 0
 	dbw 1, SHADOW_CLAW
+	db 0
+
+WyrdeerEvosAttacks:
+	db 0
+	dbw 1, ZEN_HEADBUTT
 	db 0
 
 ENDSECTION

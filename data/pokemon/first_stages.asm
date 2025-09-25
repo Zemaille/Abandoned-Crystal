@@ -291,4 +291,5 @@ FirstEvoStages::
 	dw FEEBAS
 	dw PHANTUMP
 	dw PHANTUMP
+	dw STANTLER
 	assert_table_length NUM_POKEMON

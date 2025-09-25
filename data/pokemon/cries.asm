@@ -296,5 +296,6 @@ PokemonCries::
 	mon_cry CRY_BULBASAUR,    64,  256 ; Milotic
 	mon_cry CRY_PARAS,        32,  352 ; Phantump
 	mon_cry CRY_PARAS,        66,  383 ; Trevenant
+	mon_cry CRY_AIPOM,      -352,  384 ; Wyrdeer
 	
 	assert_table_length NUM_POKEMON
