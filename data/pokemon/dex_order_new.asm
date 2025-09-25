@@ -287,4 +287,5 @@ NewPokedexOrder:
 	dw DEWPIDER
 	dw ARAQUANID
 	dw CLODSIRE
+	dw SPIRITOMB
 	assert_table_length NUM_POKEMON

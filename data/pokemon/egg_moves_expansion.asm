@@ -35,6 +35,7 @@ EggMovePointers3:
 	dw NoEggMoves3      ;Dewpider
 	dw NoEggMoves3      ;Araquanid
 	dw NoEggMoves3      ;Clodsire
+	dw NoEggMoves3      ;Spiritomb
 .IndirectEnd::
 
 NoEggMoves3:

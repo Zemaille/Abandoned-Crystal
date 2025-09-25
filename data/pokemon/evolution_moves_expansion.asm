@@ -35,6 +35,7 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Dewpider
 	dw NO_MOVE		 ; Araquanid
 	dw NO_MOVE		 ; Clodsire
+	dw NO_MOVE		 ; Spiritomb
 .IndirectEnd::
 
 ENDSECTION

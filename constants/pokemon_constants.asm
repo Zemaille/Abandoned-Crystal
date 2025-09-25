@@ -307,6 +307,7 @@ DEF EXPANSION_POKEMON EQU const_value
 	const DEWPIDER
 	const ARAQUANID
 	const CLODSIRE
+	const SPIRITOMB
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

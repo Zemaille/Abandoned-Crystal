@@ -286,4 +286,5 @@ PokedexDataPointerTable:
 	dba DewpiderPokedexEntry
 	dba AraquanidPokedexEntry
 	dba ClodsirePokedexEntry
+	dba SpiritombPokedexEntry
 	assert_table_length NUM_POKEMON

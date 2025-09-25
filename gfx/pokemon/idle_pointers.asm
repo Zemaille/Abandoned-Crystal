@@ -285,4 +285,5 @@ AnimationIdlePointers:
 	dw DewpiderAnimationIdle
 	dw AraquanidAnimationIdle
 	dw ClodsireAnimationIdle
+	dw SpiritombAnimationIdle
 	assert_table_length NUM_POKEMON

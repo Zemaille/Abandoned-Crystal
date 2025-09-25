@@ -291,5 +291,6 @@ PokemonCries::
 	mon_cry CRY_SPINARAK,     17,  512 ; Dewpider
 	mon_cry CRY_SPINARAK,   -174,  482 ; Araquanid
 	mon_cry CRY_WOOPER,     -198,  320 ; Clodsire
+	mon_cry CRY_PIDGEY,      255,  383 ; Spiritomb
 	
 	assert_table_length NUM_POKEMON

@@ -285,4 +285,5 @@ FramesPointers:
 	dba DewpiderFrames
 	dba AraquanidFrames
 	dba ClodsireFrames
+	dba SpiritombFrames
 	assert_table_length NUM_POKEMON

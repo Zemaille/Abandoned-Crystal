@@ -33,4 +33,5 @@ INCLUDE "data/pokemon/base_stats/malamar.asm"
 INCLUDE "data/pokemon/base_stats/dewpider.asm"
 INCLUDE "data/pokemon/base_stats/araquanid.asm"
 INCLUDE "data/pokemon/base_stats/clodsire.asm"
+INCLUDE "data/pokemon/base_stats/spiritomb.asm"
 .IndirectEnd::

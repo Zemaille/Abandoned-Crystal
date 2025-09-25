@@ -586,5 +586,7 @@ PokemonPicPointers::
 	dba AraquanidBackpic
 	dba ClodsireFrontpic
 	dba ClodsireBackpic
+	dba SpiritombFrontpic
+	dba SpiritombBackpic
 	
 	assert_table_length NUM_POKEMON + 1

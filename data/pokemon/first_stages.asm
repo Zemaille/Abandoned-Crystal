@@ -286,4 +286,5 @@ FirstEvoStages::
 	dw DEWPIDER
 	dw DEWPIDER
 	dw WOOPER
+	dw SPIRITOMB
 	assert_table_length NUM_POKEMON
