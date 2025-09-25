@@ -319,5 +319,8 @@ MonMenuIconPals:
 	icon_pals PURPLE, PINK   ; Noivern
 	icon_pals BROWN,  GREEN  ; Kleavor
 	icon_pals PINK,   BLUE   ; Sylveon
+	icon_pals PURPLE, PINK   ; Goomy
+	icon_pals GRAY, PINK     ; Sliggoo
+	icon_pals GRAY, PINK     ; Goodra
 	
 	assert_table_length NUM_POKEMON

@@ -59,6 +59,9 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Noivern
 	dw NO_MOVE		 ; Kleavor
 	dw NO_MOVE		 ; Sylveon
+	dw NO_MOVE		 ; Goomy
+	dw NO_MOVE		 ; Sliggoo
+	dw NO_MOVE		 ; Goodra
 .IndirectEnd::
 
 ENDSECTION

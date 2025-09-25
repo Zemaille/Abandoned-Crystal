@@ -331,6 +331,9 @@ DEF EXPANSION_POKEMON EQU const_value
 	const NOIVERN
 	const KLEAVOR
 	const SYLVEON
+	const GOOMY
+	const SLIGGOO
+	const GOODRA
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

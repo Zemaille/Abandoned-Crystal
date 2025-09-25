@@ -59,6 +59,9 @@ EggMovePointers3:
 	dw NoEggMoves3      ;Noivern
 	dw NoEggMoves3      ;Kleavor
 	dw NoEggMoves3      ;Sylveon
+	dw NoEggMoves3      ;Goomy
+	dw NoEggMoves3      ;Sliggoo
+	dw NoEggMoves3      ;Goodra
 .IndirectEnd::
 
 NoEggMoves3:

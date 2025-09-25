@@ -93,6 +93,8 @@ AlphabeticalPokedexOrder:
 	dw GOLDEEN
 	dw GOLDUCK
 	dw GOLEM
+	dw GOODRA
+	dw GOOMY
 	dw GRANBULL
 	dw GRAVELER
 	dw GRIMER
@@ -240,6 +242,7 @@ AlphabeticalPokedexOrder:
 	dw SHUCKLE
 	dw SKARMORY
 	dw SKIPLOOM
+	dw SLIGGOO
 	dw SLOWBRO
 	dw SLOWBRO_G
 	dw SLOWKING

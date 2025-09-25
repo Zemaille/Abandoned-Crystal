@@ -311,4 +311,7 @@ NewPokedexOrder:
 	dw NOIVERN
 	dw KLEAVOR
 	dw SYLVEON
+	dw GOOMY
+	dw SLIGGOO
+	dw GOODRA
 	assert_table_length NUM_POKEMON

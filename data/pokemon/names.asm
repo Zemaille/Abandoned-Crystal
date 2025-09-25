@@ -313,4 +313,7 @@ PokemonNames::
 	db "Noivern@@@"
 	db "Kleavor@@@"
 	db "Sylveon@@@"
+	db "Goomy@@@@@"
+	db "Sliggoo@@@"
+	db "Goodra@@@@"
 	assert_table_length NUM_POKEMON

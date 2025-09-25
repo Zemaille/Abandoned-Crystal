@@ -309,4 +309,7 @@ FramesPointers:
 	dba NoivernFrames
 	dba KleavorFrames
 	dba SylveonFrames
+	dba GoomyFrames
+	dba SliggooFrames
+	dba GoodraFrames
 	assert_table_length NUM_POKEMON

@@ -315,5 +315,8 @@ PokemonCries::
 	mon_cry CRY_SQUIRTLE,    -16,  320 ; Noivern
 	mon_cry CRY_CATERPIE,      0,  256 ; Kleavor
 	mon_cry CRY_AIPOM,       162,  320 ; Sylveon
+	mon_cry CRY_BULBASAUR,    96,  192 ; Goomy
+	mon_cry CRY_BULBASAUR,    64,  256 ; Sliggoo
+	mon_cry CRY_BULBASAUR,    60,  320 ; Goodra
 	
 	assert_table_length NUM_POKEMON

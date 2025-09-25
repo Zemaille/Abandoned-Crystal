@@ -310,4 +310,7 @@ FirstEvoStages::
 	dw NOIBAT
 	dw SCYTHER
 	dw EEVEE
+	dw GOOMY
+	dw GOOMY
+	dw GOOMY
 	assert_table_length NUM_POKEMON

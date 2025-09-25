@@ -309,4 +309,7 @@ AnimationIdlePointers:
 	dw NoivernAnimationIdle
 	dw KleavorAnimationIdle
 	dw SylveonAnimationIdle
+	dw GoomyAnimationIdle
+	dw SliggooAnimationIdle
+	dw GoodraAnimationIdle
 	assert_table_length NUM_POKEMON

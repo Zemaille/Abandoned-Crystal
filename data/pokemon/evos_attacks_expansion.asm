@@ -59,6 +59,9 @@ EvosAttacksPointers3::
 	dw NoivernEvosAttacks
 	dw KleavorEvosAttacks
 	dw SylveonEvosAttacks
+	dw GoomyEvosAttacks
+	dw SliggoEvosAttacks
+	dw GoodraEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -353,6 +356,21 @@ KleavorEvosAttacks:
 SylveonEvosAttacks:
 	db 0
 	dbw 1, MOONBLAST
+	db 0
+
+GoomyEvosAttacks:
+	db 0
+	dbw 1, POUND
+	db 0
+
+SliggoEvosAttacks:
+	db 0
+	dbw 1, DRAGON_PULSE
+	db 0
+	
+GoodraEvosAttacks:
+	db 0
+	dbw 1, DRAGON_PULSE
 	db 0
 
 ENDSECTION
