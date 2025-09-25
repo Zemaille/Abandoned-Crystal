@@ -291,4 +291,5 @@ BitmasksPointers:
 	dw PhantumpBitmasks
 	dw TrevenantBitmasks
 	dw WyrdeerBitmasks
+	dw AnnihilapeBitmasks
 	assert_table_length NUM_POKEMON

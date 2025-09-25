@@ -8,6 +8,7 @@ AlphabeticalPokedexOrder:
 	dw ALAKAZAM
 	dw ALTARIA
 	dw AMPHAROS
+	dw ANNIHILAPE
 	dw ARAQUANID
 	dw ARBOK
 	dw ARCANINE

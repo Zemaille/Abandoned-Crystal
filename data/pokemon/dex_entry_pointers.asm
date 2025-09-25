@@ -292,4 +292,5 @@ PokedexDataPointerTable:
 	dba PhantumpPokedexEntry
 	dba TrevenantPokedexEntry
 	dba WyrdeerPokedexEntry
+	dba AnnihilapePokedexEntry
 	assert_table_length NUM_POKEMON

@@ -41,6 +41,7 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Phantump
 	dw NO_MOVE		 ; Trevenant
 	dw NO_MOVE		 ; Wyrdeer
+	dw NO_MOVE		 ; Annihilape
 .IndirectEnd::
 
 ENDSECTION

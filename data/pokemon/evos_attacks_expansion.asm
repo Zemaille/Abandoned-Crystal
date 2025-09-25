@@ -41,6 +41,7 @@ EvosAttacksPointers3::
 	dw PhantumpEvosAttacks
 	dw TrevenantEvosAttacks
 	dw WyrdeerEvosAttacks
+	dw AnnihilapeEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -245,6 +246,11 @@ TrevenantEvosAttacks:
 WyrdeerEvosAttacks:
 	db 0
 	dbw 1, ZEN_HEADBUTT
+	db 0
+
+AnnihilapeEvosAttacks:
+	db 0
+	dbw 1, CROSS_CHOP
 	db 0
 
 ENDSECTION

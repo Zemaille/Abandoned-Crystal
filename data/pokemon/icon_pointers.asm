@@ -296,4 +296,5 @@ IconPointers:
 	dw PhantumpIcon
 	dw TrevenantIcon
 	dw WyrdeerIcon
+	dw AnnihilapeIcon
 	assert_table_length NUM_POKEMON + 1

@@ -295,4 +295,5 @@ PokemonNames::
 	db "Phantump@@"
 	db "Trevenant@"
 	db "Wyrdeer@@@"
+	db "Annihilape"
 	assert_table_length NUM_POKEMON

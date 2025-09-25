@@ -873,4 +873,6 @@ TrevenantFrontpic:   INCBIN "gfx/pokemon/trevenant/front.animated.2bpp.lz"
 TrevenantBackpic:    INCBIN "gfx/pokemon/trevenant/back.2bpp.lz"
 WyrdeerFrontpic:     INCBIN "gfx/pokemon/wyrdeer/front.animated.2bpp.lz"
 WyrdeerBackpic:      INCBIN "gfx/pokemon/wyrdeer/back.2bpp.lz"
+AnnihilapeFrontpic:  INCBIN "gfx/pokemon/annihilape/front.animated.2bpp.lz"
+AnnihilapeBackpic:   INCBIN "gfx/pokemon/annihilape/back.2bpp.lz"
 

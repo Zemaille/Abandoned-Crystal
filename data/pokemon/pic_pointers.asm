@@ -598,5 +598,7 @@ PokemonPicPointers::
 	dba TrevenantBackpic
 	dba WyrdeerFrontpic
 	dba WyrdeerBackpic
+	dba AnnihilapeFrontpic
+	dba AnnihilapeBackpic
 	
 	assert_table_length NUM_POKEMON + 1

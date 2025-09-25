@@ -291,4 +291,5 @@ AnimationIdlePointers:
 	dw PhantumpAnimationIdle
 	dw TrevenantAnimationIdle
 	dw WyrdeerAnimationIdle
+	dw AnnihilapeAnimationIdle
 	assert_table_length NUM_POKEMON

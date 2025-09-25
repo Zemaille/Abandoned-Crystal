@@ -293,4 +293,5 @@ NewPokedexOrder:
 	dw PHANTUMP
 	dw TREVENANT
 	dw WYRDEER
+	dw ANNIHILAPE
 	assert_table_length NUM_POKEMON

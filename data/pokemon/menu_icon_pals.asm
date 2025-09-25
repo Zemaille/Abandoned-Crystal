@@ -301,5 +301,6 @@ MonMenuIconPals:
 	icon_pals BROWN,  BROWN  ; Phantump
 	icon_pals BROWN,  BROWN  ; Trevenant
 	icon_pals GRAY,   GRAY   ; Wyrdeer
+	icon_pals GRAY,   GRAY   ; Annihilape
 	
 	assert_table_length NUM_POKEMON

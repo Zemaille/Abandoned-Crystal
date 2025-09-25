@@ -41,6 +41,7 @@ EggMovePointers3:
 	dw NoEggMoves3      ;Phantump
 	dw NoEggMoves3      ;Trevenant
 	dw NoEggMoves3      ;Wyrdeer
+	dw NoEggMoves3      ;Annihilape
 .IndirectEnd::
 
 NoEggMoves3:

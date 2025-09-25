@@ -292,4 +292,5 @@ FirstEvoStages::
 	dw PHANTUMP
 	dw PHANTUMP
 	dw STANTLER
+	dw MANKEY
 	assert_table_length NUM_POKEMON
