@@ -302,4 +302,6 @@ FirstEvoStages::
 	dw SNEASLER
 	dw CUBONE
 	dw PIKACHU
+	dw QWILFISH_H
+	dw OVERQWIL
 	assert_table_length NUM_POKEMON

@@ -218,14 +218,14 @@ INCLUDE "engine/battle/sliding_intro.asm"
 INCLUDE "engine/battle/check_battle_scene.asm"
 INCLUDE "engine/movie/gbc_only.asm"
 INCLUDE "engine/events/poke_seer.asm"
+INCLUDE "engine/pokemon/types.asm"
+INCLUDE "engine/pokemon/categories.asm"
 
 
 SECTION "bank14", ROMX
 
 INCLUDE "engine/pokemon/party_menu.asm"
 INCLUDE "engine/pokemon/tempmon.asm"
-INCLUDE "engine/pokemon/types.asm"
-INCLUDE "engine/pokemon/categories.asm"
 INCLUDE "engine/pokemon/mon_stats.asm"
 INCLUDE "engine/pokemon/experience.asm"
 INCLUDE "engine/pokemon/switchpartymons.asm"

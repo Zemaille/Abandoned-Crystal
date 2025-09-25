@@ -301,4 +301,6 @@ AnimationPointers:
 	dw SneaslerAnimation
 	dw MarowakAAnimation
 	dw RaichuAAnimation
+	dw QwilfishHAnimation
+	dw OverqwilAnimation
 	assert_table_length NUM_POKEMON

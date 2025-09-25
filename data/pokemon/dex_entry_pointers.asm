@@ -302,4 +302,6 @@ PokedexDataPointerTable:
 	dba SneaslerPokedexEntry
 	dba MarowakAPokedexEntry
 	dba RaichuAPokedexEntry
+	dba QwilfishHPokedexEntry
+	dba OverqwilPokedexEntry
 	assert_table_length NUM_POKEMON

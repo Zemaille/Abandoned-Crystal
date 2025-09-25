@@ -51,6 +51,8 @@ EvosAttacksPointers3::
 	dw SneaslerEvosAttacks
 	dw MarowakAEvosAttacks
 	dw RaichuAEvosAttacks
+	dw QwilfishHEvosAttacks
+	dw OverqwilEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -305,6 +307,16 @@ MarowakAEvosAttacks:
 RaichuAEvosAttacks:
 	db 0
 	dbw 1, PSYCHIC_M
+	db 0
+
+QwilfishHEvosAttacks:
+	db 0
+	dbw 1, TACKLE
+	db 0
+
+OverqwilEvosAttacks:
+	db 0
+	dbw 1, NIGHT_SLASH
 	db 0
 
 ENDSECTION

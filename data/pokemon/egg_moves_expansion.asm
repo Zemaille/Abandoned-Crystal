@@ -51,6 +51,8 @@ EggMovePointers3:
 	dw NoEggMoves3      ;Sneasler
 	dw NoEggMoves3      ;Marowak-A
 	dw NoEggMoves3      ;Raichu-A
+	dw NoEggMoves3      ;Qwilfish-H
+	dw NoEggMoves3      ;Overqwil
 .IndirectEnd::
 
 NoEggMoves3:

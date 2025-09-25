@@ -893,4 +893,12 @@ MarowakAFrontpic:    INCBIN "gfx/pokemon/marowak_a/front.animated.2bpp.lz"
 MarowakABackpic:     INCBIN "gfx/pokemon/marowak_a/back.2bpp.lz"
 RaichuAFrontpic:     INCBIN "gfx/pokemon/raichu_a/front.animated.2bpp.lz"
 RaichuABackpic:      INCBIN "gfx/pokemon/raichu_a/back.2bpp.lz"
+QwilfishHFrontpic:   INCBIN "gfx/pokemon/qwilfish_h/front.animated.2bpp.lz"
+QwilfishHBackpic:    INCBIN "gfx/pokemon/qwilfish_h/back.2bpp.lz"
+
+
+SECTION "Pics 25", ROMX
+
+OverqwilFrontpic:    INCBIN "gfx/pokemon/overqwil/front.animated.2bpp.lz"
+OverqwilBackpic:     INCBIN "gfx/pokemon/overqwil/back.2bpp.lz"
 

@@ -303,4 +303,6 @@ NewPokedexOrder:
 	dw SNEASLER
 	dw MAROWAK_A
 	dw RAICHU_A
+	dw QWILFISH_H
+	dw OVERQWIL
 	assert_table_length NUM_POKEMON

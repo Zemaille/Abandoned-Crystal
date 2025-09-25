@@ -184,6 +184,7 @@ AlphabeticalPokedexOrder:
 	dw OMANYTE
 	dw OMASTAR
 	dw ONIX
+	dw OVERQWIL
 	dw PARAS
 	dw PARASECT
 	dw PERSIAN
@@ -212,6 +213,7 @@ AlphabeticalPokedexOrder:
 	dw QUAGSIRE
 	dw QUILAVA
 	dw QWILFISH
+	dw QWILFISH_H
 	dw RAICHU
 	dw RAICHU_A
 	dw RAIKOU
