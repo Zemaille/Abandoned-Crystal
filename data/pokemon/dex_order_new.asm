@@ -320,4 +320,6 @@ NewPokedexOrder:
 	dw ARTICUNO_G
 	dw ZAPDOS_G
 	dw MOLTRES_G
+	dw BASCULIN
+	dw BASCULEGION
 	assert_table_length NUM_POKEMON

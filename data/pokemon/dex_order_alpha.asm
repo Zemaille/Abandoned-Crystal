@@ -17,6 +17,8 @@ AlphabeticalPokedexOrder:
 	dw ARTICUNO
 	dw ARTICUNO_G
 	dw AZUMARILL
+	dw BASCULEGION
+	dw BASCULIN
 	dw BAYLEEF
 	dw BEEDRILL
 	dw BELLOSSOM

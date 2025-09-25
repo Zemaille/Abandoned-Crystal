@@ -322,4 +322,6 @@ PokemonNames::
 	db "Articuno@@"
 	db "Zapdos@@@@"
 	db "Moltres@@@"
+	db "Basculin@@"
+	db "Basclegion"
 	assert_table_length NUM_POKEMON

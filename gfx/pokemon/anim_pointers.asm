@@ -318,4 +318,6 @@ AnimationPointers:
 	dw ArticunoGAnimation
 	dw ZapdosGAnimation
 	dw MoltresGAnimation
+	dw BasculinAnimation
+	dw BasculegionAnimation
 	assert_table_length NUM_POKEMON

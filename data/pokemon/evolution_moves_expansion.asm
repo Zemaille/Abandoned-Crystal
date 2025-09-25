@@ -68,6 +68,8 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Articuno-G
 	dw NO_MOVE		 ; Zapdos-G
 	dw NO_MOVE		 ; Moltres-G
+	dw NO_MOVE		 ; Basculin
+	dw NO_MOVE		 ; Basculegion
 .IndirectEnd::
 
 ENDSECTION

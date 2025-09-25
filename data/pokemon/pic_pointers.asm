@@ -652,5 +652,9 @@ PokemonPicPointers::
 	dba ZapdosGBackpic
 	dba MoltresGFrontpic
 	dba MoltresGBackpic
+	dba BasculinFrontpic
+	dba BasculinBackpic
+	dba BasculegionFrontpic
+	dba BasculegionBackpic
 	
 	assert_table_length NUM_POKEMON + 1

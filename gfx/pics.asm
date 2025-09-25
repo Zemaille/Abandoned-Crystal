@@ -935,5 +935,9 @@ ZapdosGFrontpic:     INCBIN "gfx/pokemon/zapdos_g/front.animated.2bpp.lz"
 ZapdosGBackpic:      INCBIN "gfx/pokemon/zapdos_g/back.2bpp.lz"
 MoltresGFrontpic:    INCBIN "gfx/pokemon/moltres_g/front.animated.2bpp.lz"
 MoltresGBackpic:     INCBIN "gfx/pokemon/moltres_g/back.2bpp.lz"
+BasculinFrontpic:    INCBIN "gfx/pokemon/basculin/front.animated.2bpp.lz"
+BasculinBackpic:     INCBIN "gfx/pokemon/basculin/back.2bpp.lz"
+BasculegionFrontpic: INCBIN "gfx/pokemon/basculegion/front.animated.2bpp.lz"
+BasculegionBackpic:  INCBIN "gfx/pokemon/basculegion/back.2bpp.lz"
 
 

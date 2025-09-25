@@ -323,4 +323,6 @@ IconPointers:
 	dw ArticunoGIcon
 	dw ZapdosGIcon
 	dw MoltresGIcon
+	dw BasculinIcon
+	dw BasculegionIcon
 	assert_table_length NUM_POKEMON + 1

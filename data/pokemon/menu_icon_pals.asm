@@ -328,5 +328,7 @@ MonMenuIconPals:
 	icon_pals PURPLE, BLUE   ; Articuno-G
 	icon_pals BROWN,  BROWN  ; Zapdos-G
 	icon_pals RED,    RED    ; Moltres-G
+	icon_pals GREEN,  GREEN  ; Basculin
+	icon_pals GREEN,  GREEN  ; Basculin
 	
 	assert_table_length NUM_POKEMON

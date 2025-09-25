@@ -324,5 +324,7 @@ PokemonCries::
 	mon_cry CRY_RAICHU,      128,  192 ; Articuno-G
 	mon_cry CRY_FEAROW,      255,  256 ; Zapdos-G
 	mon_cry CRY_RAICHU,      248,  192 ; Moltres-G
+	mon_cry CRY_EKANS,       128,  128 ; Basculin
+	mon_cry CRY_EKANS,         0,  256 ; Basculegion
 	
 	assert_table_length NUM_POKEMON

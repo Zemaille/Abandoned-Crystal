@@ -319,5 +319,7 @@ INCBIN "gfx/footprints/dragapult.1bpp"
 INCBIN "gfx/footprints/articuno_g.1bpp"
 INCBIN "gfx/footprints/zapdos_g.1bpp"
 INCBIN "gfx/footprints/moltres_g.1bpp"
+INCBIN "gfx/footprints/basculin.1bpp"
+INCBIN "gfx/footprints/basculegion.1bpp"
 
 	assert_table_length NUM_POKEMON

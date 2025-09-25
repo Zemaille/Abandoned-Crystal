@@ -319,4 +319,6 @@ PokedexDataPointerTable:
 	dba ArticunoGPokedexEntry
 	dba ZapdosGPokedexEntry
 	dba MoltresGPokedexEntry
+	dba BasculinPokedexEntry
+	dba BasculegionPokedexEntry
 	assert_table_length NUM_POKEMON

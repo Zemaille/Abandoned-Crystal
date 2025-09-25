@@ -68,6 +68,8 @@ EvosAttacksPointers3::
 	dw ArticunoGEvosAttacks
 	dw ZapdosGEvosAttacks
 	dw MoltresGEvosAttacks
+	dw BasculinEvosAttacks
+	dw BasculegionEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -408,5 +410,15 @@ MoltresGEvosAttacks:
 	db 0
 	dbw 1, DARK_PULSE
 	db 0
+
+BasculinEvosAttacks:
+	db 0
+	dbw 1, BITE
+	db 0
 	
+BasculegionEvosAttacks:
+	db 0
+	dbw 1, WATERFALL
+	db 0
+
 ENDSECTION

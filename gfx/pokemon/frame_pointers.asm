@@ -318,4 +318,6 @@ FramesPointers:
 	dba ArticunoGFrames
 	dba ZapdosGFrames
 	dba MoltresGFrames
+	dba BasculinFrames
+	dba BasculegionFrames
 	assert_table_length NUM_POKEMON

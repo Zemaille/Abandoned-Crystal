@@ -319,4 +319,6 @@ FirstEvoStages::
 	dw ARTICUNO_G
 	dw ZAPDOS_G
 	dw MOLTRES_G
+	dw BASCULIN
+	dw BASCULIN
 	assert_table_length NUM_POKEMON
