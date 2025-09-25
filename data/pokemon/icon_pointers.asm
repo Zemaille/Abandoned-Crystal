@@ -299,4 +299,7 @@ IconPointers:
 	dw AnnihilapeIcon
 	dw GrowlitheHIcon
 	dw ArcanineHIcon
+	dw FennekinIcon
+	dw BraixenIcon
+	dw DelphoxIcon
 	assert_table_length NUM_POKEMON + 1

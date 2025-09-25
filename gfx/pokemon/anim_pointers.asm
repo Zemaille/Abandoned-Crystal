@@ -294,4 +294,7 @@ AnimationPointers:
 	dw AnnihilapeAnimation
 	dw GrowlitheHAnimation
 	dw ArcanineHAnimation
+	dw FennekinAnimation
+	dw BraixenAnimation
+	dw DelphoxAnimation
 	assert_table_length NUM_POKEMON

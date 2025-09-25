@@ -604,5 +604,11 @@ PokemonPicPointers::
 	dba GrowlitheHBackpic
 	dba ArcanineHFrontpic
 	dba ArcanineHBackpic
+	dba FennekinFrontpic
+	dba FennekinBackpic
+	dba BraixenFrontpic
+	dba BraixenBackpic
+	dba DelphoxFrontpic
+	dba DelphoxBackpic
 	
 	assert_table_length NUM_POKEMON + 1

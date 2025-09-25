@@ -294,4 +294,7 @@ FramesPointers:
 	dba AnnihilapeFrames
 	dba GrowlitheHFrames
 	dba ArcanineHFrames
+	dba FennekinFrames
+	dba BraixenFrames
+	dba DelphoxFrames
 	assert_table_length NUM_POKEMON

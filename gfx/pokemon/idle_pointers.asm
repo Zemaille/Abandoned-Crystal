@@ -294,4 +294,7 @@ AnimationIdlePointers:
 	dw AnnihilapeAnimationIdle
 	dw GrowlitheHAnimationIdle
 	dw ArcanineHAnimationIdle
+	dw FennekinAnimationIdle
+	dw BraixenAnimationIdle
+	dw DelphoxAnimationIdle
 	assert_table_length NUM_POKEMON

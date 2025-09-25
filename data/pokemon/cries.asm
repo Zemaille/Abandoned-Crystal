@@ -299,6 +299,9 @@ PokemonCries::
 	mon_cry CRY_AIPOM,      -352,  384 ; Wyrdeer
 	mon_cry CRY_NIDOQUEEN,   175,  192 ; Annihilape
 	mon_cry CRY_GROWLITHE,    32,  192 ; Growlithe_H
-	mon_cry CRY_WEEDLE,        0,  256 ; ARCANINE
+	mon_cry CRY_WEEDLE,        0,  256 ; Arcanine-H
+	mon_cry CRY_VULPIX,       79,  144 ; VULPIX
+	mon_cry CRY_VULPIX,      136,  224 ; NINETALES
+	mon_cry CRY_VULPIX,      136,  224 ; NINETALES
 	
 	assert_table_length NUM_POKEMON

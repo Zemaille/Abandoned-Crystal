@@ -304,5 +304,8 @@ MonMenuIconPals:
 	icon_pals GRAY,   GRAY   ; Annihilape
 	icon_pals RED,    RED    ; Growlithe-H
 	icon_pals RED,    RED    ; Arcanine-H
+	icon_pals RED,    PURPLE ; Fennekin
+	icon_pals RED,    PURPLE ; Braixen
+	icon_pals RED,    PURPLE ; Delphox
 	
 	assert_table_length NUM_POKEMON

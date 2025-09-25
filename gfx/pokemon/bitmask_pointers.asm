@@ -294,4 +294,7 @@ BitmasksPointers:
 	dw AnnihilapeBitmasks
 	dw GrowlitheHBitmasks
 	dw ArcanineHBitmasks
+	dw FennekinBitmasks
+	dw BraixenBitmasks
+	dw DelphoxBitmasks
 	assert_table_length NUM_POKEMON

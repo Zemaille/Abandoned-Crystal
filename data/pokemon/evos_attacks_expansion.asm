@@ -44,6 +44,9 @@ EvosAttacksPointers3::
 	dw AnnihilapeEvosAttacks
 	dw GrowlitheHEvosAttacks
 	dw ArcanineHEvosAttacks
+	dw FennekinEvosAttacks
+	dw BraixenEvosAttacks
+	dw DelphoxEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -263,6 +266,21 @@ GrowlitheHEvosAttacks:
 ArcanineHEvosAttacks:
 	db 0
 	dbw 1, FLARE_BLITZ
+	db 0
+
+FennekinEvosAttacks:
+	db 0
+	dbw 1, TACKLE
+	db 0
+
+BraixenEvosAttacks:
+	db 0
+	dbw 1, EMBER
+	db 0
+
+DelphoxEvosAttacks:
+	db 0
+	dbw 1, MYSTIC_FIRE
 	db 0
 
 ENDSECTION

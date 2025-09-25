@@ -296,4 +296,7 @@ NewPokedexOrder:
 	dw ANNIHILAPE
 	dw GROWLITHE_H
 	dw ARCANINE_H
+	dw FENNEKIN
+	dw BRAIXEN
+	dw DELPHOX
 	assert_table_length NUM_POKEMON

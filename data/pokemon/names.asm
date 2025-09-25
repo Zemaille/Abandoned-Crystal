@@ -298,4 +298,7 @@ PokemonNames::
 	db "Annihilape"
 	db "Growlithe@"
 	db "Arcanine@@"
+	db "Fennekin@@"
+	db "Braixen@@@"
+	db "Delphox@@@"
 	assert_table_length NUM_POKEMON

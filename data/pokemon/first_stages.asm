@@ -294,5 +294,8 @@ FirstEvoStages::
 	dw STANTLER
 	dw MANKEY
 	dw GROWLITHE_H
-	dw ARCANINE_H
+	dw GROWLITHE_H
+	dw FENNEKIN
+	dw FENNEKIN
+	dw FENNEKIN
 	assert_table_length NUM_POKEMON

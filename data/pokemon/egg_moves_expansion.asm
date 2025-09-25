@@ -44,6 +44,9 @@ EggMovePointers3:
 	dw NoEggMoves3      ;Annihilape
 	dw NoEggMoves3      ;Growlithe-H
 	dw NoEggMoves3      ;Arcanine-H
+	dw NoEggMoves3      ;Fennekin
+	dw NoEggMoves3      ;Braixen
+	dw NoEggMoves3      ;Delphox
 .IndirectEnd::
 
 NoEggMoves3:

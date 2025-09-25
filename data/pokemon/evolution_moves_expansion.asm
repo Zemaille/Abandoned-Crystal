@@ -44,6 +44,9 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Annihilape
 	dw NO_MOVE		 ; Growlithe-H
 	dw NO_MOVE		 ; Arcanine-H
+	dw NO_MOVE		 ; Fennekin
+	dw NO_MOVE		 ; Braixen
+	dw NO_MOVE		 ; Delphox
 .IndirectEnd::
 
 ENDSECTION
