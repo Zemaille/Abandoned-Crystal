@@ -315,5 +315,7 @@ MonMenuIconPals:
 	icon_pals PURPLE, PINK   ; Qwilfish-H
 	icon_pals RED,    PURPLE ; Zorua
 	icon_pals RED,    PURPLE ; Zoroark
+	icon_pals PURPLE, PINK   ; Noibat
+	icon_pals PURPLE, PINK   ; Noivern
 	
 	assert_table_length NUM_POKEMON

@@ -643,5 +643,9 @@ INCBIN "gfx/pokemon/zorua/normal.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/zorua/shiny.pal"
 INCBIN "gfx/pokemon/zoroark/normal.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/zoroark/shiny.pal"
+INCBIN "gfx/pokemon/noibat/normal.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/noibat/shiny.pal"
+INCBIN "gfx/pokemon/noivern/normal.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/noivern/shiny.pal"
 
 	assert_table_length NUM_POKEMON + 1

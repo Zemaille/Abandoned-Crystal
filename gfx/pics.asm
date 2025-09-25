@@ -905,4 +905,8 @@ ZoruaFrontpic:       INCBIN "gfx/pokemon/zorua/front.animated.2bpp.lz"
 ZoruaBackpic:        INCBIN "gfx/pokemon/zorua/back.2bpp.lz"
 ZoroarkFrontpic:     INCBIN "gfx/pokemon/zoroark/front.animated.2bpp.lz"
 ZoroarkBackpic:      INCBIN "gfx/pokemon/zoroark/back.2bpp.lz"
+NoibatFrontpic:      INCBIN "gfx/pokemon/noibat/front.animated.2bpp.lz"
+NoibatBackpic:       INCBIN "gfx/pokemon/noibat/back.2bpp.lz"
+NoivernFrontpic:     INCBIN "gfx/pokemon/noivern/front.animated.2bpp.lz"
+NoivernBackpic:      INCBIN "gfx/pokemon/noivern/back.2bpp.lz"
 

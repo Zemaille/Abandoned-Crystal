@@ -307,4 +307,6 @@ NewPokedexOrder:
 	dw OVERQWIL
 	dw ZORUA
 	dw ZOROARK
+	dw NOIBAT
+	dw NOIVERN
 	assert_table_length NUM_POKEMON

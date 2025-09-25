@@ -55,6 +55,8 @@ EggMovePointers3:
 	dw NoEggMoves3      ;Overqwil
 	dw NoEggMoves3      ;Zorua
 	dw NoEggMoves3      ;Zoroark
+	dw NoEggMoves3      ;Noibat
+	dw NoEggMoves3      ;Noivern
 .IndirectEnd::
 
 NoEggMoves3:

@@ -306,4 +306,6 @@ FirstEvoStages::
 	dw QWILFISH_H
 	dw ZORUA
 	dw ZORUA
+	dw NOIBAT
+	dw NOIBAT
 	assert_table_length NUM_POKEMON

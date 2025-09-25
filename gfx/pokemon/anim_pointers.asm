@@ -305,4 +305,6 @@ AnimationPointers:
 	dw OverqwilAnimation
 	dw ZoruaAnimation
 	dw ZoroarkAnimation
+	dw NoibatAnimation
+	dw NoivernAnimation
 	assert_table_length NUM_POKEMON

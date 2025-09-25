@@ -305,4 +305,6 @@ AnimationIdlePointers:
 	dw OverqwilAnimationIdle
 	dw ZoruaAnimationIdle
 	dw ZoroarkAnimationIdle
+	dw NoibatAnimationIdle
+	dw NoivernAnimationIdle
 	assert_table_length NUM_POKEMON

@@ -55,6 +55,8 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Overqwil
 	dw NO_MOVE		 ; Zorua
 	dw NO_MOVE		 ; Zoroark
+	dw NO_MOVE		 ; Noibat
+	dw NO_MOVE		 ; Noivern
 .IndirectEnd::
 
 ENDSECTION

@@ -626,5 +626,9 @@ PokemonPicPointers::
 	dba ZoruaBackpic
 	dba ZoroarkFrontpic
 	dba ZoroarkBackpic
+	dba NoibatFrontpic
+	dba NoibatBackpic
+	dba NoivernFrontpic
+	dba NoivernBackpic
 	
 	assert_table_length NUM_POKEMON + 1

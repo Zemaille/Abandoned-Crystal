@@ -305,4 +305,6 @@ FramesPointers:
 	dba OverqwilFrames
 	dba ZoruaFrames
 	dba ZoroarkFrames
+	dba NoibatFrames
+	dba NoivernFrames
 	assert_table_length NUM_POKEMON

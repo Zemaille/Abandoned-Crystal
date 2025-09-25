@@ -55,6 +55,8 @@ EvosAttacksPointers3::
 	dw OverqwilEvosAttacks
 	dw ZoruaEvosAttacks
 	dw ZoroarkEvosAttacks
+	dw NoibatEvosAttacks
+	dw NoivernEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -329,6 +331,16 @@ ZoruaEvosAttacks:
 ZoroarkEvosAttacks:
 	db 0
 	dbw 1, SHADOW_BALL
+	db 0
+
+NoibatEvosAttacks:
+	db 0
+	dbw 1, GUST
+	db 0
+
+NoivernEvosAttacks:
+	db 0
+	dbw 1, AIR_CUTTER
 	db 0
 
 ENDSECTION

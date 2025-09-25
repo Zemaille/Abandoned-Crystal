@@ -310,6 +310,8 @@ PokemonCries::
 	mon_cry CRY_SLOWKING,    352,  224 ; Qwilfish-H
 	mon_cry CRY_SLOWKING,    352,  224 ; Overqwil
 	mon_cry CRY_CLEFAIRY,    119,  144 ; Zorua
-	mon_cry CRY_CLEFAIRY,    153,  383 ; PERSIAN
+	mon_cry CRY_CLEFAIRY,    153,  383 ; Zoroark
+	mon_cry CRY_SQUIRTLE,    250,  256 ; Noibat
+	mon_cry CRY_SQUIRTLE,    -16,  320 ; Noivern
 	
 	assert_table_length NUM_POKEMON

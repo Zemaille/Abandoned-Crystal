@@ -53,4 +53,6 @@ INCLUDE "data/pokemon/base_stats/qwilfish_h.asm"
 INCLUDE "data/pokemon/base_stats/overqwil.asm"
 INCLUDE "data/pokemon/base_stats/zorua.asm"
 INCLUDE "data/pokemon/base_stats/zoroark.asm"
+INCLUDE "data/pokemon/base_stats/noibat.asm"
+INCLUDE "data/pokemon/base_stats/noivern.asm"
 .IndirectEnd::

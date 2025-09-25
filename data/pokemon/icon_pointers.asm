@@ -310,4 +310,6 @@ IconPointers:
 	dw OverqwilIcon
 	dw ZoruaIcon
 	dw ZoroarkIcon
+	dw NoibatIcon
+	dw NoivernIcon
 	assert_table_length NUM_POKEMON + 1
