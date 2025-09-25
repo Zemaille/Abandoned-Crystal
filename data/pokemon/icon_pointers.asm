@@ -302,4 +302,6 @@ IconPointers:
 	dw FennekinIcon
 	dw BraixenIcon
 	dw DelphoxIcon
+	dw SneaselHIcon
+	dw SneaslerIcon
 	assert_table_length NUM_POKEMON + 1

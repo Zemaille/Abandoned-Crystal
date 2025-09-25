@@ -47,6 +47,8 @@ EvosAttacksPointers3::
 	dw FennekinEvosAttacks
 	dw BraixenEvosAttacks
 	dw DelphoxEvosAttacks
+	dw SneaselHEvosAttacks
+	dw SneaslerEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -281,6 +283,16 @@ BraixenEvosAttacks:
 DelphoxEvosAttacks:
 	db 0
 	dbw 1, MYSTIC_FIRE
+	db 0
+
+SneaselHEvosAttacks:
+	db 0
+	dbw 1, SCRATCH
+	db 0
+
+SneaslerEvosAttacks:
+	db 0
+	dbw 1, CLOSE_COMBAT
 	db 0
 
 ENDSECTION

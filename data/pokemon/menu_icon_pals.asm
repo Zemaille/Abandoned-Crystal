@@ -307,5 +307,7 @@ MonMenuIconPals:
 	icon_pals RED,    PURPLE ; Fennekin
 	icon_pals RED,    PURPLE ; Braixen
 	icon_pals RED,    PURPLE ; Delphox
+	icon_pals PURPLE, RED    ; Sneasel-H
+	icon_pals PURPLE, RED    ; Sneasler
 	
 	assert_table_length NUM_POKEMON

@@ -298,4 +298,6 @@ FirstEvoStages::
 	dw FENNEKIN
 	dw FENNEKIN
 	dw FENNEKIN
+	dw SNEASEL_H
+	dw SNEASLER
 	assert_table_length NUM_POKEMON

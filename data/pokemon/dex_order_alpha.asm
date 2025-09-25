@@ -243,6 +243,8 @@ AlphabeticalPokedexOrder:
 	dw SMEARGLE
 	dw SMOOCHUM
 	dw SNEASEL
+	dw SNEASEL_H
+	dw SNEASLER
 	dw SNORLAX
 	dw SNUBBULL
 	dw SPEAROW

@@ -47,6 +47,8 @@ EggMovePointers3:
 	dw NoEggMoves3      ;Fennekin
 	dw NoEggMoves3      ;Braixen
 	dw NoEggMoves3      ;Delphox
+	dw NoEggMoves3      ;Sneasel-H
+	dw NoEggMoves3      ;Sneasler
 .IndirectEnd::
 
 NoEggMoves3:

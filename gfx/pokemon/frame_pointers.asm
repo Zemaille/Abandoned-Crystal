@@ -297,4 +297,6 @@ FramesPointers:
 	dba FennekinFrames
 	dba BraixenFrames
 	dba DelphoxFrames
+	dba SneaselHFrames
+	dba SneaslerFrames
 	assert_table_length NUM_POKEMON

@@ -299,4 +299,6 @@ NewPokedexOrder:
 	dw FENNEKIN
 	dw BRAIXEN
 	dw DELPHOX
+	dw SNEASEL_H
+	dw SNEASLER
 	assert_table_length NUM_POKEMON

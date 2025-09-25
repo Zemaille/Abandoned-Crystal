@@ -47,6 +47,8 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Fennekin
 	dw NO_MOVE		 ; Braixen
 	dw NO_MOVE		 ; Delphox
+	dw NO_MOVE		 ; Sneasel-H
+	dw NO_MOVE		 ; Sneasler
 .IndirectEnd::
 
 ENDSECTION

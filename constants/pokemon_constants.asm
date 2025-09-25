@@ -319,6 +319,8 @@ DEF EXPANSION_POKEMON EQU const_value
 	const FENNEKIN
 	const BRAIXEN
 	const DELPHOX
+	const SNEASEL_H
+	const SNEASLER
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

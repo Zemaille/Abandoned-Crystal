@@ -610,5 +610,9 @@ PokemonPicPointers::
 	dba BraixenBackpic
 	dba DelphoxFrontpic
 	dba DelphoxBackpic
+	dba SneaselHFrontpic
+	dba SneaselHBackpic
+	dba SneaslerFrontpic
+	dba SneaslerBackpic
 	
 	assert_table_length NUM_POKEMON + 1

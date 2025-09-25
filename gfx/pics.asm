@@ -885,4 +885,8 @@ BraixenFrontpic:     INCBIN "gfx/pokemon/braixen/front.animated.2bpp.lz"
 BraixenBackpic:      INCBIN "gfx/pokemon/braixen/back.2bpp.lz"
 DelphoxFrontpic:     INCBIN "gfx/pokemon/delphox/front.animated.2bpp.lz"
 DelphoxBackpic:      INCBIN "gfx/pokemon/delphox/back.2bpp.lz"
+SneaselHFrontpic:    INCBIN "gfx/pokemon/sneasel_h/front.animated.2bpp.lz"
+SneaselHBackpic:     INCBIN "gfx/pokemon/sneasel_h/back.2bpp.lz"
+SneaslerFrontpic:    INCBIN "gfx/pokemon/sneasler/front.animated.2bpp.lz"
+SneaslerBackpic:     INCBIN "gfx/pokemon/sneasler/back.2bpp.lz"
 
