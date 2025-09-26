@@ -70,6 +70,8 @@ EvosAttacksPointers3::
 	dw MoltresGEvosAttacks
 	dw BasculinEvosAttacks
 	dw BasculegionEvosAttacks
+	dw TandemausEvosAttacks
+	dw MausholdEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -419,6 +421,16 @@ BasculinEvosAttacks:
 BasculegionEvosAttacks:
 	db 0
 	dbw 1, WATERFALL
+	db 0
+
+TandemausEvosAttacks:
+	db 0
+	dbw 1, TACKLE
+	db 0
+
+MausholdEvosAttacks:
+	db 0
+	dbw 1, TACKLE
 	db 0
 
 ENDSECTION

@@ -342,6 +342,8 @@ DEF EXPANSION_POKEMON EQU const_value
 	const MOLTRES_G
 	const BASCULIN
 	const BASCULEGION
+	const TANDEMAUS
+	const MAUSHOLD
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

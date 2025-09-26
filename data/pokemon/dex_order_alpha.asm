@@ -165,6 +165,7 @@ AlphabeticalPokedexOrder:
 	dw MARILL
 	dw MAROWAK
 	dw MAROWAK_A
+	dw MAUSHOLD
 	dw MEGANIUM
 	dw MEOWTH
 	dw METAPOD
@@ -279,6 +280,7 @@ AlphabeticalPokedexOrder:
 	dw SWABLU
 	dw SWINUB
 	dw SYLVEON
+	dw TANDEMAUS
 	dw TANGELA
 	dw TANGROWTH
 	dw TAUROS

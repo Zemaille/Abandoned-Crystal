@@ -70,6 +70,8 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Moltres-G
 	dw NO_MOVE		 ; Basculin
 	dw NO_MOVE		 ; Basculegion
+	dw NO_MOVE		 ; Tandemaus
+	dw NO_MOVE		 ; Maushold
 .IndirectEnd::
 
 ENDSECTION

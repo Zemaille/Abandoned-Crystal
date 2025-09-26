@@ -656,5 +656,9 @@ PokemonPicPointers::
 	dba BasculinBackpic
 	dba BasculegionFrontpic
 	dba BasculegionBackpic
+	dba TandemausFrontpic
+	dba TandemausBackpic
+	dba MausholdFrontpic
+	dba MausholdBackpic
 	
 	assert_table_length NUM_POKEMON + 1

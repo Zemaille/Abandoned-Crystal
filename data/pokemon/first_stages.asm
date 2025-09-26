@@ -321,4 +321,6 @@ FirstEvoStages::
 	dw MOLTRES_G
 	dw BASCULIN
 	dw BASCULIN
+	dw TANDEMAUS
+	dw TANDEMAUS
 	assert_table_length NUM_POKEMON

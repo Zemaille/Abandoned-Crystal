@@ -939,5 +939,9 @@ BasculinFrontpic:    INCBIN "gfx/pokemon/basculin/front.animated.2bpp.lz"
 BasculinBackpic:     INCBIN "gfx/pokemon/basculin/back.2bpp.lz"
 BasculegionFrontpic: INCBIN "gfx/pokemon/basculegion/front.animated.2bpp.lz"
 BasculegionBackpic:  INCBIN "gfx/pokemon/basculegion/back.2bpp.lz"
+TandemausFrontpic:   INCBIN "gfx/pokemon/tandemaus/front.animated.2bpp.lz"
+TandemausBackpic:    INCBIN "gfx/pokemon/tandemaus/back.2bpp.lz"
+MausholdFrontpic:    INCBIN "gfx/pokemon/maushold/front.animated.2bpp.lz"
+MausholdBackpic:     INCBIN "gfx/pokemon/maushold/back.2bpp.lz"
 
 

@@ -320,4 +320,6 @@ FramesPointers:
 	dba MoltresGFrames
 	dba BasculinFrames
 	dba BasculegionFrames
+	dba TandemausFrames
+	dba MausholdFrames
 	assert_table_length NUM_POKEMON

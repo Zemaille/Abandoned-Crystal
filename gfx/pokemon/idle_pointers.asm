@@ -320,4 +320,6 @@ AnimationIdlePointers:
 	dw MoltresGAnimationIdle
 	dw BasculinAnimationIdle
 	dw BasculegionAnimationIdle
+	dw TandemausAnimationIdle
+	dw MausholdAnimationIdle
 	assert_table_length NUM_POKEMON

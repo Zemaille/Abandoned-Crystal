@@ -70,6 +70,8 @@ EggMovePointers3:
 	dw NoEggMoves3      ;Moltres-G
 	dw NoEggMoves3      ;Basculin
 	dw NoEggMoves3      ;Basculegion
+	dw NoEggMoves3      ;Tandemaus
+	dw NoEggMoves3      ;Maushold
 .IndirectEnd::
 
 NoEggMoves3:

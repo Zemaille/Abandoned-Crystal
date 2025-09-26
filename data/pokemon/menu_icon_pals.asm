@@ -330,5 +330,7 @@ MonMenuIconPals:
 	icon_pals RED,    RED    ; Moltres-G
 	icon_pals GREEN,  GREEN  ; Basculin
 	icon_pals GREEN,  GREEN  ; Basculin
+	icon_pals GRAY,   BROWN  ; Tandemaus
+	icon_pals GRAY,   BROWN  ; Maushold
 	
 	assert_table_length NUM_POKEMON

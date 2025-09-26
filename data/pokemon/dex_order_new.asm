@@ -322,4 +322,6 @@ NewPokedexOrder:
 	dw MOLTRES_G
 	dw BASCULIN
 	dw BASCULEGION
+	dw TANDEMAUS
+	dw MAUSHOLD
 	assert_table_length NUM_POKEMON
