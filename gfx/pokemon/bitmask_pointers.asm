@@ -331,4 +331,6 @@ BitmasksPointers:
 	dw TreeckoBitmasks
 	dw GrovyleBitmasks
 	dw SceptileBitmasks
+	dw VulpixABitmasks
+	dw NinetalesABitmasks
 	assert_table_length NUM_POKEMON

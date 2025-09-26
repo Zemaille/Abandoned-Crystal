@@ -81,6 +81,8 @@ EggMovePointers3:
 	dw NoEggMoves3      ;Treecko
 	dw NoEggMoves3      ;Grovyle
 	dw NoEggMoves3      ;Sceptile
+	dw NoEggMoves3      ;Vulpix-A
+	dw NoEggMoves3      ;Ninetales-A
 .IndirectEnd::
 
 NoEggMoves3:

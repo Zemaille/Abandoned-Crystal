@@ -353,6 +353,8 @@ DEF EXPANSION_POKEMON EQU const_value
 	const TREECKO
 	const GROVYLE
 	const SCEPTILE
+	const VULPIX_A
+	const NINETALES_A
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

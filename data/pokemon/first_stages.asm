@@ -332,4 +332,6 @@ FirstEvoStages::
 	dw TREECKO
 	dw TREECKO
 	dw TREECKO
+	dw VULPIX_A
+	dw VULPIX_A
 	assert_table_length NUM_POKEMON

@@ -539,13 +539,6 @@ INCBIN "data/tilesets/kanto_attributes.bin.lz"
 TilesetBattleTowerOutsideAttr::
 INCBIN "data/tilesets/battle_tower_outside_attributes.bin.lz"
 
-TilesetHouseAttr::
-INCBIN "data/tilesets/house_attributes.bin.lz"
-
-TilesetPlayersHouseAttr::
-INCBIN "data/tilesets/players_house_attributes.bin.lz"
-
-
 
 SECTION "Tileset Data 10", ROMX
 
@@ -587,6 +580,12 @@ INCBIN "data/tilesets/battle_tower_inside_attributes.bin.lz"
 
 TilesetTowerAttr::
 INCBIN "data/tilesets/tower_attributes.bin.lz"
+
+TilesetHouseAttr::
+INCBIN "data/tilesets/house_attributes.bin.lz"
+
+TilesetPlayersHouseAttr::
+INCBIN "data/tilesets/players_house_attributes.bin.lz"
 
 
 SECTION "Tileset Data 11", ROMX

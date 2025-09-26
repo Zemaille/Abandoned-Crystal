@@ -1,16 +1,16 @@
 	db 0 ; species ID placeholder
 
-	db  38,  41,  40,  65,  50,  65
-	evs  0,   0,   0,   1,   0,   0
+	db  73,  67,  75, 109,  81, 100
+	evs  0,   0,   0,   2,   0,   0
 	;   hp  atk  def  spd  sat  sdf
 
-	db ICE, ICE ; type
-	db 190 ; catch rate
-	db 80 ; base exp
+	db ICE, FAIRY ; type
+	db 75 ; catch rate
+	db 175 ; base exp
 	dw NO_ITEM, NO_ITEM ; items
 	db GENDER_F75 ; gender ratio
 	db 20 ; step cycles to hatch
-	INCBIN "gfx/pokemon/vulpix-a/front.dimensions"
+	INCBIN "gfx/pokemon/ninetales_a/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups

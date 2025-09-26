@@ -195,6 +195,7 @@ AlphabeticalPokedexOrder:
 	dw NIDORINA
 	dw NIDORINO
 	dw NINETALES
+	dw NINETALES_A
 	dw NOCTOWL
 	dw NOIBAT
 	dw NOIVERN
@@ -316,6 +317,7 @@ AlphabeticalPokedexOrder:
 	dw VILEPLUME
 	dw VOLTORB
 	dw VULPIX
+	dw VULPIX_A
 	dw WARTORTLE
 	dw WEAVILE
 	dw WEEDLE

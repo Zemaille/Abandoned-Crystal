@@ -333,4 +333,6 @@ NewPokedexOrder:
 	dw TREECKO
 	dw GROVYLE
 	dw SCEPTILE
+	dw VULPIX_A
+	dw NINETALES_A
 	assert_table_length NUM_POKEMON

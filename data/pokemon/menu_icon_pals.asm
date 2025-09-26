@@ -341,5 +341,7 @@ MonMenuIconPals:
 	icon_pals GREEN,  TEAL   ; Treecko
 	icon_pals GREEN,  TEAL   ; Grovyle
 	icon_pals GREEN,  TEAL   ; Sceptile
+	icon_pals BLUE,   PINK   ; Vulpix-A
+	icon_pals BLUE,   PINK   ; Ninetales-A
 	
 	assert_table_length NUM_POKEMON

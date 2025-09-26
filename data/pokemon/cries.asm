@@ -334,8 +334,10 @@ PokemonCries::
 	mon_cry CRY_DONPHAN,       0,  416 ; Drampa
 	mon_cry CRY_METAPOD,     128,  224 ; Meltan
 	mon_cry CRY_METAPOD,      32,  320 ; Melmetal
-	mon_cry CRY_ODDISH,      221,  129 ; ODDISH
-	mon_cry CRY_ODDISH,      170,  192 ; GLOOM
-	mon_cry CRY_VILEPLUME,    34,  383 ; VILEPLUME
+	mon_cry CRY_ODDISH,      221,  129 ; Treecko
+	mon_cry CRY_ODDISH,      170,  192 ; Grovyle
+	mon_cry CRY_VILEPLUME,    34,  383 ; Sceptile
+	mon_cry CRY_VULPIX,       79,  144 ; Vulpix-A
+	mon_cry CRY_VULPIX,      136,  224 ; Ninetales-A
 	
 	assert_table_length NUM_POKEMON

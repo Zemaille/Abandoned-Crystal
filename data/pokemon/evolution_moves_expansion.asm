@@ -81,6 +81,8 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Treecko
 	dw NO_MOVE		 ; Grovyle
 	dw NO_MOVE		 ; Sceptile
+	dw NO_MOVE		 ; Vulpix-A
+	dw NO_MOVE		 ; Ninetales-A
 .IndirectEnd::
 
 ENDSECTION

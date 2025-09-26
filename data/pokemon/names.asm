@@ -335,4 +335,6 @@ PokemonNames::
 	db "Treecko@@@"
 	db "Grovyle@@@"
 	db "Sceptile@@"
+	db "Vulpix@@@@"
+	db "Ninetales@"
 	assert_table_length NUM_POKEMON

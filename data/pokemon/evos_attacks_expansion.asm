@@ -81,6 +81,8 @@ EvosAttacksPointers3::
 	dw TreeckoEvosAttacks
 	dw GrovyleEvosAttacks
 	dw SceptileEvosAttacks
+	dw VulpixAEvosAttacks
+	dw NinetalesAEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -485,6 +487,16 @@ GrovyleEvosAttacks:
 SceptileEvosAttacks:
 	db 0
 	dbw 1, LEAF_BLADE
+	db 0
+
+VulpixAEvosAttacks:
+	db 0
+	dbw 1, POWDER_SNOW
+	db 0
+
+NinetalesAEvosAttacks:
+	db 0
+	dbw 1, EXTRASENSORY
 	db 0
 
 ENDSECTION
