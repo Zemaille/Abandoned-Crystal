@@ -323,4 +323,5 @@ FirstEvoStages::
 	dw BASCULIN
 	dw TANDEMAUS
 	dw TANDEMAUS
+	dw CHIMECHO
 	assert_table_length NUM_POKEMON

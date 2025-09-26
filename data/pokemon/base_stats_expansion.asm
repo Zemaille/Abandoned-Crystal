@@ -70,4 +70,5 @@ INCLUDE "data/pokemon/base_stats/basculin.asm"
 INCLUDE "data/pokemon/base_stats/basculegion.asm"
 INCLUDE "data/pokemon/base_stats/tandemaus.asm"
 INCLUDE "data/pokemon/base_stats/maushold.asm"
+INCLUDE "data/pokemon/base_stats/chimecho.asm"
 .IndirectEnd::

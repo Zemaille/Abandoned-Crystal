@@ -72,6 +72,7 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Basculegion
 	dw NO_MOVE		 ; Tandemaus
 	dw NO_MOVE		 ; Maushold
+	dw NO_MOVE		 ; Chimecho
 .IndirectEnd::
 
 ENDSECTION

@@ -328,5 +328,6 @@ PokemonCries::
 	mon_cry CRY_EKANS,         0,  256 ; Basculegion
 	mon_cry CRY_PICHU,         0,  320 ; Tandemaus
 	mon_cry CRY_CLEFFA,       97,  145 ; Maushold
+	mon_cry CRY_CHIKORITA,   232,  232 ; IGGLYBUFF
 	
 	assert_table_length NUM_POKEMON

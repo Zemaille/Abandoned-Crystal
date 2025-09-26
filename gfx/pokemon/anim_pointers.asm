@@ -322,4 +322,5 @@ AnimationPointers:
 	dw BasculegionAnimation
 	dw TandemausAnimation
 	dw MausholdAnimation
+	dw ChimechoAnimation
 	assert_table_length NUM_POKEMON

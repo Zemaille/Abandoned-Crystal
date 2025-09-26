@@ -323,4 +323,5 @@ PokedexDataPointerTable:
 	dba BasculegionPokedexEntry
 	dba TandemausPokedexEntry
 	dba MausholdPokedexEntry
+	dba ChimechoPokedexEntry
 	assert_table_length NUM_POKEMON

@@ -72,6 +72,7 @@ EggMovePointers3:
 	dw NoEggMoves3      ;Basculegion
 	dw NoEggMoves3      ;Tandemaus
 	dw NoEggMoves3      ;Maushold
+	dw NoEggMoves3      ;Chimecho
 .IndirectEnd::
 
 NoEggMoves3:

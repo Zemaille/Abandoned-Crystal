@@ -72,6 +72,7 @@ EvosAttacksPointers3::
 	dw BasculegionEvosAttacks
 	dw TandemausEvosAttacks
 	dw MausholdEvosAttacks
+	dw ChimechoEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -431,6 +432,11 @@ TandemausEvosAttacks:
 MausholdEvosAttacks:
 	db 0
 	dbw 1, TACKLE
+	db 0
+	
+ChimechoEvosAttacks:
+	db 0
+	dbw 1, ASTONISH
 	db 0
 
 ENDSECTION

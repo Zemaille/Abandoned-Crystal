@@ -327,4 +327,5 @@ IconPointers:
 	dw BasculegionIcon
 	dw TandemausIcon
 	dw MausholdIcon
+	dw ChimechoIcon
 	assert_table_length NUM_POKEMON + 1

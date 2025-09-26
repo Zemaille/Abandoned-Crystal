@@ -326,4 +326,5 @@ PokemonNames::
 	db "Basclegion"
 	db "Tandemaus@"
 	db "Maushold@@"
+	db "Chimecho@@"
 	assert_table_length NUM_POKEMON

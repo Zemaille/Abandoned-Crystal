@@ -943,5 +943,7 @@ TandemausFrontpic:   INCBIN "gfx/pokemon/tandemaus/front.animated.2bpp.lz"
 TandemausBackpic:    INCBIN "gfx/pokemon/tandemaus/back.2bpp.lz"
 MausholdFrontpic:    INCBIN "gfx/pokemon/maushold/front.animated.2bpp.lz"
 MausholdBackpic:     INCBIN "gfx/pokemon/maushold/back.2bpp.lz"
+ChimechoFrontpic:    INCBIN "gfx/pokemon/chimecho/front.animated.2bpp.lz"
+ChimechoBackpic:     INCBIN "gfx/pokemon/chimecho/back.2bpp.lz"
 
 

@@ -35,6 +35,7 @@ AlphabeticalPokedexOrder:
 	dw CHARMANDER
 	dw CHARMELEON
 	dw CHIKORITA
+	dw CHIMECHO
 	dw CHINCHOU
 	dw CLEFABLE
 	dw CLEFAIRY

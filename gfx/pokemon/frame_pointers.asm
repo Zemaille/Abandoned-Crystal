@@ -322,4 +322,5 @@ FramesPointers:
 	dba BasculegionFrames
 	dba TandemausFrames
 	dba MausholdFrames
+	dba ChimechoFrames
 	assert_table_length NUM_POKEMON

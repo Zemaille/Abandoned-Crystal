@@ -324,4 +324,5 @@ NewPokedexOrder:
 	dw BASCULEGION
 	dw TANDEMAUS
 	dw MAUSHOLD
+	dw CHIMECHO
 	assert_table_length NUM_POKEMON
