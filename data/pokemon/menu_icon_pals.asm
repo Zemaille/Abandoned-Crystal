@@ -333,5 +333,7 @@ MonMenuIconPals:
 	icon_pals GRAY,   BROWN  ; Tandemaus
 	icon_pals GRAY,   BROWN  ; Maushold
 	icon_pals PINK,   BLUE   ; Maushold
+	icon_pals BROWN,  BLUE   ; Skrelp
+	icon_pals BROWN,  BLUE   ; Skrelp
 	
 	assert_table_length NUM_POKEMON

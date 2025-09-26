@@ -945,5 +945,9 @@ MausholdFrontpic:    INCBIN "gfx/pokemon/maushold/front.animated.2bpp.lz"
 MausholdBackpic:     INCBIN "gfx/pokemon/maushold/back.2bpp.lz"
 ChimechoFrontpic:    INCBIN "gfx/pokemon/chimecho/front.animated.2bpp.lz"
 ChimechoBackpic:     INCBIN "gfx/pokemon/chimecho/back.2bpp.lz"
+SkrelpFrontpic:      INCBIN "gfx/pokemon/skrelp/front.animated.2bpp.lz"
+SkrelpBackpic:       INCBIN "gfx/pokemon/skrelp/back.2bpp.lz"
+DragalgeFrontpic:    INCBIN "gfx/pokemon/dragalge/front.animated.2bpp.lz"
+DragalgeBackpic:     INCBIN "gfx/pokemon/dragalge/back.2bpp.lz"
 
 

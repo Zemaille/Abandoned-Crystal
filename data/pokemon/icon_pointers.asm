@@ -328,4 +328,6 @@ IconPointers:
 	dw TandemausIcon
 	dw MausholdIcon
 	dw ChimechoIcon
+	dw SkrelpIcon
+	dw DragalgeIcon
 	assert_table_length NUM_POKEMON + 1

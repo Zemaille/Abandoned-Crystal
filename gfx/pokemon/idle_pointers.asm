@@ -323,4 +323,6 @@ AnimationIdlePointers:
 	dw TandemausAnimationIdle
 	dw MausholdAnimationIdle
 	dw ChimechoAnimationIdle
+	dw SkrelpAnimationIdle
+	dw DragalgeAnimationIdle
 	assert_table_length NUM_POKEMON

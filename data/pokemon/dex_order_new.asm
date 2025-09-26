@@ -325,4 +325,6 @@ NewPokedexOrder:
 	dw TANDEMAUS
 	dw MAUSHOLD
 	dw CHIMECHO
+	dw SKRELP
+	dw DRAGALGE
 	assert_table_length NUM_POKEMON

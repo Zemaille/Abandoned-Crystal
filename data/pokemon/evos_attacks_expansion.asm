@@ -73,6 +73,8 @@ EvosAttacksPointers3::
 	dw TandemausEvosAttacks
 	dw MausholdEvosAttacks
 	dw ChimechoEvosAttacks
+	dw SkrelpEvosAttacks
+	dw DragalgeEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -437,6 +439,16 @@ MausholdEvosAttacks:
 ChimechoEvosAttacks:
 	db 0
 	dbw 1, ASTONISH
+	db 0
+
+SkrelpEvosAttacks:
+	db 0
+	dbw 1, BUBBLE
+	db 0
+
+DragalgeEvosAttacks:
+	db 0 
+	dbw 1, SLUDGE_BOMB
 	db 0
 
 ENDSECTION

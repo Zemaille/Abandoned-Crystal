@@ -73,6 +73,8 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Tandemaus
 	dw NO_MOVE		 ; Maushold
 	dw NO_MOVE		 ; Chimecho
+	dw NO_MOVE		 ; Skrelp
+	dw NO_MOVE		 ; Dragalge
 .IndirectEnd::
 
 ENDSECTION

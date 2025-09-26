@@ -58,6 +58,7 @@ AlphabeticalPokedexOrder:
 	dw DODRIO
 	dw DODUO
 	dw DONPHAN
+	dw DRAGALGE
 	dw DRAGAPULT
 	dw DRAGONAIR
 	dw DRAGONITE
@@ -251,6 +252,7 @@ AlphabeticalPokedexOrder:
 	dw SHUCKLE
 	dw SKARMORY
 	dw SKIPLOOM
+	dw SKRELP
 	dw SLIGGOO
 	dw SLOWBRO
 	dw SLOWBRO_G

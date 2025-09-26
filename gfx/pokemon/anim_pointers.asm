@@ -323,4 +323,6 @@ AnimationPointers:
 	dw TandemausAnimation
 	dw MausholdAnimation
 	dw ChimechoAnimation
+	dw SkrelpAnimation
+	dw DragalgeAnimation
 	assert_table_length NUM_POKEMON

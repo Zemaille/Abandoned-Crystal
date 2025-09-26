@@ -324,4 +324,6 @@ FirstEvoStages::
 	dw TANDEMAUS
 	dw TANDEMAUS
 	dw CHIMECHO
+	dw SKRELP
+	dw SKRELP
 	assert_table_length NUM_POKEMON

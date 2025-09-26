@@ -323,4 +323,6 @@ BitmasksPointers:
 	dw TandemausBitmasks
 	dw MausholdBitmasks
 	dw ChimechoBitmasks
+	dw SkrelpBitmasks
+	dw DragalgeBitmasks
 	assert_table_length NUM_POKEMON

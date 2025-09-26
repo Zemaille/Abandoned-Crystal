@@ -345,6 +345,8 @@ DEF EXPANSION_POKEMON EQU const_value
 	const TANDEMAUS
 	const MAUSHOLD
 	const CHIMECHO
+	const SKRELP
+	const DRAGALGE
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

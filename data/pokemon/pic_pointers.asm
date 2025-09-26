@@ -662,5 +662,9 @@ PokemonPicPointers::
 	dba MausholdBackpic
 	dba ChimechoFrontpic
 	dba ChimechoBackpic
+	dba SkrelpFrontpic
+	dba SkrelpBackpic
+	dba DragalgeFrontpic
+	dba DragalgeBackpic
 	
 	assert_table_length NUM_POKEMON + 1
