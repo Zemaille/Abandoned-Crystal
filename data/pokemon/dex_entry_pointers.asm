@@ -326,4 +326,7 @@ PokedexDataPointerTable:
 	dba ChimechoPokedexEntry
 	dba SkrelpPokedexEntry
 	dba DragalgePokedexEntry
+	dba DrampaPokedexEntry
+	dba MeltanPokedexEntry
+	dba MelmetalPokedexEntry
 	assert_table_length NUM_POKEMON

@@ -329,4 +329,7 @@ PokemonNames::
 	db "Chimecho@@"
 	db "Skrelp@@@@"
 	db "Dragalge@@"
+	db "Drampa@@@@"
+	db "Meltan@@@@"
+	db "Melmetal@@"
 	assert_table_length NUM_POKEMON

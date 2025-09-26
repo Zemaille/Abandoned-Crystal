@@ -75,6 +75,9 @@ EvosAttacksPointers3::
 	dw ChimechoEvosAttacks
 	dw SkrelpEvosAttacks
 	dw DragalgeEvosAttacks
+	dw DrampaEvosAttacks
+	dw MeltanEvosAttacks
+	dw MelmetalEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -449,6 +452,21 @@ SkrelpEvosAttacks:
 DragalgeEvosAttacks:
 	db 0 
 	dbw 1, SLUDGE_BOMB
+	db 0
+
+DrampaEvosAttacks:
+	db 0
+	dbw 1, GIGA_IMPACT
+	db 0
+
+MeltanEvosAttacks:
+	db 0
+	dbw 1, POUND
+	db 0
+
+MelmetalEvosAttacks:
+	db 0
+	dbw 1, IRON_HEAD
 	db 0
 
 ENDSECTION

@@ -331,5 +331,8 @@ PokemonCries::
 	mon_cry CRY_CHIKORITA,   232,  232 ; Chimecho
 	mon_cry CRY_CLEFAIRY,    153,  144 ; Skrelp
 	mon_cry CRY_CLEFAIRY,     60,  129 ; Dragalge
+	mon_cry CRY_DONPHAN,       0,  416 ; Drampa
+	mon_cry CRY_METAPOD,     128,  224 ; Meltan
+	mon_cry CRY_METAPOD,      32,  320 ; MAGNETON
 	
 	assert_table_length NUM_POKEMON

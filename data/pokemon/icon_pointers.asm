@@ -330,4 +330,7 @@ IconPointers:
 	dw ChimechoIcon
 	dw SkrelpIcon
 	dw DragalgeIcon
+	dw DrampaIcon
+	dw MeltanIcon
+	dw MelmetalIcon
 	assert_table_length NUM_POKEMON + 1

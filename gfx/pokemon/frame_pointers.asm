@@ -325,4 +325,7 @@ FramesPointers:
 	dba ChimechoFrames
 	dba SkrelpFrames
 	dba DragalgeFrames
+	dba DrampaFrames
+	dba MeltanFrames
+	dba MelmetalFrames
 	assert_table_length NUM_POKEMON

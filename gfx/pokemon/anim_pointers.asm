@@ -325,4 +325,7 @@ AnimationPointers:
 	dw ChimechoAnimation
 	dw SkrelpAnimation
 	dw DragalgeAnimation
+	dw DrampaAnimation
+	dw MeltanAnimation
+	dw MelmetalAnimation
 	assert_table_length NUM_POKEMON

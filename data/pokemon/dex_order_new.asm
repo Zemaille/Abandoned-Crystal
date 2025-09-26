@@ -327,4 +327,7 @@ NewPokedexOrder:
 	dw CHIMECHO
 	dw SKRELP
 	dw DRAGALGE
+	dw DRAMPA
+	dw MELTAN
+	dw MELMETAL
 	assert_table_length NUM_POKEMON

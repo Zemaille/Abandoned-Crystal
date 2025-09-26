@@ -335,5 +335,8 @@ MonMenuIconPals:
 	icon_pals PINK,   BLUE   ; Maushold
 	icon_pals BROWN,  BLUE   ; Skrelp
 	icon_pals BROWN,  BLUE   ; Skrelp
+	icon_pals TEAL,   RED    ; Skrelp
+	icon_pals GRAY,   GREEN  ; Meltan
+	icon_pals GRAY,   GREEN  ; Melmetal
 	
 	assert_table_length NUM_POKEMON

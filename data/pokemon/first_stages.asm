@@ -326,4 +326,7 @@ FirstEvoStages::
 	dw CHIMECHO
 	dw SKRELP
 	dw SKRELP
+	dw DRAMPA
+	dw MELTAN
+	dw MELTAN
 	assert_table_length NUM_POKEMON

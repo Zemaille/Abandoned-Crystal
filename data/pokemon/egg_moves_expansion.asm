@@ -75,6 +75,9 @@ EggMovePointers3:
 	dw NoEggMoves3      ;Chimecho
 	dw NoEggMoves3      ;Skrelp
 	dw NoEggMoves3      ;Dragalge
+	dw NoEggMoves3      ;Drampa
+	dw NoEggMoves3      ;Meltan
+	dw NoEggMoves3      ;Melmetal
 .IndirectEnd::
 
 NoEggMoves3:

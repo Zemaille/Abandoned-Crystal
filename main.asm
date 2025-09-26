@@ -223,10 +223,10 @@ INCLUDE "engine/pokemon/categories.asm"
 INCLUDE "engine/pokemon/switchpartymons.asm"
 INCLUDE "engine/pokemon/tempmon.asm"
 INCLUDE "engine/pokemon/experience.asm"
+INCLUDE "engine/pokemon/party_menu.asm"
 
 SECTION "bank14", ROMX
 
-INCLUDE "engine/pokemon/party_menu.asm"
 INCLUDE "engine/pokemon/mon_stats.asm"
 INCLUDE "data/pokemon/base_stats.asm"
 INCLUDE "data/pokemon/names.asm"

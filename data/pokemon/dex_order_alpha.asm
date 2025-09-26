@@ -63,6 +63,7 @@ AlphabeticalPokedexOrder:
 	dw DRAGONAIR
 	dw DRAGONITE
 	dw DRAKLOAK
+	dw DRAMPA
 	dw DRATINI
 	dw DREEPY
 	dw DROWZEE
@@ -169,6 +170,8 @@ AlphabeticalPokedexOrder:
 	dw MAROWAK_A
 	dw MAUSHOLD
 	dw MEGANIUM
+	dw MELMETAL
+	dw MELTAN
 	dw MEOWTH
 	dw METAPOD
 	dw MEW

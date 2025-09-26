@@ -347,6 +347,9 @@ DEF EXPANSION_POKEMON EQU const_value
 	const CHIMECHO
 	const SKRELP
 	const DRAGALGE
+	const DRAMPA
+	const MELTAN
+	const MELMETAL
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

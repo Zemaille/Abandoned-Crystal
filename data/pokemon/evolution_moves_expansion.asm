@@ -75,6 +75,9 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Chimecho
 	dw NO_MOVE		 ; Skrelp
 	dw NO_MOVE		 ; Dragalge
+	dw NO_MOVE		 ; Drampa
+	dw NO_MOVE		 ; Meltan
+	dw NO_MOVE		 ; Melmetal
 .IndirectEnd::
 
 ENDSECTION

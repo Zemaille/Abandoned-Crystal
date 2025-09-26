@@ -949,5 +949,11 @@ SkrelpFrontpic:      INCBIN "gfx/pokemon/skrelp/front.animated.2bpp.lz"
 SkrelpBackpic:       INCBIN "gfx/pokemon/skrelp/back.2bpp.lz"
 DragalgeFrontpic:    INCBIN "gfx/pokemon/dragalge/front.animated.2bpp.lz"
 DragalgeBackpic:     INCBIN "gfx/pokemon/dragalge/back.2bpp.lz"
+DrampaFrontpic:      INCBIN "gfx/pokemon/drampa/front.animated.2bpp.lz"
+DrampaBackpic:       INCBIN "gfx/pokemon/drampa/back.2bpp.lz"
+MeltanFrontpic:      INCBIN "gfx/pokemon/meltan/front.animated.2bpp.lz"
+MeltanBackpic:       INCBIN "gfx/pokemon/meltan/back.2bpp.lz"
+MelmetalFrontpic:    INCBIN "gfx/pokemon/melmetal/front.animated.2bpp.lz"
+MelmetalBackpic:     INCBIN "gfx/pokemon/melmetal/back.2bpp.lz"
 
 
