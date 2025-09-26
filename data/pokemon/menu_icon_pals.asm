@@ -343,5 +343,6 @@ MonMenuIconPals:
 	icon_pals GREEN,  TEAL   ; Sceptile
 	icon_pals BLUE,   PINK   ; Vulpix-A
 	icon_pals BLUE,   PINK   ; Ninetales-A
+	icon_pals PURPLE, BLUE   ; Ambipom
 	
 	assert_table_length NUM_POKEMON

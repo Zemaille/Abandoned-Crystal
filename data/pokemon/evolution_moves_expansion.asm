@@ -83,6 +83,7 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Sceptile
 	dw NO_MOVE		 ; Vulpix-A
 	dw NO_MOVE		 ; Ninetales-A
+	dw NO_MOVE		 ; Ambipom
 .IndirectEnd::
 
 ENDSECTION

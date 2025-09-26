@@ -333,4 +333,5 @@ FramesPointers:
 	dba SceptileFrames
 	dba VulpixAFrames
 	dba NinetalesAFrames
+	dba AmbipomFrames
 	assert_table_length NUM_POKEMON

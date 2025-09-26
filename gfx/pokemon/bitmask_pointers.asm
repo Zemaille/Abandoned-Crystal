@@ -333,4 +333,5 @@ BitmasksPointers:
 	dw SceptileBitmasks
 	dw VulpixABitmasks
 	dw NinetalesABitmasks
+	dw AmbipomBitmasks
 	assert_table_length NUM_POKEMON

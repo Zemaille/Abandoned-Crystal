@@ -83,6 +83,7 @@ EggMovePointers3:
 	dw NoEggMoves3      ;Sceptile
 	dw NoEggMoves3      ;Vulpix-A
 	dw NoEggMoves3      ;Ninetales-A
+	dw NoEggMoves3      ;Ambipom
 .IndirectEnd::
 
 NoEggMoves3:

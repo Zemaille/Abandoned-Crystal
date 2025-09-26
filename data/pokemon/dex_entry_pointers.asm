@@ -334,4 +334,5 @@ PokedexDataPointerTable:
 	dba SceptilePokedexEntry
 	dba VulpixAPokedexEntry
 	dba NinetalesAPokedexEntry
+	dba AmbipomPokedexEntry
 	assert_table_length NUM_POKEMON

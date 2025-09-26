@@ -335,4 +335,5 @@ NewPokedexOrder:
 	dw SCEPTILE
 	dw VULPIX_A
 	dw NINETALES_A
+	dw AMBIPOM
 	assert_table_length NUM_POKEMON

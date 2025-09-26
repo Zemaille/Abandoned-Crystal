@@ -7,6 +7,7 @@ AlphabeticalPokedexOrder:
 	dw AIPOM
 	dw ALAKAZAM
 	dw ALTARIA
+	dw AMBIPOM
 	dw AMPHAROS
 	dw ANNIHILAPE
 	dw ARAQUANID

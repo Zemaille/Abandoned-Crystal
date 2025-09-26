@@ -334,5 +334,6 @@ INCBIN "gfx/footprints/grovyle.1bpp"
 INCBIN "gfx/footprints/sceptile.1bpp"
 INCBIN "gfx/footprints/vulpix_a.1bpp"
 INCBIN "gfx/footprints/ninetales_a.1bpp"
+INCBIN "gfx/footprints/ambipom.1bpp"
 
 	assert_table_length NUM_POKEMON

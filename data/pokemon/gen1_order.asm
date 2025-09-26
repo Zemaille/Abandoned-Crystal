@@ -335,4 +335,5 @@ Pokered_MonIndices:
 	db WOBBUFFET
 	db WOBBUFFET
 	db WOBBUFFET
+	db WOBBUFFET
 	assert_table_length NUM_POKEMON + 1

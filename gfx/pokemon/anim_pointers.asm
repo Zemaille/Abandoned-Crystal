@@ -333,4 +333,5 @@ AnimationPointers:
 	dw SceptileAnimation
 	dw VulpixAAnimation
 	dw NinetalesAAnimation
+	dw AmbipomAnimation
 	assert_table_length NUM_POKEMON

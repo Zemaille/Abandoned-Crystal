@@ -338,4 +338,5 @@ IconPointers:
 	dw SceptileIcon
 	dw VulpixAIcon
 	dw NinetalesAIcon
+	dw AmbipomIcon
 	assert_table_length NUM_POKEMON + 1

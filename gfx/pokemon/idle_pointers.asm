@@ -333,4 +333,5 @@ AnimationIdlePointers:
 	dw SceptileAnimationIdle
 	dw VulpixAAnimationIdle
 	dw NinetalesAAnimationIdle
+	dw AmbipomAnimationIdle
 	assert_table_length NUM_POKEMON

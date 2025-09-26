@@ -339,5 +339,6 @@ PokemonCries::
 	mon_cry CRY_VILEPLUME,    34,  383 ; Sceptile
 	mon_cry CRY_VULPIX,       79,  144 ; Vulpix-A
 	mon_cry CRY_VULPIX,      136,  224 ; Ninetales-A
+	mon_cry CRY_AIPOM,       -81,  232 ; Ambipom
 	
 	assert_table_length NUM_POKEMON

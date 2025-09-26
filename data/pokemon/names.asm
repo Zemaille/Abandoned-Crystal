@@ -337,4 +337,5 @@ PokemonNames::
 	db "Sceptile@@"
 	db "Vulpix@@@@"
 	db "Ninetales@"
+	db "Ambipom@@@"
 	assert_table_length NUM_POKEMON

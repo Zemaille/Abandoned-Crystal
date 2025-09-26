@@ -83,6 +83,7 @@ EvosAttacksPointers3::
 	dw SceptileEvosAttacks
 	dw VulpixAEvosAttacks
 	dw NinetalesAEvosAttacks
+	dw AmbipomEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -497,6 +498,11 @@ VulpixAEvosAttacks:
 NinetalesAEvosAttacks:
 	db 0
 	dbw 1, EXTRASENSORY
+	db 0
+
+AmbipomEvosAttacks:
+	db 0 
+	dbw 1, POUND
 	db 0
 
 ENDSECTION

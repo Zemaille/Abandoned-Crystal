@@ -81,4 +81,5 @@ INCLUDE "data/pokemon/base_stats/grovyle.asm"
 INCLUDE "data/pokemon/base_stats/sceptile.asm"
 INCLUDE "data/pokemon/base_stats/vulpix_a.asm"
 INCLUDE "data/pokemon/base_stats/ninetales_a.asm"
+INCLUDE "data/pokemon/base_stats/ambipom.asm"
 .IndirectEnd::
