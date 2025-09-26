@@ -78,6 +78,9 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Drampa
 	dw NO_MOVE		 ; Meltan
 	dw NO_MOVE		 ; Melmetal
+	dw NO_MOVE		 ; Treecko
+	dw NO_MOVE		 ; Grovyle
+	dw NO_MOVE		 ; Sceptile
 .IndirectEnd::
 
 ENDSECTION

@@ -329,4 +329,7 @@ FirstEvoStages::
 	dw DRAMPA
 	dw MELTAN
 	dw MELTAN
+	dw TREECKO
+	dw TREECKO
+	dw TREECKO
 	assert_table_length NUM_POKEMON

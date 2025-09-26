@@ -328,4 +328,7 @@ AnimationIdlePointers:
 	dw DrampaAnimationIdle
 	dw MeltanAnimationIdle
 	dw MelmetalAnimationIdle
+	dw TreeckoAnimationIdle
+	dw GrovyleAnimationIdle
+	dw SceptileAnimationIdle
 	assert_table_length NUM_POKEMON

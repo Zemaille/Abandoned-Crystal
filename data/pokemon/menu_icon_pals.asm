@@ -338,5 +338,8 @@ MonMenuIconPals:
 	icon_pals TEAL,   RED    ; Skrelp
 	icon_pals GRAY,   GREEN  ; Meltan
 	icon_pals GRAY,   GREEN  ; Melmetal
+	icon_pals GREEN,  TEAL   ; Treecko
+	icon_pals GREEN,  TEAL   ; Grovyle
+	icon_pals GREEN,  TEAL   ; Sceptile
 	
 	assert_table_length NUM_POKEMON

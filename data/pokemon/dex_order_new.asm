@@ -330,4 +330,7 @@ NewPokedexOrder:
 	dw DRAMPA
 	dw MELTAN
 	dw MELMETAL
+	dw TREECKO
+	dw GROVYLE
+	dw SCEPTILE
 	assert_table_length NUM_POKEMON

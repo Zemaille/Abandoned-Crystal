@@ -76,4 +76,7 @@ INCLUDE "data/pokemon/base_stats/dragalge.asm"
 INCLUDE "data/pokemon/base_stats/drampa.asm"
 INCLUDE "data/pokemon/base_stats/meltan.asm"
 INCLUDE "data/pokemon/base_stats/melmetal.asm"
+INCLUDE "data/pokemon/base_stats/treecko.asm"
+INCLUDE "data/pokemon/base_stats/grovyle.asm"
+INCLUDE "data/pokemon/base_stats/sceptile.asm"
 .IndirectEnd::

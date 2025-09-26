@@ -107,6 +107,7 @@ AlphabeticalPokedexOrder:
 	dw GRANBULL
 	dw GRAVELER
 	dw GRIMER
+	dw GROVYLE
 	dw GROWLITHE
 	dw GROWLITHE_H
 	dw GYARADOS
@@ -245,6 +246,7 @@ AlphabeticalPokedexOrder:
 	dw RHYPERIOR
 	dw SANDSHREW
 	dw SANDSLASH
+	dw SCEPTILE
 	dw SCIZOR
 	dw SCYTHER
 	dw SEADRA
@@ -297,6 +299,7 @@ AlphabeticalPokedexOrder:
 	dw TOGEPI
 	dw TOGETIC
 	dw TOTODILE
+	dw TREECKO
 	dw TREVENANT
 	dw TYPHLOSION
 	dw TYRANITAR

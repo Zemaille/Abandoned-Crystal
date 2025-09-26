@@ -78,6 +78,9 @@ EvosAttacksPointers3::
 	dw DrampaEvosAttacks
 	dw MeltanEvosAttacks
 	dw MelmetalEvosAttacks
+	dw TreeckoEvosAttacks
+	dw GrovyleEvosAttacks
+	dw SceptileEvosAttacks
 .IndirectEnd::
 
 MismagiusEvosAttacks:
@@ -467,6 +470,21 @@ MeltanEvosAttacks:
 MelmetalEvosAttacks:
 	db 0
 	dbw 1, IRON_HEAD
+	db 0
+
+TreeckoEvosAttacks:
+	db 0
+	dbw 1, POUND
+	db 0
+
+GrovyleEvosAttacks:
+	db 0
+	dbw 1, PURSUIT
+	db 0
+
+SceptileEvosAttacks:
+	db 0
+	dbw 1, LEAF_BLADE
 	db 0
 
 ENDSECTION

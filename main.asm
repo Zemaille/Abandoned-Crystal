@@ -447,9 +447,9 @@ INCLUDE "gfx/pokemon/unown_idles.asm"
 SECTION "bank38", ROMX
 
 INCLUDE "engine/events/print_unown_2.asm"
-INCLUDE "engine/games/card_flip.asm"
+
 INCLUDE "engine/games/unown_puzzle.asm"
-INCLUDE "engine/games/memory_game.asm"
+
 INCLUDE "gfx/pokemon/bitmask_pointers.asm"
 INCLUDE "gfx/pokemon/bitmasks.asm"
 
@@ -500,6 +500,8 @@ INCLUDE "engine/battle_anims/framesets.asm"
 
 SECTION "Title", ROMX
 
+INCLUDE "engine/games/card_flip.asm"
+INCLUDE "engine/games/memory_game.asm"
 INCLUDE "engine/movie/title.asm"
 
 

@@ -350,6 +350,9 @@ DEF EXPANSION_POKEMON EQU const_value
 	const DRAMPA
 	const MELTAN
 	const MELMETAL
+	const TREECKO
+	const GROVYLE
+	const SCEPTILE
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

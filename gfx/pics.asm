@@ -955,5 +955,11 @@ MeltanFrontpic:      INCBIN "gfx/pokemon/meltan/front.animated.2bpp.lz"
 MeltanBackpic:       INCBIN "gfx/pokemon/meltan/back.2bpp.lz"
 MelmetalFrontpic:    INCBIN "gfx/pokemon/melmetal/front.animated.2bpp.lz"
 MelmetalBackpic:     INCBIN "gfx/pokemon/melmetal/back.2bpp.lz"
+TreeckoFrontpic:     INCBIN "gfx/pokemon/treecko/front.animated.2bpp.lz"
+TreeckoBackpic:      INCBIN "gfx/pokemon/treecko/back.2bpp.lz"
+GrovyleFrontpic:     INCBIN "gfx/pokemon/grovyle/front.animated.2bpp.lz"
+GrovyleBackpic:      INCBIN "gfx/pokemon/grovyle/back.2bpp.lz"
+SceptileFrontpic:    INCBIN "gfx/pokemon/sceptile/front.animated.2bpp.lz"
+SceptileBackpic:     INCBIN "gfx/pokemon/sceptile/back.2bpp.lz"
 
 
