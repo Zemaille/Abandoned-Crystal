@@ -176,4 +176,5 @@ MoveEffectsPointers:
 	dw Burn
 	dw PsyhornBash
 	dw ShellSmash
+	dw Coil
 	assert_table_length NUM_MOVE_EFFECTS

@@ -353,6 +353,7 @@ MoveDescriptionsGen3:
 	dw FreezeGlareDescription
 	dw AIReturnDescription
 	dw AIFrustrationDescription
+	dw CoilDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1543,3 +1544,7 @@ AIReturnDescription:
 AIFrustrationDescription:
 	db   "ERROR: Tell Zach"
 	next "you saw this.@"
+
+CoilDescription:
+	db   "Raises user's Atk,"
+	next "Def, and Acc.@"

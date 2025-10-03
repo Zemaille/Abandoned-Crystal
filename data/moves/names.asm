@@ -340,4 +340,5 @@ MoveNames::
 	li "Freeze Glare"
 	li "Return"
 	li "Frustration"
+	li "Coil"
 	assert_list_length NUM_ATTACKS

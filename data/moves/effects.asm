@@ -2410,3 +2410,19 @@ ShellSmash:
 	closecombat
 	statupfailtext
 	endmove
+
+Coil:
+	checkobedience
+	usedmovetext
+	doturn
+	lowersub
+	statupanim
+	raisesub
+	attackup
+	statupmessage
+	defenseup
+	statupmessage
+	accuracyup
+	statupmessage
+	statupfailtext
+	endmove
