@@ -341,4 +341,5 @@ MoveNames::
 	li "Return"
 	li "Frustration"
 	li "Coil"
+	li "Tickle"
 	assert_list_length NUM_ATTACKS

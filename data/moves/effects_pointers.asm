@@ -177,4 +177,5 @@ MoveEffectsPointers:
 	dw PsyhornBash
 	dw ShellSmash
 	dw Coil
+	dw Tickle
 	assert_table_length NUM_MOVE_EFFECTS

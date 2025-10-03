@@ -354,6 +354,7 @@ MoveDescriptionsGen3:
 	dw AIReturnDescription
 	dw AIFrustrationDescription
 	dw CoilDescription
+	dw TickleDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1546,5 +1547,9 @@ AIFrustrationDescription:
 	next "you saw this.@"
 
 CoilDescription:
-	db   "Raises user's Atk,"
-	next "Def, and Acc.@"
+	db   "Raises user's ATK,"
+	next "DEF, and ACC.@"
+
+TickleDescription:
+	db   "Lowers the foe's"
+	next "ATK and DEF.@"

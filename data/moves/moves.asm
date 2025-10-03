@@ -376,7 +376,8 @@ MovesGen3:
 	move EFFECT_FREEZE_HIT,         90, PSYCHIC_TYPE,  SPECIAL,  100, 10,  10      ;Freeze Glare   
 	move EFFECT_NORMAL_HIT,        102, NORMAL,        PHYSICAL, 100, 20,   0      ;AI Return
 	move EFFECT_NORMAL_HIT,        102, NORMAL,        PHYSICAL, 100, 20,   0      ;AI Frustration
-	move EFFECT_COIL, 			     0, POISON,        STATUS,   100, 20,   0      ; Coil
+	move EFFECT_COIL, 			     0, POISON,        STATUS,   100, 20,   0      ;Coil
+	move EFFECT_TICKLE,              0, NORMAL,        STATUS,   100, 20,   0      ;Tickle
 	
 .IndirectEnd::
 

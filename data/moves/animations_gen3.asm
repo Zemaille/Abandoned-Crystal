@@ -89,6 +89,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_AIReturn
 	dw BattleAnim_AIFrustration
 	dw BattleAnim_Coil
+	dw BattleAnim_Tickle
 .IndirectEnd::
 
 BattleAnimSub_Sludge:
@@ -2367,4 +2368,18 @@ BattleAnim_Coil:
 	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_MON_LIGHT_DARK_REPEATING, $0, $1, $20
 	anim_obj BATTLE_ANIM_OBJ_SMALL_GLOW, 48, 96, $0
 	anim_wait 112
+	anim_ret
+
+BattleAnim_Tickle:
+	anim_1gfx BATTLE_ANIM_GFX_SHINE
+	anim_call BattleAnim_UserObj_2Row
+	anim_sound 0, 1, SFX_FORESIGHT
+	anim_obj BATTLE_ANIM_OBJ_FORESIGHT, 64, 88, $0
+	anim_obj BATTLE_ANIM_OBJ_FORESIGHT, 32, 88, $0
+	anim_wait 32
+	anim_sound 0, 0, SFX_SWEET_SCENT
+	anim_bgeffect BATTLE_BG_EFFECT_WOBBLE_MON, $0, $0, $0
+	anim_wait 32
+	anim_incbgeffect BATTLE_BG_EFFECT_WOBBLE_MON
+	anim_call BattleAnim_ShowMon_1
 	anim_ret

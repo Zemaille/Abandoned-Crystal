@@ -2426,3 +2426,18 @@ Coil:
 	statupmessage
 	statupfailtext
 	endmove
+
+Tickle:
+	checkobedience
+	usedmovetext
+	doturn
+	checkhit
+	lowersub
+	statdownanim
+	raisesub
+	attackdown
+	statdownmessage
+	defensedown
+	statdownmessage
+	statdownfailtext
+	endmove

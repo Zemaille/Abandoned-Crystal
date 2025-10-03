@@ -349,6 +349,7 @@ DEF GEN2_MOVES EQU const_value - 1
 	const AI_RETURN
 	const AI_FRUSTRATION
 	const COIL
+	const TICKLE
 DEF GEN3_MOVES EQU const_value - 1
 	
 DEF NUM_ATTACKS EQU const_value - 1
