@@ -112,7 +112,7 @@ EvolutionMovesKanto:
 	dw NO_MOVE       ; KOFFING
 	dw SLUDGE_BOMB   ; WEEZING
 	dw NO_MOVE       ; RHYHORN
-	dw NO_MOVE       ; RHYDON
+	dw SUBMISSION    ; RHYDON
 	dw NO_MOVE       ; CHANSEY
 	dw NO_MOVE       ; TANGELA
 	dw NO_MOVE       ; KANGASKHAN
