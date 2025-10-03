@@ -3,13 +3,13 @@ SECTION "Evolution Moves 1", ROMX
 EvolutionMovesKanto:
 	dw NO_MOVE       ; BULBASAUR
 	dw NO_MOVE       ; IVYSAUR
-	dw STRENGTH      ; VENUSAUR
+	dw PETAL_DANCE   ; VENUSAUR
 	dw NO_MOVE       ; CHARMANDER
 	dw NO_MOVE       ; CHARMELEON
-	dw FLY           ; CHARIZARD
+	dw AIR_SLASH     ; CHARIZARD
 	dw NO_MOVE       ; SQUIRTLE
 	dw NO_MOVE       ; WARTORTLE
-	dw SURF          ; BLASTOISE
+	dw FLASH_CANNON  ; BLASTOISE
 	dw NO_MOVE       ; CATERPIE
 	dw HARDEN        ; METAPOD
 	dw CONFUSION     ; BUTTERFREE
@@ -24,17 +24,17 @@ EvolutionMovesKanto:
 	dw NO_MOVE       ; SPEAROW
 	dw NO_MOVE       ; FEAROW
 	dw NO_MOVE       ; EKANS
-	dw SLUDGE        ; ARBOK
+	dw CRUNCH        ; ARBOK
 	dw NO_MOVE       ; PIKACHU
-	dw THUNDERBOLT   ; RAICHU
+	dw THUNDERPUNCH  ; RAICHU
 	dw NO_MOVE       ; SANDSHREW
 	dw DIG           ; SANDSLASH
 	dw NO_MOVE       ; NIDORAN♀
 	dw NO_MOVE       ; NIDORINA
-	dw NO_MOVE       ; NIDOQUEEN
+	dw CLOSE_COMBAT  ; NIDOQUEEN
 	dw NO_MOVE       ; NIDORAN♂
 	dw NO_MOVE       ; NIDORINO
-	dw NO_MOVE       ; NIDOKING
+	dw MEGAHORN      ; NIDOKING
 	dw NO_MOVE       ; CLEFAIRY
 	dw NO_MOVE       ; CLEFABLE
 	dw NO_MOVE       ; VULPIX
@@ -45,21 +45,21 @@ EvolutionMovesKanto:
 	dw NO_MOVE       ; GOLBAT
 	dw NO_MOVE       ; ODDISH
 	dw NO_MOVE       ; GLOOM
-	dw NO_MOVE       ; VILEPLUME
+	dw SLUDGE_BOMB   ; VILEPLUME
 	dw NO_MOVE       ; PARAS
-	dw NO_MOVE       ; PARASECT
+	dw CROSS_POISON  ; PARASECT
 	dw NO_MOVE       ; VENONAT
-	dw PIN_MISSILE   ; VENOMOTH
+	dw AIR_SLASH     ; VENOMOTH
 	dw NO_MOVE       ; DIGLETT
-	dw DIG           ; DUGTRIO
+	dw TRI_ATTACK    ; DUGTRIO
 	dw NO_MOVE       ; MEOWTH
-	dw SWIFT         ; PERSIAN
+	dw POWER_GEM     ; PERSIAN
 	dw NO_MOVE       ; PSYDUCK
 	dw NO_MOVE       ; GOLDUCK
 	dw NO_MOVE       ; MANKEY
 	dw RAGE          ; PRIMEAPE
 	dw NO_MOVE       ; GROWLITHE
-	dw NO_MOVE       ; ARCANINE
+	dw EXTREMESPEED  ; ARCANINE
 	dw NO_MOVE       ; POLIWAG
 	dw NO_MOVE       ; POLIWHIRL
 	dw SUBMISSION    ; POLIWRATH
@@ -68,17 +68,17 @@ EvolutionMovesKanto:
 	dw KINESIS       ; ALAKAZAM
 	dw NO_MOVE       ; MACHOP
 	dw NO_MOVE       ; MACHOKE
-	dw STRENGTH      ; MACHAMP
+	dw DETECT        ; MACHAMP
 	dw NO_MOVE       ; BELLSPROUT
 	dw NO_MOVE       ; WEEPINBELL
-	dw NO_MOVE       ; VICTREEBEL
+	dw CHLOROBLAST   ; VICTREEBEL
 	dw NO_MOVE       ; TENTACOOL
 	dw WRAP          ; TENTACRUEL
 	dw NO_MOVE       ; GEODUDE
 	dw NO_MOVE       ; GRAVELER
-	dw NO_MOVE       ; GOLEM
+	dw WILD_CHARGE   ; GOLEM
 	dw NO_MOVE       ; PONYTA
-	dw FURY_ATTACK   ; RAPIDASH
+	dw MEGAHORN      ; RAPIDASH
 	dw NO_MOVE       ; SLOWPOKE
 	dw WITHDRAW      ; SLOWBRO
 	dw NO_MOVE       ; MAGNEMITE
@@ -91,13 +91,13 @@ EvolutionMovesKanto:
 	dw NO_MOVE       ; GRIMER
 	dw NO_MOVE       ; MUK
 	dw NO_MOVE       ; SHELLDER
-	dw NO_MOVE       ; CLOYSTER
+	dw ICICLE_SPEAR  ; CLOYSTER
 	dw NO_MOVE       ; GASTLY
-	dw NO_MOVE       ; HAUNTER
-	dw FAINT_ATTACK  ; GENGAR
+	dw SHADOW_PUNCH  ; HAUNTER
+	dw SLUDGE_BOMB   ; GENGAR
 	dw NO_MOVE       ; ONIX
 	dw NO_MOVE       ; DROWZEE
-	dw NO_MOVE       ; HYPNO
+	dw NIGHTMARE     ; HYPNO
 	dw NO_MOVE       ; KRABBY
 	dw NO_MOVE       ; KINGLER
 	dw NO_MOVE       ; VOLTORB
@@ -107,7 +107,7 @@ EvolutionMovesKanto:
 	dw NO_MOVE       ; CUBONE
 	dw NO_MOVE       ; MAROWAK
 	dw DOUBLE_KICK   ; HITMONLEE
-	dw COMET_PUNCH   ; HITMONCHAN
+	dw DRAIN_PUNCH   ; HITMONCHAN
 	dw NO_MOVE       ; LICKITUNG
 	dw NO_MOVE       ; KOFFING
 	dw SLUDGE_BOMB   ; WEEZING

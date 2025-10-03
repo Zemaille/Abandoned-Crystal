@@ -18,7 +18,7 @@ EvolutionMovesJohto:
 	dw NO_MOVE       ; LEDIAN
 	dw NO_MOVE       ; SPINARAK
 	dw DIG           ; ARIADOS
-	dw TOXIC         ; CROBAT
+	dw CROSS_POISON  ; CROBAT
 	dw NO_MOVE       ; CHINCHOU
 	dw NO_MOVE       ; LANTURN
 	dw NO_MOVE       ; PICHU
@@ -31,7 +31,7 @@ EvolutionMovesJohto:
 	dw NO_MOVE       ; MAREEP
 	dw NO_MOVE       ; FLAAFFY
 	dw THUNDERPUNCH  ; AMPHAROS
-	dw NO_MOVE       ; BELLOSSOM
+	dw MOONBLAST     ; BELLOSSOM
 	dw NO_MOVE       ; MARILL
 	dw NO_MOVE       ; AZUMARILL
 	dw NO_MOVE       ; SUDOWOODO
@@ -86,7 +86,7 @@ EvolutionMovesJohto:
 	dw NO_MOVE       ; STANTLER
 	dw NO_MOVE       ; SMEARGLE
 	dw NO_MOVE       ; TYROGUE
-	dw ROLLING_KICK  ; HITMONTOP
+	dw TRIPLE_KICK   ; HITMONTOP
 	dw NO_MOVE       ; SMOOCHUM
 	dw NO_MOVE       ; ELEKID
 	dw NO_MOVE       ; MAGBY

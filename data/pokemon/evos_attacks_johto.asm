@@ -353,15 +353,19 @@ AriadosEvosAttacks:
 
 CrobatEvosAttacks:
 	db 0 ; no more evolutions
-	dbw 1, SCREECH
-	dbw 1, LEECH_LIFE
+	dbw 1, ABSORB
 	dbw 1, SUPERSONIC
-	dbw 6, SUPERSONIC
-	dbw 12, BITE
-	dbw 19, CONFUSE_RAY
-	dbw 30, WING_ATTACK
-	dbw 42, MEAN_LOOK
-	dbw 55, HAZE
+	dbw 5, ASTONISH
+	dbw 15, POISON_FANG
+	dbw 20, SLUDGE
+	dbw 23, CROSS_POISON
+	dbw 27, AIR_CUTTER
+	dbw 34, BITE
+	dbw 41, HAZE
+	dbw 48, SLUDGE_BOMB
+	dbw 55, CONFUSE_RAY
+	dbw 62, AIR_SLASH
+	dbw 69, LEECH_LIFE
 	db 0 ; no more level-up moves
 
 ChinchouEvosAttacks:
@@ -508,13 +512,22 @@ AmpharosEvosAttacks:
 	dbw 57, THUNDER
 	db 0 ; no more level-up moves
 
-BellossomEvosAttacks:
+BellossomEvosAttacks:  ;Finished
 	db 0 ; no more evolutions
 	dbw 1, ABSORB
-	dbw 1, SWEET_SCENT
-	dbw 1, STUN_SPORE
-	dbw 1, PETAL_DANCE
-	dbw 55, SOLARBEAM
+	dbw 1, GROWTH
+	dbw 4, ACID
+	dbw 8, SWEET_SCENT
+	dbw 14, POISONPOWDER
+	dbw 16, STUN_SPORE
+	dbw 18, SLEEP_POWDER
+	dbw 20, GIGA_DRAIN
+	dbw 23, MOONBLAST
+	dbw 26, TOXIC 
+	dbw 32, ENERGY_BALL
+	dbw 38, SUNNY_DAY
+	dbw 44, MOONLIGHT
+	dbw 50, PETAL_DANCE
 	db 0 ; no more level-up moves
 
 MarillEvosAttacks:
@@ -1185,25 +1198,31 @@ SmeargleEvosAttacks:
 	dbw 91, SKETCH
 	db 0 ; no more level-up moves
 
-TyrogueEvosAttacks:
+TyrogueEvosAttacks: ; FINISHED
 	dbbbw EVOLVE_STAT, 20, ATK_LT_DEF, HITMONCHAN
 	dbbbw EVOLVE_STAT, 20, ATK_GT_DEF, HITMONLEE
 	dbbbw EVOLVE_STAT, 20, ATK_EQ_DEF, HITMONTOP
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
+	dbw 1, FOCUS_ENERGY
+	dbw 1, MACH_PUNCH
+	dbw 1, COUNTER
 	db 0 ; no more level-up moves
 
-HitmontopEvosAttacks:
+HitmontopEvosAttacks: ;FINISHED 
 	db 0 ; no more evolutions
-	dbw 1, ROLLING_KICK
-	dbw 7, FOCUS_ENERGY
-	dbw 13, PURSUIT
-	dbw 19, QUICK_ATTACK
-	dbw 25, RAPID_SPIN
-	dbw 31, COUNTER
-	dbw 37, AGILITY
-	dbw 43, DETECT
-	dbw 49, TRIPLE_KICK
+	dbw 1, TACKLE
+	dbw 1, FOCUS_ENERGY
+	dbw 1, MACH_PUNCH
+	dbw 1, COUNTER
+	dbw 20, TRIPLE_KICK
+	dbw 21, DETECT
+	dbw 24, RAPID_SPIN
+	dbw 28, AGILITY
+	dbw 32, DIG
+	dbw 36, CLOSE_COMBAT
+	dbw 40, SPIKES
+	dbw 44, FLAIL
 	db 0 ; no more level-up moves
 
 SmoochumEvosAttacks:

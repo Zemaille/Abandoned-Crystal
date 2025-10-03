@@ -6,7 +6,7 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Munchlax
 	dw NO_MOVE		 ; Weavile
 	dw NO_MOVE		 ; Magnezone
-	dw NO_MOVE		 ; Lickilicky
+	dw EXPLOSION	 ; Lickilicky
 	dw NO_MOVE		 ; Rhyperior
 	dw NO_MOVE		 ; Tangrowth
 	dw NO_MOVE		 ; Electivire
