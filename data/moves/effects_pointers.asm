@@ -178,4 +178,5 @@ MoveEffectsPointers:
 	dw ShellSmash
 	dw Coil
 	dw Tickle
+	dw BulkUp
 	assert_table_length NUM_MOVE_EFFECTS

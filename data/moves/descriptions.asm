@@ -355,6 +355,7 @@ MoveDescriptionsGen3:
 	dw AIFrustrationDescription
 	dw CoilDescription
 	dw TickleDescription
+	dw BulkUpDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1553,3 +1554,7 @@ CoilDescription:
 TickleDescription:
 	db   "Lowers the foe's"
 	next "ATK and DEF.@"
+
+BulkUpDescription:
+	db   "Raises uses's ATK"
+	next "and DEF.@"

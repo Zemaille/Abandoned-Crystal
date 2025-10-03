@@ -2441,3 +2441,18 @@ Tickle:
 	statdownmessage
 	statdownfailtext
 	endmove
+
+BulkUp:
+	checkobedience
+	usedmovetext
+	doturn
+	lowersub
+	statupanim
+	raisesub
+	attackup
+	statupmessage
+	defenseup
+	statupmessage
+	statupfailtext
+	endmove
+	

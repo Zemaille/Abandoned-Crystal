@@ -378,6 +378,7 @@ MovesGen3:
 	move EFFECT_NORMAL_HIT,        102, NORMAL,        PHYSICAL, 100, 20,   0      ;AI Frustration
 	move EFFECT_COIL, 			     0, POISON,        STATUS,   100, 20,   0      ;Coil
 	move EFFECT_TICKLE,              0, NORMAL,        STATUS,   100, 20,   0      ;Tickle
+	move EFFECT_BULK_UP,             0, FIGHTING,      STATUS,   100, 20,   0      ;Bulk Up
 	
 .IndirectEnd::
 

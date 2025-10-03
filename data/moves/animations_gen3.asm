@@ -90,6 +90,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_AIFrustration
 	dw BattleAnim_Coil
 	dw BattleAnim_Tickle
+	dw BattleAnim_BulkUp
 .IndirectEnd::
 
 BattleAnimSub_Sludge:
@@ -2382,4 +2383,28 @@ BattleAnim_Tickle:
 	anim_wait 32
 	anim_incbgeffect BATTLE_BG_EFFECT_WOBBLE_MON
 	anim_call BattleAnim_ShowMon_1
+	anim_ret
+
+BattleAnim_BulkUp:
+	anim_2gfx BATTLE_ANIM_GFX_BULK_UP, BATTLE_ANIM_GFX_WIND
+	anim_sound 0, 0, SFX_SQUEAK
+	anim_obj BATTLE_ANIM_OBJ_BULK_UP, 48, 88, $0
+	anim_wait 32
+	anim_call .shaking
+	anim_wait 16
+	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_GRAY
+	anim_wait 8
+	anim_call .shaking
+	anim_wait 24
+	anim_clearobjs
+	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_GRAY
+	anim_sound 0, 0, SFX_MENU
+	anim_obj BATTLE_ANIM_OBJ_SWAGGER, 72, 88, $44
+	anim_wait 32
+	anim_ret
+
+.shaking:
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $08, $2, $0
+	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_BULK_UP
+	anim_sound 0, 0, SFX_HORN_ATTACK
 	anim_ret
