@@ -57,7 +57,7 @@ EvolutionMovesKanto:
 	dw NO_MOVE       ; PSYDUCK
 	dw NO_MOVE       ; GOLDUCK
 	dw NO_MOVE       ; MANKEY
-	dw RAGE          ; PRIMEAPE
+	dw NO_MOVE       ; PRIMEAPE
 	dw NO_MOVE       ; GROWLITHE
 	dw EXTREMESPEED  ; ARCANINE
 	dw NO_MOVE       ; POLIWAG
@@ -119,7 +119,7 @@ EvolutionMovesKanto:
 	dw NO_MOVE       ; HORSEA
 	dw NO_MOVE       ; SEADRA
 	dw NO_MOVE       ; GOLDEEN
-	dw WATERFALL     ; SEAKING
+	dw NO_MOVE       ; SEAKING
 	dw NO_MOVE       ; STARYU
 	dw NO_MOVE       ; STARMIE
 	dw NO_MOVE       ; MR.MIME
@@ -149,7 +149,7 @@ EvolutionMovesKanto:
 	dw NO_MOVE       ; MOLTRES
 	dw NO_MOVE       ; DRATINI
 	dw NO_MOVE       ; DRAGONAIR
-	dw WING_ATTACK   ; DRAGONITE
+	dw HURRICANE     ; DRAGONITE
 	dw NO_MOVE       ; MEWTWO
 	dw NO_MOVE       ; MEW
 .IndirectEnd::

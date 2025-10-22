@@ -298,7 +298,7 @@ MoveNames::
 	li "Earth Power"
 	li "Pyroclasm"
 	li "Ambush"
-	li "Starblast"
+	li "Starfall"
 	li "Icicle Crash"
 	li "Icicle Spear"
 	li "Ice Shard"

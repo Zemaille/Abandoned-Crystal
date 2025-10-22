@@ -102,7 +102,21 @@ HonchkrowEvosAttacks:
 MunchlaxEvosAttacks:
 	dbbw EVOLVE_HAPPINESS, TR_ANYTIME, SNORLAX
 	db 0
+	dbw 1, LICK
 	dbw 1, TACKLE
+	dbw 4, DEFENSE_CURL
+	dbw 8, BIDE
+	dbw 12, CHARM
+	dbw 16, BITE
+	dbw 20, CURSE
+	dbw 24, SCREECH
+	dbw 28, BODY_SLAM
+	dbw 32, ZEN_HEADBUTT
+	dbw 36, AMNESIA
+	dbw 40, METRONOME
+	dbw 44, FLAIL
+	dbw 48, BELLY_DRUM
+	dbw 52, GIGA_IMPACT
 	db 0
 
 WeavileEvosAttacks:

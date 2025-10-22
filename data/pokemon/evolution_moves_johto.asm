@@ -3,16 +3,16 @@ SECTION "Evolution Moves 2", ROMX
 EvolutionMovesJohto:
 	dw NO_MOVE       ; CHIKORITA
 	dw NO_MOVE       ; BAYLEEF
-	dw PETAL_DANCE   ; MEGANIUM
+	dw STARBLAST     ; MEGANIUM
 	dw NO_MOVE       ; CYNDAQUIL
 	dw NO_MOVE       ; QUILAVA
-	dw SUBMISSION    ; TYPHLOSION
+	dw PYROCLASM     ; TYPHLOSION
 	dw NO_MOVE       ; TOTODILE
 	dw NO_MOVE       ; CROCONAW
-	dw CRUNCH        ; FERALIGATR
+	dw AMBUSH        ; FERALIGATR
 	dw NO_MOVE       ; SENTRET
 	dw AGILITY       ; FURRET
-	dw NO_MOVE       ; HOOTHOOT
+	dw SHADOW_CLAW   ; HOOTHOOT
 	dw NO_MOVE       ; NOCTOWL
 	dw NO_MOVE       ; LEDYBA
 	dw NO_MOVE       ; LEDIAN
