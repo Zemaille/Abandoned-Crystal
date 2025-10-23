@@ -205,9 +205,6 @@ endc
 	ld [hli], a
 	ld [hl], LOW(MOM_MONEY)
 
-	ld a, 15
-	ld [wLevelCap], a
-
 	call InitializeNPCNames
 
 	farcall InitDecorations

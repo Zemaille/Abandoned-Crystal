@@ -1370,10 +1370,8 @@ RareCandyEffect:
 	ld a, MON_LEVEL
 	call GetPartyParamLocation
 
-	ld a, [wLevelCap]
-	ld b, a
 	ld a, [hl]
-	cp b
+	cp MAX_LEVEL
 	jmp nc, NoEffectMessage
 
 	inc a
@@ -1461,10 +1459,8 @@ CandyBagEffect:
 	ld a, MON_LEVEL
 	call GetPartyParamLocation
 
-	ld a, [wLevelCap]
-	ld b, a
 	ld a, [hl]
-	cp b
+	cp MAX_LEVEL
 	jmp nc, NoEffectMessage
 
 	inc a

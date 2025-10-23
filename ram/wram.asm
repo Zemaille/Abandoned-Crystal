@@ -1657,10 +1657,8 @@ wBugContestResults::
 	bugcontestwinner wBugContestThirdPlace
 wBugContestWinnersEnd::
 	bugcontestwinner wBugContestTemp
-	ds 2
+	ds 4
 wBugContestWinnerName:: ds NAME_LENGTH
-
-wLevelCap:: db
 
 SECTION UNION "Miscellaneous WRAM 1", WRAMX
 
