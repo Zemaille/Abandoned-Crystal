@@ -165,8 +165,8 @@ CyndaquilEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, LEER
-	dbw 6, SMOKESCREEN
-	dbw 10, EMBER
+	dbw 6, EMBER
+	dbw 10, SMOKESCREEN
 	dbw 13, QUICK_ATTACK
 	dbw 19, FLAME_WHEEL
 	dbw 22, DEFENSE_CURL
@@ -186,8 +186,8 @@ QuilavaEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, LEER
-	dbw 6, SMOKESCREEN
-	dbw 10, EMBER
+	dbw 6, EMBER
+	dbw 10, SMOKESCREEN
 	dbw 13, QUICK_ATTACK
 	dbw 20, FLAME_WHEEL
 	dbw 24, DEFENSE_CURL
@@ -206,8 +206,8 @@ TyphlosionEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, LEER
-	dbw 6, SMOKESCREEN
-	dbw 10, EMBER
+	dbw 6, EMBER
+	dbw 10, SMOKESCREEN
 	dbw 13, QUICK_ATTACK
 	dbw 20, FLAME_WHEEL
 	dbw 24, DEFENSE_CURL
