@@ -1999,7 +1999,7 @@ ENDU
 wBuffer1:: db
 
 	ds 22
-
+	
 
 SECTION "More WRAM 1", WRAMX
 
@@ -2876,6 +2876,8 @@ wVanceFightCount::   db
 wWiltonFightCount::  db
 wParryFightCount::   db
 wErinFightCount::    db
+
+wLevelCap:: db
 
 wEventFlags:: flag_array NUM_EVENTS
 
