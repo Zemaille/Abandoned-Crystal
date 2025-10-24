@@ -91,6 +91,7 @@ BattleAnimationsGen3::
 	dw BattleAnim_Coil
 	dw BattleAnim_Tickle
 	dw BattleAnim_BulkUp
+	dw BattleAnim_MagicalLeaf
 .IndirectEnd::
 
 BattleAnimSub_Sludge:
@@ -2407,4 +2408,41 @@ BattleAnim_BulkUp:
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $08, $2, $0
 	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_BULK_UP
 	anim_sound 0, 0, SFX_HORN_ATTACK
+	anim_ret
+
+BattleAnim_MagicalLeaf:
+	anim_setobjpal PAL_BATTLE_OB_YELLOW, PAL_BTLCUSTOM_AURORA
+	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
+	anim_call BattleAnimSub_Leaves
+	anim_wait 2
+	anim_sound 16, 2, SFX_SWEET_SCENT
+	anim_incobj 3
+	anim_wait 2
+	anim_sound 16, 2, SFX_SWEET_SCENT
+	anim_incobj 5
+	anim_wait 2
+	anim_sound 16, 2, SFX_SWEET_SCENT
+	anim_incobj 7
+	anim_wait 2
+	anim_sound 16, 2, SFX_SWEET_SCENT
+	anim_incobj 9
+	anim_wait 2
+	anim_sound 16, 2, SFX_SWEET_SCENT
+	anim_incobj 1
+	anim_wait 2
+	anim_sound 16, 2, SFX_SWEET_SCENT
+	anim_incobj 2
+	anim_wait 2
+	anim_sound 16, 2, SFX_SWEET_SCENT
+	anim_incobj 4
+	anim_wait 2
+	anim_sound 16, 2, SFX_SWEET_SCENT
+	anim_incobj 6
+	anim_wait 2
+	anim_sound 16, 2, SFX_SWEET_SCENT
+	anim_incobj 8
+	anim_wait 2
+	anim_sound 16, 2, SFX_SWEET_SCENT
+	anim_incobj 10
+	anim_wait 64
 	anim_ret

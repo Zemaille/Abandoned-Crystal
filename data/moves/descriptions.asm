@@ -356,6 +356,7 @@ MoveDescriptionsGen3:
 	dw CoilDescription
 	dw TickleDescription
 	dw BulkUpDescription
+	dw MagicalLeafDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -908,6 +909,7 @@ AerialAceDescription:
 DisarmVoiceDescription:
 TachyonRayDescription:
 ShadowPunchDescription:
+MagicalLeafDescription:
 	db   "An attack that"
 	next "never misses.@"
 

@@ -343,4 +343,5 @@ MoveNames::
 	li "Coil"
 	li "Tickle"
 	li "Bulk Up"
+	li "Magical Leaf"
 	assert_list_length NUM_ATTACKS

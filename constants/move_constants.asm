@@ -351,6 +351,7 @@ DEF GEN2_MOVES EQU const_value - 1
 	const COIL
 	const TICKLE
 	const BULK_UP
+	const MAGICAL_LEAF
 DEF GEN3_MOVES EQU const_value - 1
 	
 DEF NUM_ATTACKS EQU const_value - 1

@@ -108,7 +108,7 @@ ChikoritaEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, GROWL
-	dbw 6, RAZOR_LEAF
+	dbw 6, MAGICAL_LEAF
 	dbw 9, POISONPOWDER
 	dbw 12, SYNTHESIS
 	dbw 17, REFLECT

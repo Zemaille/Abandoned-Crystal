@@ -379,7 +379,7 @@ MovesGen3:
 	move EFFECT_COIL, 			     0, POISON,        STATUS,   100, 20,   0      ;Coil
 	move EFFECT_TICKLE,              0, NORMAL,        STATUS,   100, 20,   0      ;Tickle
 	move EFFECT_BULK_UP,             0, FIGHTING,      STATUS,   100, 20,   0      ;Bulk Up
-	
+	move EFFECT_ALWAYS_HIT,         60, GRASS,         SPECIAL,  100, 20,   0      ;Magical Leaf
 .IndirectEnd::
 
 
