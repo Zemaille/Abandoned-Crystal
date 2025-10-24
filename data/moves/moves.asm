@@ -98,7 +98,7 @@ MovesGen1:
 	move EFFECT_LEECH_HIT,          40, GRASS,         SPECIAL,  100, 15,   0      ;MEGA_DRAIN
 	move EFFECT_LEECH_SEED,          0, GRASS,         STATUS,    90, 10,   0      ;LEECH_SEED
 	move EFFECT_SP_ATK_UP,           0, NORMAL,        STATUS,   100, 40,   0      ;GROWTH
-	move EFFECT_NORMAL_HIT,         55, GRASS,         SPECIAL,   95, 25,   0      ;RAZOR_LEAF
+	move EFFECT_NORMAL_HIT,         55, GRASS,         PHYSICAL,  95, 25,   0      ;RAZOR_LEAF
 	move EFFECT_SOLARBEAM,         120, GRASS,         SPECIAL,  100, 10,   0      ;SOLARBEAM
 	move EFFECT_POISON,              0, POISON,        STATUS,    75, 35,   0      ;POISONPOWDER
 	move EFFECT_PARALYZE,            0, GRASS,         STATUS,    75, 30,   0      ;STUN_SPORE
@@ -123,7 +123,7 @@ MovesGen1:
 	move EFFECT_SPEED_UP_2,          0, PSYCHIC_TYPE,  STATUS,   100, 30,   0      ;AGILITY
 	move EFFECT_PRIORITY_HIT,       40, NORMAL,        PHYSICAL, 100, 30,   0      ;QUICK_ATTACK
 	move EFFECT_RAGE,               20, NORMAL,        PHYSICAL, 100, 20,   0      ;RAGE
-	move EFFECT_TELEPORT,            0, PSYCHIC_TYPE,  STATUS,   100, 20,   0      ;TELEPORT
+	move EFFECT_BATON_PASS,          0, PSYCHIC_TYPE,  STATUS,   100, 20,   0      ;TELEPORT
 	move EFFECT_LEVEL_DAMAGE,        1, GHOST,         SPECIAL,  100, 15,   0      ;NIGHT_SHADE
 	move EFFECT_MIMIC,               0, NORMAL,        STATUS,   100, 10,   0      ;MIMIC
 	move EFFECT_DEFENSE_DOWN_2,      0, NORMAL,        STATUS,    85, 40,   0      ;SCREECH
@@ -151,7 +151,7 @@ MovesGen1:
 	move EFFECT_FLINCH_HIT,         65, GROUND,        PHYSICAL,  85, 20,  10      ;BONE_CLUB
 	move EFFECT_BURN_HIT,          110, FIRE,          SPECIAL,   85,  5,  10      ;FIRE_BLAST
 	move EFFECT_FLINCH_HIT,         80, WATER,         PHYSICAL, 100, 15,  20      ;WATERFALL
-	move EFFECT_TRAP_TARGET,        50, WATER,         PHYSICAL,  90, 10,   0      ;CLAMP
+	move EFFECT_FLINCH_HIT,         65, WATER,         PHYSICAL,  95, 15,  20      ;CLAMP
 	move EFFECT_ALWAYS_HIT,         60, NORMAL,        SPECIAL,  100, 20,   0      ;SWIFT
 	move EFFECT_SKULL_BASH,        100, NORMAL,        PHYSICAL, 100, 15,   0      ;SKULL_BASH
 	move EFFECT_MULTI_HIT,          20, NORMAL,        PHYSICAL, 100, 15,   0      ;SPIKE_CANNON

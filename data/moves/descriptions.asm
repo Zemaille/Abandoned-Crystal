@@ -902,10 +902,6 @@ WaterfallDescription:
 	db   "An aquatic charge"
 	next "attack.@"
 
-ClampDescription:
-	db   "Traps the foe for"
-	next "2-5 turns.@"
-
 SwiftDescription:
 AuraSphereDescription:
 AerialAceDescription:
@@ -1028,6 +1024,7 @@ RestDescription:
 	next "to fully recover.@"
 
 RockSlideDescription:
+ClampDescription:
 	db   "An attack that may"
 	next "cause flinching.@"
 

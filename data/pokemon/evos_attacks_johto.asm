@@ -228,7 +228,7 @@ TotodileEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, SCRATCH
 	dbw 1, LEER
-	dbw 6, WATER_GUN
+	dbw 6, CLAMP
 	dbw 9, BITE 
 	dbw 13, SCARY_FACE
 	dbw 19, ICE_FANG
