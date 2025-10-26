@@ -1251,6 +1251,7 @@ PoliwrathEvosAttacks:
 	dbw 12, MUD_SHOT
 	dbw 18, BUBBLEBEAM
 	dbw 24, RAIN_DANCE
+	dbw 25, SUBMISSION
 	dbw 32, BODY_SLAM
 	dbw 40, SUBMISSION
 	dbw 48, HYDRO_PUMP
@@ -1458,8 +1459,8 @@ GeodudeEvosAttacks:
 	dbw 4, SHARPEN
 	dbw 6, RAPID_SPIN
 	dbw 10, ROLLOUT
-	dbw 12, SPARK
-	dbw 16, ROCK_THROW
+	dbw 12, ROCK_THROW
+	dbw 16, SPARK
 	dbw 18, MEGA_PUNCH
 	dbw 22, THUNDERPUNCH
 	dbw 24, SELFDESTRUCT
@@ -1479,8 +1480,8 @@ GravelerEvosAttacks:
 	dbw 4, SHARPEN
 	dbw 6, RAPID_SPIN
 	dbw 10, ROLLOUT
-	dbw 12, SPARK
-	dbw 16, ROCK_THROW
+	dbw 12, ROCK_THROW
+	dbw 16, SPARK
 	dbw 18, MEGA_PUNCH
 	dbw 22, THUNDERPUNCH
 	dbw 24, SELFDESTRUCT
@@ -1499,8 +1500,8 @@ GolemEvosAttacks:
 	dbw 4, SHARPEN
 	dbw 6, RAPID_SPIN
 	dbw 10, ROLLOUT
-	dbw 12, SPARK
-	dbw 16, ROCK_THROW
+	dbw 12, ROCK_THROW
+	dbw 16, SPARK
 	dbw 18, MEGA_PUNCH
 	dbw 22, THUNDERPUNCH
 	dbw 24, SELFDESTRUCT

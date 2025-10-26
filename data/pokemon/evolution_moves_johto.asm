@@ -3,13 +3,13 @@ SECTION "Evolution Moves 2", ROMX
 EvolutionMovesJohto:
 	dw NO_MOVE       ; CHIKORITA
 	dw NO_MOVE       ; BAYLEEF
-	dw STARBLAST     ; MEGANIUM
+	dw DAZZLE_GLEAM  ; MEGANIUM
 	dw NO_MOVE       ; CYNDAQUIL
 	dw NO_MOVE       ; QUILAVA
-	dw PYROCLASM     ; TYPHLOSION
+	dw EARTH_POWER   ; TYPHLOSION
 	dw NO_MOVE       ; TOTODILE
 	dw NO_MOVE       ; CROCONAW
-	dw AMBUSH        ; FERALIGATR
+	dw CRUNCH        ; FERALIGATR
 	dw NO_MOVE       ; SENTRET
 	dw AGILITY       ; FURRET
 	dw SHADOW_CLAW   ; HOOTHOOT
@@ -17,7 +17,7 @@ EvolutionMovesJohto:
 	dw NO_MOVE       ; LEDYBA
 	dw NO_MOVE       ; LEDIAN
 	dw NO_MOVE       ; SPINARAK
-	dw DIG           ; ARIADOS
+	dw SWORDS_DANCE  ; ARIADOS
 	dw CROSS_POISON  ; CROBAT
 	dw NO_MOVE       ; CHINCHOU
 	dw NO_MOVE       ; LANTURN
@@ -27,7 +27,7 @@ EvolutionMovesJohto:
 	dw NO_MOVE       ; TOGEPI
 	dw WING_ATTACK   ; TOGETIC
 	dw NO_MOVE       ; NATU
-	dw NO_MOVE       ; XATU
+	dw AIR_SLASH     ; XATU
 	dw NO_MOVE       ; MAREEP
 	dw NO_MOVE       ; FLAAFFY
 	dw THUNDERPUNCH  ; AMPHAROS
@@ -41,12 +41,12 @@ EvolutionMovesJohto:
 	dw NO_MOVE       ; JUMPLUFF
 	dw NO_MOVE       ; AIPOM
 	dw NO_MOVE       ; SUNKERN
-	dw NO_MOVE       ; SUNFLORA
+	dw FLAMETHROWER  ; SUNFLORA
 	dw NO_MOVE       ; YANMA
 	dw NO_MOVE       ; WOOPER
 	dw NO_MOVE       ; QUAGSIRE
 	dw CONFUSION     ; ESPEON
-	dw PURSUIT       ; UMBREON
+	dw SNARL         ; UMBREON
 	dw NO_MOVE       ; MURKROW
 	dw NO_MOVE       ; SLOWKING
 	dw NO_MOVE       ; MISDREAVUS
@@ -54,23 +54,23 @@ EvolutionMovesJohto:
 	dw NO_MOVE       ; WOBBUFFET
 	dw NO_MOVE       ; GIRAFARIG
 	dw NO_MOVE       ; PINECO
-	dw NO_MOVE       ; FORRETRESS
+	dw PROTECT       ; FORRETRESS
 	dw NO_MOVE       ; DUNSPARCE
 	dw NO_MOVE       ; GLIGAR
-	dw IRON_TAIL     ; STEELIX
+	dw CRUNCH        ; STEELIX
 	dw NO_MOVE       ; SNUBBULL
 	dw NO_MOVE       ; GRANBULL
 	dw NO_MOVE       ; QWILFISH
-	dw METAL_CLAW    ; SCIZOR
+	dw BULLET_PUNCH  ; SCIZOR
 	dw NO_MOVE       ; SHUCKLE
 	dw NO_MOVE       ; HERACROSS
 	dw NO_MOVE       ; SNEASEL
 	dw NO_MOVE       ; TEDDIURSA
 	dw NO_MOVE       ; URSARING
 	dw NO_MOVE       ; SLUGMA
-	dw NO_MOVE       ; MAGCARGO
+	dw SHELL_SMASH   ; MAGCARGO
 	dw NO_MOVE       ; SWINUB
-	dw FURY_ATTACK   ; PILOSWINE
+	dw ICE_FANG      ; PILOSWINE
 	dw NO_MOVE       ; CORSOLA
 	dw NO_MOVE       ; REMORAID
 	dw OCTAZOOKA     ; OCTILLERY
@@ -81,7 +81,7 @@ EvolutionMovesJohto:
 	dw NO_MOVE       ; HOUNDOOM
 	dw OUTRAGE       ; KINGDRA
 	dw NO_MOVE       ; PHANPY
-	dw FURY_ATTACK   ; DONPHAN
+	dw RAPID_SPIN    ; DONPHAN
 	dw NO_MOVE       ; PORYGON2
 	dw NO_MOVE       ; STANTLER
 	dw NO_MOVE       ; SMEARGLE
@@ -96,7 +96,7 @@ EvolutionMovesJohto:
 	dw NO_MOVE       ; ENTEI
 	dw NO_MOVE       ; SUICUNE
 	dw NO_MOVE       ; LARVITAR
-	dw NO_MOVE       ; PUPITAR
+	dw IRON_DEFENSE  ; PUPITAR
 	dw NO_MOVE       ; TYRANITAR
 	dw NO_MOVE       ; LUGIA
 	dw NO_MOVE       ; HO-OH
