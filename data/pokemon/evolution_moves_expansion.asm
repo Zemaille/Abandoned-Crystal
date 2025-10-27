@@ -1,7 +1,7 @@
 SECTION "Evolution Moves 3", ROMX
 
 EvolutionMovesExpansion:
-	dw NO_MOVE       ; Mismasgius
+	dw DAZZLE_GLEAM  ; Mismasgius
 	dw NO_MOVE       ; Honchkrow
 	dw NO_MOVE		 ; Munchlax
 	dw NO_MOVE		 ; Weavile
@@ -11,65 +11,65 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Tangrowth
 	dw NO_MOVE		 ; Electivire
 	dw NO_MOVE		 ; Magmortar
-	dw NO_MOVE		 ; Togekiss
-	dw NO_MOVE		 ; Yanmega
-	dw NO_MOVE		 ; Leafeon
-	dw NO_MOVE		 ; Glaceon
-	dw NO_MOVE		 ; Gliscor
+	dw AIR_SLASH     ; Togekiss
+	dw NIGHT_SLASH   ; Yanmega
+	dw RAZOR_LEAF    ; Leafeon
+	dw ICY_WIND		 ; Glaceon
+	dw POISON_JAB    ; Gliscor
 	dw NO_MOVE		 ; Mamoswine
 	dw NO_MOVE		 ; Porygon-Z
 	dw NO_MOVE		 ; Slowpoke-G
-	dw NO_MOVE		 ; Slowbro-G
-	dw NO_MOVE		 ; Slowking-G
+	dw POISON_JAB	 ; Slowbro-G
+	dw SLUDGE_BOMB   ; Slowking-G
 	dw NO_MOVE		 ; Ponyta-G
-	dw NO_MOVE		 ; Rapidash-G
+	dw PSYCHO_CUT	 ; Rapidash-G
 	dw NO_MOVE		 ; Corsola-G
-	dw NO_MOVE		 ; Cursola
+	dw PERISH_SONG	 ; Cursola
 	dw NO_MOVE		 ; Farigiraf
 	dw NO_MOVE		 ; Dudunsparce
-	dw NO_MOVE		 ; Ursaluna
+	dw EARTHQUAKE    ; Ursaluna
 	dw NO_MOVE		 ; Swablu
-	dw NO_MOVE		 ; Altaria
+	dw DRAGON_PULSE  ; Altaria
 	dw NO_MOVE		 ; Inkay
 	dw NO_MOVE		 ; Malamar
 	dw NO_MOVE		 ; Dewpider
 	dw NO_MOVE		 ; Araquanid
-	dw NO_MOVE		 ; Clodsire
+	dw ACID  		 ; Clodsire
 	dw NO_MOVE		 ; Spiritomb
 	dw NO_MOVE		 ; Feebas
-	dw NO_MOVE		 ; Milotic
+	dw WATER_PULSE   ; Milotic
 	dw NO_MOVE		 ; Phantump
 	dw NO_MOVE		 ; Trevenant
-	dw NO_MOVE		 ; Wyrdeer
+	dw SHADOW_PUNCH  ; Wyrdeer
 	dw NO_MOVE		 ; Annihilape
 	dw NO_MOVE		 ; Growlithe-H
-	dw NO_MOVE		 ; Arcanine-H
+	dw EXTREMESPEED  ; Arcanine-H
 	dw NO_MOVE		 ; Fennekin
 	dw NO_MOVE		 ; Braixen
-	dw NO_MOVE		 ; Delphox
+	dw MYSTIC_FIRE	 ; Delphox
 	dw NO_MOVE		 ; Sneasel-H
-	dw NO_MOVE		 ; Sneasler
-	dw NO_MOVE		 ; Marowak-A
-	dw NO_MOVE		 ; Raichu-A
+	dw DIRE_CLAW  	 ; Sneasler
+	dw SHADOW_CLAW	 ; Marowak-A
+	dw THUNDERPUNCH	 ; Raichu-A
 	dw NO_MOVE		 ; Qwilfish-H
-	dw NO_MOVE		 ; Overqwil
+	dw EXPLOSION	 ; Overqwil
 	dw NO_MOVE		 ; Zorua
-	dw NO_MOVE		 ; Zoroark
+	dw SHADOW_CLAW	 ; Zoroark
 	dw NO_MOVE		 ; Noibat
-	dw NO_MOVE		 ; Noivern
-	dw NO_MOVE		 ; Kleavor
-	dw NO_MOVE		 ; Sylveon
+	dw DRAGON_PULSE	 ; Noivern
+	dw STONE_EDGE	 ; Kleavor
+	dw DISARM_VOICE	 ; Sylveon
 	dw NO_MOVE		 ; Goomy
-	dw NO_MOVE		 ; Sliggoo
-	dw NO_MOVE		 ; Goodra
+	dw ACID  		 ; Sliggoo
+	dw LIQUIDATION	 ; Goodra
 	dw NO_MOVE		 ; Dreepy
-	dw NO_MOVE		 ; Drakloak
-	dw NO_MOVE		 ; Dragapult
+	dw DRAGON_PULSE	 ; Drakloak
+	dw DRAGON_DARTS	 ; Dragapult
 	dw NO_MOVE		 ; Articuno-G
 	dw NO_MOVE		 ; Zapdos-G
 	dw NO_MOVE		 ; Moltres-G
 	dw NO_MOVE		 ; Basculin
-	dw NO_MOVE		 ; Basculegion
+	dw SHADOW_BALL	 ; Basculegion
 	dw NO_MOVE		 ; Tandemaus
 	dw NO_MOVE		 ; Maushold
 	dw NO_MOVE		 ; Chimecho
@@ -77,12 +77,12 @@ EvolutionMovesExpansion:
 	dw NO_MOVE		 ; Dragalge
 	dw NO_MOVE		 ; Drampa
 	dw NO_MOVE		 ; Meltan
-	dw NO_MOVE		 ; Melmetal
+	dw THUNDERPUNCH  ; Melmetal
 	dw NO_MOVE		 ; Treecko
-	dw NO_MOVE		 ; Grovyle
-	dw NO_MOVE		 ; Sceptile
+	dw LEAF_BLADE    ; Grovyle
+	dw DRAGON_CLAW	 ; Sceptile
 	dw NO_MOVE		 ; Vulpix-A
-	dw NO_MOVE		 ; Ninetales-A
+	dw DAZZLE_GLEAM	 ; Ninetales-A
 	dw NO_MOVE		 ; Ambipom
 .IndirectEnd::
 
