@@ -39,7 +39,7 @@ ItemNames::
 	li "Super Repel"  ; 0025
 	li "Max Repel"    ; 0026
 	li "DIRE HIT"     ; 0027
-	li "TERU-SAMA"    ; 0028
+	li "Dusk Stone"   ; 0028
 	li "Fresh Water"  ; 0029
 	li "Soda Pop"     ; 002A
 	li "Lemonade"     ; 002B
