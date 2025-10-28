@@ -30,7 +30,7 @@ ItemDescriptions1:
 	dw FireStoneDesc    ; 0011
 	dw ThunderStoneDesc ; 0012
 	dw WaterStoneDesc   ; 0013
-	dw QuestionMarkDesc ; 0014
+	dw RelicStoneDesc   ; 0014
 	dw HPUpDesc         ; 0015
 	dw ProteinDesc      ; 0016
 	dw IronDesc         ; 0017
@@ -311,8 +311,9 @@ ThunderStoneDesc:
 	next "kinds of #MON.@"
 
 WaterStoneDesc:
+RelicStoneDesc:
 	db   "Evolves certain"
-	next "kinds of #MON.@"
+	next "kinds of Pokémon.@"
 
 HPUpDesc:
 	db   "Raises the HP of"

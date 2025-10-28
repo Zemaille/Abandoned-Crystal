@@ -407,7 +407,7 @@ PorygonZEvosAttacks:
 
 SlowpokeGEvosAttacks:
 	dbbw EVOLVE_LEVEL, 37, SLOWBRO_G
-	dbbw EVOLVE_ITEM, KINGS_ROCK, SLOWKING_G
+	dbbw EVOLVE_ITEM, RELIC_STONE, SLOWKING_G
 	db 0
 	dbw 1, TACKLE
 	dbw 1, CURSE

@@ -19,7 +19,7 @@ ItemNames::
 	li "Fire Stone"   ; 0011
 	li "ThunderStone" ; 0012
 	li "Water Stone"  ; 0013
-	li "TERU-SAMA"    ; 0014
+	li "Relic Stone"  ; 0014
 	li "HP Up"        ; 0015
 	li "Protein"      ; 0016
 	li "Iron"         ; 0017
