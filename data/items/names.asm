@@ -73,7 +73,7 @@ ItemNames::
 	li "Big Shroom"   ; 0047
 	li "SilverPowder" ; 0048
 	li "Blue Apri"    ; 0049
-	li "TERU-SAMA"    ; 004A
+	li "Eviolite"     ; 004A
 	li "Amulet Coin"  ; 004B
 	li "Yellow Apri"  ; 004C
 	li "Green Apri"   ; 004D

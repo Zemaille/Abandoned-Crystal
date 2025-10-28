@@ -2554,6 +2554,66 @@ EndMoveEffect:
 	ret
 
 DittoMetalPowder:
+;	ld a, MON_SPECIES
+;	call BattlePartyAttr
+;	ldh a, [hBattleTurn]
+;	and a
+;	ld a, [hl]
+;	jr nz, .got_species
+;	ld a, [wTempEnemyMonSpecies]
+;
+;.got_species
+;	push hl
+;	call GetPokemonIndexFromID
+;	ld a, l
+;	sub LOW(DITTO)
+;	if HIGH(DITTO) == 0
+;		or h
+;		pop hl
+;	else
+;		ld a, h
+;		pop hl
+;		ret nz
+;		if HIGH(DITTO) == 1
+;			dec a
+;		else
+;			cp HIGH(DITTO)
+;		endc
+;	endc
+;	ret nz
+;
+;	push bc
+;	call GetOpponentItem
+;	ld a, [hl]
+;	push hl
+;	call GetItemIndexFromID
+;	cphl16 METAL_POWDER
+;	pop hl
+;	pop bc
+;	ret nz
+;
+;	ld h, b
+;	ld l, c
+;	srl b
+;	rr c
+;	add hl, bc
+;	ld b, h
+;	ld c, l
+;
+;	ld a, HIGH(MAX_STAT_VALUE)
+;	cp b
+;	jr c, .cap
+;	ret nz
+;	ld a, LOW(MAX_STAT_VALUE)
+;	cp c
+;	ret nc
+;
+;.cap
+;	ld bc, MAX_STAT_VALUE
+	ret
+
+UnevolvedEviolite:
+; get the defender's species
 	ld a, MON_SPECIES
 	call BattlePartyAttr
 	ldh a, [hBattleTurn]
@@ -2561,55 +2621,64 @@ DittoMetalPowder:
 	ld a, [hl]
 	jr nz, .got_species
 	ld a, [wTempEnemyMonSpecies]
-
 .got_species
+; check if the defender has any evolutions
+; hl := EvosAttacksPointers + (species - 1) * 2
+	dec a
 	push hl
-	call GetPokemonIndexFromID
-	ld a, l
-	sub LOW(DITTO)
-	if HIGH(DITTO) == 0
-		or h
-		pop hl
-	else
-		ld a, h
-		pop hl
-		ret nz
-		if HIGH(DITTO) == 1
-			dec a
-		else
-			cp HIGH(DITTO)
-		endc
-	endc
-	ret nz
-
+	push bc
+	ld c, a
+	ld b, 0
+	ld hl, EvosAttacksPointers
+	add hl, bc
+	add hl, bc
+; hl := the species' entry from EvosAttacksPointers
+	ld a, BANK(EvosAttacksPointers)
+	call GetFarWord
+; check across all three banks for evolution data
+	push hl
+	ld a, BANK("Evolutions and Attacks 1")
+	call GetFarByte
+	and a
+	jr nz, .has_evolutions
+	pop hl
+	push hl
+	ld a, BANK("Evolutions and Attacks 2")
+	call GetFarByte
+	and a
+	jr nz, .has_evolutions
+	pop hl
+	push hl
+	ld a, BANK("Evolutions and Attacks 3")
+	call GetFarByte
+	and a
+.has_evolutions
+	pop hl
+; if a == 0, there are no evolutions, so don't boost stats
+	pop bc
+	pop hl
+	ret z
+; check if the defender's item is Eviolite
 	push bc
 	call GetOpponentItem
-	ld a, [hl]
-	push hl
-	call GetItemIndexFromID
-	cphl16 METAL_POWDER
-	pop hl
+	ld a, b
+	cp HELD_EVIOLITE
 	pop bc
 	ret nz
-
-	ld h, b
-	ld l, c
-	srl b
-	rr c
-	add hl, bc
-	ld b, h
-	ld c, l
-
-	ld a, HIGH(MAX_STAT_VALUE)
-	cp b
-	jr c, .cap
-	ret nz
-	ld a, LOW(MAX_STAT_VALUE)
-	cp c
+; boost the relevant defense stat in bc by 50%
+	ld a, c
+	srl a
+	add c
+	ld c, a
 	ret nc
-
-.cap
-	ld bc, MAX_STAT_VALUE
+	srl b
+	ld a, b
+	and a
+	jr nz, .done
+	inc b
+.done
+	scf
+	rr c
 	ret
 
 BattleCommand_DamageStats:
@@ -2698,6 +2767,7 @@ PlayerAttackDamage:
 	ld a, [wBattleMonLevel]
 	ld e, a
 	call DittoMetalPowder
+	call UnevolvedEviolite
 
 	ld a, 1
 	and a
@@ -2963,6 +3033,7 @@ EnemyAttackDamage:
 	ld a, [wEnemyMonLevel]
 	ld e, a
 	call DittoMetalPowder
+	call UnevolvedEviolite
 
 	ld a, 1
 	and a

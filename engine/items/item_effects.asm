@@ -103,7 +103,7 @@ ItemEffects1:
 	dw NoEffect            ; TINYMUSHROOM
 	dw NoEffect            ; BIG_MUSHROOM
 	dw NoEffect            ; SILVERPOWDER
-	dw NoEffect            ; BLU_APRICORN
+	dw NoEffect            ; EVIOLITE
 	dw NoEffect            ; ITEM_5A
 	dw NoEffect            ; AMULET_COIN
 	dw NoEffect            ; YLW_APRICORN
