@@ -1246,6 +1246,7 @@ HeracrossEvosAttacks:
 	db 0 ; no more level-up moves
 
 SneaselEvosAttacks:
+	dbbw EVOLVE_ITEM, ICE_STONE, WEAVILE
 	db 0 ; no more evolutions
 	dbw 1, SCRATCH
 	dbw 1, LEER
@@ -1357,6 +1358,7 @@ SwinubEvosAttacks:
 	db 0 ; no more level-up moves
 
 PiloswineEvosAttacks:
+	dbbw EVOLVE_ITEM, ICE_STONE, MAMOSWINE
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, MUD_SLAP

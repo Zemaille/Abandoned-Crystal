@@ -55,7 +55,7 @@ ItemDescriptions1:
 	dw SodaPopDesc      ; 002A
 	dw LemonadeDesc     ; 002B
 	dw XAttackDesc      ; 002C
-	dw QuestionMarkDesc ; 002D
+	dw IceStoneDesc     ; 002D
 	dw XDefendDesc      ; 002E
 	dw XSpeedDesc       ; 002F
 	dw XSpecialDesc     ; 0030
@@ -313,6 +313,7 @@ ThunderStoneDesc:
 WaterStoneDesc:
 RelicStoneDesc:
 DuskStoneDesc:
+IceStoneDesc:
 	db   "Evolves certain"
 	next "kinds of Pokémon.@"
 

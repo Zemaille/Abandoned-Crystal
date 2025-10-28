@@ -44,7 +44,7 @@ ItemNames::
 	li "Soda Pop"     ; 002A
 	li "Lemonade"     ; 002B
 	li "X ATTACK"     ; 002C
-	li "TERU-SAMA"    ; 002D
+	li "Ice Stone"    ; 002D
 	li "X DEFEND"     ; 002E
 	li "X SPEED"      ; 002F
 	li "X SPECIAL"    ; 0030

@@ -1582,6 +1582,7 @@ SceptileEvosAttacks:
 	db 0
 
 VulpixAEvosAttacks:
+	dbbw EVOLVE_ITEM, ICE_STONE, NINETALES_A
 	db 0
 	dbw 1, TAIL_WHIP
 	dbw 1, POWDER_SNOW
