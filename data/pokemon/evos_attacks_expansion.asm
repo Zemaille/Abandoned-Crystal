@@ -406,6 +406,8 @@ PorygonZEvosAttacks:
 	db 0
 
 SlowpokeGEvosAttacks:
+	dbbw EVOLVE_LEVEL, 37, SLOWBRO_G
+	dbbw EVOLVE_ITEM, KINGS_ROCK, SLOWKING_G
 	db 0
 	dbw 1, TACKLE
 	dbw 1, CURSE
@@ -950,6 +952,7 @@ DelphoxEvosAttacks:
 	db 0
 
 SneaselHEvosAttacks:
+	dbbw EVOLVE_ITEM, KINGS_ROCK, SNEASLER
 	db 0
 	dbw 1, SCRATCH
 	dbw 1, LEER

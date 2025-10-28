@@ -515,7 +515,7 @@ IgglybuffEvosAttacks:
 	db 0 ; no more level-up moves
 
 TogepiEvosAttacks:
-	dbbw EVOLVE_HAPPINESS, TR_ANYTIME, TOGETIC
+	dbbw EVOLVE_LEVEL, 10, TOGETIC
 	db 0 ; no more evolutions
 	dbw 1, GROWL
 	dbw 1, POUND
@@ -533,6 +533,7 @@ TogepiEvosAttacks:
 	db 0 ; no more level-up moves
 
 TogeticEvosAttacks:
+	dbbw EVOLVE_ITEM, MOON_STONE, TOGEKISS
 	db 0 ; no more evolutions
 	dbw 1, GROWL
 	dbw 1, POUND
@@ -876,6 +877,7 @@ YanmaEvosAttacks:
 
 WooperEvosAttacks:
 	dbbw EVOLVE_LEVEL, 20, QUAGSIRE
+	dbbw EVOLVE_ITEM, KINGS_ROCK, CLODSIRE
 	db 0 ; no more evolutions
 	dbw 1, BUBBLE
 	dbw 1, TAIL_WHIP
@@ -1096,6 +1098,7 @@ DunsparceEvosAttacks:
 	db 0 ; no more level-up moves
 
 GligarEvosAttacks:
+	dbbw EVOLVE_ITEM, KINGS_ROCK, GLISCOR
 	db 0 ; no more evolutions
 	dbw 1, POISON_STING
 	dbw 4, SAND_ATTACK
@@ -1564,6 +1567,7 @@ DonphanEvosAttacks:
 	db 0 ; no more level-up moves
 
 Porygon2EvosAttacks:
+	dbbw EVOLVE_ITEM, UP_GRADE, PORYGON_Z
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, CONVERSION

@@ -559,6 +559,7 @@ ArbokEvosAttacks:
 
 PikachuEvosAttacks:
 	dbww EVOLVE_ITEM, THUNDERSTONE, RAICHU
+	dbww EVOLVE_ITEM, WATER_STONE, RAICHU_A
 	db 0 ; no more evolutions
 	dbw 1, THUNDERSHOCK
 	dbw 1, GROWL
@@ -1227,7 +1228,7 @@ PoliwagEvosAttacks:
 
 PoliwhirlEvosAttacks:
 	dbww EVOLVE_ITEM, WATER_STONE, POLIWRATH
-	dbww EVOLVE_TRADE, KINGS_ROCK, POLITOED
+	dbww EVOLVE_ITEM, LEAF_STONE, POLITOED
 	db 0 ; no more evolutions
 	dbw 1, BUBBLE
 	dbw 1, HYPNOSIS
@@ -1587,7 +1588,7 @@ SlowbroEvosAttacks:
 	dbw 30, SURF
 	dbw 33, SLACK_OFF
 	dbw 36, PSYCHIC_M
-	dbw 37, CALM_MIND
+	dbw 39, CALM_MIND
 	dbw 46, RAIN_DANCE
 	db 0 ; no more level-up moves
 
@@ -1612,6 +1613,7 @@ MagnemiteEvosAttacks:
 	db 0 ; no more level-up moves
 
 MagnetonEvosAttacks:
+	dbbw EVOLVE_ITEM, THUNDERSTONE, MAGNEZONE
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, THUNDERSHOCK
@@ -2188,6 +2190,7 @@ RhyhornEvosAttacks:
 	db 0 ; no more level-up moves
 
 RhydonEvosAttacks:
+	dbbw EVOLVE_ITEM, KINGS_ROCK, RHYPERIOR
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, TAIL_WHIP
@@ -2399,7 +2402,8 @@ MrMimeEvosAttacks:
 	db 0 ; no more level-up moves
 
 ScytherEvosAttacks:
-	dbww EVOLVE_TRADE, METAL_COAT, SCIZOR
+	dbww EVOLVE_ITEM, METAL_COAT, SCIZOR
+	dbbw EVOLVE_ITEM, KINGS_ROCK, KLEAVOR
 	db 0 ; no more evolutions
 	dbw 1, LEER
 	dbw 1, QUICK_ATTACK
@@ -2435,6 +2439,7 @@ JynxEvosAttacks:
 	db 0 ; no more level-up moves
 
 ElectabuzzEvosAttacks:
+	dbww EVOLVE_ITEM, THUNDERSTONE, ELECTIVIRE
 	db 0 ; no more evolutions
 	dbw 1, LEER
 	dbw 1, QUICK_ATTACK
@@ -2454,6 +2459,7 @@ ElectabuzzEvosAttacks:
 	db 0 ; no more level-up moves
 
 MagmarEvosAttacks:
+	dbbw EVOLVE_ITEM, FIRE_STONE, MAGMORTAR
 	db 0 ; no more evolutions
 	dbw 1, LEER
 	dbw 1, SMOG
@@ -2561,7 +2567,10 @@ EeveeEvosAttacks:
 	dbww EVOLVE_ITEM, WATER_STONE, VAPOREON
 	dbww EVOLVE_ITEM, FIRE_STONE, FLAREON
 	dbbw EVOLVE_ITEM, SUN_STONE, ESPEON
-	dbbw EVOLVE_ITEM, MOON_STONE, UMBREON
+	dbbw EVOLVE_ITEM, KINGS_ROCK, UMBREON
+	dbbw EVOLVE_ITEM, LEAF_STONE, LEAFEON
+	dbbw EVOLVE_ITEM, METAL_COAT, GLACEON
+	dbbw EVOLVE_ITEM, MOON_STONE, SYLVEON	
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, TAIL_WHIP
