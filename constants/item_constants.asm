@@ -193,6 +193,7 @@ DEF FIRST_KEY_ITEM EQU const_value
 	const RAINBOW_WING ; 0115
 	const CANDY_BAG    ; 0116
 	const HATCHET
+	const LANTERN
 DEF NUM_KEY_ITEM_POCKET EQU const_value - FIRST_KEY_ITEM
 assert NUM_KEY_ITEM_POCKET <= $ff
 

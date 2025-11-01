@@ -19,10 +19,10 @@ DarkCaveVioletEntranceFullHeal:
 	itemball FULL_HEAL
 
 DarkCaveVioletEntranceHyperPotion:
-	itemball HYPER_POTION
+	itemball THUNDERSTONE
 
 DarkCaveVioletEntranceDireHit:
-	itemball DIRE_HIT
+	itemball LANTERN
 
 DarkCaveVioletEntranceHiddenElixer:
 	hiddenitem ELIXER, EVENT_DARK_CAVE_VIOLET_ENTRANCE_HIDDEN_ELIXER

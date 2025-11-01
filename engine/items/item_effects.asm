@@ -217,6 +217,7 @@ ItemEffectsKeyItems:
 	dw NoEffect           ; RAINBOW_WING
 	dw CandyBagEffect     ; Candy Bag
 	dw HatchetEffect	  ; Hatchet
+	dw LanternEffect      ; Lantern
 .IndirectEnd:
 
 ItemEffectsBalls:
@@ -3100,3 +3101,8 @@ GetMthMoveOfCurrentMon:
 HatchetEffect:
 	farcall CutFunction
 	ret
+
+LanternEffect:
+	farcall FlashFunction
+	ret
+	

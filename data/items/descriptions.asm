@@ -197,6 +197,7 @@ ItemDescriptionsKeyItems:
 	dw RainbowWingDesc  ; 0115
 	dw CandyBagDesc
 	dw HatchetDesc
+	dw LanternDesc
 .IndirectEnd:
 
 ItemDescriptionsBalls:
@@ -898,3 +899,7 @@ EvioliteDesc:
 HatchetDesc:
 	db   "Cuts down pesky"
 	next "plants.@"
+	
+LanternDesc:
+	db   "Lights up dark"
+	next "caves.@"
