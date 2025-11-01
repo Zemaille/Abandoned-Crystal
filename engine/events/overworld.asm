@@ -205,7 +205,6 @@ Script_CutFromMenu:
 	special UpdateTimePals
 
 Script_Cut:
-	callasm GetPartyNickname
 	writetext UseCutText
 	refreshmap
 	callasm CutDownTreeOrGrass

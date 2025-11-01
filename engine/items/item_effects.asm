@@ -216,6 +216,7 @@ ItemEffectsKeyItems:
 	dw SquirtbottleEffect ; SQUIRTBOTTLE
 	dw NoEffect           ; RAINBOW_WING
 	dw CandyBagEffect     ; Candy Bag
+	dw HatchetEffect	  ; Hatchet
 .IndirectEnd:
 
 ItemEffectsBalls:
@@ -3094,4 +3095,8 @@ GetMthMoveOfCurrentMon:
 	ld c, a
 	ld b, 0
 	add hl, bc
+	ret
+
+HatchetEffect:
+	farcall CutFunction
 	ret

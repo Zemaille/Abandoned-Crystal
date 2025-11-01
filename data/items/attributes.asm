@@ -389,6 +389,11 @@ ItemKeyAttributes:
 	item_attribute 0, HELD_NONE, 0, CANT_SELECT | CANT_TOSS, KEY_ITEM, ITEMMENU_NOUSE, ITEMMENU_NOUSE
 ; Candy Bag
 	item_attribute 0, HELD_NONE, 0, CANT_TOSS, KEY_ITEM, ITEMMENU_PARTY, ITEMMENU_NOUSE
+
+;; HM ITEMS -----------------------------------------------------\
+; Hatchet
+	item_attribute 0, HELD_NONE, 0, CANT_TOSS, KEY_ITEM, ITEMMENU_CLOSE, ITEMMENU_NOUSE
+	
 .IndirectEnd::
 
 

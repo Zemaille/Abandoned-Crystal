@@ -186,6 +186,7 @@ KeyItemNames::
 	li "Squirtbottle" ; 0114
 	li "Rainbow Wing" ; 0115
 	li "Candy Bag"
+	li "Hatchet"
 	assert_list_length NUM_KEY_ITEM_POCKET
 
 BallNames::

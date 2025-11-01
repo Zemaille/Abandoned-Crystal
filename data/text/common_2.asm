@@ -256,18 +256,17 @@ _CantUseItemText::
 	prompt
 
 _UseCutText::
-	text_ram wStringBuffer2
-	text " used"
-	line "CUT!"
+	text "The shrub was"
+	line "cleared away!"
 	prompt
 
 _CutNothingText::
 	text "There's nothing to"
-	line "CUT here."
+	line "cut here."
 	prompt
 
 _BlindingFlashText::
-	text "A blinding FLASH"
+	text "A blinding flash"
 	line "lights the area!@"
 	text_promptbutton
 	text_end

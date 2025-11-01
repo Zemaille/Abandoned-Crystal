@@ -196,6 +196,7 @@ ItemDescriptionsKeyItems:
 	dw SquirtBottleDesc ; 0114
 	dw RainbowWingDesc  ; 0115
 	dw CandyBagDesc
+	dw HatchetDesc
 .IndirectEnd:
 
 ItemDescriptionsBalls:
@@ -893,3 +894,7 @@ CandyBagDesc:
 EvioliteDesc:
 	db   "Bolsters Pokémon"
 	next "who can evolve.@"
+
+HatchetDesc:
+	db   "Cuts down pesky"
+	next "plants.@"

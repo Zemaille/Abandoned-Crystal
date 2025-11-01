@@ -39,10 +39,10 @@ IlexForestHeartBerserkGene:
 	itemball BERSERK_GENE
 
 IlexForestHeartLeafStone:
-	itemball WATER_STONE
+	itemball KINGS_ROCK
 	
 IlexForestHeartHatchet:
-	itemball BICYCLE
+	itemball HATCHET
 
 IlexForestHeartHiddenBigNugget:
 	hiddenitem BIG_NUGGET, EVENT_ILEX_FOREST_HEART_HIDDEN_BIG_NUGGET
