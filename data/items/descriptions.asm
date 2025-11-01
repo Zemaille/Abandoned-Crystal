@@ -198,6 +198,7 @@ ItemDescriptionsKeyItems:
 	dw CandyBagDesc
 	dw HatchetDesc
 	dw LanternDesc
+	dw LochFluteDesc
 .IndirectEnd:
 
 ItemDescriptionsBalls:
@@ -903,3 +904,9 @@ HatchetDesc:
 LanternDesc:
 	db   "Lights up dark"
 	next "caves.@"
+
+LochFluteDesc:
+	db   "Calls a Lapras to"
+	next "Surf for you.@"
+	
+	

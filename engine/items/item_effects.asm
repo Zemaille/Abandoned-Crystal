@@ -218,6 +218,7 @@ ItemEffectsKeyItems:
 	dw CandyBagEffect     ; Candy Bag
 	dw HatchetEffect	  ; Hatchet
 	dw LanternEffect      ; Lantern
+	dw LochFluteEffect    ; Loch Flute
 .IndirectEnd:
 
 ItemEffectsBalls:
@@ -3099,10 +3100,15 @@ GetMthMoveOfCurrentMon:
 	ret
 
 HatchetEffect:
-	farcall CutFunction
+	call CutFunction
 	ret
 
 LanternEffect:
-	farcall FlashFunction
+	call FlashFunction
 	ret
-	
+
+LochFluteEffect:
+	call SurfFunction
+	ret
+
+

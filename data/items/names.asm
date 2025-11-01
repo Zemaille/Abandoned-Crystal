@@ -188,6 +188,7 @@ KeyItemNames::
 	li "Candy Bag"
 	li "Hatchet"
 	li "Lantern"
+	li "Loch Flute"
 	assert_list_length NUM_KEY_ITEM_POCKET
 
 BallNames::

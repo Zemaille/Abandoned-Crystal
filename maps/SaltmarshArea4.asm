@@ -13,7 +13,7 @@ SaltmarshArea4_MapScripts:
 	def_callbacks
 
 SaltmarshArea4LochFluteScript:
-	itemball BICYCLE
+	itemball LOCH_FLUTE
 	
 SaltmarshArea4BrightPowderScript:
 	itemball BRIGHTPOWDER
