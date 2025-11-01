@@ -199,6 +199,7 @@ ItemDescriptionsKeyItems:
 	dw HatchetDesc
 	dw LanternDesc
 	dw LochFluteDesc
+	dw LiftingBeltDesc
 .IndirectEnd:
 
 ItemDescriptionsBalls:
@@ -909,4 +910,8 @@ LochFluteDesc:
 	db   "Calls a Lapras to"
 	next "Surf for you.@"
 	
+LiftingBeltDesc:
+	db   "Lets you move"
+	next "heavy boulders.@"
+
 	

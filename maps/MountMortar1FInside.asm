@@ -59,7 +59,7 @@ MountMortar1FInsideIron:
 	itemball IRON
 
 MountMortar1FInsideUltraBall:
-	itemball ULTRA_BALL
+	itemball LIFTING_BELT
 
 MountMortar1FInsideHiddenMaxRepel:
 	hiddenitem MAX_REPEL, EVENT_MOUNT_MORTAR_1F_INSIDE_HIDDEN_MAX_REPEL

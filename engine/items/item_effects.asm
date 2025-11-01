@@ -219,6 +219,7 @@ ItemEffectsKeyItems:
 	dw HatchetEffect	  ; Hatchet
 	dw LanternEffect      ; Lantern
 	dw LochFluteEffect    ; Loch Flute
+	dw LiftingBeltEffect  ; Lifting Belt
 .IndirectEnd:
 
 ItemEffectsBalls:
@@ -3111,4 +3112,6 @@ LochFluteEffect:
 	call SurfFunction
 	ret
 
-
+LiftingBeltEffect:
+	call StrengthFunction
+	ret

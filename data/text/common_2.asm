@@ -325,7 +325,7 @@ _CantUseDigText::
 
 _TeleportReturnText::
 	text "Return to the last"
-	line "#MON CENTER."
+	line "Pokémon Center."
 	done
 
 _CantUseTeleportText::
@@ -336,28 +336,25 @@ _CantUseTeleportText::
 	done
 
 _AlreadyUsingStrengthText::
-	text "A #MON is using"
-	line "STRENGTH already."
+	text "You can already"
+	line "push boulders!."
 	prompt
 
 _UseStrengthText::
-	text_ram wStringBuffer2
-	text " used"
-	line "STRENGTH!"
+	text "Muscles flexed!"
 	done
 
 _MoveBoulderText::
-	text_ram wStringBuffer1
-	text " can"
-	line "move boulders."
+	text "You can now move"
+	line "boulders."
 	prompt
 
 _AskStrengthText::
-	text "A #MON may be"
+	text "A Pokémon may be"
 	line "able to move this."
 
 	para "Want to use"
-	line "STRENGTH?"
+	line "Strength?"
 	done
 
 _BouldersMoveText::
@@ -366,7 +363,7 @@ _BouldersMoveText::
 	done
 
 _BouldersMayMoveText::
-	text "A #MON may be"
+	text "A Pokémon may be"
 	line "able to move this."
 	done
 

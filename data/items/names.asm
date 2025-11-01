@@ -189,6 +189,7 @@ KeyItemNames::
 	li "Hatchet"
 	li "Lantern"
 	li "Loch Flute"
+	li "Lifting Belt"
 	assert_list_length NUM_KEY_ITEM_POCKET
 
 BallNames::

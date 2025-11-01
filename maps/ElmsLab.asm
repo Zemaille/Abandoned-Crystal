@@ -478,7 +478,7 @@ AideScript_GivePotion:
 	opentext
 	writetext AideText_GiveYouPotion
 	promptbutton
-	verbosegiveitem LOCH_FLUTE
+	verbosegiveitem CANDY_BAG
 	writetext AideText_AlwaysBusy
 	waitbutton
 	closetext
