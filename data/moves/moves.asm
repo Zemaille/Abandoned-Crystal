@@ -29,7 +29,7 @@ MovesGen1:
 	move EFFECT_MULTI_HIT,          15, NORMAL,        PHYSICAL,  85, 10,   0      ;DOUBLESLAP
 	move EFFECT_MULTI_HIT,          18, NORMAL,        PHYSICAL,  85, 15,   0      ;COMET_PUNCH
 	move EFFECT_NORMAL_HIT,         80, NORMAL,        PHYSICAL,  85, 20,   0      ;MEGA_PUNCH
-	move EFFECT_PAY_DAY,            40, NORMAL,        PHYSICAL, 100, 20,   0      ;PAY_DAY
+	move EFFECT_PAY_DAY,            60, NORMAL,        PHYSICAL, 100, 20,   0      ;PAY_DAY
 	move EFFECT_BURN_HIT,           75, FIRE,          PHYSICAL, 100, 15,  10      ;FIRE_PUNCH
 	move EFFECT_FREEZE_HIT,         75, ICE,           PHYSICAL, 100, 15,  10      ;ICE_PUNCH
 	move EFFECT_PARALYZE_HIT,       75, ELECTRIC,      PHYSICAL, 100, 15,  10      ;THUNDERPUNCH
