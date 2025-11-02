@@ -200,6 +200,7 @@ ItemDescriptionsKeyItems:
 	dw LanternDesc
 	dw LochFluteDesc
 	dw LiftingBeltDesc
+	dw VortexDriveDesc
 .IndirectEnd:
 
 ItemDescriptionsBalls:
@@ -914,4 +915,7 @@ LiftingBeltDesc:
 	db   "Lets you move"
 	next "heavy boulders.@"
 
+VortexDriveDesc:
+	db   "Device that calms"
+	next "whirlpools.@"
 	

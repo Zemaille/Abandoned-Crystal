@@ -368,16 +368,15 @@ _BouldersMayMoveText::
 	done
 
 _UseWhirlpoolText::
-	text_ram wStringBuffer2
-	text " used"
-	line "WHIRLPOOL!"
+	text "The whirlpool was"
+	line "stopped!"
 	prompt
 
 _MayPassWhirlpoolText::
 	text "It's a vicious"
 	line "whirlpool!"
 
-	para "A #MON may be"
+	para "A Pokémon may be"
 	line "able to pass it."
 	done
 
@@ -386,7 +385,7 @@ _AskWhirlpoolText::
 	line "the way."
 
 	para "Want to use"
-	line "WHIRLPOOL?"
+	line "Whirlpool?"
 	done
 
 _UseHeadbuttText::

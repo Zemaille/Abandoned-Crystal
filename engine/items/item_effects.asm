@@ -220,6 +220,7 @@ ItemEffectsKeyItems:
 	dw LanternEffect      ; Lantern
 	dw LochFluteEffect    ; Loch Flute
 	dw LiftingBeltEffect  ; Lifting Belt
+	dw VortexDriveEffect  ; Vortex Drive
 .IndirectEnd:
 
 ItemEffectsBalls:
@@ -3114,4 +3115,8 @@ LochFluteEffect:
 
 LiftingBeltEffect:
 	call StrengthFunction
+	ret
+
+VortexDriveEffect:
+	call WhirlpoolFunction
 	ret

@@ -50,7 +50,7 @@ LugiaText:
 	done
 
 WhirlIslandWaterStoneScript:
-	itemball WATER_STONE
+	itemball ICE_STONE
 
 WhirlIslandPPUpScript:
 	itemball PP_UP
@@ -59,7 +59,7 @@ WhirlIslandBigNuggetScript:
 	itemball BIG_NUGGET
 
 WhirlIslandVortexDriveScript:
-	itemball BICYCLE
+	itemball VORTEX_DRIVE
 
 TrainerSwimmerfJill:
 	trainer SWIMMERF, JILL, EVENT_BEAT_SWIMMERF_JILL, SwimmerfJillSeenText, SwimmerfJillBeatenText, 0, .Script
