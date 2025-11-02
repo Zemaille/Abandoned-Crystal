@@ -191,6 +191,7 @@ KeyItemNames::
 	li "Loch Flute"
 	li "Lifting Belt"
 	li "Vortex Drive"
+	li "Hydro Boost"
 	assert_list_length NUM_KEY_ITEM_POCKET
 
 BallNames::

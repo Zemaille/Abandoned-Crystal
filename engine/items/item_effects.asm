@@ -221,6 +221,7 @@ ItemEffectsKeyItems:
 	dw LochFluteEffect    ; Loch Flute
 	dw LiftingBeltEffect  ; Lifting Belt
 	dw VortexDriveEffect  ; Vortex Drive
+	dw HydroBoostEffect   ; Hydro Boost
 .IndirectEnd:
 
 ItemEffectsBalls:
@@ -3120,3 +3121,9 @@ LiftingBeltEffect:
 VortexDriveEffect:
 	call WhirlpoolFunction
 	ret
+
+HydroBoostEffect:
+	call WaterfallFunction
+	ret
+	
+	

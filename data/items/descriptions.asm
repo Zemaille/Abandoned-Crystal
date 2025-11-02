@@ -201,6 +201,7 @@ ItemDescriptionsKeyItems:
 	dw LochFluteDesc
 	dw LiftingBeltDesc
 	dw VortexDriveDesc
+	dw HydroBoostDesc
 .IndirectEnd:
 
 ItemDescriptionsBalls:
@@ -918,4 +919,7 @@ LiftingBeltDesc:
 VortexDriveDesc:
 	db   "Device that calms"
 	next "whirlpools.@"
-	
+
+HydroBoostDesc:
+	db   "SilphCo. tech to"
+	next "ride waterfalls.@"

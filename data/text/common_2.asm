@@ -292,9 +292,8 @@ _AskSurfText::
 	done
 
 _UseWaterfallText::
-	text_ram wStringBuffer2
-	text " used"
-	line "WATERFALL!"
+	text "You sped up the"
+	line "waterfall!"
 	done
 
 _HugeWaterfallText::
@@ -304,7 +303,7 @@ _HugeWaterfallText::
 
 _AskWaterfallText::
 	text "Do you want to use"
-	line "WATERFALL?"
+	line "Waterfall?"
 	done
 
 _UseDigText::
