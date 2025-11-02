@@ -19,7 +19,7 @@ DragonsDenB2FProteinScript:
 	itemball PROTEIN
 	
 DragonsDenB2FHydroBoostScript: 
-	itemball BICYCLE
+	itemball HYDRO_BOOST
 
 
 DragonsDenB2F_MapEvents:
