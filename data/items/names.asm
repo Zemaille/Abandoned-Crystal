@@ -192,6 +192,7 @@ KeyItemNames::
 	li "Lifting Belt"
 	li "Vortex Drive"
 	li "Hydro Boost"
+	li "SilphPort"
 	assert_list_length NUM_KEY_ITEM_POCKET
 
 BallNames::

@@ -925,7 +925,7 @@ TeleportFunction:
 	refreshmap
 	special UpdateTimePals
 	writetext .TeleportReturnText
-	pause 60
+	pause 10
 	refreshmap
 	closetext
 	playsound SFX_WARP_TO

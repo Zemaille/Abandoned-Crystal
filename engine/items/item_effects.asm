@@ -222,6 +222,7 @@ ItemEffectsKeyItems:
 	dw LiftingBeltEffect  ; Lifting Belt
 	dw VortexDriveEffect  ; Vortex Drive
 	dw HydroBoostEffect   ; Hydro Boost
+	dw SilphPortEffect    ; Silph Port
 .IndirectEnd:
 
 ItemEffectsBalls:
@@ -3126,4 +3127,7 @@ HydroBoostEffect:
 	call WaterfallFunction
 	ret
 	
+SilphPortEffect:
+	call TeleportFunction
+	ret
 	

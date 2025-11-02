@@ -202,6 +202,7 @@ ItemDescriptionsKeyItems:
 	dw LiftingBeltDesc
 	dw VortexDriveDesc
 	dw HydroBoostDesc
+	dw SilphPortDesc
 .IndirectEnd:
 
 ItemDescriptionsBalls:
@@ -923,3 +924,7 @@ VortexDriveDesc:
 HydroBoostDesc:
 	db   "SilphCo. tech to"
 	next "ride waterfalls.@"
+
+SilphPortDesc:
+	db   "SilphCo portable"
+	next "Teleport device.@"
