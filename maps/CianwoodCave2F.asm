@@ -93,7 +93,7 @@ CianwoodCave2FMaxElixerScript:
 	itemball MAX_ELIXER
 
 CianwoodCave2FMaxPotionScript:
-	itemball PP_UP
+	itemball TM_AIR_SLASH
 
 CianwoodCave2FHiddenPPUp:
 	hiddenitem PP_UP, EVENT_CIANWOOD_CAVE_2F_HIDDEN_PP_UP

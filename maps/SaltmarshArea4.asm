@@ -16,7 +16,7 @@ SaltmarshArea4LochFluteScript:
 	itemball LOCH_FLUTE
 	
 SaltmarshArea4BrightPowderScript:
-	itemball BRIGHTPOWDER
+	itemball TM_GIGA_DRAIN
 	
 SaltmarshArea4LeftoversScript:
 	itemball LEFTOVERS

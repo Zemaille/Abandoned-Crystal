@@ -46,9 +46,7 @@ GoldenrodDeptStore5FReceptionistScript:
 .VeryHappy:
 	writetext GoldenrodDeptStore5FReceptionistThisMoveShouldBePerfectText
 	promptbutton
-	checkitem TM_RETURN
-	iftrue .AlreadyGotTM
-	verbosegiveitem TM_RETURN
+	verbosegiveitem BIG_NUGGET
 	setflag ENGINE_GOLDENROD_DEPT_STORE_TM27_RETURN
 	closetext
 	end
@@ -62,9 +60,7 @@ GoldenrodDeptStore5FReceptionistScript:
 .NotVeryHappy:
 	writetext GoldenrodDeptStore5FReceptionistItLooksEvilHowAboutThisTMText
 	promptbutton
-	checkitem TM_FRUSTRATION
-	iftrue .AlreadyGotTM
-	verbosegiveitem TM_FRUSTRATION
+	verbosegiveitem ENERGY_ROOT
 	setflag ENGINE_GOLDENROD_DEPT_STORE_TM27_RETURN
 	closetext
 	end

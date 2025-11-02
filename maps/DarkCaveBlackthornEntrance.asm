@@ -12,7 +12,7 @@ DarkCaveBlackthornEntranceFullRestore:
 	itemball FULL_RESTORE
 
 DarkCaveBlackthornEntranceTMSnore:
-	itemball TM_SNORE
+	itemball TM_IRON_HEAD
 
 DarkCaveBlackthornEntranceMasterBall:
 	itemball MASTER_BALL

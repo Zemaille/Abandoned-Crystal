@@ -16,5 +16,5 @@
 	dn EGG_DITTO, EGG_DITTO ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm 
 	; end

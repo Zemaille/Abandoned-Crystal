@@ -123,9 +123,9 @@ MartGoldenrod4F:
 
 MartGoldenrod5F:
 	db 3 ; # items
-	dw TM_THUNDERPUNCH
-	dw TM_FIRE_PUNCH
-	dw TM_ICE_PUNCH
+	dw TM_THIEF
+	dw TM_WATER_PULSE
+	dw TM_SHADOW_PUNCH
 
 MartOlivine:
 	db 9 ; # items
@@ -263,12 +263,10 @@ MartCeladon2F2:
 	dw PARLYZ_HEAL
 
 MartCeladon3F:
-	db 5 ; # items
-	dw TM_HIDDEN_POWER
-	dw TM_SUNNY_DAY
-	dw TM_PROTECT
-	dw TM_RAIN_DANCE
-	dw TM_SANDSTORM
+	db 3 ; # items
+	dw TM_DAZZLE_GLEAM
+	dw TM_FLASH_CANNON
+	dw TM_DARK_PULSE
 
 MartCeladon4F:
 	db 3 ; # items

@@ -69,46 +69,46 @@ GoldenrodGameCornerTMVendor_LoopScript:
 	loadmenu GoldenrodGameCornerTMVendorMenuHeader
 	verticalmenu
 	closewindow
-	ifequal 1, .Thunder
-	ifequal 2, .Blizzard
-	ifequal 3, .FireBlast
+	ifequal 1, .Thunder   ; Bulk Up
+	ifequal 2, .Blizzard  ; Calm Mind
+	ifequal 3, .FireBlast ; Protect
 	sjump GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
 
-.Thunder:
-	checkitem TM_THUNDER
+.Thunder: ; Bulk Up
+	checkitem TM_BULK_UP
 	iftrue GoldenrodGameCornerPrizeVendor_AlreadyHaveTMScript
 	checkcoins GOLDENRODGAMECORNER_TM25_COINS
 	ifequal HAVE_LESS, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
-	getitemname STRING_BUFFER_3, TM_THUNDER
+	getitemname STRING_BUFFER_3, TM_BULK_UP
 	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
-	giveitem TM_THUNDER
+	giveitem TM_BULK_UP
 	iffalse GoldenrodGameCornerPrizeMonVendor_NoRoomForPrizeScript
 	takecoins GOLDENRODGAMECORNER_TM25_COINS
 	sjump GoldenrodGameCornerTMVendor_FinishScript
 
-.Blizzard:
-	checkitem TM_BLIZZARD
+.Blizzard: ; Calm Mind
+	checkitem TM_CALM_MIND
 	iftrue GoldenrodGameCornerPrizeVendor_AlreadyHaveTMScript
 	checkcoins GOLDENRODGAMECORNER_TM14_COINS
 	ifequal HAVE_LESS, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
-	getitemname STRING_BUFFER_3, TM_BLIZZARD
+	getitemname STRING_BUFFER_3, TM_CALM_MIND
 	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
-	giveitem TM_BLIZZARD
+	giveitem TM_CALM_MIND
 	iffalse GoldenrodGameCornerPrizeMonVendor_NoRoomForPrizeScript
 	takecoins GOLDENRODGAMECORNER_TM14_COINS
 	sjump GoldenrodGameCornerTMVendor_FinishScript
 
-.FireBlast:
-	checkitem TM_FIRE_BLAST
+.FireBlast: ; Protect
+	checkitem TM_PROTECT
 	iftrue GoldenrodGameCornerPrizeVendor_AlreadyHaveTMScript
 	checkcoins GOLDENRODGAMECORNER_TM38_COINS
 	ifequal HAVE_LESS, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
-	getitemname STRING_BUFFER_3, TM_FIRE_BLAST
+	getitemname STRING_BUFFER_3, TM_PROTECT
 	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
-	giveitem TM_FIRE_BLAST
+	giveitem TM_PROTECT
 	iffalse GoldenrodGameCornerPrizeMonVendor_NoRoomForPrizeScript
 	takecoins GOLDENRODGAMECORNER_TM38_COINS
 	sjump GoldenrodGameCornerTMVendor_FinishScript

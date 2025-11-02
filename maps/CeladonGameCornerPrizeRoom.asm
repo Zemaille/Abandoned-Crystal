@@ -33,46 +33,46 @@ CeladonPrizeRoom_tmcounterloop:
 	loadmenu CeladonPrizeRoom_TMMenuHeader
 	verticalmenu
 	closewindow
-	ifequal 1, .DoubleTeam
-	ifequal 2, .Psychic
-	ifequal 3, .HyperBeam
+	ifequal 1, .DoubleTeam ; Swords Dance
+	ifequal 2, .Psychic    ; Nasty Plot
+	ifequal 3, .HyperBeam  ; Focus Blast
 	sjump CeladonPrizeRoom_CancelPurchaseScript
 
-.DoubleTeam:
-	checkitem TM_DOUBLE_TEAM
+.DoubleTeam: ; Swords Dance
+	checkitem TM_SWORDS_DANCE
 	iftrue CeladonPrizeRoom_alreadyhavetm
 	checkcoins CELADONGAMECORNERPRIZEROOM_TM32_COINS
 	ifequal HAVE_LESS, CeladonPrizeRoom_notenoughcoins
-	getitemname STRING_BUFFER_3, TM_DOUBLE_TEAM
+	getitemname STRING_BUFFER_3, TM_SWORDS_DANCE
 	scall CeladonPrizeRoom_askbuy
 	iffalse CeladonPrizeRoom_CancelPurchaseScript
-	giveitem TM_DOUBLE_TEAM
+	giveitem TM_SWORDS_DANCE
 	iffalse CeladonPrizeRoom_notenoughroom
 	takecoins CELADONGAMECORNERPRIZEROOM_TM32_COINS
 	sjump CeladonPrizeRoom_purchased
 
-.Psychic:
-	checkitem TM_PSYCHIC_M
+.Psychic: ; Nasty Plot
+	checkitem TM_NASTY_PLOT
 	iftrue CeladonPrizeRoom_alreadyhavetm
 	checkcoins CELADONGAMECORNERPRIZEROOM_TM29_COINS
 	ifequal HAVE_LESS, CeladonPrizeRoom_notenoughcoins
-	getitemname STRING_BUFFER_3, TM_PSYCHIC_M
+	getitemname STRING_BUFFER_3, TM_NASTY_PLOT
 	scall CeladonPrizeRoom_askbuy
 	iffalse CeladonPrizeRoom_CancelPurchaseScript
-	giveitem TM_PSYCHIC_M
+	giveitem TM_NASTY_PLOT
 	iffalse CeladonPrizeRoom_notenoughroom
 	takecoins CELADONGAMECORNERPRIZEROOM_TM29_COINS
 	sjump CeladonPrizeRoom_purchased
 
-.HyperBeam:
-	checkitem TM_HYPER_BEAM
+.HyperBeam: ; Focus Blast
+	checkitem TM_FOCUS_BLAST
 	iftrue CeladonPrizeRoom_alreadyhavetm
 	checkcoins CELADONGAMECORNERPRIZEROOM_TM15_COINS
 	ifequal HAVE_LESS, CeladonPrizeRoom_notenoughcoins
-	getitemname STRING_BUFFER_3, TM_HYPER_BEAM
+	getitemname STRING_BUFFER_3, TM_FOCUS_BLAST
 	scall CeladonPrizeRoom_askbuy
 	iffalse CeladonPrizeRoom_CancelPurchaseScript
-	giveitem TM_HYPER_BEAM
+	giveitem TM_FOCUS_BLAST
 	iffalse CeladonPrizeRoom_notenoughroom
 	takecoins CELADONGAMECORNERPRIZEROOM_TM15_COINS
 	sjump CeladonPrizeRoom_purchased

@@ -21,7 +21,7 @@ TrainerCooltrainerFShay:
 	end
 
 CooltrainerFShaySeenText:
-	text "The Bird Whistle"
+	text "The SilphPort"
 	line "is mine!"
 	done
 	
@@ -31,15 +31,15 @@ CooltrainerFShayBeatenText:
 	done
 
 CooltrainerFShayAfterText:
-	text "It lets you fly"
-	line "without Fly."
+	text "It lets you"
+	line "Teleport."
 	done
 
 CianwoodCave3FKingsRockScript:
 	itemball KINGS_ROCK
 	
 CianwoodCave3FBirdWhistleScript:
-	itemball BICYCLE
+	itemball SILPHPORT
 
 CianwoodZapdosGScript:
 	faceplayer

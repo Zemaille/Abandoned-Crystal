@@ -300,7 +300,7 @@ TohjoFallsSign:
 	jumptext TohjoFallsSignText
 
 Route27TMSolarbeam:
-	itemball TM_SOLARBEAM
+	itemball TM_THUNDERBOLT
 
 Route27RareCandy:
 	itemball BIG_NUGGET

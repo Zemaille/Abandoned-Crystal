@@ -30,7 +30,7 @@ MountMortar2FInsideRareCandy:
 	itemball BIG_NUGGET
 
 MountMortar2FInsideTMDefenseCurl:
-	itemball TM_DEFENSE_CURL
+	itemball TM_ROCK_SLIDE
 
 MountMortar2FInsideDragonScale:
 	itemball DRAGON_SCALE

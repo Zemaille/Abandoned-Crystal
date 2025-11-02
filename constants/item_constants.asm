@@ -249,56 +249,66 @@ ENDM
 DEF FIRST_TMHM_ITEM EQU const_value
 ; see data/moves/tmhm_moves.asm for moves
 DEF TM01 EQU const_value
-	add_tm DYNAMICPUNCH ; 0300
-	add_tm HEADBUTT     ; 0301
-	add_tm CURSE        ; 0302
-	add_tm ROLLOUT      ; 0303
-	add_tm ROAR         ; 0304
-	add_tm TOXIC        ; 0305
-	add_tm ZAP_CANNON   ; 0306
-	add_tm ROCK_SMASH   ; 0307
-	add_tm PSYCH_UP     ; 0308
-	add_tm HIDDEN_POWER ; 0309
-	add_tm SUNNY_DAY    ; 030A
-	add_tm SWEET_SCENT  ; 030B
-	add_tm SNORE        ; 030C
-	add_tm BLIZZARD     ; 030D
-	add_tm HYPER_BEAM   ; 030E
-	add_tm ICY_WIND     ; 030F
-	add_tm PROTECT      ; 0310
-	add_tm RAIN_DANCE   ; 0311
-	add_tm GIGA_DRAIN   ; 0312
-	add_tm ENDURE       ; 0313
-	add_tm FRUSTRATION  ; 0314
-	add_tm SOLARBEAM    ; 0315
-	add_tm IRON_TAIL    ; 0316
-	add_tm DRAGONBREATH ; 0317
-	add_tm THUNDER      ; 0318
-	add_tm EARTHQUAKE   ; 0319
-	add_tm RETURN       ; 031A
-	add_tm DIG          ; 031B
-	add_tm PSYCHIC_M    ; 031C
-	add_tm SHADOW_BALL  ; 031D
-	add_tm MUD_SLAP     ; 031E
-	add_tm DOUBLE_TEAM  ; 031F
-	add_tm ICE_PUNCH    ; 0320
-	add_tm SWAGGER      ; 0321
-	add_tm SLEEP_TALK   ; 0322
-	add_tm SLUDGE_BOMB  ; 0323
-	add_tm SANDSTORM    ; 0324
-	add_tm FIRE_BLAST   ; 0325
-	add_tm SWIFT        ; 0326
-	add_tm DEFENSE_CURL ; 0327
-	add_tm THUNDERPUNCH ; 0328
-	add_tm DREAM_EATER  ; 0329
-	add_tm DETECT       ; 032A
-	add_tm REST         ; 032B
-	add_tm ATTRACT      ; 032C
-	add_tm THIEF        ; 032D
-	add_tm STEEL_WING   ; 032E
-	add_tm FIRE_PUNCH   ; 032F
-	add_tm FURY_CUTTER  ; 0330
-	add_tm NIGHTMARE    ; 0331
+	add_tm HIDDEN_POWER ; 0300
+	add_tm LEECH_LIFE   ; 0301
+	add_tm BUG_BUZZ     ; 0302
+	add_tm DARK_PULSE   ; 0303
+	add_tm NIGHT_SLASH  ; 0304
+	add_tm SNARL        ; 0305
+	add_tm NASTY_PLOT   ; 0306
+	add_tm THIEF        ; 0307
+	add_tm DRAGON_PULSE ; 0308
+	add_tm THUNDERBOLT  ; 0309
+	add_tm THUNDER_WAVE ; 030A
+	add_tm WILD_CHARGE  ; 030B
+	add_tm BULK_UP      ; 030C
+	add_tm ROCK_SMASH   ; 030D
+	add_tm AURA_SPHERE  ; 030E
+	add_tm FOCUS_BLAST  ; 030F
+	add_tm DRAIN_PUNCH  ; 0310
+	add_tm SUNNY_DAY    ; 0311
+	add_tm WILL_O_WISP  ; 0312
+	add_tm FLAMETHROWER ; 0313
+	add_tm FLARE_BLITZ  ; 0314
+	add_tm OVERHEAT     ; 0315
+	add_tm AERIAL_ACE   ; 0316
+	add_tm AIR_SLASH    ; 0317
+	add_tm CURSE        ; 0318
+	add_tm HEX          ; 0319
+	add_tm SHADOW_BALL	; 031A
+	add_tm SHADOW_PUNCH ; 031B
+	add_tm GIGA_DRAIN   ; 031C
+	add_tm ENERGY_BALL  ; 031D
+	add_tm DIG          ; 031E
+	add_tm EARTHQUAKE   ; 031F
+	add_tm EARTH_POWER  ; 0320
+	add_tm HAIL         ; 0321
+	add_tm ICE_BEAM     ; 0322
+	add_tm TOXIC        ; 0323
+	add_tm POISON_JAB   ; 0324
+	add_tm SLUDGE_BOMB  ; 0325
+	add_tm CALM_MIND    ; 0326
+	add_tm PSYCHIC_M    ; 0327
+	add_tm PSYCHO_CUT   ; 0328
+	add_tm SANDSTORM    ; 0329
+	add_tm ROCK_SLIDE   ; 032A
+	add_tm STONE_EDGE   ; 032B
+	add_tm IRON_HEAD    ; 032C
+	add_tm STEEL_WING   ; 032D
+	add_tm IRON_TAIL    ; 032E
+	add_tm FLASH_CANNON ; 032F
+	add_tm RAIN_DANCE   ; 0330
+	add_tm WATER_PULSE  ; 0331
+	add_tm SCALD
+	add_tm DAZZLE_GLEAM
+	add_tm SWORDS_DANCE
+	add_tm REST
+	add_tm SLEEP_TALK
+	add_tm PROTECT
+	add_tm RETURN
+	add_tm HEADBUTT
+	add_tm HYPER_BEAM
+	add_tm GIGA_IMPACT
 DEF NUM_TMS EQU __tmhm_value__ - 1
 
 MACRO add_hm
@@ -334,9 +344,9 @@ MACRO add_mt
 ENDM
 
 DEF MT01 EQU const_value
-	add_mt FLAMETHROWER
-	add_mt THUNDERBOLT
-	add_mt ICE_BEAM
+	add_mt FIRE_BLAST
+	add_mt THUNDER
+	add_mt BLIZZARD
 DEF NUM_TUTORS = __tmhm_value__ - NUM_TMS - NUM_HMS - 1
 
 DEF NUM_TM_HM_TUTOR EQU NUM_TMS + NUM_HMS + NUM_TUTORS
