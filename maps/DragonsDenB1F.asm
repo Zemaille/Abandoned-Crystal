@@ -8,6 +8,7 @@
 	const DRAGONSDENB1F_TWIN2
 	const DRAGONSDENB1F_POKE_BALL2
 	const DRAGONSDENB1F_POKE_BALL3
+	const DRAGONSDENB1F_ELDER
 
 DragonsDenB1F_MapScripts:
 	def_scene_scripts
@@ -403,6 +404,56 @@ Text_NoRoomForDragonFang:
 	cont "items."
 	done
 
+DracoTutorScript:
+	faceplayer
+	opentext
+	writetext DracoTutorText
+	waitbutton
+	writetext DracoTutorText2
+	yesorno
+	iffalse .TutorRefused
+	setval SOFTBOILED
+	writetext DracoTutorClear
+	special MoveTutor
+	ifequal FALSE, .TeachMove
+.TutorRefused
+	writetext DracoTutorRefused
+	waitbutton
+	closetext
+	end
+
+.TeachMove
+	writetext DracuTutorTaught
+	waitbutton
+	closetext
+	end
+
+DracoTutorText:
+	text "You have proven"
+	line "your strength."
+	done
+
+DracoTutorText2:
+	text "Would you like me"
+	line "to teach your"
+
+	para "Pokémon the ulti-"
+	line "mate Dragon move?"
+	done
+
+DracoTutorRefused:
+	text "OK then."
+	done
+
+DracoTutorClear:
+	text_start
+	done
+
+DracuTutorTaught:
+	text "May your foes"
+	line "crumble."
+	done
+
 DragonsDenB1F_MapEvents:
 	db 0, 0 ; filler
 
@@ -430,3 +481,4 @@ DragonsDenB1F_MapEvents:
 	object_event  4, 18, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 1, TrainerTwinsLeaandpia2, -1
 	object_event 30,  4, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, DragonsDenB1FCalcium, EVENT_DRAGONS_DEN_B1F_CALCIUM
 	object_event  5, 20, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, DragonsDenB1FMaxElixer, EVENT_DRAGONS_DEN_B1F_MAX_ELIXER
+	object_event 21, 30, SPRITE_ELDER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, DracoTutorScript, -1
