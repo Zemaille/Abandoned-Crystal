@@ -5,6 +5,7 @@
 	const INDIGOPLATEAUPOKECENTER1F_RIVAL
 	const INDIGOPLATEAUPOKECENTER1F_GRAMPS
 	const INDIGOPLATEAUPOKECENTER1F_ABRA
+	const INDIGOPLATEAUPOKECENTER1F_TEACHER
 
 IndigoPlateauPokecenter1F_MapScripts:
 	def_scene_scripts
@@ -299,6 +300,58 @@ AbraText:
 	text "ABRA: Aabra…"
 	done
 
+SubTutorScript:
+	faceplayer
+	opentext
+	writetext SubTutorText
+	waitbutton
+	writetext SubTutorText2
+	yesorno
+	iffalse .TutorRefused
+	setval MT10_MOVE
+	writetext SubTutorClear
+	special MoveTutor
+	ifequal FALSE, .TeachMove
+.TutorRefused
+	writetext SubTutorRefused
+	waitbutton
+	closetext
+	end
+
+.TeachMove
+	writetext SubTutorTaught
+	waitbutton
+	closetext
+	end
+
+SubTutorText:
+	text "Hello there!"
+
+	para "I'm a substitute"
+	line "teacher!"
+	done
+
+SubTutorText2:
+	text "Would you like me"
+	line "to teach your"
+
+	para "Pokémon to use"
+	line "Substitute?"
+	done
+
+SubTutorRefused:
+	text "OK then."
+	done
+
+SubTutorClear:
+	text_start
+	done
+
+SubTutorTaught:
+	text "This move is"
+	line "overpowered!"
+	done
+
 IndigoPlateauPokecenter1F_MapEvents:
 	db 0, 0 ; filler
 
@@ -321,3 +374,4 @@ IndigoPlateauPokecenter1F_MapEvents:
 	object_event 16,  9, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_INDIGO_PLATEAU_POKECENTER_RIVAL
 	object_event  1,  9, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, TeleportGuyScript, EVENT_TELEPORT_GUY
 	object_event  0,  9, SPRITE_JYNX, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, AbraScript, EVENT_TELEPORT_GUY
+	object_event  8,  7, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, SubTutorScript, -1
