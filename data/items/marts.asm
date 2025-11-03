@@ -53,18 +53,19 @@ MartViolet:
 	db 10 ; # items
 	dw POKE_BALL
 	dw POTION
+	dw BERRY
+	dw PSNCUREBERRY
+	dw PRZCUREBERRY
+	dw MINT_BERRY
 	dw ESCAPE_ROPE
 	dw ANTIDOTE
 	dw PARLYZ_HEAL
 	dw AWAKENING
-	dw X_DEFEND
-	dw X_ATTACK
-	dw X_SPEED
-	dw FLOWER_MAIL
 
 MartAzalea:
 	db 9 ; # items
 	dw CHARCOAL
+	dw BERRY_JUICE
 	dw POKE_BALL
 	dw POTION
 	dw SUPER_POTION
@@ -72,7 +73,7 @@ MartAzalea:
 	dw REPEL
 	dw ANTIDOTE
 	dw PARLYZ_HEAL
-	dw FLOWER_MAIL
+
 
 MartCianwood:
 	db 5 ; # items
@@ -93,7 +94,7 @@ MartGoldenrod2F1:
 	dw ICE_HEAL
 
 MartGoldenrod2F2:
-	db 8 ; # items
+	db 7 ; # items
 	dw POKE_BALL
 	dw GREAT_BALL
 	dw ESCAPE_ROPE
@@ -101,25 +102,31 @@ MartGoldenrod2F2:
 	dw REVIVE
 	dw FULL_HEAL
 	dw POKE_DOLL
-	dw FLOWER_MAIL
 
 MartGoldenrod3F:
-	db 7 ; # items
-	dw X_SPEED
-	dw X_SPECIAL
-	dw X_DEFEND
-	dw X_ATTACK
-	dw DIRE_HIT
-	dw GUARD_SPEC
-	dw X_ACCURACY
+	db 13 ; # items
+	dw KINGS_ROCK
+	dw METAL_COAT
+	dw WATER_STONE
+	dw THUNDERSTONE
+	dw FIRE_STONE
+	dw LEAF_STONE
+	dw MOON_STONE
+	dw SUN_STONE
+	dw RELIC_STONE
+	dw ICE_STONE
+	dw DUSK_STONE
+	dw DRAGON_SCALE
+	dw UP_GRADE
 
 MartGoldenrod4F:
-	db 5 ; # items
+	db 6 ; # items
+	dw HP_UP
 	dw PROTEIN
 	dw IRON
 	dw CARBOS
 	dw CALCIUM
-	dw HP_UP
+	dw ZINC
 
 MartGoldenrod5F:
 	db 3 ; # items
@@ -128,7 +135,7 @@ MartGoldenrod5F:
 	dw TM_SHADOW_PUNCH
 
 MartOlivine:
-	db 9 ; # items
+	db 8 ; # items
 	dw GREAT_BALL
 	dw SUPER_POTION
 	dw HYPER_POTION
@@ -137,7 +144,6 @@ MartOlivine:
 	dw AWAKENING
 	dw ICE_HEAL
 	dw SUPER_REPEL
-	dw SURF_MAIL
 
 MartEcruteak:
 	db 10 ; # items
@@ -160,7 +166,7 @@ MartMahogany1:
 	dw POTION
 
 MartMahogany2:
-	db 9 ; # items
+	db 8 ; # items
 	dw RAGECANDYBAR
 	dw GREAT_BALL
 	dw SUPER_POTION
@@ -169,10 +175,9 @@ MartMahogany2:
 	dw PARLYZ_HEAL
 	dw SUPER_REPEL
 	dw REVIVE
-	dw FLOWER_MAIL
 
 MartBlackthorn:
-	db 9 ; # items
+	db 7 ; # items
 	dw GREAT_BALL
 	dw ULTRA_BALL
 	dw HYPER_POTION
@@ -180,11 +185,9 @@ MartBlackthorn:
 	dw FULL_HEAL
 	dw REVIVE
 	dw MAX_REPEL
-	dw X_DEFEND
-	dw X_ATTACK
 
 MartViridian:
-	db 9 ; # items
+	db 8 ; # items
 	dw ULTRA_BALL
 	dw HYPER_POTION
 	dw FULL_HEAL
@@ -193,7 +196,6 @@ MartViridian:
 	dw PARLYZ_HEAL
 	dw AWAKENING
 	dw BURN_HEAL
-	dw FLOWER_MAIL
 
 MartPewter:
 	db 7 ; # items
@@ -206,16 +208,13 @@ MartPewter:
 	dw BURN_HEAL
 
 MartCerulean:
-	db 9 ; # items
+	db 6 ; # items
 	dw GREAT_BALL
 	dw ULTRA_BALL
 	dw SUPER_POTION
 	dw SUPER_REPEL
 	dw FULL_HEAL
-	dw X_DEFEND
-	dw X_ATTACK
-	dw DIRE_HIT
-	dw SURF_MAIL
+	dw MYSTIC_WATER
 
 MartLavender:
 	db 8 ; # items
@@ -229,7 +228,7 @@ MartLavender:
 	dw BURN_HEAL
 
 MartVermilion:
-	db 8 ; # items
+	db 7 ; # items
 	dw ULTRA_BALL
 	dw SUPER_POTION
 	dw HYPER_POTION
@@ -237,7 +236,6 @@ MartVermilion:
 	dw PARLYZ_HEAL
 	dw AWAKENING
 	dw BURN_HEAL
-	dw LITEBLUEMAIL
 
 MartCeladon2F1:
 	db 7 ; # items
@@ -269,68 +267,69 @@ MartCeladon3F:
 	dw TM_DARK_PULSE
 
 MartCeladon4F:
-	db 3 ; # items
+	db 4 ; # items
 	dw POKE_DOLL
-	dw LOVELY_MAIL
-	dw SURF_MAIL
+	dw BRIGHTPOWDER
+	dw SCOPE_LENS
+	dw FOCUS_BAND
 
 MartCeladon5F1:
-	db 5 ; # items
+	db 6 ; # items
 	dw HP_UP
 	dw PROTEIN
 	dw IRON
 	dw CARBOS
 	dw CALCIUM
+	dw ZINC
 
 MartCeladon5F2:
-	db 7 ; # items
-	dw X_ACCURACY
-	dw GUARD_SPEC
-	dw DIRE_HIT
-	dw X_ATTACK
-	dw X_DEFEND
-	dw X_SPEED
-	dw X_SPECIAL
+	db 13 ; # items
+	dw KINGS_ROCK
+	dw METAL_COAT
+	dw WATER_STONE
+	dw THUNDERSTONE
+	dw FIRE_STONE
+	dw LEAF_STONE
+	dw MOON_STONE
+	dw SUN_STONE
+	dw RELIC_STONE
+	dw ICE_STONE
+	dw DUSK_STONE
+	dw DRAGON_SCALE
+	dw UP_GRADE
 
 MartFuchsia:
-	db 7 ; # items
+	db 6 ; # items
 	dw GREAT_BALL
 	dw ULTRA_BALL
 	dw SUPER_POTION
 	dw HYPER_POTION
 	dw FULL_HEAL
 	dw MAX_REPEL
-	dw FLOWER_MAIL
 
 MartSaffron:
-	db 8 ; # items
+	db 5 ; # items
 	dw GREAT_BALL
 	dw ULTRA_BALL
 	dw HYPER_POTION
 	dw MAX_POTION
 	dw FULL_HEAL
-	dw X_ATTACK
-	dw X_DEFEND
-	dw FLOWER_MAIL
 
 MartMtMoon:
-	db 6 ; # items
+	db 5 ; # items
 	dw POKE_DOLL
 	dw FRESH_WATER
 	dw SODA_POP
 	dw LEMONADE
 	dw REPEL
-	dw PORTRAITMAIL
 
 MartIndigoPlateau:
-	db 7 ; # items
+	db 5 ; # items
 	dw ULTRA_BALL
-	dw MAX_REPEL
-	dw HYPER_POTION
-	dw MAX_POTION
 	dw FULL_RESTORE
-	dw REVIVE
 	dw FULL_HEAL
+	dw MAX_REVIVE
+	dw MAX_ELIXER
 
 MartUnderground:
 	db 4 ; # items
