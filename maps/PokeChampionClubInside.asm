@@ -18,12 +18,20 @@ PokeChampionClubWelcomeText:
 	done
 
 PokeChampionClubStaffScript:
+	faceplayer
 	jumptext PokeChampionClubStaffText
 
 PokeChampionClubStaffText:
 	text "Sorry! League"
 	line "Staff only past"
 	cont "this point."
+	done
+
+pChalScript:
+	jumptext pChalVerbalStimText
+
+pChalVerbalStimText:
+	text "THIS!"
 	done
 
 PokeChampionClubInside_MapEvents:
@@ -40,5 +48,6 @@ PokeChampionClubInside_MapEvents:
 	def_object_events
 	object_event  5, 10, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, PokeChampionClubWelcomeScript, -1
 	object_event 15,  2, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, PokeChampionClubStaffScript, -1
+	object_event  0,  4, SPRITE_PHARMACIST, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, pChalScript, -1
 
 	
