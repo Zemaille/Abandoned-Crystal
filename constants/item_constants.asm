@@ -344,9 +344,17 @@ MACRO add_mt
 ENDM
 
 DEF MT01 EQU const_value
-	add_mt FIRE_BLAST
-	add_mt THUNDER
-	add_mt BLIZZARD
+	add_mt FIRE_BLAST	;MT01
+	add_mt THUNDER		;MT02
+	add_mt BLIZZARD		;MT03
+	add_mt FIRE_FANG	;MT04
+	add_mt ICE_FANG		;MT05
+	add_mt THUNDER_FANG ;MT06
+	add_mt FIRE_PUNCH	;MT07
+	add_mt THUNDERPUNCH ;MT08
+	add_mt ICE_PUNCH	;MT09
+	add_mt SUBSTITUTE	;MT10
+	add_mt DRACO_METEOR ;MT11
 DEF NUM_TUTORS = __tmhm_value__ - NUM_TMS - NUM_HMS - 1
 
 DEF NUM_TM_HM_TUTOR EQU NUM_TMS + NUM_HMS + NUM_TUTORS

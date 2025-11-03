@@ -59,56 +59,38 @@ GoldenrodUndergroundCheckDayOfWeekCallback:
 	ifequal SATURDAY, .Saturday
 
 ; Sunday
-	disappear GOLDENRODUNDERGROUND_GRAMPS
 	disappear GOLDENRODUNDERGROUND_OLDER_HAIRCUT_BROTHER
 	appear GOLDENRODUNDERGROUND_YOUNGER_HAIRCUT_BROTHER
-	appear GOLDENRODUNDERGROUND_GRANNY
 	endcallback
 
 .Monday:
-	disappear GOLDENRODUNDERGROUND_GRAMPS
-	checktime MORN
-	iffalse .NotMondayMorning
-	appear GOLDENRODUNDERGROUND_GRAMPS
-.NotMondayMorning:
 	disappear GOLDENRODUNDERGROUND_OLDER_HAIRCUT_BROTHER
 	disappear GOLDENRODUNDERGROUND_YOUNGER_HAIRCUT_BROTHER
-	disappear GOLDENRODUNDERGROUND_GRANNY
 	endcallback
 
 .Tuesday:
-	disappear GOLDENRODUNDERGROUND_GRAMPS
 	appear GOLDENRODUNDERGROUND_OLDER_HAIRCUT_BROTHER
 	disappear GOLDENRODUNDERGROUND_YOUNGER_HAIRCUT_BROTHER
-	disappear GOLDENRODUNDERGROUND_GRANNY
 	endcallback
 
 .Wednesday:
-	disappear GOLDENRODUNDERGROUND_GRAMPS
 	disappear GOLDENRODUNDERGROUND_OLDER_HAIRCUT_BROTHER
 	appear GOLDENRODUNDERGROUND_YOUNGER_HAIRCUT_BROTHER
-	disappear GOLDENRODUNDERGROUND_GRANNY
 	endcallback
 
 .Thursday:
-	disappear GOLDENRODUNDERGROUND_GRAMPS
 	appear GOLDENRODUNDERGROUND_OLDER_HAIRCUT_BROTHER
 	disappear GOLDENRODUNDERGROUND_YOUNGER_HAIRCUT_BROTHER
-	disappear GOLDENRODUNDERGROUND_GRANNY
 	endcallback
 
 .Friday:
-	disappear GOLDENRODUNDERGROUND_GRAMPS
 	disappear GOLDENRODUNDERGROUND_OLDER_HAIRCUT_BROTHER
 	appear GOLDENRODUNDERGROUND_YOUNGER_HAIRCUT_BROTHER
-	disappear GOLDENRODUNDERGROUND_GRANNY
 	endcallback
 
 .Saturday:
-	disappear GOLDENRODUNDERGROUND_GRAMPS
 	appear GOLDENRODUNDERGROUND_OLDER_HAIRCUT_BROTHER
 	disappear GOLDENRODUNDERGROUND_YOUNGER_HAIRCUT_BROTHER
-	appear GOLDENRODUNDERGROUND_GRANNY
 	endcallback
 
 TrainerSupernerdEric:
@@ -166,21 +148,129 @@ BitterMerchantScript:
 	pokemart MARTTYPE_BITTER, MART_UNDERGROUND
 	closetext
 	end
-
 BargainMerchantScript:
+	faceplayer
 	opentext
-	checkflag ENGINE_GOLDENROD_UNDERGROUND_MERCHANT_CLOSED
-	iftrue GoldenrodUndergroundScript_ShopClosed
-	readvar VAR_WEEKDAY
-	ifequal MONDAY, .CheckMorn
-	sjump GoldenrodUndergroundScript_ShopClosed
+	writetext GoldenrodUndergroundAskTeachAMoveText
+	yesorno
+	iffalse .Refused
+	writetext EcruteakCityFangTutorWhichMoveShouldITeachText
+	loadmenu .MoveMenuHeader
+	verticalmenu
+	closewindow
+	ifequal 1, .FireFang
+	ifequal 2, .ThunderFang
+	ifequal 3, .IceFang
+	sjump .Incompatible
 
-.CheckMorn:
-	checktime MORN
-	iffalse GoldenrodUndergroundScript_ShopClosed
-	pokemart MARTTYPE_BARGAIN, 0
+.FireFang:
+	setval MT04_MOVE
+	writetext EcruteakCityFangTutorMoveText
+	special MoveTutor
+	ifequal FALSE, .TeachMove
+	sjump .Incompatible
+
+.ThunderFang:
+	setval MT05_MOVE
+	writetext EcruteakCityFangTutorMoveText
+	special MoveTutor
+	ifequal FALSE, .TeachMove
+	sjump .Incompatible
+
+.IceFang:
+	setval MT06_MOVE
+	writetext EcruteakCityFangTutorMoveText
+	special MoveTutor
+	ifequal FALSE, .TeachMove
+	sjump .Incompatible
+
+.Refused:
+	writetext EcruteakCityFangTutorAwwButTheyreAmazingText
+	waitbutton
 	closetext
 	end
+	
+.Incompatible:
+	writetext EcruteakCityFangTutorBButText
+	waitbutton
+	closetext
+	end
+
+.TeachMove:
+	writetext EcruteakCityFangTutorIfYouUnderstandYouveMadeItText
+	promptbutton
+	writetext EcruteakCityFangTutorFarewellKidText
+	waitbutton
+	closetext
+	end
+
+.MoveMenuHeader:
+	db MENU_BACKUP_TILES ; flags
+	menu_coords 0, 2, 15, TEXTBOX_Y - 1
+	dw .MenuData
+	db 1 ; default option
+
+.MenuData:
+	db STATICMENU_CURSOR ; flags
+	db 4 ; items
+	db "Fire Fang@"
+	db "Thunder Fang@"
+	db "Ice Fang@"
+	db "CANCEL@"
+
+GoldenrodUndergroundAskTeachAMoveText:
+	text "I can teach your"
+	line "Pokémon amazing"
+
+	para "moves if you'd"
+	line "like."
+
+	para "Should I teach a"
+	line "new move?"
+	done
+
+EcruteakCityFangTutorAwwButTheyreAmazingText:
+	text "Come back here"
+	line "if you want to"
+	
+	para "teach your"
+	line "Pokémon a new"
+	cont "move!"
+	done
+
+EcruteakCityFangTutorWhichMoveShouldITeachText:
+	text "Great! You won't"
+	line "regret it!"
+
+	para "Which move should"
+	line "I teach?"
+	done
+
+
+EcruteakCityFangTutorIfYouUnderstandYouveMadeItText:
+	text "If you understand"
+	line "what's so amazing"
+
+	para "about this move,"
+	line "you've made it as"
+	cont "a trainer."
+	done
+
+EcruteakCityFangTutorFarewellKidText:
+	text "Farewell and"
+	line "good luck on"
+	cont "your journey!"
+	done
+
+EcruteakCityFangTutorBButText:
+	text "Your Pokémon"
+	line "can't learn this"
+	cont "move…"
+	done
+
+EcruteakCityFangTutorMoveText:
+	text_start
+	done
 
 OlderHaircutBrotherScript:
 	opentext

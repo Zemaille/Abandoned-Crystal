@@ -353,10 +353,10 @@ CianwoodPharmacySignText:
 
 CianwoodPhotoStudioSignText:
 	text "CIANWOOD CITY"
-	line "PHOTO STUDIO"
+	line "PUNCH MASTER"
 
-	para "Take a Snapshot as"
-	line "a Keepsake!"
+	para "Learn the Secret"
+	line "Punches!"
 	done
 
 CianwoodPokeSeerSignText:

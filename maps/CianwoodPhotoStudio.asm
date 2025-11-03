@@ -9,79 +9,125 @@ CianwoodPhotoStudio_MapScripts:
 SwarmTrackerScript:
 	faceplayer
 	opentext
-	checkflag ENGINE_SWARM
-	iftrue .skiprandomswarm
-	random 3
-	ifequal 0, .dunsparce
-	ifequal 1, .yanma
-       ifequal 2, .qwilfish
+	writetext PunchMasterAskTeachAMoveText
+	yesorno
+	iffalse .Refused
+	writetext PunchMasterWhichMoveShouldITeachText
+	loadmenu .MoveMenuHeader
+	verticalmenu
+	closewindow
+	ifequal 1, .FirePunch
+	ifequal 2, .ThunderPunch
+	ifequal 3, .IcePunch
+	sjump .Incompatible
 
-.dunsparce
-	setflag ENGINE_SWARM
-	swarm DARK_CAVE_VIOLET_ENTRANCE
-	writetext SwarmDunsparceText
+.FirePunch:
+	setval MT07_MOVE
+	writetext PunchMasterMoveText
+	special MoveTutor
+	ifequal FALSE, .TeachMove
+	sjump .Incompatible
+
+.ThunderPunch:
+	setval MT08_MOVE
+	writetext PunchMasterMoveText
+	special MoveTutor
+	ifequal FALSE, .TeachMove
+	sjump .Incompatible
+
+.IcePunch:
+	setval MT09_MOVE
+	writetext PunchMasterMoveText
+	special MoveTutor
+	ifequal FALSE, .TeachMove
+	sjump .Incompatible
+
+.Refused:
+	writetext PunchMasterAwwButTheyreAmazingText
 	waitbutton
 	closetext
 	end
-
-.yanma
-	setflag ENGINE_SWARM
-	swarm ROUTE_35
-	writetext SwarmYanmaText
-	waitbutton
-	closetext
-	end
-
-.qwilfish
-	setflag ENGINE_SWARM
-	swarm ROUTE_32
-	writetext SwarmQwilfishText
-	waitbutton
-	closetext
-	end
-
-.skiprandomswarm
-	writetext SkipSwarmText
-	waitbutton
-	closetext
-	end
-
-SwarmDunsparceText:
-	text "Let me see…"
-	line "What did the news"
-	cont "say?"
-
-	para "Oh yes! There's a"
-	line "swarm of DUNSPARCE"
-	cont "at DARK CAVE."
-	done
 	
-SwarmYanmaText:
-	text "Let me see…"
-	line "What did the news"
-	cont "say?"
+.Incompatible:
+	writetext PunchMasterBButText
+	waitbutton
+	closetext
+	end
 
-	para "Oh yes! There's a"
-	line "swarm of YANMA"
-	cont "on ROUTE 35."
+.TeachMove:
+	writetext PunchMasterIfYouUnderstandYouveMadeItText
+	promptbutton
+	writetext PunchMasterFarewellKidText
+	waitbutton
+	closetext
+	end
+
+.MoveMenuHeader:
+	db MENU_BACKUP_TILES ; flags
+	menu_coords 0, 2, 15, TEXTBOX_Y - 1
+	dw .MenuData
+	db 1 ; default option
+
+.MenuData:
+	db STATICMENU_CURSOR ; flags
+	db 4 ; items
+	db "Fire Fang@"
+	db "Thunder Fang@"
+	db "Ice Fang@"
+	db "CANCEL@"
+
+PunchMasterAskTeachAMoveText:
+	text "I can teach your"
+	line "Pokémon amazing"
+
+	para "moves if you'd"
+	line "like."
+
+	para "Should I teach a"
+	line "new move?"
 	done
+
+PunchMasterAwwButTheyreAmazingText:
+	text "Come back here"
+	line "if you want to"
 	
-SwarmQwilfishText:
-	text "Let me see…"
-	line "What did the news"
-	cont "say?"
-
-	para "Oh yes! There's a"
-	line "swarm of QWILFISH"
-	cont "on ROUTE 32."
+	para "teach your"
+	line "Pokémon a new"
+	cont "move!"
 	done
 
-SkipSwarmText:
-	text "Often #MON"
-	line "of unusual colors"
+PunchMasterWhichMoveShouldITeachText:
+	text "Great! You won't"
+	line "regret it!"
 
-	para "are reported in"
-	line "swarms."
+	para "Which move should"
+	line "I teach?"
+	done
+
+
+PunchMasterIfYouUnderstandYouveMadeItText:
+	text "If you understand"
+	line "what's so amazing"
+
+	para "about this move,"
+	line "you've made it as"
+	cont "a trainer."
+	done
+
+PunchMasterFarewellKidText:
+	text "Farewell and"
+	line "good luck on"
+	cont "your journey!"
+	done
+
+PunchMasterBButText:
+	text "Your Pokémon"
+	line "can't learn this"
+	cont "move…"
+	done
+
+PunchMasterMoveText:
+	text_start
 	done
 
 CianwoodPhotoStudio_MapEvents:
