@@ -9,12 +9,12 @@
 	db 83 ; base exp
 	dw NO_ITEM, DRAGON_SCALE ; items
 	db GENDER_F50 ; gender ratio
-	db 20 ; step cycles to hatch
+	db 1 ; step cycles to hatch
 	INCBIN "gfx/pokemon/horsea/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_WATER_1, EGG_DRAGON ; egg groups
 
 	; tm/hm learnset
-	tmhm 
+	tmhm SUBSTITUTE, CURSE, REST, SLEEP_TALK, PROTECT, RETURN, HEADBUTT, HYPER_BEAM, GIGA_IMPACT, TOXIC, DRAGON_PULSE, AURA_SPHERE, RAIN_DANCE, WATER_PULSE, SCALD, ICE_BEAM, BLIZZARD, SURF, WHIRLPOOL, WATERFALL
 	; end

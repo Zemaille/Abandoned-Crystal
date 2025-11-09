@@ -9,12 +9,12 @@
 	db 211 ; base exp
 	dw NO_ITEM, NO_ITEM ; items
 	db GENDER_F0 ; gender ratio
-	db 20 ; step cycles to hatch
+	db 1 ; step cycles to hatch
 	INCBIN "gfx/pokemon/tauros/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
 	db GROWTH_SLOW ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 
 	; tm/hm learnset
-	tmhm 
+	tmhm SUBSTITUTE, CURSE, REST, SLEEP_TALK, PROTECT, RETURN, HEADBUTT, HYPER_BEAM, GIGA_IMPACT, TOXIC, THUNDER, THUNDERBOLT, WILD_CHARGE, BULK_UP, ROCK_SMASH, AURA_SPHERE, FLAMETHROWER, FIRE_BLAST, FLARE_BLITZ, AERIAL_ACE, EARTHQUAKE, ROCK_SLIDE, SANDSTORM, SUNNY_DAY, IRON_HEAD, IRON_TAIL, CUT, STRENGTH, SURF, WATERFALL
 	; end

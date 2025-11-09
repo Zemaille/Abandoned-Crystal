@@ -9,12 +9,12 @@
 	db 58 ; base exp
 	dw NO_ITEM, NO_ITEM ; items
 	db GENDER_F50 ; gender ratio
-	db 20 ; step cycles to hatch
+	db 1 ; step cycles to hatch
 	INCBIN "gfx/pokemon/marill/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
 	db GROWTH_FAST ; growth rate
 	dn EGG_WATER_1, EGG_FAIRY ; egg groups
 
 	; tm/hm learnset
-	tmhm 
+	tmhm SUBSTITUTE, CURSE, REST, SLEEP_TALK, PROTECT, RETURN, HEADBUTT, HYPER_BEAM, GIGA_IMPACT, TOXIC, BULK_UP, ROCK_SMASH, DRAIN_PUNCH, SHADOW_PUNCH, DIG, ICE_PUNCH, IRON_TAIL, RAIN_DANCE, WATER_PULSE, STRENGTH, SURF, WATERFALL
 	; end

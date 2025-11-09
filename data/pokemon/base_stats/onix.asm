@@ -9,12 +9,12 @@
 	db 108 ; base exp
 	dw NO_ITEM, NO_ITEM ; items
 	db GENDER_F50 ; gender ratio
-	db 25 ; step cycles to hatch
+	db 1 ; step cycles to hatch
 	INCBIN "gfx/pokemon/onix/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_MINERAL, EGG_MINERAL ; egg groups
 
 	; tm/hm learnset
-	tmhm 
+	tmhm SUBSTITUTE, CURSE, REST, SLEEP_TALK, PROTECT, RETURN, HEADBUTT, HYPER_BEAM, GIGA_IMPACT, TOXIC, BULK_UP, ROCK_SMASH, SANDSTORM, EARTHQUAKE, ROCK_SLIDE, STONE_EDGE, STRENGTH, IRON_TAIL, IRON_HEAD, FLASH_CANNON, CUT
 	; end

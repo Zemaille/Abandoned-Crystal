@@ -9,12 +9,12 @@
 	db 106 ; base exp
 	dw NO_ITEM, NO_ITEM ; items
 	db GENDER_F25 ; gender ratio
-	db 25 ; step cycles to hatch
+	db 1 ; step cycles to hatch
 	INCBIN "gfx/pokemon/elekid/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_NONE, EGG_NONE ; egg groups
 
 	; tm/hm learnset
-	tmhm 
+	tmhm SUBSTITUTE, CURSE, REST, SLEEP_TALK, PROTECT, RETURN, HEADBUTT, HYPER_BEAM, GIGA_IMPACT, TOXIC, RAIN_DANCE, THUNDERBOLT, THUNDERPUNCH, THUNDER_WAVE, THUNDER, FIRE_PUNCH, DRAIN_PUNCH, AURA_SPHERE, FOCUS_BLAST, FLASH, STRENGTH , WILD_CHARGE, SWORDS_DANCE, BULK_UP, ROCK_SMASH, PSYCHIC_M, PSYCHO_CUT
 	; end

@@ -9,12 +9,12 @@
 	db 68 ; base exp
 	dw MYSTERYBERRY, MOON_STONE ; items
 	db GENDER_F75 ; gender ratio
-	db 10 ; step cycles to hatch
+	db 1 ; step cycles to hatch
 	INCBIN "gfx/pokemon/clefairy/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
 	db GROWTH_FAST ; growth rate
 	dn EGG_FAIRY, EGG_FAIRY ; egg groups
 
 	; tm/hm learnset
-	tmhm 
+	tmhm SUBSTITUTE, CURSE, REST, SLEEP_TALK, PROTECT, RETURN, HEADBUTT, HYPER_BEAM, GIGA_IMPACT, TOXIC, THUNDER_WAVE, THUNDER, THUNDERBOLT, THUNDERPUNCH, SUNNY_DAY, FLAMETHROWER, FIRE_BLAST, FIRE_PUNCH, GIGA_DRAIN, ENERGY_BALL, ICE_BEAM, BLIZZARD, ICE_PUNCH, CALM_MIND, PSYCHIC_M, RAIN_DANCE, WATER_PULSE, DAZZLE_GLEAM, FLASH, SURF
 	; end

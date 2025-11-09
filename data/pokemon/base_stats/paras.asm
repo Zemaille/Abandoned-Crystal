@@ -9,12 +9,12 @@
 	db 70 ; base exp
 	dw TINYMUSHROOM, BIG_MUSHROOM ; items
 	db GENDER_F50 ; gender ratio
-	db 20 ; step cycles to hatch
+	db 1 ; step cycles to hatch
 	INCBIN "gfx/pokemon/paras/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_BUG, EGG_PLANT ; egg groups
 
 	; tm/hm learnset
-	tmhm 
+	tmhm SUBSTITUTE, CURSE, REST, SLEEP_TALK, PROTECT, RETURN, HEADBUTT, HYPER_BEAM, GIGA_IMPACT, TOXIC, SUNNY_DAY, RAIN_DANCE, ENERGY_BALL, BUG_BUZZ, GIGA_DRAIN, SLUDGE_BOMB, POISON_JAB, AERIAL_ACE, CUT
 	; end

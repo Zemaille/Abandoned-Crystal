@@ -1,6 +1,6 @@
 	db 0 ; species ID placeholder
 
-	db  48,  72,  48,  48,  72,  48
+	db  85,  85,  85,  85,  85,  85
 	evs  0,   1,   0,   0,   1,   0
 	;   hp  atk  def  spd  sat  sdf
 
@@ -9,12 +9,12 @@
 	db 61 ; base exp
 	dw NO_ITEM, NO_ITEM ; items
 	db GENDER_UNKNOWN ; gender ratio
-	db 40 ; step cycles to hatch
+	db 1 ; step cycles to hatch
 	INCBIN "gfx/pokemon/unown_a/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_NONE, EGG_NONE ; egg groups
 
 	; tm/hm learnset
-	tmhm 
+	tmhm CUT, FLY, STRENGTH, SURF, FLASH, WATERFALL, WHIRLPOOL
 	; end

@@ -9,12 +9,12 @@
 	db 147 ; base exp
 	dw NO_ITEM, SPELL_TAG ; items
 	db GENDER_F50 ; gender ratio
-	db 25 ; step cycles to hatch
+	db 1 ; step cycles to hatch
 	INCBIN "gfx/pokemon/misdreavus/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
 	db GROWTH_FAST ; growth rate
 	dn EGG_INDETERMINATE, EGG_INDETERMINATE ; egg groups
 
 	; tm/hm learnset
-	tmhm 
+	tmhm SUBSTITUTE, CURSE, REST, SLEEP_TALK, PROTECT, RETURN, HEADBUTT, HYPER_BEAM, GIGA_IMPACT, TOXIC, NASTY_PLOT, CALM_MIND, THUNDERBOLT, THUNDER, THUNDER_WAVE, WILL_O_WISP, FLAMETHROWER, FIRE_BLAST, HEX, SHADOW_BALL, ENERGY_BALL, PSYCHIC_M, DAZZLE_GLEAM, FLASH
 	; end

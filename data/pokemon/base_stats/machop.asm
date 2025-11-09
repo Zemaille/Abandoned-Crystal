@@ -9,12 +9,12 @@
 	db 88 ; base exp
 	dw NO_ITEM, NO_ITEM ; items
 	db GENDER_F25 ; gender ratio
-	db 20 ; step cycles to hatch
+	db 1 ; step cycles to hatch
 	INCBIN "gfx/pokemon/machop/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_HUMANSHAPE, EGG_HUMANSHAPE ; egg groups
 
 	; tm/hm learnset
-	tmhm 
+	tmhm SUBSTITUTE, CURSE, REST, SLEEP_TALK, PROTECT, RETURN, HEADBUTT, HYPER_BEAM, GIGA_IMPACT, TOXIC, THUNDERPUNCH, FIRE_PUNCH, ICE_PUNCH, BULK_UP, ROCK_SMASH, DRAIN_PUNCH, AURA_SPHERE, FOCUS_BLAST, EARTHQUAKE, FIRE_BLAST, FLAMETHROWER, STRENGTH, ROCK_SLIDE
 	; end

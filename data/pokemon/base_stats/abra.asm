@@ -9,12 +9,12 @@
 	db 73 ; base exp
 	dw NO_ITEM, NO_ITEM ; items
 	db GENDER_F25 ; gender ratio
-	db 20 ; step cycles to hatch
+	db 1 ; step cycles to hatch
 	INCBIN "gfx/pokemon/abra/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_HUMANSHAPE, EGG_HUMANSHAPE ; egg groups
 
 	; tm/hm learnset
-	tmhm 
+	tmhm SUBSTITUTE, CURSE, REST, SLEEP_TALK, PROTECT, RETURN, HEADBUTT, HYPER_BEAM, GIGA_IMPACT, TOXIC, ENERGY_BALL, THUNDER_WAVE, THUNDERPUNCH, ICE_PUNCH, FIRE_PUNCH, SHADOW_BALL, SHADOW_PUNCH, PSYCHIC_M, PSYCHO_CUT, FLASH, DAZZLE_GLEAM, CALM_MIND
 	; end

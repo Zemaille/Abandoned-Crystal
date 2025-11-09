@@ -9,12 +9,12 @@
 	db 87 ; base exp
 	dw ICE_BERRY, ICE_BERRY ; items
 	db GENDER_F100 ; gender ratio
-	db 25 ; step cycles to hatch
+	db 1 ; step cycles to hatch
 	INCBIN "gfx/pokemon/smoochum/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_NONE, EGG_NONE ; egg groups
 
 	; tm/hm learnset
-	tmhm 
+	tmhm SUBSTITUTE, CURSE, REST, SLEEP_TALK, PROTECT, RETURN, HEADBUTT, HYPER_BEAM, GIGA_IMPACT, TOXIC, THUNDER_WAVE, HEX, SHADOW_BALL, HAIL, ICE_BEAM, BLIZZARD, ICE_PUNCH, CALM_MIND, PSYCHIC_M, DAZZLE_GLEAM, FLASH
 	; end
