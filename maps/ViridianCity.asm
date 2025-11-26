@@ -100,7 +100,7 @@ ViridianCityCoffeeGrampsQuestionText:
 	line "like much now, but"
 
 	para "I was an expert at"
-	line "catching #MON."
+	line "catching Pokémon."
 
 	para "Do you believe me?"
 	done
@@ -125,20 +125,20 @@ ViridianCityCoffeeGrampsDoubtedText:
 	done
 
 ViridianCityGrampsNearGymText:
-	text "This GYM didn't"
-	line "have a LEADER"
+	text "This Gym didn't"
+	line "have a Leader"
 	cont "until recently."
 
 	para "A young man from"
-	line "PALLET became the"
+	line "Pallet became the"
 
-	para "LEADER, but he's"
+	para "Leader, but he's"
 	line "often away."
 	done
 
 ViridianCityGrampsNearGymBlueReturnedText:
 	text "Are you going to"
-	line "battle the LEADER?"
+	line "battle the Leader?"
 
 	para "Good luck to you."
 	line "You'll need it."
@@ -151,7 +151,7 @@ ViridianCityDreamEaterFisherText:
 	line "off in the sun."
 
 	para "…I had this dream"
-	line "about a DROWZEE"
+	line "about a Drowzee"
 
 	para "eating my dream."
 	line "Weird, huh?"
@@ -168,8 +168,8 @@ ViridianCityDreamEaterFisherText:
 	done
 
 ViridianCityDreamEaterFisherGotDreamEaterText:
-	text "TM42 contains"
-	line "DREAM EATER…"
+	text "TM07 contains"
+	line "Night Slash…"
 
 	para "…Zzzzz…"
 	done
@@ -179,7 +179,7 @@ ViridianCityYoungsterText:
 	line "are many items on"
 
 	para "the ground in"
-	line "VIRIDIAN FOREST."
+	line "Viridian Forest."
 	done
 
 ViridianCitySignText:
@@ -191,8 +191,8 @@ ViridianCitySignText:
 
 ViridianGymSignText:
 	text "VIRIDIAN CITY"
-	line "#MON GYM"
-	cont "LEADER: …"
+	line "POKéMON GYM"
+	cont "LEADER: BLUE"
 
 	para "The rest of the"
 	line "text is illegible…"

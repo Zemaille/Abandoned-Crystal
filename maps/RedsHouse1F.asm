@@ -35,7 +35,7 @@ RedsHouse1FBookshelf:
 RedsMomText1:
 	text "Hi!"
 
-	para "RED's been away"
+	para "Red's been away"
 	line "for a long time."
 
 	para "He hasn't called"
@@ -69,7 +69,7 @@ RedsMomText2:
 RedsHouse1FTVText:
 	text "They have programs"
 	line "that aren't shown"
-	cont "in JOHTO…"
+	cont "in Johto…"
 	done
 
 RedsHouse1F_MapEvents:

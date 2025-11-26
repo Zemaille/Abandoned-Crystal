@@ -113,56 +113,60 @@ VioletGymStatue:
 	jumpstd GymStatue2Script
 
 FalknerIntroText:
-	text "I'm FALKNER, the"
-	line "VIOLET #MON GYM"
+	text "I'm Falkner, the"
+	line "Violet Pokémon GYM"
 	cont "leader!"
 
 	para "People say you can"
 	line "clip flying-type"
 
-	para "#MON's wings"
+	para "Pokémon's wings"
 	line "with a jolt of"
 	cont "electricity…"
 
 	para "I won't allow such"
 	line "insults to bird"
-	cont "#MON!"
+	cont "Pokémon!"
 
 	para "I'll show you the"
 	line "real power of the"
 
 	para "magnificent bird"
-	line "#MON!"
+	line "Pokémon!"
 	done
 
 FalknerWinLossText:
 	text "…Darn! My dad's"
 	line "cherished bird"
-	cont "#MON…"
+	cont "Pokémon…"
 
 	para "All right."
 	line "Take this."
 
 	para "It's the official"
-	line "#MON LEAGUE"
-	cont "ZEPHYRBADGE."
+	line "Pokémon League"
+	cont "Zephyr Badge."
 	done
 
 ReceivedZephyrBadgeText:
 	text "<PLAYER> received"
-	line "ZEPHYRBADGE."
+	line "Zephyr Badge."
 	done
 
 FalknerZephyrBadgeText:
-	text "ZEPHYRBADGE"
+	text "Zephyr Badge"
 	line "raises the attack"
-	cont "power of #MON."
+	cont "power of Pokémon."
 
 	para "It also enables"
-	line "#MON to use"
+	line "Pokémon to use"
 
-	para "FLASH, if they"
+	para "Flash, if they"
 	line "have it, anytime."
+
+	para "Your level cap is"
+	line "also increased to"
+	cont "Lv 22."
 
 	para "Here--take this"
 	line "too."
@@ -170,37 +174,25 @@ FalknerZephyrBadgeText:
 
 FalknerTMMudSlapText:
 	text "By using a TM, a"
-	line "#MON will"
+	line "Pokémon will"
 
 	para "instantly learn a"
 	line "new move."
 
-	para "Think before you"
-	line "act--a TM can be"
-	cont "used only once."
-
 	para "TM31 contains"
-	line "MUD-SLAP."
+	line "Aerial Ace."
 
-	para "It reduces the"
-	line "enemy's accuracy"
-
-	para "while it causes"
-	line "damage."
-
-	para "In other words, it"
-	line "is both defensive"
-	cont "and offensive."
+	para "It never misses."
 	done
 
 FalknerFightDoneText:
-	text "There are #MON"
-	line "GYMS in cities and"
+	text "There are Pokémon"
+	line "Gyms in cities and"
 	cont "towns ahead."
 
 	para "You should test"
 	line "your skills at"
-	cont "these GYMS."
+	cont "these Gyms."
 
 	para "I'm going to train"
 	line "harder to become"
@@ -217,7 +209,7 @@ BirdKeeperRodSeenText:
 	line "training night and"
 
 	para "day to become bird"
-	line "#MON masters."
+	line "Pokémon masters."
 
 	para "Come on!"
 	done
@@ -227,7 +219,7 @@ BirdKeeperRodBeatenText:
 	done
 
 BirdKeeperRodAfterBattleText:
-	text "FALKNER's skills"
+	text "Falkner's skills"
 	line "are for real!"
 
 	para "Don't get cocky"
@@ -238,7 +230,7 @@ BirdKeeperRodAfterBattleText:
 BirdKeeperAbeSeenText:
 	text "Let me see if you"
 	line "are good enough to"
-	cont "face FALKNER!"
+	cont "face Falkner!"
 	done
 
 BirdKeeperAbeBeatenText:
@@ -277,7 +269,7 @@ VioletGymGuideWinText:
 	text "Nice battle! Keep"
 	line "it up, and you'll"
 
-	para "be the CHAMP in no"
+	para "be the Champ in no"
 	line "time at all!"
 	done
 

@@ -25,7 +25,7 @@ CherrygroveEvolutionSpeechHouseBookshelf:
 	jumpstd MagazineBookshelfScript
 
 CherrygroveEvolutionSpeechHouseYoungsterText:
-	text "#MON gain expe-"
+	text "Pokémon gain expe-"
 	line "rience in battle"
 
 	para "and change their"
@@ -33,7 +33,7 @@ CherrygroveEvolutionSpeechHouseYoungsterText:
 	done
 
 CherrygroveEvolutionSpeechHouseLassText:
-	text "#MON change?"
+	text "Pokémon change?"
 
 	para "I would be shocked"
 	line "if one did that!"

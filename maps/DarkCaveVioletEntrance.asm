@@ -13,7 +13,7 @@ DarkCaveVioletEntrance_MapScripts:
 	def_callbacks
 
 DarkCaveVioletEntrancePotion:
-	itemball POTION
+	itemball BRIGHTPOWDER
 
 DarkCaveVioletEntranceFullHeal:
 	itemball FULL_HEAL

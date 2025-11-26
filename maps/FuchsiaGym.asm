@@ -243,38 +243,34 @@ JanineText_DisappointYou:
 
 	para "I'm the real deal!"
 
-	para "JANINE of FUCHSIA"
-	line "GYM, that's me!"
+	para "Janine of Fuchsia"
+	line "Gym, that's me!"
 	done
 
 JanineText_ToughOne:
-	text "JANINE: You're a"
+	text "Janine: You're a"
 	line "tough one. You"
 	cont "definitely won…"
 
-	para "Here's SOULBADGE."
+	para "Here's Soul Badge."
 	line "Take it."
 	done
 
 Text_ReceivedSoulBadge:
 	text "<PLAYER> received"
-	line "SOULBADGE."
+	line "Soul Badge."
 	done
 
 JanineText_ToxicSpeech:
-	text "JANINE: You're so"
+	text "Janine: You're so"
 	line "tough! I have a"
 	cont "special gift!"
 
-	para "It's TOXIC, a pow-"
-	line "erful poison that"
-
-	para "steadily saps the"
-	line "victim's HP."
+	para "It's Poison Jab."
 	done
 
 JanineText_ApplyMyself:
-	text "JANINE: I'm going"
+	text "Janine: I'm going"
 	line "to really apply"
 
 	para "myself and improve"
@@ -288,8 +284,8 @@ JanineText_ApplyMyself:
 LassAliceBeforeText:
 	text "Fufufu!"
 
-	para "I'm JANINE, the"
-	line "GYM LEADER!"
+	para "I'm Janine, the"
+	line "Gym Leader!"
 
 	para "No, I'm not!"
 	line "Gotcha, sucker!"
@@ -302,7 +298,7 @@ LassAliceBeatenText:
 LassAliceAfterText:
 	text "How will you dis-"
 	line "tinguish our real"
-	cont "LEADER?"
+	cont "Leader?"
 	done
 
 LassLindaBeforeText:
@@ -321,7 +317,7 @@ LassLindaAfterText:
 	done
 
 PicnickerCindyBeforeText:
-	text "I'm JANINE!"
+	text "I'm Janine!"
 
 	para "How did you know I"
 	line "was real?"
@@ -343,7 +339,7 @@ CamperBarryBeforeText:
 	text "Wahahaha!"
 
 	para "You betcha!"
-	line "I'm JANINE!"
+	line "I'm Janine!"
 	done
 
 CamperBarryBeatenText:
@@ -358,7 +354,7 @@ CamperBarryAfterText:
 	done
 
 FuchsiaGymGuideText:
-	text "Yo, CHAMP in"
+	text "Yo, Champ in"
 	line "making!"
 
 	para "Whoops! Take a"
@@ -366,16 +362,16 @@ FuchsiaGymGuideText:
 
 	para "you. The trainers"
 	line "all look like the"
-	cont "LEADER, JANINE."
+	cont "Leader, Janine."
 
 	para "Which of them is"
-	line "the real JANINE?"
+	line "the real Janine?"
 	done
 
 FuchsiaGymGuideWinText:
 	text "That was a great"
 	line "battle, trainer"
-	cont "from JOHTO!"
+	cont "from Johto!"
 	done
 
 FuchsiaGym_MapEvents:

@@ -75,8 +75,8 @@ MountMortarB1FHiddenMaxRevive:
 MountMortarB1FKiyoIntroText:
 	text "Hey!"
 
-	para "I am the KARATE"
-	line "KING!"
+	para "I am the Karate"
+	line "King!"
 
 	para "I train alone here"
 	line "in the dark!"
@@ -105,7 +105,7 @@ MountMortarB1FTyrogueRewardText:
 	line "defeated me, I'll"
 
 	para "give you a rare"
-	line "fighting #MON."
+	line "fighting Pokémon."
 	done
 
 MountMortarB1FReceiveMonText:
@@ -118,7 +118,7 @@ MountMortarB1FKiyoGotTyrogueText:
 	line "fighting-type."
 
 	para "It evolves into a"
-	line "tougher #MON."
+	line "tougher Pokémon."
 
 	para "Keep up the hard"
 	line "work. I'll keep"

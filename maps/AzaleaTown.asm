@@ -238,7 +238,7 @@ AzaleaTownRivalBeforeText:
 	line "thing."
 
 	para "Is it true that"
-	line "TEAM ROCKET has"
+	line "Team Rocket has"
 	cont "returned?"
 
 	para "What? You beat"
@@ -252,19 +252,19 @@ AzaleaTownRivalBeforeText:
 
 AzaleaTownRivalWinText:
 	text "… Humph! Useless"
-	line "#MON!"
+	line "Pokémon!"
 
 	para "Listen, you. You"
 	line "only won because"
 
-	para "my #MON were"
+	para "my Pokémon were"
 	line "weak."
 	done
 
 AzaleaTownRivalAfterText:
 	text "I hate the weak."
 
-	para "#MON, trainers."
+	para "Pokémon, trainers."
 	line "It doesn't matter"
 	cont "who or what."
 
@@ -272,8 +272,8 @@ AzaleaTownRivalAfterText:
 	line "strong and wipe"
 	cont "out the weak."
 
-	para "That goes for TEAM"
-	line "ROCKET too."
+	para "That goes for Team"
+	line "Rocket too."
 
 	para "They act big and"
 	line "tough in a group."
@@ -307,7 +307,7 @@ AzaleaTownRocket1Text:
 
 AzaleaTownRocket2Text:
 	text "Do you know about"
-	line "SLOWPOKETAIL? I"
+	line "SlowpokeTail? I"
 	cont "heard it's tasty!"
 
 	para "Aren't you glad I"
@@ -315,17 +315,17 @@ AzaleaTownRocket2Text:
 	done
 
 AzaleaTownGrampsTextBefore:
-	text "The SLOWPOKE have"
+	text "The Slowpoke have"
 	line "disappeared from"
 	cont "town…"
 
 	para "I heard their"
-	line "TAILS are being"
+	line "Tails are being"
 	cont "sold somewhere."
 	done
 
 AzaleaTownGrampsTextAfter:
-	text "The SLOWPOKE have"
+	text "The Slowpoke have"
 	line "returned."
 
 	para "Knowing them, they"
@@ -337,17 +337,17 @@ AzaleaTownGrampsTextAfter:
 
 AzaleaTownTeacherText:
 	text "Did you come to"
-	line "get KURT to make"
-	cont "some BALLS?"
+	line "get Kurt to make"
+	cont "some Balls?"
 
 	para "A lot of people do"
 	line "just that."
 	done
 
 AzaleaTownYoungsterText:
-	text "Cut through AZALEA"
+	text "Cut through Azalea"
 	line "and you'll be in"
-	cont "ILEX FOREST."
+	cont "Ilex Forest."
 
 	para "But these skinny"
 	line "trees make it"
@@ -355,13 +355,13 @@ AzaleaTownYoungsterText:
 	para "impossible to get"
 	line "through."
 
-	para "The CHARCOAL MAN's"
-	line "#MON can CUT"
+	para "The Charcoal Man's"
+	line "Pokémon can Cut"
 	cont "down trees."
 	done
 
 AzaleaTownSlowpokeText1:
-	text "SLOWPOKE: …"
+	text "Slowpoke: …"
 
 	para "<……> <……> <……>"
 	done
@@ -371,7 +371,7 @@ AzaleaTownSlowpokeText2:
 	done
 
 AzaleaTownKurtText1:
-	text "ILEX FOREST is"
+	text "Ilex Forest is"
 	line "restless!"
 
 	para "What is going on?"
@@ -379,12 +379,12 @@ AzaleaTownKurtText1:
 
 AzaleaTownKurtText2:
 	text "<PLAYER>, here's"
-	line "your GS BALL back!"
+	line "your GS Ball back!"
 	done
 
 AzaleaTownKurtText3:
 	text "Could you go see"
-	line "why ILEX FOREST is"
+	line "why Ilex Forest is"
 	cont "so restless?"
 	done
 
@@ -392,7 +392,7 @@ AzaleaTownSignText:
 	text "AZALEA TOWN"
 	line "Where People and"
 
-	para "#MON Live in"
+	para "Pokémon Live in"
 	line "Happy Harmony"
 	done
 
@@ -406,7 +406,7 @@ AzaleaGymSignText:
 	cont "LEADER: BUGSY"
 
 	para "The Walking"
-	line "Bug #MON"
+	line "Bug Pokémon"
 	cont "Encyclopedia"
 	done
 
@@ -414,14 +414,14 @@ SlowpokeWellSignText:
 	text "SLOWPOKE WELL"
 
 	para "Also known as the"
-	line "RAINMAKER WELL."
+	line "Rainmaker Well."
 
 	para "Locals believe"
-	line "that a SLOWPOKE's"
+	line "that a Slowpoke's"
 	cont "yawn summons rain."
 
 	para "Records show that"
-	line "a SLOWPOKE's yawn"
+	line "a Slowpoke's yawn"
 
 	para "ended a drought"
 	line "400 years ago."

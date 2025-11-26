@@ -89,11 +89,13 @@ EcruteakCityHiddenHyperPotion:
 	hiddenitem HYPER_POTION, EVENT_ECRUTEAK_CITY_HIDDEN_HYPER_POTION
 
 EcruteakCityGramps1Text:
-	text "ECRUTEAK used to"
+	text "Ecruteak used to"
 	line "have two towers:"
 
 	para "one each in the"
 	line "east and west."
+	
+	para "Never forget."
 	done
 
 EcruteakCityGramps2Text:
@@ -101,10 +103,10 @@ EcruteakCityGramps2Text:
 	line "Have you learned"
 
 	para "to dance like the"
-	line "KIMONO GIRLS?"
+	line "Kimono Girls?"
 
 	para "If you go to their"
-	line "DANCE THEATER, an"
+	line "Dance Theater, an"
 
 	para "odd old man will"
 	line "give you something"
@@ -113,9 +115,9 @@ EcruteakCityGramps2Text:
 
 EcruteakCityLass1Text:
 	text "I'm going to prac-"
-	line "tice at the DANCE"
+	line "tice at the Dance"
 
-	para "THEATER. Care to"
+	para "Theater. Care to"
 	line "join me?"
 	done
 
@@ -129,7 +131,7 @@ EcruteakCityLass2Text:
 	done
 
 EcruteakCityLass2Text_ReleasedBeasts:
-	text "Three big #MON"
+	text "Three big Pokémon"
 	line "ran off in differ-"
 	cont "ent directions."
 	cont "What were they?"
@@ -137,10 +139,10 @@ EcruteakCityLass2Text_ReleasedBeasts:
 
 EcruteakCityFisherText:
 	text "I heard a rumor"
-	line "about OLIVINE"
-	cont "LIGHTHOUSE."
+	line "about Olivine"
+	cont "Lighthouse."
 
-	para "The #MON that"
+	para "The Pokémon that"
 	line "serves as the"
 
 	para "beacon fell ill."
@@ -149,8 +151,8 @@ EcruteakCityFisherText:
 	done
 
 EcruteakCityFisherText_JasmineReturned:
-	text "The #MON at"
-	line "OLIVINE LIGHTHOUSE"
+	text "The Pokémon at"
+	line "Olivine Lighthouse"
 	cont "has been cured."
 
 	para "Boats can safely"
@@ -159,10 +161,10 @@ EcruteakCityFisherText_JasmineReturned:
 	done
 
 EcruteakCityYoungsterText:
-	text "I hear #MON are"
+	text "I hear Pokémon are"
 	line "rampaging at the"
 
-	para "LAKE OF RAGE. I'd"
+	para "Lake of Rage. I'd"
 	line "like to see that."
 	done
 
@@ -173,11 +175,11 @@ EcruteakCityGramps3Text:
 	para "This tower burned"
 	line "in a fire. Three"
 
-	para "nameless #MON"
+	para "nameless Pokémon"
 	line "perished in it."
 
 	para "A rainbow-colored"
-	line "#MON descended"
+	line "Pokémon descended"
 
 	para "from the sky and"
 	line "resurrected them…"
@@ -185,8 +187,8 @@ EcruteakCityGramps3Text:
 	para "It's a legend that"
 	line "has been passed"
 
-	para "down by ECRUTEAK"
-	line "GYM LEADERS."
+	para "down by Ecruteak"
+	line "Gym Leaders."
 
 	para "Me?"
 
@@ -206,14 +208,14 @@ EcruteakCitySignText:
 TinTowerSignText:
 	text "TIN TOWER"
 
-	para "A legendary #-"
-	line "MON is said to"
+	para "A legendary Poké-"
+	line "mon is said to"
 	cont "roost here."
 	done
 
 EcruteakGymSignText:
 	text "ECRUTEAK CITY"
-	line "#MON GYM"
+	line "POKéMON GYM"
 	cont "LEADER: MORTY"
 
 	para "The Mystic Seer of"

@@ -415,7 +415,7 @@ DragonShrineElderGreetingText:
 	done
 
 DragonShrineQuestion1Text:
-	text "What are #MON"
+	text "What are Pokémon"
 	line "to you?"
 	done
 
@@ -433,12 +433,12 @@ DragonShrineQuestion3Text:
 DragonShrineQuestion4Text:
 	text "What is most"
 	line "important for"
-	cont "raising #MON?"
+	cont "raising Pokémon?"
 	done
 
 DragonShrineQuestion5Text:
-	text "Strong #MON."
-	line "Weak #MON."
+	text "Strong Pokémon."
+	line "Weak Pokémon."
 
 	para "Which is more"
 	line "important?"
@@ -448,7 +448,7 @@ DragonShrinePassedTestText:
 	text "Hm… I see…"
 
 	para "You care deeply"
-	line "for #MON."
+	line "for Pokémon."
 
 	para "Very commendable."
 
@@ -460,7 +460,7 @@ DragonShrinePassedTestText:
 
 	para "It will see you"
 	line "through at the"
-	cont "#MON LEAGUE."
+	cont "Pokémon League."
 	done
 
 DragonShrineMustIInformLanceText:
@@ -471,15 +471,15 @@ DragonShrineMustIInformLanceText:
 	cont "skill and spirit!"
 
 	para "Admit defeat and"
-	line "confer the RISING-"
-	cont "BADGE!"
+	line "confer the Rising"
+	cont "Badge!"
 
 	para "…Or must I inform"
-	line "LANCE of this?"
+	line "Lance of this?"
 	done
 
 DragonShrineElderScoldsClairText:
-	text "CLAIR…"
+	text "Clair…"
 
 	para "Reflect upon what"
 	line "it is that you"
@@ -503,7 +503,7 @@ DragonShrineTakeThisDratiniText:
 	para "I have something"
 	line "for you."
 
-	para "Take this DRATINI"
+	para "Take this Dratini"
 	line "as proof that I"
 
 	para "have recognized"
@@ -512,16 +512,16 @@ DragonShrineTakeThisDratiniText:
 
 DragonShrinePlayerReceivedDratiniText:
 	text "<PLAYER> received"
-	line "DRATINI!"
+	line "Dratini!"
 	done
 
 DragonShrinePartyFullText:
-	text "Hm? Your #MON"
+	text "Hm? Your Pokémon"
 	line "party is full."
 	done
 
 DragonShrineSymbolicDragonText:
-	text "Dragon #MON are"
+	text "Dragon Pokémon are"
 	line "symbolic of our"
 	cont "clan."
 
@@ -533,7 +533,7 @@ DragonShrineSymbolicDragonText:
 	done
 
 DragonShrineClairsGrandfatherText:
-	text "CLAIR appears to"
+	text "Clair appears to"
 	line "have learned an"
 
 	para "invaluable lesson"
@@ -549,7 +549,7 @@ DragonShrineRivalIsInTrainingText:
 	cont "training here."
 
 	para "He is much like"
-	line "CLAIR when she was"
+	line "Clair when she was"
 
 	para "younger. It is a"
 	line "little worrisome…"
@@ -574,19 +574,19 @@ DragonShrineElder2Text:
 	line "some time since a"
 
 	para "trainer has gained"
-	line "our MASTER's rare"
+	line "our Master's rare"
 	cont "approval."
 
 	para "In fact, not since"
-	line "Master LANCE."
+	line "Master Lance."
 	done
 
 DragonShrineElder3Text:
 	text "You know young"
-	line "Master LANCE?"
+	line "Master Lance?"
 
 	para "He looks so much"
-	line "like our MASTER"
+	line "like our Master"
 	cont "did in his youth."
 
 	para "It's in their"
@@ -623,25 +623,25 @@ DragonShrineIUnderstandText:
 
 DragonShrineHereRisingBadgeText:
 	text "Here, this is the"
-	line "RISINGBADGE…"
+	line "Rising Badge…"
 
 	para "Hurry up! Take it!"
 	done
 
 DragonShrinePlayerReceivedRisingBadgeText:
 	text "<PLAYER> received"
-	line "RISINGBADGE."
+	line "Rising Badge."
 	done
 
 DragonShrineRisingBadgeExplanationText:
-	text "RISINGBADGE will"
+	text "Rising Badge will"
 	line "enable your"
 
-	para "#MON to use the"
+	para "Pokémon to use the"
 	line "move for climbing"
 	cont "waterfalls."
 
-	para "Also, all #MON"
+	para "Also, all Pokémon"
 	line "will recognize you"
 
 	para "as a trainer and"

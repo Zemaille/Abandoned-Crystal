@@ -15,7 +15,7 @@ DarkCaveBlackthornEntranceTMSnore:
 	itemball TM_IRON_HEAD
 
 DarkCaveBlackthornEntranceMasterBall:
-	itemball MASTER_BALL
+	itemball BLACKGLASSES
 
 DarkCaveBlackthornEntrance_MapEvents:
 	db 0, 0 ; filler

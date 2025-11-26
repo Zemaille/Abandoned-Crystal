@@ -7,7 +7,7 @@
 	db NORMAL, NORMAL ; type
 	db 255 ; catch rate
 	db 69 ; base exp
-	dw NO_ITEM, NO_ITEM ; items
+	dw AMULET_COIN, AMULET_COIN ; items
 	db GENDER_F50 ; gender ratio
 	db 1 ; step cycles to hatch
 	INCBIN "gfx/pokemon/meowth/front.dimensions"

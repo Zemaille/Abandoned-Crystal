@@ -7,7 +7,7 @@
 	db PSYCHIC_TYPE, PSYCHIC_TYPE ; type
 	db 190 ; catch rate
 	db 80 ; base exp
-	dw NO_ITEM, NO_ITEM ; items
+	dw NO_ITEM, BRIGHTPOWDER ; items
 	db GENDER_F50 ; gender ratio
 	db 1 ; step cycles to hatch
 	INCBIN "gfx/pokemon/ponyta_g/front.dimensions"

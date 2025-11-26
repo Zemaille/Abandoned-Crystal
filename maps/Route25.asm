@@ -236,7 +236,7 @@ Route25MistyLeavesMovement:
 	step_end
 
 Route25MistyDateText:
-	text "MISTY: Aww! Why"
+	text "Misty: Aww! Why"
 	line "did you have to"
 
 	para "show up and bug us"
@@ -251,22 +251,22 @@ Route25MistyDateText:
 
 	para "…"
 
-	para "…Oh? Those BADGES"
+	para "…Oh? Those Badges"
 	line "you have… Are they"
-	cont "JOHTO GYM BADGES?"
+	cont "Johto Gym Badges?"
 
 	para "If you have eight,"
 	line "you must be good."
 
 	para "OK, then. Come to"
-	line "CERULEAN GYM."
+	line "Cerulean Gym."
 
 	para "I'll be happy to"
 	line "take you on."
 
-	para "I'm MISTY, the"
-	line "GYM LEADER in"
-	cont "CERULEAN."
+	para "I'm Misty, the"
+	line "Gym Leader in"
+	cont "Cerulean."
 	done
 
 SchoolboyDudleySeenText:
@@ -413,8 +413,8 @@ CooltrainermKevinAfterBattleText:
 	text "That was a great"
 	line "battle!"
 
-	para "You and your #-"
-	line "MON are truly out-"
+	para "You and your Poké-"
+	line "mon are truly out-"
 	cont "standing!"
 	done
 

@@ -297,7 +297,7 @@ NationalParkTrainerTipsSign:
 	jumptext NationalParkTrainerTipsText
 
 NationalParkParlyzHeal:
-	itemball PARLYZ_HEAL
+	itemball POLKADOT_BOW
 
 NationalParkTMDig:
 	itemball TM_DIG
@@ -312,12 +312,12 @@ NationalParkLassText:
 	para "I printed out my"
 	line "favorites from my"
 
-	para "#DEX and stuck"
+	para "Pokédex and stuck"
 	line "them on my bag."
 	done
 
 NationalParkPokefanFText:
-	text "This is MAIL I got"
+	text "This is mail I got"
 	line "from my daughter."
 	cont "It cheers me up."
 	done
@@ -333,7 +333,7 @@ NationalParkTeacher1Text:
 	line "time."
 
 	para "You must be a"
-	line "#MON trainer."
+	line "Pokémon trainer."
 
 	para "Since you're work-"
 	line "ing so hard, I"
@@ -343,8 +343,8 @@ NationalParkTeacher1Text:
 	done
 
 NationalParkTeacher1Text_GotQuickClaw:
-	text "Let a #MON hold"
-	line "that QUICK CLAW."
+	text "Let a Pokémon hold"
+	line "that Quick Claw."
 
 	para "Sometimes it will"
 	line "strike first"
@@ -354,18 +354,18 @@ NationalParkTeacher1Text_GotQuickClaw:
 NationalParkYoungster1Text:
 	text "I'm playing with"
 	line "stickers I printed"
-	cont "from my #DEX."
+	cont "from my Pokédex."
 	done
 
 NationalParkYoungster2Text:
 	text "I get the other"
-	line "guy's #DEX"
+	line "guy's Pokédex"
 	cont "sticker if I win."
 	done
 
 NationalParkTeacher2Text:
 	text "I take walks in"
-	line "the PARK, but I"
+	line "the Park, but I"
 
 	para "never go into the"
 	line "grass."
@@ -375,23 +375,23 @@ NationalParkTeacher2Text:
 	done
 
 NationalParkPersianText:
-	text "PERSIAN: Fufushaa!"
+	text "Persian: Fufushaa!"
 	done
 
 NationalParkGameboyKidText:
 	text "I'm printing out"
-	line "my #DEX."
+	line "my Pokédex."
 
 	para "You can also print"
 	line "out stuff like"
 
-	para "MAIL and your PC"
-	line "BOXES."
+	para "mail and your PC"
+	line "Boxes."
 	done
 
 SchoolboyJack1SeenText:
 	text "The world of"
-	line "#MON is deep."
+	line "Pokémon is deep."
 
 	para "There are still"
 	line "lots of things we"
@@ -414,12 +414,12 @@ SchoolboyJackTradeMonText:
 	para "There are {d:NUM_TMS} kinds"
 	line "of TMs."
 
-	para "Traded #MON"
+	para "Traded Pokémon"
 	line "level up faster."
 	done
 
 PokefanfBeverly1SeenText:
-	text "My #MON are"
+	text "My Pokémon are"
 	line "simply darling."
 
 	para "Let me tell you"
@@ -434,26 +434,26 @@ PokefanfBeverly1BeatenText:
 
 PokefanBeverlyCuteMonText:
 	text "I must say, your"
-	line "#MON are quite"
+	line "Pokémon are quite"
 	cont "cute, too."
 	done
 
 PokefanmWilliamSeenText:
-	text "We adore our #-"
-	line "MON, even if they"
+	text "We adore our Poké-"
+	line "mon, even if they"
 	cont "dislike us."
 
 	para "That's what being"
-	line "a FAN is about."
+	line "a fan is about."
 	done
 
 PokefanmWilliamBeatenText:
-	text "M-my #MON!"
+	text "M-my Pokémon!"
 	done
 
 PokefanmWilliamAfterBattleText:
 	text "I lost the battle,"
-	line "but my #MON win"
+	line "but my Pokémon win"
 
 	para "the prize for"
 	line "being most lovely."
@@ -461,13 +461,13 @@ PokefanmWilliamAfterBattleText:
 
 PokefanFBeverlyMarillFriendText:
 	text "My friend keeps a"
-	line "MARILL!"
+	line "Marill!"
 
 	para "I find them very"
 	line "endearing."
 
 	para "Oh, I wish for a"
-	line "MARILL of my own…"
+	line "Marill of my own…"
 	done
 
 LassKriseSeenText:

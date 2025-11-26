@@ -22,25 +22,25 @@ SoulHouseGrannyScript:
 	jumptextfaceplayer SoulHouseGrannyText
 
 MrFujiText:
-	text "MR.FUJI: Welcome."
+	text "Mr.Fuji: Welcome."
 
 	para "Hmm… You appear to"
 	line "be raising your"
 
-	para "#MON in a kind"
+	para "Pokémon in a kind"
 	line "and loving manner."
 
-	para "#MON lovers"
+	para "Pokémon lovers"
 	line "come here to pay"
 
 	para "their respects to"
-	line "departed #MON."
+	line "departed Pokémon."
 
 	para "Please offer con-"
 	line "dolences for the"
 
 	para "souls of the de-"
-	line "parted #MON."
+	line "parted Pokémon."
 
 	para "I'm sure that will"
 	line "make them happy."
@@ -48,22 +48,22 @@ MrFujiText:
 
 SoulHouseTeacherText:
 	text "There are other"
-	line "graves of #MON"
+	line "graves of Pokémon"
 	cont "here, I think."
 
 	para "There are many"
 	line "chambers that only"
-	cont "MR.FUJI may enter."
+	cont "Mr.Fuji may enter."
 	done
 
 SoulHouseLassText:
 	text "I came with my mom"
-	line "to visit #MON"
+	line "to visit Pokémon"
 	cont "graves…"
 	done
 
 SoulHouseGrannyText:
-	text "The #MON that"
+	text "The Pokémon that"
 	line "lived with me…"
 
 	para "I loved them like"

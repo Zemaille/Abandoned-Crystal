@@ -143,7 +143,7 @@ SwimmermSimonBeatenText:
 	done
 
 SwimmermSimonAfterBattleText:
-	text "CIANWOOD CITY is"
+	text "Cianwood City is"
 	line "a good distance"
 	cont "away from here."
 	done
@@ -153,7 +153,7 @@ SwimmermRandallSeenText:
 	line "and fit!"
 
 	para "Don't ride your"
-	line "#MON! Swim!"
+	line "Pokémon! Swim!"
 	done
 
 SwimmermRandallBeatenText:
@@ -168,7 +168,7 @@ SwimmermRandallAfterBattleText:
 
 SwimmerfElaineSeenText:
 	text "Are you going to"
-	line "CIANWOOD?"
+	line "Cianwood?"
 
 	para "How about a quick"
 	line "battle first?"
@@ -189,7 +189,7 @@ SwimmerfPaulaSeenText:
 	line "me."
 
 	para "I'm hanging on to"
-	line "a sea #MON!"
+	line "a sea Pokémon!"
 	done
 
 SwimmerfPaulaBeatenText:
@@ -207,7 +207,7 @@ Route40Lass1Text:
 	text "Although you can't"
 	line "see it from here,"
 
-	para "CIANWOOD is across"
+	para "Cianwood is across"
 	line "the sea."
 	done
 
@@ -268,7 +268,7 @@ MonicaGaveGiftText:
 	line "ing-type moves."
 
 	para "You should equip a"
-	line "bird #MON with"
+	line "bird Pokémon with"
 	cont "that item."
 	done
 

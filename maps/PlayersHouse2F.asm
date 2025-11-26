@@ -210,23 +210,23 @@ PlayersHousePCScript:
 	end
 
 PlayersRadioText1:
-	text "PROF.OAK'S #MON"
-	line "TALK! Please tune"
+	text "Prof.Oak'S Pokémon"
+	line "Talk! Please tune"
 	cont "in next time!"
 	done
 
 PlayersRadioText2:
-	text "#MON CHANNEL!"
+	text "Pokémon Channel!"
 	done
 
 PlayersRadioText3:
-	text "This is DJ MARY,"
+	text "This is DJ Mary,"
 	line "your co-host!"
 	done
 
 PlayersRadioText4:
-	text "#MON!"
-	line "#MON CHANNEL…"
+	text "Pokémon!"
+	line "Pokémon Channel…"
 	done
 
 PlayersHouse2F_MapEvents:

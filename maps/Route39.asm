@@ -181,15 +181,15 @@ Route39HiddenNugget:
 	hiddenitem NUGGET, EVENT_ROUTE_39_HIDDEN_NUGGET
 
 Route39MiltankText:
-	text "MILTANK: Mooo!"
+	text "Miltank: Mooo!"
 	done
 
 SailorEugeneSeenText:
 	text "I just got back to"
-	line "OLIVINE."
+	line "Olivine."
 
 	para "So how about a"
-	line "#MON battle?"
+	line "Pokémon battle?"
 	done
 
 SailorEugeneBeatenText:
@@ -197,7 +197,7 @@ SailorEugeneBeatenText:
 	done
 
 SailorEugeneAfterBattleText:
-	text "My #MON were"
+	text "My Pokémon were"
 	line "caught and raised"
 	cont "overseas."
 
@@ -209,19 +209,19 @@ SailorEugeneAfterBattleText:
 PokefanmDerekSeenText:
 	text "This is a good"
 	line "time to brag about"
-	cont "my PIKACHU!"
+	cont "my Pikachu!"
 	done
 
 PokefanmDerekBeatenText:
 	text "I had no time to"
-	line "show off PIKACHU…"
+	line "show off Pikachu…"
 	done
 
 PokefanMDerekText_NotBragging:
 	text "I'm not listening"
 	line "to your bragging!"
 
-	para "We # FANS have"
+	para "We Poké Fans have"
 	line "a policy of not"
 
 	para "listening to other"
@@ -230,10 +230,10 @@ PokefanMDerekText_NotBragging:
 
 PokefanfRuthSeenText:
 	text "Such darling"
-	line "#MON."
+	line "Pokémon."
 
 	para "Let's show our"
-	line "#MON together"
+	line "Pokémon together"
 	cont "at the same time."
 	done
 
@@ -244,37 +244,35 @@ PokefanfRuthBeatenText:
 
 PokefanfRuthAfterBattleText:
 	text "Do you know about"
-	line "baby #MON?"
+	line "baby Pokémon?"
 
 	para "I bet they're just"
 	line "adorable!"
 	done
 
 PokefanMDerekPikachuIsItText:
-	text "PIKACHU is it!"
+	text "Pikachu is it!"
 	line "Don't you agree?"
 	done
 
 PsychicNormanSeenText:
 	text "Let me see what"
-	line "your #MON are"
+	line "your Pokémon are"
 	cont "capable of."
 	done
 
 PsychicNormanBeatenText:
-	text "Ooh, your #MON"
+	text "Ooh, your Pokémon"
 	line "have potential."
 	done
 
 PsychicNormanAfterBattleText:
-	text "You know how #-"
-	line "MON have different"
+	text "You know how Poke-"
+	line "mon have different"
 	cont "abilities?"
 
-	para "People are like"
-	line "that too. Every-"
-	cont "one has different"
-	cont "potential."
+	para "Not in this hack"
+	line "they don't."
 	done
 
 PokefanfJaimeHopeItGetsDarkText:
@@ -334,10 +332,10 @@ Route39TrainerTipsText:
 
 	para "Use HEADBUTT on"
 	line "trees to shake"
-	cont "#MON out."
+	cont "Pokémon out."
 
 	para "Different kinds of"
-	line "#MON drop out"
+	line "Pokémon drop out"
 	cont "of trees."
 
 	para "Use HEADBUTT on"

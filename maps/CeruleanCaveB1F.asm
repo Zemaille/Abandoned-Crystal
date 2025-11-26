@@ -8,7 +8,7 @@ CeruleanCaveB1F_MapScripts:
 	def_callbacks
 
 CeruleanCaveB1FMoonStoneScript:
-	itemball MOON_STONE
+	itemball PP_UP
 	
 CeruleanCaveB1FMewtwoScript:
 	faceplayer

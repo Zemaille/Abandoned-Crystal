@@ -219,7 +219,7 @@ CeladonGameCornerPrizeRoomPokemonVendor:
 	db "CANCEL@"
 
 CeladonGameCornerPrizeRoomGentlemanText:
-	text "I wanted PORYGON,"
+	text "I wanted Porygon,"
 	line "but I was short by"
 	cont "100 coins…"
 	done
@@ -276,7 +276,7 @@ CeladonPrizeRoom_ComeAgainText:
 
 CeladonPrizeRoom_NoCoinCaseText:
 	text "Oh? You don't have"
-	line "a COIN CASE."
+	line "a Coin Case."
 	done
 
 CeladonPrizeRoom_AlreadyHaveTMText:

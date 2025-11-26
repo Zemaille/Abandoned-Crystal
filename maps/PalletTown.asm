@@ -31,8 +31,8 @@ BluesHouseSign:
 	jumptext BluesHouseSignText
 
 PalletTownTeacherText:
-	text "I'm raising #-"
-	line "MON too."
+	text "I'm raising Poké-"
+	line "mon too."
 
 	para "They serve as my"
 	line "private guards."
@@ -43,7 +43,7 @@ PalletTownFisherText:
 	line "incredible!"
 
 	para "You can now trade"
-	line "#MON across"
+	line "Pokémon across"
 	cont "time like e-mail."
 	done
 
@@ -59,7 +59,7 @@ RedsHouseSignText:
 	done
 
 OaksLabSignText:
-	text "OAK #MON"
+	text "OAK POKéMON"
 	line "RESEARCH LAB"
 	done
 

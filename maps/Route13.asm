@@ -79,7 +79,7 @@ Route13HiddenCalcium:
 
 PokefanmAlexSeenText:
 	text "Bow down before my"
-	line "regal #MON!"
+	line "regal Pokémon!"
 	done
 
 PokefanmAlexBeatenText:
@@ -96,25 +96,25 @@ PokefanmAlexAfterBattleText:
 PokefanmJoshuaSeenText:
 	text "Nihihi! Would you"
 	line "like to battle my"
-	cont "PIKACHU gang?"
+	cont "Pikachu gang?"
 	done
 
 PokefanmJoshuaBeatenText:
-	text "PI-PIKACHU!"
+	text "Pi-Pikachu!"
 	done
 
 PokefanmJoshuaAfterBattleText:
 	text "You look like you"
-	line "have many #MON,"
+	line "have many Pokémon,"
 
-	para "but PIKACHU is"
+	para "but Pikachu is"
 	line "still the best."
 	done
 
 BirdKeeperPerrySeenText:
 	text "Agility is the key"
 	line "attribute of bird"
-	cont "#MON."
+	cont "Pokémon."
 	done
 
 BirdKeeperPerryBeatenText:
@@ -123,14 +123,14 @@ BirdKeeperPerryBeatenText:
 	done
 
 BirdKeeperPerryAfterBattleText:
-	text "Your #MON are"
+	text "Your Pokémon are"
 	line "remarkably well-"
 	cont "trained."
 	done
 
 BirdKeeperBretSeenText:
-	text "Check out my #-"
-	line "MON. Just look at"
+	text "Check out my Poké-"
+	line "mon. Just look at"
 
 	para "their coloring and"
 	line "their plumage."
@@ -143,13 +143,13 @@ BirdKeeperBretBeatenText:
 
 BirdKeeperBretAfterBattleText:
 	text "If you groom them,"
-	line "#MON get happy."
+	line "Pokémon get happy."
 	done
 
 HikerKennySeenText:
 	text "I should go to"
-	line "ROCK TUNNEL to get"
-	cont "myself an ONIX."
+	line "Rock Tunnel to get"
+	cont "myself an Onix."
 	done
 
 HikerKennyBeatenText:

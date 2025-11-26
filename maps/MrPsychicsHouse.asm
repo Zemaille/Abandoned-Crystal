@@ -39,10 +39,17 @@ MrPsychicText1:
 	done
 
 MrPsychicText2:
-	text "TM29 is PSYCHIC."
+	text "TM41 is Pyscho"
+	line "Cut."
 
-	para "It may lower the"
-	line "target's SPCL.DEF."
+	para "It has a higher"
+	line "chance to crit."
+	
+	para "Crit is short"
+	line "for critical."
+	
+	para "As in critical"
+	line "hit."
 	done
 
 MrPsychicsHouse_MapEvents:

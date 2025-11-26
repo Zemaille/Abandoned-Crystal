@@ -152,7 +152,7 @@ SproutTower3FRivalLeavesElderMovement:
 	step_end
 
 SproutTowerElderLecturesRivalText:
-	text "ELDER: You are in-"
+	text "Elder: You are in-"
 	line "deed skilled as a"
 	cont "trainer."
 
@@ -163,12 +163,12 @@ SproutTowerElderLecturesRivalText:
 	line "this: You should"
 
 	para "treat your"
-	line "#MON better."
+	line "Pokémon better."
 
 	para "The way you battle"
 	line "is far too harsh."
 
-	para "#MON are not"
+	para "Pokémon are not"
 	line "tools of war…"
 	done
 
@@ -177,7 +177,7 @@ SproutTowerRivalOnlyCareAboutStrongText:
 	line "…Humph!"
 
 	para "He claims to be"
-	line "the ELDER but"
+	line "the Elder but"
 	cont "he's weak."
 
 	para "It stands to"
@@ -187,30 +187,30 @@ SproutTowerRivalOnlyCareAboutStrongText:
 	line "fools who babble"
 
 	para "about being nice"
-	line "to #MON."
+	line "to Pokémon."
 
 	para "I only care about"
-	line "strong #MON"
+	line "strong Pokémon"
 	cont "that can win."
 
 	para "I really couldn't"
 	line "care less about"
-	cont "weak #MON."
+	cont "weak Pokémon."
 	done
 
 SproutTowerRivalUsedEscapeRopeText:
 	text "<RIVAL> used an"
-	line "ESCAPE ROPE!"
+	line "Escape Rope!"
 	done
 
 SageLiSeenText:
 	text "So good of you to"
 	line "come here!"
 
-	para "SPROUT TOWER is a"
+	para "Sprout Tower is a"
 	line "place of training."
 
-	para "People and #MON"
+	para "People and Pokémon"
 	line "test their bonds"
 
 	para "to build a bright"
@@ -222,7 +222,7 @@ SageLiSeenText:
 	para "Allow me to check"
 	line "the ties between"
 
-	para "your #MON and"
+	para "your Pokémon and"
 	line "you!"
 	done
 
@@ -231,26 +231,26 @@ SageLiBeatenText:
 	done
 
 SageLiTakeThisFlashText:
-	text "You and your #-"
-	line "MON should have"
+	text "You and your Poké-"
+	line "mon should have"
 
 	para "no problem using"
 	line "this move."
 
-	para "Take this FLASH"
+	para "Take this Flash"
 	line "HM."
 	done
 
 SageLiFlashExplanationText:
-	text "FLASH illuminates"
+	text "Flash illuminates"
 	line "even the darkest"
 	cont "of all places."
 
 	para "But to use it out"
 	line "of battle, you"
 
-	para "need the BADGE"
-	line "from VIOLET's GYM."
+	para "need the Badge"
+	line "from Violet's Gym."
 	done
 
 SageLiAfterBattleText:
@@ -262,7 +262,7 @@ SageLiAfterBattleText:
 SageJinSeenText:
 	text "I train to find"
 	line "enlightenment in"
-	cont "#MON!"
+	cont "Pokémon!"
 	done
 
 SageJinBeatenText:
@@ -271,7 +271,7 @@ SageJinBeatenText:
 	done
 
 SageJinAfterBattleText:
-	text "As #MON grow"
+	text "As Pokémon grow"
 	line "stronger, so does"
 	cont "the trainer."
 
@@ -279,13 +279,13 @@ SageJinAfterBattleText:
 	line "trainer grows"
 
 	para "stronger, so do"
-	line "the #MON."
+	line "the Pokémon."
 	done
 
 SageTroySeenText:
 	text "Let me see how"
 	line "much you trust"
-	cont "your #MON."
+	cont "your Pokémon."
 	done
 
 SageTroyBeatenText:
@@ -295,11 +295,11 @@ SageTroyBeatenText:
 
 SageTroyAfterBattleText:
 	text "It is not far to"
-	line "the ELDER."
+	line "the Elder."
 	done
 
 SageNealSeenText:
-	text "The ELDER's HM"
+	text "The Elder's HM"
 	line "lights even pitch-"
 	cont "black darkness."
 	done
@@ -317,11 +317,11 @@ SageNealAfterBattleText:
 SproutTower3FPaintingText:
 	text "It's a powerful"
 	line "painting of a"
-	cont "BELLSPROUT."
+	cont "Bellsprout."
 	done
 
 SproutTower3FStatueText:
-	text "A #MON statue…"
+	text "A Pokémon statue…"
 
 	para "It looks very"
 	line "distinguished."

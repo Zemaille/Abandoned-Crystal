@@ -7,7 +7,7 @@
 	db FIGHTING, FIGHTING ; type
 	db 190 ; catch rate
 	db 74 ; base exp
-	dw NO_ITEM, NO_ITEM ; items
+	dw BERSERK_GENE, BERSERK_GENE ; items
 	db GENDER_F50 ; gender ratio
 	db 1 ; step cycles to hatch
 	INCBIN "gfx/pokemon/mankey/front.dimensions"

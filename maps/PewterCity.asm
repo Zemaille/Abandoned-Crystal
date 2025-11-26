@@ -68,16 +68,16 @@ PewterCityFruitTree2:
 
 PewterCityCooltrainerFText:
 	text "Have you visited"
-	line "PEWTER GYM?"
+	line "Pewter Gym?"
 
-	para "The LEADER uses"
-	line "rock-type #MON."
+	para "The Leader uses"
+	line "rock-type Pokémon."
 	done
 
 PewterCityBugCatcherText:
-	text "At night, CLEFAIRY"
+	text "At night, Clefairy"
 	line "come out to play"
-	cont "at MT.MOON."
+	cont "at Mt.Moon."
 
 	para "But not every"
 	line "night."
@@ -86,13 +86,13 @@ PewterCityBugCatcherText:
 PewterCityGrampsText:
 	text "Ah, you came all"
 	line "the way out here"
-	cont "from JOHTO?"
+	cont "from Johto?"
 
 	para "That brings back"
 	line "memories. When I"
 
 	para "was young, I went"
-	line "to JOHTO to train."
+	line "to Johto to train."
 
 	para "You remind me so"
 	line "much of what I was"
@@ -102,7 +102,7 @@ PewterCityGrampsText:
 
 	para "Here. I want you"
 	line "to have this item"
-	cont "I found in JOHTO."
+	cont "I found in Johto."
 	done
 
 PewterCityGrampsText_GotSilverWing:
@@ -121,19 +121,19 @@ PewterCitySignText:
 
 PewterGymSignText:
 	text "PEWTER CITY"
-	line "#MON GYM"
+	line "POKéMON GYM"
 	cont "LEADER: BROCK"
 
 	para "The Rock Solid"
-	line "#MON Trainer"
+	line "Pokémon Trainer"
 	done
 
 PewterMuseumSignText:
 	text "There's a notice"
 	line "here…"
 
-	para "PEWTER MUSEUM OF"
-	line "SCIENCE is closed"
+	para "Pewter Museum of"
+	line "Science is closed"
 	cont "for renovations…"
 	done
 

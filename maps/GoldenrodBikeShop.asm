@@ -43,11 +43,11 @@ GoldenrodBikeShopClerkIntroText:
 	text "…sigh… I moved"
 	line "here, but I can't"
 
-	para "sell my BICYCLES."
+	para "sell my bicycles."
 	line "Why is that?"
 
 	para "Could you ride a"
-	line "BICYCLE and adver-"
+	line "bicycle and adver-"
 	cont "tise for me?"
 	done
 
@@ -58,16 +58,16 @@ GoldenrodBikeShopClerkAgreedText:
 	line "and phone number,"
 
 	para "and I'll loan you"
-	line "a BICYCLE."
+	line "a bicycle."
 	done
 
 BorrowedABicycleText:
 	text "<PLAYER> borrowed a"
-	line "BICYCLE."
+	line "Bicycle."
 	done
 
 GoldenrodBikeShopClerkFirstRateBikesText:
-	text "My BICYCLES are"
+	text "My bicycles are"
 	line "first-rate! You"
 
 	para "can ride them"
@@ -82,7 +82,7 @@ GoldenrodBikeShopClerkRefusedText:
 
 GoldenrodBikeShopBicycleText:
 	text "It's a shiny new"
-	line "BICYCLE!"
+	line "bicycle!"
 	done
 
 GoldenrodBikeShop_MapEvents:

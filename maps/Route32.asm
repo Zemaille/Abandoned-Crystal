@@ -529,16 +529,16 @@ Route32CooltrainerMText_AideIsWaiting:
 	para "See for yourself."
 	line "He's waiting for"
 
-	para "you at the #MON"
-	line "CENTER."
+	para "you at the Pokémon"
+	line "Center."
 	done
 
 Route32CooltrainerMText_VioletGym:
 	text "Have you gone to"
-	line "the #MON GYM?"
+	line "the Pokémon Gym?"
 
 	para "You can test your"
-	line "#MON and your-"
+	line "Pokémon and your-"
 	cont "self there."
 
 	para "It's a rite of"
@@ -548,22 +548,22 @@ Route32CooltrainerMText_VioletGym:
 
 Route32CooltrainerMText_HaveThisSeed:
 	text "You have some good"
-	line "#MON there."
+	line "Pokémon there."
 
 	para "It must be from"
 	line "the training you"
 
 	para "gave them around"
-	line "VIOLET CITY."
+	line "Violet City."
 
 	para "The training at"
-	line "the GYM must have"
+	line "the Gym must have"
 
 	para "been especially"
 	line "helpful."
 
 	para "As a souvenir of"
-	line "VIOLET CITY, take"
+	line "Violet City, take"
 	cont "this."
 
 	para "It increases the"
@@ -573,7 +573,7 @@ Route32CooltrainerMText_HaveThisSeed:
 
 Route32CooltrainerMText_ExperiencesShouldBeUseful:
 	text "Your experiences"
-	line "in VIOLET CITY"
+	line "in Violet City"
 
 	para "should be useful"
 	line "for your journey."
@@ -584,7 +584,7 @@ Text_MillionDollarSlowpokeTail:
 	line "to have this"
 
 	para "tasty, nutritious"
-	line "SLOWPOKETAIL?"
+	line "SlowpokeTail?"
 
 	para "For you right now,"
 	line "just ¥1,000,000!"
@@ -618,14 +618,14 @@ FisherJustinAfterText:
 	text "Calm, collected…"
 	line "The essence of"
 
-	para "fishing and #-"
-	line "MON is the same."
+	para "fishing and Poké-"
+	line "mon is the same."
 	done
 
 FisherRalph1SeenText:
 	text "I'm really good at"
 	line "both fishing and"
-	cont "#MON."
+	cont "Pokémon."
 
 	para "I'm not about to"
 	line "lose to any kid!"
@@ -640,7 +640,7 @@ FisherRalphAfterText:
 	text "Fishing is a life-"
 	line "long passion."
 
-	para "#MON are life-"
+	para "Pokémon are life-"
 	line "long friends!"
 	done
 
@@ -656,17 +656,17 @@ FisherRalphSwarmText:
 	done
 
 FisherHenrySeenText:
-	text "My #MON?"
+	text "My Pokémon?"
 	line "Freshly caught!"
 	done
 
 FisherHenryBeatenText:
-	text "SPLASH?"
+	text "Splash?"
 	done
 
 FisherHenryAfterText:
 	text "Freshly caught"
-	line "#MON are no"
+	line "Pokémon are no"
 
 	para "match for properly"
 	line "raised ones."
@@ -690,13 +690,13 @@ YoungsterAlbertAfterText:
 	cont "with my favorites."
 
 	para "I'm not using the"
-	line "same tough #MON"
+	line "same tough Pokémon"
 	cont "as everyone else."
 	done
 
 YoungsterGordonSeenText:
 	text "I found some good"
-	line "#MON in the"
+	line "Pokémon in the"
 	cont "grass!"
 
 	para "I think they'll do"
@@ -751,10 +751,10 @@ PicnickerLiz1AfterText:
 	done
 
 BirdKeeperPeterSeenText:
-	text "That BADGE! It's"
-	line "from VIOLET CITY!"
+	text "That Badge! It's"
+	line "from Violet City!"
 
-	para "You beat FALKNER?"
+	para "You beat Falkner?"
 	done
 
 BirdKeeperPeterBeatenText:
@@ -764,8 +764,8 @@ BirdKeeperPeterBeatenText:
 
 BirdKeeperPeterAfterText:
 	text "I should train"
-	line "again at the GYM"
-	cont "in VIOLET CITY."
+	line "again at the Gym"
+	cont "in Violet City."
 	done
 
 Text_RoarIntro:
@@ -781,30 +781,27 @@ Text_RoarIntro:
 
 Text_RoarOutro:
 	text "WROOOAR!"
-	line "IT'S ROAR!"
-
-	para "EVEN #MON RUN"
-	line "FROM A GOOD ROAR!"
+	line "ROCK SMASH!"
 	done
 
 MeetFriedaText:
-	text "FRIEDA: Yahoo!"
+	text "Frieda: Yahoo!"
 	line "It's Friday!"
 
-	para "I'm FRIEDA of"
+	para "I'm Frieda of"
 	line "Friday!"
 
 	para "Nice to meet you!"
 	done
 
 FriedaGivesGiftText:
-	text "Here's a POISON"
-	line "BARB for you!"
+	text "Here's a Poison"
+	line "Barb for you!"
 	done
 
 FriedaGaveGiftText:
-	text "FRIEDA: Give it to"
-	line "a #MON that has"
+	text "Frieda: Give it to"
+	line "a Pokémon that has"
 	cont "poison-type moves."
 
 	para "Oh!"
@@ -817,7 +814,7 @@ FriedaGaveGiftText:
 	done
 
 FriedaFridayText:
-	text "FRIEDA: Hiya! What"
+	text "Frieda: Hiya! What"
 	line "day do you like?"
 
 	para "I love Friday. No"
@@ -828,7 +825,7 @@ FriedaFridayText:
 	done
 
 FriedaNotFridayText:
-	text "FRIEDA: Isn't it"
+	text "Frieda: Isn't it"
 	line "Friday today?"
 
 	para "It's so boring"

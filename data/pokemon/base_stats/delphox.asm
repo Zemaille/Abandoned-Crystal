@@ -7,7 +7,7 @@
 	db FIRE, PSYCHIC_TYPE ; type
 	db 45 ; catch rate
 	db 225 ; base exp
-	dw NO_ITEM, NO_ITEM ; items
+	dw STICK, STICK ; items
 	db GENDER_F75 ; gender ratio
 	db 20 ; step cycles to hatch
 	INCBIN "gfx/pokemon/delphox/front.dimensions"

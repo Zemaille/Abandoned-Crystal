@@ -7,7 +7,7 @@ TohjoFalls_MapScripts:
 	def_callbacks
 
 TohjoFallsMoonStone:
-	itemball MOON_STONE
+	itemball TM_SCALD
 
 TohjoFalls_MapEvents:
 	db 0, 0 ; filler

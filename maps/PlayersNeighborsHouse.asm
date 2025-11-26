@@ -45,16 +45,16 @@ PlayersNeighborsHouseRadioScript:
 	end
 
 PlayersNeighborsDaughterText:
-	text "PIKACHU is an"
-	line "evolved #MON."
+	text "Pikachu is an"
+	line "evolved Pokémon."
 
 	para "I was amazed by"
-	line "PROF.ELM's find-"
+	line "Prof.Elm's find-"
 	cont "ings."
 
 	para "He's so famous for"
 	line "his research on"
-	cont "#MON evolution."
+	cont "Pokémon evolution."
 
 	para "…sigh…"
 
@@ -67,33 +67,33 @@ PlayersNeighborText:
 	text "My daughter is"
 	line "adamant about"
 
-	para "becoming PROF."
-	line "ELM's assistant."
+	para "becoming Prof."
+	line "Elm's assistant."
 
 	para "She really loves"
-	line "#MON!"
+	line "Pokémon!"
 
 	para "But then, so do I!"
 	done
 
 PlayerNeighborRadioText1:
-	text "PROF.OAK'S #MON"
-	line "TALK! Please tune"
+	text "Prof.Oak's Pokémon"
+	line "Talk! Please tune"
 	cont "in next time!"
 	done
 
 PlayerNeighborRadioText2:
-	text "#MON CHANNEL!"
+	text "Pokémon Channel!"
 	done
 
 PlayerNeighborRadioText3:
-	text "This is DJ MARY,"
+	text "This is DJ Mary,"
 	line "your co-host!"
 	done
 
 PlayerNeighborRadioText4:
-	text "#MON!"
-	line "#MON CHANNEL…"
+	text "Pokémon!"
+	line "Pokémon Channel…"
 	done
 
 PlayersNeighborsHouse_MapEvents:

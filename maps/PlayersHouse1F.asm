@@ -208,9 +208,9 @@ MomWalksBackMovement:
 
 ElmsLookingForYouText:
 	text "Oh, <PLAYER>…! Our"
-	line "neighbor, PROF."
+	line "neighbor, Prof."
 
-	para "ELM, was looking"
+	para "Elm, was looking"
 	line "for you."
 
 	para "He said he wanted"
@@ -218,17 +218,17 @@ ElmsLookingForYouText:
 	cont "thing for him."
 
 	para "Oh! I almost for-"
-	line "got! Your #MON"
+	line "got! Your Pokémon"
 
-	para "GEAR is back from"
+	para "Gear is back from"
 	line "the repair shop."
 
 	para "Here you go!"
 	done
 
 MomGivesPokegearText:
-	text "#MON GEAR, or"
-	line "just #GEAR."
+	text "Pokémon Gear, or"
+	line "just PokéGear."
 
 	para "It's essential if"
 	line "you want to be a"
@@ -254,48 +254,34 @@ ComeHomeForDSTText:
 	line "Saving Time."
 
 	para "By the way, do you"
-	line "know how to use"
-	cont "the PHONE?"
+	line "know how to run?"
 	done
 
 KnowTheInstructionsText:
-	text "Don't you just"
-	line "turn the #GEAR"
+	text "That's right!"
 
-	para "on and select the"
-	line "PHONE icon?"
+	para "Just hold B!"
 	done
 
 DontKnowTheInstructionsText:
-	text "I'll read the"
-	line "instructions."
-
-	para "Turn the #GEAR"
-	line "on and select the"
-	cont "PHONE icon."
+	text "Just hold B."
 	done
 
 InstructionsNextText:
-	text "Phone numbers are"
-	line "stored in memory."
-
-	para "Just choose a name"
-	line "you want to call."
-
-	para "Gee, isn't that"
-	line "convenient?"
+	text "You can run as"
+	line "fast as bikes!"
 	done
 
 HurryUpElmIsWaitingText:
-	text "PROF.ELM is wait-"
+	text "Prof.Elm is wait-"
 	line "ing for you."
 
 	para "Hurry up, baby!"
 	done
 
 SoWhatWasProfElmsErrandText:
-	text "So, what was PROF."
-	line "ELM's errand?"
+	text "So, what was Prof."
+	line "Elm's errand?"
 
 	para "…"
 
@@ -340,18 +326,18 @@ NeighborText:
 	para "My daughter is"
 	line "adamant about"
 
-	para "becoming PROF."
-	line "ELM's assistant."
+	para "becoming Prof."
+	line "Elm's assistant."
 
 	para "She really loves"
-	line "#MON!"
+	line "Pokémon!"
 	done
 
 PlayersHouse1FStoveText:
 	text "Mom's specialty!"
 
-	para "CINNABAR VOLCANO"
-	line "BURGER!"
+	para "Cinnabar Volcano"
+	line "Burger!"
 	done
 
 PlayersHouse1FSinkText:
@@ -364,8 +350,8 @@ PlayersHouse1FFridgeText:
 	text "Let's see what's"
 	line "in the fridge…"
 
-	para "FRESH WATER and"
-	line "tasty LEMONADE!"
+	para "Boxed wine and"
+	line "diet soda!"
 	done
 
 PlayersHouse1FTVText:

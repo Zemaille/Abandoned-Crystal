@@ -29,7 +29,7 @@ Route32RuinsOfAlphGateOfficerText:
 
 Route32RuinsOfAlphGatePokefanMText:
 	text "You're studying"
-	line "the RUINS?"
+	line "the Ruins?"
 
 	para "I see a scientist"
 	line "in the making."

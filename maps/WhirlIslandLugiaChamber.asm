@@ -163,7 +163,7 @@ SwimmermWalterBeatenText:
 	done
 
 SwimmermWalterAfterText:
-	text "SilphCo. made a"
+	text "Silph Co. made a"
 	line "ton of HM replace-"
 	cont "ment items."
 	done

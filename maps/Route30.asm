@@ -261,7 +261,7 @@ Route30_MikeysRattataAttacksMovement:
 	step_end
 
 Text_UseTackle:
-	text "Go, RATTATA!"
+	text "Go, Rattata!"
 
 	para "TACKLE!"
 	done
@@ -275,7 +275,7 @@ Text_ThisIsABigBattle:
 YoungsterJoey1SeenText:
 	text "I just lost, so"
 	line "I'm trying to find"
-	cont "more #MON."
+	cont "more Pokémon."
 
 	para "Wait! You look"
 	line "weak! Come on,"
@@ -289,7 +289,7 @@ YoungsterJoey1BeatenText:
 
 YoungsterJoey1AfterText:
 	text "Do I have to have"
-	line "more #MON in"
+	line "more Pokémon in"
 
 	para "order to battle"
 	line "better?"
@@ -300,7 +300,7 @@ YoungsterJoey1AfterText:
 	done
 
 YoungsterMikeySeenText:
-	text "You're a #MON"
+	text "You're a Pokémon"
 	line "trainer, right?"
 
 	para "Then you have to"
@@ -324,7 +324,7 @@ YoungsterMikeyAfterText:
 
 BugCatcherDonSeenText:
 	text "Instead of a bug"
-	line "#MON, I found"
+	line "Pokémon, I found"
 	cont "a trainer!"
 	done
 
@@ -336,14 +336,14 @@ BugCatcherDonBeatenText:
 BugCatcherDonAfterText:
 	text "I ran out of #"
 	line "BALLS while I was"
-	cont "catching #MON."
+	cont "catching Pokémon."
 
 	para "I should've bought"
 	line "some more…"
 	done
 
 Route30YoungsterText_DirectionsToMrPokemonsHouse:
-	text "MR.#MON's"
+	text "MR.Pokémon's"
 	line "house? It's a bit"
 	cont "farther ahead."
 	done
@@ -370,23 +370,23 @@ Route30SignText:
 	done
 
 MrPokemonsHouseDirectionsSignText:
-	text "MR.#MON'S HOUSE"
+	text "MR.POKéMON'S HOUSE"
 	line "STRAIGHT AHEAD!"
 	done
 
 MrPokemonsHouseSignText:
-	text "MR.#MON'S HOUSE"
+	text "MR.POKéMON'S HOUSE"
 	done
 
 Route30TrainerTipsText:
 	text "TRAINER TIPS"
 
 	para "No stealing other"
-	line "people's #MON!"
+	line "people's Pokémon!"
 
-	para "# BALLS are to"
+	para "Poké Balls are to"
 	line "be thrown only at"
-	cont "wild #MON!"
+	cont "wild Pokémon!"
 	done
 
 YoungsterJoeyText_GiveHPUpAfterBattle:

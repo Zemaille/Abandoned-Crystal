@@ -15,14 +15,14 @@ BillsOlderSistersHouseYoungsterScript:
 
 BillsOlderSisterText:
 	text "My grandpa is at "
-	line "my brother BILL's"
-	cont "on CERULEAN CAPE."
+	line "my brother Bill's"
+	cont "on Cerulean Cape."
 	done
 
 BillsOlderSistersHouseYoungsterText:
 	text "I saw these weird,"
-	line "slow #MON on"
-	cont "CYCLING ROAD."
+	line "slow Pokémon on"
+	cont "Cycling Road."
 	done
 
 BillsOlderSistersHouse_MapEvents:

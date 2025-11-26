@@ -673,8 +673,8 @@ UndergroundRivalBeforeText:
 	para "I don't need you"
 	line "underfoot while I"
 
-	para "take care of TEAM"
-	line "ROCKET."
+	para "take care of Team"
+	line "Rocket."
 
 	para "…Wait a second."
 	line "You beat me be-"
@@ -692,7 +692,7 @@ UndergroundRivalWinText:
 	line "Why do I lose?"
 
 	para "I've assembled the"
-	line "toughest #MON."
+	line "toughest Pokémon."
 
 	para "I didn't ease up"
 	line "on the gas."
@@ -704,11 +704,11 @@ UndergroundRivalAfterText:
 	text "…I don't under-"
 	line "stand…"
 
-	para "Is what that LANCE"
+	para "Is what that Lance"
 	line "guy said true?"
 
 	para "That I don't treat"
-	line "#MON properly?"
+	line "Pokémon properly?"
 
 	para "Love…"
 
@@ -733,18 +733,18 @@ UndergroundRivalAfterText:
 	line "dream of becoming"
 
 	para "the world's best"
-	line "#MON trainer!"
+	line "Pokémon trainer!"
 	done
 
 UndergroundRivalLossText:
 	text "Humph. This is my"
 	line "real power, wimp."
 
-	para "I'll make TEAM"
-	line "ROCKET history."
+	para "I'll make Team"
+	line "Rocket history."
 
 	para "And I'm going to"
-	line "grind that LANCE"
+	line "grind that Lance"
 	cont "under my heels."
 	done
 
@@ -846,8 +846,8 @@ BurglarEddieBeatenText:
 	done
 
 BurglarEddieAfterBattleText:
-	text "UNDERGROUND WARE-"
-	line "HOUSE?"
+	text "Underground Ware-"
+	line "house?"
 
 	para "What do you want"
 	line "to go there for?"
@@ -873,7 +873,7 @@ GruntM13BeatenText:
 GruntM13AfterBattleText:
 	text "You must have ice"
 	line "in your veins to"
-	cont "dis TEAM ROCKET."
+	cont "dis Team Rocket."
 	done
 
 SwitchRoomText_Switch1:

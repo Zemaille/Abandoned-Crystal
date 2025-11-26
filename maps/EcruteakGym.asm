@@ -181,14 +181,14 @@ MortyIntroText:
 	text "Good of you to"
 	line "have come."
 
-	para "Here in ECRUTEAK,"
-	line "#MON have been"
+	para "Here in Ecruteak,"
+	line "Pokémon have been"
 	cont "revered."
 
 	para "It's said that a"
 	line "rainbow-colored"
 
-	para "#MON will come"
+	para "Pokémon will come"
 	line "down to appear"
 
 	para "before a truly"
@@ -210,7 +210,7 @@ MortyIntroText:
 	line "more, I could see"
 
 	para "a future in which"
-	line "I meet the #MON"
+	line "I meet the Pokémon"
 	cont "of rainbow colors."
 
 	para "You're going to"
@@ -223,23 +223,23 @@ MortyWinLossText:
 	line "enough yet…"
 
 	para "All right. This"
-	line "BADGE is yours."
+	line "Badge is yours."
 	done
 
 Text_ReceivedFogBadge:
 	text "<PLAYER> received"
-	line "FOGBADGE."
+	line "Fog Badge."
 	done
 
 MortyText_FogBadgeSpeech:
-	text "By having FOG-"
-	line "BADGE, #MON up"
+	text "By having Fog"
+	line "Badge, Pokémon up"
 
 	para "to L50 will obey"
 	line "you."
 
-	para "Also, #MON that"
-	line "know SURF will be"
+	para "Also, Pokémon that"
+	line "know Surf will be"
 
 	para "able to use that"
 	line "move anytime."
@@ -249,11 +249,11 @@ MortyText_FogBadgeSpeech:
 	done
 
 MortyText_ShadowBallSpeech:
-	text "It's SHADOW BALL."
-	line "It causes damage"
+	text "Hex deals double"
+	line "damage if the"
 
-	para "and may reduce"
-	line "SPCL.DEF."
+	para "foe has a status"
+	line "condition."
 
 	para "Use it if it"
 	line "appeals to you."
@@ -276,7 +276,7 @@ MortyFightDoneText:
 
 SageJeffreySeenText:
 	text "I spent the spring"
-	line "with my #MON."
+	line "with my Pokémon."
 
 	para "Then summer, fall"
 	line "and winter…"
@@ -294,14 +294,14 @@ SageJeffreyBeatenText:
 	done
 
 SageJeffreyAfterBattleText:
-	text "Where did #MON"
+	text "Where did Pokémon"
 	line "come from?"
 	done
 
 SagePingSeenText:
 	text "Can you inflict"
 	line "any damage on our"
-	cont "#MON?"
+	cont "Pokémon?"
 	done
 
 SagePingBeatenText:
@@ -310,7 +310,7 @@ SagePingBeatenText:
 
 SagePingAfterBattleText:
 	text "We use only ghost-"
-	line "type #MON."
+	line "type Pokémon."
 
 	para "No normal-type"
 	line "attack can harm"
@@ -362,7 +362,7 @@ EcruteakGymGuideText:
 	line "may tell you some"
 
 	para "deep secrets about"
-	line "ECRUTEAK."
+	line "Ecruteak."
 	done
 
 EcruteakGymGuideWinText:
@@ -375,8 +375,8 @@ EcruteakGymGuideWinText:
 	done
 
 EcruteakGymClosedText:
-	text "MORTY, the GYM"
-	line "LEADER, is absent."
+	text "Morty, the Gym"
+	line "Leader, is absent."
 
 	para "Sorry, but you'll"
 	line "have to leave."

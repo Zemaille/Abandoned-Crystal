@@ -40,7 +40,7 @@ GoldenrodDeptStore2FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodDeptStore2FYoungsterText:
-	text "#GEAR can store"
+	text "PokéGear can store"
 	line "up to ten phone"
 	cont "numbers."
 
@@ -50,18 +50,18 @@ GoldenrodDeptStore2FYoungsterText:
 	done
 
 GoldenrodDeptStore2FCooltrainerFText:
-	text "I got my ABRA at"
-	line "the GAME CORNER."
+	text "I got my Abra at"
+	line "the Game Corner."
 
 	para "Now it's my best"
 	line "partner."
 	done
 
 GoldenrodDeptStore2FGentlemanText:
-	text "This DEPT.STORE"
+	text "This Dept.Store"
 	line "makes me realize"
 
-	para "that GOLDENROD is"
+	para "that Goldenrod is"
 	line "a big city."
 
 	para "The selection here"

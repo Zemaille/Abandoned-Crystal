@@ -26,25 +26,25 @@ AzaleaPokecenter1FPokefanFScript:
 	jumptextfaceplayer AzaleaPokecenter1FPokefanFText
 
 AzaleaPokecenter1FGentlemanText:
-	text "Do your #MON"
+	text "Do your Pokémon"
 	line "know HM moves?"
 
 	para "Those moves can"
 	line "be used even if"
 
-	para "your #MON has"
+	para "your Pokémon has"
 	line "fainted."
 	done
 
 AzaleaPokecenter1FFishingGuruText:
-	text "BILL's PC can"
+	text "Bills's PC can"
 	line "store up to 20"
-	cont "#MON per BOX."
+	cont "Pokémon per box."
 	done
 
 AzaleaPokecenter1FPokefanFText:
 	text "Do you know about"
-	line "APRICORNS?"
+	line "Apricorns?"
 
 	para "Crack one open,"
 	line "hollow it out and"
@@ -53,13 +53,13 @@ AzaleaPokecenter1FPokefanFText:
 	line "special device."
 
 	para "Then you can catch"
-	line "#MON with it."
+	line "Pokémon with it."
 
-	para "Before # BALLS"
+	para "Before Poké Balls"
 	line "were invented,"
 
 	para "everyone used"
-	line "APRICORNS."
+	line "Pokémon."
 	done
 
 AzaleaPokecenter1F_MapEvents:

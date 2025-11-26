@@ -7,7 +7,7 @@
 	db ELECTRIC, PSYCHIC_TYPE ; type
 	db 75 ; catch rate
 	db 199 ; base exp
-	dw NO_ITEM, NO_ITEM ; items
+	dw LIGHT_BALL, LIGHT_BALL ; items
 	db GENDER_F50 ; gender ratio
 	db 20 ; step cycles to hatch
 	INCBIN "gfx/pokemon/raichu_a/front.dimensions"

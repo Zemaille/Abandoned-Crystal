@@ -8,7 +8,7 @@ CinnabarVolcanoB1F_MapScripts:
 	def_callbacks
 
 CinnabarVolcanoB1FMaxRevive:
-	itemball MAX_REVIVE
+	itemball TM_FLARE_BLITZ
 
 CinnabarVolcanoB1FBigNugget:
 	itemball BIG_NUGGET

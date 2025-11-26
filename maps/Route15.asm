@@ -159,9 +159,9 @@ SchoolboyTommyAfterBattleText:
 
 SchoolboyJohnnySeenText:
 	text "We're on a field"
-	line "trip to LAVENDER"
+	line "trip to Lavender"
 
-	para "RADIO TOWER for"
+	para "Radio Tower for"
 	line "social studies."
 	done
 
@@ -187,7 +187,7 @@ SchoolboyBillyBeatenText:
 	done
 
 SchoolboyBillyAfterBattleText:
-	text "If #MON were a"
+	text "If Pokémon were a"
 	line "subject at school,"
 	cont "I'd be the best!"
 	done

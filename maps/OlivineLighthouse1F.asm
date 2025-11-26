@@ -15,7 +15,7 @@ OlivineLighthouse1FPokefanFScript:
 
 OlivineLighthouse1FSailorText:
 	text "People train at"
-	line "this LIGHTHOUSE."
+	line "this Lighthouse."
 
 	para "It's not easy to"
 	line "climb because of"
@@ -23,15 +23,15 @@ OlivineLighthouse1FSailorText:
 	done
 
 OlivineLighthouse1FPokefanFText:
-	text "In the past, #-"
-	line "MON used to light"
+	text "In the past, Poké-"
+	line "mon used to light"
 
 	para "the sea around"
-	line "OLIVINE at night."
+	line "Olivine at night."
 
-	para "The LIGHTHOUSE was"
+	para "The Lighthouse was"
 	line "made in honor of"
-	cont "those #MON."
+	cont "those Pokémon."
 	done
 
 OlivineLighthouse1F_MapEvents:

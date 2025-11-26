@@ -120,10 +120,10 @@ GoldenrodVendingNoSpaceText:
 
 GoldenrodDeptStore6FLassText:
 	text "Do you listen to"
-	line "LUCKY CHANNEL?"
+	line "Lucky Channel?"
 
 	para "If you want to"
-	line "win, trade #MON"
+	line "win, trade Pokémon"
 
 	para "with as many peo-"
 	line "ple as possible to"
@@ -137,7 +137,7 @@ GoldenrodDeptStore6FSuperNerdText:
 	line "try the vending"
 	cont "machine's drinks."
 
-	para "Your #MON will"
+	para "Your Pokémon will"
 	line "love them too."
 	done
 

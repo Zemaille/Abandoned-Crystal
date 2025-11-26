@@ -173,9 +173,9 @@ GentlemanAlfredBeatenText:
 	done
 
 GentlemanAlfredAfterBattleText:
-	text "Up top is a #-"
-	line "MON that keeps the"
-	cont "LIGHTHOUSE lit."
+	text "Up top is a Poké-"
+	line "mon that keeps the"
+	cont "Lighthouse lit."
 
 	para "But I hear that"
 	line "it's sick now and"

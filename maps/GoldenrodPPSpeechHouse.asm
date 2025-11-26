@@ -26,10 +26,10 @@ GoldenrodPPSpeechHouseFisherText:
 	text "Once while I was"
 	line "battling, my"
 
-	para "#MON couldn't"
+	para "Pokémon couldn't"
 	line "make any moves."
 
-	para "The POWER POINTS,"
+	para "The Power Points,"
 	line "or PP, of its"
 
 	para "moves were all"
@@ -38,14 +38,14 @@ GoldenrodPPSpeechHouseFisherText:
 
 GoldenrodPPSpeechHouseLassText:
 	text "Sometimes, a"
-	line "healthy #MON"
+	line "healthy Pokémon"
 
 	para "may be unable to"
 	line "use its moves."
 
 	para "If that happens,"
-	line "heal it at a #-"
-	cont "MON CENTER or use"
+	line "heal it at a Poké-"
+	cont "mon Center or use"
 	cont "an item."
 	done
 

@@ -7,7 +7,7 @@
 	db FIGHTING, GHOST ; type
 	db 45 ; catch rate
 	db 200 ; base exp
-	dw NO_ITEM, NO_ITEM ; items
+	dw BERSERK_GENE, BERSERK_GENE ; items
 	db GENDER_F50 ; gender ratio
 	db 20 ; step cycles to hatch
 	INCBIN "gfx/pokemon/annihilape/front.dimensions"

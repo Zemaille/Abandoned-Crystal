@@ -11,13 +11,13 @@ RockTunnel1FElixer:
 	itemball ELIXER
 
 RockTunnel1FTMSteelWing:
-	itemball TM_STEEL_WING
+	itemball MOON_STONE
 
 RockTunnel1FHiddenXAccuracy:
-	hiddenitem X_ACCURACY, EVENT_ROCK_TUNNEL_1F_HIDDEN_X_ACCURACY
+	hiddenitem BIG_NUGGET, EVENT_ROCK_TUNNEL_1F_HIDDEN_X_ACCURACY
 
 RockTunnel1FHiddenXDefend:
-	hiddenitem X_DEFEND, EVENT_ROCK_TUNNEL_1F_HIDDEN_X_DEFEND
+	hiddenitem PP_UP, EVENT_ROCK_TUNNEL_1F_HIDDEN_X_DEFEND
 
 RockTunnel1F_MapEvents:
 	db 0, 0 ; filler

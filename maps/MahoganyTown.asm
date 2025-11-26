@@ -140,13 +140,13 @@ RageCandyBarMerchantTryOneText:
 	text "Hiya, kid!"
 
 	para "I see you're new"
-	line "in MAHOGANY TOWN."
+	line "in Mahogany Town."
 
 	para "Since you're new,"
 	line "you should try a"
 
-	para "yummy RAGECANDY-"
-	line "BAR!"
+	para "yummy Ragecandy-"
+	line "bar!"
 
 	para "Right now, it can"
 	line "be yours for just"
@@ -172,7 +172,7 @@ RageCandyBarMerchantNoRoomText:
 	done
 
 RageCandyBarMerchantSoldOutText:
-	text "RAGECANDYBAR's"
+	text "Ragecandybar's"
 	line "sold out."
 
 	para "I'm packing up."
@@ -182,14 +182,14 @@ RageCandyBarMerchantSoldOutText:
 
 MahoganyTownGrampsText:
 	text "Are you off to see"
-	line "the GYARADOS ram-"
-	cont "page at the LAKE?"
+	line "the Gyaradis ram-"
+	cont "page at the Lake?"
 	done
 
 MahoganyTownGrampsText_ClearedRocketHideout:
-	text "MAGIKARP have"
-	line "returned to LAKE"
-	cont "OF RAGE."
+	text "Magikarp have"
+	line "returned to Lake"
+	cont "of Rage."
 
 	para "That should be"
 	line "good news for the"
@@ -206,7 +206,7 @@ MahoganyTownFisherText:
 	para "You should head"
 	line "north and check"
 
-	para "out LAKE OF RAGE"
+	para "out Lake of Rage"
 	line "right now."
 	done
 
@@ -227,13 +227,13 @@ MahoganyTownSignText:
 
 MahoganyTownRagecandybarSignText:
 	text "While visiting"
-	line "MAHOGANY TOWN, try"
-	cont "a RAGECANDYBAR!"
+	line "Mahogany Town, try"
+	cont "a Ragecandybar!"
 	done
 
 MahoganyGymSignText:
 	text "MAHOGANY TOWN"
-	line "#MON GYM"
+	line "POKéMON GYM"
 	cont "LEADER: PRYCE"
 
 	para "The Teacher of"

@@ -226,7 +226,7 @@ Route42SuicuneMovement:
 FisherTullySeenText:
 	text "Let me demonstrate"
 	line "the power of the"
-	cont "#MON I caught!"
+	cont "Pokémon I caught!"
 	done
 
 FisherTullyBeatenText:
@@ -236,9 +236,9 @@ FisherTullyBeatenText:
 
 FisherTullyAfterBattleText:
 	text "I want to become"
-	line "the trainer CHAMP"
+	line "the trainer Champ"
 
-	para "using the #MON"
+	para "using the Pokémon"
 	line "I caught."
 
 	para "That's the best"
@@ -264,7 +264,7 @@ HikerBenjaminAfterBattleText:
 	done
 
 PokemaniacShaneSeenText:
-	text "HEY!"
+	text "Hey!"
 
 	para "This is my secret"
 	line "place! Get lost,"
@@ -273,16 +273,16 @@ PokemaniacShaneSeenText:
 
 PokemaniacShaneBeatenText:
 	text "I should have used"
-	line "my MOON STONE…"
+	line "my Moon Stone…"
 	done
 
 PokemaniacShaneAfterBattleText:
 	text "You're working on"
-	line "a #DEX?"
+	line "a PokéDex?"
 
 	para "Wow, you must know"
 	line "some pretty rare"
-	cont "#MON!"
+	cont "Pokémon!"
 
 	para "May I please see"
 	line "it. Please?"

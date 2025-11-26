@@ -107,7 +107,7 @@ NationalParkBugContestTrainerTipsSign:
 	jumptext NationalParkBugContestTrainerTipsText
 
 NationalParkBugContestParlyzHeal:
-	itemball PARLYZ_HEAL
+	itemball POLKADOT_BOW
 
 NationalParkBugContestTMDig:
 	itemball TM_DIG
@@ -116,61 +116,61 @@ NationalParkBugContestHiddenFullHeal:
 	hiddenitem FULL_HEAL, EVENT_NATIONAL_PARK_HIDDEN_FULL_HEAL
 
 BugCatchingContestant1AText:
-	text "DON: I'm going to"
+	text "Don: I'm going to"
 	line "win! Don't bother"
 	cont "me."
 	done
 
 BugCatchingContestant2AText:
-	text "ED: My PARASECT"
-	line "puts #MON to"
-	cont "sleep with SPORE."
+	text "Ed: My Parasect"
+	line "puts Pokémon to"
+	cont "sleep with Spore."
 	done
 
 BugCatchingContestant3AText:
-	text "NICK: I'm raising"
-	line "fast #MON for"
+	text "Nick: I'm raising"
+	line "fast Pokémon for"
 	cont "battles."
 	done
 
 BugCatchingContestant4AText:
-	text "WILLIAM: I'm not"
+	text "William: I'm not"
 	line "concerned about"
 	cont "winning."
 
 	para "I'm just looking"
-	line "for rare #MON."
+	line "for rare Pokémon."
 	done
 
 BugCatchingContestant5AText:
-	text "BENNY: Ssh! You'll"
-	line "scare off SCYTHER."
+	text "Benny: Ssh! You'll"
+	line "scare off Scyther."
 
 	para "I'll talk to you"
 	line "later."
 	done
 
 BugCatchingContestant6AText:
-	text "BARRY: You should"
-	line "weaken bug #MON"
+	text "Barry: You should"
+	line "weaken bug Pokémon"
 
 	para "first, then throw"
-	line "a BALL."
+	line "a Ball."
 	done
 
 BugCatchingContestant7AText:
-	text "CINDY: I love bug"
-	line "#MON."
+	text "Cindy: I love bug"
+	line "Pokémon."
 
 	para "I guess you must"
 	line "like them too."
 	done
 
 BugCatchingContestant8AText:
-	text "JOSH: I've been"
+	text "Josh: I've been"
 	line "collecting bug"
 
-	para "#MON since I"
+	para "Pokémon since I"
 	line "was just a baby."
 
 	para "There's no way I'm"
@@ -178,16 +178,16 @@ BugCatchingContestant8AText:
 	done
 
 BugCatchingContestant9AText:
-	text "SAMUEL: If you've"
+	text "Samuel: If you've"
 	line "got the time to"
 
 	para "chat, go find some"
-	line "bug #MON."
+	line "bug Pokémon."
 	done
 
 BugCatchingContestant10AText:
-	text "KIPP: I've studied"
-	line "about bug #MON"
+	text "Kipp: I've studied"
+	line "about bug Pokémon"
 	cont "a lot."
 
 	para "I'm going to win"

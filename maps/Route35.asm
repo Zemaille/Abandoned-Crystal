@@ -276,7 +276,7 @@ Route35FruitTree:
 
 CamperIvanSeenText:
 	text "I've been getting"
-	line "#MON data off"
+	line "Pokémon data off"
 
 	para "my radio. I think"
 	line "I'm good."
@@ -289,7 +289,7 @@ CamperIvanBeatenText:
 CamperIvanAfterBattleText:
 	text "Music on the radio"
 	line "changes the moods"
-	cont "of wild #MON."
+	cont "of wild Pokémon."
 	done
 
 CamperElliotSeenText:
@@ -322,13 +322,13 @@ PicnickerBrookeBeatenText:
 
 PicnickerBrookeAfterBattleText:
 	text "I can count on my"
-	line "#MON more than"
+	line "Pokémon more than"
 	cont "my boyfriend."
 	done
 
 PicnickerKimSeenText:
 	text "Are you going to"
-	line "the GYM? Me too!"
+	line "the Gym? Me too!"
 	done
 
 PicnickerKimBeatenText:
@@ -337,14 +337,14 @@ PicnickerKimBeatenText:
 	done
 
 PicnickerKimAfterBattleText:
-	text "The GYM BADGES are"
+	text "The Gym Badges are"
 	line "pretty. I collect"
 	cont "them."
 	done
 
 BirdKeeperBryanSeenText:
 	text "What kinds of"
-	line "BALLS do you use?"
+	line "Balls do you use?"
 	done
 
 BirdKeeperBryanBeatenText:
@@ -353,24 +353,24 @@ BirdKeeperBryanBeatenText:
 	done
 
 BirdKeeperBryanAfterBattleText:
-	text "Some #MON flee"
+	text "Some Pokémon flee"
 	line "right away."
 
 	para "Try catching them"
-	line "with KURT's FAST"
-	cont "BALL."
+	line "with Kurt's Fast"
+	cont "Ball."
 
 	para "Whenever I find a"
-	line "WHT APRICORN, I"
-	cont "take it to KURT."
+	line "White Apri, I"
+	cont "take it to Kurt."
 
 	para "He turns it into a"
-	line "custom BALL."
+	line "custom Ball."
 	done
 
 JugglerIrwin1SeenText:
 	text "Behold my graceful"
-	line "BALL dexterity!"
+	line "Ball dexterity!"
 	done
 
 JugglerIrwin1BeatenText:
@@ -381,7 +381,7 @@ JugglerIrwin1BeatenText:
 JugglerIrwinAfterBattleText:
 	text "I was going to"
 	line "dazzle you with my"
-	cont "prize #MON."
+	cont "prize Pokémon."
 
 	para "But your prowess"
 	line "electrified me!"
@@ -389,7 +389,7 @@ JugglerIrwinAfterBattleText:
 
 BugCatcherArnieSeenText:
 	text "I'll go anywhere"
-	line "if bug #MON"
+	line "if bug Pokémon"
 	cont "appear there."
 	done
 
@@ -399,16 +399,16 @@ BugCatcherArnieBeatenText:
 	done
 
 BugCatcherArnieAfterBattleText:
-	text "My VENONAT won me"
+	text "My Venonat won me"
 	line "the Bug-Catching"
 
 	para "Contest at the"
-	line "NATIONAL PARK."
+	line "National Park."
 	done
 
 BugCatcherArnieYanmaText:
 	text "Wow… Look at all"
-	line "those YANMA!"
+	line "those Yanma!"
 
 	para "I'm so blown away,"
 	line "I can't move."
@@ -425,9 +425,9 @@ FirebreatherWaltBeatenText:
 	done
 
 FirebreatherWaltAfterBattleText:
-	text "The #MON March"
+	text "The Pokémon March"
 	line "on the radio lures"
-	cont "wild #MON."
+	cont "wild Pokémon."
 	done
 
 OfficerDirkSeenText:
@@ -449,7 +449,7 @@ OfficerDirkAfterBattleText:
 	done
 
 OfficerDirkPrettyToughText:
-	text "Your #MON look"
+	text "Your Pokémon look"
 	line "pretty tough."
 
 	para "You could go any-"

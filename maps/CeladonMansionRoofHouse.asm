@@ -54,7 +54,7 @@ CeladonMansionRoofHousePharmacistStoryText:
 	line "there was a little"
 
 	para "boy who was given"
-	line "a new BICYCLE…"
+	line "a new bicycle…"
 
 	para "He wanted to try"
 	line "it right away…"
@@ -94,24 +94,18 @@ CeladonMansionRoofHousePharmacistStoryText:
 
 	para "The boy had been"
 	line "riding uphill on"
-	cont "CYCLING ROAD!"
+	cont "Cycling Road!"
 
 	para "…"
 	line "Ba-dum ba-dum!"
 
 	para "For listening so"
 	line "patiently, you may"
-	cont "take this--TM03!"
+	cont "take this!"
 	done
 
 CeladonMansionRoofHousePharmacistCurseText:
-	text "TM03 is CURSE."
-
-	para "It's a terrifying"
-	line "move that slowly"
-
-	para "whittles down the"
-	line "victim's HP."
+	text "It's a Dusk Stone."
 	done
 
 CeladonMansionRoofHouse_MapEvents:

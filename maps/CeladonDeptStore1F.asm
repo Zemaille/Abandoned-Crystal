@@ -25,19 +25,19 @@ CeladonDeptStore1FElevatorButton:
 
 CeladonDeptStore1FReceptionistText:
 	text "Hello! Welcome to"
-	line "CELADON DEPT."
-	cont "STORE!"
+	line "Celadon Dept."
+	cont "Store!"
 
 	para "The directory is"
 	line "on the wall."
 	done
 
 CeladonDeptStore1FGentlemanText:
-	text "This DEPT.STORE is"
+	text "This Dept.Store is"
 	line "part of the same"
 
 	para "chain as the one"
-	line "in GOLDENROD CITY."
+	line "in Goldenrod City."
 
 	para "They were both"
 	line "renovated at the"

@@ -55,7 +55,7 @@ PokefanmCarterSeenText:
 	line "I had a hard time"
 
 	para "catching my prized"
-	line "#MON."
+	line "Pokémon."
 	done
 
 PokefanmCarterBeatenText:
@@ -63,8 +63,8 @@ PokefanmCarterBeatenText:
 	done
 
 PokefanmCarterAfterBattleText:
-	text "SQUIRTLE, CHARMAN-"
-	line "DER and BULBASAUR…"
+	text "Squirtle, Charman-"
+	line "der and Bulbasaur…"
 
 	para "I think that's a"
 	line "well-balanced mix."
@@ -73,7 +73,7 @@ PokefanmCarterAfterBattleText:
 BirdKeeperRoySeenText:
 	text "My dream is to fly"
 	line "with my beloved"
-	cont "bird #MON."
+	cont "bird Pokémon."
 	done
 
 BirdKeeperRoyBeatenText:
@@ -82,17 +82,17 @@ BirdKeeperRoyBeatenText:
 	done
 
 BirdKeeperRoyAfterBattleText:
-	text "You have #MON"
+	text "You have Pokémon"
 	line "that know the HM"
 
-	para "move FLY, don't"
+	para "move Fly, don't"
 	line "you? I envy you."
 	done
 
 PokefanmTrevorSeenText:
 	text "Hi. Did you know…?"
 
-	para "#MON get more"
+	para "Pokémon get more"
 	line "friendly if you"
 
 	para "train them in a"
@@ -102,7 +102,7 @@ PokefanmTrevorSeenText:
 
 PokefanmTrevorBeatenText:
 	text "Where did I meet"
-	line "this PSYDUCK?"
+	line "this Psyduck?"
 	done
 
 PokefanmTrevorAfterBattleText:
@@ -110,7 +110,7 @@ PokefanmTrevorAfterBattleText:
 	line "an easy way to"
 
 	para "identify where I"
-	line "got my #MON…"
+	line "got my Pokémon…"
 	done
 
 Route14_MapEvents:

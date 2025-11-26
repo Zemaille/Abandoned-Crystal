@@ -34,7 +34,7 @@ Route18Sign:
 
 BirdKeeperBorisSeenText:
 	text "If you're looking"
-	line "for #MON, you"
+	line "for Pokémon, you"
 
 	para "have to look in"
 	line "the tall grass."
@@ -51,9 +51,9 @@ BirdKeeperBorisAfterBattleText:
 	done
 
 BirdKeeperBobSeenText:
-	text "CYCLING ROAD is a"
+	text "Cycling Road is a"
 	line "quick shortcut to"
-	cont "CELADON."
+	cont "Celadon."
 	done
 
 BirdKeeperBobBeatenText:
@@ -62,7 +62,7 @@ BirdKeeperBobBeatenText:
 
 BirdKeeperBobAfterBattleText:
 	text "If you don't have"
-	line "a BICYCLE, you're"
+	line "a bicycle, you're"
 
 	para "not allowed to use"
 	line "the shortcut."

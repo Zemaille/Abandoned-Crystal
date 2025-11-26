@@ -156,14 +156,14 @@ HikerAnthony2BeatenText:
 	done
 
 HikerAnthony2AfterText:
-	text "We HIKERS are at"
+	text "We Hikers are at"
 	line "our best in the"
 	cont "mountains."
 	done
 
 HikerAnthonyDunsparceText:
 	text "Hey, did you get a"
-	line "DUNSPARCE?"
+	line "Dunsparce?"
 
 	para "I caught one too."
 

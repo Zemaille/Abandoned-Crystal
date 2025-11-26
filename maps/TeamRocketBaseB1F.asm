@@ -538,7 +538,7 @@ TeamRocketBaseB1FNugget:
 	itemball NUGGET
 
 TeamRocketBaseB1FGuardSpec:
-	itemball GUARD_SPEC
+	itemball BERSERK_GENE
 
 TeamRocketBaseB1FHiddenRevive:
 	hiddenitem REVIVE, EVENT_TEAM_ROCKET_BASE_B1F_HIDDEN_REVIVE
@@ -647,7 +647,7 @@ CameraGrunt2SeenText:
 
 CameraGrunt2BeatenText:
 	text "Surveillance cams"
-	line "are in the #MON"
+	line "are in the Pokémon"
 	cont "statues."
 
 	para "We'll keep appear-"
@@ -710,7 +710,7 @@ GruntM16AfterBattleText:
 	done
 
 TeamRocketBaseB1FSecurityCameraText:
-	text "It's a PERSIAN"
+	text "It's a Persian"
 	line "statue…"
 
 	para "Its eyes are oddly"

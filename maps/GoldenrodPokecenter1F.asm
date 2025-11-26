@@ -149,7 +149,7 @@ GoldenrodPokeCenter1FLinkReceptionistWalkToStairsFromRightDoorwayTileMovement:
 	step_end
 
 GoldenrodPokecenter1FGameboyKidText:
-	text "The COLOSSEUM"
+	text "The Colosseum"
 	line "upstairs is for"
 	cont "link battles."
 
@@ -162,7 +162,7 @@ GoldenrodPokecenter1FGameboyKidText:
 
 GoldenrodPokecenter1FLassText:
 	text "A higher level"
-	line "#MON doesn't"
+	line "Pokémon doesn't"
 	cont "always win."
 
 	para "After all, it may"
@@ -172,7 +172,7 @@ GoldenrodPokecenter1FLassText:
 	para "I don't think"
 	line "there is a single"
 
-	para "#MON that is"
+	para "Pokémon that is"
 	line "the toughest."
 	done
 
@@ -182,7 +182,7 @@ GoldenrodPokeCenter1FLinkReceptionistPleaseAcceptGSBallText:
 	para "Congratulations!"
 
 	para "As a special deal,"
-	line "a GS BALL has been"
+	line "a GS Ball has been"
 	cont "sent just for you!"
 
 	para "Please accept it!"
@@ -199,7 +199,7 @@ GoldenrodPokecenter1FPokefanFDoYouHaveEonMailText:
 
 	para "Oh! Do you happen"
 	line "to have something"
-	cont "named EON MAIL?"
+	cont "named Labubu?"
 
 	para "My daughter is"
 	line "after one."
@@ -209,8 +209,8 @@ GoldenrodPokecenter1FPokefanFDoYouHaveEonMailText:
 	done
 
 GoldenrodPokecenter1FAskGiveAwayAnEonMailText:
-	text "Give away an EON"
-	line "MAIL?"
+	text "Give away a rare"
+	line "Labubu?"
 	done
 
 GoldenrodPokecenter1FPokefanFThisIsForYouText:
@@ -227,8 +227,8 @@ GoldenrodPokecenter1FPokefanFDaughterWillBeDelightedText:
 	done
 
 GoldenrodPokecenter1FPokefanFTooBadText:
-	text "Oh? You don't have"
-	line "one? Too bad."
+	text "Oh? This joke is"
+	line "stupid? Too bad."
 	done
 
 GoldenrodPokecenter1FPokefanFAnotherTimeThenText:

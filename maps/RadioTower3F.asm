@@ -158,7 +158,7 @@ RadioTower3FSuperNerdText:
 	text "We have recordings"
 	line "of the cries of"
 
-	para "all #MON that"
+	para "all Pokémon that"
 	line "have been found."
 
 	para "We must have about"
@@ -166,15 +166,15 @@ RadioTower3FSuperNerdText:
 	done
 
 RadioTower3FGymGuideText_Rockets:
-	text "To trainers, #-"
-	line "MON are their"
+	text "To trainers, Poké-"
+	line "mon are their"
 	cont "beloved partners."
 
 	para "It's terrible how"
-	line "TEAM ROCKET is"
+	line "Team Rocket is"
 
 	para "trying to control"
-	line "#MON."
+	line "Pokémon."
 	done
 
 RadioTower3FGymGuideText:
@@ -190,11 +190,11 @@ RadioTower3FGymGuideText:
 	done
 
 RadioTower3FCooltrainerFPleaseSaveDirectorText:
-	text "The TEAM ROCKET"
+	text "The Team Rocket"
 	line "boss has locked"
 	cont "himself in."
 
-	para "But the DIRECTOR"
+	para "But the Director"
 	line "can open it."
 
 	para "He's up on the"
@@ -204,7 +204,7 @@ RadioTower3FCooltrainerFPleaseSaveDirectorText:
 	done
 
 RadioTower3FCooltrainerFIsDirectorSafeText:
-	text "Is the DIRECTOR"
+	text "Is the Director"
 	line "safe?"
 	done
 
@@ -217,7 +217,7 @@ RadioTower3FCooltrainerFYoureMyHeroText:
 	done
 
 RadioTower3FCooltrainerFItsSunnyDayText:
-	text "It's SUNNY DAY."
+	text "It's Sunny Day."
 	line "It powers up fire-"
 	cont "type moves for a"
 	cont "while."
@@ -234,7 +234,7 @@ GruntM7SeenText:
 
 	para "I'm to crush any-"
 	line "one who challenges"
-	cont "TEAM ROCKET!"
+	cont "Team Rocket!"
 	done
 
 GruntM7BeatenText:
@@ -251,7 +251,7 @@ GruntM7AfterBattleText:
 
 GruntM8SeenText:
 	text "It feels great"
-	line "ordering #MON"
+	line "ordering Pokémon"
 	cont "to commit crimes."
 	done
 
@@ -264,7 +264,7 @@ GruntM8AfterBattleText:
 	line "losing!"
 
 	para "Darn it! I hate"
-	line "useless #MON!"
+	line "useless Pokémon!"
 	done
 
 GruntM9SeenText:
@@ -282,7 +282,7 @@ GruntM9BeatenText:
 GruntM9AfterBattleText:
 	text "What?! You made it"
 	line "past our men in"
-	cont "the UNDERGROUND?"
+	cont "the Underground?"
 
 	para "How could you?"
 	done
@@ -308,7 +308,7 @@ ScientistMarcAfterBattleText:
 	done
 
 RadioTower3FCardKeySlotText:
-	text "It's the CARD KEY"
+	text "It's the Card Key"
 	line "slot."
 	done
 
@@ -322,8 +322,8 @@ RadioTower3FPersonnelSignText:
 	done
 
 RadioTower3FPokemonMusicSignText:
-	text "#MON MUSIC with"
-	line "Host DJ BEN"
+	text "Pokémon Music with"
+	line "Host DJ Ben"
 	done
 
 RadioTower3F_MapEvents:

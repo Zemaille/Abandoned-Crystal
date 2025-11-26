@@ -30,9 +30,9 @@ TrainerSailorKent:
 	end
 
 SailorKentSeenText:
-	text "JASMINE must be"
+	text "Jasmine must be"
 	line "worried sick about"
-	cont "the #MON here."
+	cont "the Pokémon here."
 
 	para "She won't even"
 	line "smile these days."
@@ -47,13 +47,13 @@ SailorKentAfterBattleText:
 	text "Speaking of sick,"
 	line "I've heard there's"
 
-	para "a good PHARMACY in"
-	line "CIANWOOD."
+	para "a good Pharmacy in"
+	line "Cianwood."
 	done
 
 LassConnie1SeenText:
-	text "JASMINE is this"
-	line "city's GYM LEADER."
+	text "Jasmine is this"
+	line "city's Gym Leader."
 
 	para "I mean to bring"
 	line "her back with me."
@@ -63,19 +63,19 @@ LassConnie1SeenText:
 	done
 
 LassConnie1BeatenText:
-	text "Aaack! My #MON!"
+	text "Aaack! My Pokémon!"
 	done
 
 LassConnie1AfterBattleText:
 	text "Right. Anybody"
 	line "would be worried"
 	cont "if his or her own"
-	cont "#MON were hurt."
+	cont "Pokémon were hurt."
 
 	para "I'll pray for the"
-	line "#MON here, so"
+	line "Pokémon here, so"
 
-	para "JASMINE can come"
+	para "Jasmine can come"
 	line "back to the GYM."
 	done
 

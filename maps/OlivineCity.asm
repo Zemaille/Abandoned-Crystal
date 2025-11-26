@@ -179,26 +179,26 @@ OlivineCityRivalText:
 	para "Speaking of weak-"
 	line "lings, the city's"
 
-	para "GYM LEADER isn't"
+	para "Gym Leader isn't"
 	line "here."
 
 	para "Supposedly taking"
 	line "care of a sick"
 
-	para "#MON at the"
-	line "LIGHTHOUSE."
+	para "Pokémon at the"
+	line "Lighthouse."
 
 	para "Humph! Boo-hoo!"
 	line "Just let sick"
-	cont "#MON go!"
+	cont "Pokémon go!"
 
-	para "A #MON that"
+	para "A Pokémon that"
 	line "can't battle is"
 	cont "worthless!"
 
 	para "Why don't you go"
 	line "train at the"
-	cont "LIGHTHOUSE?"
+	cont "Lighthouse?"
 
 	para "Who knows. It may"
 	line "make you a bit"
@@ -217,7 +217,7 @@ OlivineCitySailor1Text:
 	line "more treacherous!"
 
 	para "Without the beacon"
-	line "of the LIGHTHOUSE"
+	line "of the Lighthouse"
 
 	para "to guide it, no"
 	line "ship can sail."
@@ -225,14 +225,14 @@ OlivineCitySailor1Text:
 
 OlivineCityStandingYoungsterPokegearText:
 	text "That thing you"
-	line "have--it's a #-"
-	cont "GEAR, right? Wow,"
+	line "have--it's a Poké-"
+	cont "Gear, right? Wow,"
 	cont "that's cool."
 	done
 
 OlivineCityStandingYoungsterPokedexText:
 	text "Wow, you have a"
-	line "#DEX!"
+	line "Pokédex!"
 
 	para "That is just so"
 	line "awesome."
@@ -263,7 +263,7 @@ OlivineCityPortSignText:
 
 OlivineGymSignText:
 	text "OLIVINE CITY"
-	line "#MON GYM"
+	line "POKéMON GYM"
 	cont "LEADER: JASMINE"
 
 	para "The Steel-Clad"
@@ -277,8 +277,8 @@ OlivineLighthouseSignText:
 	done
 
 OlivineCityBattleTowerSignText:
-	text "BATTLE TOWER AHEAD"
-	line "Opening Now!"
+	text "Olivine Saltmarsh"
+	line "ahead!"
 	done
 
 OlivineCity_MapEvents:

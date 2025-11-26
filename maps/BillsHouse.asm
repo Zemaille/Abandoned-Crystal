@@ -21,7 +21,7 @@ BillsHouseLoadReservedIDsCallback:
 	loadmonindex BILLSHOUSE_INDEX_STARYU, STARYU
 	loadmonindex BILLSHOUSE_INDEX_GROWLITHE, GROWLITHE
 	loadmonindex BILLSHOUSE_INDEX_VULPIX, VULPIX
-	loadmonindex BILLSHOUSE_INDEX_PICHU, PICHU
+	loadmonindex BILLSHOUSE_INDEX_PICHU, PIKACHU
 	endcallback
 
 BillsGrandpa:
@@ -234,10 +234,10 @@ BillsGrandpa:
 	end
 
 BillsGrandpaIntroText:
-	text "Hm? You know BILL?"
+	text "Hm? You know Bill?"
 	line "He's my grandson."
 
-	para "He's in JOHTO. He"
+	para "He's in Johto. He"
 	line "does something"
 
 	para "with PCs, so I'm"
@@ -246,7 +246,7 @@ BillsGrandpaIntroText:
 
 BillsGrandpaAskToSeeMonText:
 	text "If you have that"
-	line "#MON, may I see"
+	line "Pokémon, may I see"
 	cont "it, please?"
 	done
 
@@ -286,7 +286,7 @@ BillsGrandpaComeAgainText:
 BillsGrandpaShownAllThePokemonText:
 	text "Thanks for showing"
 	line "me so many cute"
-	cont "#MON."
+	cont "Pokémon."
 
 	para "I really enjoyed"
 	line "myself. I'm glad"
@@ -299,15 +299,15 @@ BillsGrandpaWrongPokemonText:
 	text "Hm?"
 
 	para "That's not the"
-	line "#MON that I was"
+	line "Pokémon that I was"
 	cont "told about."
 	done
 
 BillsGrandpaLickitungText:
-	text "My grandson BILL"
+	text "My grandson Bill"
 	line "told me about a"
 
-	para "#MON that has a"
+	para "Pokémon that has a"
 	line "long tongue."
 	done
 
@@ -315,14 +315,14 @@ BillsGrandpaOddishText:
 	text "Ah, my grandson"
 	line "mentioned a round,"
 
-	para "green #MON that"
+	para "green Pokémon that"
 	line "has leaves growing"
 	cont "on its head."
 	done
 
 BillsGrandpaStaryuText:
 	text "Do you know of a"
-	line "sea #MON that"
+	line "sea Pokémon that"
 
 	para "has a red sphere"
 	line "in its body?"
@@ -339,32 +339,32 @@ BillsGrandpaStaryuText:
 	done
 
 BillsGrandpaGrowlitheText:
-	text "BILL told me about"
-	line "a #MON that is"
+	text "Bill told me about"
+	line "a Pokémon that is"
 
 	para "very loyal to its"
 	line "trainer."
 
 	para "It's supposed to"
-	line "ROAR well."
+	line "Roar well."
 	done
 
 BillsGrandpaVulpixText:
 	text "I heard about a"
-	line "cute #MON that"
+	line "cute Pokémon that"
 	cont "has six tails."
 
 	para "I would love to"
-	line "hug a cute #MON"
+	line "hug a cute Pokémon"
 	cont "like that."
 	done
 
 BillsGrandpaPichuText:
 	text "Do you know that"
 	line "hugely popular"
-	cont "#MON?"
+	cont "Pokémon?"
 
-	para "The #MON that"
+	para "The Pokémon that"
 	line "has a yellow body"
 	cont "and red cheeks."
 

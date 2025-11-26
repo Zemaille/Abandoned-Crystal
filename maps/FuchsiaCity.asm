@@ -51,28 +51,28 @@ FuchsiaCityFruitTree:
 	fruittree FRUITTREE_FUCHSIA_CITY
 
 FuchsiaCityYoungsterText:
-	text "One of the ELITE"
-	line "FOUR used to be"
+	text "One of the Elite"
+	line "Fout used to be"
 
-	para "the LEADER of"
-	line "FUCHSIA's GYM."
+	para "the Leader of"
+	line "Fuchsia's Gym."
 	done
 
 FuchsiaCityPokefanMText:
-	text "KOGA's daughter"
+	text "Koga's daughter"
 	line "succeeded him as"
 
-	para "the GYM LEADER"
+	para "the Gym Leader"
 	line "after he joined"
-	cont "the ELITE FOUR."
+	cont "the Elite Four."
 	done
 
 FuchsiaCityTeacherText:
-	text "The SAFARI ZONE is"
-	line "closed… It's sad,"
+	text "The Safari Zone is"
+	line "abandoned… Sad,"
 
 	para "considering it's"
-	line "FUCHSIA's main"
+	line "Fuchsia's main"
 	cont "attraction."
 	done
 
@@ -96,7 +96,7 @@ SafariZoneOfficeSignText:
 	text "There's a notice"
 	line "here…"
 
-	para "SAFARI ZONE OFFICE"
+	para "Safari Zone Office"
 	line "is closed until"
 	cont "further notice."
 	done
@@ -107,12 +107,8 @@ WardensHomeSignText:
 	done
 
 SafariZoneClosedSignText:
-	text "The WARDEN is"
+	text "The Warden is"
 	line "traveling abroad."
-
-	para "Therefore, the"
-	line "SAFARI ZONE is"
-	cont "closed."
 	done
 
 NoLitteringSignText:

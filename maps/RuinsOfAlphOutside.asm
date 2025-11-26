@@ -137,32 +137,32 @@ RuinsOfAlphOutsidePlayerEnterLabMovement:
 	step_end
 
 RuinsOfAlphOutsideScientistText:
-	text "Hm? That's a #-"
-	line "DEX, isn't it?"
+	text "Hm? That's a Poké-"
+	line "Dex, isn't it?"
 	cont "May I see it?"
 
 	para "There are so many"
-	line "kinds of #MON."
+	line "kinds of Pokémon."
 
 	para "Hm? What's this?"
 
 	para "What is this"
-	line "#MON?"
+	line "Pokémon?"
 
 	para "It looks like the"
 	line "strange writing on"
 
 	para "the walls of the"
-	line "RUINS."
+	line "Ruins."
 
 	para "If those drawings"
-	line "are really #-"
-	cont "MON, there should"
+	line "are really Poké-"
+	cont "mon, there should"
 	cont "be many more."
 
 	para "I know! Let me up-"
-	line "grade your #-"
-	cont "DEX. Follow me."
+	line "grade your Poké-"
+	cont "Dex. Follow me."
 	done
 
 PsychicNathanSeenText:
@@ -199,7 +199,7 @@ RuinsOfAlphResearchCenterSignText:
 
 RuinsOfAlphOutsideFisherText1:
 	text "While exploring"
-	line "the RUINS, we"
+	line "the ruins, we"
 
 	para "suddenly noticed"
 	line "an odd presence."
@@ -212,7 +212,7 @@ RuinsOfAlphOutsideFisherText1:
 	done
 
 RuinsOfAlphOutsideFisherText2:
-	text "The RUINS hide a"
+	text "The ruins hide a"
 	line "huge secret!"
 
 	para "…I think…"
@@ -220,7 +220,7 @@ RuinsOfAlphOutsideFisherText2:
 
 RuinsOfAlphOutsideYoungster1Text:
 	text "There are many"
-	line "kinds of UNOWN, so"
+	line "kinds of Unown, so"
 
 	para "we use them for"
 	line "our secret codes."

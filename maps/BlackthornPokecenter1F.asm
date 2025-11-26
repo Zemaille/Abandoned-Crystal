@@ -23,10 +23,10 @@ BlackthornPokecenter1FCooltrainerMScript:
 
 BlackthornPokecenter1FGentlemanText:
 	text "Deep inside far-"
-	line "off INDIGO PLATEAU"
+	line "off Indigo Plateau"
 
-	para "is the #MON"
-	line "LEAGUE."
+	para "is the Pokémon"
+	line "League."
 
 	para "I hear the best"
 	line "trainers gather"
@@ -39,11 +39,11 @@ BlackthornPokecenter1FTwinText:
 	text "There was this"
 	line "move I just had"
 
-	para "to teach my #-"
-	line "MON."
+	para "to teach my Poké-"
+	line "mon."
 
-	para "So I got the MOVE"
-	line "DELETER to make it"
+	para "So I got the Move"
+	line "Deleter to make it"
 	cont "forget an HM move."
 	done
 

@@ -114,52 +114,52 @@ VioletPokecenterElmsAideFavorText:
 	line "favor to ask."
 
 	para "Would you take the"
-	line "#MON EGG?"
+	line "Pokémon Egg?"
 	done
 
 VioletPokecenterElmsAideGiveEggText:
 	text "We discovered that"
-	line "a #MON will not"
+	line "a Pokémon will not"
 
 	para "hatch until it"
-	line "grows in the EGG."
+	line "grows in the Egg."
 
 	para "It also has to be"
 	line "with other active"
-	cont "#MON to hatch."
+	cont "Pokémon to hatch."
 
 	para "<PLAY_G>, you're"
 	line "the only person"
 	cont "we can rely on."
 
-	para "Please call PROF."
-	line "ELM when that EGG"
+	para "Please call Prof."
+	line "Elm when that Egg"
 	cont "hatches!"
 	done
 
 VioletCityElmsAideFullPartyText:
 	text "Oh, no. You can't"
 	line "carry any more"
-	cont "#MON with you."
+	cont "Pokémon with you."
 
 	para "I'll wait here"
 	line "while you make"
-	cont "room for the EGG."
+	cont "room for the Egg."
 	done
 
 VioletPokecenterElmsAideRefuseText:
-	text "B-but… PROF.ELM"
+	text "B-but… Prof.Elm"
 	line "asked for you…"
 	done
 
 VioletPokecenterElmsAideAskEggText:
 	text "<PLAY_G>, will you"
-	line "take the EGG?"
+	line "take the Egg?"
 	done
 
 VioletPokecenter1FGameboyKidText:
-	text "A guy named BILL"
-	line "made the #MON"
+	text "A guy named Bill"
+	line "made the Pokémon"
 	cont "PC storage system."
 	done
 
@@ -167,9 +167,9 @@ VioletPokecenter1FGentlemanText:
 	text "It was around"
 	line "three years ago."
 
-	para "TEAM ROCKET was up"
+	para "Team Rocket was up"
 	line "to no good with"
-	cont "#MON."
+	cont "Pokémon."
 
 	para "But justice pre-"
 	line "vailed--a young"
@@ -177,14 +177,14 @@ VioletPokecenter1FGentlemanText:
 	done
 
 VioletPokecenter1FYoungsterText:
-	text "#MON are smart."
+	text "Pokémon are smart."
 	line "They won't obey a"
 
 	para "trainer they don't"
 	line "respect."
 
 	para "Without the right"
-	line "GYM BADGES, they"
+	line "Gym Badges, they"
 
 	para "will just do as"
 	line "they please."

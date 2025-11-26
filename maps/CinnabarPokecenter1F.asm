@@ -18,12 +18,12 @@ CinnabarPokecenter1FFisherScript:
 	jumptextfaceplayer CinnabarPokecenter1FFisherText
 
 CinnabarPokecenter1FCooltrainerFText:
-	text "CINNABAR GYM's"
-	line "BLAINE apparently"
+	text "Cinnabar Gym's"
+	line "Blaine is really"
 
-	para "lives alone in the"
-	line "SEAFOAM ISLANDS"
-	cont "cave…"
+	para "excited that he"
+	line "can run the Gym"
+	cont "in a volcano."
 	done
 
 CinnabarPokecenter1FFisherText:

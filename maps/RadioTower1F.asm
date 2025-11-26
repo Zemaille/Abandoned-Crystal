@@ -224,12 +224,12 @@ RadioTower1FReceptionistNoToursText:
 
 RadioTower1FLuckyNumberManAskToPlayText:
 	text "Hi, are you here"
-	line "for the LUCKY NUM-"
-	cont "BER SHOW?"
+	line "for the Lucky Num-"
+	cont "ber Show?"
 
 	para "Want me to check"
 	line "the ID numbers of"
-	cont "your #MON?"
+	cont "your Pokémon?"
 
 	para "If you get lucky,"
 	line "you win a prize."
@@ -267,7 +267,7 @@ RadioTower1FLuckyNumberManPerfectMatchText:
 	line "prize winner!"
 
 	para "You have won a"
-	line "MASTER BALL!"
+	line "Master Ball!"
 	done
 
 RadioTower1FLuckyNumberManOkayMatchText:
@@ -276,8 +276,8 @@ RadioTower1FLuckyNumberManOkayMatchText:
 	cont "three numbers!"
 
 	para "You've won second"
-	line "prize, an EXP."
-	cont "SHARE!"
+	line "prize, an Exp."
+	cont "Share!"
 	done
 
 RadioTower1FLuckyNumberManWeakMatchText:
@@ -286,7 +286,7 @@ RadioTower1FLuckyNumberManWeakMatchText:
 	cont "two numbers."
 
 	para "You've won third"
-	line "prize, a PP UP."
+	line "prize, a PP Up."
 	done
 
 RadioTower1FLuckyNumberManNoneOfYourIDNumbersMatchText:
@@ -309,10 +309,10 @@ RadioTower1FRadioCardWomanOfferQuizText:
 
 	para "Answer five ques-"
 	line "tions correctly to"
-	cont "win a RADIO CARD."
+	cont "win a Radio Card."
 
 	para "Slide it into your"
-	line "#GEAR to play"
+	line "PokéGear to play"
 
 	para "the radio anytime,"
 	line "anywhere."
@@ -324,9 +324,9 @@ RadioTower1FRadioCardWomanOfferQuizText:
 RadioTower1FRadioCardWomanQuestion1Text:
 	text "Question 1:"
 
-	para "Is there a #MON"
+	para "Is there a Pokémon"
 	line "that appears only"
-	cont "in the morning?"
+	cont "at night?"
 	done
 
 RadioTower1FRadioCardWomanQuestion2Text:
@@ -336,8 +336,8 @@ RadioTower1FRadioCardWomanQuestion2Text:
 	para "Is this statement"
 	line "correct?"
 
-	para "You can't buy a"
-	line "BERRY at a MART."
+	para "You can buy a"
+	line "Berry at a Mart."
 	done
 
 RadioTower1FRadioCardWomanQuestion3Text:
@@ -345,18 +345,18 @@ RadioTower1FRadioCardWomanQuestion3Text:
 	line "Question 3:"
 
 	para "Does HM01 contain"
-	line "the move FLASH?"
+	line "the move Flash?"
 	done
 
 RadioTower1FRadioCardWomanQuestion4Text:
 	text "So far so good!"
 	line "Question 4:"
 
-	para "Is FALKNER the"
-	line "VIOLET GYM LEADER"
+	para "Is Falkner the"
+	line "Violet Gym Leader"
 
 	para "who uses bird"
-	line "#MON?"
+	line "Pokémon?"
 	done
 
 RadioTower1FRadioCardWomanQuestion5Text:
@@ -364,10 +364,10 @@ RadioTower1FRadioCardWomanQuestion5Text:
 	line "Here's the final"
 	cont "question:"
 
-	para "Do GOLDENROD GAME"
-	line "CORNER's slots"
+	para "Do Goldenrod Game"
+	line "Corner's slots"
 
-	para "have CHARMANDER"
+	para "have Charmander"
 	line "on their reels?"
 	done
 
@@ -376,11 +376,11 @@ RadioTower1FRadioCardWomanYouWinText:
 	line "Congratulations!"
 
 	para "Here's your prize,"
-	line "a RADIO CARD!"
+	line "a Radio Card!"
 	done
 
 RadioTower1FPokegearIsARadioText:
-	text "<PLAYER>'s #GEAR"
+	text "<PLAYER>'s PokéGear"
 	line "can now double as"
 	cont "a radio!"
 	done
@@ -405,7 +405,7 @@ RadioTower1FRadioCardWomanNotTakingQuizText:
 	done
 
 RadioTower1FLassText:
-	text "BEN is a fabulous"
+	text "Ben is a fabulous"
 	line "DJ."
 
 	para "His sweet voice"
@@ -413,8 +413,8 @@ RadioTower1FLassText:
 	done
 
 RadioTower1FYoungsterText:
-	text "I love MARY, from"
-	line "#MON TALK."
+	text "I love Mary, from"
+	line "Pokémon Talk."
 
 	para "I only know what"
 	line "she sounds like,"
@@ -424,13 +424,13 @@ RadioTower1FYoungsterText:
 GruntM3SeenText:
 	text "We've finally"
 	line "taken over the"
-	cont "RADIO TOWER!"
+	cont "Radio Tower!"
 
 	para "Now everyone will"
 	line "get to experience"
 
 	para "the true terror of"
-	line "TEAM ROCKET!"
+	line "Team Rocket!"
 
 	para "We'll show you"
 	line "how scary we are!"
@@ -463,10 +463,10 @@ RadioTower1FDirectoryText:
 RadioTower1FLuckyChannelSignText:
 	text "LUCKY CHANNEL!"
 
-	para "Win with #MON"
+	para "Win with Pokémon"
 	line "ID numbers!"
 
-	para "Trade your #MON"
+	para "Trade your Pokémon"
 	line "to collect differ-"
 	cont "ent ID numbers!"
 	done

@@ -32,7 +32,7 @@ DayOfWeekSiblingsHousePokedexText2:
 	line "sisters:"
 
 	para "We take pride in"
-	line "serving #MON"
+	line "serving Pokémon"
 	cont "trainers."
 
 	para "When trainers talk"
@@ -40,7 +40,7 @@ DayOfWeekSiblingsHousePokedexText2:
 	cont "something useful."
 
 	para "Love,"
-	line "MONICA"
+	line "Monica"
 
 	para "Keep reading?"
 	done

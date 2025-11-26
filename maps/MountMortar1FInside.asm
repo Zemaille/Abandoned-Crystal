@@ -41,7 +41,7 @@ MountMortar1FBoulder:
 	jumpstd StrengthBoulderScript
 
 MountMortar1FInsideEscapeRope:
-	itemball ESCAPE_ROPE
+	itemball BLACKBELT_I
 
 MountMortar1FInsideMaxRevive:
 	itemball MAX_REVIVE
@@ -92,7 +92,7 @@ PokemaniacMillerAfterBattleText:
 	done
 
 SupernerdMarkusSeenText:
-	text "Hey! HUGH!"
+	text "Hey! Hugh!"
 	done
 
 SupernerdMarkusBeatenText:
@@ -102,16 +102,10 @@ SupernerdMarkusBeatenText:
 
 SupernerdMarkusAfterBattleText:
 	text "I came to explore"
-	line "MT.MORTAR, but I"
+	line "Mt.Mortar, but I"
 
 	para "got separated from"
 	line "my partner…"
-
-	para "Did you run into a"
-	line "trainer who uses a"
-
-	para "SEADRA that knows"
-	line "WATERFALL?"
 	done
 
 MountMortar1FInside_MapEvents:

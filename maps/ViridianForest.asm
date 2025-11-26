@@ -12,7 +12,7 @@ ViridianForest_MapScripts:
 	def_callbacks
 
 Route2DireHit:
-	itemball DIRE_HIT
+	itemball BERSERK_GENE
 
 Route2MaxPotion:
 	itemball MAX_POTION
@@ -32,7 +32,7 @@ TrainerBugCatcherRob:
 	end
 
 BugCatcherRobSeenText:
-	text "My bug #MON are"
+	text "My bug Pokémon are"
 	line "tough. Prepare to"
 	cont "lose!"
 	done
@@ -44,7 +44,7 @@ BugCatcherRobBeatenText:
 BugCatcherRobAfterBattleText:
 	text "I'm going to look"
 	line "for stronger bug"
-	cont "#MON."
+	cont "Pokémon."
 	done
 
 TrainerBugCatcherEd:
@@ -89,7 +89,7 @@ TrainerBugCatcherDoug:
 
 BugCatcherDougSeenText:
 	text "Why don't girls"
-	line "like bug #MON?"
+	line "like bug Pokémon?"
 	done
 
 BugCatcherDougBeatenText:
@@ -97,7 +97,7 @@ BugCatcherDougBeatenText:
 	done
 
 BugCatcherDougAfterBattleText:
-	text "Bug #MON squish"
+	text "Bug Pokémon squish"
 	line "like plush toys"
 
 	para "when you squeeze"

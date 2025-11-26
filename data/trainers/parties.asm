@@ -1719,7 +1719,7 @@ BeautyGroup:
 	next_list_item ; BEAUTY (2)
 	db "SAMANTHA@", TRAINERTYPE_MOVES
 	db 16
-	dw MEOWTH
+	dw MEOWTH ;Whitney gym trainer, has text about her Meowth
 	dw SCRATCH, GROWL, BITE, PAY_DAY
 	db 16
 	dw MEOWTH

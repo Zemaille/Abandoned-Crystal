@@ -89,35 +89,35 @@ Route34IlexForestGateTeacherReturnsMovement:
 
 Route34IlexForestGateTeacherText:
 	text "Oh, honey. You're"
-	line "making a #DEX?"
+	line "making a Pokédex?"
 
 	para "It must be hard if"
-	line "#MON won't"
+	line "Pokémon won't"
 
 	para "appear. Try using"
 	line "this TM."
 	done
 
 Route34IlexForestGateTeacher_GotSweetScent:
-	text "It's SWEET SCENT."
+	text "It's Rest."
 
 	para "Use it wherever"
-	line "#MON appear."
+	line "Pokémon appear."
 
-	para "#MON will be"
+	para "Pokémon will be"
 	line "enticed by it."
 	done
 
 Route34IlexForestGateTeacher_ForestIsRestless:
 	text "Something's wrong"
-	line "in ILEX FOREST…"
+	line "in Ilex Forest…"
 
 	para "You should stay"
 	line "away right now."
 	done
 
 Route34IlexForestGateButterfreeText:
-	text "BUTTERFREE: Freeh!"
+	text "Butterfree: Freeh!"
 	done
 
 Route34IlexForestGateLassText:
@@ -126,12 +126,12 @@ Route34IlexForestGateLassText:
 	cont "the protector?"
 
 	para "It watches over"
-	line "the FOREST from"
+	line "the forest from"
 	cont "across time."
 
 	para "I think that it"
 	line "must be a grass-"
-	cont "type #MON."
+	cont "type Pokémon."
 	done
 
 Route34IlexForestGate_MapEvents:

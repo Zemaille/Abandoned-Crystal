@@ -85,8 +85,8 @@ LavRadioTower1FOfficerText:
 	line "only tour the"
 	cont "ground floor."
 
-	para "Ever since JOHTO's"
-	line "RADIO TOWER was"
+	para "Ever since Johto's"
+	line "Radio Tower was"
 
 	para "taken over by a"
 	line "criminal gang, we"
@@ -99,8 +99,8 @@ LavRadioTower1FSuperNerd1Text:
 	text "Many people are"
 	line "hard at work here"
 
-	para "in the RADIO"
-	line "TOWER."
+	para "in the Radio"
+	line "Tower."
 
 	para "They must be doing"
 	line "their best to put"
@@ -113,7 +113,7 @@ LavRadioTower1FGentlemanText:
 	para "We've been off the"
 	line "air ever since the"
 
-	para "POWER PLANT shut"
+	para "Power Plant shut"
 	line "down."
 
 	para "All my efforts to"
@@ -129,7 +129,7 @@ LavRadioTower1FGentlemanText_ReturnedMachinePart:
 	text "Ah! So you're the"
 	line "<PLAY_G> who solved"
 
-	para "the POWER PLANT's"
+	para "the Power Plant's"
 	line "problem?"
 
 	para "Thanks to you, I"
@@ -147,7 +147,7 @@ LavRadioTower1FGentlemanText_GotExpnCard:
 	line "you can tune into"
 
 	para "the radio programs"
-	line "here in KANTO."
+	line "here in Kanto."
 
 	para "Gahahahaha!"
 	done
@@ -156,16 +156,16 @@ LavRadioTower1FSuperNerd2Text:
 	text "Hey there!"
 
 	para "I am the super"
-	line "MUSIC DIRECTOR!"
+	line "Music Director!"
 
-	para "Huh? Your #GEAR"
+	para "Huh? Your PokéGear"
 	line "can't tune into my"
 
 	para "music programs."
 	line "How unfortunate!"
 
 	para "If you get an EXPN"
-	line "CARD upgrade, you"
+	line "Card upgrade, you"
 
 	para "can tune in. You'd"
 	line "better get one!"
@@ -175,7 +175,7 @@ LavRadioTower1FSuperNerd2Text_GotExpnCard:
 	text "Hey there!"
 
 	para "I am the super"
-	line "MUSIC DIRECTOR!"
+	line "Music Director!"
 
 	para "I'm responsible"
 	line "for the gorgeous"
@@ -200,11 +200,11 @@ LavRadioTower1FDirectoryText:
 	done
 
 LavRadioTower1FPokeFluteSignText:
-	text "Perk Up #MON"
+	text "Perk Up Pokémon"
 	line "with Mellow Sounds"
 
-	para "of the # FLUTE"
-	line "on CHANNEL 20"
+	para "of the Poké Flute"
+	line "on Channel 20"
 	done
 
 LavRadioTower1F_MapEvents:

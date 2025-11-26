@@ -182,7 +182,7 @@ KeyItemNames::
 	li "Egg Ticket"   ; 0110
 	li "Lost Item"    ; 0111
 	li "Basement Key" ; 0112
-	li "Pass"         ; 0113
+	li "Rail Pass"    ; 0113
 	li "Squirtbottle" ; 0114
 	li "Rainbow Wing" ; 0115
 	li "Candy Bag"
