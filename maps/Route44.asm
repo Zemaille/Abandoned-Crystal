@@ -310,7 +310,7 @@ Route44MaxRevive:
 	itemball MAX_REVIVE
 
 Route44UltraBall:
-	itemball ULTRA_BALL
+	itemball SHARP_BEAK
 
 Route44MaxRepel:
 	itemball MAX_REPEL

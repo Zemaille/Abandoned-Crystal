@@ -409,7 +409,7 @@ IlexForestAntidote:
 	itemball ANTIDOTE
 
 IlexForestEther:
-	itemball ETHER
+	itemball FOCUS_BAND
 
 IlexForestHiddenEther:
 	hiddenitem ETHER, EVENT_ILEX_FOREST_HIDDEN_ETHER

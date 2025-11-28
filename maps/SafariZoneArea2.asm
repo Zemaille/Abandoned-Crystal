@@ -7,7 +7,7 @@ SafariZoneArea2_MapScripts:
 	def_callbacks
 
 SafariZoneArea2BigNuggetScript:
-	itemball BIG_NUGGET
+	itemball GIGA_IMPACT
 
 SafariZoneArea2RestHouseScript:
 	text "REST HOUSES ARE"

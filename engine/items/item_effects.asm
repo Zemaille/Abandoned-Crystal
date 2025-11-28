@@ -223,6 +223,7 @@ ItemEffectsKeyItems:
 	dw VortexDriveEffect  ; Vortex Drive
 	dw HydroBoostEffect   ; Hydro Boost
 	dw SilphPortEffect    ; Silph Port
+	dw PocketPCEffect     ; Pocket PC
 .IndirectEnd:
 
 ItemEffectsBalls:
@@ -3130,4 +3131,7 @@ HydroBoostEffect:
 SilphPortEffect:
 	call TeleportFunction
 	ret
-	
+
+PocketPCEffect:
+	call PocketPCFunction
+	ret

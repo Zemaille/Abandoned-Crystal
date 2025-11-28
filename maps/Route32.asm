@@ -481,7 +481,7 @@ Route32GreatBall:
 	itemball GREAT_BALL
 
 Route32Repel:
-	itemball REPEL
+	itemball SOFT_SAND
 
 Route32Sign:
 	jumptext Route32SignText

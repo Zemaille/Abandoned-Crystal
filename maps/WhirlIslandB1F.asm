@@ -12,7 +12,7 @@ WhirlIslandB1F_MapScripts:
 	def_callbacks
 
 WhirlIslandB1FFullRestore:
-	itemball FULL_RESTORE
+	itemball TWISTEDSPOON
 
 WhirlIslandB1FCarbos:
 	itemball CARBOS

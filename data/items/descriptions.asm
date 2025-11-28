@@ -203,6 +203,7 @@ ItemDescriptionsKeyItems:
 	dw VortexDriveDesc
 	dw HydroBoostDesc
 	dw SilphPortDesc
+	dw PocketPCDesc
 .IndirectEnd:
 
 ItemDescriptionsBalls:
@@ -928,3 +929,7 @@ HydroBoostDesc:
 SilphPortDesc:
 	db   "SilphCo portable"
 	next "Teleport device.@"
+
+PocketPCDesc:
+	db   "A Champion's best"
+	next "friend."

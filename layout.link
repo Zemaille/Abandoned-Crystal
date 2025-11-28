@@ -41,9 +41,9 @@ ROMX $03
 	"bank3"
 	"VWF"
 	"mobile5C"
-	"Battle Weather Images"
 ROMX $04
 	"bank4"
+	"Battle Weather Images"
 ROMX $05
 	"bank5"
 	"Load Map Part"

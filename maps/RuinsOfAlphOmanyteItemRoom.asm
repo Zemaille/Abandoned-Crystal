@@ -13,7 +13,7 @@ RuinsOfAlphOmanyteItemRoomMysteryberry:
 	itemball MYSTERYBERRY
 
 RuinsOfAlphOmanyteItemRoomMysticWater:
-	itemball MYSTIC_WATER
+	itemball WATER_STONE
 
 RuinsOfAlphOmanyteItemRoomStardust:
 	itemball STARDUST

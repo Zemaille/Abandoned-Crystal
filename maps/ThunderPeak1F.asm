@@ -8,7 +8,7 @@ ThunderPeak1F_MapScripts:
 	def_callbacks
 
 ThunderPeak1FFullRestore:
-	itemball FULL_RESTORE
+	itemball TM_WILD_CHARGE
 
 ThunderPeak1FBigNugget:
 	itemball BIG_NUGGET

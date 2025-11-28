@@ -8,7 +8,7 @@ SaltmarshArea1_MapScripts:
 	def_callbacks
 
 SaltmarshArea1PokeBallScript:
-	itemball POKE_BALL
+	itemball SCOPE_LENS
 	
 SaltmarshArea1EnergyRootScript:
 	itemball ENERGY_ROOT

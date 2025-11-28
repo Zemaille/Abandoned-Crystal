@@ -10,10 +10,10 @@ RuinsOfAlphKabutoItemRoom_MapScripts:
 	def_callbacks
 
 RuinsOfAlphKabutoItemRoomBerry:
-	itemball BERRY
+	itemball NUGGET
 
 RuinsOfAlphKabutoItemRoomPsncureberry:
-	itemball PSNCUREBERRY
+	itemball MYSTIC_WATER
 
 RuinsOfAlphKabutoItemRoomHealPowder:
 	itemball HEAL_POWDER

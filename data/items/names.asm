@@ -193,6 +193,7 @@ KeyItemNames::
 	li "Vortex Drive"
 	li "Hydro Boost"
 	li "SilphPort"
+	li "Pocket PC"
 	assert_list_length NUM_KEY_ITEM_POCKET
 
 BallNames::
