@@ -28,10 +28,32 @@ PokeChampionClubStaffText:
 	done
 
 pChalScript:
-	jumptext pChalVerbalStimText
+	faceplayer
+	opentext
+	checkevent EVENT_GOT_POCKET_PC
+	iftrue .GotPocketPC
+	writetext pChalPocketPCText
+	promptbutton
+	verbosegiveitem POCKET_PC
+	setevent EVENT_GOT_POCKET_PC
+.GotPocketPC:
+	writetext pChalVerbalStimText
+	waitbutton
+	closetext
+	end
+
+pChalPocketPCText:
+	text "THIS!"
+	
+	para "Is a Pocket PC."
+		
+	para "A great quality"
+	line "of life item."
+	done
 
 pChalVerbalStimText:
-	text "THIS!"
+	text "Did you hear about"
+	line "this?"
 	done
 
 PokeChampionClubInside_MapEvents:
