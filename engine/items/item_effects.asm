@@ -1317,8 +1317,8 @@ StatStrings:
 .attack  db "ATTACK@"
 .defense db "DEFENSE@"
 .speed   db "SPEED@"
-.sp_atk  db "SPCL.ATK@"
-.sp_def  db "SPCL.DEF@"
+.sp_atk  db "SP.ATK@"
+.sp_def  db "SP.DEF@"
 
 GetEVRelativePointer:
 	ld a, [wCurItem]

@@ -45,7 +45,7 @@ _ObtainedFiveFruitText::
 	done
 
 _FruitPackIsFullText::
-	text "But the PACK is"
+	text "But the Pack is"
 	line "full…"
 	done
 
@@ -55,7 +55,7 @@ _NothingHereText::
 	done
 
 _WhichApricornText::
-	text "Which APRICORN"
+	text "Which apricorn"
 	line "should I use?"
 	done
 
@@ -248,22 +248,22 @@ _AlreadySetUpText::
 	prompt
 
 _LookTownMapText::
-	text "It's the TOWN MAP."
+	text "It's the Town Map."
 	done
 
 _LookPikachuPosterText::
 	text "It's a poster of a"
-	line "cute PIKACHU."
+	line "cute Pikachu."
 	done
 
 _LookClefairyPosterText::
 	text "It's a poster of a"
-	line "cute CLEFAIRY."
+	line "cute Clefairy."
 	done
 
 _LookJigglypuffPosterText::
 	text "It's a poster of a"
-	line "cute JIGGLYPUFF."
+	line "cute Jigglypuff."
 	done
 
 _LookAdorableDecoText::
@@ -376,22 +376,22 @@ _ForYourMonWillTradeText::
 
 _OPT_IntroText1::
 	text_start
-	line "MARY: PROF.OAK'S"
+	line "Mary: Prof.Oak's"
 	done
 
 _OPT_IntroText2::
 	text_start
-	line "#MON TALK!"
+	line "Pokémon Talk!"
 	done
 
 _OPT_IntroText3::
 	text_start
-	line "With me, MARY!"
+	line "With me, Mary!"
 	done
 
 _OPT_OakText1::
 	text_start
-	line "OAK: @"
+	line "Oak: @"
 	text_ram wMonOrItemNameBuffer
 	text_end
 
@@ -409,7 +409,7 @@ _OPT_OakText3::
 
 _OPT_MaryText1::
 	text_start
-	line "MARY: @"
+	line "Mary: @"
 	text_ram wStringBuffer1
 	text "'s"
 	done
@@ -575,7 +575,7 @@ _OPT_SpeedyText::
 	done
 
 _OPT_PokemonChannelText::
-	text "#MON"
+	text "Pokémon"
 	done
 
 _PokedexShowText::
@@ -588,27 +588,27 @@ _PokedexShowText::
 
 _BenIntroText1::
 	text_start
-	line "BEN: #MON MUSIC"
+	line "Ben: Pokémon Music"
 	done
 
 _BenIntroText2::
 	text_start
-	line "CHANNEL!"
+	line "Channel!"
 	done
 
 _BenIntroText3::
 	text_start
-	line "It's me, DJ BEN!"
+	line "It's me, DJ Ben!"
 	done
 
 _FernIntroText1::
 	text_start
-	line "FERN: #MUSIC!"
+	line "Fern: PokéMusic!"
 	done
 
 _FernIntroText2::
 	text_start
-	line "With DJ FERN!"
+	line "With DJ Fern!"
 	done
 
 _BenFernText1::
@@ -630,19 +630,19 @@ _BenFernText2B::
 
 _BenFernText3A::
 	text_start
-	line "#MON March!"
+	line "Pokémon March!"
 	done
 
 _BenFernText3B::
 	text_start
-	line "#MON Lullaby!"
+	line "Pokémon Lullaby!"
 	done
 
 ; Lucky Channel
 
 _LC_Text1::
 	text_start
-	line "REED: Yeehaw! How"
+	line "Reed: Yeehaw! How"
 	done
 
 _LC_Text2::
@@ -667,7 +667,7 @@ _LC_Text5::
 
 _LC_Text6::
 	text_start
-	line "LUCKY NUMBER SHOW!"
+	line "Lucky Number Show!"
 	done
 
 _LC_Text7::
@@ -695,7 +695,7 @@ _LC_Text10::
 
 _LC_Text11::
 	text_start
-	line "the RADIO TOWER!"
+	line "the Radio Tower!"
 	done
 
 _LC_DragText1::
@@ -712,7 +712,7 @@ _LC_DragText2::
 
 _PnP_Text1::
 	text_start
-	line "PLACES AND PEOPLE!"
+	line "Places and People!"
 	done
 
 _PnP_Text2::
@@ -722,7 +722,7 @@ _PnP_Text2::
 
 _PnP_Text3::
 	text_start
-	line "me, DJ LILY!"
+	line "me, DJ Lily!"
 	done
 
 _PnP_Text4::
@@ -826,7 +826,7 @@ _RocketRadioText1::
 
 _RocketRadioText2::
 	text_start
-	line "TEAM ROCKET!"
+	line "Team Rocket!"
 	done
 
 _RocketRadioText3::
@@ -851,7 +851,7 @@ _RocketRadioText6::
 
 _RocketRadioText7::
 	text_start
-	line "GIOVANNI! @"
+	line "Giovanni! @"
 	text_pause
 	text "Can you"
 	done
@@ -879,7 +879,7 @@ _RocketRadioText10::
 
 _BuenaRadioText1::
 	text_start
-	line "BUENA: BUENA here!"
+	line "Buena: Buena here!"
 	done
 
 _BuenaRadioText2::
@@ -906,17 +906,17 @@ _BuenaRadioText5::
 
 _BuenaRadioText6::
 	text_start
-	line "I'm in GOLDENROD's"
+	line "I'm in Goldenrod's"
 	done
 
 _BuenaRadioText7::
 	text_start
-	line "RADIO TOWER!"
+	line "Radio Tower!"
 	done
 
 _BuenaRadioMidnightText1::
 	text_start
-	line "BUENA: Oh my…"
+	line "Buena: Oh my…"
 	done
 
 _BuenaRadioMidnightText2::
@@ -951,7 +951,7 @@ _BuenaRadioMidnightText7::
 
 _BuenaRadioMidnightText8::
 	text_start
-	line "you by DJ BUENA!"
+	line "you by DJ Buena!"
 	done
 
 _BuenaRadioMidnightText9::
@@ -990,18 +990,18 @@ _AskFloorElevatorText::
 	done
 
 _BugCatchingContestTimeUpText::
-	text "ANNOUNCER: BEEEP!"
+	text "Announcer: BEEEP!"
 
 	para "Time's up!"
 	done
 
 _BugCatchingContestIsOverText::
-	text "ANNOUNCER: The"
+	text "Announcer: The"
 	line "Contest is over!"
 	done
 
 _RepelWoreOffText::
-	text "REPEL's effect"
+	text "Repel's effect"
 	line "wore off."
 	done
 
@@ -1028,7 +1028,7 @@ _JustSawSomeRareMonText::
 
 	para "I'll call you if I"
 	line "see another rare"
-	cont "#MON, OK?"
+	cont "Pokémon, OK?"
 	prompt
 
 _SavingRecordText::
@@ -1052,7 +1052,7 @@ _NoCoinsText::
 
 _NoCoinCaseText::
 	text "You don't have a"
-	line "COIN CASE."
+	line "Coin Case."
 	prompt
 
 _NPCTradeCableText::
@@ -1076,7 +1076,7 @@ _NPCTradeFanfareText::
 	text_end
 
 _NPCTradeIntroText1::
-	text "I collect #MON."
+	text "I collect Pokémon."
 	line "Do you have"
 	cont "@"
 	text_ram wStringBuffer1
@@ -1118,7 +1118,7 @@ _NPCTradeAfterText1::
 
 _NPCTradeIntroText2::
 	text "Hi, I'm looking"
-	line "for this #MON."
+	line "for this Pokémon."
 
 	para "If you have"
 	line "@"
@@ -1229,7 +1229,7 @@ _NPCTradeAfterText4::
 
 _MomLeavingText1::
 	text "Wow, that's a cute"
-	line "#MON."
+	line "Pokémon."
 
 	para "Where did you get"
 	line "it?"
@@ -1265,7 +1265,7 @@ _MomLeavingText2::
 _MomLeavingText3::
 	text "Be careful."
 
-	para "#MON are your"
+	para "Pokémon are your"
 	line "friends. You need"
 	cont "to work as a team."
 
@@ -1348,55 +1348,55 @@ _MomJustDoWhatYouCanText::
 	done
 
 _DayCareManIntroText::
-	text "I'm the DAY-CARE"
-	line "MAN. Want me to"
-	cont "raise a #MON?"
+	text "I'm the Day-Care"
+	line "Man. Want me to"
+	cont "raise a Pokémon?"
 	done
 
 _DayCareManIntroEggText::
-	text "I'm the DAY-CARE"
-	line "MAN. Do you know"
+	text "I'm the Day-Care"
+	line "Man. Do you know"
 	cont "about EGGS?"
 
 	para "I was raising"
-	line "#MON with my"
+	line "Pokémon with my"
 	cont "wife, you see."
 
 	para "We were shocked to"
-	line "find an EGG!"
+	line "find an egg!"
 
 	para "How incredible is"
 	line "that?"
 
 	para "So, want me to"
-	line "raise a #MON?"
+	line "raise a Pokémon?"
 	done
 
 _DayCareLadyIntroText::
-	text "I'm the DAY-CARE"
-	line "LADY."
+	text "I'm the Day-Care"
+	line "Lady."
 
 	para "Should I raise a"
-	line "#MON for you?"
+	line "Pokémon for you?"
 	done
 
 _DayCareLadyIntroEggText::
-	text "I'm the DAY-CARE"
-	line "LADY. Do you know"
-	cont "about EGGS?"
+	text "I'm the Day-Care"
+	line "Lady. Do you know"
+	cont "about eggs?"
 
 	para "My husband and I"
 	line "were raising some"
-	cont "#MON, you see."
+	cont "Pokémon, you see."
 
 	para "We were shocked to"
-	line "find an EGG!"
+	line "find an egg!"
 
 	para "How incredible"
 	line "could that be?"
 
 	para "Should I raise a"
-	line "#MON for you?"
+	line "Pokémon for you?"
 	done
 
 _WhatShouldIRaiseText::
@@ -1406,16 +1406,16 @@ _WhatShouldIRaiseText::
 
 _OnlyOneMonText::
 	text "Oh? But you have"
-	line "just one #MON."
+	line "just one Pokémon."
 	prompt
 
 _CantAcceptEggText::
 	text "Sorry, but I can't"
-	line "accept an EGG."
+	line "accept an egg."
 	prompt
 
 _RemoveMailText::
-	text "Remove MAIL before"
+	text "Remove mail before"
 	line "you come see me."
 	prompt
 
@@ -1457,7 +1457,7 @@ _YourMonHasGrownText::
 	text "."
 
 	para "If you want your"
-	line "#MON back, it"
+	line "Pokémon back, it"
 	cont "will cost ¥@"
 	text_decimal wStringBuffer2 + 2, 3, 4
 	text "."
@@ -1465,7 +1465,7 @@ _YourMonHasGrownText::
 
 _PerfectHeresYourMonText::
 	text "Perfect! Here's"
-	line "your #MON."
+	line "your Pokémon."
 	prompt
 
 _GotBackMonText::
@@ -1484,7 +1484,7 @@ _BackAlreadyText::
 	line "more time with us."
 
 	para "If you want your"
-	line "#MON back, it"
+	line "Pokémon back, it"
 	cont "will cost ¥100."
 	done
 
@@ -1514,24 +1514,24 @@ _FoundAnEggText::
 	text "Ah, it's you!"
 
 	para "We were raising"
-	line "your #MON, and"
+	line "your Pokémon, and"
 
 	para "my goodness, were"
 	line "we surprised!"
 
-	para "Your #MON had"
-	line "an EGG!"
+	para "Your Pokémon had"
+	line "an egg!"
 
 	para "We don't know how"
 	line "it got there, but"
 
-	para "your #MON had"
+	para "your Pokémon had"
 	line "it. You want it?"
 	done
 
 _ReceivedEggText::
 	text "<PLAYER> received"
-	line "the EGG!"
+	line "the Egg`!"
 	done
 
 _TakeGoodCareOfEggText::
@@ -1551,7 +1551,7 @@ _NoRoomForEggText::
 	done
 
 _WhichMonPhotoText::
-	text "Which #MON"
+	text "Which Pokémon"
 	line "should I photo-"
 	cont "graph?"
 	prompt

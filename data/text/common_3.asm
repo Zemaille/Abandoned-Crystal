@@ -9,7 +9,7 @@ _OakText7::
 
 if !DEF(_DEBUG)
 	para "Your very own"
-	line "#MON story is"
+	line "Pokémon story is"
 	cont "about to unfold."
 
 	para "You'll face fun"
@@ -19,7 +19,7 @@ if !DEF(_DEBUG)
 	para "A world of dreams"
 	line "and adventures"
 
-	para "with #MON"
+	para "with Pokémon"
 	line "awaits! Let's go!"
 endc
 	para "I'll be seeing you"
@@ -59,7 +59,7 @@ _LinkTimeoutText::
 
 _LinkTradeCantBattleText::
 	text "If you trade that"
-	line "#MON, you won't"
+	line "Pokémon, you won't"
 	cont "be able to battle."
 	prompt
 
@@ -147,7 +147,7 @@ _SeerSeeAllText::
 	line "I know all…"
 
 	para "Certainly, I know"
-	line "of your #MON!"
+	line "of your Pokémon!"
 	done
 
 _SeerCantTellAThingText::
@@ -222,7 +222,7 @@ _SeerNoLocationText::
 _SeerEggText::
 	text "Hey!"
 
-	para "That's an EGG!"
+	para "That's an egg!"
 
 	para "You can't say that"
 	line "you've met it yet…"
@@ -239,7 +239,7 @@ _SeerMoreCareText::
 	para "It would be wise"
 	line "to raise your"
 
-	para "#MON with a"
+	para "Pokémon with a"
 	line "little more care."
 	done
 
@@ -278,7 +278,7 @@ _SeerMightyText::
 	line "must have come"
 
 	para "through numerous"
-	line "#MON battles."
+	line "Pokémon battles."
 
 	para "It looks brimming"
 	line "with confidence."
@@ -293,7 +293,7 @@ _SeerImpressedText::
 	para "It's been a long"
 	line "time since I've"
 
-	para "seen a #MON as"
+	para "seen a Pokémon as"
 	line "mighty as this"
 	cont "@"
 	text_ram wSeerNickname
@@ -365,7 +365,7 @@ _HerbShopLadyIntroText::
 	para "They're good, but"
 	line "a trifle bitter."
 
-	para "Your #MON may"
+	para "Your Pokémon may"
 	line "not like them."
 
 	para "Hehehehe…"
@@ -391,7 +391,7 @@ _HerbalLadyThanksText::
 	done
 
 _HerbalLadyPackFullText::
-	text "Oh? Your PACK is"
+	text "Oh? Your Pack is"
 	line "full, dear."
 	done
 
@@ -429,7 +429,7 @@ _BargainShopThanksText::
 	done
 
 _BargainShopPackFullText::
-	text "Uh-oh, your PACK"
+	text "Uh-oh, your Pack"
 	line "is chock-full."
 	done
 
@@ -808,7 +808,7 @@ _BattleTowerReturnWhenReadyText::
 	done
 
 _OnlyThreeMonMayBeEnteredText::
-	text "Only three #MON"
+	text "Only three Pokémon"
 	line "may be entered."
 
 	para ""
@@ -817,7 +817,7 @@ _OnlyThreeMonMayBeEnteredText::
 _TheMonMustAllBeDifferentKindsText::
 	text "The @"
 	text_ram wStringBuffer2
-	text " #MON"
+	text " Pokémon"
 	line "must all be"
 	cont "different kinds."
 
@@ -827,7 +827,7 @@ _TheMonMustAllBeDifferentKindsText::
 _TheMonMustNotHoldTheSameItemsText::
 	text "The @"
 	text_ram wStringBuffer2
-	text " #MON"
+	text " Pokémon"
 	line "must not hold the"
 	cont "same items."
 
@@ -836,13 +836,13 @@ _TheMonMustNotHoldTheSameItemsText::
 
 _YouCantTakeAnEggText::
 	text "You can't take an"
-	line "EGG!"
+	line "egg!"
 
 	para ""
 	done
 
 _BallBrokeFreeText::
-	text "Oh no! The #MON"
+	text "Oh no! The Pokémon"
 	line "broke free!"
 	prompt
 
@@ -885,7 +885,7 @@ _NewDexDataText::
 	text_ram wEnemyMonNickname
 	text "'s data"
 	line "was newly added to"
-	cont "the #DEX.@"
+	cont "the PokéDex.@"
 	sound_slot_machine_start
 	text_promptbutton
 	text_end
@@ -907,18 +907,18 @@ _ItemStatRoseText::
 
 _ItemCantUseOnMonText::
 	text "That can't be used"
-	line "on this #MON."
+	line "on this Pokémon."
 	prompt
 
 _RepelUsedEarlierIsStillInEffectText::
-	text "The REPEL used"
+	text "The Repel used"
 	line "earlier is still"
 	cont "in effect."
 	prompt
 
 _PlayedFluteText::
-	text "Played the #"
-	line "FLUTE."
+	text "Played the Poké"
+	line "Flute."
 
 	para "Now, that's a"
 	line "catchy tune!"
@@ -926,12 +926,12 @@ _PlayedFluteText::
 
 _FluteWakeUpText::
 	text "All sleeping"
-	line "#MON woke up."
+	line "Pokémon woke up."
 	prompt
 
 Text_PlayedPokeFlute::
 	text "<PLAYER> played the"
-	line "# FLUTE.@"
+	line "Poké Flute.@"
 	text_promptbutton
 	text_end
 
@@ -992,11 +992,11 @@ _ItemLooksBitterText::
 
 _ItemCantUseOnEggText::
 	text "That can't be used"
-	line "on an EGG."
+	line "on an egg."
 	prompt
 
 _ItemOakWarningText::
-	text "OAK: <PLAYER>!"
+	text "Oak: <PLAYER>!"
 	line "This isn't the"
 	cont "time to use that!"
 	prompt
@@ -1008,7 +1008,7 @@ _ItemWontHaveEffectText::
 
 _BallBlockedText::
 	text "The trainer"
-	line "blocked the BALL!"
+	line "blocked the Ball!"
 	prompt
 
 _BallDontBeAThiefText::
@@ -1022,14 +1022,14 @@ _CurBoxFullText::
 	prompt
 
 _StorageFullText::
-	text "The STORAGE SYSTEM"
+	text "The Storage System"
 	line "is full. That"
 	cont "can't be used now."
 	prompt
 
 _DatabaseFullText::
 	; too technical? needs improvement
-	text "The STORAGE SYSTEM"
+	text "The Storage System"
 	line "is overtaxed."
 
 	para "You need to save"
@@ -1052,7 +1052,7 @@ _KnowsMoveText::
 	prompt
 
 _MoveKnowsOneText::
-	text "That #MON knows"
+	text "That Pokémon knows"
 	line "only one move."
 	done
 
@@ -1064,12 +1064,12 @@ _AskDeleteMoveText::
 	done
 
 _DeleterForgotMoveText::
-	text "Done! Your #MON"
+	text "Done! Your Pokémon"
 	line "forgot the move."
 	done
 
 _DeleterEggText::
-	text "An EGG doesn't"
+	text "An egg doesn't"
 	line "know any moves!"
 	done
 
@@ -1085,17 +1085,17 @@ _DeleterAskWhichMoveText::
 
 _DeleterIntroText::
 	text "Um… Oh, yes, I'm"
-	line "the MOVE DELETER."
+	line "the Move Deleter."
 
-	para "I can make #MON"
+	para "I can make Pokémon"
 	line "forget moves."
 
 	para "Shall I make a"
-	line "#MON forget?"
+	line "Pokémon forget?"
 	done
 
 _DeleterAskWhichMonText::
-	text "Which #MON?"
+	text "Which Pokémon?"
 	prompt
 
 _DSTIsThatOKText::
@@ -1141,7 +1141,7 @@ _TimesetAskAdjustDSTText::
 _MomLostGearBookletText::
 	text "I lost the in-"
 	line "struction booklet"
-	cont "for the #GEAR."
+	cont "for the PokéGear."
 
 	para "Come back again in"
 	line "a while."
