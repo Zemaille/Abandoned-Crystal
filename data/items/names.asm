@@ -166,9 +166,9 @@ KeyItemNames::
 	li "Bicycle"      ; 0100
 	li "Coin Case"    ; 0101
 	li "Itemfinder"   ; 0102
-	li "Old Rod"      ; 0103
-	li "Good Rod"     ; 0104
-	li "Super Rod"    ; 0105
+	li "Fishing Rod"  ; 0103
+	li "ERROR"        ; 0104
+	li "ERROR"        ; 0105
 	li "Red Scale"    ; 0106
 	li "SecretPotion" ; 0107
 	li "S.S. Ticket"  ; 0108

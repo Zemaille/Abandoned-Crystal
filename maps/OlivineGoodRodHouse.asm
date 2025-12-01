@@ -16,7 +16,7 @@ GoodRodGuru:
 	iffalse .DontWantIt
 	writetext GiveGoodRodText
 	promptbutton
-	verbosegiveitem GOOD_ROD
+	verbosegiveitem LURE_BALL
 	writetext GaveGoodRodText
 	waitbutton
 	closetext
@@ -48,13 +48,13 @@ OfferGoodRodText:
 
 	para "Would you like to"
 	line "face the sea and"
-	cont "fish?"
+	cont "win?"
 	done
 
 GiveGoodRodText:
 	text "Ah, hahah!"
 	line "We have ourselves"
-	cont "a new angler!"
+	cont "an angler!"
 	done
 
 GaveGoodRodText:

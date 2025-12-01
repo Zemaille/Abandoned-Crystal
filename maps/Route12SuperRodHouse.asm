@@ -1,3 +1,4 @@
+
 	object_const_def
 	const ROUTE12SUPERRODHOUSE_FISHING_GURU
 
@@ -16,7 +17,7 @@ Route12SuperRodHouseFishingGuruScript:
 	iffalse .Refused
 	writetext GiveSuperRodText
 	promptbutton
-	verbosegiveitem SUPER_ROD
+	verbosegiveitem LURE_BALL
 	iffalse .NoRoom
 	setevent EVENT_GOT_SUPER_ROD
 .GotSuperRod:
@@ -53,7 +54,7 @@ GiveSuperRodText:
 
 	para "Here, fishing fan!"
 	line "Take this--it's a"
-	cont "Super Rod."
+	cont "Lure Ball."
 	done
 
 GaveSuperRodText:

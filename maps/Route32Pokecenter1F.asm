@@ -21,7 +21,7 @@ Route32Pokecenter1FFishingGuruScript:
 	iffalse .Refused
 	writetext Route32Pokecenter1FFishingGuruText_Yes
 	promptbutton
-	verbosegiveitem OLD_ROD
+	verbosegiveitem LURE_BALL
 	writetext Route32Pokecenter1FFishingGuruText_GiveOldRod
 	waitbutton
 	closetext
@@ -51,8 +51,8 @@ Route32Pokecenter1FFishingGuruText_Question:
 	line "fishing? How"
 	cont "about you?"
 
-	para "Would you like one"
-	line "of my rods?"
+	para "Would you like a"
+	line "a Ball for fish?"
 	done
 
 Route32Pokecenter1FFishingGuruText_Yes:
