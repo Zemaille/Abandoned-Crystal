@@ -22,6 +22,54 @@ FishGroups:
 	fishgroup 50 percent + 1, .Qwilfish_Old,         .Qwilfish_Good,         .Qwilfish_Super
 	fishgroup 50 percent + 1, .Remoraid_Old,         .Remoraid_Good,         .Remoraid_Super
 	fishgroup 50 percent + 1, .Qwilfish_NoSwarm_Old, .Qwilfish_NoSwarm_Good, .Qwilfish_NoSwarm_Super
+;--------------------------------------------------------------------------------------------------------
+;         Used maps
+;--------------------------------------------------------------------------------------------------------
+	fishgroup 50 percent + 1, .NewBark, .NewBark, .NewBark
+	fishgroup 50 percent + 1, .Cherrygrove, .Cherrygrove, .Cherrygrove
+	fishgroup 50 percent + 1, .Route30, .Route30, .Route30
+	fishgroup 50 percent + 1, .Route31, .Route31, .Route31
+	fishgroup 50 percent + 1, .DarkCave, .DarkCave, .DarkCave
+	fishgroup 50 percent + 1, .VioletCity, .VioletCity, .VioletCity
+	fishgroup 50 percent + 1, .RuinsOfAlph, .RuinsOfAlph, .RuinsOfAlph
+	fishgroup 50 percent + 1, .Route32, .Route32, .Route32
+	fishgroup 50 percent + 1, .UnionCave, .UnionCave, .UnionCave
+	fishgroup 50 percent + 1, .SlowpokeWell, .SlowpokeWell, .SlowpokeWell
+	fishgroup 50 percent + 1, .IlexForest, .IlexForest, .IlexForest
+	fishgroup 50 percent + 1, .Route34, .Route34, .Route34
+	fishgroup 50 percent + 1, .Route35, .Route35, .Route35
+	fishgroup 50 percent + 1, .Route42, .Route42, .Route42
+	fishgroup 50 percent + 1, .OlivineCity, .OlivineCity, .OlivineCity
+	fishgroup 50 percent + 1, .Saltmarsh, .Saltmarsh, .Saltmarsh
+	fishgroup 50 percent + 1, .Route40, .Route40, .Route40
+	fishgroup 50 percent + 1, .Route41, .Route41, .Route41
+	fishgroup 50 percent + 1, .Cianwood, .Cianwood, .Cianwood
+	fishgroup 50 percent + 1, .Route43, .Route43, .Route43
+	fishgroup 50 percent + 1, .LakeOfRage, .LakeOfRage, .LakeOfRage
+	fishgroup 50 percent + 1, .Route44, .Route44, .Route44
+	fishgroup 50 percent + 1, .Ecruteak, .Ecruteak, .Ecruteak
+	fishgroup 50 percent + 1, .Blackthorn, .Blackthorn, .Blackthorn
+	fishgroup 50 percent + 1, .Route27, .Route27, .Route27
+	fishgroup 50 percent + 1, .Route26, .Route26, .Route26
+	fishgroup 50 percent + 1, .CianwoodCave, .CianwoodCave, .CianwoodCave
+	fishgroup 50 percent + 1, .Route28, .Route28, .Route28
+	fishgroup 50 percent + 1, .SilverCave, .SilverCave, .SilverCave
+	fishgroup 50 percent + 1, .Route22, .Route22, .Route22
+	fishgroup 50 percent + 1, .Route6, .Route6, .Route6
+	fishgroup 50 percent + 1, .Vermilion, .Vermilion, .Vermilion
+	fishgroup 50 percent + 1, .Route17, .Route17, .Route17
+	fishgroup 50 percent + 1, .Route19, .Route19, .Route19
+	fishgroup 50 percent + 1, .Route20, .Route20, .Route20
+	fishgroup 50 percent + 1, .Route21, .Route21, .Route21
+	fishgroup 50 percent + 1, .Route9, .Route9, .Route9
+	fishgroup 50 percent + 1, .Route10, .Route10, .Route10
+	fishgroup 50 percent + 1, .CeruleanCity, .CeruleanCity, .CeruleanCity
+	fishgroup 50 percent + 1, .CinnabarCity, .CinnabarCity, .CinnabarCity
+	fishgroup 50 percent + 1, .WhirlIslands, .WhirlIslands, .WhirlIslands
+	fishgroup 50 percent + 1, .Seafoam, .Seafoam, .Seafoam
+	fishgroup 50 percent + 1, .Mewtwo, .Mewtwo, .Mewtwo
+	fishgroup 50 percent + 1, .DragonsDen, .DragonsDen, .DragonsDen
+
 	assert_table_length NUM_FISHGROUPS
 
 .Shore_Old:
@@ -207,6 +255,227 @@ FishGroups:
 	dbbw  90 percent + 1, 40, MAGIKARP
 	dbbw 100 percent,     40, REMORAID
 
+;------------------------------------------------------------------------------
+;   These are the tables actually used 
+;------------------------------------------------------------------------------
+
+.NewBark:
+	dbbw  60 percent,	5, TENTACOOL
+	dbbw  80 percent,   5, REMORAID
+	dbbw 100 percent,	5, HORSEA
+
+.Cherrygrove:
+	dbbw  60 percent,	5, TENTACOOL
+	dbbw  80 percent,	5, REMORAID
+	dbbw 100 percent,	5, SKRELP
+
+.Route30:
+	dbbw  70 percent,	5, GOLDEEN
+	dbbw 100 percent,	5, POLIWAG
+	
+.Route31:
+	dbbw  70 percent,	5, GOLDEEN
+	dbbw 100 percent,	5, POLIWAG
+
+.DarkCave:
+	dbbw  60 percent,	5, POLIWAG
+	dbbw  80 percent,   5, KABUTO
+	dbbw 100 percent,   5, OMANYTE
+
+.VioletCity:
+	dbbw  60 percent,  7, GOLDEEN
+	dbbw  80 percent,  7, POLIWAG
+	dbbw 100 percent,  7, DEWPIDER
+
+.RuinsOfAlph:
+	dbbw  60 percent, 10, KRABBY
+	dbbw  80 percent, 10, KABUTO
+	dbbw 100 percent, 10, OMANYTE
+
+.Route32:
+	dbbw  60 percent, 10, KRABBY
+	dbbw  80 percent, 10, QWILFISH
+	dbbw 100 percent, 10, REMORAID
+
+.UnionCave:
+	dbbw  60 percent, 12, KRABBY
+	dbbw  80 percent, 12, KABUTO
+	dbbw 100 percent, 12, OMANYTE
+	
+.SlowpokeWell:
+	dbbw  50 percent, 15, SLOWPOKE
+	dbbw 100 percent, 15, SLOWPOKE_G
+
+.IlexForest:
+	dbbw  60 percent, 15, DEWPIDER
+	dbbw  80 percent, 15, POLIWAG
+	dbbw 100 percent, 15, GOLDEEN
+
+.Route34:
+	dbbw  60 percent, 15, CHINCHOU
+	dbbw  80 percent, 15, QWILFISH
+	dbbw 100 percent, 15, TENTACOOL
+	
+.Route35:
+	dbbw  60 percent, 15, MARILL
+	dbbw  80 percent, 15, DEWPIDER
+	dbbw 100 percent, 15, GOLDEEN
+
+.Route42:
+	dbbw  60 percent, 20, MARILL
+	dbbw  80 percent, 20, BASCULIN
+	dbbw 100 percent, 20, FEEBAS
+	
+.OlivineCity:
+	dbbw  60 percent, 25, CHINCHOU
+	dbbw  80 percent, 25, CORSOLA
+	dbbw 100 percent, 25, CORSOLA_G
+	
+.Saltmarsh
+	dbbw  60 percent, 25, KRABBY
+	dbbw  80 percent, 25, STARYU
+	dbbw 100 percent, 25, FEEBAS
+	
+.Route40:
+	dbbw  60 percent, 25, CHINCHOU
+	dbbw  80 percent, 25, STARYU
+	dbbw 100 percent, 25, HORSEA
+	
+.Route41:
+	dbbw  60 percent, 25, CHINCHOU
+	dbbw  80 percent, 25, STARYU
+	dbbw 100 percent, 25, HORSEA
+
+.Cianwood:
+	dbbw  60 percent, 25, QWILFISH
+	dbbw  80 percent, 25, CORSOLA
+	dbbw 100 percent, 25, CORSOLA_G
+
+.Route43:
+	dbbw  60 percent, 25, BASCULIN
+	dbbw  80 percent, 25, FEEBAS
+	dbbw 100 percent, 25, MARILL
+
+.LakeOfRage:
+	dbbw  60 percent, 30, MAGIKARP
+	dbbw  80 percent, 30, MAGIKARP
+	dbbw 100 percent, 30, GYARADOS
+
+.Route44: 
+	dbbw  60 percent, 30, BASCULIN
+	dbbw  80 percent, 30, POLIWHIRL
+	dbbw 100 percent, 30, FEEBAS
+
+.Ecruteak:
+	dbbw  60 percent, 20, BASCULIN
+	dbbw  80 percent, 20, KABUTO
+	dbbw 100 percent, 20, OMANYTE
+	
+.Blackthorn:
+	dbbw  60 percent, 30, BASCULIN 
+	dbbw  80 percent, 30, POLIWHIRL
+	dbbw 100 percent,  5, SQUIRTLE
+
+.Route27:
+	dbbw  60 percent,	5, TENTACOOL
+	dbbw  80 percent,   5, REMORAID
+	dbbw 100 percent,	5, HORSEA
+
+.Route26:
+	dbbw  60 percent, 30, TENTACOOL
+	dbbw  80 percent, 30, QWILFISH
+	dbbw 100 percent, 30, SHELLDER
+
+.CianwoodCave:
+	dbbw  60 percent, 20, CHINCHOU
+	dbbw  80 percent, 20, OMANYTE
+	dbbw 100 percent, 20, KABUTO
+
+.Route28:
+	dbbw  60 percent, 75, FERALIGATR
+	dbbw  80 percent, 75, POLITOED
+	dbbw 100 percent, 75, GOLDUCK
+
+.SilverCave:
+	dbbw  60 percent, 75, FERALIGATR
+	dbbw  80 percent, 75, GYARADOS
+	dbbw 100 percent, 75, MILOTIC
+
+.Route22:
+	dbbw  60 percent, 20, PSYDUCK
+	dbbw  80 percent, 20, SQUIRTLE
+	dbbw 100 percent, 20, GOLDUCK
+
+.Route6:
+	dbbw  60 percent, 20, TENTACOOL
+	dbbw  80 percent, 20, SHELLDER
+	dbbw 100 percent, 20, QWILFISH_H
+
+.Vermilion:
+	dbbw  60 percent, 20, TENTACOOL
+	dbbw  80 percent, 20, SHELLDER
+	dbbw 100 percent, 20, QWILFISH_H
+
+.Route17:
+	dbbw  60 percent, 35, OCTILLERY
+	dbbw  80 percent, 35, OVERQWIL
+	dbbw 100 percent, 35, SEAKING
+
+.Route19:
+	dbbw  60 percent, 20, SHELLDER
+	dbbw  80 percent, 20, SEEL
+	dbbw 100 percent, 20, QWILFISH_H
+
+.Route20:
+	dbbw  60 percent, 20, SHELLDER
+	dbbw  80 percent, 20, SEEL
+	dbbw 100 percent, 20, QWILFISH_H
+
+.Route21:
+	dbbw  60 percent, 20, SHELLDER
+	dbbw  80 percent, 20, SEEL
+	dbbw 100 percent, 20, QWILFISH_H
+
+.Route9:
+	dbbw  60 percent, 20, GOLDEEN
+	dbbw  80 percent, 20, CHINCHOU
+	dbbw 100 percent, 20, KRABBY
+	
+.Route10:
+	dbbw  60 percent, 20, GOLDEEN
+	dbbw  80 percent, 20, CHINCHOU
+	dbbw 100 percent, 20, KRABBY
+
+.CeruleanCity:
+	dbbw  60 percent, 20, PSYDUCK
+	dbbw  80 percent, 20, STARYU
+	dbbw 100 percent, 20, SEEL
+
+.CinnabarCity
+	dbbw  60 percent, 40, OCTILLERY
+	dbbw  80 percent, 40, OVERQWIL
+	dbbw 100 percent, 40, DRAGALGE
+
+.WhirlIslands
+	dbbw  60 percent, 40, FEEBAS
+	dbbw  80 percent, 40, KABUTOPS
+	dbbw 100 percent, 40, OMASTAR
+
+.Seafoam:
+	dbbw  60 percent, 40, DEWGONG
+	dbbw  80 percent, 40, STARMIE
+	dbbw 100 percent, 40, CLOYSTER
+
+.Mewtwo:
+	dbbw  60 percent, 80, VAPOREON
+	dbbw  80 percent, 80, BLASTOISE
+	dbbw 100 percent, 80, FERALIGATR
+
+.DragonsDen:
+	dbbw  60 percent, 15, SKRELP
+	dbbw  80 percent, 15, DRATINI
+	dbbw 100 percent, 15, HORSEA
+
 TimeFishGroups:
 	;     day             nite
 	dbwbw 20, CORSOLA,    20, STARYU     ; 0
@@ -231,3 +500,4 @@ TimeFishGroups:
 	dbwbw 40, HORSEA,     40, HORSEA     ; 19
 	dbwbw 20, TENTACOOL,  20, TENTACOOL  ; 20
 	dbwbw 40, TENTACOOL,  40, TENTACOOL  ; 21
+
