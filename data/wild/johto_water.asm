@@ -46,9 +46,9 @@ JohtoWaterWildMons:
 
 	def_water_wildmons ILEX_FOREST
 	db 2 percent ; encounter rate
-	dbw 15, PSYDUCK
-	dbw 10, PSYDUCK
-	dbw 15, GOLDUCK
+	dbw 15, DEWPIDER
+	dbw 15, POLIWAG
+	dbw 15, GOLDEEN
 	end_water_wildmons
 
 	def_water_wildmons MOUNT_MORTAR_1F_OUTSIDE
@@ -130,16 +130,16 @@ JohtoWaterWildMons:
 
 	def_water_wildmons ROUTE_30
 	db 2 percent ; encounter rate
-	dbw 20, POLIWAG
-	dbw 15, POLIWAG
-	dbw 20, POLIWHIRL
+	dbw 10, POLIWAG
+	dbw 10, GOLDEEN
+	dbw 10, GOLDEEN
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_31
 	db 2 percent ; encounter rate
-	dbw 20, POLIWAG
-	dbw 15, POLIWAG
-	dbw 20, POLIWHIRL
+	dbw 10, GOLDEEN
+	dbw 10, POLIWAG
+	dbw 10, POLIWAG
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_32
@@ -151,9 +151,9 @@ JohtoWaterWildMons:
 
 	def_water_wildmons ROUTE_34
 	db 6 percent ; encounter rate
+	dbw 20, CHINCHOU
+	dbw 20, QWILFISH
 	dbw 20, TENTACOOL
-	dbw 15, TENTACOOL
-	dbw 20, TENTACRUEL
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_35
@@ -221,9 +221,9 @@ JohtoWaterWildMons:
 
 	def_water_wildmons VIOLET_CITY
 	db 2 percent ; encounter rate
-	dbw 20, POLIWAG
+	dbw 15, DEWPIDER
 	dbw 15, POLIWAG
-	dbw 20, POLIWHIRL
+	dbw 15, GOLDEEN
 	end_water_wildmons
 
 	def_water_wildmons CIANWOOD_CITY

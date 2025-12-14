@@ -270,11 +270,11 @@ FishGroups:
 	dbbw 100 percent,	5, SKRELP
 
 .Route30:
-	dbbw  70 percent,	5, GOLDEEN
+	dbbw  80 percent,	5, GOLDEEN
 	dbbw 100 percent,	5, POLIWAG
 	
 .Route31:
-	dbbw  70 percent,	5, GOLDEEN
+	dbbw  80 percent,	5, GOLDEEN
 	dbbw 100 percent,	5, POLIWAG
 
 .DarkCave:
