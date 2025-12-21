@@ -65,7 +65,6 @@ ROMX $09
 ROMX $0a
 	"bankA"
 	"Trainer Backpics"
-	"Map Attributes"
 ROMX $0b
 	"bankB"
 ROMX $0c
@@ -123,6 +122,7 @@ ROMX $21
 	"bank21"
 ROMX $22
 	"Crystal Features 2"
+	"Map Attributes"
 ROMX $23
 	"bank23"
 ROMX $24

@@ -158,9 +158,9 @@ JohtoWaterWildMons:
 
 	def_water_wildmons ROUTE_35
 	db 4 percent ; encounter rate
-	dbw 20, PSYDUCK
-	dbw 15, PSYDUCK
-	dbw 20, GOLDUCK
+	dbw 15, MARILL
+	dbw 15, DEWPIDER
+	dbw 15, YANMA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_40
@@ -179,9 +179,9 @@ JohtoWaterWildMons:
 
 	def_water_wildmons ROUTE_42
 	db 4 percent ; encounter rate
-	dbw 20, GOLDEEN
-	dbw 15, GOLDEEN
-	dbw 20, SEAKING
+	dbw 20, AZUMARILL
+	dbw 20, BASCULIN
+	dbw 20, FEEBAS
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_43
@@ -235,16 +235,16 @@ JohtoWaterWildMons:
 
 	def_water_wildmons OLIVINE_CITY
 	db 6 percent ; encounter rate
-	dbw 20, TENTACOOL
-	dbw 15, TENTACOOL
-	dbw 20, TENTACRUEL
+	dbw 25, TENTACOOL
+	dbw 25, REMORAID
+	dbw 25, CHINCHOU
 	end_water_wildmons
 
 	def_water_wildmons ECRUTEAK_CITY
 	db 2 percent ; encounter rate
-	dbw 20, POLIWAG
-	dbw 15, POLIWAG
+	dbw 20, BASCULIN
 	dbw 20, POLIWHIRL
+	dbw 20, FEEBAS
 	end_water_wildmons
 
 	def_water_wildmons LAKE_OF_RAGE
@@ -266,6 +266,34 @@ JohtoWaterWildMons:
 	dbw 35, POLIWHIRL
 	dbw 40, POLIWHIRL
 	dbw 35, POLIWAG
+	end_water_wildmons
+
+	def_water_wildmons SALTMARSH_AREA_1
+	db 2 percent ; encounter rate
+	dbw 22, PSYDUCK
+	dbw 22, WOOPER
+	dbw 22, FEEBAS
+	end_water_wildmons
+
+	def_water_wildmons SALTMARSH_AREA_2
+	db 2 percent ; encounter rate
+	dbw 22, PSYDUCK
+	dbw 22, WOOPER
+	dbw 22, FEEBAS
+	end_water_wildmons
+
+	def_water_wildmons SALTMARSH_AREA_3
+	db 2 percent ; encounter rate
+	dbw 22, PSYDUCK
+	dbw 22, WOOPER
+	dbw 22, FEEBAS
+	end_water_wildmons
+
+	def_water_wildmons SALTMARSH_AREA_4
+	db 2 percent ; encounter rate
+	dbw 22, PSYDUCK
+	dbw 22, WOOPER
+	dbw 22, FEEBAS
 	end_water_wildmons
 
 	db -1 ; end
