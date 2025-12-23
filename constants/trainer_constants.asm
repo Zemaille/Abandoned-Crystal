@@ -326,6 +326,7 @@ DEF KRIS EQU __trainer_class__
 	const COLETTE
 	const HILLARY
 	const SHIRLEY
+	const RACHEL
 
 	trainerclass SABRINA ; 23
 	const SABRINA1

@@ -37,52 +37,10 @@ Route29TuscanyCallback:
 	endcallback
 
 Route29Tutorial1:
-	turnobject ROUTE29_COOLTRAINER_M1, UP
-	showemote EMOTE_SHOCK, ROUTE29_COOLTRAINER_M1, 15
-	applymovement ROUTE29_COOLTRAINER_M1, DudeMovementData1a
-	turnobject PLAYER, LEFT
-	setevent EVENT_DUDE_TALKED_TO_YOU
-	opentext
-	writetext CatchingTutorialIntroText
-	yesorno
-	iffalse Script_RefusedTutorial1
-	closetext
-	follow ROUTE29_COOLTRAINER_M1, PLAYER
-	applymovement ROUTE29_COOLTRAINER_M1, DudeMovementData1b
-	stopfollow
-	loadwildmon RATTATA, 5
-	catchtutorial BATTLETYPE_TUTORIAL
-	turnobject ROUTE29_COOLTRAINER_M1, UP
-	opentext
-	writetext CatchingTutorialDebriefText
-	waitbutton
-	closetext
-	setscene SCENE_ROUTE29_NOOP
 	setevent EVENT_LEARNED_TO_CATCH_POKEMON
 	end
 
 Route29Tutorial2:
-	turnobject ROUTE29_COOLTRAINER_M1, UP
-	showemote EMOTE_SHOCK, ROUTE29_COOLTRAINER_M1, 15
-	applymovement ROUTE29_COOLTRAINER_M1, DudeMovementData2a
-	turnobject PLAYER, LEFT
-	setevent EVENT_DUDE_TALKED_TO_YOU
-	opentext
-	writetext CatchingTutorialIntroText
-	yesorno
-	iffalse Script_RefusedTutorial2
-	closetext
-	follow ROUTE29_COOLTRAINER_M1, PLAYER
-	applymovement ROUTE29_COOLTRAINER_M1, DudeMovementData2b
-	stopfollow
-	loadwildmon RATTATA, 5
-	catchtutorial BATTLETYPE_TUTORIAL
-	turnobject ROUTE29_COOLTRAINER_M1, UP
-	opentext
-	writetext CatchingTutorialDebriefText
-	waitbutton
-	closetext
-	setscene SCENE_ROUTE29_NOOP
 	setevent EVENT_LEARNED_TO_CATCH_POKEMON
 	end
 
@@ -102,39 +60,32 @@ Script_RefusedTutorial2:
 	setscene SCENE_ROUTE29_NOOP
 	end
 
-CatchingTutorialDudeScript:
-	faceplayer
-	opentext
-	readvar VAR_BOXSPACE
-	ifequal 0, .BoxFull
-	checkevent EVENT_LEARNED_TO_CATCH_POKEMON
-	iftrue .BoxFull
-	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
-	iffalse .BoxFull
-	writetext CatchingTutorialRepeatText
-	yesorno
-	iffalse .Declined
-	closetext
-	loadwildmon RATTATA, 5
-	catchtutorial BATTLETYPE_TUTORIAL
-	opentext
-	writetext CatchingTutorialDebriefText
-	waitbutton
-	closetext
-	setevent EVENT_LEARNED_TO_CATCH_POKEMON
-	end
+CatchingTutorialDudeScript:  ;Teacher Rachel
+	trainer TEACHER, RACHEL, EVENT_BEAT_TEACHER_RACHEL, TeacherRachelSeenText, TeacherRachelBeatenText, 0, .Script
 
-.BoxFull:
-	writetext CatchingTutorialBoxFullText
+.Script:
+	endifjustbattled
+	opentext
+	writetext TeacherRachelAfterText
 	waitbutton
 	closetext
 	end
 
-.Declined:
-	writetext CatchingTutorialDeclinedText
-	waitbutton
-	closetext
-	end
+TeacherRachelSeenText:
+	text "Are you ready for"
+	line "your lesson?"
+	done
+	
+TeacherRachelBeatenText:
+	text "The lesson is"
+	line "you still need"
+	cont "to attack!"
+	done
+
+TeacherRachelAfterText:
+	text "No, the whip is"
+	line "NOT for you."
+	done
 
 Route29YoungsterScript:
 	jumptextfaceplayer Route29YoungsterText
@@ -420,7 +371,7 @@ Route29_MapEvents:
 	bg_event  3,  5, BGEVENT_READ, Route29Sign2
 
 	def_object_events
-	object_event 50, 12, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CatchingTutorialDudeScript, -1
+	object_event 53,  7, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 3, CatchingTutorialDudeScript, -1
 	object_event 27, 16, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route29YoungsterScript, -1
 	object_event 15, 11, SPRITE_TEACHER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route29TeacherScript, -1
 	object_event 12,  2, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route29FruitTree, -1

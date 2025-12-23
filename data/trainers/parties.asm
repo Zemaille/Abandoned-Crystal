@@ -2276,6 +2276,14 @@ TeacherGroup:
 	dw JIGGLYPUFF
 	db -1 ; end
 
+	next_list_item ; Teacher (4)
+	db "Lisa@", TRAINERTYPE_MOVES
+	db 5
+	dw PIKACHU
+	dw TAIL_WHIP, NO_MOVE, NO_MOVE, NO_MOVE
+	db -1 ; end
+
+
 	end_list_items
 
 SabrinaGroup:
