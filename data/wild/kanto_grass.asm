@@ -117,13 +117,13 @@ KantoGrassWildMons:
 	def_grass_wildmons VICTORY_ROAD
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 34, GRAVELER
-	dbw 32, RHYHORN
-	dbw 33, ONIX
-	dbw 34, GOLBAT
-	dbw 35, SANDSLASH
-	dbw 35, RHYDON
-	dbw 35, RHYDON
+	dbw 50, GOLEM
+	dbw 50, RHYDON
+	dbw 50, MUK
+	dbw 50, NOIVERN
+	dbw 50, PUPITAR
+	dbw 50, STEELIX
+	dbw 50, STEELIX
 	; day
 	dbw 34, GRAVELER
 	dbw 32, RHYHORN
@@ -145,29 +145,29 @@ KantoGrassWildMons:
 	def_grass_wildmons TOHJO_FALLS
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 22, ZUBAT
-	dbw 22, RATICATE
-	dbw 24, GOLBAT
-	dbw 21, SLOWPOKE
-	dbw 20, RATTATA
-	dbw 23, SLOWPOKE
-	dbw 23, SLOWPOKE
+	dbw 25, GOLBAT
+	dbw 25, SEEL
+	dbw 25, QUAGSIRE
+	dbw 25, CUBONE
+	dbw 25, CLODSIRE
+	dbw 25, SHUCKLE
+	dbw 25, WOBBUFFET
 	; day
-	dbw 22, ZUBAT
-	dbw 22, RATICATE
-	dbw 24, GOLBAT
-	dbw 21, SLOWPOKE
-	dbw 20, RATTATA
-	dbw 23, SLOWPOKE
-	dbw 23, SLOWPOKE
+	dbw 25, GOLBAT
+	dbw 25, SEEL
+	dbw 25, QUAGSIRE
+	dbw 25, CUBONE
+	dbw 25, CLODSIRE
+	dbw 25, SHUCKLE
+	dbw 25, WOBBUFFET
 	; nite
-	dbw 22, ZUBAT
-	dbw 22, RATICATE
-	dbw 24, GOLBAT
-	dbw 21, SLOWPOKE
-	dbw 20, RATTATA
-	dbw 23, SLOWPOKE
-	dbw 23, SLOWPOKE
+	dbw 25, GOLBAT
+	dbw 25, SEEL
+	dbw 25, QUAGSIRE
+	dbw 25, CUBONE
+	dbw 25, CLODSIRE
+	dbw 25, SHUCKLE
+	dbw 25, WOBBUFFET
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_1
@@ -761,57 +761,57 @@ KantoGrassWildMons:
 	def_grass_wildmons ROUTE_26
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 28, DODUO
-	dbw 28, SANDSLASH
-	dbw 32, PONYTA
-	dbw 30, RATICATE
-	dbw 30, DODUO
-	dbw 30, ARBOK
-	dbw 30, ARBOK
+	dbw 45, ARBOK
+	dbw 45, DODRIO
+	dbw 45, POLIWRATH
+	dbw 45, PINSIR
+	dbw 45, POLITOED
+	dbw 45, KANGASKHAN
+	dbw 45, KANGASKHAN
 	; day
-	dbw 28, DODUO
-	dbw 28, SANDSLASH
-	dbw 32, PONYTA
-	dbw 30, RATICATE
-	dbw 30, DODUO
-	dbw 30, ARBOK
-	dbw 30, ARBOK
+	dbw 45, ARBOK
+	dbw 45, DODRIO
+	dbw 45, POLIWRATH
+	dbw 45, PINSIR
+	dbw 45, POLITOED
+	dbw 45, KANGASKHAN
+	dbw 45, KANGASKHAN
 	; nite
-	dbw 28, NOCTOWL
-	dbw 28, RATICATE
-	dbw 32, NOCTOWL
-	dbw 30, RATICATE
-	dbw 30, QUAGSIRE
-	dbw 30, QUAGSIRE
-	dbw 30, QUAGSIRE
+	dbw 45, ARBOK
+	dbw 45, DODRIO
+	dbw 45, POLIWRATH
+	dbw 45, PINSIR
+	dbw 45, POLITOED
+	dbw 45, KANGASKHAN
+	dbw 45, KANGASKHAN
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_27
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 28, DODUO
-	dbw 28, ARBOK
-	dbw 30, RATICATE
-	dbw 30, DODUO
-	dbw 32, PONYTA
-	dbw 30, DODRIO
-	dbw 30, DODRIO
+	dbw 40, MAGNETON
+	dbw 40, SCYTHER
+	dbw 40, SCEPTILE
+	dbw 40, PUPITAR
+	dbw 40, DRAKLOAK
+	dbw 40, AERODACTYL
+	dbw 40, WOBBUFFET
 	; day
-	dbw 28, DODUO
-	dbw 28, ARBOK
-	dbw 30, RATICATE
-	dbw 30, DODUO
-	dbw 32, PONYTA
-	dbw 30, DODRIO
-	dbw 30, DODRIO
+	dbw 40, MAGNETON
+	dbw 40, SCYTHER
+	dbw 40, SCEPTILE
+	dbw 40, PUPITAR
+	dbw 40, DRAKLOAK
+	dbw 40, AERODACTYL
+	dbw 40, WOBBUFFET
 	; nite
-	dbw 28, QUAGSIRE
-	dbw 28, NOCTOWL
-	dbw 30, RATICATE
-	dbw 30, QUAGSIRE
-	dbw 32, NOCTOWL
-	dbw 32, NOCTOWL
-	dbw 32, NOCTOWL
+	dbw 40, MAGNETON
+	dbw 40, SCYTHER
+	dbw 40, SCEPTILE
+	dbw 40, PUPITAR
+	dbw 40, DRAKLOAK
+	dbw 40, AERODACTYL
+	dbw 40, WOBBUFFET
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_28

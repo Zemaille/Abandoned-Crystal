@@ -15,7 +15,7 @@ IcePathDepthsArticunoGScript:
 	cry ARTICUNO
 	pause 15
 	closetext
-	loadwildmon ARTICUNO, 70
+	loadwildmon ARTICUNO, 50
 	startbattle
 	disappear ICEPATHDEPTHS_ARTICUNOG
 	reloadmapafterbattle

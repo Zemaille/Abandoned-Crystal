@@ -9,6 +9,10 @@ TreeMons:
 	dw TreeMonSet_Lake
 	dw TreeMonSet_Forest
 	dw TreeMonSet_Rock
+	dw TreeMonSet_SouthJohto
+	dw TreeMonSet_NorthJohto
+	dw TreeMonSet_IlexForest
+	dw TreeMonSet_WestKanto
 	assert_table_length NUM_TREEMON_SETS
 	dw TreeMonSet_City ; unused
 
@@ -129,3 +133,37 @@ TreeMonSet_Rock:
 	dbbw 90, 15, KRABBY
 	dbbw 10, 15, SHUCKLE
 	db -1
+
+;--------------------------------------------------------------
+
+TreeMonSet_SouthJohto:
+	dbbw 30, 15, PINECO
+	dbbw 30, 15, EXEGGCUTE
+	dbbw 20, 15, VENONAT
+	dbbw 10, 15, SNEASEL_H
+	dbbw  5, 15, HERACROSS
+	dbbw  5, 15, AIPOM
+
+TreeMonSet_NorthJohto:
+	dbbw 30, 15, PINECO
+	dbbw 30, 15, TREECKO
+	dbbw 20, 15, VENONAT
+	dbbw 10, 15, SNEASEL
+	dbbw  5, 15, HERACROSS
+	dbbw  5, 15, AIPOM
+
+TreeMonSet_IlexForest:
+	dbbw 30, 15, PINECO
+	dbbw 30, 15, PHANTUMP
+	dbbw 20, 15, SNEASEL_H
+	dbbw 10, 15, HERACROSS
+	dbbw  5, 15, MURKROW
+	dbbw  5, 15, PIKACHU
+	
+TreeMonSet_WestKanto:
+	dbbw 30, 40, EXEGGCUTE
+	dbbw 30, 40, PINSIR
+	dbbw 20, 40, NOCTOWL
+	dbbw 10, 40, ARIADOS
+	dbbw  5, 40, TREVENANT
+	dbbw  5, 40, FORRETRESS

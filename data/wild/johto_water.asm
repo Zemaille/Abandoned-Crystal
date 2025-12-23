@@ -53,44 +53,44 @@ JohtoWaterWildMons:
 
 	def_water_wildmons MOUNT_MORTAR_1F_OUTSIDE
 	db 4 percent ; encounter rate
-	dbw 15, GOLDEEN
-	dbw 20, MARILL
-	dbw 20, SEAKING
+	dbw 30, GRIMER
+	dbw 30, GOLDUCK
+	dbw 30, NOIBAT
 	end_water_wildmons
 
 	def_water_wildmons MOUNT_MORTAR_2F_INSIDE
 	db 2 percent ; encounter rate
-	dbw 20, GOLDEEN
-	dbw 25, MARILL
-	dbw 25, SEAKING
+	dbw 30, GRIMER
+	dbw 30, GOLDUCK
+	dbw 30, NOIBAT
 	end_water_wildmons
 
 	def_water_wildmons MOUNT_MORTAR_B1F
 	db 2 percent ; encounter rate
-	dbw 15, GOLDEEN
-	dbw 20, MARILL
-	dbw 20, SEAKING
+	dbw 30, GRIMER
+	dbw 30, GOLDUCK
+	dbw 30, NOIBAT
 	end_water_wildmons
 
 	def_water_wildmons WHIRL_ISLAND_SW
 	db 4 percent ; encounter rate
-	dbw 20, TENTACOOL
-	dbw 15, HORSEA
-	dbw 20, TENTACRUEL
+	dbw 40, SEADRA
+	dbw 40, LANTURN
+	dbw 40, FEEBAS
 	end_water_wildmons
 
 	def_water_wildmons WHIRL_ISLAND_B2F
 	db 4 percent ; encounter rate
-	dbw 15, HORSEA
-	dbw 20, HORSEA
-	dbw 20, TENTACRUEL
+	dbw 40, SEADRA
+	dbw 40, LANTURN
+	dbw 40, FEEBAS
 	end_water_wildmons
 
 	def_water_wildmons WHIRL_ISLAND_LUGIA_CHAMBER
 	db 4 percent ; encounter rate
-	dbw 20, HORSEA
-	dbw 20, TENTACRUEL
-	dbw 20, SEADRA
+	dbw 40, SEADRA
+	dbw 40, LANTURN
+	dbw 40, FEEBAS
 	end_water_wildmons
 
 	def_water_wildmons SILVER_CAVE_ROOM_2
@@ -116,9 +116,16 @@ JohtoWaterWildMons:
 
 	def_water_wildmons DRAGONS_DEN_B1F
 	db 4 percent ; encounter rate
-	dbw 15, MAGIKARP
-	dbw 10, MAGIKARP
-	dbw 10, DRATINI
+	dbw 15, HORSEA
+	dbw 15, NOIBAT
+	dbw 15, DRATINI
+	end_water_wildmons
+
+	def_water_wildmons DRAGONS_DEN_B2F
+	db 4 percent ; encounter rate
+	dbw 40, DRAGONAIR
+	dbw 40, NOIVERN
+	dbw 40, DRAKLOAK
 	end_water_wildmons
 
 	def_water_wildmons OLIVINE_PORT
@@ -165,16 +172,16 @@ JohtoWaterWildMons:
 
 	def_water_wildmons ROUTE_40
 	db 6 percent ; encounter rate
-	dbw 20, TENTACOOL
-	dbw 15, TENTACOOL
-	dbw 20, TENTACRUEL
+	dbw 23, TENTACOOL
+	dbw 23, REMORAID
+	dbw 23, MANTINE
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_41
 	db 6 percent ; encounter rate
-	dbw 20, TENTACOOL
-	dbw 20, TENTACRUEL
-	dbw 20, MANTINE
+	dbw 24, TENTACOOL
+	dbw 24, REMORAID
+	dbw 24, MANTINE
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_42
@@ -186,16 +193,16 @@ JohtoWaterWildMons:
 
 	def_water_wildmons ROUTE_43
 	db 2 percent ; encounter rate
-	dbw 20, MAGIKARP
-	dbw 15, MAGIKARP
-	dbw 10, MAGIKARP
+	dbw 30, ARAQUANID
+	dbw 30, POLIWHIRL
+	dbw 30, BASCULIN
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_44
 	db 2 percent ; encounter rate
-	dbw 25, POLIWAG
-	dbw 20, POLIWAG
-	dbw 25, POLIWHIRL
+	dbw 30, BASCULIN
+	dbw 30, POLIWHIRL
+	dbw 30, FEEBAS
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_45
@@ -228,9 +235,9 @@ JohtoWaterWildMons:
 
 	def_water_wildmons CIANWOOD_CITY
 	db 6 percent ; encounter rate
-	dbw 20, TENTACOOL
-	dbw 15, TENTACOOL
-	dbw 20, TENTACRUEL
+	dbw 24, TENTACOOL
+	dbw 24, CHINCHOU
+	dbw 24, QWILFISH
 	end_water_wildmons
 
 	def_water_wildmons OLIVINE_CITY
@@ -256,9 +263,9 @@ JohtoWaterWildMons:
 
 	def_water_wildmons BLACKTHORN_CITY
 	db 4 percent ; encounter rate
-	dbw 15, MAGIKARP
-	dbw 10, MAGIKARP
-	dbw 5, MAGIKARP
+	dbw 30, BASCULIN
+	dbw 30, POLIWHIRL
+	dbw 10, SQUIRTLE
 	end_water_wildmons
 
 	def_water_wildmons SILVER_CAVE_OUTSIDE
@@ -294,6 +301,27 @@ JohtoWaterWildMons:
 	dbw 22, PSYDUCK
 	dbw 22, WOOPER
 	dbw 22, FEEBAS
+	end_water_wildmons
+
+	def_water_wildmons CIANWOOD_CAVE_1F
+	db 2 percent ; encounter rate
+	dbw 25, CHINCHOU
+	dbw 25, KABUTO
+	dbw 25, OMANYTE
+	end_water_wildmons
+	
+	def_water_wildmons CIANWOOD_CAVE_2F
+	db 2 percent ; encounter rate
+	dbw 25, CHINCHOU
+	dbw 25, KABUTO
+	dbw 25, OMANYTE
+	end_water_wildmons	
+
+	def_water_wildmons CIANWOOD_CAVE_3F
+	db 2 percent ; encounter rate
+	dbw 25, CHINCHOU
+	dbw 25, KABUTO
+	dbw 25, OMANYTE
 	end_water_wildmons
 
 	db -1 ; end

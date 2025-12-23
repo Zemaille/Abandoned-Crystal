@@ -69,7 +69,9 @@ FishGroups:
 	fishgroup 50 percent + 1, .Seafoam, .Seafoam, .Seafoam
 	fishgroup 50 percent + 1, .Mewtwo, .Mewtwo, .Mewtwo
 	fishgroup 50 percent + 1, .DragonsDen, .DragonsDen, .DragonsDen
-
+	fishgroup 50 percent + 1, .MountMortar, .MountMortar, .MountMortar
+	fishgroup 50 percent + 1, .DragonsDen2, .DragonsDen2, .DragonsDen2
+	fishgroup 50 percent + 1, .TohjoFalls, .TohjoFalls, .TohjoFalls
 	assert_table_length NUM_FISHGROUPS
 
 .Shore_Old:
@@ -337,12 +339,12 @@ FishGroups:
 	dbbw 100 percent, 25, FEEBAS
 	
 .Route40:
-	dbbw  60 percent, 25, CHINCHOU
+	dbbw  60 percent, 25, SKRELP
 	dbbw  80 percent, 25, STARYU
 	dbbw 100 percent, 25, HORSEA
 	
 .Route41:
-	dbbw  60 percent, 25, CHINCHOU
+	dbbw  60 percent, 25, SKRELP
 	dbbw  80 percent, 25, STARYU
 	dbbw 100 percent, 25, HORSEA
 
@@ -354,7 +356,7 @@ FishGroups:
 .Route43:
 	dbbw  60 percent, 25, BASCULIN
 	dbbw  80 percent, 25, FEEBAS
-	dbbw 100 percent, 25, MARILL
+	dbbw 100 percent, 25, POLIWHIRL
 
 .LakeOfRage:
 	dbbw  60 percent, 30, MAGIKARP
@@ -382,9 +384,9 @@ FishGroups:
 	dbbw 100 percent,	5, HORSEA
 
 .Route26:
-	dbbw  60 percent, 30, TENTACOOL
-	dbbw  80 percent, 30, QWILFISH
-	dbbw 100 percent, 30, SHELLDER
+	dbbw  60 percent, 40, DEWGONG
+	dbbw  80 percent, 20, SHELLDER
+	dbbw 100 percent, 20, QWILFISH_H
 
 .CianwoodCave:
 	dbbw  60 percent, 20, CHINCHOU
@@ -472,9 +474,24 @@ FishGroups:
 	dbbw 100 percent, 80, FERALIGATR
 
 .DragonsDen:
-	dbbw  60 percent, 15, SKRELP
-	dbbw  80 percent, 15, DRATINI
-	dbbw 100 percent, 15, HORSEA
+	dbbw  60 percent, 15, HORSEA
+	dbbw  80 percent, 15, SKRELP
+	dbbw 100 percent, 15, DRATINI
+
+.DragonsDen2:
+	dbbw  60 percent, 40, DRAGONAIR
+	dbbw  80 percent, 40, DITTO
+	dbbw 100 percent, 40, KINGDRA
+
+.MountMortar:
+	dbbw  60 percent, 30, GOLDUCK
+	dbbw  80 percent, 30, GRIMER
+	dbbw 100 percent, 30, BASCULIN
+
+.TohjoFalls:
+	dbbw  60 percent, 25, SHELLDER
+	dbbw  80 percent, 25, QWILFISH
+	dbbw 100 percent, 25, QWILFISH_H
 
 TimeFishGroups:
 	;     day             nite
