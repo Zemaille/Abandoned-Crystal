@@ -1304,29 +1304,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons DARK_CAVE_BLACKTHORN_ENTRANCE
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 23, GEODUDE
-	dbw 23, ZUBAT
-	dbw 25, GRAVELER
-	dbw 25, URSARING
-	dbw 20, TEDDIURSA
-	dbw 23, GOLBAT
-	dbw 23, GOLBAT
+	dbw 20, HITMONCHAN
+	dbw 20, HITMONLEE
+	dbw 20, HITMONTOP
+	dbw 20, DUNSPARCE
+	dbw 20, GEODUDE
+	dbw 20, ZUBAT
+	dbw 20, ZUBAT
 	; day
-	dbw 23, GEODUDE
-	dbw 23, ZUBAT
-	dbw 25, GRAVELER
-	dbw 25, URSARING
-	dbw 30, URSARING
-	dbw 23, GOLBAT
-	dbw 23, GOLBAT
+	dbw 20, HITMONCHAN
+	dbw 20, HITMONLEE
+	dbw 20, HITMONTOP
+	dbw 20, DUNSPARCE
+	dbw 20, GEODUDE
+	dbw 20, ZUBAT
+	dbw 20, ZUBAT
 	; nite
-	dbw 23, GEODUDE
-	dbw 23, ZUBAT
-	dbw 25, GRAVELER
-	dbw 20, WOBBUFFET
-	dbw 25, WOBBUFFET
-	dbw 23, GOLBAT
-	dbw 23, GOLBAT
+	dbw 20, HITMONCHAN
+	dbw 20, HITMONLEE
+	dbw 20, HITMONTOP
+	dbw 20, DUNSPARCE
+	dbw 20, GEODUDE
+	dbw 20, ZUBAT
+	dbw 20, ZUBAT
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_29
@@ -1999,6 +1999,34 @@ JohtoGrassWildMons:
 	dbw 25, ONIX
 	dbw 25, RHYHORN
 	dbw 25, RHYHORN
+	end_grass_wildmons
+
+	def_grass_wildmons CHERRYGROVE_CITY
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	dbw 20, LEDYBA
+	dbw 20, PINSIR
+	dbw 20, SNEASEL_H
+	dbw 20, MANKEY
+	dbw 20, SPINARAK
+	dbw 20, GROVYLE
+	dbw 20, GROVYLE
+	; day
+	dbw 20, LEDYBA
+	dbw 20, PINSIR
+	dbw 20, SNEASEL_H
+	dbw 20, MANKEY
+	dbw 20, SPINARAK
+	dbw 20, GROVYLE
+	dbw 20, GROVYLE
+	; nite
+	dbw 20, SPINARAK
+	dbw 20, PINSIR
+	dbw 20, SNEASEL_H
+	dbw 20, MANKEY
+	dbw 20, LEDYBA
+	dbw 20, GROVYLE
+	dbw 20, GROVYLE
 	end_grass_wildmons
 
 	db -1 ; end

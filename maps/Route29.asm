@@ -77,13 +77,13 @@ TeacherRachelSeenText:
 	done
 	
 TeacherRachelBeatenText:
-	text "The lesson is"
-	line "you still need"
-	cont "to attack!"
+	text "The lesson is you"
+	line "still need to"
+	cont "attack to win!"
 	done
 
 TeacherRachelAfterText:
-	text "No, the whip is"
+	text "No, the crop is"
 	line "NOT for you."
 	done
 

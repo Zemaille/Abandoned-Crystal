@@ -13,7 +13,7 @@ DarkCaveMoltresChamberMoltresGScript:
 	cry MOLTRES
 	pause 15
 	closetext
-	loadwildmon MOLTRES, 70
+	loadwildmon MOLTRES, 50
 	startbattle
 	disappear DARKCAVEMOLTRESCHAMBER_MOLTRES_G
 	reloadmapafterbattle

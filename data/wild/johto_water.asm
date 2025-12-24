@@ -102,16 +102,16 @@ JohtoWaterWildMons:
 
 	def_water_wildmons DARK_CAVE_VIOLET_ENTRANCE
 	db 2 percent ; encounter rate
-	dbw 15, MAGIKARP
-	dbw 10, MAGIKARP
-	dbw 5, MAGIKARP
+	dbw 20, POLIWAG
+	dbw 20, KABUTO
+	dbw 20, OMANYTE
 	end_water_wildmons
 
 	def_water_wildmons DARK_CAVE_BLACKTHORN_ENTRANCE
 	db 2 percent ; encounter rate
-	dbw 15, MAGIKARP
-	dbw 10, MAGIKARP
-	dbw 5, MAGIKARP
+	dbw 20, POLIWAG
+	dbw 20, KABUTO
+	dbw 20, OMANYTE
 	end_water_wildmons
 
 	def_water_wildmons DRAGONS_DEN_B1F
@@ -222,8 +222,8 @@ JohtoWaterWildMons:
 	def_water_wildmons CHERRYGROVE_CITY
 	db 6 percent ; encounter rate
 	dbw 20, TENTACOOL
-	dbw 15, TENTACOOL
-	dbw 20, TENTACRUEL
+	dbw 20, REMORAID
+	dbw 20, SKRELP
 	end_water_wildmons
 
 	def_water_wildmons VIOLET_CITY
