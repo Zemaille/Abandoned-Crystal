@@ -26,7 +26,6 @@ JasmineSpriteGFX::             INCBIN "gfx/sprites/jasmine.2bpp"
 PryceSpriteGFX::               INCBIN "gfx/sprites/pryce.2bpp"
 ClairSpriteGFX::               INCBIN "gfx/sprites/clair.2bpp"
 BrockSpriteGFX::               INCBIN "gfx/sprites/brock.2bpp"
-KarenSpriteGFX::               INCBIN "gfx/sprites/karen.2bpp"
 BrunoSpriteGFX::               INCBIN "gfx/sprites/bruno.2bpp"
 MistySpriteGFX::               INCBIN "gfx/sprites/misty.2bpp"
 LanceSpriteGFX::               INCBIN "gfx/sprites/lance.2bpp"
@@ -106,3 +105,8 @@ SuicuneSpriteGFX::             INCBIN "gfx/sprites/suicune.2bpp"
 EnteiSpriteGFX::               INCBIN "gfx/sprites/entei.2bpp"
 RaikouSpriteGFX::              INCBIN "gfx/sprites/raikou.2bpp"
 StandingYoungsterSpriteGFX::   INCBIN "gfx/sprites/standing_youngster.2bpp"
+
+
+SECTION "Sprites 3", ROMX
+
+KarenSpriteGFX::               INCBIN "gfx/sprites/karen.2bpp"
