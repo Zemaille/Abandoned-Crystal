@@ -117,7 +117,6 @@ ROMX $1f
 	"Map Scripts 10"
 ROMX $20
 	"bank20"
-	"Enemy Trainer Parties 2"
 ROMX $21
 	"bank21"
 ROMX $22
@@ -129,6 +128,7 @@ ROMX $24
 	"bank24"
 ROMX $25
 	"Map Headers"
+	"Enemy Trainer Parties 2"
 ROMX $26
 	"Map Scripts 11"
 ROMX $27
