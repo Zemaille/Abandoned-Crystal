@@ -4,11 +4,107 @@
 	const VIOLETPOKECENTER1F_GENTLEMAN
 	const VIOLETPOKECENTER1F_YOUNGSTER
 	const VIOLETPOKECENTER1F_ELMS_AIDE
+	const VIOLETPOKECENTER1F_KAREN
 
 VioletPokecenter1F_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
+
+VioletPokecenter1F_KarenScript:
+	faceplayer
+	opentext
+	writetext KarenFirstMeetingText
+	promptbutton
+	verbosegiveitem CANDY_BAG
+	writetext KarenKeepALookoutText
+	waitbutton
+	closetext
+	readvar VAR_FACING
+	ifequal UP, .KarenWalksAroundPlayer
+	turnobject PLAYER, DOWN
+	applymovement VIOLETPOKECENTER1F_KAREN, MovementData_KarenWalksStraightOutOfPokecenter
+	playsound SFX_EXIT_BUILDING
+	disappear VIOLETPOKECENTER1F_KAREN
+	waitsfx
+	end
+	
+.KarenWalksAroundPlayer:	
+	applymovement VIOLETPOKECENTER1F_KAREN, MovementData_KarenWalksRightToExitPokecenter
+	turnobject PLAYER, DOWN
+	applymovement VIOLETPOKECENTER1F_KAREN, MovementData_KarenFinishesLeavingPokecenter
+	playsound SFX_EXIT_BUILDING
+	disappear VIOLETPOKECENTER1F_KAREN
+	waitsfx
+	end
+
+MovementData_KarenWalksStraightOutOfPokecenter:
+	step DOWN
+	step DOWN
+	step DOWN
+	step_end
+
+MovementData_KarenWalksRightToExitPokecenter:
+	step RIGHT
+	step DOWN
+	step_end
+
+MovementData_KarenFinishesLeavingPokecenter:
+	step DOWN
+	step DOWN
+	step DOWN
+	step_end
+
+KarenFirstMeetingText:
+;	text "1234567890ABCDEFGH"
+	text "Oh, pardon me!"
+	
+	para "I'm Karen, Johto's"
+	line "Champion."
+
+	para "Have you seen a"
+	line "red-headed Team"
+	cont "Rocket Grunt?"
+	
+	para "Not wearing the"
+	line "uniform, I see…"
+	
+	para "Are you going to"
+	line "challenge the"
+	cont "Pokémon League?"
+	
+	para "This will come in"
+	line "handy!"
+	done
+
+KarenKeepALookoutText:
+;	text "1234567890ABCDEFGH"
+	text "The Candy Bag is"
+	line "filled with Rare"
+	cont "Candies."
+	
+	para "You can use it to"
+	line "take your Pokémon"
+	cont "to the level cap."
+	
+	para "Strong Pokémon."
+
+	para "Weak Pokémon."
+
+	para "That is only the"
+	line "selfish perception"
+	cont "of people."
+
+	para "Truly skilled"
+	line "trainers should"
+
+	para "try to win with"
+	line "their favorites."
+
+	para "Keep an eye out"
+	line "for any Team"
+	cont "Rocket members."
+	done
 
 VioletPokecenterNurse:
 	jumpstd PokecenterNurseScript
@@ -98,7 +194,6 @@ MovementData_AideWalksLeftToExitPokecenter:
 	step_end
 
 MovementData_AideFinishesLeavingPokecenter:
-	step DOWN
 	step DOWN
 	step DOWN
 	step_end
@@ -208,3 +303,4 @@ VioletPokecenter1F_MapEvents:
 	object_event  1,  4, SPRITE_GENTLEMAN, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VioletPokecenter1FGentlemanScript, -1
 	object_event  8,  1, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, VioletPokecenter1FYoungsterScript, -1
 	object_event  4,  3, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, VioletPokecenter1F_ElmsAideScript, EVENT_ELMS_AIDE_IN_VIOLET_POKEMON_CENTER
+	object_event  3,  3, SPRITE_KAREN, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, VioletPokecenter1F_KarenScript, EVENT_VIOLET_KAREN

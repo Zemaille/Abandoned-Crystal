@@ -108,20 +108,6 @@ KarenScript_KarenBeatenText:
 	done
 
 KarenScript_KarenDefeatText:
-	text "Strong Pokémon."
-
-	para "Weak Pokémon."
-
-	para "That is only the"
-	line "selfish perception"
-	cont "of people."
-
-	para "Truly skilled"
-	line "trainers should"
-
-	para "try to win with"
-	line "their favorites."
-
 	para "I like your style."
 	line "You understand"
 	cont "what's important."

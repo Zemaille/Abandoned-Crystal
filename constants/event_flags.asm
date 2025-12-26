@@ -1582,4 +1582,7 @@
 ; pChal Pocket pChal
 	const EVENT_GOT_POCKET_PC
 
+; Karen 
+	const EVENT_VIOLET_KAREN
+
 DEF NUM_EVENTS EQU const_value ; 800
