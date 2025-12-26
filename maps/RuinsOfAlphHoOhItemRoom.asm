@@ -13,7 +13,7 @@ RuinsOfAlphHoOhItemRoomGoldBerry:
 	itemball GOLD_BERRY
 
 RuinsOfAlphHoOhItemRoomMysteryberry:
-	itemball MYSTERYBERRY
+	itemball LEPPA_BERRY
 
 RuinsOfAlphHoOhItemRoomRevivalHerb:
 	itemball REVIVAL_HERB

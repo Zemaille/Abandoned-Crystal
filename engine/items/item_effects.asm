@@ -156,7 +156,7 @@ ItemEffects1:
 	dw NoEffect            ; ITEM_93
 	dw NoEffect            ; ITEM_94
 	dw NoEffect            ; ITEM_95
-	dw RestorePPEffect     ; MYSTERYBERRY
+	dw RestorePPEffect     ; LEPPA_BERRY
 	dw EvoStoneEffect      ; DRAGON_SCALE
 	dw NoEffect            ; BERSERK_GENE
 	dw NoEffect            ; ITEM_99
@@ -250,6 +250,7 @@ ItemEffectsBerries:
 	dw StatusHealingEffect	; Pecha Berry
 	dw StatusHealingEffect	; Rawst Berry
 	dw StatusHealingEffect	; Aspear Berry
+	dw RestorePPEffect		; Leppa Berry
 .IndirectEnd:
 
 PokeBallEffect:
@@ -2693,7 +2694,7 @@ RestorePP:
 	ld a, [wTempRestorePPItem]
 	push hl
 	call GetItemIndexFromID
-	cphl16 MYSTERYBERRY
+	cphl16 LEPPA_BERRY
 	pop hl
 	jr z, .restore_some
 

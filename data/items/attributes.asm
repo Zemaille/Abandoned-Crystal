@@ -456,6 +456,8 @@ ItemBerryAttributes:
 	item_attribute 10, HELD_HEAL_BURN, 0, CANT_SELECT, ITEM, ITEMMENU_PARTY, ITEMMENU_PARTY
 ; Aspear Berry
 	item_attribute 10, HELD_HEAL_FREEZE, 0, CANT_SELECT, ITEM, ITEMMENU_PARTY, ITEMMENU_PARTY
+; Leppa Berry
+	item_attribute 10, HELD_RESTORE_PP, -1, CANT_SELECT, ITEM, ITEMMENU_PARTY, ITEMMENU_PARTY
 .IndirectEnd::
 
 ItemTMAttributes:

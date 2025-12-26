@@ -230,6 +230,7 @@ ItemDescriptionsBerries:
 	dw PechaBerryDesc
 	dw RawstBerryDesc
 	dw AspearBerryDesc
+	dw LeppaBerryDesc
 .IndirectEnd:
 
 TestBerryDesc:
@@ -770,6 +771,7 @@ LeftoversDesc:
 	db   "Restores HP during"
 	next "battle. (HOLD)@"
 
+LeppaBerryDesc:
 MysteryBerryDesc:
 	db   "A self-restore"
 	next "for PP. (HOLD)@"

@@ -73,7 +73,7 @@ if DEF(_DEBUG)
 	giveitem ORAN_BERRY, 10
 	giveitem GOLD_BERRY, 10
 	giveitem CHESTO_BERRY, 10
-	giveitem MYSTERYBERRY, 10
+	giveitem LEPPA_BERRY, 10
 	giveitem QUICK_CLAW
 	giveitem KINGS_ROCK
 	giveitem AMULET_COIN
