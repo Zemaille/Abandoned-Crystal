@@ -88,7 +88,7 @@ ItemEffects1:
 	dw RestorePPEffect     ; ELIXER
 	dw RestoreHPEffect     ; MOOMOO_MILK
 	dw NoEffect            ; QUICK_CLAW
-	dw StatusHealingEffect ; PSNCUREBERRY
+	dw StatusHealingEffect ; PECHA_BERRY
 	dw NoEffect            ; GOLD_LEAF
 	dw NoEffect            ; SOFT_SAND
 	dw NoEffect            ; SHARP_BEAK
@@ -243,8 +243,9 @@ ItemEffectsBalls:
 
 
 ItemEffectsBerries:
-	dw NoEffect		 	; Test Berry
-	dw RestoreHPEffect	; Oran Berry
+	dw NoEffect		 		; Test Berry
+	dw RestoreHPEffect		; Oran Berry
+	dw StatusHealingEffect	; Pecha Berry
 .IndirectEnd:
 
 PokeBallEffect:

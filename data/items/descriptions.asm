@@ -225,6 +225,7 @@ ItemDescriptionsBalls:
 ItemDescriptionsBerries:
 	dw TestBerryDesc
 	dw OranBerryDesc
+	dw PechaBerryDesc
 .IndirectEnd:
 
 TestBerryDesc:
@@ -506,6 +507,7 @@ QuickClawDesc:
 	db   "Raises 1st strike"
 	next "ratio. (HOLD)@"
 
+PechaBerryDesc:
 PsnCureBerryDesc:
 	db   "A self-cure for"
 	next "poison. (HOLD)@"

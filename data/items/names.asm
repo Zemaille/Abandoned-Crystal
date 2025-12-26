@@ -216,4 +216,5 @@ BerryNames::
 	list_start BerryNames
 	li "Test Berry" ; 0300
 	li "Oran Berry"
+	li "Pecha Berry"
 	assert_list_length NUM_BERRY_ITEM_POCKET

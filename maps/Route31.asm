@@ -128,7 +128,7 @@ TrainerBugCatcherWade1:
 	iffalse .PackFull
 	sjump .Done
 .Psncureberry:
-	verbosegiveitem PSNCUREBERRY
+	verbosegiveitem PECHA_BERRY
 	iffalse .PackFull
 	sjump .Done
 .Przcureberry:

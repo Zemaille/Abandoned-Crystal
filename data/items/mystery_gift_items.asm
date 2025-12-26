@@ -4,7 +4,7 @@ MysteryGiftItems:
 	dw MINT_BERRY
 	dw ICE_BERRY
 	dw BURNT_BERRY
-	dw PSNCUREBERRY
+	dw PECHA_BERRY
 	dw GUARD_SPEC
 	dw X_DEFEND
 	dw X_ATTACK
