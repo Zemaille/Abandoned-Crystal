@@ -12,7 +12,7 @@ SECTION "Enemy Trainer Parties 1", ROMX
 FalknerGroup:
 	next_list_item ; FALKNER (1)
 	db "Falkner@", TRAINERTYPE_ITEM_MOVES
-	db 14
+	db 12
 	dw SWABLU
 	dw BERRY
 	dw AERIAL_ACE, DISARM_VOICE, MIST, GROWL
@@ -20,7 +20,7 @@ FalknerGroup:
 	dw NATU
 	dw BERRY
 	dw AERIAL_ACE, CONFUSION, LEER, TELEPORT
-	db 14
+	db 13
 	dw GLIGAR
 	dw BERRY
 	dw AERIAL_ACE, QUICK_ATTACK, POISON_STING, MUD_SLAP
