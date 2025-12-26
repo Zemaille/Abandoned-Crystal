@@ -31,6 +31,7 @@ GoldenrodGymWhitneyScript:
 	loadtrainer WHITNEY, WHITNEY1
 	startbattle
 	reloadmapafterbattle
+	loadmem wLevelCap, 30
 	setevent EVENT_BEAT_WHITNEY
 	setevent EVENT_MADE_WHITNEY_CRY
 	setscene SCENE_GOLDENRODGYM_WHITNEY_STOPS_CRYING

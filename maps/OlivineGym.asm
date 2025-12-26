@@ -34,6 +34,7 @@ OlivineGymJasmineScript:
 	promptbutton
 	verbosegiveitem TM_IRON_TAIL
 	iffalse .NoRoomForIronTail
+	loadmem wLevelCap, 44
 	setevent EVENT_GOT_TM23_IRON_TAIL
 	writetext Jasmine_IronTailSpeech
 	waitbutton

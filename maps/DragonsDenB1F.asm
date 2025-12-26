@@ -62,6 +62,7 @@ DragonsDenB1F_ClairScene:
 	waitsfx
 	itemnotify
 	setevent EVENT_GOT_TM24_DRAGONBREATH
+	loadmem wLevelCap, 60
 	writetext ClairText_DescribeDragonbreathDragonDen
 	promptbutton
 	writetext ClairText_WhatsTheMatterDragonDen
