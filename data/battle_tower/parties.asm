@@ -420,7 +420,7 @@ BattleTowerMons:
 	db "HERAKUROSU@"
 
 	dw UNOWN
-	dw ORAN_BERRY
+	dw BERRY
 	dw HIDDEN_POWER, 0, 0, 0
 
 	dw 0 ; OT ID
@@ -929,7 +929,7 @@ BattleTowerMons:
 	db "PUKURIN@@@@"
 
 	dw NIDOKING
-	dw ORAN_BERRY
+	dw BERRY
 	dw BLIZZARD, EARTHQUAKE, SURF, THUNDERPUNCH
 
 	dw 0 ; OT ID

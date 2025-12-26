@@ -14,15 +14,15 @@ FalknerGroup:
 	db "Falkner@", TRAINERTYPE_ITEM_MOVES
 	db 12
 	dw SWABLU
-	dw ORAN_BERRY
+	dw BERRY
 	dw AERIAL_ACE, DISARM_VOICE, MIST, GROWL
 	db 14
 	dw NATU
-	dw ORAN_BERRY
+	dw BERRY
 	dw AERIAL_ACE, CONFUSION, LEER, TELEPORT
 	db 13
 	dw GLIGAR
-	dw ORAN_BERRY
+	dw BERRY
 	dw AERIAL_ACE, QUICK_ATTACK, POISON_STING, MUD_SLAP
 	db -1 ; end
 
@@ -4860,131 +4860,131 @@ PokefanMGroup:
 	db "WILLIAM@", TRAINERTYPE_ITEM
 	db 14
 	dw RAICHU
-	dw ORAN_BERRY
+	dw BERRY
 	db -1 ; end
 
 	next_list_item ; POKEFANM (2)
 	db "DEREK@", TRAINERTYPE_ITEM
 	db 17
 	dw PIKACHU
-	dw ORAN_BERRY
+	dw BERRY
 	db -1 ; end
 
 	next_list_item ; POKEFANM (3)
 	db "ROBERT@", TRAINERTYPE_ITEM
 	db 33
 	dw QUAGSIRE
-	dw ORAN_BERRY
+	dw BERRY
 	db -1 ; end
 
 	next_list_item ; POKEFANM (4)
 	db "JOSHUA@", TRAINERTYPE_ITEM
 	db 23
 	dw PIKACHU
-	dw ORAN_BERRY
+	dw BERRY
 	db 23
 	dw PIKACHU
-	dw ORAN_BERRY
+	dw BERRY
 	db 23
 	dw PIKACHU
-	dw ORAN_BERRY
+	dw BERRY
 	db 23
 	dw PIKACHU
-	dw ORAN_BERRY
+	dw BERRY
 	db 23
 	dw PIKACHU
-	dw ORAN_BERRY
+	dw BERRY
 	db 23
 	dw PIKACHU
-	dw ORAN_BERRY
+	dw BERRY
 	db -1 ; end
 
 	next_list_item ; POKEFANM (5)
 	db "CARTER@", TRAINERTYPE_ITEM
 	db 29
 	dw BULBASAUR
-	dw ORAN_BERRY
+	dw BERRY
 	db 29
 	dw CHARMANDER
-	dw ORAN_BERRY
+	dw BERRY
 	db 29
 	dw SQUIRTLE
-	dw ORAN_BERRY
+	dw BERRY
 	db -1 ; end
 
 	next_list_item ; POKEFANM (6)
 	db "TREVOR@", TRAINERTYPE_ITEM
 	db 33
 	dw PSYDUCK
-	dw ORAN_BERRY
+	dw BERRY
 	db -1 ; end
 
 	next_list_item ; POKEFANM (7)
 	db "BRANDON@", TRAINERTYPE_ITEM
 	db 13
 	dw SNUBBULL
-	dw ORAN_BERRY
+	dw BERRY
 	db -1 ; end
 
 	next_list_item ; POKEFANM (8)
 	db "JEREMY@", TRAINERTYPE_ITEM
 	db 28
 	dw MEOWTH
-	dw ORAN_BERRY
+	dw BERRY
 	db 28
 	dw MEOWTH
-	dw ORAN_BERRY
+	dw BERRY
 	db 28
 	dw MEOWTH
-	dw ORAN_BERRY
+	dw BERRY
 	db -1 ; end
 
 	next_list_item ; POKEFANM (9)
 	db "COLIN@", TRAINERTYPE_ITEM
 	db 32
 	dw DELIBIRD
-	dw ORAN_BERRY
+	dw BERRY
 	db -1 ; end
 
 	next_list_item ; POKEFANM (10)
 	db "DEREK@", TRAINERTYPE_ITEM
 	db 19
 	dw PIKACHU
-	dw ORAN_BERRY
+	dw BERRY
 	db -1 ; end
 
 	next_list_item ; POKEFANM (11)
 	db "DEREK@", TRAINERTYPE_ITEM
 	db 36
 	dw PIKACHU
-	dw ORAN_BERRY
+	dw BERRY
 	db -1 ; end
 
 	next_list_item ; POKEFANM (12)
 	db "ALEX@", TRAINERTYPE_ITEM
 	db 29
 	dw NIDOKING
-	dw ORAN_BERRY
+	dw BERRY
 	db 29
 	dw SLOWKING
-	dw ORAN_BERRY
+	dw BERRY
 	db 29
 	dw SEAKING
-	dw ORAN_BERRY
+	dw BERRY
 	db -1 ; end
 
 	next_list_item ; POKEFANM (13)
 	db "REX@", TRAINERTYPE_ITEM
 	db 35
 	dw PHANPY
-	dw ORAN_BERRY
+	dw BERRY
 	db -1 ; end
 
 	next_list_item ; POKEFANM (14)
 	db "ALLAN@", TRAINERTYPE_ITEM
 	db 35
 	dw TEDDIURSA
-	dw ORAN_BERRY
+	dw BERRY
 	db -1 ; end
 
 	end_list_items
@@ -5128,54 +5128,54 @@ PokefanFGroup:
 	db "BEVERLY@", TRAINERTYPE_ITEM
 	db 14
 	dw SNUBBULL
-	dw ORAN_BERRY
+	dw BERRY
 	db -1 ; end
 
 	next_list_item ; POKEFANF (2)
 	db "RUTH@", TRAINERTYPE_ITEM
 	db 17
 	dw PIKACHU
-	dw ORAN_BERRY
+	dw BERRY
 	db -1 ; end
 
 	next_list_item ; POKEFANF (3)
 	db "BEVERLY@", TRAINERTYPE_ITEM
 	db 18
 	dw SNUBBULL
-	dw ORAN_BERRY
+	dw BERRY
 	db -1 ; end
 
 	next_list_item ; POKEFANF (4)
 	db "BEVERLY@", TRAINERTYPE_ITEM
 	db 30
 	dw GRANBULL
-	dw ORAN_BERRY
+	dw BERRY
 	db -1 ; end
 
 	next_list_item ; POKEFANF (5)
 	db "GEORGIA@", TRAINERTYPE_ITEM
 	db 23
 	dw SENTRET
-	dw ORAN_BERRY
+	dw BERRY
 	db 23
 	dw SENTRET
-	dw ORAN_BERRY
+	dw BERRY
 	db 23
 	dw SENTRET
-	dw ORAN_BERRY
+	dw BERRY
 	db 28
 	dw FURRET
-	dw ORAN_BERRY
+	dw BERRY
 	db 23
 	dw SENTRET
-	dw ORAN_BERRY
+	dw BERRY
 	db -1 ; end
 
 	next_list_item ; POKEFANF (6)
 	db "JAIME@", TRAINERTYPE_ITEM
 	db 16
 	dw MEOWTH
-	dw ORAN_BERRY
+	dw BERRY
 	db -1 ; end
 
 	end_list_items

@@ -9,7 +9,7 @@ SafariZoneArea3_MapScripts:
 	def_callbacks
 
 SafariZoneArea3BerryScript:
-	itemball ORAN_BERRY
+	itemball BERRY
 	
 SafariZoneArea3LumBerryScript:
 	itemball MIRACLEBERRY

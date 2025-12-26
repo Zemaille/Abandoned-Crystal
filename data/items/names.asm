@@ -141,7 +141,7 @@ ItemNames::
 	li "Silk Scarf"   ; 008B
 	li "TERU-SAMA"    ; 008C
 	li "Up-Grade"     ; 008D
-;	li "Oran Berry"   ; 008E
+	li "Oran Berry"   ; 008E
 	li "Sitrus Berry" ; 008F
 	li "TERU-SAMA"    ; 0091
 	li "TERU-SAMA"    ; 0090
@@ -214,6 +214,5 @@ BallNames::
 	
 BerryNames::
 	list_start BerryNames
-	li "TEST ORAN_BERRY" ; 0300
-	li "Oran Berry" 
+	li "TEST BERRY" ; 0300
 	assert_list_length NUM_BERRY_ITEM_POCKET

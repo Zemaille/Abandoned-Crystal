@@ -1,5 +1,5 @@
 MysteryGiftItems:
-	dw ORAN_BERRY
+	dw BERRY
 	dw PRZCUREBERRY
 	dw MINT_BERRY
 	dw ICE_BERRY

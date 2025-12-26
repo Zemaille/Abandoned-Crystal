@@ -7,7 +7,7 @@
 	db BUG, ROCK ; type
 	db 190 ; catch rate
 	db 80 ; base exp
-	dw ORAN_BERRY, ORAN_BERRY ; items
+	dw BERRY, BERRY ; items
 	db GENDER_F50 ; gender ratio
 	db 1 ; step cycles to hatch
 	INCBIN "gfx/pokemon/shuckle/front.dimensions"
