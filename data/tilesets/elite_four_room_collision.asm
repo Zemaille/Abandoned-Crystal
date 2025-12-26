@@ -106,3 +106,4 @@
 	tilecoll HOP_DOWN, HOP_DOWN, WALL, WALL ; 69
 	tilecoll HOP_DOWN_RIGHT, WALL, WALL, WALL ; 6a
 	tilecoll LADDER, WALL, WALL, WALL ; 6b
+	tilecoll WALL, WALL, FLOOR, FLOOR ; 6c

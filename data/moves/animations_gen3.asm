@@ -1592,55 +1592,43 @@ BattleAnim_RockBlast:
 	anim_ret
 
 BattleAnim_PowerGem:
-	anim_1gfx BATTLE_ANIM_GFX_SHINE
-	anim_bgp $1b
+	anim_2gfx BATTLE_ANIM_GFX_WEATHER_BALL, BATTLE_ANIM_GFX_HIT
 	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
+	anim_sound 0, 0, SFX_ATTRACT
+	anim_obj BATTLE_ANIM_OBJ_WEATHER_BALL_RISE, 48, 88, $32
+	anim_wait 64
+	anim_clearobjs
+	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_BROWN
+	anim_3gfx BATTLE_ANIM_GFX_WEATHER_BALL, BATTLE_ANIM_GFX_HIT, BATTLE_ANIM_GFX_ROCKS
+	anim_call BattleAnimSub_WeatherBall
+	anim_sound 6, 2, SFX_SPARK
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 136, 56, $28
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 136, 56, $5c
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 136, 56, $10
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 136, 56, $e8
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 136, 56, $9c
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 136, 56, $d0
+	anim_wait 6
+	anim_sound 6, 2, SFX_SPARK
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 136, 56, $1c
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 136, 56, $50
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 136, 56, $dc
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 136, 56, $90
+	anim_wait 16
+	anim_ret
+
+BattleAnimSub_WeatherBall:
+	anim_if_param_equal $0, .no_change
+	anim_bgeffect BATTLE_BG_EFFECT_FLASH_WHITE, $0, $4, $2
+	anim_sound 0, 0, SFX_SWEET_KISS
+.no_change
+	anim_obj BATTLE_ANIM_OBJ_WEATHER_BALL_FALL, 112, 188, $0e
+	anim_wait 16
 	anim_sound 0, 0, SFX_METRONOME
-	anim_obj BATTLE_ANIM_OBJ_POWER_GEM, 70, 108, $0
-	anim_wait 1
-	anim_obj BATTLE_ANIM_OBJ_POWER_GEM, 46, 88, $0
-	anim_wait 1
-	anim_obj BATTLE_ANIM_OBJ_POWER_GEM, 64, 92, $0
-	anim_wait 1
-	anim_obj BATTLE_ANIM_OBJ_POWER_GEM, 24, 90, $0
-	anim_wait 1
-	anim_obj BATTLE_ANIM_OBJ_POWER_GEM, 36, 72, $0
-	anim_wait 1
-	anim_obj BATTLE_ANIM_OBJ_POWER_GEM, 44, 112, $0
-	anim_wait 1
-	anim_obj BATTLE_ANIM_OBJ_POWER_GEM, 30, 106, $0
-	anim_wait 1
-	anim_obj BATTLE_ANIM_OBJ_POWER_GEM, 56, 104, $0
-	anim_wait 1
-	anim_obj BATTLE_ANIM_OBJ_POWER_GEM, 54, 68, $0
-	anim_wait 1
-	anim_obj BATTLE_ANIM_OBJ_POWER_GEM, 76, 78, $0
-	anim_wait 80
-	anim_sound 0, 1, SFX_SHINE
-	anim_incobj  5
-	anim_wait 2
-	anim_incobj  1
-	anim_wait 2
-	anim_sound 0, 1, SFX_SHINE
-	anim_incobj  3
-	anim_wait 2
-	anim_incobj  10
-	anim_wait 2
-	anim_sound 0, 1, SFX_SHINE
-	anim_incobj  8
-	anim_wait 2
-	anim_incobj  2
-	anim_wait 2
-	anim_sound 0, 1, SFX_SHINE
-	anim_incobj  4
-	anim_wait 2
-	anim_incobj  6
-	anim_wait 2
-	anim_sound 0, 1, SFX_SHINE
-	anim_incobj  7
-	anim_wait 2
-	anim_incobj  9
-	anim_wait 32
+	anim_wait 64
+	anim_sound 0, 1, SFX_HEADBUTT
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 136, 48, $0
+	anim_wait 16
 	anim_ret
 
 BattleAnim_StoneAxe:
