@@ -152,7 +152,7 @@ ItemDescriptions1:
 	dw PolkadotBowDesc  ; 008B
 	dw QuestionMarkDesc ; 008C
 	dw UpGradeDesc      ; 008D
-	dw BerryDesc        ; 008E
+;	dw BerryDesc        ; 008E
 	dw GoldBerryDesc    ; 008F
 	dw QuestionMarkDesc ; 0090
 	dw QuestionMarkDesc ; 0091
@@ -224,11 +224,16 @@ ItemDescriptionsBalls:
 
 ItemDescriptionsBerries:
 	dw TestBerryDesc
+	dw OranBerryDesc
 .IndirectEnd:
 
 TestBerryDesc:
 	db "This is a test"
 	next "berry.@"
+
+OranBerryDesc:
+	db   "A self-restore"
+	next "item. (10HP, HOLD)@"
 
 MasterBallDesc:
 	db   "The best BALL. It"
@@ -831,9 +836,9 @@ UpGradeDesc:
 	db   "A mysterious box"
 	next "made by SILPH CO.@"
 
-BerryDesc:
-	db   "A self-restore"
-	next "item. (10HP, HOLD)@"
+;BerryDesc:
+;	db   "A self-restore"
+;	next "item. (10HP, HOLD)@"
 
 GoldBerryDesc:
 	db   "A self-restore"

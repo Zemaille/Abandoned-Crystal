@@ -53,7 +53,7 @@ MartViolet:
 	db 10 ; # items
 	dw POKE_BALL
 	dw POTION
-	dw BERRY
+	dw ORAN_BERRY
 	dw PSNCUREBERRY
 	dw PRZCUREBERRY
 	dw MINT_BERRY

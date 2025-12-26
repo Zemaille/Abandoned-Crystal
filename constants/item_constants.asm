@@ -147,7 +147,7 @@
 	const POLKADOT_BOW ; 008B
 	const ITEM_AB      ; 008C
 	const UP_GRADE     ; 008D
-	const BERRY        ; 008E
+;	const ORAN_BERRY        ; 008E
 	const GOLD_BERRY   ; 008F
 	const ITEM_B0      ; 0090
 	const ITEM_B3      ; 0091
@@ -224,6 +224,7 @@ assert NUM_BALL_ITEM_POCKET <= $ff
 	const_align 8 ; Berry items assume the value of HIGH(FIRST_BERRY_ITEM) when storing in bag.
 DEF FIRST_BERRY_ITEM EQU const_value
 	const TEST_BERRY
+	const ORAN_BERRY
 DEF NUM_BERRY_ITEM_POCKET EQU const_value - FIRST_BERRY_ITEM
 assert NUM_BERRY_ITEM_POCKET <= $ff
 

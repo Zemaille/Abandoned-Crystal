@@ -8,7 +8,7 @@ HealingHPAmounts:
 	dw MAX_POTION,   MAX_STAT_VALUE
 	dw FULL_RESTORE, MAX_STAT_VALUE
 	dw MOOMOO_MILK,  100
-	dw BERRY,         10
+	dw ORAN_BERRY,         10
 	dw GOLD_BERRY,    30
 	dw ENERGYPOWDER,  50
 	dw ENERGY_ROOT,  200

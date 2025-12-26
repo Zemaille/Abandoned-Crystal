@@ -721,7 +721,7 @@ Route34SignText:
 Route34TrainerTipsText:
 	text "TRAINER TIPS"
 
-	para "BERRY trees grow"
+	para "ORAN_BERRY trees grow"
 	line "new BERRIES"
 	cont "every day."
 
