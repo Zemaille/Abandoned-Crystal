@@ -136,7 +136,7 @@ TrainerBugCatcherWade1:
 	iffalse .PackFull
 	sjump .Done
 .BitterBerry:
-	verbosegiveitem BITTER_BERRY
+	verbosegiveitem PERSIM_BERRY
 	iffalse .PackFull
 .Done:
 	clearflag ENGINE_WADE_HAS_ITEM

@@ -12,7 +12,7 @@ SafariZoneArea3BerryScript:
 	itemball ORAN_BERRY
 	
 SafariZoneArea3LumBerryScript:
-	itemball MIRACLEBERRY
+	itemball LUM_BERRY
 
 SafariZoneArea3MewScript:
 	faceplayer

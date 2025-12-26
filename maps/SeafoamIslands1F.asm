@@ -16,7 +16,7 @@ SeafoamIslands1FKingsRockScript:
 	itemball KINGS_ROCK
 	
 SeafoamIslands1FLumBerryScript:
-	itemball MIRACLEBERRY
+	itemball LUM_BERRY
 
 
 SeafoamIslands1F_MapEvents:

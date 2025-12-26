@@ -222,4 +222,6 @@ BerryNames::
 	li "Rawst Berry"
 	li "Aspear Berry"
 	li "Leppa Berry"
+	li "Persim Berry"
+	li "Lum Berry"
 	assert_list_length NUM_BERRY_ITEM_POCKET

@@ -97,7 +97,7 @@ ItemEffects1:
 	dw StatusHealingEffect ; ICE_BERRY
 	dw NoEffect            ; POISON_BARB
 	dw EvoStoneEffect      ; KINGS_ROCK
-	dw BitterBerryEffect   ; BITTER_BERRY
+	dw BitterBerryEffect   ; PERSIM_BERRY
 	dw StatusHealingEffect ; CHESTO_BERRY
 	dw NoEffect            ; RED_APRICORN
 	dw NoEffect            ; TINYMUSHROOM
@@ -123,7 +123,7 @@ ItemEffects1:
 	dw NoEffect            ; SMOKE_BALL
 	dw NoEffect            ; NEVERMELTICE
 	dw NoEffect            ; MAGNET
-	dw StatusHealingEffect ; MIRACLEBERRY
+	dw StatusHealingEffect ; LUM_BERRY
 	dw NoEffect            ; PEARL
 	dw NoEffect            ; BIG_PEARL
 	dw NoEffect            ; EVERSTONE
@@ -251,6 +251,8 @@ ItemEffectsBerries:
 	dw StatusHealingEffect	; Rawst Berry
 	dw StatusHealingEffect	; Aspear Berry
 	dw RestorePPEffect		; Leppa Berry
+	dw StatusHealingEffect	; Persim Berry
+	dw StatusHealingEffect	; Persim Berry
 .IndirectEnd:
 
 PokeBallEffect:

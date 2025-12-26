@@ -231,6 +231,8 @@ ItemDescriptionsBerries:
 	dw RawstBerryDesc
 	dw AspearBerryDesc
 	dw LeppaBerryDesc
+	dw PersimBerryDesc
+	dw LumBerryDesc
 .IndirectEnd:
 
 TestBerryDesc:
@@ -552,6 +554,7 @@ KingsRockDesc:
 	db   "May make the foe"
 	next "flinch. (HOLD)@"
 
+PersimBerryDesc:
 BitterBerryDesc:
 	db   "A self-cure for"
 	next "confusion. (HOLD)@"
@@ -644,6 +647,7 @@ MagnetDesc:
 	db   "Boosts electric-"
 	next "type moves. (HOLD)@"
 
+LumBerryDesc:
 MiracleBerryDesc:
 	db   "Cures all status"
 	next "problems. (HOLD)@"
