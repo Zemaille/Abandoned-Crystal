@@ -450,8 +450,10 @@ ItemBerryAttributes:
 	item_attribute 10, HELD_HEAL_PARALYZE, 0, CANT_SELECT, ITEM, ITEMMENU_PARTY, ITEMMENU_PARTY
 ; Chesto Berry
 	item_attribute 10, HELD_HEAL_SLEEP, 0, CANT_SELECT, ITEM, ITEMMENU_PARTY, ITEMMENU_PARTY
-; Pecha Bery
+; Pecha Berry
 	item_attribute 10, HELD_HEAL_POISON, 0, CANT_SELECT, ITEM, ITEMMENU_PARTY, ITEMMENU_PARTY
+; Rawst Berry
+	item_attribute 10, HELD_HEAL_BURN, 0, CANT_SELECT, ITEM, ITEMMENU_PARTY, ITEMMENU_PARTY
 .IndirectEnd::
 
 ItemTMAttributes:

@@ -219,4 +219,5 @@ BerryNames::
 	li "Cheri Berry"
 	li "Chesto Berry"
 	li "Pecha Berry"
+	li "Rawst Berry"
 	assert_list_length NUM_BERRY_ITEM_POCKET

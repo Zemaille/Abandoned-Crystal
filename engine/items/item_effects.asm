@@ -248,6 +248,7 @@ ItemEffectsBerries:
 	dw StatusHealingEffect	; Cheri Berry
 	dw StatusHealingEffect	; Chesto Berry
 	dw StatusHealingEffect	; Pecha Berry
+	dw StatusHealingEffect	; Rawst Berry
 .IndirectEnd:
 
 PokeBallEffect:

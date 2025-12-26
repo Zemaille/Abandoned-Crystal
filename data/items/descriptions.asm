@@ -228,6 +228,7 @@ ItemDescriptionsBerries:
 	dw CheriBerryDesc
 	dw ChestoBerryDesc
 	dw PechaBerryDesc
+	dw RawstBerryDesc
 .IndirectEnd:
 
 TestBerryDesc:
@@ -535,6 +536,7 @@ BurntBerryDesc:
 	db   "A self-cure for"
 	next "freezing. (HOLD)@"
 
+RawstBerryDesc:
 IceBerryDesc:
 	db   "A self-heal for a"
 	next "burn. (HOLD)@"
