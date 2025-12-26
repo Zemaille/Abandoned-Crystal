@@ -224,4 +224,5 @@ BerryNames::
 	li "Leppa Berry"
 	li "Persim Berry"
 	li "Lum Berry"
+	li "Sitrus Berry"
 	assert_list_length NUM_BERRY_ITEM_POCKET

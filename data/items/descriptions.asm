@@ -233,6 +233,7 @@ ItemDescriptionsBerries:
 	dw LeppaBerryDesc
 	dw PersimBerryDesc
 	dw LumBerryDesc
+	dw SitrusBerryDesc
 .IndirectEnd:
 
 TestBerryDesc:
@@ -853,6 +854,7 @@ BerryDesc:
 	db   "A self-restore"
 	next "item. (10HP, HOLD)@"
 
+SitrusBerryDesc:
 GoldBerryDesc:
 	db   "A self-restore"
 	next "item. (30HP, HOLD)@"

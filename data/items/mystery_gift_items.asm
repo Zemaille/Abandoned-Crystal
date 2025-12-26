@@ -16,7 +16,7 @@ MysteryGiftItems:
 	dw MORPH_MAIL
 	dw MUSIC_MAIL
 	dw LUM_BERRY
-	dw GOLD_BERRY
+	dw SITRUS_BERRY
 	dw REVIVE
 	dw GREAT_BALL
 	dw SUPER_REPEL

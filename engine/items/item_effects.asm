@@ -173,7 +173,7 @@ ItemEffects1:
 	dw NoEffect            ; ITEM_AB
 	dw NoEffect            ; UP_GRADE
 	dw RestoreHPEffect     ; ORAN_BERRY
-	dw RestoreHPEffect     ; GOLD_BERRY
+	dw RestoreHPEffect     ; SITRUS_BERRY
 	dw NoEffect            ; ITEM_B0
 	dw NoEffect            ; ITEM_B3
 	dw NoEffect            ; BRICK_PIECE
@@ -252,7 +252,8 @@ ItemEffectsBerries:
 	dw StatusHealingEffect	; Aspear Berry
 	dw RestorePPEffect		; Leppa Berry
 	dw StatusHealingEffect	; Persim Berry
-	dw StatusHealingEffect	; Persim Berry
+	dw StatusHealingEffect	; Lum Berry
+	dw RestoreHPEffect		; Sitrus Berry
 .IndirectEnd:
 
 PokeBallEffect:
