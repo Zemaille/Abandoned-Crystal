@@ -564,7 +564,7 @@ CherrygroveCityFishingGuruScript:
 	end
 
 .GotOldRod:
-	writetext Route32Pokecenter1FFishingGuruText_After
+	writetext CherrygroveCityFishingGuruText_After
 	waitbutton
 	closetext
 	end

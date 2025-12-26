@@ -14,8 +14,6 @@ Route32Pokecenter1FNurseScript:
 Route32Pokecenter1FFishingGuruScript:
 	faceplayer
 	opentext
-	checkevent EVENT_GOT_OLD_ROD
-	iftrue .GotOldRod
 	writetext Route32Pokecenter1FFishingGuruText_Question
 	yesorno
 	iffalse .Refused
@@ -25,7 +23,6 @@ Route32Pokecenter1FFishingGuruScript:
 	writetext Route32Pokecenter1FFishingGuruText_GiveOldRod
 	waitbutton
 	closetext
-	setevent EVENT_GOT_OLD_ROD
 	end
 
 .Refused:
