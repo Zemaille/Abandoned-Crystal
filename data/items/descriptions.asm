@@ -225,6 +225,8 @@ ItemDescriptionsBalls:
 ItemDescriptionsBerries:
 	dw TestBerryDesc
 	dw OranBerryDesc
+	dw CheriBerryDesc
+	dw ChestoBerryDesc
 	dw PechaBerryDesc
 .IndirectEnd:
 
@@ -524,6 +526,7 @@ SharpBeakDesc:
 	db   "Powers up flying-"
 	next "type moves. (HOLD)@"
 
+CheriBerryDesc:
 PrzCureBerryDesc:
 	db   "A self-cure for"
 	next "paralysis. (HOLD)@"
@@ -548,6 +551,7 @@ BitterBerryDesc:
 	db   "A self-cure for"
 	next "confusion. (HOLD)@"
 
+ChestoBerryDesc:
 MintBerryDesc:
 	db   "A self-awakening"
 	next "for sleep. (HOLD)@"

@@ -2111,7 +2111,7 @@ BattleTowerMons:
 	db "HAtuSAMU@@@"
 
 	dw SLOWKING
-	dw MINT_BERRY
+	dw CHESTO_BERRY
 	dw REST, SURF, PSYCHIC_M, AMNESIA
 
 	dw 0 ; OT ID
@@ -2551,7 +2551,7 @@ BattleTowerMons:
 	db "KAIRIKI-@@@"
 
 	dw ZAPDOS
-	dw MINT_BERRY
+	dw CHESTO_BERRY
 	dw REST, DRILL_PECK, THUNDERBOLT, THUNDER_WAVE
 
 	dw 0 ; OT ID
@@ -3454,7 +3454,7 @@ BattleTowerMons:
 	db "KABIGON@@@@"
 
 	dw HOUNDOOM
-	dw MINT_BERRY
+	dw CHESTO_BERRY
 	dw REST, CRUNCH, FLAMETHROWER, SUNNY_DAY
 
 	dw 0 ; OT ID
@@ -3500,7 +3500,7 @@ BattleTowerMons:
 	db "KENTAROSU@@"
 
 	dw LAPRAS
-	dw MINT_BERRY
+	dw CHESTO_BERRY
 	dw REST, SURF, CONFUSE_RAY, PSYCHIC_M
 
 	dw 0 ; OT ID
@@ -3592,7 +3592,7 @@ BattleTowerMons:
 	db "HUoRETOSU@@"
 
 	dw KINGDRA
-	dw MINT_BERRY
+	dw CHESTO_BERRY
 	dw REST, SURF, BLIZZARD, DRAGONBREATH
 
 	dw 0 ; OT ID
@@ -4078,7 +4078,7 @@ BattleTowerMons:
 	db "BANGIRASU@@"
 
 	dw LAPRAS
-	dw MINT_BERRY
+	dw CHESTO_BERRY
 	dw REST, SURF, THUNDERBOLT, PSYCHIC_M
 
 	dw 0 ; OT ID
@@ -4170,7 +4170,7 @@ BattleTowerMons:
 	db "KABIGON@@@@"
 
 	dw ARCANINE
-	dw MINT_BERRY
+	dw CHESTO_BERRY
 	dw SUNNY_DAY, FLAMETHROWER, EXTREMESPEED, REST
 
 	dw 0 ; OT ID
@@ -4285,7 +4285,7 @@ BattleTowerMons:
 	db "TUBOTUBO@@@"
 
 	dw FLAREON
-	dw MINT_BERRY
+	dw CHESTO_BERRY
 	dw HYPER_BEAM, FLAMETHROWER, SHADOW_BALL, ROAR
 
 	dw 0 ; OT ID
@@ -4380,7 +4380,7 @@ BattleTowerMons:
 ; BattleTowerMons group 10
 
 	dw HOUNDOOM
-	dw MINT_BERRY
+	dw CHESTO_BERRY
 	dw CRUNCH, FLAMETHROWER, ROAR, REST
 
 	dw 0 ; OT ID
@@ -4725,7 +4725,7 @@ BattleTowerMons:
 	db "HAPINASU@@@"
 
 	dw PILOSWINE
-	dw MINT_BERRY
+	dw CHESTO_BERRY
 	dw REST, BLIZZARD, HYPER_BEAM, EARTHQUAKE
 
 	dw 0 ; OT ID

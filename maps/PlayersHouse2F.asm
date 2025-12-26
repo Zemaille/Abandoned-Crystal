@@ -72,7 +72,7 @@ if DEF(_DEBUG)
 	giveitem SUN_STONE, 10
 	giveitem ORAN_BERRY, 10
 	giveitem GOLD_BERRY, 10
-	giveitem MINT_BERRY, 10
+	giveitem CHESTO_BERRY, 10
 	giveitem MYSTERYBERRY, 10
 	giveitem QUICK_CLAW
 	giveitem KINGS_ROCK

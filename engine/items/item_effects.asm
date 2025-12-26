@@ -92,13 +92,13 @@ ItemEffects1:
 	dw NoEffect            ; GOLD_LEAF
 	dw NoEffect            ; SOFT_SAND
 	dw NoEffect            ; SHARP_BEAK
-	dw StatusHealingEffect ; PRZCUREBERRY
+	dw StatusHealingEffect ; CHERI_BERRY
 	dw StatusHealingEffect ; BURNT_BERRY
 	dw StatusHealingEffect ; ICE_BERRY
 	dw NoEffect            ; POISON_BARB
 	dw EvoStoneEffect      ; KINGS_ROCK
 	dw BitterBerryEffect   ; BITTER_BERRY
-	dw StatusHealingEffect ; MINT_BERRY
+	dw StatusHealingEffect ; CHESTO_BERRY
 	dw NoEffect            ; RED_APRICORN
 	dw NoEffect            ; TINYMUSHROOM
 	dw NoEffect            ; BIG_MUSHROOM
@@ -245,6 +245,8 @@ ItemEffectsBalls:
 ItemEffectsBerries:
 	dw NoEffect		 		; Test Berry
 	dw RestoreHPEffect		; Oran Berry
+	dw StatusHealingEffect	; Cheri Berry
+	dw StatusHealingEffect	; Chesto Berry
 	dw StatusHealingEffect	; Pecha Berry
 .IndirectEnd:
 

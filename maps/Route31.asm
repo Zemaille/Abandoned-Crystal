@@ -132,7 +132,7 @@ TrainerBugCatcherWade1:
 	iffalse .PackFull
 	sjump .Done
 .Przcureberry:
-	verbosegiveitem PRZCUREBERRY
+	verbosegiveitem CHERI_BERRY
 	iffalse .PackFull
 	sjump .Done
 .BitterBerry:
