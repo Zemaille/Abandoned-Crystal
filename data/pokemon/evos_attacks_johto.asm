@@ -533,7 +533,7 @@ TogepiEvosAttacks:
 	db 0 ; no more level-up moves
 
 TogeticEvosAttacks:
-	dbbw EVOLVE_ITEM, MOON_STONE, TOGEKISS
+	dbww EVOLVE_ITEM, MOON_STONE, TOGEKISS
 	db 0 ; no more evolutions
 	dbw 1, GROWL
 	dbw 1, POUND
@@ -877,7 +877,7 @@ YanmaEvosAttacks:
 
 WooperEvosAttacks:
 	dbbw EVOLVE_LEVEL, 20, QUAGSIRE
-	dbbw EVOLVE_ITEM, KINGS_ROCK, CLODSIRE
+	dbww EVOLVE_ITEM, KINGS_ROCK, CLODSIRE
 	db 0 ; no more evolutions
 	dbw 1, BUBBLE
 	dbw 1, TAIL_WHIP
@@ -950,7 +950,7 @@ UmbreonEvosAttacks:
 	db 0 ; no more level-up moves
 
 MurkrowEvosAttacks:
-	dbbw EVOLVE_ITEM, DUSK_STONE, HONCHKROW
+	dbww EVOLVE_ITEM, DUSK_STONE, HONCHKROW
 	db 0 ; no more evolutions
 	dbw 1, PECK
 	dbw 1, ASTONISH
@@ -989,7 +989,7 @@ SlowkingEvosAttacks:
 	db 0 ; no more level-up moves
 
 MisdreavusEvosAttacks:
-	dbbw EVOLVE_ITEM, DUSK_STONE, MISMAGIUS
+	dbww EVOLVE_ITEM, DUSK_STONE, MISMAGIUS
 	db 0 ; no more evolutions
 	dbw 1, GROWL
 	dbw 1, CONFUSION
@@ -1100,7 +1100,7 @@ DunsparceEvosAttacks:
 	db 0 ; no more level-up moves
 
 GligarEvosAttacks:
-	dbbw EVOLVE_ITEM, KINGS_ROCK, GLISCOR
+	dbww EVOLVE_ITEM, KINGS_ROCK, GLISCOR
 	db 0 ; no more evolutions
 	dbw 1, POISON_STING
 	dbw 4, SAND_ATTACK
@@ -1246,7 +1246,7 @@ HeracrossEvosAttacks:
 	db 0 ; no more level-up moves
 
 SneaselEvosAttacks:
-	dbbw EVOLVE_ITEM, ICE_STONE, WEAVILE
+	dbww EVOLVE_ITEM, ICE_STONE, WEAVILE
 	db 0 ; no more evolutions
 	dbw 1, SCRATCH
 	dbw 1, LEER
@@ -1282,7 +1282,7 @@ TeddiursaEvosAttacks:
 	db 0 ; no more level-up moves
 
 UrsaringEvosAttacks:
-	dbbw EVOLVE_ITEM, MOON_STONE, URSALUNA
+	dbww EVOLVE_ITEM, MOON_STONE, URSALUNA
 	db 0 ; no more evolutions
 	dbw 1, SCRATCH
 	dbw 1, LICK
@@ -1358,7 +1358,7 @@ SwinubEvosAttacks:
 	db 0 ; no more level-up moves
 
 PiloswineEvosAttacks:
-	dbbw EVOLVE_ITEM, ICE_STONE, MAMOSWINE
+	dbww EVOLVE_ITEM, ICE_STONE, MAMOSWINE
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, MUD_SLAP
@@ -1571,7 +1571,7 @@ DonphanEvosAttacks:
 	db 0 ; no more level-up moves
 
 Porygon2EvosAttacks:
-	dbbw EVOLVE_ITEM, UP_GRADE, PORYGON_Z
+	dbww EVOLVE_ITEM, UP_GRADE, PORYGON_Z
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, CONVERSION

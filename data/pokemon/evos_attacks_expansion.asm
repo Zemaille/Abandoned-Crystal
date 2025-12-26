@@ -407,7 +407,7 @@ PorygonZEvosAttacks:
 
 SlowpokeGEvosAttacks:
 	dbbw EVOLVE_LEVEL, 37, SLOWBRO_G
-	dbbw EVOLVE_ITEM, RELIC_STONE, SLOWKING_G
+	dbww EVOLVE_ITEM, RELIC_STONE, SLOWKING_G
 	db 0
 	dbw 1, TACKLE
 	dbw 1, CURSE
@@ -747,7 +747,7 @@ SpiritombEvosAttacks:
 	db 0
 
 FeebasEvosAttacks:
-	dbbw EVOLVE_ITEM, WATER_STONE, MILOTIC
+	dbww EVOLVE_ITEM, WATER_STONE, MILOTIC
 	db 0
 	dbw 1, SPLASH
 	dbw 15, TACKLE
@@ -852,7 +852,7 @@ AnnihilapeEvosAttacks:
 	db 0
 
 GrowlitheHEvosAttacks:
-	dbbw EVOLVE_ITEM, FIRE_STONE, ARCANINE_H
+	dbww EVOLVE_ITEM, FIRE_STONE, ARCANINE_H
 	db 0
 	dbw 1, LEER
 	dbw 1, EMBER
@@ -952,7 +952,7 @@ DelphoxEvosAttacks:
 	db 0
 
 SneaselHEvosAttacks:
-	dbbw EVOLVE_ITEM, KINGS_ROCK, SNEASLER
+	dbww EVOLVE_ITEM, KINGS_ROCK, SNEASLER
 	db 0
 	dbw 1, SCRATCH
 	dbw 1, LEER
@@ -1341,7 +1341,7 @@ MoltresGEvosAttacks:
 	db 0
 
 BasculinEvosAttacks:
-	dbbw EVOLVE_ITEM, WATER_STONE, BASCULEGION
+	dbww EVOLVE_ITEM, WATER_STONE, BASCULEGION
 	db 0
 	dbw 1, TAIL_WHIP
 	dbw 1, WATER_GUN
@@ -1490,7 +1490,7 @@ DrampaEvosAttacks:
 	db 0
 
 MeltanEvosAttacks:
-	dbbw EVOLVE_ITEM, METAL_COAT, MELMETAL
+	dbww EVOLVE_ITEM, METAL_COAT, MELMETAL
 	db 0
 	dbw 1, THUNDERSHOCK
 	dbw 1, HARDEN
@@ -1582,7 +1582,7 @@ SceptileEvosAttacks:
 	db 0
 
 VulpixAEvosAttacks:
-	dbbw EVOLVE_ITEM, ICE_STONE, NINETALES_A
+	dbww EVOLVE_ITEM, ICE_STONE, NINETALES_A
 	db 0
 	dbw 1, TAIL_WHIP
 	dbw 1, POWDER_SNOW

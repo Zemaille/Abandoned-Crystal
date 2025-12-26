@@ -1613,7 +1613,7 @@ MagnemiteEvosAttacks:
 	db 0 ; no more level-up moves
 
 MagnetonEvosAttacks:
-	dbbw EVOLVE_ITEM, THUNDERSTONE, MAGNEZONE
+	dbww EVOLVE_ITEM, THUNDERSTONE, MAGNEZONE
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, THUNDERSHOCK
@@ -1967,7 +1967,7 @@ KinglerEvosAttacks:
 	db 0 ; no more level-up moves
 
 VoltorbEvosAttacks:
-	dbbw EVOLVE_ITEM, LEAF_STONE, ELECTRODE
+	dbww EVOLVE_ITEM, LEAF_STONE, ELECTRODE
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 4, THUNDERSHOCK
@@ -2190,7 +2190,7 @@ RhyhornEvosAttacks:
 	db 0 ; no more level-up moves
 
 RhydonEvosAttacks:
-	dbbw EVOLVE_ITEM, KINGS_ROCK, RHYPERIOR
+	dbww EVOLVE_ITEM, KINGS_ROCK, RHYPERIOR
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, TAIL_WHIP
@@ -2403,7 +2403,7 @@ MrMimeEvosAttacks:
 
 ScytherEvosAttacks:
 	dbww EVOLVE_ITEM, METAL_COAT, SCIZOR
-	dbbw EVOLVE_ITEM, KINGS_ROCK, KLEAVOR
+	dbww EVOLVE_ITEM, KINGS_ROCK, KLEAVOR
 	db 0 ; no more evolutions
 	dbw 1, LEER
 	dbw 1, QUICK_ATTACK
@@ -2459,7 +2459,7 @@ ElectabuzzEvosAttacks:
 	db 0 ; no more level-up moves
 
 MagmarEvosAttacks:
-	dbbw EVOLVE_ITEM, FIRE_STONE, MAGMORTAR
+	dbww EVOLVE_ITEM, FIRE_STONE, MAGMORTAR
 	db 0 ; no more evolutions
 	dbw 1, LEER
 	dbw 1, SMOG
@@ -2566,11 +2566,11 @@ EeveeEvosAttacks:
 	dbww EVOLVE_ITEM, THUNDERSTONE, JOLTEON
 	dbww EVOLVE_ITEM, WATER_STONE, VAPOREON
 	dbww EVOLVE_ITEM, FIRE_STONE, FLAREON
-	dbbw EVOLVE_ITEM, SUN_STONE, ESPEON
-	dbbw EVOLVE_ITEM, DUSK_STONE, UMBREON
-	dbbw EVOLVE_ITEM, LEAF_STONE, LEAFEON
-	dbbw EVOLVE_ITEM, ICE_STONE, GLACEON
-	dbbw EVOLVE_ITEM, MOON_STONE, SYLVEON	
+	dbww EVOLVE_ITEM, SUN_STONE, ESPEON
+	dbww EVOLVE_ITEM, DUSK_STONE, UMBREON
+	dbww EVOLVE_ITEM, LEAF_STONE, LEAFEON
+	dbww EVOLVE_ITEM, ICE_STONE, GLACEON
+	dbww EVOLVE_ITEM, MOON_STONE, SYLVEON	
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, TAIL_WHIP
