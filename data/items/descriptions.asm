@@ -229,6 +229,7 @@ ItemDescriptionsBerries:
 	dw ChestoBerryDesc
 	dw PechaBerryDesc
 	dw RawstBerryDesc
+	dw AspearBerryDesc
 .IndirectEnd:
 
 TestBerryDesc:
@@ -532,6 +533,7 @@ PrzCureBerryDesc:
 	db   "A self-cure for"
 	next "paralysis. (HOLD)@"
 
+AspearBerryDesc:
 BurntBerryDesc:
 	db   "A self-cure for"
 	next "freezing. (HOLD)@"

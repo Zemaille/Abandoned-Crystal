@@ -454,6 +454,8 @@ ItemBerryAttributes:
 	item_attribute 10, HELD_HEAL_POISON, 0, CANT_SELECT, ITEM, ITEMMENU_PARTY, ITEMMENU_PARTY
 ; Rawst Berry
 	item_attribute 10, HELD_HEAL_BURN, 0, CANT_SELECT, ITEM, ITEMMENU_PARTY, ITEMMENU_PARTY
+; Aspear Berry
+	item_attribute 10, HELD_HEAL_FREEZE, 0, CANT_SELECT, ITEM, ITEMMENU_PARTY, ITEMMENU_PARTY
 .IndirectEnd::
 
 ItemTMAttributes:

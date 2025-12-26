@@ -7,7 +7,7 @@
 	db FIRE, FAIRY ; type
 	db 190 ; catch rate
 	db 63 ; base exp
-	dw BURNT_BERRY, BURNT_BERRY ; items
+	dw ASPEAR_BERRY, ASPEAR_BERRY ; items
 	db GENDER_F75 ; gender ratio
 	db 1 ; step cycles to hatch
 	INCBIN "gfx/pokemon/vulpix/front.dimensions"

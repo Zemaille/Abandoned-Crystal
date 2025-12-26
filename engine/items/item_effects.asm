@@ -93,7 +93,7 @@ ItemEffects1:
 	dw NoEffect            ; SOFT_SAND
 	dw NoEffect            ; SHARP_BEAK
 	dw StatusHealingEffect ; CHERI_BERRY
-	dw StatusHealingEffect ; BURNT_BERRY
+	dw StatusHealingEffect ; ASPEAR_BERRY
 	dw StatusHealingEffect ; ICE_BERRY
 	dw NoEffect            ; POISON_BARB
 	dw EvoStoneEffect      ; KINGS_ROCK
@@ -249,6 +249,7 @@ ItemEffectsBerries:
 	dw StatusHealingEffect	; Chesto Berry
 	dw StatusHealingEffect	; Pecha Berry
 	dw StatusHealingEffect	; Rawst Berry
+	dw StatusHealingEffect	; Aspear Berry
 .IndirectEnd:
 
 PokeBallEffect:
