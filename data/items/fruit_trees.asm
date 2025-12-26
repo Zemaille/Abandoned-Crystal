@@ -1,10 +1,10 @@
 FruitTreeItems:
 ; entries correspond to FRUITTREE_* constants
 	table_width 2
-	dw BERRY        ; ROUTE_29
-	dw BERRY        ; ROUTE_30_1
-	dw BERRY        ; ROUTE_38
-	dw BERRY        ; ROUTE_46_1
+	dw ORAN_BERRY        ; ROUTE_29
+	dw ORAN_BERRY        ; ROUTE_30_1
+	dw ORAN_BERRY        ; ROUTE_38
+	dw ORAN_BERRY        ; ROUTE_46_1
 	dw PSNCUREBERRY ; ROUTE_30_2
 	dw PSNCUREBERRY ; ROUTE_33
 	dw BITTER_BERRY ; ROUTE_31
@@ -24,7 +24,7 @@ FruitTreeItems:
 	dw PNK_APRICORN ; ROUTE_42_1
 	dw GRN_APRICORN ; ROUTE_42_2
 	dw YLW_APRICORN ; ROUTE_42_3
-	dw BERRY        ; ROUTE_11
+	dw ORAN_BERRY        ; ROUTE_11
 	dw PSNCUREBERRY ; ROUTE_2
 	dw BITTER_BERRY ; ROUTE_1
 	dw PRZCUREBERRY ; ROUTE_8

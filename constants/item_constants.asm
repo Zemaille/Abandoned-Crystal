@@ -224,6 +224,7 @@ assert NUM_BALL_ITEM_POCKET <= $ff
 	const_align 8 ; Berry items assume the value of HIGH(FIRST_BERRY_ITEM) when storing in bag.
 DEF FIRST_BERRY_ITEM EQU const_value
 	const TEST_BERRY
+	const ORAN_BERRY
 DEF NUM_BERRY_ITEM_POCKET EQU const_value - FIRST_BERRY_ITEM
 assert NUM_BERRY_ITEM_POCKET <= $ff
 

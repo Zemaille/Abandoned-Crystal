@@ -224,6 +224,7 @@ ItemDescriptionsBalls:
 
 ItemDescriptionsBerries:
 	dw TestBerryDesc
+	dw OranBerryDesc
 .IndirectEnd:
 
 TestBerryDesc:
@@ -831,6 +832,7 @@ UpGradeDesc:
 	db   "A mysterious box"
 	next "made by SILPH CO.@"
 
+OranBerryDesc:
 BerryDesc:
 	db   "A self-restore"
 	next "item. (10HP, HOLD)@"

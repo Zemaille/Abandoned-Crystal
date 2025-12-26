@@ -172,7 +172,7 @@ ItemEffects1:
 	dw NoEffect            ; POLKADOT_BOW
 	dw NoEffect            ; ITEM_AB
 	dw NoEffect            ; UP_GRADE
-	dw RestoreHPEffect     ; BERRY
+	dw RestoreHPEffect     ; ORAN_BERRY
 	dw RestoreHPEffect     ; GOLD_BERRY
 	dw NoEffect            ; ITEM_B0
 	dw NoEffect            ; ITEM_B3
@@ -243,7 +243,8 @@ ItemEffectsBalls:
 
 
 ItemEffectsBerries:
-	dw PokeBallEffect
+	dw NoEffect		 	; Test Berry
+	dw RestoreHPEffect	; Oran Berry
 .IndirectEnd:
 
 PokeBallEffect:

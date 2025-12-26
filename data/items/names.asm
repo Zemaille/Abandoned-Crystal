@@ -214,5 +214,6 @@ BallNames::
 	
 BerryNames::
 	list_start BerryNames
-	li "TEST BERRY" ; 0300
+	li "Test Berry" ; 0300
+	li "Oran Berry"
 	assert_list_length NUM_BERRY_ITEM_POCKET

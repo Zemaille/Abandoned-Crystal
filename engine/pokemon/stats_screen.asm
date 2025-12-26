@@ -228,14 +228,14 @@ StatsScreen_CopyToTempMon:
 	jr .done
 
 .not_tempmon
-	farcall CopyMonToTempMon
+	call CopyMonToTempMon
 	ld a, [wCurPartySpecies]
 	cp EGG
 	jr z, .done
 	ld a, [wMonType]
 	cp BOXMON
 	jr c, .done
-	farcall CalcTempmonStats
+	call CalcTempmonStats
 .done
 	and a
 	ret
@@ -617,7 +617,7 @@ LoadPinkPage:
 	jr z, .AlreadyAtMaxLevel
 	inc a
 	ld d, a
-	farcall CalcExpAtLevel
+	call CalcExpAtLevel
 	ld hl, wTempMonExp + 2
 	ldh a, [hQuotient + 3]
 	sub [hl]
@@ -799,7 +799,7 @@ GetHiddenPowerTypeString:
 	add UNUSED_TYPES_END - UNUSED_TYPES
 .done
 	ld [wNamedObjectIndex], a
-	farcall GetTypeName
+	call GetTypeName
 	ld de, wStringBuffer1
 	hlcoord 1, 16
 	call PlaceString

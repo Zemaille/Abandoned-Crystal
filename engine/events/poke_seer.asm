@@ -21,7 +21,7 @@ PokeSeer:
 	call JoyWaitAorB
 
 	ld b, PARTY_LENGTH
-	farcall SelectMonFromParty
+	call SelectMonFromParty
 	jr c, .cancel
 
 	ld a, [wCurPartySpecies]
