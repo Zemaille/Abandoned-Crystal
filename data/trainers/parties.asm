@@ -4782,7 +4782,7 @@ MediumGroup:
 	db -1 ; end
 
 	next_list_item ; MEDIUM (3)
-	db "Bethany@", TRAINERTYPE_NORMAL
+	db "Bethany@", TRAINERTYPE_MOVES
 	db 13
 	dw GASTLY
 	dw FAINT_ATTACK, LICK, HYPNOSIS, FLASH
