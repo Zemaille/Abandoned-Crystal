@@ -776,6 +776,7 @@ MiloticEvosAttacks:
 	db 0
 
 PhantumpEvosAttacks:
+	dbww EVOLVE_ITEM, DUSK_STONE, TREVENANT
 	db 0
 	dbw 1, TACKLE
 	dbw 1, ASTONISH
