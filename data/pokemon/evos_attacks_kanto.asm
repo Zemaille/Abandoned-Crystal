@@ -1458,10 +1458,10 @@ GeodudeEvosAttacks:
 	dbw 1, TACKLE
 	dbw 1, DEFENSE_CURL
 	dbw 4, SHARPEN
-	dbw 6, RAPID_SPIN
-	dbw 10, ROLLOUT
-	dbw 12, ROCK_THROW
-	dbw 16, SPARK
+	dbw 6, ROLLOUT
+	dbw 10, ROCK_THROW
+	dbw 12, SPARK
+	dbw 16, RAPID_SPIN
 	dbw 18, MEGA_PUNCH
 	dbw 22, THUNDERPUNCH
 	dbw 24, SELFDESTRUCT
