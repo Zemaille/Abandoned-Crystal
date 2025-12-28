@@ -5,7 +5,7 @@
 	;   hp  atk  def  spd  sat  sdf
 
 	db ICE, PSYCHIC_TYPE ; type
-	db 45 ; catch rate
+	db 190 ; catch rate
 	db 87 ; base exp
 	dw RAWST_BERRY, RAWST_BERRY ; items
 	db GENDER_F100 ; gender ratio

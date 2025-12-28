@@ -652,10 +652,10 @@ YoungsterGroup:
 	db -1 ; end
 
 	next_list_item ; YOUNGSTER (3)
-	db "ALBERT@", TRAINERTYPE_NORMAL
-	db 6
-	dw RATTATA
-	db 8
+	db "Albert@", TRAINERTYPE_NORMAL
+	db 12
+	dw TANDEMAUS
+	db 13
 	dw ZUBAT
 	db -1 ; end
 
@@ -2496,15 +2496,15 @@ BugCatcherGroup:
 
 FisherGroup:
 	next_list_item ; FISHER (1)
-	db "JUSTIN@", TRAINERTYPE_NORMAL
+	db "Justin@", TRAINERTYPE_NORMAL
 	db 5
-	dw MAGIKARP
-	db 5
-	dw MAGIKARP
+	dw POLIWAG
+	db 10
+	dw GOLDEEN
 	db 15
-	dw MAGIKARP
-	db 5
-	dw MAGIKARP
+	dw OMANYTE
+	db 15
+	dw KABUTOPS
 	db -1 ; end
 
 	next_list_item ; FISHER (2)
@@ -2531,10 +2531,10 @@ FisherGroup:
 
 	next_list_item ; FISHER (5)
 	db "HENRY@", TRAINERTYPE_NORMAL
-	db 8
-	dw POLIWAG
-	db 8
-	dw POLIWAG
+	db 14
+	dw QWILFISH
+	db 14
+	dw REMORAID
 	db -1 ; end
 
 	next_list_item ; FISHER (6)
@@ -4203,8 +4203,8 @@ PsychicGroup:
 
 PicnickerGroup:
 	next_list_item ; PICNICKER (1)
-	db "LIZ@", TRAINERTYPE_NORMAL
-	db 9
+	db "Liz@", TRAINERTYPE_NORMAL
+	db 14
 	dw NIDORAN_F
 	db -1 ; end
 
@@ -4424,8 +4424,8 @@ PicnickerGroup:
 
 CamperGroup:
 	next_list_item ; CAMPER (1)
-	db "ROLAND@", TRAINERTYPE_NORMAL
-	db 9
+	db "Roland@", TRAINERTYPE_NORMAL
+	db 15
 	dw NIDORAN_M
 	db -1 ; end
 
@@ -4658,21 +4658,21 @@ ExecutiveFGroup:
 SageGroup:
 	next_list_item ; SAGE (1)
 	db "Chow@", TRAINERTYPE_NORMAL
-	db 5
+	db 7
 	dw HOPPIP
-	db 5
+	db 7
 	dw SUNKERN
-	db 5
+	db 7
 	dw ODDISH
 	db -1 ; end
 
 	next_list_item ; SAGE (2)
 	db "Nico@", TRAINERTYPE_NORMAL
-	db 5
+	db 7
 	dw SUNKERN
-	db 5
+	db 7
 	dw ODDISH
-	db 5
+	db 7
 	dw HOPPIP
 	db -1 ; end
 
@@ -4712,11 +4712,11 @@ SageGroup:
 
 	next_list_item ; SAGE (7)
 	db "Edmond@", TRAINERTYPE_NORMAL
-	db 5
+	db 7
 	dw ODDISH
-	db 5
+	db 7
 	dw HOPPIP
-	db 5
+	db 7
 	dw SUNKERN
 	db -1 ; end
 
