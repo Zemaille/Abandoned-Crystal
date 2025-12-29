@@ -861,6 +861,7 @@ GrowlitheHEvosAttacks:
 	dbw 8, BITE
 	dbw 12, FLAME_WHEEL
 	dbw 16, AGILITY
+	dbw 19, ROCK_THROW
 	dbw 24, FIRE_FANG
 	dbw 28, QUICK_ATTACK
 	dbw 32, CRUNCH
@@ -882,6 +883,7 @@ ArcanineHEvosAttacks:
 	dbw 8, BITE
 	dbw 12, FLAME_WHEEL
 	dbw 16, AGILITY
+	dbw 19, ROCK_THROW
 	dbw 24, FIRE_FANG
 	dbw 28, QUICK_ATTACK
 	dbw 32, CRUNCH

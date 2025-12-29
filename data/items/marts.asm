@@ -63,9 +63,10 @@ MartViolet:
 	dw AWAKENING
 
 MartAzalea:
-	db 9 ; # items
+	db 10 ; # items
 	dw CHARCOAL
 	dw BERRY_JUICE
+	dw ORAN_BERRY
 	dw POKE_BALL
 	dw POTION
 	dw SUPER_POTION

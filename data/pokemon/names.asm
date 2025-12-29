@@ -191,7 +191,7 @@ PokemonNames::
 	db "Sudowoodo@"
 	db "Politoed@@"
 	db "Hoppip@@@@"
-	db "Skiplomm@@"
+	db "Skiplom@@@"
 	db "Jumpluff@@"
 	db "Aipom@@@@@"
 	db "Sunkern@@@"

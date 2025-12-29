@@ -403,7 +403,7 @@ IlexForestRevive:
 	itemball REVIVE
 
 IlexForestXAttack:
-	itemball SILVERPOWDER
+	itemball MAX_REPEL
 
 IlexForestAntidote:
 	itemball ANTIDOTE

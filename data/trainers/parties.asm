@@ -49,12 +49,12 @@ BugsyGroup:
 	dw ORAN_BERRY
 	dw REFLECT, SWIFT, LIGHT_SCREEN, MACH_PUNCH
 	db 20
-	dw SCYTHER
-	dw ORAN_BERRY
-	dw FURY_CUTTER, WING_ATTACK, NO_MOVE, NO_MOVE
+	dw HERACROSS
+	dw CHESTO_BERRY
+	dw AERIAL_ACE, KARATE_CHOP, FURY_ATTACK, LEER
 	db 22
 	dw ARIADOS
-	dw LUM_BERRY
+	dw ORAN_BERRY
 	dw SWORDS_DANCE, QUICK_ATTACK, SCARY_FACE, POISON_STING
 	db 22
 	dw ARAQUANID
@@ -166,34 +166,52 @@ Rival1Group:
 	dw TOTODILE
 	db -1 ; end
 
-	next_list_item ; RIVAL1 (4)
-	db "?@", TRAINERTYPE_NORMAL
-	db 12
-	dw GASTLY
-	db 14
+	next_list_item ; RIVAL1 (4) ; Azaela Town Rival
+	db "?@", TRAINERTYPE_MOVES
+	db 18
 	dw ZUBAT
-	db 16
+	dw POISON_FANG, ASTONISH, NO_MOVE, NO_MOVE
+	db 18
+	dw SLOWPOKE
+	dw WATER_PULSE, CONFUSION, DISABLE, HYPNOSIS
+	db 18
+	dw SNEASEL
+	dw METAL_CLAW, ICE_SHARD, LEER, NO_MOVE
+	db 19
 	dw BAYLEEF
+	dw RAZOR_LEAF, DISARM_VOICE, POISONPOWDER, GROWL
 	db -1 ; end
 
 	next_list_item ; RIVAL1 (5)
-	db "?@", TRAINERTYPE_NORMAL
-	db 12
-	dw GASTLY
-	db 14
+	db "?@", TRAINERTYPE_MOVES
+	db 18
 	dw ZUBAT
-	db 16
+	dw POISON_FANG, ASTONISH, NO_MOVE, NO_MOVE
+	db 18
+	dw FLAAFFY
+	dw TAKE_DOWN, THUNDERSHOCK, GROWL, THUNDER_WAVE
+	db 18
+	dw SNEASEL
+	dw METAL_CLAW, ICE_SHARD, LEER, NO_MOVE
+	db 19
 	dw QUILAVA
+	dw FLAME_WHEEL, QUICK_ATTACK, SMOKESCREEN, LEER
 	db -1 ; end
 
 	next_list_item ; RIVAL1 (6)
-	db "?@", TRAINERTYPE_NORMAL
-	db 12
-	dw GASTLY
-	db 14
+	db "?@", TRAINERTYPE_MOVES
+	db 18
 	dw ZUBAT
-	db 16
+	dw POISON_FANG, ASTONISH, NO_MOVE, NO_MOVE
+	db 18
+	dw GROWLITHE_H
+	dw FLAME_WHEEL, BITE, GROWL, AGILITY
+	db 18
+	dw SNEASEL
+	dw METAL_CLAW, ICE_SHARD, LEER, NO_MOVE
+	db 19
 	dw CROCONAW
+	dw CLAMP, BITE, SCARY_FACE, LEER
 	db -1 ; end
 
 	next_list_item ; RIVAL1 (7)
@@ -1853,8 +1871,8 @@ BeautyGroup:
 
 PokemaniacGroup:
 	next_list_item ; POKEMANIAC (1)
-	db "LARRY@", TRAINERTYPE_NORMAL
-	db 18
+	db "Larry@", TRAINERTYPE_NORMAL
+	db 15
 	dw SPIRITOMB
 	db -1 ; end
 
@@ -2365,27 +2383,25 @@ BugCatcherGroup:
 	db -1 ; end
 
 	next_list_item ; BUG_CATCHER (5)
-	db "BENNY@", TRAINERTYPE_NORMAL
-	db 7
-	dw WEEDLE
-	db 9
-	dw KAKUNA
-	db 12
-	dw BEEDRILL
+	db "Benny@", TRAINERTYPE_NORMAL
+	db 18
+	dw YANMA
+	db 18
+	dw SCYTHER
 	db -1 ; end
 
 	next_list_item ; BUG_CATCHER (6)
-	db "AL@", TRAINERTYPE_NORMAL
-	db 12
-	dw CATERPIE
-	db 12
-	dw WEEDLE
+	db "Al@", TRAINERTYPE_NORMAL
+	db 17
+	dw BUTTERFREE
+	db 17
+	dw BEEDRILL
 	db -1 ; end
 
 	next_list_item ; BUG_CATCHER (7)
-	db "JOSH@", TRAINERTYPE_NORMAL
-	db 13
-	dw PARAS
+	db "Josh@", TRAINERTYPE_NORMAL
+	db 19
+	dw PINSIR
 	db -1 ; end
 
 	next_list_item ; BUG_CATCHER (8)
@@ -5051,10 +5067,10 @@ KimonoGirlGroup:
 
 TwinsGroup:
 	next_list_item ; TWINS (1)
-	db "AMY & MAY@", TRAINERTYPE_NORMAL
-	db 10
+	db "Amy & May@", TRAINERTYPE_NORMAL
+	db 17
 	dw SPINARAK
-	db 10
+	db 17
 	dw LEDYBA
 	db -1 ; end
 
@@ -5079,10 +5095,10 @@ TwinsGroup:
 	db -1 ; end
 
 	next_list_item ; TWINS (4)
-	db "AMY & MAY@", TRAINERTYPE_NORMAL
-	db 10
+	db "Amy & May@", TRAINERTYPE_NORMAL
+	db 17
 	dw LEDYBA
-	db 10
+	db 17
 	dw SPINARAK
 	db -1 ; end
 
