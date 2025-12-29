@@ -1468,9 +1468,22 @@ CooltrainerMGroup:
 	db -1 ; end
 
 	next_list_item ; COOLTRAINERM (13)
-	db "Erick@", TRAINERTYPE_NORMAL
-	db 5
-	dw EEVEE
+	db "Erick@", TRAINERTYPE_MOVES
+	db 25
+	dw SNEASEL_H
+	dw POISON_JAB, KARATE_CHOP, CUT, QUICK_ATTACK
+	db 25
+	dw SNUBBULL
+	dw BITE, HEADBUTT, ROAR, NO_MOVE
+	db 25
+	dw TANGELA
+	dw ANCIENTPOWER, MEGA_DRAIN, GROWTH, NO_MOVE
+	db 25
+	dw QUAGSIRE
+	dw MUD_SHOT, SLAM, HEADBUTT, HAZE
+	db 25
+	dw DUNSPARCE
+	dw ANCIENTPOWER, HEADBUTT, DIG, GLARE
 	db -1 ; end
 
 	next_list_item ; COOLTRAINERM (14)
@@ -1764,9 +1777,19 @@ BeautyGroup:
 	db -1 ; end
 
 	next_list_item ; BEAUTY (3)
-	db "Julie@", TRAINERTYPE_NORMAL
-	db 5
-	dw EEVEE
+	db "Julie@", TRAINERTYPE_MOVES
+	db 25
+	dw SMOOCHUM
+	dw CONFUSION, POWDER_SNOW, SING, CHARM
+	db 25
+	dw MEOWTH
+	dw PAY_DAY, CUT, PURSUIT, HYPNOSIS
+	db 25
+	dw PONYTA_G
+	dw CONFUSION, DISARM_VOICE, FLASH, NO_MOVE
+	db 25
+	dw VULPIX_A
+	dw AURORA_BEAM, DISARM_VOICE, SPITE, CONFUSE_RAY
 	db -1 ; end
 
 	next_list_item ; BEAUTY (4)
@@ -1974,9 +1997,19 @@ PokemaniacGroup:
 	db -1 ; end
 
 	next_list_item ; POKEMANIAC (16)
-	db "Carter@", TRAINERTYPE_NORMAL
-	db 5
-	dw EEVEE
+	db "Carter@", TRAINERTYPE_MOVES
+	db 25
+	dw NOCTOWL
+	dw AIR_SLASH, HEX, HYPNOSIS, NO_MOVE
+	db 25
+	dw GLOOM
+	dw GIGA_DRAIN, TOXIC, NO_MOVE, NO_MOVE
+	db 25
+	dw KRABBY
+	dw METAL_CLAW, BUBBLE, PROTECT, CUT
+	db 25
+	dw INKAY
+	dw NIGHT_SLASH, PSYBEAM, PURSUIT, HYPNOSIS
 	db -1 ; end
 
 	end_list_items
@@ -2516,9 +2549,19 @@ BugCatcherGroup:
 	db -1 ; end
 
 	next_list_item ; BUG_CATCHER (20)
-	db "Harv@", TRAINERTYPE_NORMAL
-	db 5
-	dw EEVEE
+	db "Harv@", TRAINERTYPE_MOVES
+	db 25
+	dw SCYTHER
+	dw CUT, SLASH, FURY_CUTTER, LEER
+	db 25
+	dw PINECO
+	dw PIN_MISSILE, RAPID_SPIN, SELFDESTRUCT, PROTECT
+	db 25
+	dw YANMA
+	dw AERIAL_ACE, NO_MOVE, NO_MOVE, NO_MOVE
+	db 25
+	dw PINSIR
+	dw SUBMISSION, VICEGRIP, LEECH_LIFE, NO_MOVE
 	db -1 ; end
 
 	end_list_items
@@ -2761,9 +2804,19 @@ FisherGroup:
 	db -1 ; end
 
 	next_list_item ; FISHER (26)
-	db "Quintin@", TRAINERTYPE_NORMAL
-	db 5
-	dw EEVEE
+	db "Quintin@", TRAINERTYPE_MOVES
+	db 25
+	dw QWILFISH
+	dw SPIKES, WATER_PULSE, MINIMIZE, NO_MOVE
+	db 25
+	dw GOLDEEN
+	dw HEADBUTT, AERIAL_ACE, WATER_PULSE, CUT
+	db 25
+	dw OCTILLERY
+	dw OCTAZOOKA, AURORA_BEAM, PSYBEAM, NO_MOVE
+	db 25
+	dw CHINCHOU
+	dw WATER_PULSE, SPARK, THUNDER_WAVE, NO_MOVE
 	db -1 ; end
 
 	end_list_items
@@ -4586,9 +4639,19 @@ CamperGroup:
 	db -1 ; end
 
 	next_list_item ; CAMPER (16)
-	db "David@", TRAINERTYPE_NORMAL
-	db 5
-	dw EEVEE
+	db "David@", TRAINERTYPE_MOVES
+	db 25
+	dw NIDORINO
+	dw AERIAL_ACE, CUT, SPIKES, POISON_STING
+	db 25
+	dw PIKACHU
+	dw SPARK, QUICK_ATTACK, FLASH, THUNDER_WAVE
+	db 25
+	dw FURRET
+	dw SLAM, QUICK_ATTACK, MUD_SLAP, NO_MOVE
+	db 25
+	dw PSYDUCK
+	dw ZEN_HEADBUTT, WATER_PULSE, DISABLE, NO_MOVE
 	db -1 ; end
 
 	next_list_item ; CAMPER (17)

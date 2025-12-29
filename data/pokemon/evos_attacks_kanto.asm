@@ -647,7 +647,7 @@ NidoranFEvosAttacks:
 	dbw 15, FURY_SWIPES
 	dbw 20, SPIKES
 	dbw 25, DOUBLE_KICK
-	dbw 30, BITE
+	dbw 30, POISON_FANG
 	dbw 35, DIG
 	dbw 40, TOXIC
 	dbw 45, SWAGGER
@@ -665,7 +665,7 @@ NidorinaEvosAttacks:
 	dbw 15, FURY_SWIPES
 	dbw 22, SPIKES
 	dbw 29, DOUBLE_KICK
-	dbw 36, BITE
+	dbw 36, POISON_FANG
 	dbw 43, DIG
 	dbw 50, TOXIC
 	dbw 57, SWAGGER
@@ -684,7 +684,7 @@ NidoqueenEvosAttacks:
 	dbw 22, SPIKES
 	dbw 23, BODY_SLAM
 	dbw 29, DOUBLE_KICK
-	dbw 36, BITE
+	dbw 36, POISON_FANG
 	dbw 43, DIG
 	dbw 50, TOXIC
 	dbw 57, SWAGGER
@@ -703,7 +703,7 @@ NidoranMEvosAttacks:
 	dbw 15, FURY_ATTACK
 	dbw 20, SPIKES
 	dbw 25, DOUBLE_KICK
-	dbw 30, HORN_ATTACK
+	dbw 30, POISON_FANG
 	dbw 35, DIG
 	dbw 40, TOXIC
 	dbw 45, SWAGGER
@@ -721,7 +721,7 @@ NidorinoEvosAttacks:
 	dbw 15, FURY_ATTACK
 	dbw 22, SPIKES
 	dbw 29, DOUBLE_KICK
-	dbw 36, HORN_ATTACK
+	dbw 36, POISON_FANG
 	dbw 43, DIG
 	dbw 50, TOXIC
 	dbw 57, SWAGGER
@@ -740,7 +740,7 @@ NidokingEvosAttacks:
 	dbw 22, SPIKES
 	dbw 23, THRASH
 	dbw 29, DOUBLE_KICK
-	dbw 36, HORN_ATTACK
+	dbw 36, POISON_FANG
 	dbw 43, DIG
 	dbw 50, TOXIC
 	dbw 57, SWAGGER

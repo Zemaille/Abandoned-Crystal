@@ -1589,7 +1589,7 @@ VulpixAEvosAttacks:
 	db 0
 	dbw 1, TAIL_WHIP
 	dbw 1, POWDER_SNOW
-	dbw 4, DISABLE
+	dbw 4, DISARM_VOICE
 	dbw 8, ICE_SHARD
 	dbw 12, SPITE
 	dbw 16, ICY_WIND
@@ -1610,7 +1610,7 @@ NinetalesAEvosAttacks:
 	dbw 1, TAIL_WHIP
 	dbw 1, POWDER_SNOW
 	dbw 1, DAZZLE_GLEAM
-	dbw 4, DISABLE
+	dbw 4, DISARM_VOICE
 	dbw 8, ICE_SHARD
 	dbw 12, SPITE
 	dbw 16, ICY_WIND
