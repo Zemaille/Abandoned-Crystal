@@ -30,13 +30,28 @@ FalknerGroup:
 
 WhitneyGroup:
 	next_list_item ; WHITNEY (1)
-	db "WHITNEY@", TRAINERTYPE_MOVES
-	db 18
-	dw CLEFAIRY
-	dw DOUBLESLAP, MIMIC, ENCORE, METRONOME
-	db 20
+	db "Whitney@", TRAINERTYPE_ITEM_MOVES
+	db 23
+	dw SMEARGLE
+	dw SITRUS_BERRY
+	dw SPIKES, SPORE, WHIRLWIND, NO_MOVE
+	db 25
+	dw MAUSHOLD
+	dw KINGS_ROCK
+	dw COLONY_BOMB, BITE, AI_RETURN, NO_MOVE
+	dw 23
+	dw GIRAFARIG
+	dw EVIOLITE
+	dw PSYBEAM, SWIFT
+	dw LIGHT_SCREEN
+	dw REFLECT
+	dw 23
+	dw WIGGLYTUFF
+	dw SING, AI_RETURN, DEFENSE_CURL, NO_MOVE
+	dw 25
 	dw MILTANK
-	dw ROLLOUT, ATTRACT, STOMP, MILK_DRINK
+	dw LEFTOVERS
+	dw ROLLOUT, DEFENSE_CURL, ATTRACT, AI_RETURN
 	db -1 ; end
 
 	end_list_items
@@ -693,23 +708,23 @@ YoungsterGroup:
 	db -1 ; end
 
 	next_list_item ; YOUNGSTER (5)
-	db "SAMUEL@", TRAINERTYPE_NORMAL
-	db 7
-	dw RATTATA
-	db 10
-	dw SANDSHREW
-	db 8
-	dw SPEAROW
-	db 8
-	dw SPEAROW
+	db "Samuel@", TRAINERTYPE_NORMAL
+	db 17
+	dw FURRET
+	db 16
+	dw TANDEMAUS
+	db 18
+	dw SWABLU
+	db 18
+	dw NOCTOWL
 	db -1 ; end
 
 	next_list_item ; YOUNGSTER (6)
-	db "IAN@", TRAINERTYPE_NORMAL
-	db 10
+	db "Ian@", TRAINERTYPE_NORMAL
+	db 19
 	dw MANKEY
-	db 12
-	dw DIGLETT
+	db 20
+	dw TEDDIURSA
 	db -1 ; end
 
 	next_list_item ; YOUNGSTER (7)
@@ -1163,20 +1178,19 @@ BirdKeeperGroup:
 
 LassGroup:
 	next_list_item ; LASS (1)
-	db "CARRIE@", TRAINERTYPE_MOVES
-	db 18
-	dw SNUBBULL
-	dw SCARY_FACE, CHARM, BITE, LICK
+	db "CARRIE@", TRAINERTYPE_NORMAL
+	db 22
+	dw DITTO
 	db -1 ; end
 
 	next_list_item ; LASS (2)
 	db "BRIDGET@", TRAINERTYPE_NORMAL
-	db 15
-	dw JIGGLYPUFF
-	db 15
-	dw JIGGLYPUFF
-	db 15
-	dw JIGGLYPUFF
+	db 21
+	dw STANTLER
+	db 21
+	dw DUNSPARCE
+	db 21
+	dw FARFETCH_D
 	db -1 ; end
 
 	next_list_item ; LASS (3)
@@ -1757,23 +1771,21 @@ CooltrainerFGroup:
 
 BeautyGroup:
 	next_list_item ; BEAUTY (1)
-	db "VICTORIA@", TRAINERTYPE_NORMAL
-	db 9
-	dw SENTRET
-	db 13
-	dw SENTRET
-	db 17
-	dw SENTRET
+	db "Victoria@", TRAINERTYPE_NORMAL
+	db 20
+	dw FURRET
+	db 20
+	dw GOLDEEN
+	db 20
+	dw ZORUA
 	db -1 ; end
 
 	next_list_item ; BEAUTY (2)
-	db "SAMANTHA@", TRAINERTYPE_MOVES
-	db 16
+	db "Samantha@", TRAINERTYPE_NORMAL
+	db 22
 	dw MEOWTH ;Whitney gym trainer, has text about her Meowth
-	dw SCRATCH, GROWL, BITE, PAY_DAY
-	db 16
+	db 22
 	dw MEOWTH
-	dw SCRATCH, GROWL, BITE, SLASH
 	db -1 ; end
 
 	next_list_item ; BEAUTY (3)
@@ -4295,13 +4307,13 @@ PicnickerGroup:
 	db -1 ; end
 
 	next_list_item ; PICNICKER (2)
-	db "GINA@", TRAINERTYPE_NORMAL
-	db 9
-	dw HOPPIP
-	db 9
-	dw HOPPIP
-	db 12
-	dw BULBASAUR
+	db "Gina@", TRAINERTYPE_NORMAL
+	db 18
+	dw IVYSAUR
+	db 18
+	dw BAYLEEF
+	db 18
+	dw GROVYLE
 	db -1 ; end
 
 	next_list_item ; PICNICKER (3)
@@ -4516,8 +4528,8 @@ CamperGroup:
 	db -1 ; end
 
 	next_list_item ; CAMPER (2)
-	db "TODD@", TRAINERTYPE_NORMAL
-	db 14
+	db "Todd@", TRAINERTYPE_NORMAL
+	db 22
 	dw PSYDUCK
 	db -1 ; end
 
@@ -5016,10 +5028,11 @@ PokefanMGroup:
 	db -1 ; end
 
 	next_list_item ; POKEFANM (7)
-	db "BRANDON@", TRAINERTYPE_ITEM
-	db 13
+	db "Brandon@", TRAINERTYPE_NORMAL
+	db 20
 	dw SNUBBULL
-	dw ORAN_BERRY
+	db 20
+	dw SHUCKLE
 	db -1 ; end
 
 	next_list_item ; POKEFANM (8)
@@ -5328,9 +5341,9 @@ BlueGroup:
 
 OfficerGroup:
 	next_list_item ; OFFICER (1)
-	db "KEITH@", TRAINERTYPE_NORMAL
-	db 17
-	dw GROWLITHE
+	db "Keith@", TRAINERTYPE_NORMAL
+	db 22
+	dw GROWLITHE_H
 	db -1 ; end
 
 	next_list_item ; OFFICER (2)
