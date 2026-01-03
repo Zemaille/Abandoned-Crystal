@@ -9,63 +9,63 @@ OddEggProbabilities:
 ; entries correspond to OddEggs (below)
 	table_width 2
 DEF prob_total = 0
-; Pichu
-	prob 8
-	prob 1
-; Cleffa
-	prob 16
+; Dreepy
+	prob 11
 	prob 3
-; Igglybuff
-	prob 16
+; Fennekin
+	prob 11
 	prob 3
-; Smoochum
-	prob 14
-	prob 2
-; Magby
-	prob 10
-	prob 2
-; Elekid
+; Magnemite
+	prob 11
+	prob 3
+; Vulpix-A
+	prob 11
+	prob 3
+; Noibat
+	prob 11
+	prob 3
+; Spiritomb
+	prob 11
+	prob 3
+; Exeggcute
 	prob 12
-	prob 2
-; Tyrogue
-	prob 10
-	prob 1
+	prob 4
 	assert_table_length NUM_ODD_EGGS
 	assert prob_total == 100, "OddEggProbabilities do not sum to 100%!"
 
 OddEggSpecies:
 	table_width 2
-	dw PICHU
-	dw PICHU
-	dw CLEFFA
-	dw CLEFFA
-	dw IGGLYBUFF
-	dw IGGLYBUFF
-	dw SMOOCHUM
-	dw SMOOCHUM
-	dw MAGBY
-	dw MAGBY
-	dw ELEKID
-	dw ELEKID
-	dw TYROGUE
-	dw TYROGUE
+	dw DREEPY
+	dw DREEPY
+	dw FENNEKIN
+	dw FENNEKIN
+	dw MAGNEMITE
+	dw MAGNEMITE
+	dw VULPIX_A
+	dw VULPIX_A
+	dw NOIBAT
+	dw NOIBAT
+	dw SPIRITOMB
+	dw SPIRITOMB
+	dw EXEGGCUTE
+	dw EXEGGCUTE
 	assert_table_length NUM_ODD_EGGS
 
 OddEggMoves:
-	dw THUNDERSHOCK, CHARM, DIZZY_PUNCH, NO_MOVE
-	dw THUNDERSHOCK, CHARM, DIZZY_PUNCH, NO_MOVE
-	dw POUND, CHARM, DIZZY_PUNCH, NO_MOVE
-	dw POUND, CHARM, DIZZY_PUNCH, NO_MOVE
-	dw SING, CHARM, DIZZY_PUNCH, NO_MOVE
-	dw SING, CHARM, DIZZY_PUNCH, NO_MOVE
-	dw POUND, LICK, DIZZY_PUNCH, NO_MOVE
-	dw POUND, LICK, DIZZY_PUNCH, NO_MOVE
-	dw EMBER, DIZZY_PUNCH, NO_MOVE, NO_MOVE
-	dw EMBER, DIZZY_PUNCH, NO_MOVE, NO_MOVE
-	dw QUICK_ATTACK, LEER, DIZZY_PUNCH, NO_MOVE
-	dw QUICK_ATTACK, LEER, DIZZY_PUNCH, NO_MOVE
-	dw TACKLE, DIZZY_PUNCH, NO_MOVE, NO_MOVE
-	dw TACKLE, DIZZY_PUNCH, NO_MOVE, NO_MOVE
+	dw BITE, QUICK_ATTACK, ASTONISH, INFESTATION
+	dw BITE, QUICK_ATTACK, ASTONISH, INFESTATION
+	dw SCRATCH, TAIL_WHIP, EMBER, NO_MOVE
+	dw SCRATCH, TAIL_WHIP, EMBER, NO_MOVE
+	dw TACKLE, THUNDERSHOCK, SUPERSONIC, NO_MOVE
+	dw TACKLE, THUNDERSHOCK, SUPERSONIC, NO_MOVE
+	dw TAIL_WHIP, POWDER_SNOW, DISARM_VOICE, NO_MOVE
+	dw TAIL_WHIP, POWDER_SNOW, DISARM_VOICE, NO_MOVE
+	dw TACKLE, ABSORB, GUST, NO_MOVE
+	dw TACKLE, ABSORB, GUST, NO_MOVE
+	dw NIGHT_SHADE, CONFUSE_RAY, ASTONISH, NO_MOVE
+	dw NIGHT_SHADE, CONFUSE_RAY, ASTONISH, NO_MOVE
+	dw ABSORB, HYPNOSIS, BARRAGE, NO_MOVE
+	dw ABSORB, HYPNOSIS, BARRAGE, NO_MOVE
 
 OddEggs:
 	table_width NICKNAMED_MON_STRUCT_LENGTH
@@ -77,7 +77,7 @@ OddEggs:
 	bigdt 125 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
-	dn 0, 0, 0, 0 ; DVs
+	dn 10, 10, 10, 10 ; DVs
 	db 30, 20, 10, 0 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
@@ -90,7 +90,7 @@ OddEggs:
 	bigdw 11 ; Spd
 	bigdw 8 ; SAtk
 	bigdw 8 ; SDef
-	db "EGG@@@@@@@@"
+	db "Egg@@@@@@@@"
 
 	db 0 ; Species, will be filled on load
 	db NO_ITEM
@@ -99,7 +99,7 @@ OddEggs:
 	bigdt 125 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
-	dn 2, 10, 10, 10 ; DVs
+	dn 11, 10, 10, 10 ; DVs
 	db 30, 20, 10, 0 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
@@ -112,7 +112,7 @@ OddEggs:
 	bigdw 12 ; Spd
 	bigdw 9 ; SAtk
 	bigdw 9 ; SDef
-	db "EGG@@@@@@@@"
+	db "Egg@@@@@@@@"
 
 	db 0 ; Species, will be filled on load
 	db NO_ITEM
@@ -121,7 +121,7 @@ OddEggs:
 	bigdt 125 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
-	dn 0, 0, 0, 0 ; DVs
+	dn 10, 10, 10, 10 ; DVs
 	db 35, 20, 10, 0 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
@@ -134,7 +134,7 @@ OddEggs:
 	bigdw 6 ; Spd
 	bigdw 9 ; SAtk
 	bigdw 10 ; SDef
-	db "EGG@@@@@@@@"
+	db "Egg@@@@@@@@"
 
 	db 0 ; Species, will be filled on load
 	db NO_ITEM
@@ -143,7 +143,7 @@ OddEggs:
 	bigdt 125 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
-	dn 2, 10, 10, 10 ; DVs
+	dn 11, 10, 10, 10 ; DVs
 	db 35, 20, 10, 0 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
@@ -156,7 +156,7 @@ OddEggs:
 	bigdw 7 ; Spd
 	bigdw 10 ; SAtk
 	bigdw 11 ; SDef
-	db "EGG@@@@@@@@"
+	db "Egg@@@@@@@@"
 
 	db 0 ; Species, will be filled on load
 	db NO_ITEM
@@ -165,7 +165,7 @@ OddEggs:
 	bigdt 125 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
-	dn 0, 0, 0, 0 ; DVs
+	dn 10, 10, 10, 10 ; DVs
 	db 15, 20, 10, 0 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
@@ -178,7 +178,7 @@ OddEggs:
 	bigdw 6 ; Spd
 	bigdw 9 ; SAtk
 	bigdw 7 ; SDef
-	db "EGG@@@@@@@@"
+	db "Egg@@@@@@@@"
 
 	db 0 ; Species, will be filled on load
 	db NO_ITEM
@@ -187,7 +187,7 @@ OddEggs:
 	bigdt 125 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
-	dn 2, 10, 10, 10 ; DVs
+	dn 11, 10, 10, 10 ; DVs
 	db 15, 20, 10, 0 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
@@ -200,7 +200,7 @@ OddEggs:
 	bigdw 7 ; Spd
 	bigdw 10 ; SAtk
 	bigdw 8 ; SDef
-	db "EGG@@@@@@@@"
+	db "Egg@@@@@@@@"
 
 	db 0 ; Species, will be filled on load
 	db NO_ITEM
@@ -209,7 +209,7 @@ OddEggs:
 	bigdt 125 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
-	dn 0, 0, 0, 0 ; DVs
+	dn 10, 10, 10, 10 ; DVs
 	db 35, 30, 10, 0 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
@@ -222,7 +222,7 @@ OddEggs:
 	bigdw 11 ; Spd
 	bigdw 13 ; SAtk
 	bigdw 11 ; SDef
-	db "EGG@@@@@@@@"
+	db "Egg@@@@@@@@"
 
 	db 0 ; Species, will be filled on load
 	db NO_ITEM
@@ -231,7 +231,7 @@ OddEggs:
 	bigdt 125 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
-	dn 2, 10, 10, 10 ; DVs
+	dn 11, 10, 10, 10 ; DVs
 	db 35, 30, 10, 0 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
@@ -244,7 +244,7 @@ OddEggs:
 	bigdw 12 ; Spd
 	bigdw 14 ; SAtk
 	bigdw 12 ; SDef
-	db "EGG@@@@@@@@"
+	db "Egg@@@@@@@@"
 
 	db 0 ; Species, will be filled on load
 	db NO_ITEM
@@ -253,7 +253,7 @@ OddEggs:
 	bigdt 125 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
-	dn 0, 0, 0, 0 ; DVs
+	dn 10, 10, 10, 10 ; DVs
 	db 25, 10, 0, 0 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
@@ -266,7 +266,7 @@ OddEggs:
 	bigdw 13 ; Spd
 	bigdw 12 ; SAtk
 	bigdw 10 ; SDef
-	db "EGG@@@@@@@@"
+	db "Egg@@@@@@@@"
 
 	db 0 ; Species, will be filled on load
 	db NO_ITEM
@@ -275,7 +275,7 @@ OddEggs:
 	bigdt 125 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
-	dn 2, 10, 10, 10 ; DVs
+	dn 11, 10, 10, 10 ; DVs
 	db 25, 10, 0, 0 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
@@ -288,7 +288,7 @@ OddEggs:
 	bigdw 14 ; Spd
 	bigdw 13 ; SAtk
 	bigdw 11 ; SDef
-	db "EGG@@@@@@@@"
+	db "Egg@@@@@@@@"
 
 	db 0 ; Species, will be filled on load
 	db NO_ITEM
@@ -297,7 +297,7 @@ OddEggs:
 	bigdt 125 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
-	dn 0, 0, 0, 0 ; DVs
+	dn 10, 10, 10, 10 ; DVs
 	db 30, 30, 10, 0 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
@@ -310,7 +310,7 @@ OddEggs:
 	bigdw 14 ; Spd
 	bigdw 11 ; SAtk
 	bigdw 10 ; SDef
-	db "EGG@@@@@@@@"
+	db "Egg@@@@@@@@"
 
 	db 0 ; Species, will be filled on load
 	db NO_ITEM
@@ -319,7 +319,7 @@ OddEggs:
 	bigdt 125 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
-	dn 2, 10, 10, 10 ; DVs
+	dn 11, 10, 10, 10 ; DVs
 	db 30, 30, 10, 0 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
@@ -332,7 +332,7 @@ OddEggs:
 	bigdw 15 ; Spd
 	bigdw 12 ; SAtk
 	bigdw 11 ; SDef
-	db "EGG@@@@@@@@"
+	db "Egg@@@@@@@@"
 
 	db 0 ; Species, will be filled on load
 	db NO_ITEM
@@ -341,7 +341,7 @@ OddEggs:
 	bigdt 125 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
-	dn 0, 0, 0, 0 ; DVs
+	dn 10, 10, 10, 10 ; DVs
 	db 35, 10, 0, 0 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
@@ -354,7 +354,7 @@ OddEggs:
 	bigdw 8 ; Spd
 	bigdw 8 ; SAtk
 	bigdw 8 ; SDef
-	db "EGG@@@@@@@@"
+	db "Egg@@@@@@@@"
 
 	db 0 ; Species, will be filled on load
 	db NO_ITEM
@@ -363,7 +363,7 @@ OddEggs:
 	bigdt 125 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
-	dn 2, 10, 10, 10 ; DVs
+	dn 11, 10, 10, 10 ; DVs
 	db 35, 10, 0, 0 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
@@ -376,6 +376,6 @@ OddEggs:
 	bigdw 9 ; Spd
 	bigdw 9 ; SAtk
 	bigdw 9 ; SDef
-	db "EGG@@@@@@@@"
+	db "Egg@@@@@@@@"
 
 	assert_table_length NUM_ODD_EGGS

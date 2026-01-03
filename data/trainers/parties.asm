@@ -2541,10 +2541,10 @@ BugCatcherGroup:
 	db -1 ; end
 
 	next_list_item ; BUG_CATCHER (19)
-	db "WAYNE@", TRAINERTYPE_NORMAL
-	db 8
+	db "Wayne@", TRAINERTYPE_NORMAL
+	db 20
 	dw LEDYBA
-	db 10
+	db 20
 	dw PARAS
 	db -1 ; end
 
