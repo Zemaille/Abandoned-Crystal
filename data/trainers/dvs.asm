@@ -5,10 +5,10 @@ TrainerClassDVs:
 	dn  5,  5,  5,  5 ; FALKNER
 	dn  7,  7,  7,  7 ; WHITNEY
 	dn  5,  5,  5,  5 ; BUGSY
-	dn 10, 10, 10, 10 ; MORTY
-	dn 10, 10, 10, 10 ; PRYCE
+	dn 11, 11, 11, 11 ; MORTY
+	dn 11, 11, 11, 11 ; PRYCE
 	dn 15, 15, 15, 15 ; JASMINE
-	dn 10, 10, 10, 10 ; CHUCK
+	dn 11, 11, 11, 11 ; CHUCK
 	dn 15, 15, 15, 15 ; CLAIR
 	dn 13, 13, 13, 13 ; RIVAL1
 	dn  9,  8,  8,  8 ; POKEMON_PROF

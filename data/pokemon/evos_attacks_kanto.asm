@@ -1822,7 +1822,7 @@ GastlyEvosAttacks:
 	dbw 20, CURSE
 	dbw 24, HEX
 	dbw 28, NIGHT_SHADE
-	dbw 32, BEAT_UP
+	dbw 32, SLUDGE_BOMB
 	dbw 36, DARK_PULSE
 	dbw 40, SHADOW_BALL
 	dbw 44, DESTINY_BOND
@@ -1842,7 +1842,7 @@ HaunterEvosAttacks:
 	dbw 24, HEX
 	dbw 25, SHADOW_PUNCH
 	dbw 30, NIGHT_SHADE
-	dbw 36, BEAT_UP
+	dbw 36, SLUDGE_BOMB
 	dbw 42, DARK_PULSE
 	dbw 48, SHADOW_BALL
 	dbw 54, DESTINY_BOND
@@ -1862,7 +1862,7 @@ GengarEvosAttacks:
 	dbw 24, HEX
 	dbw 25, SHADOW_PUNCH
 	dbw 30, NIGHT_SHADE
-	dbw 36, BEAT_UP
+	dbw 36, SLUDGE_BOMB
 	dbw 42, DARK_PULSE
 	dbw 48, SHADOW_BALL
 	dbw 54, DESTINY_BOND

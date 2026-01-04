@@ -448,7 +448,8 @@ PokefanmWilliamSeenText:
 	done
 
 PokefanmWilliamBeatenText:
-	text "M-my Pokémon!"
+	text "It was really"
+	line "nothing."
 	done
 
 PokefanmWilliamAfterBattleText:

@@ -849,37 +849,24 @@ BattleAnim_DisarmVoice:
 	anim_ret
 
 BattleAnim_DazzleGleam:
-	anim_3gfx BATTLE_ANIM_GFX_SPEED, BATTLE_ANIM_GFX_HIT, BATTLE_ANIM_GFX_SHINE
-	anim_sound 0, 1, SFX_MOONLIGHT
+	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_YELLOW
+	anim_2gfx BATTLE_ANIM_GFX_SPEED, BATTLE_ANIM_GFX_REFLECT
 	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
-	anim_bgeffect BATTLE_BG_EFFECT_ALTERNATE_HUES, $0, $2, $0
-	anim_obj BATTLE_ANIM_OBJ_DAZZLE, 44, 88, $0
-	anim_obj BATTLE_ANIM_OBJ_DAZZLE, 44, 88, $8
-	anim_obj BATTLE_ANIM_OBJ_DAZZLE, 44, 88, $10
-	anim_obj BATTLE_ANIM_OBJ_DAZZLE, 44, 88, $18
-	anim_obj BATTLE_ANIM_OBJ_DAZZLE, 44, 88, $20
-	anim_obj BATTLE_ANIM_OBJ_DAZZLE, 44, 88, $28
-	anim_obj BATTLE_ANIM_OBJ_DAZZLE, 44, 88, $30
-	anim_obj BATTLE_ANIM_OBJ_DAZZLE, 44, 88, $38
-	anim_wait 64
-	anim_incbgeffect BATTLE_BG_EFFECT_ALTERNATE_HUES
-	anim_sound 0, 1, SFX_FLASH
-	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $6, $20
-	anim_wait 4
-	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_MON_LIGHT_DARK_REPEATING, $0, $1, $20
-	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_MID_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
-	anim_obj BATTLE_ANIM_OBJ_GLIMMER, 24, 64, $0
-	anim_wait 5
-	anim_obj BATTLE_ANIM_OBJ_GLIMMER, 56, 104, $0
-	anim_wait 5
-	anim_obj BATTLE_ANIM_OBJ_HIT_BIG_YFIX, 136, 56, $0
-	anim_obj BATTLE_ANIM_OBJ_GLIMMER, 24, 104, $0
-	anim_wait 5
-	anim_obj BATTLE_ANIM_OBJ_GLIMMER, 56, 64, $0
-	anim_wait 5
-	anim_obj BATTLE_ANIM_OBJ_GLIMMER, 40, 84, $0
-	anim_wait 5
-	anim_wait 32
+	anim_sound 0, 0, SFX_SHINE
+	anim_obj BATTLE_ANIM_OBJ_MASTER_BALL_SPARKLE, 72, 80, $30
+	anim_obj BATTLE_ANIM_OBJ_MASTER_BALL_SPARKLE, 72, 80, $31
+	anim_obj BATTLE_ANIM_OBJ_MASTER_BALL_SPARKLE, 72, 80, $32
+	anim_obj BATTLE_ANIM_OBJ_MASTER_BALL_SPARKLE, 72, 80, $33
+	anim_obj BATTLE_ANIM_OBJ_MASTER_BALL_SPARKLE, 72, 80, $34
+	anim_obj BATTLE_ANIM_OBJ_MASTER_BALL_SPARKLE, 72, 80, $35
+	anim_obj BATTLE_ANIM_OBJ_MASTER_BALL_SPARKLE, 72, 80, $36
+	anim_obj BATTLE_ANIM_OBJ_MASTER_BALL_SPARKLE, 72, 80, $37
+	anim_call BattleAnimSub_Screen
+	anim_wait 24
+	anim_call BattleAnimSub_InvertedShineScreen
+	anim_wait 24
+	anim_clearobjs
+	anim_wait 40
 	anim_ret
 
 BattleAnim_PlayRough:
