@@ -10,18 +10,12 @@ SafariZoneLeafStoneScript:
 	itemball LEAF_STONE
 
 SafariZoneEntraceWelcomeScript:
-	jumptext SafariZoneEntraceWelcomeText
-
-SafariZoneEntraceRestHouseScript:
-	jumptext SafariZoneEntraceRestHouseText
-
-SafariZoneEntraceWelcomeText:
 	text "The Safari Zone"
 	line "is closed until"
 	cont "further notice."
 	done
 
-SafariZoneEntraceRestHouseText:
+SafariZoneEntraceRestHouseScript:
 	text "REST HOUSES ARE"
 	line "CLOSED. SORRY."
 	done

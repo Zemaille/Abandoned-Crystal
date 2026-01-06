@@ -420,7 +420,7 @@ SlowpokeGEvosAttacks:
 	dbw 21, HEADBUTT
 	dbw 24, ZEN_HEADBUTT
 	dbw 27, AMNESIA
-	dbw 30, SURF
+	dbw 30, SLUDGE_BOMB
 	dbw 33, SLACK_OFF
 	dbw 36, PSYCHIC_M
 	dbw 39, CALM_MIND
