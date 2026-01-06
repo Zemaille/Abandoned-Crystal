@@ -1070,17 +1070,13 @@ BirdKeeperGroup:
 	db -1 ; end
 
 	next_list_item ; BIRD_KEEPER (4)
-	db "THEO@", TRAINERTYPE_NORMAL
-	db 17
-	dw PIDGEY
-	db 15
-	dw PIDGEY
-	db 19
-	dw PIDGEY
-	db 15
-	dw PIDGEY
-	db 15
-	dw PIDGEY
+	db "Theo@", TRAINERTYPE_NORMAL
+	db 35
+	dw HONCHKROW
+	db 35
+	dw GLISCOR
+	db 35
+	dw XATU
 	db -1 ; end
 
 	next_list_item ; BIRD_KEEPER (5)
@@ -1094,13 +1090,13 @@ BirdKeeperGroup:
 	db -1 ; end
 
 	next_list_item ; BIRD_KEEPER (6)
-	db "DENIS@", TRAINERTYPE_NORMAL
-	db 18
-	dw SPEAROW
-	db 20
+	db "Denis@", TRAINERTYPE_NORMAL
+	db 35
+	dw SKARMORY
+	db 35
+	dw TOGETIC
+	db 35
 	dw FEAROW
-	db 18
-	dw SPEAROW
 	db -1 ; end
 
 	next_list_item ; BIRD_KEEPER (7)
@@ -1242,9 +1238,13 @@ LassGroup:
 	db -1 ; end
 
 	next_list_item ; LASS (5)
-	db "CONNIE@", TRAINERTYPE_NORMAL
-	db 21
-	dw MARILL
+	db "Connie@", TRAINERTYPE_NORMAL
+	db 35
+	dw AZUMARILL
+	db 35
+	dw RAICHU_A
+	db 35
+	dw VILEPLUME
 	db -1 ; end
 
 	next_list_item ; LASS (6)
@@ -2319,11 +2319,13 @@ GruntMGroup:
 
 GentlemanGroup:
 	next_list_item ; GENTLEMAN (1)
-	db "PRESTON@", TRAINERTYPE_NORMAL
-	db 18
-	dw GROWLITHE
-	db 18
-	dw GROWLITHE
+	db "Preston@", TRAINERTYPE_NORMAL
+	db 35
+	dw ARCANINE
+	db 35
+	dw PERSIAN
+	db 35
+	dw ESPEON
 	db -1 ; end
 
 	next_list_item ; GENTLEMAN (2)
@@ -2347,9 +2349,13 @@ GentlemanGroup:
 	db -1 ; end
 
 	next_list_item ; GENTLEMAN (5)
-	db "ALFRED@", TRAINERTYPE_NORMAL
-	db 20
-	dw NOCTOWL
+	db "Alfred@", TRAINERTYPE_NORMAL
+	db 35
+	dw WYRDEER
+	db 35
+	dw SEAKING
+	db 35
+	dw DRAMPA
 	db -1 ; end
 
 	end_list_items
@@ -3211,37 +3217,43 @@ SailorGroup:
 	db -1 ; end
 
 	next_list_item ; SAILOR (2)
-	db "HUEY@", TRAINERTYPE_NORMAL
-	db 18
-	dw POLIWAG
-	db 18
-	dw POLIWHIRL
+	db "Huey@", TRAINERTYPE_NORMAL
+	db 35
+	dw POLITOED
+	db 35
+	dw MACHOKE
+	db 35
+	dw BASCULIN
 	db -1 ; end
 
 	next_list_item ; SAILOR (3)
-	db "TERRELL@", TRAINERTYPE_NORMAL
-	db 20
-	dw POLIWHIRL
+	db "Terrel@", TRAINERTYPE_NORMAL
+	db 35
+	dw SEADRA
+	db 35
+	dw LANTURN
+	db 35
+	dw URSARING
 	db -1 ; end
 
 	next_list_item ; SAILOR (4)
-	db "KENT@", TRAINERTYPE_MOVES
-	db 18
-	dw KRABBY
-	dw BUBBLE, LEER, VICEGRIP, HARDEN
-	db 20
-	dw KRABBY
-	dw BUBBLEBEAM, LEER, VICEGRIP, HARDEN
+	db "Kent@", TRAINERTYPE_NORMAL
+	db 35
+	dw KINGLER
+	db 35
+	dw SUDOWOODO
+	db 35
+	dw GOLDUCK
 	db -1 ; end
 
 	next_list_item ; SAILOR (5)
-	db "ERNEST@", TRAINERTYPE_NORMAL
-	db 18
-	dw MACHOP
-	db 18
-	dw MACHOP
-	db 18
-	dw POLIWHIRL
+	db "Ernest@", TRAINERTYPE_NORMAL
+	db 35
+	dw SCYTHER
+	db 35
+	dw SCIZOR
+	db 35
+	dw KLEAVOR
 	db -1 ; end
 
 	next_list_item ; SAILOR (6)
@@ -4094,10 +4106,13 @@ BlackbeltGroup:
 	db -1 ; end
 
 	next_list_item ; BLACKBELT_T (2)
-	db "YOSHI@", TRAINERTYPE_MOVES
-	db 27
+	db "Yoshi@", TRAINERTYPE_NORMAL
+	db 32
 	dw HITMONLEE
-	dw DOUBLE_KICK, MEDITATE, JUMP_KICK, FOCUS_ENERGY
+	db 32
+	dw HITMONCHAN
+	db 32
+	dw HITMONTOP
 	db -1 ; end
 
 	next_list_item ; BLACKBELT_T (3)
@@ -4117,20 +4132,16 @@ BlackbeltGroup:
 	db -1 ; end
 
 	next_list_item ; BLACKBELT_T (4)
-	db "LAO@", TRAINERTYPE_MOVES
-	db 27
-	dw HITMONCHAN
-	dw COMET_PUNCH, THUNDERPUNCH, ICE_PUNCH, FIRE_PUNCH
+	db "Lao@", TRAINERTYPE_ITEM
+	db 34
+	dw PRIMEAPE
+	dw BERSERK_GENE
 	db -1 ; end
 
 	next_list_item ; BLACKBELT_T (5)
-	db "NOB@", TRAINERTYPE_MOVES
-	db 25
-	dw MACHOP
-	dw LEER, FOCUS_ENERGY, KARATE_CHOP, SEISMIC_TOSS
-	db 25
-	dw MACHOKE
-	dw LEER, KARATE_CHOP, SEISMIC_TOSS, ROCK_SLIDE
+	db "Nob@", TRAINERTYPE_MOVES
+	db 34
+	dw MACHAMP
 	db -1 ; end
 
 	next_list_item ; BLACKBELT_T (6)
@@ -4142,13 +4153,9 @@ BlackbeltGroup:
 	db -1 ; end
 
 	next_list_item ; BLACKBELT_T (7)
-	db "LUNG@", TRAINERTYPE_NORMAL
-	db 23
-	dw MANKEY
-	db 23
-	dw MANKEY
-	db 25
-	dw PRIMEAPE
+	db "Lung@", TRAINERTYPE_NORMAL
+	db 34
+	dw SNEASLER
 	db -1 ; end
 
 	next_list_item ; BLACKBELT_T (8)
