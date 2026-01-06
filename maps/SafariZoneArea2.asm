@@ -10,6 +10,9 @@ SafariZoneArea2BigNuggetScript:
 	itemball GIGA_IMPACT
 
 SafariZoneArea2RestHouseScript:
+	jumptext SafariZoneArea2RestHouseText
+	
+SafariZoneArea2RestHouseText:
 	text "REST HOUSES ARE"
 	line "CLOSED. SORRY."
 	done

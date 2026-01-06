@@ -14,11 +14,17 @@ SafariZoneArea1RevivalHerbScript:
 	itemball REVIVAL_HERB
 
 SafariZoneArea1RestHouseScript:
+	jumptext SafariZoneArea3RestHouseText
+
+SafariZoneArea1RestHouseText:
 	text "REST HOUSES ARE"
 	line "CLOSED. SORRY."
 	done
 
 SafariZoneArea1FadedSignScript:
+	jumptext SafariZoneArea1FadedSignText
+
+SafariZoneArea1FadedSignText:
 	text "The sign is too"
 	line "faded to read."
 	done

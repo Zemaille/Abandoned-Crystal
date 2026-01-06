@@ -32,6 +32,9 @@ SafariZoneArea3MewText:
 	done
 
 SafariZoneArea3RestHouseScript:
+	jumptext SafariZoneArea3RestHouseText
+
+SafariZoneArea3RestHouseText:
 	text "REST HOUSES ARE"
 	line "CLOSED. SORRY."
 	done
