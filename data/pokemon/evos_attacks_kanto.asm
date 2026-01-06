@@ -876,7 +876,7 @@ ZubatEvosAttacks:
 	db 0 ; no more level-up moves
 
 GolbatEvosAttacks:
-	dbbw EVOLVE_HAPPINESS, TR_ANYTIME, CROBAT
+	dbbw EVOLVE_LEVEL, 35, CROBAT
 	db 0 ; no more evolutions
 	dbw 1, ABSORB
 	dbw 1, SUPERSONIC

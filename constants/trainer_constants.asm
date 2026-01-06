@@ -669,6 +669,9 @@ DEF KRIS EQU __trainer_class__
 	const ZUKI
 	const KUNI
 	const MIKI
+	const KIRA
+	const SHINO
+	const MOMO
 
 	trainerclass TWINS ; 3d
 	const AMYANDMAY1

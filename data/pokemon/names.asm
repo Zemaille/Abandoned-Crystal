@@ -172,7 +172,7 @@ PokemonNames::
 	db "Ledian@@@@"
 	db "Spinarak@@"
 	db "Ariados@@@"
-	db "Crobot@@@@"
+	db "Crobat@@@@"
 	db "Chinchou@@"
 	db "Lanturn@@@"
 	db "ERROR@@@@@"

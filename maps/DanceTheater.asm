@@ -69,6 +69,81 @@ TrainerKimonoGirlMiki:
 	closetext
 	end
 
+
+TrainerKimonoGirlKira:
+	trainer KIMONO_GIRL, KIRA, EVENT_BEAT_KIMONO_GIRL_KIRA, KimonoGirlKiraSeenText, KimonoGirlKiraBeatenText, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext KimonoGirlKiraAfterBattleText
+	waitbutton
+	closetext
+	end
+
+KimonoGirlKiraSeenText:
+	text "How tight is the"
+	line "bond?"
+	done
+	
+KimonoGirlKiraBeatenText:
+	text "Very close!"
+	done
+	
+KimonoGirlKiraAfterBattleText:
+	text "You glow with a"
+	line "great light!"
+	done
+
+TrainerKimonoGirlShino:
+	trainer KIMONO_GIRL, SHINO, EVENT_BEAT_KIMONO_GIRL_SHINO, KimonoGirlShinoSeenText, KimonoGirlShinoBeatenText, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext KimonoGirlShinoAfterBattleText
+	waitbutton
+	closetext
+	end
+
+KimonoGirlShinoSeenText:
+	text "Can you hear the"
+	line "wind in the trees?"
+	done
+
+KimonoGirlShinoBeatenText:
+	text "And so it fades."
+	done
+
+KimonoGirlShinoAfterBattleText:
+	text "There is a season"
+	line "for everything."
+	done
+
+TrainerKimonoGirlMomo:
+	trainer KIMONO_GIRL, MOMO, EVENT_BEAT_KIMONO_GIRL_MOMO, KimonoGirlMomoSeenText, KimonoGirlMomoBeatenText, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext KimonoGirlKiraAfterBattleText
+	waitbutton
+	closetext
+	end
+
+KimonoGirlMomoSeenText:
+	text "Have your Pokémon"
+	line "blossomed?"
+	done
+
+KimonoGirlMomoBeatenText:
+	text "They have indeed!"
+	done
+
+KimonoGirlMomoAfterBattleText:
+	text "We all will fade."
+	done
+
 DanceTheaterSurfGuy:
 	faceplayer
 	opentext
@@ -85,6 +160,12 @@ DanceTheaterSurfGuy:
 	checkevent EVENT_BEAT_KIMONO_GIRL_KUNI
 	iffalse .KimonoGirlsUndefeated
 	checkevent EVENT_BEAT_KIMONO_GIRL_MIKI
+	iffalse .KimonoGirlsUndefeated
+	checkevent EVENT_BEAT_KIMONO_GIRL_KIRA
+	iffalse .KimonoGirlsUndefeated
+	checkevent EVENT_BEAT_KIMONO_GIRL_SHINO
+	iffalse .KimonoGirlsUndefeated
+	checkevent EVENT_BEAT_KIMONO_GIRL_MOMO
 	iffalse .KimonoGirlsUndefeated
 	sjump .GetSurf
 
@@ -349,12 +430,15 @@ DanceTheater_MapEvents:
 	bg_event  6,  6, BGEVENT_UP, DanceTheaterFancyPanel
 
 	def_object_events
-	object_event  0,  2, SPRITE_KIMONO_GIRL, SPRITEMOVEDATA_SPINCOUNTERCLOCKWISE, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 0, TrainerKimonoGirlNaoko, -1
-	object_event  2,  1, SPRITE_KIMONO_GIRL, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 0, TrainerKimonoGirlSayo, -1
-	object_event  6,  2, SPRITE_KIMONO_GIRL, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 0, TrainerKimonoGirlZuki, -1
-	object_event  9,  1, SPRITE_KIMONO_GIRL, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 0, TrainerKimonoGirlKuni, -1
-	object_event 11,  2, SPRITE_KIMONO_GIRL, SPRITEMOVEDATA_SPINCLOCKWISE, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 0, TrainerKimonoGirlMiki, -1
+	object_event  0,  3, SPRITE_KIMONO_GIRL, SPRITEMOVEDATA_SPINCOUNTERCLOCKWISE, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 0, TrainerKimonoGirlNaoko, -1
+	object_event  1,  1, SPRITE_KIMONO_GIRL, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 0, TrainerKimonoGirlSayo, -1
+	object_event  8,  2, SPRITE_KIMONO_GIRL, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 0, TrainerKimonoGirlZuki, -1
+	object_event 10,  1, SPRITE_KIMONO_GIRL, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 0, TrainerKimonoGirlKuni, -1
+	object_event 11,  3, SPRITE_KIMONO_GIRL, SPRITEMOVEDATA_SPINCLOCKWISE, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 0, TrainerKimonoGirlMiki, -1
 	object_event  7, 10, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, DanceTheaterSurfGuy, -1
 	object_event  6,  8, SPRITE_RHYDON, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, DanceTheaterRhydon, -1
 	object_event 10, 10, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, DanceTheaterCooltrainerMScript, -1
 	object_event  3,  6, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, DanceTheaterGrannyScript, -1
+	object_event  3,  2, SPRITE_KIMONO_GIRL, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 0, TrainerKimonoGirlKira, -1
+	object_event  6,  2, SPRITE_KIMONO_GIRL, SPRITEMOVEDATA_SPINCLOCKWISE, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 0, TrainerKimonoGirlShino, -1
+	object_event  5,  2, SPRITE_KIMONO_GIRL, SPRITEMOVEDATA_SPINCOUNTERCLOCKWISE, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 0, TrainerKimonoGirlMomo, -1

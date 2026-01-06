@@ -5128,34 +5128,53 @@ KimonoGirlGroup:
 	db -1 ; end
 
 	next_list_item ; KIMONO_GIRL (2)
-	db "NAOKO@", TRAINERTYPE_NORMAL
-	db 17
+	db "Naoko@", TRAINERTYPE_NORMAL
+	db 30
 	dw FLAREON
 	db -1 ; end
 
 	next_list_item ; KIMONO_GIRL (3)
-	db "SAYO@", TRAINERTYPE_NORMAL
-	db 17
+	db "Sayo@", TRAINERTYPE_NORMAL
+	db 30
 	dw ESPEON
 	db -1 ; end
 
 	next_list_item ; KIMONO_GIRL (4)
-	db "ZUKI@", TRAINERTYPE_NORMAL
-	db 17
+	db "Zuki@", TRAINERTYPE_NORMAL
+	db 30
 	dw UMBREON
 	db -1 ; end
 
 	next_list_item ; KIMONO_GIRL (5)
-	db "KUNI@", TRAINERTYPE_NORMAL
-	db 17
+	db "Kuni@", TRAINERTYPE_NORMAL
+	db 30
 	dw VAPOREON
 	db -1 ; end
 
 	next_list_item ; KIMONO_GIRL (6)
-	db "MIKI@", TRAINERTYPE_NORMAL
-	db 17
+	db "Miki@", TRAINERTYPE_NORMAL
+	db 30
 	dw JOLTEON
 	db -1 ; end
+
+	next_list_item ; KIMONO_GIRL (6)
+	db "Kira@", TRAINERTYPE_NORMAL
+	db 30
+	dw SYLVEON
+	db -1 ; end
+	
+	next_list_item ; KIMONO_GIRL (6)
+	db "Shino@", TRAINERTYPE_NORMAL
+	db 30
+	dw GLACEON
+	db -1 ; end
+	
+	next_list_item ; KIMONO_GIRL (6)
+	db "Momo@", TRAINERTYPE_NORMAL
+	db 30
+	dw LEAFEON
+	db -1 ; end	
+
 
 	end_list_items
 

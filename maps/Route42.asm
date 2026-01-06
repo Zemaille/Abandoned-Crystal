@@ -288,6 +288,13 @@ PokemaniacShaneAfterBattleText:
 	line "it. Please?"
 	done
 
+Route42RocketScript:
+	jumptextfaceplayer Route42RocketText
+
+Route42RocketText:
+	text  "Buzz off!"
+	done
+
 Route42Sign1Text:
 	text "ROUTE 42"
 
@@ -346,3 +353,4 @@ Route42_MapEvents:
 	object_event 12,  7, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route42UltraBall, EVENT_ROUTE_42_ULTRA_BALL
 	object_event 33,  8, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route42SuperPotion, EVENT_ROUTE_42_SUPER_POTION
 	object_event 26, 16, SPRITE_SUICUNE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_SAW_SUICUNE_ON_ROUTE_42
+	object_event 10,  6, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route42RocketScript, EVENT_BEAT_JASMINE
