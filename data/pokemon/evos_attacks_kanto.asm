@@ -902,11 +902,11 @@ OddishEvosAttacks:
 	dbw 14, POISONPOWDER
 	dbw 16, STUN_SPORE
 	dbw 18, SLEEP_POWDER
-	dbw 20, GIGA_DRAIN
+	dbw 20, MEGA_DRAIN
 	dbw 24, TOXIC 
 	dbw 28, ENERGY_BALL
 	dbw 32, SUNNY_DAY
-	dbw 36, MOONLIGHT
+	dbw 36, GIGA_DRAIN
 	dbw 40, PETAL_DANCE
 	db 0 ; no more level-up moves
 
@@ -921,11 +921,11 @@ GloomEvosAttacks:
 	dbw 14, POISONPOWDER
 	dbw 16, STUN_SPORE
 	dbw 18, SLEEP_POWDER
-	dbw 20, GIGA_DRAIN
+	dbw 20, MEGA_DRAIN
 	dbw 26, TOXIC 
 	dbw 32, ENERGY_BALL
 	dbw 38, SUNNY_DAY
-	dbw 44, MOONLIGHT
+	dbw 44, GIGA_DRAIN
 	dbw 50, PETAL_DANCE
 	db 0 ; no more level-up moves
 
@@ -938,12 +938,12 @@ VileplumeEvosAttacks:
 	dbw 14, POISONPOWDER
 	dbw 16, STUN_SPORE
 	dbw 18, SLEEP_POWDER
-	dbw 20, GIGA_DRAIN
+	dbw 20, MEGA_DRAIN
 	dbw 23, SLUDGE_BOMB
 	dbw 26, TOXIC 
 	dbw 32, ENERGY_BALL
 	dbw 38, SUNNY_DAY
-	dbw 44, MOONLIGHT
+	dbw 44, GIGA_DRAIN
 	dbw 50, PETAL_DANCE
 	db 0 ; no more level-up moves
 
