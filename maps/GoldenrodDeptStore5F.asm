@@ -99,12 +99,17 @@ GoldenrodDeptStore5FLassScript:
 	jumptextfaceplayer GoldenrodDeptStore5FLassText
 
 Mike:
-	faceplayer
-	opentext
-	trade NPC_TRADE_MIKE
-	waitbutton
-	closetext
-	end
+	jumptextfaceplayer MikeText
+
+MikeText:
+	text "I love Machop!"
+	done
+;	faceplayer
+;	opentext
+;	trade NPC_TRADE_MIKE
+;	waitbutton
+;	closetext
+;	end
 
 GoldenrodDeptStore5FPokefanMScript:
 	jumptextfaceplayer GoldenrodDeptStore5FPokefanMText

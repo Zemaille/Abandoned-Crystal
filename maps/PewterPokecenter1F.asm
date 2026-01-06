@@ -28,12 +28,18 @@ PewterPokecenter1FBugCatcherScript:
 	jumptextfaceplayer PewterPokecenter1FBugCatcherText
 
 Chris:
-	faceplayer
-	opentext
-	trade NPC_TRADE_CHRIS
-	waitbutton
-	closetext
-	end
+	jumptextfaceplayer ChrisText
+
+ChrisText:
+	text "Paul, my Xatu"
+	line "is cool!"
+	done
+;	faceplayer
+;	opentext
+;	trade NPC_TRADE_CHRIS
+;	waitbutton
+;	closetext
+;	end
 
 PewterPokecenter1FTeacherText:
 	text "…Yeah, and the"

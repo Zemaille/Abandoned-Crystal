@@ -7,12 +7,22 @@ BlackthornEmysHouse_MapScripts:
 	def_callbacks
 
 Emy:
-	faceplayer
-	opentext
-	trade NPC_TRADE_EMY
-	waitbutton
-	closetext
-	end
+	jumptextfaceplayer EmiText
+	
+EmiText:
+	text "I'm Emi!"
+	
+	para "I love Misdreavus!"
+	done
+
+
+
+;	faceplayer
+;	opentext
+;	trade NPC_TRADE_EMY
+;	waitbutton
+;	closetext
+;	end
 
 EmysHouseBookshelf:
 	jumpstd MagazineBookshelfScript

@@ -241,6 +241,9 @@ WhitneyPlainBadgeText:
 	para "Strength outside"
 	line "of battle."
 
+	para "Your new level"
+	line "cap is Lv 30."
+
 	para "It also boosts"
 	line "your Pokémon's"
 	cont "Speed."

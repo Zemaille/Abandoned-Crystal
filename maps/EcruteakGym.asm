@@ -234,10 +234,10 @@ Text_ReceivedFogBadge:
 
 MortyText_FogBadgeSpeech:
 	text "By having Fog"
-	line "Badge, Pokémon up"
+	line "Badge, your level"
 
-	para "to L50 will obey"
-	line "you."
+	para "cap is increased"
+	line "to Lv 35."
 
 	para "Also, Pokémon that"
 	line "know Surf will be"

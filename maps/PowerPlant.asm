@@ -187,12 +187,17 @@ PowerPlantManager:
 	end
 
 Forest:
-	faceplayer
-	opentext
-	trade NPC_TRADE_FOREST
-	waitbutton
-	closetext
-	end
+	jumptextfaceplayer ForrestText
+
+ForrestText:
+	text "I love Magnezone!"
+	done
+;	faceplayer
+;	opentext
+;	trade NPC_TRADE_FOREST
+;	waitbutton
+;	closetext
+;	end
 
 PowerPlantBookshelf:
 	jumpstd DifficultBookshelfScript

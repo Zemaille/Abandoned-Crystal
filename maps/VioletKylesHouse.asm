@@ -11,12 +11,17 @@ VioletKylesHousePokefanMScript:
 	jumptextfaceplayer VioletKylesHousePokefanMText
 
 Kyle:
-	faceplayer
-	opentext
-	trade NPC_TRADE_KYLE
-	waitbutton
-	closetext
-	end
+	jumptextfaceplayer KyleText
+	
+KyleText:
+	text "I love my Onix!"
+	done
+;	faceplayer
+;	opentext
+;	trade NPC_TRADE_KYLE
+;	waitbutton
+;	closetext
+;	end
 
 VioletKylesHousePokefanMText:
 	text "A Pokémon you get"

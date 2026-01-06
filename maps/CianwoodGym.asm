@@ -200,11 +200,10 @@ GetStormBadgeText:
 	done
 
 ChuckExplainBadgeText:
-	text "Storm Badge makes"
-	line "all Pokémon up to"
+	text "Storm Badge sets"
+	line "your level cap to"
 
-	para "L70 obey, even"
-	line "traded ones."
+	para "Lv 40 now!"
 
 	para "It also lets your"
 	line "Pokémon use Fly"

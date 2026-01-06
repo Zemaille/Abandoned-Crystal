@@ -188,11 +188,8 @@ BugsyText_HiveBadgeSpeech:
 	line "benefits of Hive"
 	cont "Badge?"
 
-	para "If you have it,"
-	line "Pokémon up to L30"
-
-	para "will obey you,"
-	line "even traded ones."
+	para "Your new level"
+	line "cap is Lv 25."
 
 	para "Pokémon that know"
 	line "Cut will be able"
@@ -205,7 +202,7 @@ BugsyText_HiveBadgeSpeech:
 	done
 
 BugsyText_FuryCutterSpeech:
-	text "TM03 contains"
+	text "TM02 contains"
 	line "Leech Life."
 	done
 

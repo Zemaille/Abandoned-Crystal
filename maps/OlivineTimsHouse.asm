@@ -7,12 +7,17 @@ OlivineTimsHouse_MapScripts:
 	def_callbacks
 
 Tim:
-	faceplayer
-	opentext
-	trade NPC_TRADE_TIM
-	waitbutton
-	closetext
-	end
+	jumptextfaceplayer TimText
+
+TimText:
+	text "I love Voltorb!"
+	done
+;	faceplayer
+;	opentext
+;	trade NPC_TRADE_TIM
+;	waitbutton
+;	closetext
+;	end
 
 TimsHouseBookshelf:
 	jumpstd MagazineBookshelfScript

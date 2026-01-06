@@ -10,12 +10,21 @@ Route14_MapScripts:
 	def_callbacks
 
 Kim:
-	faceplayer
-	opentext
-	trade NPC_TRADE_KIM
-	waitbutton
-	closetext
-	end
+	jumptextfaceplayer KimText
+	
+KimText:
+	text "Trade away Aeroy?"
+	
+	para "Why would I do"
+	line "that?"
+	done
+
+;	faceplayer
+;	opentext
+;	trade NPC_TRADE_KIM
+;	waitbutton
+;	closetext
+;	end
 
 TrainerPokefanmCarter:
 	trainer POKEFANM, CARTER, EVENT_BEAT_POKEFANM_CARTER, PokefanmCarterSeenText, PokefanmCarterBeatenText, 0, .Script

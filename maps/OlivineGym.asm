@@ -108,14 +108,11 @@ Jasmine_SteelTypeIntro:
 	line "Gym Leader. I use"
 	cont "the steel-type."
 
-	para "…Do you know about"
-	line "the steel-type?"
-
-	para "It's a type that"
-	line "was only recently"
-	cont "discovered."
-
-	para "…Um… May I begin?"
+	para "You already have"
+	line "four badges…"
+	
+	para "I will not hold"
+	line "back."
 	done
 
 Jasmine_BetterTrainer:
@@ -142,6 +139,10 @@ Jasmine_BadgeSpeech:
 	line "raises Pokémon's"
 	cont "Defense."
 
+	para "Your League level"
+	line "cap is upped to"
+	cont "Lv 45."
+
 	para "…Um… Please take"
 	line "this too…"
 	done
@@ -153,9 +154,14 @@ Jasmine_IronTailSpeech:
 	done
 
 Jasmine_GoodLuck:
-	text "Um… I don't know"
-	line "how to say this,"
-	cont "but good luck…"
+	text "…Okay…"
+	
+	para "I held back a"
+	line "little bit…"
+	
+	para "This isn't the"
+	line "Elite Four, after"
+	cont "all! Good luck!"
 	done
 
 OlivineGymGuideText:
