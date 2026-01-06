@@ -3,6 +3,7 @@
 	const OLIVINECITY_STANDING_YOUNGSTER
 	const OLIVINECITY_SAILOR2
 	const OLIVINECITY_OLIVINE_RIVAL
+	const OLIVINECITY_JASMINE
 
 OlivineCity_MapScripts:
 	def_scene_scripts
@@ -281,6 +282,50 @@ OlivineCityBattleTowerSignText:
 	line "ahead!"
 	done
 
+OlivineCityJasmine:
+	faceplayer
+	opentext
+	checkevent EVENT_JASMINE_EXPLAINED_AMPHYS_SICKNESS
+	iftrue .ExplainedSickness
+	writetext OlivineCityJasminePharmacyText
+	promptbutton
+	setevent EVENT_JASMINE_EXPLAINED_AMPHYS_SICKNESS
+.ExplainedSickness:
+	writetext OlivineCityJasmineGetSomeMedicineText
+	waitbutton
+	closetext
+	end
+
+OlivineCityJasminePharmacyText:
+	text "Jasmine: The"
+	line "Ampharos in here"
+
+	para "kept the sea lit"
+	line "at night."
+
+	para "…But it suddenly"
+	line "got sick… It's"
+	cont "gasping for air…"
+
+	para "…I understand"
+	line "that there is a"
+
+	para "wonderful Pharmacy"
+	line "in Cianwood…"
+
+	para "But that's across"
+	line "the sea…"
+
+	para "And I can't leave"
+	line "Amphy unattended…"
+	done
+
+OlivineCityJasmineGetSomeMedicineText:
+	text "…May I ask you to"
+	line "get some medicine"
+	cont "for me? Please?"
+	done
+
 OlivineCity_MapEvents:
 	db 0, 0 ; filler
 
@@ -315,3 +360,4 @@ OlivineCity_MapEvents:
 	object_event 20, 13, SPRITE_STANDING_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, OlivineCityStandingYoungsterScript, -1
 	object_event 17, 21, SPRITE_SAILOR, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, OlivineCitySailor2Script, -1
 	object_event 10, 11, SPRITE_OLIVINE_RIVAL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_RIVAL_OLIVINE_CITY
+	object_event 29, 28, SPRITE_JASMINE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, OlivineCityJasmine, EVENT_GOT_SECRETPOTION_FROM_PHARMACY
