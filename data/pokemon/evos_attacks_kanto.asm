@@ -1254,7 +1254,7 @@ PoliwrathEvosAttacks:
 	dbw 24, RAIN_DANCE
 	dbw 25, SUBMISSION
 	dbw 32, BODY_SLAM
-	dbw 40, SUBMISSION
+	dbw 40, CROSS_CHOP
 	dbw 48, HYDRO_PUMP
 	dbw 56, BELLY_DRUM
 	dbw 66, DOUBLE_EDGE
