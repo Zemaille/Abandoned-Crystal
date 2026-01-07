@@ -3139,7 +3139,25 @@ HydroBoostEffect:
 	ret
 	
 SilphPortEffect:
-	call TeleportFunction
+	ld a, 1
+	ld [wFlyingWithHMItem], a
+	farcall FlyFunction
+	ld a, [wFieldMoveSucceeded]
+	cp $2
+	jr z, .Fail
+	cp $0
+	jr z, .Error
+	farcall StubbedTrainerRankings_Fly
+	ld b, $4
+	ld a, $2
+	ret
+
+.Fail:
+	ld a, $3
+	ret
+
+.Error:
+	ld a, $0
 	ret
 
 PocketPCEffect:

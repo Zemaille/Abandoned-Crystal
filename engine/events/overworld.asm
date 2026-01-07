@@ -479,47 +479,49 @@ CheckDirection:
 TrySurfOW::
 ; Checking a tile in the overworld.
 ; Return carry if fail is allowed.
-
 ; Don't ask to surf if already fail.
 	ld a, [wPlayerState]
 	cp PLAYER_SURF_PIKA
 	jr z, .quit
 	cp PLAYER_SURF
 	jr z, .quit
-
 ; Must be facing water.
 	ld a, [wFacingTileID]
 	call GetTilePermission
 	cp WATER_TILE
 	jr nz, .quit
-
 ; Check tile permissions.
 	call CheckDirection
 	jr c, .quit
-
 	ld de, ENGINE_FOGBADGE
 	call CheckEngineFlag
 	jr c, .quit
-
+	
+	; Check if player has Surf move in party
 	ld hl, SURF
 	call CheckPartyMoveIndex
-	jr c, .quit
-
+	jr nc, .has_surf  ; If found (no carry), proceed
+	
+	; Otherwise, check for LOCH_FLUTE item
+	ld a, LOCH_FLUTE
+	ld [wCurItem], a
+	ld hl, wNumItems
+	call CheckItem
+	jr c, .quit  ; If NOT found (carry set), fail
+	
+.has_surf:
 	ld hl, wBikeFlags
 	bit BIKEFLAGS_ALWAYS_ON_BIKE_F, [hl]
 	jr nz, .quit
-
 	call GetSurfType
 	ld [wSurfingPlayerState], a
 	call GetPartyNickname
-
 	ld a, BANK(AskSurfScript)
 	ld hl, AskSurfScript
 	call CallScript
-
 	scf
 	ret
-
+	
 .quit
 	xor a
 	ret
@@ -584,11 +586,30 @@ FlyFunction:
 
 .illegal
 	call CloseWindow
+	ld a, [wFlyingWithHMItem]
+	and a
+	jr z, .done_tiles
+	ld a, [wUsingItemWithSelect]
+	and a
+	jr nz, .overworld
+	farcall Pack_InitGFX ; gets the pack GFX when exiting out of Fly by pressing B
+	farcall WaitBGMap_DrawPackGFX
+	farcall Pack_InitColors
+.done_tiles
 	call WaitBGMap
 	ld a, JUMPTABLE_EXIT
 	ret
 
+.overworld
+	call ExitFlyMap
+	jr .done_tiles
+
 .DoFly:
+	ld a, [wUsingItemWithSelect]
+	and a
+	jr z, .done_select
+	call ExitFlyMap
+.done_select
 	ld hl, .FlyScript
 	call QueueScript
 	ld a, JUMPTABLE_EXIT | $1
@@ -698,9 +719,19 @@ Script_UsedWaterfall:
 	text_end
 
 TryWaterfallOW::
+	; Check if player has Waterfall move in party
 	ld hl, WATERFALL
 	call CheckPartyMoveIndex
-	jr c, .failed
+	jr nc, .has_waterfall  ; If found (no carry), proceed
+	
+	; Otherwise, check for HYDRO_BOOST item
+	ld a, HYDRO_BOOST
+	ld [wCurItem], a
+	ld hl, wNumItems
+	call CheckItem
+	jr c, .failed  ; If NOT found (carry set), fail
+	
+.has_waterfall:
 	ld de, ENGINE_RISINGBADGE
 	call CheckEngineFlag
 	jr c, .failed
@@ -711,14 +742,13 @@ TryWaterfallOW::
 	call CallScript
 	scf
 	ret
-
+	
 .failed
 	ld a, BANK(Script_CantDoWaterfall)
 	ld hl, Script_CantDoWaterfall
 	call CallScript
 	scf
 	ret
-
 Script_CantDoWaterfall:
 	jumptext .HugeWaterfallText
 
@@ -1039,27 +1069,35 @@ BouldersMayMoveText:
 	text_end
 
 TryStrengthOW:
+	; Check if player has Strength move in party
 	ld hl, STRENGTH
 	call CheckPartyMoveIndex
-	jr c, .nope
-
+	jr nc, .has_strength  ; If found (no carry), proceed
+	
+	; Otherwise, check for LIFTING_BELT item
+	ld a, LIFTING_BELT
+	ld [wCurItem], a
+	ld hl, wNumItems
+	call CheckItem
+	jr c, .nope  ; If NOT found (carry set), fail
+	
+.has_strength:
 	ld de, ENGINE_PLAINBADGE
 	call CheckEngineFlag
 	jr c, .nope
-
 	ld hl, wBikeFlags
 	bit BIKEFLAGS_STRENGTH_ACTIVE_F, [hl]
 	jr z, .already_using
-
 	ld a, 2
 	jr .done
-
+	
 .nope
 	ld a, 1
 	jr .done
-
+	
 .already_using
 	xor a
+	
 .done
 	ld [wScriptVar], a
 	ret
@@ -1170,9 +1208,19 @@ DisappearWhirlpool:
 	jmp GetMovementPermissions
 
 TryWhirlpoolOW::
+	; Check if player has Whirlpool move in party
 	ld hl, WHIRLPOOL
 	call CheckPartyMoveIndex
-	jr c, .failed
+	jr nc, .has_whirlpool  ; If found (no carry), proceed
+	
+	; Otherwise, check for VORTEX_DRIVE item
+	ld a, VORTEX_DRIVE
+	ld [wCurItem], a
+	ld hl, wNumItems
+	call CheckItem
+	jr c, .failed  ; If NOT found (carry set), fail
+	
+.has_whirlpool:
 	ld de, ENGINE_GLACIERBADGE
 	call CheckEngineFlag
 	jr c, .failed
@@ -1183,7 +1231,7 @@ TryWhirlpoolOW::
 	call CallScript
 	scf
 	ret
-
+	
 .failed
 	ld a, BANK(Script_MightyWhirlpool)
 	ld hl, Script_MightyWhirlpool

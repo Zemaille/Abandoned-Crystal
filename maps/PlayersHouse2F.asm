@@ -61,7 +61,6 @@ if DEF(_DEBUG)
 	giveitem BIG_NUGGET, 99
 	giveitem MAX_REPEL, 99
 	giveitem MASTER_BALL, 99
-	giveitem TEST_BERRY, 2
 	giveitem BICYCLE
 	giveitem OLD_ROD
 	giveitem THUNDERSTONE, 10
@@ -78,6 +77,13 @@ if DEF(_DEBUG)
 	giveitem KINGS_ROCK
 	giveitem AMULET_COIN
 	giveitem SCOPE_LENS
+	giveitem HATCHET
+	giveitem SILPHPORT
+	giveitem LOCH_FLUTE
+	giveitem LIFTING_BELT
+	giveitem LANTERN
+	giveitem VORTEX_DRIVE
+	giveitem HYDRO_BOOST
 	; all badges
 	setflag ENGINE_ZEPHYRBADGE
 	setflag ENGINE_HIVEBADGE

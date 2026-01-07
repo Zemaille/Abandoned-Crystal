@@ -412,7 +412,15 @@ GetSpeciesIcon:
 
 FlyFunction_GetMonIcon:
 	push de
+	ld a, [wFlyingWithHMItem]
+	and a
+	jr z, .flying_with_mon
+	ld a, PORYGON
+	jr .finish
+
+.flying_with_mon
 	ld a, [wTempIconSpecies]
+.finish
 	ld [wCurIcon], a
 	pop de
 	ld a, e

@@ -2286,7 +2286,7 @@ wCutWhirlpoolReplacementBlock:: db
 wCutWhirlpoolAnimationType::
 wStrengthSpecies::
 wFishingResult:: db
-	ds 1
+wFlyingWithHMItem:: db
 wFieldMoveDataEnd::
 
 NEXTU
