@@ -635,30 +635,13 @@ WaterfallFunction:
 	call CheckBadge
 	ld a, JUMPTABLE_EXIT
 	ret c
-	
-	; Check if player has Waterfall move in party
-	ld de, WATERFALL
-	call CheckPartyMove
-	jr nc, .has_waterfall  ; If found (no carry), proceed
-	
-	; Otherwise, check for HYDRO_BOOST item
-	ld a, HYDRO_BOOST
-	ld [wCurItem], a
-	ld hl, wNumItems
-	call CheckItem
-	jr nc, .has_waterfall  ; If found (no carry), proceed
-	
-	; Neither found - fail
-	jr .failed
-	
-.has_waterfall:
 	call CheckMapCanWaterfall
 	jr c, .failed
 	ld hl, Script_WaterfallFromMenu
 	call QueueScript
 	ld a, JUMPTABLE_EXIT | $1
 	ret
-	
+
 .failed
 	call FieldMoveFailed
 	ld a, JUMPTABLE_EXIT
