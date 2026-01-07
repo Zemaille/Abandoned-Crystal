@@ -1115,36 +1115,25 @@ WhirlpoolFunction:
 	ld de, ENGINE_GLACIERBADGE
 	call CheckBadge
 	jr c, .noglacierbadge
-	
-	; Check if player has Whirlpool move in party
-	ld de, WHIRLPOOL
-	call CheckPartyMove
-	jr nc, .has_whirlpool  ; If found (no carry), proceed
-	
-	; Otherwise, check for VORTEX_DRIVE item
-	ld a, VORTEX_DRIVE
-	ld [wCurItem], a
-	ld hl, wNumItems
-	call CheckItem
-	jr c, .failed  ; If NOT found (carry set), fail
-	
-.has_whirlpool:
 	call TryWhirlpoolMenu
 	jr c, .failed
 	ld a, $1
 	ret
-	
+
 .failed
 	ld a, $2
 	ret
+
 .noglacierbadge
 	ld a, JUMPTABLE_EXIT
 	ret
+
 .DoWhirlpool:
 	ld hl, Script_WhirlpoolFromMenu
 	call QueueScript
 	ld a, JUMPTABLE_EXIT | $1
 	ret
+
 .FailWhirlpool:
 	call FieldMoveFailed
 	ld a, JUMPTABLE_EXIT
