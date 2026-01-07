@@ -362,8 +362,23 @@ SurfFunction:
 	jr c, .cannotsurf
 	farcall CheckFacingObject
 	jr c, .cannotsurf
+	
+	; Check if player has Surf move in party
+	ld de, SURF
+	call CheckPartyMove
+	jr nc, .can_surf  ; If found (no carry), proceed
+	
+	; Otherwise, check for LOCH_FLUTE item
+	ld a, LOCH_FLUTE
+	ld [wCurItem], a
+	ld hl, wNumItems
+	call CheckItem
+	jr c, .cannotsurf  ; If NOT found (carry set), fail
+	
+.can_surf:
 	ld a, $1
 	ret
+	
 .nofogbadge
 	ld a, JUMPTABLE_EXIT
 	ret
