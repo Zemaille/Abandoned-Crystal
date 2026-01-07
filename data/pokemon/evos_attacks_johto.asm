@@ -1041,7 +1041,7 @@ GirafarigEvosAttacks:
 	db 0 ; no more level-up moves
 
 PinecoEvosAttacks:
-	dbbw EVOLVE_LEVEL, 31, FORRETRESS
+	dbbw EVOLVE_LEVEL, 30, FORRETRESS
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, PROTECT
@@ -1246,7 +1246,7 @@ HeracrossEvosAttacks:
 	db 0 ; no more level-up moves
 
 SneaselEvosAttacks:
-	dbww EVOLVE_ITEM, ICE_STONE, WEAVILE
+	dbww EVOLVE_LEVEL, 40, WEAVILE
 	db 0 ; no more evolutions
 	dbw 1, SCRATCH
 	dbw 1, LEER
@@ -1341,7 +1341,7 @@ MagcargoEvosAttacks:
 	db 0 ; no more level-up moves
 
 SwinubEvosAttacks:
-	dbbw EVOLVE_LEVEL, 33, PILOSWINE
+	dbbw EVOLVE_LEVEL, 30, PILOSWINE
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, MUD_SLAP

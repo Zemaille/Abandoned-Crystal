@@ -370,8 +370,8 @@ FishGroups:
 
 .Ecruteak:
 	dbbw  60 percent, 20, BASCULIN
-	dbbw  80 percent, 20, KABUTO
-	dbbw 100 percent, 20, OMANYTE
+	dbbw  80 percent, 20, POLIWHIRL
+	dbbw 100 percent, 20, FEEBAS
 	
 .Blackthorn:
 	dbbw  60 percent, 30, BASCULIN 
