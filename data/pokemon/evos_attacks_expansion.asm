@@ -915,7 +915,7 @@ FennekinEvosAttacks:
 	db 0
 
 BraixenEvosAttacks:
-	dbbw EVOLVE_LEVEL, 36, DELPHOX
+	dbbw EVOLVE_LEVEL, 35, DELPHOX
 	db 0
 	dbw 1, SCRATCH
 	dbw 1, TAIL_WHIP
@@ -955,7 +955,7 @@ DelphoxEvosAttacks:
 	db 0
 
 SneaselHEvosAttacks:
-	dbww EVOLVE_LEVEL, 40, SNEASLER
+	dbww EVOLVE_ITEM, KINGS_ROCK, SNEASLER
 	db 0
 	dbw 1, SCRATCH
 	dbw 1, LEER
@@ -1097,7 +1097,7 @@ ZoroarkEvosAttacks:
 	dbw 20, DOUBLE_TEAM
 	dbw 24, THIEF
 	dbw 30, SHADOW_CLAW
-	dbw 34, AGILITY
+	dbw 34, TRI_ATTACK
 	dbw 40, SHADOW_BALL
 	dbw 46, EXTRASENSORY
 	dbw 52, NASTY_PLOT
@@ -1433,9 +1433,9 @@ ChimechoEvosAttacks:
 	dbw 19, TAKE_DOWN
 	dbw 22, EXTRASENSORY
 	dbw 27, HEAL_BELL
-	dbw 32, PSYCHIC_M
+	dbw 32, DAZZLE_GLEAM
 	dbw 37, SAFEGUARD
-	dbw 42, DOUBLE_EDGE
+	dbw 42, PSYCHIC_M
 	dbw 47, RECOVER
 	db 0
 

@@ -4154,7 +4154,7 @@ BlackbeltGroup:
 	db -1 ; end
 
 	next_list_item ; BLACKBELT_T (5)
-	db "Nob@", TRAINERTYPE_MOVES
+	db "Nob@", TRAINERTYPE_NORMAL
 	db 34
 	dw MACHAMP
 	db -1 ; end
