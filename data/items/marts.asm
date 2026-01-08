@@ -35,22 +35,24 @@ Marts:
 	assert_table_length NUM_MARTS
 
 MartCherrygrove:
-	db 4 ; # items
+	db 5 ; # items
 	dw POTION
 	dw ANTIDOTE
 	dw PARLYZ_HEAL
 	dw AWAKENING
+	dw REPEL
 
 MartCherrygroveDex:
-	db 5 ; # items
+	db 6 ; # items
 	dw POKE_BALL
 	dw POTION
 	dw ANTIDOTE
 	dw PARLYZ_HEAL
 	dw AWAKENING
+	dw REPEL
 
 MartViolet:
-	db 10 ; # items
+	db 8 ; # items
 	dw POKE_BALL
 	dw POTION
 	dw ORAN_BERRY
@@ -58,12 +60,10 @@ MartViolet:
 	dw CHERI_BERRY
 	dw CHESTO_BERRY
 	dw ESCAPE_ROPE
-	dw ANTIDOTE
-	dw PARLYZ_HEAL
-	dw AWAKENING
+	dw REPEL
 
 MartAzalea:
-	db 10 ; # items
+	db 8 ; # items
 	dw CHARCOAL
 	dw BERRY_JUICE
 	dw ORAN_BERRY
@@ -72,8 +72,6 @@ MartAzalea:
 	dw SUPER_POTION
 	dw ESCAPE_ROPE
 	dw REPEL
-	dw ANTIDOTE
-	dw PARLYZ_HEAL
 
 
 MartCianwood:
