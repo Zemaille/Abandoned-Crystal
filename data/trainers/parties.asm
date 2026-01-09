@@ -154,7 +154,7 @@ JasmineGroup:
 
 ChuckGroup:
 	next_list_item ; CHUCK (1)
-	db "CHUCK@", TRAINERTYPE_ITEM_MOVES
+	db "Chuck@", TRAINERTYPE_ITEM_MOVES
 	db 35
 	dw DODRIO
 	dw SITRUS_BERRY

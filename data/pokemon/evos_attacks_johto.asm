@@ -559,7 +559,8 @@ NatuEvosAttacks:
 	dbw 10, TELEPORT
 	dbw 15, CONFUSE_RAY
 	dbw 20, NIGHT_SHADE
-	dbw 26, HAZE
+	dbw 24, HAZE
+	dbw 26, EXTRASENSORY
 	dbw 30, CALM_MIND
 	dbw 35, PSYCHIC_M
 	dbw 40, RECOVER
@@ -575,6 +576,7 @@ XatuEvosAttacks:
 	dbw 15, CONFUSE_RAY
 	dbw 20, NIGHT_SHADE
 	dbw 28, HAZE
+	dbw 32, EXTRASENSORY
 	dbw 34, CALM_MIND
 	dbw 41, PSYCHIC_M
 	dbw 48, RECOVER
@@ -1017,8 +1019,8 @@ WobbuffetEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, COUNTER
 	dbw 1, MIRROR_COAT
-	dbw 1, SAFEGUARD
 	dbw 1, DESTINY_BOND
+	dbw 1, SAFEGUARD
 	db 0 ; no more level-up moves
 
 GirafarigEvosAttacks:
@@ -1302,7 +1304,7 @@ UrsaringEvosAttacks:
 	db 0 ; no more level-up moves
 
 SlugmaEvosAttacks:
-	dbbw EVOLVE_LEVEL, 38, MAGCARGO
+	dbbw EVOLVE_LEVEL, 35, MAGCARGO
 	db 0 ; no more evolutions
 	dbw 1, SMOG
 	dbw 1, HARDEN

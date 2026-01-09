@@ -45,7 +45,7 @@ CianwoodZapdosGScript:
 	faceplayer
 	opentext
 	writetext CianwoodZapdosGText
-	cry ZAPDOS
+	cry ZAPDOS_G
 	pause 15
 	closetext
 	loadwildmon ZAPDOS, 70

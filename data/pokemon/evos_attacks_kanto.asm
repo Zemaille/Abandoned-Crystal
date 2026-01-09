@@ -345,7 +345,7 @@ ButterfreeEvosAttacks:
 	dbw 12, SLEEP_POWDER
 	dbw 16, PSYBEAM
 	dbw 20, WHIRLWIND
-	dbw 24, WHIRLWIND
+	dbw 24, AIR_CUTTER
 	dbw 28, SAFEGUARD
 	dbw 32, BUG_BUZZ
 	dbw 36, AGILITY
@@ -982,7 +982,7 @@ ParasectEvosAttacks:
 	db 0 ; no more level-up moves
 
 VenonatEvosAttacks:
-	dbbw EVOLVE_LEVEL, 31, VENOMOTH
+	dbbw EVOLVE_LEVEL, 30, VENOMOTH
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, DISABLE
@@ -995,7 +995,7 @@ VenonatEvosAttacks:
 	dbw 29, SPORE
 	dbw 35, LEECH_LIFE
 	dbw 37, ZEN_HEADBUTT
-	dbw 41, POISON_FANG
+	dbw 41, SLUDGE_BOMB
 	dbw 47, PSYCHIC_M
 	db 0 ; no more level-up moves
 
@@ -1013,7 +1013,7 @@ VenomothEvosAttacks:
 	dbw 31, AIR_SLASH
 	dbw 37, LEECH_LIFE
 	dbw 41, ZEN_HEADBUTT
-	dbw 47, POISON_FANG
+	dbw 47, SLUDGE_BOMB
 	dbw 55, PSYCHIC_M
 	dbw 60, BATON_PASS
 	dbw 70, QUIVER_DANCE
@@ -2232,7 +2232,7 @@ ChanseyEvosAttacks:
 	db 0 ; no more level-up moves
 
 TangelaEvosAttacks:
-	dbbw EVOLVE_LEVEL, 25, TANGROWTH
+	dbbw EVOLVE_LEVEL, 35, TANGROWTH
 	db 0 ; no more evolutions
 	dbw 1, CONSTRICT
 	dbw 1, BIND
@@ -2602,6 +2602,7 @@ VaporeonEvosAttacks:
 	dbw 35, BATON_PASS
 	dbw 40, SURF
 	dbw 45, ACID_ARMOR 
+	dbw 45, GROWTH
 	dbw 50, HYDRO_PUMP
 	dbw 55, RECOVER
 	db 0 ; no more level-up moves
