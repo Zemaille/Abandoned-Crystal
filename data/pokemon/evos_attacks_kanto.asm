@@ -1160,7 +1160,7 @@ PrimeapeEvosAttacks:
 	dbw 22, KARATE_CHOP
 	dbw 26, RAGE
 	dbw 30, THRASH
-	dwb 35, SHADOW_PUNCH
+	dbw 35, SHADOW_PUNCH
 	dbw 39, CROSS_CHOP
 	dbw 44, SCREECH
 	dbw 48, EARTHQUAKE
