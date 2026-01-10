@@ -33,7 +33,7 @@ PokemonNames::
 	db "Sandshrew@"
 	db "Sandslash@"
 	db "Nidoran♀@@"
-	db "NIdorina@@"
+	db "Nidorina@@"
 	db "Nidoqueen@"
 	db "Nidoran♂@@"
 	db "Nidorino@@"
