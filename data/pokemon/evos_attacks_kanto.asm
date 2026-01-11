@@ -175,7 +175,7 @@ BulbasaurEvosAttacks:
 	db 0 ; no more level-up moves
 
 IvysaurEvosAttacks:
-	dbbw EVOLVE_LEVEL, 32, VENUSAUR
+	dbbw EVOLVE_LEVEL, 35, VENUSAUR
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, GROWL
@@ -231,7 +231,7 @@ CharmanderEvosAttacks:
 	db 0 ; no more level-up moves
 
 CharmeleonEvosAttacks:
-	dbbw EVOLVE_LEVEL, 36, CHARIZARD
+	dbbw EVOLVE_LEVEL, 35, CHARIZARD
 	db 0 ; no more evolutions
 	dbw 1, SCRATCH
 	dbw 1, GROWL
@@ -283,7 +283,7 @@ SquirtleEvosAttacks:
 	db 0 ; no more level-up moves
 
 WartortleEvosAttacks:
-	dbbw EVOLVE_LEVEL, 36, BLASTOISE
+	dbbw EVOLVE_LEVEL, 35, BLASTOISE
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, TAIL_WHIP

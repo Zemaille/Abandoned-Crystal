@@ -1440,7 +1440,7 @@ ChimechoEvosAttacks:
 	db 0
 
 SkrelpEvosAttacks:
-	dbbw EVOLVE_LEVEL, 48, DRAGALGE
+	dbbw EVOLVE_LEVEL, 35, DRAGALGE
 	db 0
 	dbw 1, TACKLE
 	dbw 1, SMOKESCREEN
