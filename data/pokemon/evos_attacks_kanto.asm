@@ -1551,7 +1551,7 @@ RapidashEvosAttacks:
 	db 0 ; no more level-up moves
 
 SlowpokeEvosAttacks:
-	dbbw EVOLVE_LEVEL, 37, SLOWBRO
+	dbbw EVOLVE_LEVEL, 35, SLOWBRO
 	dbww EVOLVE_ITEM, RELIC_STONE, SLOWKING
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
@@ -2309,7 +2309,7 @@ SeadraEvosAttacks:
 	db 0 ; no more level-up moves
 
 GoldeenEvosAttacks:
-	dbbw EVOLVE_LEVEL, 33, SEAKING
+	dbbw EVOLVE_LEVEL, 30, SEAKING
 	db 0 ; no more evolutions
 	dbw 1, PECK
 	dbw 1, TAIL_WHIP
