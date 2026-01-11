@@ -1457,7 +1457,7 @@ IceFangDescription:
 
 CloseCombatDescription:
 	db	 "An attack that"
-	next "leaves you weak."
+	next "leaves you weak.@"
 
 FlareBlitzDescription:
 	db   "A self-damaging,"

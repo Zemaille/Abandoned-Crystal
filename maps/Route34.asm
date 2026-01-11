@@ -478,7 +478,7 @@ DayCareSign:
 	jumptext DayCareSignText
 
 Route34Nugget:
-	itemball EVIOLITE
+	itemball HARD_STONE
 
 Route34HiddenRareCandy:
 	hiddenitem BIG_NUGGET, EVENT_ROUTE_34_HIDDEN_RARE_CANDY

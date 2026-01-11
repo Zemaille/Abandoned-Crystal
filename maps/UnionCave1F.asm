@@ -73,7 +73,7 @@ UnionCave1FGreatBall:
 	itemball GREAT_BALL
 
 UnionCave1FXAttack:
-	itemball HARD_STONE
+	itemball EVIOLITE
 
 UnionCave1FPotion:
 	itemball POTION
