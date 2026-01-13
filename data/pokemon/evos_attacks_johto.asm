@@ -1248,7 +1248,7 @@ HeracrossEvosAttacks:
 	db 0 ; no more level-up moves
 
 SneaselEvosAttacks:
-	dbww EVOLVE_LEVEL, 40, WEAVILE
+	dbbw EVOLVE_LEVEL, 40, WEAVILE
 	db 0 ; no more evolutions
 	dbw 1, SCRATCH
 	dbw 1, LEER

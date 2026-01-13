@@ -955,7 +955,7 @@ DelphoxEvosAttacks:
 	db 0
 
 SneaselHEvosAttacks:
-	dbww EVOLVE_ITEM, KINGS_ROCK, SNEASLER
+	dbbw EVOLVE_ITEM, KINGS_ROCK, SNEASLER
 	db 0
 	dbw 1, SCRATCH
 	dbw 1, LEER
@@ -1235,7 +1235,7 @@ GoodraEvosAttacks:
 	db 0
 
 DreepyEvosAttacks:
-	dbbw EVOLVE_LEVEL, 50, DRAKLOAK
+	dbbw EVOLVE_LEVEL, 30, DRAKLOAK
 	db 0
 	dbw 1, BITE
 	dbw 1, QUICK_ATTACK
