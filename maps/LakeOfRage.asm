@@ -253,13 +253,9 @@ LakeOfRageLanceForcedToEvolveText:
 	done
 
 LakeOfRageLanceIntroText:
-	text "Did you come here"
-	line "because of the"
-	cont "rumors?"
-
-	para "You're <PLAYER>?"
-	line "I'm Lance, a"
-	cont "trainer like you."
+	text "Karen: Did you"
+	line "come here because"
+	cont "of the rumors?"
 
 	para "I heard some ru-"
 	line "mors, so I came to"
@@ -281,10 +277,10 @@ LakeOfRageLanceIntroText:
 	done
 
 LakeOfRageLanceRadioSignalText:
-	text "Lance: Excellent!"
+	text "Karen: Excellent!"
 
 	para "It seems that the"
-	line "LAKE's Magikarp"
+	line "Lake's Magikarp"
 
 	para "are being forced"
 	line "to evolve."
@@ -306,7 +302,7 @@ LakeOfRageLanceRefusedText:
 	done
 
 LakeOfRageLanceAskHelpText:
-	text "Lance: Hm? Are you"
+	text "Karen: Hm? Are you"
 	line "going to help me?"
 	done
 
@@ -483,7 +479,7 @@ WesleyNotWednesdayText:
 LakeOfRageSignText:
 	text "LAKE OF RAGE,"
 	line "also known as"
-	cont "GYARADOS LAKE."
+	cont "MAGIKARP LAKE."
 	done
 
 FishingGurusHouseSignText:

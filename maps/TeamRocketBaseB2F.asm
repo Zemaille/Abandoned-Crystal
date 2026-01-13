@@ -648,7 +648,7 @@ RocketBaseBossRetreatText:
 	done
 
 RocketBaseLancePostBattleText:
-	text "Lance: That did"
+	text "Karen: That did"
 	line "it. We defeated"
 
 	para "all the Rockets"
@@ -706,12 +706,12 @@ RockerBaseLanceElectrodeFaintText:
 	done
 
 RocketBaseLancesSideText:
-	text "Lance: Leave this"
+	text "Karen: Leave this"
 	line "side to me."
 	done
 
 RocketBaseLanceElectrodeDoneText:
-	text "Lance: That odd"
+	text "Karen: That odd"
 	line "signal has finally"
 	cont "stopped."
 
@@ -780,7 +780,7 @@ RocketBaseLanceMonMasterText:
 	done
 
 LanceHealsText1:
-	text "Lance: Are you all"
+	text "Karen: Are you all"
 	line "right?"
 
 	para "Your Pokémon are"
@@ -792,7 +792,7 @@ LanceHealsText1:
 	done
 
 LanceHealsText2:
-	text "Lance: <PLAY_G>,"
+	text "Karen: <PLAY_G>,"
 	line "let's give it our"
 	cont "best for Pokémon."
 	done
@@ -951,7 +951,7 @@ TeamRocketBaseB2F_MapEvents:
 	def_object_events
 	object_event 20, 16, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_TEAM_ROCKET_BASE_B2F_GRUNT_WITH_EXECUTIVE
 	object_event 20, 16, SPRITE_ROCKET_GIRL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_TEAM_ROCKET_BASE_B2F_EXECUTIVE
-	object_event  5, 13, SPRITE_LANCE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_TEAM_ROCKET_BASE_B2F_LANCE
+	object_event  5, 13, SPRITE_KAREN, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_TEAM_ROCKET_BASE_B2F_LANCE
 	object_event  9, 13, SPRITE_DRAGON, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_TEAM_ROCKET_BASE_B2F_DRAGONITE
 	object_event  7,  5, SPRITE_VOLTORB, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, RocketElectrode1, EVENT_TEAM_ROCKET_BASE_B2F_ELECTRODE_1
 	object_event  7,  7, SPRITE_VOLTORB, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, RocketElectrode2, EVENT_TEAM_ROCKET_BASE_B2F_ELECTRODE_2
