@@ -2045,6 +2045,7 @@ ExeggutorEvosAttacks:
 
 CuboneEvosAttacks:
 	dbbw EVOLVE_LEVEL, 28, MAROWAK
+	dbww EVOLVE_ITEM, DUSK_STONE, MAROWAK_A
 	db 0 ; no more evolutions
 	dbw 1, MUD_SLAP
 	dbw 1, GROWL

@@ -660,27 +660,27 @@ LtSurgeGroup:
 
 ScientistGroup:
 	next_list_item ; SCIENTIST (1)
-	db "ROSS@", TRAINERTYPE_NORMAL
-	db 22
-	dw KOFFING
-	db 22
-	dw KOFFING
+	db "Ross@", TRAINERTYPE_NORMAL
+	db 35
+	dw PORYGON2
+	db 35
+	dw ELECTABUZZ
 	db -1 ; end
 
 	next_list_item ; SCIENTIST (2)
-	db "MITCH@", TRAINERTYPE_NORMAL
-	db 24
-	dw DITTO
+	db "Mitch@", TRAINERTYPE_NORMAL
+	db 30
+	dw MELTAN
 	db -1 ; end
 
 	next_list_item ; SCIENTIST (3)
-	db "JED@", TRAINERTYPE_NORMAL
-	db 20
-	dw MAGNEMITE
-	db 20
-	dw MAGNEMITE
-	db 20
-	dw MAGNEMITE
+	db "Jed@", TRAINERTYPE_NORMAL
+	db 35
+	dw MAGNETON
+	db 35
+	dw DITTO
+	db 35
+	dw PORYGON
 	db -1 ; end
 
 	next_list_item ; SCIENTIST (4)
@@ -1936,8 +1936,8 @@ BeautyGroup:
 	dw AMPHAROS
 	dw THUNDERPUNCH, DAZZLE_GLEAM, EXTRASENSORY, COTTON_SPORE
 	db 35
+	dw MILOTIC
 	dw SURF, ICE_BEAM, ATTRACT, RECOVER
-	dw 
 	db -1 ; end
 
 	next_list_item ; BEAUTY (11)
@@ -2249,58 +2249,58 @@ GruntMGroup:
 	dw WEEZING
 	db -1 ; end
 
-	next_list_item ; GRUNTM (16)
+	next_list_item ; GRUNTM (16)      ; Static Hideout B1F
 	db "Grunt@", TRAINERTYPE_NORMAL
-	db 16
-	dw RATTATA
-	db 16
-	dw RATTATA
-	db 16
-	dw RATTATA
-	db 16
-	dw RATTATA
+	db 35
+	dw HYPNO
+	db 35
+	dw WEEZING
+	db 35
+	dw GLIGAR
+	db 35
+	dw FEAROW
 	db -1 ; end
 
-	next_list_item ; GRUNTM (17)
+	next_list_item ; GRUNTM (17)     ; Hideout B2F
 	db "Grunt@", TRAINERTYPE_NORMAL
-	db 18
+	db 35
+	dw PINSIR
+	db -1 ; end
+
+	next_list_item ; GRUNTM (18)    ;Hideout B2F
+	db "Grunt@", TRAINERTYPE_NORMAL
+	db 35
+	dw RATICATE
+	db 35
+	dw MUK
+	db 35
+	dw SANDSLASH
+	db -1 ; end
+
+	next_list_item ; GRUNTM (19) ;Hideout B2F 
+	db "Grunt@", TRAINERTYPE_NORMAL 
+	db 35
+	dw VENOMOTH
+	db 35
+	dw AMBIPOM
+	db -1 ; end
+
+	next_list_item ; GRUNTM (20)         ; Hideout Statue fight #1
+	db "Grunt@", TRAINERTYPE_NORMAL
+	db 35
+	dw RATICATE
+	db 35
+	dw MURKROW
+	db -1 ; end
+
+	next_list_item ; GRUNTM (21)         ; Hideout Statue fight #2
+	db "Grunt@", TRAINERTYPE_NORMAL
+	db 35
+	dw QWILFISH_H
+	db 35
 	dw GOLBAT
-	db -1 ; end
-
-	next_list_item ; GRUNTM (18)
-	db "Grunt@", TRAINERTYPE_NORMAL
-	db 17
-	dw RATTATA
-	db 17
-	dw ZUBAT
-	db 17
-	dw RATTATA
-	db -1 ; end
-
-	next_list_item ; GRUNTM (19)
-	db "Grunt@", TRAINERTYPE_NORMAL
-	db 18
-	dw VENONAT
-	db 18
-	dw VENONAT
-	db -1 ; end
-
-	next_list_item ; GRUNTM (20)
-	db "Grunt@", TRAINERTYPE_NORMAL
-	db 17
-	dw DROWZEE
-	db 19
-	dw ZUBAT
-	db -1 ; end
-
-	next_list_item ; GRUNTM (21)
-	db "Grunt@", TRAINERTYPE_NORMAL
-	db 16
-	dw ZUBAT
-	db 17
-	dw GRIMER
-	db 18
-	dw RATTATA
+	db 35
+	dw BEEDRILL
 	db -1 ; end
 
 	next_list_item ; GRUNTM (22)
@@ -2345,10 +2345,10 @@ GruntMGroup:
 	dw ZUBAT
 	db -1 ; end
 
-	next_list_item ; GRUNTM (28)
+	next_list_item ; GRUNTM (28)           Hideout B3F
 	db "Grunt@", TRAINERTYPE_NORMAL
-	db 19
-	dw RATICATE
+	db 35
+	dw MALAMAR
 	db -1 ; end
 
 	next_list_item ; GRUNTM (29)
@@ -4363,14 +4363,23 @@ ExecutiveMGroup:
 	dw TACKLE, SMOG, SLUDGE, SMOKESCREEN
 	db -1 ; end
 
-	next_list_item ; EXECUTIVEM (4)
-	db "EXECUTIVE@", TRAINERTYPE_NORMAL
-	db 22
-	dw ZUBAT
-	db 24
-	dw RATICATE
-	db 22
-	dw KOFFING
+	next_list_item ; EXECUTIVEM (4)         Hideout B3F
+	db "Executive@", TRAINERTYPE_MOVES
+	db 40
+	dw MUK
+	dw SLUDGE_BOMB, CRUNCH, TOXIC, SCREECH
+	db 40
+	dw MAROWAK
+	dw EARTHQUAKE, HEAD_SMASH, SWORDS_DANCE, NO_MOVE
+	db 40
+	dw WEEZING
+	dw GUNK_SHOT, FLAMETHROWER, TOXIC, SELFDESTRUCT
+	db 40
+	dw KANGASKHAN
+	dw HEADBUTT, CRUNCH, PURSUIT, SWAGGER
+	db 40
+	dw HONCHKROW
+	dw NIGHT_SLASH, AERIAL_ACE, THIEF, NO_MOVE
 	db -1 ; end
 
 	end_list_items
@@ -4919,7 +4928,7 @@ CamperGroup:
 
 ExecutiveFGroup:
 	next_list_item ; EXECUTIVEF (1)
-	db "EXECUTIVE@", TRAINERTYPE_MOVES
+	db "EXECUTIVE@", TRAINERTYPE_ITEM_MOVES
 	db 32
 	dw ARBOK
 	dw WRAP, POISON_STING, BITE, GLARE
@@ -4931,17 +4940,28 @@ ExecutiveFGroup:
 	dw PECK, PURSUIT, HAZE, NIGHT_SHADE
 	db -1 ; end
 
-	next_list_item ; EXECUTIVEF (2)
-	db "EXECUTIVE@", TRAINERTYPE_MOVES
-	db 23
+	next_list_item ; EXECUTIVEF (2)       Hideoute B2F Final fight
+	db "Executive@", TRAINERTYPE_ITEM_MOVES
+	db 40
 	dw ARBOK
-	dw WRAP, LEER, POISON_STING, BITE
-	db 23
-	dw GLOOM
-	dw ABSORB, SWEET_SCENT, SLEEP_POWDER, ACID
-	db 25
-	dw MURKROW
-	dw PECK, PURSUIT, HAZE, NO_MOVE
+	dw SITRUS_BERRY
+	dw CRUNCH, POISON_JAB, GLARE, THUNDER_FANG
+	db 40
+	dw PERSIAN
+	dw SCOPE_LENS
+	dw SLASH, PLAY_ROUGH, HYPNOSIS, NO_MOVE
+	db 40
+	dw VILEPLUME
+	dw LUM_BERRY
+	dw GIGA_DRAIN, SLUDGE_BOMB, LEECH_SEED, TOXIC
+	db 40
+	dw GYARADOS
+	dw LUM_BERRY
+	dw WATERFALL, FRUSTRATION, NO_MOVE, NO_MOVE
+	db 40
+	dw HOUNDOOM
+	dw BRIGHTPOWDER
+	dw FLAMETHROWER, SNARL, NASTY_PLOT, NO_MOVE
 	db -1 ; end
 
 	end_list_items
@@ -5606,13 +5626,11 @@ GruntFGroup:
 	db -1 ; end
 
 	next_list_item ; GRUNTF (5)
-	db "Grunt@", TRAINERTYPE_MOVES
-	db 18
-	dw EKANS
-	dw WRAP, LEER, POISON_STING, BITE
-	db 18
-	dw GLOOM
-	dw ABSORB, SWEET_SCENT, STUN_SPORE, SLEEP_POWDER
+	db "Grunt@", TRAINERTYPE_NORMAL
+	db 35
+	dw HAUNTER
+	db 35
+	dw PARASECT
 	db -1 ; end
 
 	end_list_items
