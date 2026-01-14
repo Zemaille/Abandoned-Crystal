@@ -1257,7 +1257,7 @@ SneaselEvosAttacks:
 	dbw 18, METAL_CLAW
 	dbw 24, ICY_WIND
 	dbw 30, FURY_SWIPES
-	dbw 36, AGILITY
+	dbw 36, ICE_PUNCH
 	dbw 42, BEAT_UP
 	dbw 48, SWORDS_DANCE
 	dbw 54, SCREECH

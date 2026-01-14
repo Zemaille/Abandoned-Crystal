@@ -5,7 +5,7 @@
 	;   hp  atk  def  spd  sat  sdf
 
 	db FIGHTING, FLYING ; type
-	db 3 ; catch rate
+	db 45 ; catch rate
 	db 225 ; base exp
 	dw NO_ITEM, NO_ITEM ; items
 	db GENDER_UNKNOWN ; gender ratio

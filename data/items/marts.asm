@@ -167,23 +167,23 @@ MartMahogany1:
 MartMahogany2:
 	db 8 ; # items
 	dw RAGECANDYBAR
-	dw GREAT_BALL
-	dw SUPER_POTION
+	dw ULTRA_BALL
 	dw HYPER_POTION
-	dw ANTIDOTE
-	dw PARLYZ_HEAL
-	dw SUPER_REPEL
+	dw FULL_HEAL
+	dw LUM_BERRY
+	dw SITRUS_BERRY
+	dw MAX_REPEL
 	dw REVIVE
 
 MartBlackthorn:
 	db 7 ; # items
-	dw GREAT_BALL
 	dw ULTRA_BALL
-	dw HYPER_POTION
 	dw MAX_POTION
 	dw FULL_HEAL
-	dw REVIVE
+	dw LUM_BERRY
+	dw SITRUS_BERRY
 	dw MAX_REPEL
+	dw REVIVE
 
 MartViridian:
 	db 8 ; # items
