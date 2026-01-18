@@ -196,19 +196,31 @@ ChuckGroup:
 
 ClairGroup:
 	next_list_item ; CLAIR (1)
-	db "CLAIR@", TRAINERTYPE_MOVES
-	db 37
+	db "Clair@", TRAINERTYPE_ITEM_MOVES
+	db 50
 	dw DRAGONAIR
-	dw THUNDER_WAVE, SURF, SLAM, DRAGONBREATH
-	db 37
-	dw DRAGONAIR
-	dw THUNDER_WAVE, THUNDERBOLT, SLAM, DRAGONBREATH
-	db 37
-	dw DRAGONAIR
-	dw THUNDER_WAVE, ICE_BEAM, SLAM, DRAGONBREATH
-	db 40
+	dw EVIOLITE
+	dw DRAGON_PULSE, FLAMETHROWER, THUNDERBOLT, THUNDER_WAVE
+	db 50
+	dw ALTARIA
+	dw LEFTOVERS
+	dw SWORDS_DANCE, DRAGON_CLAW, EARTHQUAKE, BRAVE_BIRD
+	db 50
+	dw DRAMPA
+	dw BERSERK_GENE
+	dw RETURN, OUTRAGE, GLARE, EARTHQUAKE
+	db 50
+	dw DRAGALGE
+	dw LEFTOVERS
+	dw SLUDGE_BOMB, DRAGON_PULSE, TOXIC, PROTECT
+	db 50
+	dw SCEPTILE
+	dw MIRACLE_SEED
+	dw ENERGY_BALL, DRAGON_PULSE, GIGA_DRAIN, PURSUIT
+	db 50
 	dw KINGDRA
-	dw SMOKESCREEN, SURF, HYPER_BEAM, DRAGONBREATH
+	dw LEFTOVERS
+	dw DRAGON_DANCE, WATERFALL, OUTRAGE, ICE_BEAM
 	db -1 ; end
 
 	end_list_items
@@ -1129,11 +1141,11 @@ BirdKeeperGroup:
 	db -1 ; end
 
 	next_list_item ; BIRD_KEEPER (7)
-	db "VANCE@", TRAINERTYPE_NORMAL
-	db 25
-	dw PIDGEOTTO
-	db 25
-	dw PIDGEOTTO
+	db "Vance@", TRAINERTYPE_NORMAL
+	db 43
+	dw SKARMORY
+	db 43
+	dw NOCTOWL
 	db -1 ; end
 
 	next_list_item ; BIRD_KEEPER (8)
@@ -1433,27 +1445,25 @@ CooltrainerMGroup:
 	db -1 ; end
 
 	next_list_item ; COOLTRAINERM (3)
-	db "PAUL@", TRAINERTYPE_NORMAL
-	db 34
-	dw DRATINI
-	db 34
-	dw DRATINI
-	db 34
-	dw DRATINI
+	db "Paul@", TRAINERTYPE_NORMAL
+	db 46
+	dw DRAGONAIR
+	db 46
+	dw SLIGGOO
+	db 46
+	dw DRAKLOAK
 	db -1 ; end
 
 	next_list_item ; COOLTRAINERM (4)
-	db "CODY@", TRAINERTYPE_NORMAL
-	db 34
-	dw HORSEA
-	db 36
-	dw SEADRA
+	db "Cody@", TRAINERTYPE_NORMAL
+	db 47
+	dw AMPHAROS
 	db -1 ; end
 
 	next_list_item ; COOLTRAINERM (5)
-	db "MIKE@", TRAINERTYPE_NORMAL
-	db 37
-	dw DRAGONAIR
+	db "Mike@", TRAINERTYPE_NORMAL
+	db 50
+	dw SEADRA
 	db -1 ; end
 
 	next_list_item ; COOLTRAINERM (6)
@@ -1620,10 +1630,11 @@ CooltrainerMGroup:
 	db -1 ; end
 
 	next_list_item ; COOLTRAINERM (19)
-	db "ALLEN@", TRAINERTYPE_MOVES
-	db 27
-	dw CHARMELEON
-	dw EMBER, SMOKESCREEN, RAGE, SCARY_FACE
+	db "Allen@", TRAINERTYPE_NORMAL
+	db 43
+	dw MAGCARGO
+	db 43
+	dw SLOWKING_G
 	db -1 ; end
 
 	next_list_item ; COOLTRAINERM (20)
@@ -1659,16 +1670,18 @@ CooltrainerFGroup:
 	db -1 ; end
 
 	next_list_item ; COOLTRAINERF (3)
-	db "FRAN@", TRAINERTYPE_NORMAL
-	db 37
-	dw SEADRA
+	db "Fran@", TRAINERTYPE_NORMAL
+	db 46
+	dw DRAMPA
+	db 46
+	dw DRAKLOAK
 	db -1 ; end
 
 	next_list_item ; COOLTRAINERF (4)
-	db "LOLA@", TRAINERTYPE_NORMAL
-	db 34
-	dw DRATINI
-	db 36
+	db "Lola@", TRAINERTYPE_NORMAL
+	db 47
+	dw SLIGGOO
+	db 47
 	dw DRAGONAIR
 	db -1 ; end
 
@@ -1770,13 +1783,11 @@ CooltrainerFGroup:
 	db -1 ; end
 
 	next_list_item ; COOLTRAINERF (16)
-	db "CYBIL@", TRAINERTYPE_MOVES
-	db 25
-	dw BUTTERFREE
-	dw CONFUSION, SLEEP_POWDER, WHIRLWIND, GUST
-	db 25
+	db "Cybil@", TRAINERTYPE_NORMAL
+	db 43
+	dw ARAQUANID
+	db 43
 	dw BELLOSSOM
-	dw ABSORB, STUN_SPORE, ACID, SOLARBEAM
 	db -1 ; end
 
 	next_list_item ; COOLTRAINERF (17)
@@ -2089,9 +2100,15 @@ PokemaniacGroup:
 	db -1 ; end
 
 	next_list_item ; POKEMANIAC (13)
-	db "ZACH@", TRAINERTYPE_NORMAL
-	db 27
-	dw RHYHORN
+	db "Zach@", TRAINERTYPE_NORMAL
+	db 45
+	dw EXEGGUTOR
+	db 45
+	dw ANNIHILAPE
+	db 45 
+	dw SYLVEON
+	db 45 
+	dw POLITOED
 	db -1 ; end
 
 	next_list_item ; POKEMANIAC (14)
@@ -2780,27 +2797,25 @@ FisherGroup:
 	db -1 ; end
 
 	next_list_item ; FISHER (10)
-	db "WILTON@", TRAINERTYPE_NORMAL
-	db 23
-	dw GOLDEEN
-	db 23
-	dw GOLDEEN
-	db 25
+	db "Wilton@", TRAINERTYPE_NORMAL
+	db 43
+	dw QUAGSIRE
+	db 43
+	dw TENTACRUEL
+	db 43
 	dw SEAKING
 	db -1 ; end
 
 	next_list_item ; FISHER (11)
-	db "EDGAR@", TRAINERTYPE_MOVES
-	db 25
-	dw REMORAID
-	dw LOCK_ON, PSYBEAM, AURORA_BEAM, BUBBLEBEAM
-	db 25
-	dw REMORAID
-	dw LOCK_ON, PSYBEAM, AURORA_BEAM, BUBBLEBEAM
+	db "Edgar@", TRAINERTYPE_NORMAL
+	db 43
+	dw KINGLER
+	db 43
+	dw OCTILLERY
 	db -1 ; end
 
 	next_list_item ; FISHER (12)
-	db "JONAH@", TRAINERTYPE_NORMAL
+	db "Jonah@", TRAINERTYPE_NORMAL
 	db 25
 	dw SHELLDER
 	db 29
@@ -4485,13 +4500,11 @@ PsychicGroup:
 	db -1 ; end
 
 	next_list_item ; PSYCHIC_T (8)
-	db "PHIL@", TRAINERTYPE_MOVES
-	db 24
-	dw NATU
-	dw LEER, NIGHT_SHADE, FUTURE_SIGHT, CONFUSE_RAY
-	db 26
-	dw KADABRA
-	dw DISABLE, PSYBEAM, RECOVER, FUTURE_SIGHT
+	db "Phil@", TRAINERTYPE_NORMAL
+	db 43
+	dw XATU
+	db 43
+	dw ESPEON
 	db -1 ; end
 
 	next_list_item ; PSYCHIC_T (9)
