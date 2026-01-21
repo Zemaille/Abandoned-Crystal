@@ -70,6 +70,7 @@ LancesRoomLanceScript:
 	changeblock 4, 0, $0b ; open door
 	refreshmap
 	closetext
+	loadmem wLevelCap, 100
 	setevent EVENT_LANCES_ROOM_ENTRANCE_CLOSED
 	musicfadeout MUSIC_BEAUTY_ENCOUNTER, 16
 	pause 30

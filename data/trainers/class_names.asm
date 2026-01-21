@@ -69,4 +69,7 @@ TrainerClassNames::
 	li "Rocket"
 	li "Mystic Man"
 	li "<PKMN> Trainer"
+	li "Hiker"
+	li "Weeb"
+	li "Lazy Dev"
 	assert_list_length NUM_TRAINER_CLASSES

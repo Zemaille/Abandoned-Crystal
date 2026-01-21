@@ -5,6 +5,9 @@
 	const VICTORYROAD_POKE_BALL3
 	const VICTORYROAD_POKE_BALL4
 	const VICTORYROAD_POKE_BALL5
+	const VICTORYROAD_POKEFAN_M1
+	const VICTORYROAD_YOUNGSTER
+	const VICTORYROAD_BEAUTY
 
 VictoryRoad_MapScripts:
 	def_scene_scripts
@@ -235,6 +238,107 @@ VictoryRoadRivalVictoryText:
 	line "thing else."
 	done
 
+TrainerHikerMatt:
+	trainer HIKERMATT, MATT, EVENT_BEAT_HIKERMATT_MATT, HikerMattSeenText, HikerMattBeatenText, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext HikerMattAfterText
+	waitbutton
+	closetext
+	end
+
+HikerMattSeenText:
+	text "I'm in the game as"
+	line "a bit!"
+	done
+	
+HikerMattBeatenText:
+	text "rawr XD"
+	done
+
+HikerMattAfterText:
+	text "Get it? Bit? Like"
+	line "in coding? Bits?"
+	done
+
+TrainerWeebBrandon:
+	trainer WEEB, GOLIRA, EVENT_BEAT_WEEB_GOLIRA, WeebGoliraSeenText, WeebGoliraBeatenText, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext WeebGoliraAfterText
+	waitbutton
+	closetext
+	end
+
+WeebGoliraSeenText:
+	text "I'm gonna be SO"
+	line "hard!"
+	done
+	
+WeebGoliraBeatenText:
+	text "Not hard enough…"
+	done
+
+WeebGoliraAfterText:
+	text "Pokémon? Never"
+	line "heard of it."
+	done
+
+TrainerSkierElise:
+	trainer SKIER, ELISE, EVENT_BEAT_SKIER_ELISE, SkierEliseSeenText, SkierEliseBeatenText, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext SkierEliseAfterText
+	waitbutton
+	closetext
+	end
+
+SkierEliseSeenText:
+	text "I just think"
+	line "they're cute!"
+	done
+	
+SkierEliseBeatenText:
+	text "Why is Braixen"
+	line "so popular…"
+	done
+
+SkierEliseAfterText:
+	text "Dewgong gong"
+	line "gong gong."
+	done
+
+TrainerSailorPetchel:
+	trainer SAILOR, PETCHEL, EVENT_BEAT_SAILOR_PETCHEL, SailorPetchelSeenText, SailorPetchelBeatenText, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext SailorPetchelAfterText
+	waitbutton
+	closetext
+	end
+
+SailorPetchelSeenText:
+	text "Ay yo you wanna"
+	line "play Warhammer?"
+	done
+
+SailorPetchelBeatenText:
+	text "Stealing valor is"
+	line "cool."
+	done
+
+SailorPetchelAfterText:
+	text "Sarumonko."
+	done
+
 VictoryRoad_MapEvents:
 	db 0, 0 ; filler
 
@@ -265,3 +369,7 @@ VictoryRoad_MapEvents:
 	object_event 18, 29, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VictoryRoadFullRestore, EVENT_VICTORY_ROAD_FULL_RESTORE
 	object_event 15, 48, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VictoryRoadFullHeal, EVENT_VICTORY_ROAD_FULL_HEAL
 	object_event  7, 38, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VictoryRoadHPUp, EVENT_VICTORY_ROAD_HP_UP
+	object_event  5, 62, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN,  OBJECTTYPE_TRAINER, 2, TrainerHikerMatt, -1
+	object_event 10, 40, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED,   OBJECTTYPE_TRAINER, 2, TrainerWeebBrandon, -1
+	object_event 14, 34, SPRITE_BEAUTY,    SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 3, TrainerSkierElise, -1
+	object_event  4, 51, SPRITE_SAILOR,    SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerSailorPetchel, -1

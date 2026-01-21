@@ -70,4 +70,7 @@ TrainerClassDVs:
 	dn  7, 14, 10,  8 ; GRUNTF
 	dn 15, 10, 10, 10 ; MYSTICALMAN
 	dn 13, 12, 13, 13 ; KRIS
+	dn 15, 15, 15, 15 ; Matt
+	dn 15, 15, 15, 15 ; Brandon
+	dn 15, 15, 15, 15 ; Zem
 	assert_table_length NUM_TRAINER_CLASSES

@@ -1552,7 +1552,7 @@ RapidashEvosAttacks:
 
 SlowpokeEvosAttacks:
 	dbbw EVOLVE_LEVEL, 35, SLOWBRO
-	dbww EVOLVE_ITEM, RELIC_STONE, SLOWKING
+	dbww EVOLVE_ITEM, KINGS_ROCK, SLOWKING
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, CURSE

@@ -321,6 +321,7 @@ DEF KRIS EQU __trainer_class__
 	trainerclass SKIER ; 21
 	const ROXANNE
 	const CLARISSA
+	const ELISE
 
 	trainerclass TEACHER ; 22
 	const COLETTE
@@ -439,6 +440,7 @@ DEF KRIS EQU __trainer_class__
 	const HUEY2
 	const HUEY3
 	const HUEY4
+	const PETCHEL
 
 	trainerclass SUPER_NERD ; 29
 	const STAN
@@ -716,5 +718,14 @@ DEF KRIS EQU __trainer_class__
 
 	trainerclass LINK_KRIS ; 44
 	const LINK_KRIS1
+
+	trainerclass HIKERMATT
+	const MATT
+	
+	trainerclass WEEB
+	const GOLIRA
+	
+	trainerclass LAZY_DEV
+	const ZEM
 
 DEF NUM_TRAINER_CLASSES EQU __trainer_class__ - 1

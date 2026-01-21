@@ -1,13 +1,13 @@
 	object_const_def
-	const SAFARIZONEAREA2_POKE_BALL1
+;	const SAFARIZONEAREA2_POKE_BALL1
 
 SafariZoneArea2_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
 
-SafariZoneArea2BigNuggetScript:
-	itemball GIGA_IMPACT
+;SafariZoneArea2BigNuggetScript:
+;	itemball GIGA_IMPACT
 
 SafariZoneArea2RestHouseScript:
 	jumptext SafariZoneArea2RestHouseText
@@ -36,5 +36,5 @@ SafariZoneArea2_MapEvents:
 	bg_event 36,  6, BGEVENT_READ, SafariZoneArea2RestHouseScript
 
 	def_object_events
-	object_event 27, 18, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, SafariZoneArea2BigNuggetScript, EVENT_SAFARI_ZONE_AREA_2_BIG_NUGGET
+;	object_event 27, 18, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, SafariZoneArea2BigNuggetScript, EVENT_SAFARI_ZONE_AREA_2_BIG_NUGGET
 

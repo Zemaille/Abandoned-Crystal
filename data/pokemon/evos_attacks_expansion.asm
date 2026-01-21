@@ -123,7 +123,7 @@ HonchkrowEvosAttacks:
 	
 MunchlaxEvosAttacks:
 	dbbw EVOLVE_HAPPINESS, TR_ANYTIME, SNORLAX
-	db 
+	db 0
 	dbw 1, TACKLE
 	dbw 1, SCREECH
 	dbw 1, LICK
@@ -407,7 +407,7 @@ PorygonZEvosAttacks:
 
 SlowpokeGEvosAttacks:
 	dbbw EVOLVE_LEVEL, 35, SLOWBRO_G
-	dbww EVOLVE_ITEM, RELIC_STONE, SLOWKING_G
+	dbww EVOLVE_ITEM, KINGS_ROCK, SLOWKING_G
 	db 0
 	dbw 1, TACKLE
 	dbw 1, CURSE

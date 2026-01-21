@@ -971,5 +971,7 @@ NinetalesAFrontpic:  INCBIN "gfx/pokemon/ninetales_a/front.animated.2bpp.lz"
 NinetalesABackpic:   INCBIN "gfx/pokemon/ninetales_a/back.2bpp.lz"
 AmbipomFrontpic:     INCBIN "gfx/pokemon/ambipom/front.animated.2bpp.lz"
 AmbipomBackpic:      INCBIN "gfx/pokemon/ambipom/back.2bpp.lz"
-
+HikerMattPic:        INCBIN "gfx/trainers/hikermatt.2bpp.lz"
+WeebPic:     	     INCBIN "gfx/trainers/weeb.2bpp.lz"
+LazyDevPic:   	     INCBIN "gfx/trainers/lazydev.2bpp.lz"
 

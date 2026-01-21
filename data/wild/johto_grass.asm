@@ -1360,57 +1360,57 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_30
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 3, HOPPIP
-	dbw 3, LEDYBA
-	dbw 3, SENTRET
-	dbw 3, SWABLU
-	dbw 3, TANDEMAUS
-	dbw 3, SPINARAK
-	dbw 3, POLIWAG
+	dbw 2, HOPPIP
+	dbw 2, LEDYBA
+	dbw 2, SENTRET
+	dbw 2, SWABLU
+	dbw 2, TANDEMAUS
+	dbw 2, SPINARAK
+	dbw 2, POLIWAG
 	; day
-	dbw 3, HOPPIP
-	dbw 3, LEDYBA
-	dbw 3, SENTRET
-	dbw 3, SWABLU
-	dbw 3, TANDEMAUS
-	dbw 3, SPINARAK
-	dbw 3, POLIWAG
+	dbw 2, HOPPIP
+	dbw 2, LEDYBA
+	dbw 2, SENTRET
+	dbw 2, SWABLU
+	dbw 2, TANDEMAUS
+	dbw 2, SPINARAK
+	dbw 2, POLIWAG
 	; nite
-	dbw 3, POLIWAG
-	dbw 3, SPINARAK
-	dbw 3, TANDEMAUS
-	dbw 3, HOOTHOOT
-	dbw 3, SENTRET
-	dbw 3, LEDYBA
-	dbw 3, HOPPIP
+	dbw 2, POLIWAG
+	dbw 2, SPINARAK
+	dbw 2, TANDEMAUS
+	dbw 2, HOOTHOOT
+	dbw 2, SENTRET
+	dbw 2, LEDYBA
+	dbw 2, HOPPIP
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_31
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 4, ODDISH
-	dbw 4, HOPPIP
-	dbw 4, LEDYBA
-	dbw 4, SENTRET
-	dbw 4, POLIWAG
-	dbw 4, SPINARAK
-	dbw 4, TANDEMAUS
+	dbw 2, ODDISH
+	dbw 2, HOPPIP
+	dbw 2, LEDYBA
+	dbw 2, SENTRET
+	dbw 2, POLIWAG
+	dbw 2, SPINARAK
+	dbw 2, TANDEMAUS
 	; day
-	dbw 4, ODDISH
-	dbw 4, HOPPIP
-	dbw 4, LEDYBA
-	dbw 4, SENTRET
-	dbw 4, POLIWAG
-	dbw 4, SPINARAK
-	dbw 4, TANDEMAUS
+	dbw 2, ODDISH
+	dbw 2, HOPPIP
+	dbw 2, LEDYBA
+	dbw 2, SENTRET
+	dbw 2, POLIWAG
+	dbw 2, SPINARAK
+	dbw 2, TANDEMAUS
 	; nite
-	dbw 4, ODDISH
-	dbw 4, POLIWAG
-	dbw 4, SPINARAK
-	dbw 4, TANDEMAUS
-	dbw 4, HOPPIP
-	dbw 4, LEDYBA
-	dbw 4, SENTRET
+	dbw 2, ODDISH
+	dbw 2, POLIWAG
+	dbw 2, SPINARAK
+	dbw 2, TANDEMAUS
+	dbw 2, HOPPIP
+	dbw 2, LEDYBA
+	dbw 2, SENTRET
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_32
@@ -1752,29 +1752,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_46
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 3, TEDDIURSA
-	dbw 3, GEODUDE
-	dbw 3, PHANPY
-	dbw 3, SWABLU
-	dbw 3, HOOTHOOT
-	dbw 3, SWINUB
-	dbw 3, GLIGAR
+	dbw 2, TEDDIURSA
+	dbw 2, GEODUDE
+	dbw 2, PHANPY
+	dbw 2, SWABLU
+	dbw 2, HOOTHOOT
+	dbw 2, SWINUB
+	dbw 2, GLIGAR
 	; day
-	dbw 3, TEDDIURSA
-	dbw 3, GEODUDE
-	dbw 3, PHANPY
-	dbw 3, SWABLU
-	dbw 3, HOOTHOOT
-	dbw 3, SWINUB
-	dbw 3, GLIGAR
+	dbw 2, TEDDIURSA
+	dbw 2, GEODUDE
+	dbw 2, PHANPY
+	dbw 2, SWABLU
+	dbw 2, HOOTHOOT
+	dbw 2, SWINUB
+	dbw 2, GLIGAR
 	; nite
-	dbw 3, TEDDIURSA
-	dbw 3, GEODUDE
-	dbw 3, PHANPY
-	dbw 3, HOOTHOOT
-	dbw 3, SWABLU
-	dbw 3, SWINUB
-	dbw 3, GLIGAR
+	dbw 2, TEDDIURSA
+	dbw 2, GEODUDE
+	dbw 2, PHANPY
+	dbw 2, HOOTHOOT
+	dbw 2, SWABLU
+	dbw 2, SWINUB
+	dbw 2, GLIGAR
 	end_grass_wildmons
 
 	def_grass_wildmons SILVER_CAVE_OUTSIDE

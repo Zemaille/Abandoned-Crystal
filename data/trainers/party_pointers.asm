@@ -71,4 +71,7 @@ TrainerGroups:
 	dba GruntFGroup
 	dba MysticalmanGroup
 	dba KrisGroup
+	dba HikerMattGroup
+	dba WeebGroup
+	dba LazyDevGroup
 	assert_table_length NUM_TRAINER_CLASSES
